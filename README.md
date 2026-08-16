@@ -41,6 +41,13 @@ Foreman is one folder of markdown. Nothing compiles, nothing runs, so it install
 /plugin install foreman@alshuaibi
 ```
 
+`/plugin` is a terminal-only dialog. If your session answers "/plugin isn't available in this environment", run the same two steps as shell commands and restart the session.
+
+```
+claude plugin marketplace add Turki-Sh/Foreman
+claude plugin install foreman@alshuaibi
+```
+
 **Claude apps.** Download [`foreman.skill`](https://github.com/Turki-Sh/Foreman/raw/main/dist/foreman.skill) and upload it as a skill.
 
 **Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or any other coding agent.** Clone the repo and copy the skill folder where your agent looks for skills or rules.

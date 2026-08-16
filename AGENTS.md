@@ -22,7 +22,7 @@ Foreman needs no adapter. Copy one folder to wherever your tool looks for skills
 
 | Tool | Destination |
 |---|---|
-| Claude Code | `/plugin marketplace add Turki-Sh/Foreman` then `/plugin install foreman@alshuaibi` |
+| Claude Code | `/plugin marketplace add Turki-Sh/Foreman` then `/plugin install foreman@alshuaibi`. Outside an interactive terminal, `/plugin` does not exist: use `claude plugin marketplace add Turki-Sh/Foreman` then `claude plugin install foreman@alshuaibi` |
 | Claude apps | Upload `dist/foreman.skill` in the skills settings |
 | Universal skills directory | `~/.agents/skills/foreman/` |
 | Cursor | `~/.cursor/rules/` or `.cursor/rules/` in the project |
