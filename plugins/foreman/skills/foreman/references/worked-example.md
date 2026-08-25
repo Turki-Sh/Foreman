@@ -78,12 +78,16 @@ That single element carries the personality. Everything else stays quiet.
 
 Brief written and frozen. Copy final, tokens verbatim, signature element specified, motion rule explicit, budget set, non-goals explicit, acceptance criteria testable.
 
-**Handoff line to them:** paste this into your coding agent, let it build, come back with what breaks.
+Saved as `BRIEF.md` and `BRAND.md` in their repo.
+
+**The question, asked rather than assumed:** the brief is frozen and saved. I can build it here, or you hand those two files to a coding agent yourself. Which?
+
+They said build it here. A fresh sub-agent got the two files and nothing else, on the argument that a clean context building from a brief beats a long one building from a recollection of what was decided forty messages ago.
 
 ## What went wrong later, and how it got handled
 
-The coding agent shipped an 8 MB hero. Lighthouse mobile came back at 51. The fix was not a new prompt, it was one constraint the brief had left out: hero media under 1.5 MB with a poster fallback. That constraint now lives in `references/performance-and-access.md` and goes into every brief.
+The build shipped an 8 MB hero. Lighthouse mobile came back at 51. The fix was not a new prompt, it was one constraint the brief had left out: hero media under 1.5 MB with a poster fallback. That constraint now lives in `references/performance-and-access.md` and goes into every brief.
 
-It also replaced the gait trace with a stock lab photo, which is the other thing coding agents do to a signature element. Caught at step 6 by reading the brief's five-part spec against the page. The reason it was catchable is that the spec existed. "A cool hero animation" is not something you can hold anyone to.
+It also replaced the gait trace with a stock lab photo, which is the other thing that happens to a signature element, and it happens whether the builder is another agent or you. Caught at step 6 by reading the brief's five-part spec against the page. The reason it was catchable is that the spec existed. "A cool hero animation" is not something you can hold anyone to.
 
 The first build came back in under two minutes and looked finished in a screenshot. It had no hover states, a "See the data" button with no destination, and a 404 that was the word 404 on the background colour. None of that is visible in a screenshot, which is why step 5 asks for the six things by name before anyone discusses how it looks. The build was not fast. It was unfinished in the places nobody photographs.

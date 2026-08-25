@@ -2,6 +2,17 @@
 
 The brief is the actual artifact of this step. You write it, they correct it, then it freezes. Aim for 600 to 1000 words.
 
+## It goes on disk, in two files
+
+A brief that lives in the chat is gone the moment the context is. Write it into their project:
+
+- **`BRAND.md`**: locked tokens including `--on-accent`, the material sentence the palette came from, the type scale, the motion rule, the signature element spec, the icon rules. Short, and re-read before every visual change. This file is why the tokens survive the build.
+- **`BRIEF.md`**: everything else, in the template below, pointing at `BRAND.md` for the visual system instead of repeating it. Two copies of a hex value disagree within a week.
+
+Both are documents rather than site code, so rule 1 permits them. They are also the only two files that exist at the end of this step.
+
+The split matters because the two are read differently. The brief is read once, at the start, to understand the job. `BRAND.md` is opened again every time a colour or a size is about to be chosen, which is exactly when an agent reaches for its defaults.
+
 ## Two rules that outrank the template
 
 **1. Include context the coding agent cannot derive, exclude instructions it can.**
@@ -34,7 +45,9 @@ No em dashes and no en dashes anywhere in the output, including alt text,
 the meta description, the 404 copy, and any string you generate yourself.
 Commas, full stops, or two sentences. Hyphens in compound words are fine.
 
-DESIGN TOKENS (locked, do not substitute)
+DESIGN TOKENS
+See BRAND.md. Locked, not suggestions, and not to be substituted.
+The same values, for reference:
 Background [hex] / Surface [hex] / Text [hex] / Muted [hex] / Accent [hex]
 Text on accent: [hex]. Do not use the background colour for this by default.
 These came from [the material sentence: "warm paper, graphite, and the red of

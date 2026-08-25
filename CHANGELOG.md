@@ -2,6 +2,45 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 1.8.0, 25 August 2026
+
+The handoff was written when the brain was assumed to live in a chat. It is
+not, most of the time, and telling an agent that can write files to go open a
+different agent is friction invented by an old assumption.
+
+Changed:
+- **Step 5 is now a fork, and it asks.** First, can this session build: you
+  know your own tools, and if you can write files and run commands you can
+  build the site. Second, and regardless of the answer, ask them which they
+  want. Someone paying for another agent may want it there, someone who wants
+  to watch wants it here, someone on a phone has no choice. Never assume
+  either direction.
+- **Building it yourself has its own rules,** because it is the weakest
+  position in the playbook: you become the coding agent and its reviewer at
+  once and nobody is checking you. Build from the two files rather than from
+  your memory of the conversation, since the conversation holds every rejected
+  option and the files hold the decisions. Spawn a sub-agent or a fresh session
+  where possible and give it only those two files, because a clean context
+  building from a brief beats a long one building from a recollection. That was
+  always the real reason for the handoff and it survives the handoff going
+  away. Run the six-item checklist against your own output before showing
+  anything, and re-read `BRAND.md` before every visual change.
+- **Rule 1 got the loophole closed.** Knowing you will build it yourself is not
+  permission to start early. It is the strongest reason not to, because code
+  written before the decisions exist is code you will defend afterwards,
+  against the person whose site it is.
+- **The brief goes on disk as two files.** `BRAND.md` holds the locked tokens,
+  the material sentence, the type scale, the motion rule, and the signature
+  element spec, and is re-read before every visual change, which is what stops
+  the tokens drifting. `BRIEF.md` holds everything else and points at
+  `BRAND.md` rather than repeating it, since two copies of a hex value
+  disagree within a week. The split exists because the two are read
+  differently: the brief once at the start, `BRAND.md` every time a colour is
+  about to be chosen, which is exactly when an agent reaches for its defaults.
+  A brief that lives in the chat is gone when the context is.
+- "You do not write the site" became "the order is the product, who types is a
+  detail", across the skill, the site, the README, and both manifests.
+
 ## 1.7.0, 25 August 2026
 
 Added:

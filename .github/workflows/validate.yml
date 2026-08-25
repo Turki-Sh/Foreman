@@ -89,9 +89,10 @@ jobs:
         run: |
           cd plugins/foreman/skills/foreman
           missing=0
-          for f in $(grep -o '`[a-z0-9./-]*\.\(md\|html\|txt\|xml\)`' SKILL.md | tr -d '`' | sort -u); do
+          for f in $(grep -o '`[A-Za-z0-9./-]*\.\(md\|html\|txt\|xml\)`' SKILL.md | tr -d '`' | sort -u); do
             case "$f" in
-              CHANGELOG.md|brand.html) continue ;;
+              # Files a session creates in the user's project, not files we ship.
+              CHANGELOG.md|brand.html|BRIEF.md|BRAND.md) continue ;;
             esac
             if [ ! -f "references/$f" ] && [ ! -f "assets/$f" ] && [ ! -f "$f" ]; then
               echo "SKILL.md references a file that does not exist: $f"; missing=1

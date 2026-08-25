@@ -26,7 +26,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 
 Coding agents removed the cost of writing a site. They did not remove the cost of deciding what it should be. So the internet now has thousands of sites that were built in an afternoon and look like each other: the same cream background, the same serif hero, the same three cards, the same accent, no domain, no metadata, no 404.
 
-Foreman is the missing half. It turns the agent you are already talking to into a foreman: it interviews you, forces the decisions you would have delegated, locks a visual system before any code exists, writes one high-quality build brief, hands that brief to a coding agent, and then walks you through verification, DNS, and indexing until the thing is actually live.
+Foreman is the missing half. It turns the agent you are already talking to into a foreman: it interviews you, forces the decisions you would have delegated, locks a visual system before any code exists, writes one high-quality build brief, then asks whether to build it there or hand it over, and walks you through verification, DNS, and indexing until the thing is actually live.
 
 You do not read Foreman. Your agent does.
 
