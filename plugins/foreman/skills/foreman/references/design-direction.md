@@ -21,7 +21,7 @@ A site can miss in two ways here, and the second one is now the more common.
 
 **Unfinished.** Nothing wrong with it and nothing alive in it.
 
-Both look like a decision from a distance. Neither is one. Refuse each explicitly, below.
+Both look like a decision from a distance. Neither is one. Refuse each explicitly, below, and note what is being refused: your own reflex, not their request. Everything in this file is aimed at what you would produce unprompted.
 
 ## Refuse the defaults
 
@@ -31,7 +31,7 @@ AI-generated design currently clusters around three looks:
 - Near-black background with a single acid green or vermilion accent.
 - Broadsheet layout: hairline rules, zero border radius, dense newspaper columns.
 
-Any of these is legitimate **if the owner chose it**. If you produced one without being asked, you handed them the statistical mean instead of a decision. Redo it.
+Any of these is legitimate **if the owner chose it**, and asking for it counts as choosing it. If you produced one without being asked, you handed them the statistical mean instead of a decision. Redo it.
 
 Same test for structure. Numbered markers (01 / 02 / 03), eyebrow labels, and section dividers should encode something true about the content. If the content is not actually a sequence, numbering it is decoration pretending to be information.
 
@@ -119,7 +119,9 @@ This matters most with the machine-readable design systems in `reference-library
 
 **A reference that arrives mid-build gets the same treatment.** It is common, it is usually the most specific thing they will say all session, and the temptation is to absorb it and adjust the CSS. Run the procedure instead: extract the named principles, read them back, write them into `BRAND.md` as an amendment, then build. Some of them will contradict what was locked at step 3, and that contradiction is the thing to raise, not a reason to defend the earlier decision.
 
-Never carry the URL forward as something to approximate. Similar means derivative, and a derivative of someone else's identity with their name on it is worse than something plain and theirs. If output starts mirroring one reference, stop and name what is being copied.
+Never carry the URL forward as something to approximate on your own initiative. Similar means derivative, and a derivative of someone else's identity with their name on it is worse than something plain and theirs. If your own output starts mirroring one reference, stop and name what is being copied.
+
+**If they ask for a copy, that is their call.** Someone who says "make it look like that site" has decided, and rule 8 applies. Say once what it costs, which is that the result will be recognisable as somebody else's, offer the principle-extraction version as the alternative, and then build whichever they pick. Building a deliberate homage well is a real job. Building it resentfully is not.
 
 ## Icons, if there are any
 

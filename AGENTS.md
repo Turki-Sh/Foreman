@@ -41,7 +41,7 @@ Paths move as tools change. If the table is stale for your tool, the rule that a
 
 ## If your tool cannot load reference files
 
-`SKILL.md` is self-contained enough to run on its own. The seven governing rules, the eight steps, the gates, and the failure modes are all in it. The thirteen reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
+`SKILL.md` is self-contained enough to run on its own. The eight governing rules, the eight steps, the gates, and the failure modes are all in it. The thirteen reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
 
 ## What this repo is not
 

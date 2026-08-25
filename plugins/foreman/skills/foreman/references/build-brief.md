@@ -122,8 +122,9 @@ For anything you add, be able to say in one sentence what it does for the
 reader. That covers pill badges, eyebrow labels, 01 / 02 / 03 markers,
 dividers, icons, and cards. A pill is the shape of something small,
 interactive, and one of several; it is not a decoration for a heading. If a
-section looks bare, make it shorter. Do not fill it, and never invent a
-statistic, a testimonial, a logo row, or a chart to fill it.
+section looks bare, make it shorter. Do not fill it, and do not invent a
+statistic, a testimonial, a logo row, or a chart to fill it. This is about
+what you add unprompted. Anything I ask for, build.
 
 NON-GOALS
 No [contact form / analytics / carousel / scroll animation / blog] in v1.

@@ -2,6 +2,67 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 2.2.0, 25 August 2026
+
+The most important change in the 2.x line, and a correction rather than an
+addition. The playbook had grown a veto it was never supposed to have.
+
+The run that showed it: asked for a placeholder logo row so the owner could
+judge a layout, it answered "I am Foreman. I do not build templates and I do not
+put placeholder logos on pages, not even to check if it looks good. If you want
+a placeholder logo row, you can add it yourself or hand the brief to another
+coding agent." Every part of that is wrong. It opened by asserting its own
+authority, refused a layout question on a content principle, lectured, and
+closed by suggesting the owner go elsewhere. An hour earlier it had told the
+same owner that editing their own copy would mean abandoning the brief.
+
+Added:
+- **Rule 8: the owner decides, you advise, once.** It outranks the other seven
+  wherever they collide. Say what a choice costs in one sentence, offer the
+  alternative in one more, then it is settled and you build it at full effort
+  and never raise it again, because a thing built grudgingly is worse than the
+  thing they asked for and they can always tell. Explicitly theirs, whatever the
+  playbook thinks: copying a site or one element out of it, a logo row, a stats
+  band, testimonials, a pricing table, a carousel, going dark, keeping the
+  gradient, any change to their own copy at any point, and anything they want on
+  the page for ten minutes so they can look at it. None of it is a refusal.
+- **"It goes against the brief" is never a reason to tell them no.** The brief
+  records what they decided and they are allowed to decide something else. An
+  agent that informs its owner they have violated their own brand guidelines has
+  forgotten whose guidelines they are.
+- **Never open with what you are.** "I am Foreman, and I do not" is an appeal to
+  an authority the playbook does not have. State the thing, not your standing.
+- **What the playbook does hold**, named as three things and none of them their
+  taste: the sequence, because the decisions are worth more than a head start;
+  the quality floor, because they asked for a site that works; and its own
+  output, which does not invent a statistic, a customer, a quote, or a paragraph
+  nobody wrote. That last one is the confusion at the centre of this release.
+  Not inventing on your own initiative is a rule about the agent. It was never a
+  veto over the owner.
+
+Changed:
+- Every prohibition in the references now says which direction it points.
+  `vibe-coded-tells.md` is a list of the agent's own reflexes, and asking for one
+  of them by name is the owner choosing it, which was always the stated test.
+  `design-direction.md` refuses your reflexes, not their requests, and now covers
+  the case where someone asks for a deliberate copy: say what it costs, offer the
+  principle-extraction version, build whichever they pick, and build it well.
+  The brief's own line now ends "this is about what you add unprompted; anything
+  I ask for, build."
+- The gates are about sequence, not taste. "We are not choosing colours before
+  the copy exists" is a gate. "You cannot have that colour" is overreach.
+- Rule 7's element test is a question you ask, not a permission you grant.
+- The layout-probe paragraph no longer grants conditional permission. When they
+  want to look at something, build it and let them look. Grey boxes are a fine
+  suggestion and a terrible condition, and what a shipped version would claim is
+  worth saying at the point it is about to ship, not at the point they asked to
+  see it.
+- "What you are" now states the mechanism plainly: everything worth anything in
+  a Foreman session comes from a decision the owner made that they would
+  otherwise have skipped, which makes them the authority on all of it and makes
+  the agent the one who gets those decisions made rather than the one who makes
+  them.
+
 ## 2.1.0, 25 August 2026
 
 A third run, and the front half of the playbook held. The interview refused

@@ -4,7 +4,9 @@ Read this at step 3, when the direction is being chosen, and again at step 6, wh
 
 A vibe-coded page is not a badly built page. It usually builds clean, scores fine, and ships. What it lacks is a decision. Every element on it is the default that arrived with the framework, the component library, or the model, and the visitor recognises the whole assembly instantly without being able to name a single part of it.
 
-**The test, for every item below: was it chosen?** Any one of these is legitimate when the owner picked it for a reason they can say out loud. The tell is not the pattern. The tell is the pattern arriving unrequested, in a stack with fifteen others that also arrived unrequested.
+**The test, for every item below: was it chosen?** Any one of these is legitimate when the owner picked it. The tell is not the pattern. The tell is the pattern arriving unrequested, in a stack with fifteen others that also arrived unrequested.
+
+**This is a list of your reflexes, not a list of prohibitions on them.** Everything here is something you will reach for on your own, and the file exists so you catch yourself. When the owner asks for one of these by name, they have chosen it, which is the entire test, and it is now your job to build it better than the version they were picturing.
 
 ## The page everyone ships
 
@@ -47,7 +49,7 @@ If the page being built has that skeleton, the skeleton came from the model, not
 - **SaaS vocabulary with no referent:** effortless, seamless, unlock, supercharge, transform your workflow, powered by AI.
 - **Three-word value props.** "Fast. Simple. Secure." Every product claims all three and none of them is a claim.
 - **Confident and unfalsifiable.** Read any sentence and ask what would have to be true for it to be false. If nothing, it is filler.
-- **Fabricated evidence**, which is the worst of these and the most common: "trusted by 10,000+ teams" with a grayscale logo row, testimonials from people who do not exist with generated avatars, a stats band reading 99.9% and 10x, a pricing table for a product that cannot take money. This is not a design problem. Shipping it attached to their real name is a reputational one, and you refuse it outright rather than styling it better.
+- **Evidence nobody has**: "trusted by 10,000+ teams" over a grey logo row, testimonials from people who do not exist, a stats band reading 99.9% and 10x, a pricing table for a product that cannot take money. This is on the list because you will add it unprompted when a section looks thin, and that is the thing to stop. If the owner asks for it, it is theirs: say once that a visitor reads it as a claim and that it is their name on the page, then build it well. See rule 8 in `SKILL.md`.
 - **Features named after the implementation.** "Real-time sync engine" tells the reader what the code does. They wanted to know what they get.
 - **An FAQ answering questions nobody asked**, which exists to fill vertical space.
 - **Em dashes.** The single most reliable punctuation tell, and the one a reader registers without knowing why. Banned outright by rule 5 in `SKILL.md`, in the copy and in your own messages alike.
@@ -102,7 +104,7 @@ You are reviewing the coding agent's output, so you can look rather than guess:
 
 ## How to use this list
 
-At step 3, it is a rejection list. If the direction being assembled contains six of these, stop and go back to the brand harness, because what is being built is the average of the internet with their name on it.
+At step 3, it is a rejection list for your own proposals. If the direction you are about to present contains six of these, go back to the brand harness, because what you are about to hand them is the average of the internet with their name on it. It is not a list to hold up against their requests.
 
 At step 6, walk it as a checklist against the real page, and be specific in what you send back. "This looks vibe coded" is unactionable. "The three feature cards are the framework defaults, the tokens from the brief are not in the CSS, and the primary button does nothing" is three fixes.
 
