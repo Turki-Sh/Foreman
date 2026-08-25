@@ -10,7 +10,7 @@ The entire product is one file plus its references:
 
 ```
 plugins/foreman/skills/foreman/SKILL.md
-plugins/foreman/skills/foreman/references/    11 files, read when the step arrives
+plugins/foreman/skills/foreman/references/    12 files, read when the step arrives
 plugins/foreman/skills/foreman/assets/        6 fillable templates
 ```
 
@@ -41,7 +41,7 @@ Paths move as tools change. If the table is stale for your tool, the rule that a
 
 ## If your tool cannot load reference files
 
-`SKILL.md` is self-contained enough to run on its own. The five governing rules, the eight steps, the gates, and the failure modes are all in it. The eleven reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
+`SKILL.md` is self-contained enough to run on its own. The seven governing rules, the eight steps, the gates, and the failure modes are all in it. The twelve reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
 
 ## What this repo is not
 

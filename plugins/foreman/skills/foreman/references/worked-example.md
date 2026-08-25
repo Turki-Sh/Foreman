@@ -46,9 +46,19 @@ One question, no negotiation, no apology, no explanation of the playbook. The bu
 
 ## Step 3: Lock the look
 
-Built `brand.html` with three variants using their real bio text. They picked the second: technical, high contrast, one accent.
+**You:** Before any colour. Name a thing, not a colour. What object or place has the colour this site should have?
 
-Locked: `#0B0D10` background, `#151A20` surface, `#EDF1F5` text, `#8B95A1` muted, `#5B8DEF` accent. Display face for headings only, system stack for body, three sizes at 3.25rem / 1.25rem / 1rem. Focus ring drawn in the accent at 2px.
+**Them:** The lab, I suppose. The rig is anodised aluminium, everything is that grey-green, and the emergency stop is a really specific orange-red.
+
+That answer is the palette. Nothing in it came from a hex picker, and none of it is where an agent lands on its own.
+
+Built `brand.html` with three variants on their real bio text: one on aluminium light, one on rig green at mid-tone, one warm dark. Different ground mode, different accent family, different place for the personality. They picked the first.
+
+Locked: `#E9E6E1` ground, `#DFDBD5` surface, `#1F1A18` text, `#6B605C` muted, `#A8371A` accent, `#F7F3F0` on-accent. The neutrals are warm because the accent is, not grey. Every pair checked before they saw it: 13.8, 4.9, 12.5, 5.2, and 5.9 on the button label.
+
+The sentence that goes in the brief with them: **anodised aluminium, warm graphite, and the orange on the emergency stop.**
+
+Display face for headings only, system stack for body, three sizes at 3.25rem / 1.25rem / 1rem. Focus ring drawn in the accent at 2px. Accent budget: the primary action, links in body copy, the focus ring, and the trace in the hero. Four places.
 
 State rule: every link, button, and card transitions on hover and focus, 160ms, one easing curve, transform and opacity only.
 
@@ -62,7 +72,7 @@ Signature element, specified in five parts rather than named in one:
 
 That single element carries the personality. Everything else stays quiet.
 
-> **✓ LOCKED · 3/8 LOOK** · #0B0D10 / #151A20 / #EDF1F5 / #8B95A1 / #5B8DEF · 3 sizes · gait trace in hero
+> **✓ LOCKED · 3/8 LOOK** · aluminium, warm graphite, e-stop orange · #E9E6E1 / #DFDBD5 / #1F1A18 / #6B605C / #A8371A · 3 sizes · gait trace in hero
 
 ## Step 4: The brief
 
@@ -75,3 +85,5 @@ Brief written and frozen. Copy final, tokens verbatim, signature element specifi
 The coding agent shipped an 8 MB hero. Lighthouse mobile came back at 51. The fix was not a new prompt, it was one constraint the brief had left out: hero media under 1.5 MB with a poster fallback. That constraint now lives in `references/performance-and-access.md` and goes into every brief.
 
 It also replaced the gait trace with a stock lab photo, which is the other thing coding agents do to a signature element. Caught at step 6 by reading the brief's five-part spec against the page. The reason it was catchable is that the spec existed. "A cool hero animation" is not something you can hold anyone to.
+
+The first build came back in under two minutes and looked finished in a screenshot. It had no hover states, a "See the data" button with no destination, and a 404 that was the word 404 on the background colour. None of that is visible in a screenshot, which is why step 5 asks for the six things by name before anyone discusses how it looks. The build was not fast. It was unfinished in the places nobody photographs.

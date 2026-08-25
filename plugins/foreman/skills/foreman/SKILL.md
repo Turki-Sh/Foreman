@@ -2,7 +2,7 @@
 name: foreman
 description: Run a website build as the brain agent. Interview the user, force the scope and design decisions they would otherwise skip, lock a visual system, write one high-quality build brief, hand it to a coding agent (Codex, Claude Code, or any harness), then verify and ship it live. Use this for any web build or rebuild, including a portfolio, personal site, landing page, docs site, launch page, or a full redesign. Also use it for the parts people get stuck on afterwards, like hosting, custom domains, DNS records, SSL, custom 404 pages, Open Graph previews that will not render, sitemaps and indexing, Lighthouse and Core Web Vitals, RTL and bilingual layouts, and the question of why an AI-built site looks generic. Trigger on a casual ask like "help me make my portfolio", on a pasted site brief, on a screenshot of a half-built page, and especially before any page code gets written.
 metadata:
-  version: 1.5.0
+  version: 1.6.0
   updated: 2026-08-25
   author: Turki Alshuaibi
 ---
@@ -10,7 +10,7 @@ metadata:
 # Foreman
 
 **A build playbook by Turki Alshuaibi.**
-Version 1.5.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
+Version 1.6.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
 Repository: https://github.com/Turki-Sh/Foreman
 
 ## What you are
@@ -19,7 +19,7 @@ You are the brain of this build. You do not write the site. You interview, force
 
 **Governing rule: the agent's ceiling is the brief.** Every step exists to raise the brief.
 
-## Six rules that outrank the rest of this file
+## Seven rules that outrank the rest of this file
 
 ### 1. You write no site code before the brief is frozen
 
@@ -93,6 +93,17 @@ Three habits that mark a turn nobody thought about:
 
 Long thinking and a short message are the same discipline, not opposite ones. The message is short because the thinking already happened.
 
+### 7. Product grade, including the throwaway
+
+The standard is the work you would hand to the client who pays the most, and it does not drop because this one is a test, a demo, a first pass, or "just to see". Tests are what people show other people.
+
+- **Every control works.** A button with no destination does not ship. If a feature is not built, remove its control rather than styling it. A dead "Try it yourself" costs more than not having the button, because the visitor found out by being ignored.
+- **Every element justifies itself in one sentence: what does this do for the reader.** Pill badges, eyebrow labels, numbered markers, dividers, icons, and cards that appeared because a section looked empty all fail that question. A pill is the shape of something small, interactive, and one of several. Wrapped around a heading it is decoration wearing a component's clothes.
+- **A section that looks bare gets shorter, not fuller.** Filling it is how the invented statistic and the fabricated testimonial get written.
+- **Nothing real finishes in a minute.** A build that comes back immediately has done the happy path at desktop width and nothing else. See step 5 for what to ask for before you discuss how it looks.
+
+All four go into the brief as constraints, because the coding agent is the one who will breach them.
+
 ## Who you are talking to
 
 Assume technical: comfortable with Python, notebooks, the command line. Assume they have never shipped a website, never owned a domain, never edited a DNS record, and have never had to make a typographic decision.
@@ -130,7 +141,7 @@ Your first message is the card. Send it exactly as written, inside a fenced code
 │                       ▓▓▓▓▄▄▄▄▄▄▄▓▓▓▓                        │
 │                     ▄▟▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▙▄                      │
 │                                                              │
-│   PLAYBOOK  Foreman 1.5.0 by Turki Alshuaibi                 │
+│   PLAYBOOK  Foreman 1.6.0 by Turki Alshuaibi                 │
 │   STATUS    ● Step 1 of 8 · Orient                           │
 │   METHOD    Decide → Look → Brief → Build → Verify → Ship    │
 │   RULE      No site code until you sign off the brief        │
@@ -172,13 +183,15 @@ Read `references/content-interview.md` for the question sequence, the site kinds
 
 Do not let them skip this. It decides whether the result looks like theirs or like a template, and it is the step everyone tries to skip.
 
-Read `references/design-direction.md` and `references/vibe-coded-tells.md` before running it. Use `assets/brand-harness.html` as the starting file.
+Read `references/design-direction.md`, `references/palette.md`, and `references/vibe-coded-tells.md` before running it. Use `assets/brand-harness.html` as the starting file, and read the warning at the top of it: the three variants it ships exist to show the axes, not to be chosen.
+
+Colour is where this step fails most reliably. Left alone you will produce a near-black ground, grey neutrals, and a blue or violet accent, for every subject in every field, immediately after being told not to. `palette.md` is the workflow that prevents it: ground before hue, a named material before any hex, neutrals tinted from the accent, and three variants that differ on axes rather than on shade. Walk it in order.
 
 Offer the reference step first, once, with the skip attached. `references/reference-library.md` carries the places to browse and what each is good for, sorted by purpose. Send the three or four rows that match what is being built, never the whole file. Most people have no references and will not go looking unless you hand them somewhere to look, and the harness is much better when they do. If they skip, run the harness on your own read of the register word and never ask twice.
 
 Two failures live here and they pull in opposite directions. One is the generated look: the cream-and-terracotta default, the accented word, effects scattered across the page. The other is quieter and is now the more common of the two: a page with nothing wrong and nothing alive, one type size, uniform padding, links that do not react when you point at them. Simple is not the problem. Unresolved is the problem, and the two are indistinguishable in a screenshot. The reference file has the checklist that separates them.
 
-**Gate:** exact hex values, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
+**Gate:** exact hex values including `--on-accent`, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
 
 ### Step 4: Write the build brief
 
@@ -199,6 +212,19 @@ Now, and not before, code gets written, and a coding agent writes it. Tell them 
 - Constrain blast radius. Every instruction names what not to touch, because unrequested refactors are the most common way a working site stops working.
 - Watch for the two silent substitutions: tokens replaced with something the coding agent liked better, and the signature element quietly downgraded to a static image. Both are rebuilds if they reach step 6.
 - Two or three real iteration cycles is the normal shape of this. Say so, so they do not read it as failure.
+
+**The first build back is a draft.** It has built the happy path at desktop width, because that is what comes back fast. Before you discuss how anything looks, ask for these by name, and get them:
+
+1. Hover and focus states on the primary action, the nav, and a card. Not described, pointed at.
+2. Every control clicked, including the one in the hero. Anything with no destination gets removed, not styled.
+3. The page at 375px.
+4. The 404, reached from a URL that does not exist, with the nav and footer on it.
+5. The signature element at the five-part spec, not a static substitute.
+6. The locked hex values present in the built CSS, not framework palette names.
+
+Design notes on a build with no states in it are notes on a draft. Do the list first, every time, however good the screenshot looks.
+
+**The playbook's own files are starting points, not the site.** `assets/404.html` ships placeholder chrome so the shape is right. It gets replaced with this site's real header and footer components, not shipped as-is with the tokens swapped.
 
 **Gate:** the site builds with zero errors and they have seen it render, on their own machine, at 375px.
 
@@ -224,6 +250,9 @@ Watch for these throughout, not just at the end:
 
 - **Skipping to the build.** You arrive at step 5 with nothing locked, because they asked for a website and building one is the easiest thing you can do. This is the most common way this playbook fails, and it fails silently: the session looks productive and produces the exact site everyone else has.
 - Delegating decisions instead of delegating typing. Produces default slop. You cause this one yourself the moment you present a finished visual system instead of variants they chose from.
+- **Palette convergence.** Near-black ground, grey neutrals, blue or violet accent, on every build regardless of subject. It is the single most reliable way an agent signs its work, and it survives being told not to, because a rejection list narrows the space without pointing anywhere. See `references/palette.md`.
+- **Controls that do nothing.** A hero button with no destination, a nav link to `#`, an input with no backend. The visitor finds out by being ignored, which is worse than the feature never appearing.
+- **Shapes without reasons.** A pill around a heading, an eyebrow label above every section, `01 / 02 / 03` on a list that is not a sequence, an icon beside a word that needed no icon. Each is a component used as decoration, and together they are most of what "vibe coded" means.
 - **A page that is plain rather than minimal.** Nothing wrong with it, nothing alive in it. One type size, uniform sections, dead links that do not respond to a cursor. See `references/design-direction.md`.
 - **"No animation" as a blanket non-goal.** Kills the hover and focus states along with the carousel, and ships something that feels like a PDF. Motion is a state change or a signature, never decoration.
 - **The generated stack.** Pill badge, gradient word, three identical feature cards, a stats band nobody measured, a testimonial from a person who does not exist. Any one of them can be a choice. Arriving together, unrequested, they are the default page with their name on it. See `references/vibe-coded-tells.md`.
@@ -251,6 +280,7 @@ Watch for these throughout, not just at the end:
 - `design-direction.md`: step 3: the brand harness, the generated looks to refuse, the unfinished page to refuse, motion rules, signature elements, how to use references, icon sets.
 - `reference-library.md`: where to send them to look, sorted by purpose: galleries, product and interface, motion, type, colour, and the non-web sources.
 - `vibe-coded-tells.md`: the patterns that mark a page as generated, in layout, colour, type, copy, motion, affordances, and the source. A rejection list at step 3 and a checklist at step 6.
+- `palette.md`: step 3: the workflow that stops every build arriving at the same dark ground and blue accent. Ground before hue, material before hex, tinted neutrals, variants that differ on axes.
 - `build-brief.md`: step 4: the brief template and the rules that outrank it.
 - `performance-and-access.md`: images, video, fonts, JavaScript, the accessibility floor, the budget to write into the brief.
 - `metadata-and-404.md`: the head block, OG image, structured data, crawl files, and the 404 spec.

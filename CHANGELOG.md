@@ -2,6 +2,60 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 1.6.0, 25 August 2026
+
+From a full eight-step run on Gemini in Antigravity. The gates held and the
+output was still generic, which puts the failure in the design step and the
+brief rather than in the flow.
+
+Added:
+- **`references/palette.md`,** a twelfth reference and the answer to the
+  clearest convergence in the whole playbook: left alone, an agent produces a
+  near-black ground, grey neutrals, and a blue or violet accent, for every
+  subject in every field, immediately after being told not to. A rejection list
+  narrows the space without pointing anywhere, so this is a workflow instead.
+  Ground before hue, with eight grounds and what each costs. A named material
+  before any hex, because "the orange on the emergency stop" does not arrive at
+  `#6366F1`. Derive from an image they already own. Neutrals tinted from the
+  accent rather than grey. An accent budget of about four named places.
+  Variants that differ on ground mode, accent family, personality, and contrast
+  strategy, so three shades of one idea cannot pass as three options. Contrast
+  checked before the owner sees anything, `--on-accent` as its own token, and
+  the list of specific hexes and hue ranges that need a stated reason.
+- **Rule 7: product grade, including the throwaway.** The standard is the work
+  you would hand the client who pays the most, and it does not drop because
+  this one is a test. Every control works or its control is removed. Every
+  element justifies itself in one sentence, which is what rules out the pill
+  around a heading and the eyebrow label on every section. A bare section gets
+  shorter, never fuller. Nothing real finishes in a minute.
+- **The first-build checklist at step 5.** Six things asked for by name before
+  anyone discusses how the page looks: the hover and focus states pointed at,
+  every control clicked, 375px, the 404 reached from a bad URL, the signature
+  element at spec, and the locked hex values present in the built CSS. Design
+  notes on a build with no states in it are notes on a draft.
+- `EVERY CONTROL WORKS` and `EVERY ELEMENT JUSTIFIES ITSELF` as brief blocks,
+  plus `--on-accent` and the material sentence in the locked tokens.
+
+Changed:
+- **`worked-example.md` was demonstrating the failure it warns about.** It
+  locked `#0B0D10` with a `#5B8DEF` accent, which is precisely the convergent
+  palette, in the one file the agent reads before its first session. Rebuilt
+  around the material question and an aluminium and emergency-stop-orange
+  palette with every contrast pair checked. It also now records a first build
+  that came back in two minutes with no hover states, a dead button, and a bare
+  404, since that is what a fast build actually contains.
+- **`brand-harness.html` was anchoring too.** Its three shipped variants were
+  dark navy with blue, white with green, and dark with gold, which is the space
+  the model already defaults to. Replaced with three that differ on axes rather
+  than on shade: mid-tone signage green with signal orange, institutional paper
+  with oxblood, warm dark with amber. No blue, no violet, all contrast-checked,
+  and the file now says in the header that replacing all of these values is the
+  job and that a winning palette identical to one of them means the step did
+  not happen.
+- The brief is read back against `palette.md` before it freezes. A dark ground
+  with grey neutrals and a blue accent that nobody can trace to a real thing is
+  worth reopening step 3 for, because it is cheaper there than anywhere later.
+
 ## 1.5.0, 25 August 2026
 
 Added:

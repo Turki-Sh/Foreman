@@ -22,7 +22,8 @@ The full-width render in their own browser is the easiest thing in the world to 
 - Search the built page for em dashes and en dashes, including alt text and the meta description. The coding agent adds them even when the brief says not to.
 - Walk `vibe-coded-tells.md` against the built page. Be specific in what goes back: "this looks generated" is unactionable, "the three cards are framework defaults, the locked tokens are not in the CSS, and the primary button does nothing" is three fixes.
 - Search the built CSS for the locked hex values from step 3. If the framework palette names are there instead, the tokens did not ship, whatever the page looks like.
-- Click every button, link, tab, and toggle. Anything that implies it does something and does not is worse than an element that was never added.
+- Click every button, link, tab, toggle, and input, including the one in the hero. Anything that implies it does something and does not is worse than an element that was never added, and it is the failure a visitor is most likely to hit first.
+- Ask of each remaining decorative element what it does for the reader. Pills, eyebrows, numbered markers, and dividers that cannot answer are what makes a finished page read as generated.
 
 ## Step 7: Ship
 

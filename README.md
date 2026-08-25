@@ -82,7 +82,7 @@ The agent should answer with two questions, not with code. That is the whole poi
 
 **Session flow.** Eight steps with gates, written for the agent, not for you. It does not advance until each gate is met, it stamps which step you are on in every message, and it writes no line of the site until the brief is frozen.
 
-**Eleven references**, loaded only when the step arrives: content interview, design direction, the reference library, vibe-coded tells, stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
+**Twelve references**, loaded only when the step arrives: content interview, design direction, the palette workflow, the reference library, vibe-coded tells, stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
 
 **Six fillable assets:** a brand harness with three variants, a head metadata block with Open Graph and JSON-LD, a custom 404, robots.txt, sitemap.xml, and llms.txt.
 

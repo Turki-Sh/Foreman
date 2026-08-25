@@ -15,8 +15,20 @@
      Use text of the length the real page will carry, so the type is judged
      on what ships.
   2. Fill the three :root blocks with three genuinely different directions.
-     Do not ship a variant from the AI-default set unless the owner chose it:
-     cream + serif + terracotta, near-black + acid accent, broadsheet hairlines.
+
+     THE THREE SHIPPED HERE ARE NOT SUGGESTIONS. They exist to show the axes
+     the variants have to differ on: ground mode (mid / light / dark), accent
+     family (orange / red / yellow, three families, not three blues), and
+     where the personality sits (colour / type / layout). Replacing all of
+     these values is the job. If the winning palette is one of these three
+     unchanged, the step did not happen.
+
+     Derive the real values by the workflow in references/palette.md: ground
+     before hue, a named material before a hex, neutrals tinted from the
+     accent, contrast checked before the owner sees anything. Do not ship a
+     variant from the AI-default set unless the owner chose it: cream + serif
+     + terracotta, near-black + acid accent, broadsheet hairlines, or anything
+     on the blue-to-violet arc that arrived without a reason.
   3. Swap in real font links in <head> for each variant.
   4. Open it, compare side by side, and point at every link, button and card
      before you judge. Half of what separates a designed page from a dead one
@@ -28,14 +40,17 @@
      as locked tokens.
 -->
 <style>
-  /* ---------- VARIANT A: [name the direction in two words] ---------- */
+  /* ---------- VARIANT A: signage ----------
+     Mid-tone ground, warm neutrals pulled from the accent hue, signal orange.
+     Personality sits in the colour. */
   .v-a {
-    --bg:        #0F1115;
-    --surface:   #171A21;
-    --text:      #F2F3F5;
-    --muted:     #9AA1AC;
-    --accent:    #4F7CFF;
-    --radius:    4px;
+    --bg:        #2E3A34;
+    --surface:   #364339;
+    --text:      #EDEFE9;
+    --muted:     #A3AFA4;
+    --accent:    #E4572E;
+    --on-accent: #1A0F09;
+    --radius:    2px;
     --display:   Georgia, serif;          /* replace */
     --body:      system-ui, sans-serif;   /* replace */
     --dur:       160ms;
@@ -44,13 +59,16 @@
     --step-md:   1.25rem;
     --step-sm:   0.875rem;
   }
-  /* ---------- VARIANT B ---------- */
+  /* ---------- VARIANT B: institutional paper ----------
+     Light ground, near-black text, oxblood. Personality sits in the type.
+     Nothing here is decorative, which is the argument it is making. */
   .v-b {
-    --bg:        #FFFFFF;
-    --surface:   #F5F5F3;
-    --text:      #141414;
-    --muted:     #6B6B6B;
-    --accent:    #1C5D3A;
+    --bg:        #FBFAF7;
+    --surface:   #F1EFE9;
+    --text:      #16181A;
+    --muted:     #5C6166;
+    --accent:    #7A1E2B;
+    --on-accent: #FBFAF7;
     --radius:    0px;
     --display:   system-ui, sans-serif;
     --body:      system-ui, sans-serif;
@@ -60,13 +78,16 @@
     --step-md:   1.125rem;
     --step-sm:   0.8125rem;
   }
-  /* ---------- VARIANT C ---------- */
+  /* ---------- VARIANT C: warm dark ----------
+     Warm near-black rather than the blue-black everything defaults to.
+     Amber. Personality sits in the layout. */
   .v-c {
-    --bg:        #101820;
-    --surface:   #17222C;
-    --text:      #E8EDF2;
-    --muted:     #8A9AA8;
-    --accent:    #C9A227;
+    --bg:        #14120E;
+    --surface:   #1E1B15;
+    --text:      #F0E8D8;
+    --muted:     #A2977F;
+    --accent:    #D8A657;
+    --on-accent: #14120E;
     --radius:    999px;
     --display:   Georgia, serif;
     --body:      system-ui, sans-serif;
@@ -95,7 +116,7 @@
   .lede { font-size: var(--step-md); line-height: 1.55; margin: 0 0 1.75rem; }
   .muted { color: var(--muted); font-size: var(--step-sm); line-height: 1.6; }
 
-  .btn { display: inline-block; background: var(--accent); color: var(--bg);
+  .btn { display: inline-block; background: var(--accent); color: var(--on-accent);
          padding: .7rem 1.25rem; border-radius: var(--radius); text-decoration: none;
          font-size: var(--step-sm); font-weight: 600; }
   .btn-ghost { background: transparent; color: var(--text);
@@ -177,6 +198,7 @@
       <div class="swatch"><div class="chip" style="background:var(--text)"></div><span>text</span></div>
       <div class="swatch"><div class="chip" style="background:var(--muted)"></div><span>muted</span></div>
       <div class="swatch"><div class="chip" style="background:var(--accent)"></div><span>accent</span></div>
+      <div class="swatch"><div class="chip" style="background:var(--on-accent)"></div><span>on-accent</span></div>
     </div>
   </div>
 </section>
@@ -212,6 +234,7 @@
       <div class="swatch"><div class="chip" style="background:var(--text)"></div><span>text</span></div>
       <div class="swatch"><div class="chip" style="background:var(--muted)"></div><span>muted</span></div>
       <div class="swatch"><div class="chip" style="background:var(--accent)"></div><span>accent</span></div>
+      <div class="swatch"><div class="chip" style="background:var(--on-accent)"></div><span>on-accent</span></div>
     </div>
   </div>
 </section>
@@ -247,6 +270,7 @@
       <div class="swatch"><div class="chip" style="background:var(--text)"></div><span>text</span></div>
       <div class="swatch"><div class="chip" style="background:var(--muted)"></div><span>muted</span></div>
       <div class="swatch"><div class="chip" style="background:var(--accent)"></div><span>accent</span></div>
+      <div class="swatch"><div class="chip" style="background:var(--on-accent)"></div><span>on-accent</span></div>
     </div>
   </div>
 </section>
