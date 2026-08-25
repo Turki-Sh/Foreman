@@ -36,7 +36,13 @@ STACK
 [framework], static build, deployed to [host] from [git repo].
 
 CONTENT
-[Final copy for every section. Written by the owner, not generated.]
+[Final copy, written by the owner, not generated, and assigned to a slot.]
+Opening: [one sentence]
+Support: [one sentence]
+Action: [label, destination]
+Below the fold: [everything else, in order]
+Cut: [what is not on the page]
+Do not move copy between slots. Do not put a fourth thing in the hero.
 Use this copy verbatim. Do not add headings, taglines, captions, alt-text
 prose, or explanatory sentences that are not here. Nothing on the page
 explains why the page is the way it is. If a section looks like it needs
@@ -144,6 +150,8 @@ Ask before assuming anything about my background or my content.
 ## Before you freeze it
 
 Read the brief back against the register word from step 2. If a stranger read only this brief, would they produce something recognizably theirs, or the generic version of this category? If it is the generic version, the missing piece is almost always in the content or the signature element, not in the instructions.
+
+Check the hero against its slots. If the opening slot holds more than one sentence, or the hero holds more than three things, the build will read as stacked and no amount of type work will fix it.
 
 Read the palette back against `palette.md` as well. If it is a dark ground with grey neutrals and a blue or violet accent, and nobody can say what real thing it came from, the brief is about to produce the site every other build produced. That is worth reopening step 3 for, even at this stage, because it is cheaper here than anywhere later.
 

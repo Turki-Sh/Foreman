@@ -2,6 +2,68 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 2.1.0, 25 August 2026
+
+A third run, and the front half of the playbook held. The interview refused
+"try the tool" as an action, ran the competitor swap on the job, and refused
+"repetitive tasks" until it got seventeen minutes against two minutes twenty.
+The shape, the material, what carries the page, the composition sentence, and
+the five-part signature spec were all asked and answered. The files were
+written and the build happened in session.
+
+Then six iterations went in circles. Everything in this release is from the
+back half.
+
+Added:
+- **Copy gets assigned to a slot.** Locking the copy was never the end of the
+  step: copy with no home is copy the coding agent puts wherever there is room,
+  and there is always room in the hero. Five good sentences and one hero slot
+  produced a four-paragraph hero, and the owner correctly called it stacked. The
+  brief now carries an opening, a support line, an action, everything else below
+  the fold, and an explicit cut list. A hero is three things; a fourth is a
+  paragraph pretending to be a hero.
+- **The freeze binds the builder, not the owner.** The run told the owner that
+  changing their own copy meant abandoning the brief, and offered a choice
+  between keeping it locked and re-opening it. That is backwards. The brief is
+  frozen against an agent substituting its taste, never against the person whose
+  site it is. Changes from the owner are amendments in three moves: name what it
+  invalidates, re-decide only that at the same resolution, update the file and
+  stamp it. No ultimatum, and nobody is told they broke something.
+- **A mid-build reference gets the step 3 procedure.** "Take some taste from
+  Railway and Raycast" arrived with seven buildable principles attached and was
+  answered by adjusting CSS and reporting that the influence had been pulled in.
+  It now gets extracted, read back, written into `BRAND.md` as an amendment, and
+  then built. Where a principle contradicts what was locked, the contradiction is
+  the thing to raise rather than a reason to defend the earlier decision.
+- **Rule 6 applies hardest during iteration.** Steps 1 to 4 are slow by
+  construction and then the build starts and every message becomes a fast reply
+  to the last thing said. The owner had to write "think longer, and deeper" to
+  stop it. If they have to say that, you had already stopped.
+- **"Does this hit the mark?" is banned.** It is "do you like it" wearing a
+  collar, it invites a taste answer, and a taste answer is not actionable. Say
+  what changed as a list, then ask about exactly one thing.
+- **A placeholder you look at is not a placeholder that ships.** The run refused
+  to build a logo row for evaluating a layout, correctly on the principle and
+  wrongly on the case, then shipped a placeholder background image an hour
+  later. Fabricated evidence is about what a visitor sees. A layout probe made of
+  grey boxes labelled `logo` is how you decide a grid, and it comes out in the
+  same session it went in.
+- **The metadata line is on the first-build checklist.** The head block was in
+  the brief, was skipped in the build, and was only caught when the owner asked
+  where it was. It is invisible in a screenshot, which is exactly why it needs a
+  line of its own.
+
+Changed:
+- **Refusals are one sentence.** The logo-row refusal was the right call
+  delivered as a lecture, opening with a statement of identity, restating the
+  principle twice in one session, and closing by telling the owner to go and use
+  a different agent. Rule 3 now covers it: refuse in one sentence, offer the
+  nearest real thing you can build, and move. They came for the judgement, not
+  for a rebuke.
+- Content is an input covers images too. Offering to generate a moody backdrop
+  to fill a media slot is the stock hero arriving by a longer route, and it is
+  now named in `vibe-coded-tells.md` as its own tell.
+
 ## 2.0.0, 25 August 2026
 
 Major, because the session gained a decision it never asked for and the brief

@@ -1,7 +1,7 @@
 {
   "name": "foreman",
   "displayName": "Foreman by Turki Alshuaibi",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A build playbook for shipping real websites with coding agents. The agent interviews you, forces the decisions, locks a visual system, writes the brief, builds it or hands it off, then verifies, ships, and indexes.",
   "author": { "name": "Turki Alshuaibi" },
   "homepage": "https://github.com/Turki-Sh/Foreman",

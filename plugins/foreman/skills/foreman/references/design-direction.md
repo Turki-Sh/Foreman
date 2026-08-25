@@ -117,6 +117,8 @@ Then extract named principles and carry those forward:
 
 This matters most with the machine-readable design systems in `reference-library.md`, where a whole system arrives as markdown an agent can paste. Take the behaviour, never the values: "one chromatic colour, reserved for the primary action" transfers to anyone, and `#3E6AE1` transfers to nobody.
 
+**A reference that arrives mid-build gets the same treatment.** It is common, it is usually the most specific thing they will say all session, and the temptation is to absorb it and adjust the CSS. Run the procedure instead: extract the named principles, read them back, write them into `BRAND.md` as an amendment, then build. Some of them will contradict what was locked at step 3, and that contradiction is the thing to raise, not a reason to defend the earlier decision.
+
 Never carry the URL forward as something to approximate. Similar means derivative, and a derivative of someone else's identity with their name on it is worse than something plain and theirs. If output starts mirroring one reference, stop and name what is being copied.
 
 ## Icons, if there are any

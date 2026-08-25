@@ -27,6 +27,7 @@ If the page being built has that skeleton, the skeleton came from the model, not
 
 - **The default indigo.** `#6366F1`, `#8B5CF6`, `#7C3AED`, `#3B82F6`, and the violet-to-blue gradient between them. Framework defaults, recognised on sight. The full list, and the workflow that stops you arriving there, is in `palette.md`.
 - **Gradient text on the headline**, especially on one word. Covered in `design-direction.md` as its own failure.
+- **A generated backdrop.** A moody abstract image made to fill a slot, because the page needed something behind it and nobody had a photograph. It is the same failure as the stock hero, arriving by a longer route, and it looks like it.
 - **Blurred orbs and mesh blobs** behind the hero, at low opacity, in the accent colour. They are there because the background was empty and nobody decided what should fill it.
 - **Glassmorphism everywhere**: `backdrop-blur` plus a white ten-percent border, applied to nav, cards, and modals alike, whether or not anything is behind them to blur.
 - **Shadows with no light source.** Every element lit from directly above at the same intensity, including elements sitting on top of other shadowed elements.

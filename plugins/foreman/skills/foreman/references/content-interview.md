@@ -72,6 +72,24 @@ Whatever the units are called on this site, they take the same shape. Forty to s
 
 If the item is under NDA or unshippable, say what class of problem it was and what changed, without the specifics. Vagueness with a reason reads better than vagueness alone.
 
+## Assign every sentence to a place
+
+Locking the copy is not the end of this step. Copy with no home is copy the coding agent puts wherever there is room, and there is always room in the hero.
+
+Go through it line by line and write the assignment down:
+
+| Slot | Holds | Limit |
+|---|---|---|
+| Opening | The tested line | One sentence |
+| Support | What it is, for whom | One sentence |
+| Action | The one thing they should do | One control |
+| Below | Evidence, numbers, how it works, the proof | As much as is real |
+| Cut | Anything that survives neither | Say so out loud |
+
+**A hero is three things.** A fourth is a paragraph pretending to be a hero, and it reads as stacked however it is set. The failure is not that the copy is bad, it is that four good sentences were given one slot.
+
+The other half of this is the size rule in `design-direction.md`: a specific opening line is usually long, and a long line set at display size is a wall. Assign it, then size it against its actual length.
+
 ## The about section
 
 Two or three sentences on a personal site. Pick first person or third person and hold it across the whole site. Cut every clause that a hundred other people in their field could also write. Where they came from matters only if it explains where they are going.
@@ -117,4 +135,5 @@ Ask the question. Take the answer. Move.
 - Plain verbs, sentence case, no filler.
 - No em dashes and no en dashes, in their copy or in yours. A comma, a full stop, or two sentences. Ranges get the word "to". See rule 5 in `SKILL.md`.
 - Their words, lightly edited. If a paragraph sounds like you wrote it, rewrite it in their register or hand it back.
+- The same rule covers images. If the page is carried by media and they have none, they supply it or the page is carried by something else. Generating a backdrop to fill the slot is the average arriving by a longer route, and it will look like it.
 - If they hand you a CV, mine it with questions instead of transcribing it. A CV bullet is a claim; ask what happened because of it.
