@@ -88,6 +88,42 @@ Palette generators produce generic palettes when used generically. These are the
 | color.adobe.com | Harmony rules and extraction from an image, including from something in their own world. |
 | webaim.org/resources/contrastchecker | The accessibility floor from `performance-and-access.md`, checked before the tokens are locked rather than after. |
 
+## Machine-readable design systems
+
+A newer category, and the most dangerous thing in this file precisely because it is the most useful: a complete design system written as markdown for an agent to consume. `getdesign.md` is the current example, publishing analyses of well-known sites as a `DESIGN.md` you drop into a project and point the agent at.
+
+A human reference gets looked at and half-remembered, which is a filter. A machine-readable one gets pasted, and then the build carries that company's hex values, radius, easing curve, and personality under your owner's name.
+
+Use them for one thing: pulling out the principles that transfer. Their Tesla analysis is the worked case.
+
+**What does not transfer.** The blue, the typeface, the 4px radius, the 0.33s curve, the full-bleed vehicle carousel. Those belong to a company with a photography budget and a fleet of cars to point a camera at. Copied onto a portfolio they read as a clone of a car company.
+
+**What transfers, stated as principles:**
+
+- One message per viewport. The reader can only see one thing at a time.
+- Exactly one chromatic colour, reserved for the primary action, never used decoratively.
+- Depth without shadows. Layering by z-index, opacity, and imagery instead.
+- Two type weights only. No bold, no light, no drama.
+- Letter-spacing left at normal, on the argument that a good face does not need manipulating.
+- Whitespace as the luxury signal, never filled because it happens to be empty.
+- The product carries the emotion and the interface gets out of the way.
+
+Every one of those is a decision your owner can take or reject on its merits, and none of them makes their site look like that company's.
+
+**Two tests.** If you cannot state what you took as a sentence about behaviour, you took the tokens. And check the principle against what they actually have: "the photography carries everything" is a great rule for a company with a studio, and an empty page for someone with three screenshots.
+
+## Effects and components
+
+For when the signature element is a treatment rather than a layout.
+
+| Where | Useful for |
+|---|---|
+| 21st.dev | Community components and effects with the code attached, including the ASCII, dither, and halftone image treatments that turn a photograph into something built. |
+| tympanus.net/codrops | The same territory, longer-form, with the technique explained rather than only shipped. |
+| observablehq.com | Data-driven visuals, when the signature element comes out of their own numbers. |
+
+Read the signature-element section in `design-direction.md` before browsing these. A treatment applied to their own image is one of the strongest moves available. The same treatment applied to a stock image is the average with an extra step.
+
 ## Not the web
 
 Send them here too, and expect the best result from it. A museum's identity, a journal cover, a record sleeve, an airport sign system, the packaging of something on their desk, a book they own, a film title sequence, their own field's diagrams and instruments.

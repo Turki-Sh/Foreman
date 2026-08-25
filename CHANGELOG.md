@@ -2,6 +2,41 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 1.7.0, 25 August 2026
+
+Added:
+- **What to do when another design skill is loaded in the same session.** A
+  taste, UI, or component skill alongside this one is useful for execution
+  quality and component detail, and none of it gets the palette, the type, or
+  the direction. When another skill's defaults and the locked tokens disagree,
+  the locked tokens win without discussion. Two opinionated design systems in
+  one session converge on whichever is more prescriptive, and the more
+  prescriptive one is never the one derived from the owner. The playbook also
+  never tells anyone to install anything: markdown with no scripts, no network
+  calls, and no dependencies is worth more than any skill it could pull in.
+- **Machine-readable design systems** in `reference-library.md`, the newest
+  category of reference and the most dangerous because it is the most useful.
+  A human reference gets half-remembered, which is a filter. A `DESIGN.md`
+  written for an agent gets pasted, and the build carries another company's
+  hexes, radius, and easing curve under the owner's name. The section uses a
+  published Tesla analysis as the worked case: what does not transfer, the
+  seven principles that do, and the two tests. If you cannot state what you
+  took as a sentence about behaviour, you took the tokens. And check the
+  principle against what they have, since "the photography carries everything"
+  is an empty page for someone with three screenshots.
+- **Effects and components** as a reference category, for when the signature
+  element is a treatment rather than a layout.
+- **The treatment of their own image**, in `design-direction.md`: the cheapest
+  signature element that cannot be generic. Render a photograph they already
+  have through ASCII, dither, halftone, contour lines, a duotone, or a plotted
+  trace. The input is theirs, so the output cannot be a stock aesthetic, and
+  every one of these is buildable in an afternoon. The failure mode is applying
+  it to a stock photograph, which is the average with an extra step.
+
+Changed:
+- A design system pasted in whole is now named in `vibe-coded-tells.md` as what
+  it is: the framework defaults again, with a more respectable source.
+
 ## 1.6.0, 25 August 2026
 
 From a full eight-step run on Gemini in Antigravity. The gates held and the

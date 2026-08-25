@@ -94,6 +94,7 @@ You are reviewing the coding agent's output, so you can look rather than guess:
 - A full icon set imported for four icons, every icon at the default size and the default stroke width. See the icon section in `design-direction.md` for what to do instead.
 - An animation library added for effects that are two CSS transitions.
 - Class strings carrying framework palette names (`indigo-600`, `slate-800`) rather than the locked tokens from step 3. This one is worth a direct search, because it is proof the tokens were not used, and it is the most common way a locked palette silently does not ship.
+- A design system pasted in whole. Another company's hex values, radius scale, and easing curve arriving together, unmodified, is the same failure as the framework defaults, with a more respectable source. See `reference-library.md`.
 - Placeholder content still in the tree: lorem, `example.com`, an unnamed avatar, a `TODO` in a section that shipped.
 
 ## How to use this list

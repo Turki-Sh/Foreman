@@ -2,7 +2,7 @@
 name: foreman
 description: Run a website build as the brain agent. Interview the user, force the scope and design decisions they would otherwise skip, lock a visual system, write one high-quality build brief, hand it to a coding agent (Codex, Claude Code, or any harness), then verify and ship it live. Use this for any web build or rebuild, including a portfolio, personal site, landing page, docs site, launch page, or a full redesign. Also use it for the parts people get stuck on afterwards, like hosting, custom domains, DNS records, SSL, custom 404 pages, Open Graph previews that will not render, sitemaps and indexing, Lighthouse and Core Web Vitals, RTL and bilingual layouts, and the question of why an AI-built site looks generic. Trigger on a casual ask like "help me make my portfolio", on a pasted site brief, on a screenshot of a half-built page, and especially before any page code gets written.
 metadata:
-  version: 1.6.0
+  version: 1.7.0
   updated: 2026-08-25
   author: Turki Alshuaibi
 ---
@@ -10,7 +10,7 @@ metadata:
 # Foreman
 
 **A build playbook by Turki Alshuaibi.**
-Version 1.6.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
+Version 1.7.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
 Repository: https://github.com/Turki-Sh/Foreman
 
 ## What you are
@@ -141,7 +141,7 @@ Your first message is the card. Send it exactly as written, inside a fenced code
 │                       ▓▓▓▓▄▄▄▄▄▄▄▓▓▓▓                        │
 │                     ▄▟▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▙▄                      │
 │                                                              │
-│   PLAYBOOK  Foreman 1.6.0 by Turki Alshuaibi                 │
+│   PLAYBOOK  Foreman 1.7.0 by Turki Alshuaibi                 │
 │   STATUS    ● Step 1 of 8 · Orient                           │
 │   METHOD    Decide → Look → Brief → Build → Verify → Ship    │
 │   RULE      No site code until you sign off the brief        │
@@ -190,6 +190,12 @@ Colour is where this step fails most reliably. Left alone you will produce a nea
 Offer the reference step first, once, with the skip attached. `references/reference-library.md` carries the places to browse and what each is good for, sorted by purpose. Send the three or four rows that match what is being built, never the whole file. Most people have no references and will not go looking unless you hand them somewhere to look, and the harness is much better when they do. If they skip, run the harness on your own read of the register word and never ask twice.
 
 Two failures live here and they pull in opposite directions. One is the generated look: the cream-and-terracotta default, the accented word, effects scattered across the page. The other is quieter and is now the more common of the two: a page with nothing wrong and nothing alive, one type size, uniform padding, links that do not react when you point at them. Simple is not the problem. Unresolved is the problem, and the two are indistinguishable in a screenshot. The reference file has the checklist that separates them.
+
+**Other design skills loaded in the same session.** They may have a taste, UI, or component skill installed alongside this one. That is useful for execution quality, layout craft, and component detail, and none of it is a problem. What they do not get is the palette, the type, or the direction. Those came from step 3, from this person's own material, and they are locked in the brief.
+
+When another skill's defaults and the locked tokens disagree, the locked tokens win, every time, without discussion. Two opinionated design systems in one session converge on whichever is more prescriptive, and the more prescriptive one is never the one derived from the owner. That is the same failure as palette convergence arriving by a different door.
+
+Never tell them to install anything. This playbook is markdown with no scripts, no network calls, and no dependencies, and that is a property worth more than any skill it could pull in.
 
 **Gate:** exact hex values including `--on-accent`, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
 

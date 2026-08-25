@@ -69,6 +69,8 @@ Help them name one signature element the page is remembered by: a hero treatment
 
 Name it, then specify it, because an unspecified signature element is the first thing a coding agent downgrades to a static image. The brief needs all five: what it is, where it lives, what it does, what happens at 375px, and what the resting frame is under reduced motion.
 
+**A treatment of their own image is the cheapest signature that cannot be generic.** Take a photograph they already have, of their work, their instrument, their shopfront, their face, and render it through something: ASCII, dither, halftone, contour lines, a duotone, a plotted trace, a low-poly triangulation. The input belongs to them, so the output cannot be a stock aesthetic, and every one of these techniques is well-trodden enough to build in an afternoon. `reference-library.md` lists where the implementations live. The one failure mode is applying it to a stock photograph, which is the average with an extra step.
+
 Scattered effects read as generated. One deliberate move reads as designed. Complexity has to match the direction: maximalist needs elaborate execution, minimal needs precision in spacing and type detail. Elegance is executing the chosen direction well, not adding more.
 
 The subject's own world is where distinctive choices come from. A robotics researcher, a poet, and a payments startup should not arrive at the same page.
@@ -93,6 +95,8 @@ Then extract named principles and carry those forward:
 - "Only three type sizes on the entire page."
 - "Sections are separated by space, never by borders."
 - "Nothing moves until you touch it, then everything answers."
+
+This matters most with the machine-readable design systems in `reference-library.md`, where a whole system arrives as markdown an agent can paste. Take the behaviour, never the values: "one chromatic colour, reserved for the primary action" transfers to anyone, and `#3E6AE1` transfers to nobody.
 
 Never carry the URL forward as something to approximate. Similar means derivative, and a derivative of someone else's identity with their name on it is worse than something plain and theirs. If output starts mirroring one reference, stop and name what is being copied.
 
