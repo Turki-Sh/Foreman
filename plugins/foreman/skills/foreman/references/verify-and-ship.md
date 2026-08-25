@@ -15,7 +15,10 @@ The full-width render in their own browser is the easiest thing in the world to 
 - Every link clicked, including the CV download.
 - Hero media weight checked on a phone connection, not on campus wifi.
 - Point at every link, button, card, and nav item. Anything that does not answer a cursor or a tab key is unfinished, not minimal.
+- Reload it and watch the first three seconds. If everything appeared at once, the choreography in `BRAND.md` did not ship. If it takes longer than about two and a half seconds, it reads as loading.
+- Disable JavaScript, or block the animation, and load it again. The page must be complete. Anything that only exists after an animation runs is a page that is sometimes blank.
 - Turn on reduced motion and look again. The page should read as finished standing still.
+- Hold the composition sentence from `BRAND.md` next to the screenshot. If the sentence says nothing centred and the page is a centred column, the brief did not survive the build.
 - The signature element is the one they specified, not a static image the coding agent substituted for it.
 - Read the whole page against the register word from step 2. If the word was "playful" and the page is not, the page is wrong, not the word.
 - Read it once more for sentences that explain the page to the reader. The coding agent adds these as filler when a section looks empty. Cut them, and if the section is genuinely empty, cut the section.

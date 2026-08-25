@@ -25,11 +25,11 @@ That last line is the contribution. If it becomes a gate, a constraint, or a fai
 
 **Bugs in the templates.** `assets/` ships a 404, a head block, a brand harness, robots.txt, sitemap.xml and llms.txt. If one is invalid, inaccessible, or wrong in a browser I did not check, fix it.
 
-**Translations.** Open an issue first so we agree on scope before you translate twelve reference files.
+**Translations.** Open an issue first so we agree on scope before you translate thirteen reference files.
 
 ## Closed, open an issue instead
 
-**New reference documents.** Twelve is at the limit of what an agent will load usefully, so new material has to displace something.
+**New reference documents.** Thirteen is past the point where an agent reliably loads them all, which is why the irreducible move from each one is repeated inside `SKILL.md`. New material has to displace something, or prove it belongs in the skill itself.
 
 **Changes to the eight steps or their gates.**
 

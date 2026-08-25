@@ -51,6 +51,25 @@ Before the tokens leave this step, the design answers yes to all five:
 
 Anything failing becomes a token or a spec in the brief, not a note for later.
 
+## Size follows the length of the line
+
+The opening line has just been fixed by the tests in `content-interview.md`, and the true line is usually longer and more specific than the abstraction it replaced. Then it gets set at display size out of habit, and the result is a wall of text where a headline should be. That page reads as less considered than the vague one it replaced, which is a bad trade for a good edit.
+
+**Measure the line before you choose the size.**
+
+- Up to about six words: it can be enormous. This is the only case where a hero at 5rem is a decision rather than a reflex.
+- Six to twelve words: two lines at most, and the size comes down hard. Around 2 to 2.5x the body, not 4x.
+- More than twelve words: it is prose that happens to be first. Set it near reading size, give it a real measure of about 60 characters, and move the display move somewhere else entirely.
+
+**Where the display move goes when the line is long.** Onto one number in it, set large while the rest stays at reading size. Onto a single word given its own line. Onto the artifact instead of the type. Or nowhere, and the page is carried by structure. All four are better than a specific sentence blown up until it stops being readable.
+
+Two more that decide whether type looks set or typed:
+
+- **Letter-spacing changes with size.** Large type needs it tightened, roughly -0.02 to -0.04em at display sizes, and body text almost never needs it touched. Type at 4rem with default tracking is the most common tell that nobody adjusted anything.
+- **Two weights, and a third only with a reason.** Bold headings plus regular body is a relationship. Four weights is a font menu.
+
+Both go into `BRAND.md` as values, not as advice.
+
 ## Motion: state, signature, nothing else
 
 "No animation" as a blanket non-goal is how a site ends up feeling like a PDF. "Animate everything on scroll" is how it ends up feeling generated. Motion sorts into three buckets and two of them ship.

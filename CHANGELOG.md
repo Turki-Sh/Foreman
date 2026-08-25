@@ -2,6 +2,74 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 2.0.0, 25 August 2026
+
+Major, because the session gained a decision it never asked for and the brief
+gained two sections that decide most of what a page feels like.
+
+The evidence was a second full run in Antigravity, where the interview worked,
+the opening line got fixed, the material question got a real answer, and the
+page still came back as a centred dark column with an enormous headline, two
+equal boxes holding one sentence each, and a dead button. Every gate held. So
+the remaining failure is not in the flow, it is in what the brief does not say.
+
+Added:
+- **`references/composition-and-choreography.md`,** a thirteenth reference,
+  covering the two decisions a brief silently hands to the coding agent: where
+  everything goes, and what happens in the first two seconds. Both are things a
+  reader actually experiences, and every constraint in the quality floor can
+  pass while a page fails at both. It carries the spacing backbone (one gutter
+  pair used by every element touching the page edge, through whatever mechanism
+  each needs), the declared layer stack, three composition archetypes, the
+  entrance choreography table, the interaction inventory, specifying behaviour
+  as an algorithm with named constants rather than as an adjective, marking
+  tuned values so a tidy-up does not round them, and declaring the compromises
+  worth keeping so nobody fixes them into something worse.
+- **What carries the page**, as a named decision: media, type, structure, or an
+  artifact from their own subject. When it is media at full bleed, the brief now
+  says so completely, including no scrim, tint, gradient, blur, or blend mode
+  over it, because dropping a dark gradient over an image is the reflex that
+  turns a photograph into a background.
+- **The shape of the site**, asked at step 3 and never assumed: one non-scrolling
+  viewport, one scrolling page, or several pages. The middle one is the default
+  failure and it gets chosen by not choosing, which is how five sentences of
+  copy become a hero plus two boxes. The test is a count: under four content
+  units is one viewport, four to eight is one page, more than eight with
+  categories is several.
+- **A `NON-NEGOTIABLES` block in the brief**, for the things that are the point
+  of the build and that a tidy-up would quietly remove.
+
+Changed:
+- **Size follows the length of the line.** Fixing the opening line usually makes
+  it longer and more specific, and then it gets set at display size out of
+  habit, producing a wall of text where a headline should be, which reads as
+  less considered than the vague version it replaced. Up to six words can be
+  enormous; six to twelve comes down hard; past twelve it is prose that happens
+  to be first, and the display move goes onto a number in it, onto one word, or
+  onto the artifact instead. Letter-spacing tightens at display sizes and is
+  left alone at reading sizes. Two weights.
+- **One of the three palette variants is light, whatever the material was.** A
+  dark material honestly reads dark, and dark is also where the model was going
+  anyway, so the material has moved nothing and neither party can tell. Every
+  dark material has non-dark things in it: a server rack is aluminium rails,
+  label tape, and a printed rack diagram, and only the room is dark. If they
+  still choose dark after seeing the same material in daylight, it is a
+  decision. Until then it is the default wearing a story.
+- Verification watches the first three seconds, loads the page with animation
+  blocked to confirm it is complete without it, and holds the composition
+  sentence next to the screenshot.
+- Two additions to `vibe-coded-tells.md`: a page that arrives all at once and
+  then sits there, and everything centred and symmetrical.
+- `CONTRIBUTING.md` now admits that thirteen references is past the point where
+  an agent reliably loads them all, which is why the irreducible move from each
+  is repeated inside `SKILL.md`.
+
+The governing warning, written into the new reference: the pages that teach this
+are mostly dark with video grounds, and that is an accident of where they came
+from. Copy the resolution of their specifications, never their values. A page
+built on someone else's easing curve, gutter, and accent is a clone with a new
+name on it.
+
 ## 1.9.0, 25 August 2026
 
 From a full 1.7.0 run in Antigravity. The steps ran, the gates were stamped,

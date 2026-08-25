@@ -2,7 +2,7 @@
 name: foreman
 description: Run a website build as the brain agent. Interview the user, force the scope and design decisions they would otherwise skip, lock a visual system, write one high-quality build brief, then either build it in this session or hand it to a coding agent (Codex, Claude Code, or any harness), and verify and ship it live. Use this for any web build or rebuild, including a portfolio, personal site, landing page, docs site, launch page, or a full redesign. Also use it for the parts people get stuck on afterwards, like hosting, custom domains, DNS records, SSL, custom 404 pages, Open Graph previews that will not render, sitemaps and indexing, Lighthouse and Core Web Vitals, RTL and bilingual layouts, and the question of why an AI-built site looks generic. Trigger on a casual ask like "help me make my portfolio", on a pasted site brief, on a screenshot of a half-built page, and especially before any page code gets written.
 metadata:
-  version: 1.9.0
+  version: 2.0.0
   updated: 2026-08-25
   author: Turki Alshuaibi
 ---
@@ -10,7 +10,7 @@ metadata:
 # Foreman
 
 **A build playbook by Turki Alshuaibi.**
-Version 1.9.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
+Version 2.0.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
 Repository: https://github.com/Turki-Sh/Foreman
 
 ## What you are
@@ -146,7 +146,7 @@ Your first message is the card. Send it exactly as written, inside a fenced code
 |                      |     ~~~~~~~~~     |                   |
 |                       \_________________/                    |
 |                                                              |
-|   PLAYBOOK  Foreman 1.9.0 by Turki Alshuaibi                 |
+|   PLAYBOOK  Foreman 2.0.0 by Turki Alshuaibi                 |
 |   STATUS    Step 1 of 8 . Orient                             |
 |   METHOD    Decide > Look > Brief > Build > Verify > Ship    |
 |   RULE      No site code until you sign off the brief        |
@@ -199,7 +199,23 @@ If they ask what to build it in, read `references/stack-choice.md` and answer in
 
 Do not let them skip this. It decides whether the result looks like theirs or like a template, and it is the step everyone tries to skip.
 
-Read `references/design-direction.md`, `references/palette.md`, and `references/vibe-coded-tells.md` before running it. Use `assets/brand-harness.html` as the starting file, and read the warning at the top of it: the three variants it ships exist to show the axes, not to be chosen.
+**Decide the shape before the look.** Ask, do not assume:
+
+> Is this one screen that does not scroll, one page you scroll through, or a set of pages?
+
+| Shape | When it is right | What it demands |
+|---|---|---|
+| One viewport, no scroll | One message, one action, and content that genuinely fits. A launch page, a holding page, a single piece of work. | Everything is one composition. Nothing can be pushed below the fold, so every element earns its place in a single frame. The hardest to build and the most memorable. |
+| One scrolling page | Three to six sections of real content that build toward the action. Most portfolios, most product pages. | A reason to keep going at every screen, and sections that differ from each other in more than their copy. |
+| Several pages | Content a reader would link to, return to, or skip past: separate case studies, docs, a menu, a schedule, an archive. | Real navigation, and every page held to the same floor as the first one. |
+
+**The middle option is the default failure, and it gets chosen by not choosing.** Asked for a landing page, an agent produces one long column of alternating full-width sections, because that is the average shape of the internet. If the content is five sentences, the honest answer is one viewport, and the scrolling version will pad it out with boxes that exist because the page looked short.
+
+**Test it against the content you already have.** Count the content units from step 2. Under about four is one viewport. Four to eight is one scrolling page. More than eight, with categories a reader would choose between, is several pages.
+
+The answer goes into `BRAND.md`, because it decides everything after it.
+
+Read `references/design-direction.md`, `references/palette.md`, `references/composition-and-choreography.md`, and `references/vibe-coded-tells.md` before running it. Use `assets/brand-harness.html` as the starting file, and read the warning at the top of it: the three variants it ships exist to show the axes, not to be chosen.
 
 **Ask this before a single hex value exists anywhere, including in your own head:**
 
@@ -221,7 +237,19 @@ When another skill's defaults and the locked tokens disagree, the locked tokens 
 
 Never tell them to install anything. This playbook is markdown with no scripts, no network calls, and no dependencies, and that is a property worth more than any skill it could pull in.
 
-**Gate:** exact hex values including `--on-accent`, none of them from the list in `palette.md` unless a sentence says why that one rather than the next colour along, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
+**Colour is not the whole of this step, and it is the part that gets all the attention.** Two decisions matter as much and are almost always left to the coding agent by default: **where things go**, and **what happens in the first two seconds**. A brief that locks five hex values and stops has handed both away. `composition-and-choreography.md` is how they get made, and the short version, which fires even if that file never loads:
+
+- **What carries the page:** media, type, structure, or an artifact from their own subject. One of the four, named.
+- **The shape of the composition,** in one sentence a stranger could draw from. Not centred by default.
+- **The gutter,** one pair of values that every element touching the page edge uses.
+- **The entrance choreography,** a table with a row per element: what moves, how long, and its delay. Under 2.5 seconds, ending on the primary action, and the page must be complete if it never runs.
+- **The interaction inventory,** every control and what it does on hover and on focus. Anything not on it has no behaviour, and anything with no behaviour does not ship.
+
+Two easing curves for the whole site, one for entrances and one for interactions, reused everywhere. Copy the resolution of those specifications, never their values: the pages that teach this are mostly dark with video grounds, and importing that is how you would install a new default in place of the old one.
+
+**Gate:** exact hex values including `--on-accent`, none of them from the list in `palette.md` unless a sentence says why that one rather than the next colour along, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and everything from `composition-and-choreography.md` written into `BRAND.md`: what carries the page, the gutter pair, the layer stack, the composition sentence, the choreography table, and the interaction inventory.
+
+Read that list back before you stamp it. Every line of it is a decision the coding agent will otherwise make on their behalf, and its defaults are the page they already do not want.
 
 ### Step 4: Write the build brief
 
@@ -342,6 +370,7 @@ Watch for these throughout, not just at the end:
 - `design-direction.md`: step 3: the brand harness, the generated looks to refuse, the unfinished page to refuse, motion rules, signature elements, how to use references, icon sets.
 - `reference-library.md`: where to send them to look, sorted by purpose: galleries, product and interface, motion, type, colour, and the non-web sources.
 - `vibe-coded-tells.md`: the patterns that mark a page as generated, in layout, colour, type, copy, motion, affordances, and the source. A rejection list at step 3 and a checklist at step 6.
+- `composition-and-choreography.md`: step 3: where things go and what happens in the first two seconds. The spacing backbone, the layer stack, composition archetypes, the entrance table, the interaction inventory, and specifying behaviour as an algorithm.
 - `palette.md`: step 3: the workflow that stops every build arriving at the same dark ground and blue accent. Ground before hue, material before hex, tinted neutrals, variants that differ on axes.
 - `build-brief.md`: step 4: the brief template and the rules that outrank it.
 - `performance-and-access.md`: images, video, fonts, JavaScript, the accessibility floor, the budget to write into the brief.

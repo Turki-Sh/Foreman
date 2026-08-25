@@ -86,6 +86,10 @@ Three shades of the same idea is one variant shown three times, and it is what y
 
 If two variants can be described by the same sentence, they are the same variant.
 
+**One of the three is light, whatever the material was.** This is not a preference, it is a control. When someone names a dark material, a server rack, a night sky, a darkroom, the honest reading is dark, and the dark reading also happens to be where you were going anyway. So the material has done nothing to move you, and neither of you can tell.
+
+Every dark material has non-dark things in it. A server rack is anodised aluminium rails, printed label tape, a paper rack diagram, and a cable tag, and only the room around it is dark. Take the accent from the LED and put it on the aluminium, and you have the second variant. If they still choose dark after seeing what the same material looks like in daylight, then dark is a decision. Until they have seen it, it is the default wearing a story.
+
 ## 7. Check contrast before you show them, not after
 
 Run every pair before the variants are presented: text on ground, muted on ground, text on surface, accent on ground, and the label colour on the accent. A variant they fall in love with and then have to have corrected is worse than one that was right when they saw it.

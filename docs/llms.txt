@@ -2,7 +2,7 @@
 
 > A build playbook that turns a coding agent into the foreman of a website build. It interviews the owner, forces the design and scope decisions, locks a visual system, writes one build brief, then either builds the site in the same session or hands the brief to a coding agent, and verifies, ships, and indexes it.
 
-Foreman is an Agent Skill, distributed as a Claude Code plugin and as a plain folder of markdown that works with any agent that reads files. It contains no executable code: no scripts, no hooks, no MCP servers, no network calls. The product is an eight-step session flow with gates, twelve reference documents loaded only when their step arrives, and six fillable templates.
+Foreman is an Agent Skill, distributed as a Claude Code plugin and as a plain folder of markdown that works with any agent that reads files. It contains no executable code: no scripts, no hooks, no MCP servers, no network calls. The product is an eight-step session flow with gates, thirteen reference documents loaded only when their step arrives, and six fillable templates.
 
 Its governing claim is that the quality of an agent's output is bounded by the quality of the brief it was given, so the work of a good build is decision-making rather than typing. It is written for the agent to run, not for a person to read.
 

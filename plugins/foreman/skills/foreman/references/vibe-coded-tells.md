@@ -17,6 +17,7 @@ If the page being built has that skeleton, the skeleton came from the model, not
 ## Layout
 
 - **Everything is a card.** Rounded rectangle, one-pixel border, `shadow-lg`, on content that has no reason to be boxed. Cards nested inside cards is the advanced form.
+- **Everything centred, everything symmetrical.** Centred nav, centred hero, centred sections, centred footer, nothing ever breaking the column. Symmetry is a choice roughly one page in ten should make, and it is what nine of them ship.
 - **The three-up feature grid**, repeated down the page at the same size, which says every one of those nine things matters exactly as much as the other eight. Nothing on a real page matters equally.
 - **Bento grids applied to content with no size hierarchy.** A bento layout is a claim about importance. If all the tiles hold comparable things, it is a grid wearing a costume.
 - **Every section is the same section.** Eyebrow label, heading, one-line subhead, a row of things, alternating background colour. Five times. The alternating background is doing the work that spacing and type should be doing.
@@ -54,6 +55,7 @@ If the page being built has that skeleton, the skeleton came from the model, not
 
 ## Motion
 
+- **The page arrives all at once and then sits there.** No entrance at all, nothing staggered, no order to how it appeared. This is not restraint, it is the absence of a decision about time, and it is the most common thing separating a made page from a generated one. See `composition-and-choreography.md`.
 - **Every section fades up on scroll**, same duration, same easing, same stagger, whether or not the section is worth arriving at.
 - **`scale(1.05)` on hover**, on every card, universally.
 - **The animated gradient border.**
