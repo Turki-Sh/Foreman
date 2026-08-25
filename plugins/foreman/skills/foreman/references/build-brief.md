@@ -53,16 +53,26 @@ Every interactive element has a hover state, a focus state, and a
 transition between them: [duration]ms, [easing], transform and opacity only.
 Nothing else on the page moves. No scroll-triggered animation, no parallax,
 no counters, no carousels.
+When you hand this back, point at the hover and focus state of the primary
+action, the nav, and a card. If you cannot point at them, they are not built.
 
 QUALITY FLOOR
 Responsive to 375px. Visible keyboard focus, tab order matches visual order.
 Contrast passes WCAG AA. prefers-reduced-motion respected.
 Lighthouse mobile 95+. Hero media under 1.5 MB with a poster fallback.
-Custom 404 reusing the site layout, with a way back.
+Custom 404 that is unmistakably this site: same nav, same tokens, same type,
+same footer, and not a bare word on an empty background. A plain sentence
+about what happened, a link home, and the primary action. Real 404 status,
+not a 200.
 
 NON-GOALS
 No [contact form / analytics / carousel / scroll animation / blog] in v1.
 State transitions and the signature element are not in this list.
+
+FOOTER
+Version [x.y.z] and last updated [date], in the footer and in the JSON-LD,
+from one source. Copyright year generated, not typed. If either changes,
+every place it appears changes in the same commit.
 
 HOW TO WORK WITH ME
 One concern per turn. Commit after each working step with a descriptive message.

@@ -9,26 +9,50 @@
   CUSTOM 404 STARTER
 
   Rules this file exists to enforce:
-  1. Reuse the real site layout, nav, tokens, and type. Import the site stylesheet
-     instead of the inline block below once the build exists.
-  2. Return a real 404 status, not a 200. Check the host's config, since SPA
+  1. Reuse the real site layout, nav, tokens, type, and footer. Once the build
+     exists, delete the inline block below and import the site stylesheet, then
+     use the site's real header and footer components instead of these.
+  2. The failure this file is guarding against is not an ugly 404. It is a bare
+     "404" and one sentence floating on the background colour, with no nav and
+     no footer. That is the host default wearing the site's palette. The nav and
+     footer below are the point of the file, not decoration on it.
+  3. Return a real 404 status, not a 200. Check the host's config, since SPA
      fallbacks often serve 200 and tell crawlers the page exists.
-  3. Give one clear way out: home, plus the site's primary action.
-  4. No auto-redirect, and no joke that gets in the way of the exit.
-  5. Test it after deploy by visiting a garbage URL in incognito.
+  4. Give one clear way out: home, plus the site's primary action.
+  5. Every link answers a cursor and a tab key, same duration and easing as the
+     rest of the site.
+  6. No auto-redirect, and no joke that gets in the way of the exit.
+  7. Test it after deploy by visiting a garbage URL in incognito.
 -->
 <style>
   :root {
     --bg: [BG HEX]; --surface: [SURFACE HEX]; --text: [TEXT HEX];
     --muted: [MUTED HEX]; --accent: [ACCENT HEX]; --radius: [RADIUS];
     --display: [DISPLAY FONT]; --body: [BODY FONT];
+    --dur: [DURATION]; --ease: [EASING];
   }
   * { box-sizing: border-box; }
   body {
     margin: 0; min-height: 100dvh; background: var(--bg); color: var(--text);
-    font-family: var(--body); display: grid; place-items: center; padding: 1.5rem;
+    font-family: var(--body); display: flex; flex-direction: column;
   }
-  main { max-width: 44ch; }
+  ::selection { background: var(--accent); color: var(--bg); }
+
+  /* Same nav as every other page. Replace with the real component. */
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 1rem; padding: 1.25rem 1.5rem; max-width: 68rem; width: 100%; margin: 0 auto;
+  }
+  .brand {
+    font-family: var(--display); font-size: 1.125rem; letter-spacing: -0.01em;
+    text-decoration: none; color: var(--text);
+  }
+  .nav-links { display: flex; gap: 1.25rem; font-size: .875rem; }
+  .nav-links a { color: var(--muted); text-decoration: none; text-underline-offset: .25em; }
+  .nav-links a:hover { color: var(--text); text-decoration: underline; }
+
+  main { flex: 1; display: grid; place-items: center; padding: 3rem 1.5rem; }
+  .inner { max-width: 44ch; }
   .eyebrow {
     font-family: ui-monospace, monospace; font-size: .75rem; letter-spacing: .14em;
     text-transform: uppercase; color: var(--muted); margin-bottom: 1rem;
@@ -39,24 +63,61 @@
   }
   p { line-height: 1.6; color: var(--muted); margin: 0 0 1.75rem; }
   .actions { display: flex; flex-wrap: wrap; gap: .625rem; }
-  a {
+  .btn {
     display: inline-block; padding: .7rem 1.1rem; border-radius: var(--radius);
     text-decoration: none; font-size: .9375rem; font-weight: 600;
     background: var(--accent); color: var(--bg);
   }
-  a.ghost { background: transparent; color: var(--text); border: 1px solid var(--muted); }
-  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--muted); }
+  .btn:hover { transform: translateY(-1px); opacity: .92; }
+  .btn.ghost:hover { border-color: var(--text); }
+
+  /* Same footer as every other page. Replace with the real component. */
+  footer {
+    padding: 1.5rem; max-width: 68rem; width: 100%; margin: 0 auto;
+    font-size: .8125rem; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between;
+  }
+  footer a { color: var(--muted); text-underline-offset: .25em; }
+  footer a:hover { color: var(--text); }
+
+  /* Every interactive element answers a cursor and a tab key. */
+  a { transition: color var(--dur) var(--ease), background-color var(--dur) var(--ease),
+                  border-color var(--dur) var(--ease), transform var(--dur) var(--ease),
+                  opacity var(--dur) var(--ease); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 1ms !important; animation-duration: 1ms !important; }
+  }
 </style>
 </head>
 <body>
+
+<nav class="nav">
+  <a class="brand" href="/">[NAME]</a>
+  <div class="nav-links">
+    <a href="/[SECTION]">[SECTION]</a>
+    <a href="/[SECTION]">[SECTION]</a>
+  </div>
+</nav>
+
 <main>
-  <p class="eyebrow">404</p>
-  <h1>That page isn't here.</h1>
-  <p>The link may be old, or the address may have a typo in it. Everything else is still where it was.</p>
-  <div class="actions">
-    <a href="/">Back to home</a>
-    <a class="ghost" href="/[PRIMARY ACTION PATH]">[PRIMARY ACTION]</a>
+  <div class="inner">
+    <p class="eyebrow">404</p>
+    <h1>That page isn't here.</h1>
+    <p>The link may be old, or the address may have a typo in it. Everything else is still where it was.</p>
+    <div class="actions">
+      <a class="btn" href="/">Back to home</a>
+      <a class="btn ghost" href="/[PRIMARY ACTION PATH]">[PRIMARY ACTION]</a>
+    </div>
   </div>
 </main>
+
+<footer>
+  <span>[NAME]</span>
+  <span>Last updated [DATE] · <a href="/">[DOMAIN]</a></span>
+</footer>
+
 </body>
 </html>

@@ -9,8 +9,9 @@ The full-width render in their own browser is the easiest thing in the world to 
 - Lighthouse on mobile, not desktop.
 - Tab through the whole page. Focus visible, order matches the visual layout.
 - Contrast checked against their actual palette, not the defaults the component was tested with.
-- A URL that does not exist, to confirm the 404 is their page, in their layout, with a way back.
+- A URL that does not exist, to confirm the 404 is their page, in their layout, with the nav and the footer on it and a way back. A bare `404` on an empty background is the host default in their colours, not a custom 404.
 - View source: title, meta description, OG image, `lang`, `dir`.
+- The version, the last-updated date, and the copyright year in the footer, against what is actually true today. Then the same version in the JSON-LD and the `lastmod` in the sitemap, because those two are where it goes stale unseen.
 - Every link clicked, including the CV download.
 - Hero media weight checked on a phone connection, not on campus wifi.
 - Point at every link, button, card, and nav item. Anything that does not answer a cursor or a tab key is unfinished, not minimal.

@@ -2,6 +2,49 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 1.5.0, 25 August 2026
+
+Added:
+- **The first message is a card.** An ASCII wordmark, the foreman portrait, and
+  a boxed panel carrying the playbook name and version, the step, the method in
+  six words, and the rule that no site code appears until the brief is signed
+  off. It is the session's whole introduction, so nothing follows it except the
+  question on its last line, and the wordmark never appears again. Every line
+  inside the box is the same width, and the skill says to paste it rather than
+  retype it, because one stray space breaks the whole thing. There is a
+  documented fallback for narrow surfaces and for harnesses that mangle it: a
+  broken box is a bug, not a brand.
+- **Rule 6: think for longer than the reply takes to read.** Re-read their last
+  message for the throwaway clause, which is usually the constraint. Name what
+  just changed and what it invalidates. Ask the question that moves the build
+  furthest rather than the next one on the list. The first answer that occurs
+  to you is the average answer, a thin answer gets a follow-up rather than a
+  new question, and anything you have written on another build means you are
+  pattern matching instead of listening. Long thinking and a short message are
+  the same discipline.
+- **Strings that claim a fact**, in `metadata-and-404.md`: a version in the
+  footer, a last-updated date, a copyright year, a count in the copy. One
+  source per number, a generated copyright year, a `lastmod` that is not six
+  months behind the deploy, and the list of every place a version appears
+  written into the release routine. Now a `FOOTER` block in the brief and a
+  check at step 6.
+- A release routine in `AGENTS.md` naming all six places the version lives,
+  because this repository shipped 1.4.0 with the site still reading 1.3.0.
+
+Changed:
+- **`assets/404.html` now has the nav and the footer on it.** The old template
+  told the coding agent to reuse the site layout and then demonstrated the
+  opposite: a centred box on an empty background, which is the host default
+  wearing the site's palette. It now ships the chrome, the interactive states,
+  and the reduced-motion block, and the brief's one-line 404 requirement was
+  replaced with the full spec so what the coding agent reads matches what the
+  reference says.
+- The brief asks the coding agent to point at the hover and focus states of
+  the primary action, the nav, and a card when it hands the work back. A rule
+  nobody has to demonstrate is a rule that quietly does not ship.
+- Stale counts corrected across the site and the docs: seven phases, nine
+  references, and "the same nine places" were all wrong after 1.4.0.
+
 ## 1.4.0, 25 August 2026
 
 The release that answers the three reports in the tracker, plus the two failure

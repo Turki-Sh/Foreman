@@ -105,7 +105,7 @@ The most useful thing you can send is a failure the playbook did not intercept: 
 
 ## Author
 
-Built by **Turki Alshuaibi**, AI engineer. Everything in it came from shipping, and from watching capable engineers get stuck in the same nine places, which are the nine listed at the end of the skill.
+Built by **Turki Alshuaibi**, AI engineer. Everything in it came from shipping, and from watching capable engineers get stuck in the same handful of places, which are the failure modes listed at the end of the skill.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-turkialshuaibi.com-FFB400?style=flat&logo=astro&logoColor=white)](https://turkialshuaibi.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/turki-alshuaibi)

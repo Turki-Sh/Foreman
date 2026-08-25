@@ -47,6 +47,22 @@ Paths move as tools change. If the table is stale for your tool, the rule that a
 
 Do not treat this as a template to copy into a user's project. Nothing here belongs in their site. `assets/` holds starting points that get filled in and moved, and `brand-harness.html` is explicitly a throwaway file that gets deleted once the design tokens are locked.
 
+## Releasing
+
+The version string lives in six places. Change all six in the same commit, or the site starts claiming a version that is not the one people install.
+
+1. `plugins/foreman/skills/foreman/SKILL.md` frontmatter `version` and `updated`
+2. The same file's body line under the title
+3. The `PLAYBOOK` row inside the first-message card in that file
+4. `plugins/foreman/.claude-plugin/plugin.json`
+5. `.claude-plugin/marketplace.json` (both the metadata block and the plugin entry)
+6. `docs/index.html`: the JSON-LD `softwareVersion` and the footer stamp
+
+Also on every release: `docs/sitemap.xml` `lastmod`, a `CHANGELOG.md` entry, and a rebuild of `dist/foreman.skill` with
+`cd plugins/foreman/skills && zip -r ../../../dist/foreman.skill foreman -x '*.DS_Store'`.
+
+Counts in prose go stale the same way. The number of steps, the number of reference files, and the number of failure modes appear in `README.md`, `AGENTS.md`, `CONTRIBUTING.md`, `docs/index.html`, and `docs/llms.txt`.
+
 ## Contributing
 
 The most valuable issue is a failure mode the playbook did not intercept: a build that broke in a way Foreman should have asked about. See the repository README.

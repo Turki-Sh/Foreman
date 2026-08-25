@@ -25,13 +25,13 @@ That last line is the contribution. If it becomes a gate, a constraint, or a fai
 
 **Bugs in the templates.** `assets/` ships a 404, a head block, a brand harness, robots.txt, sitemap.xml and llms.txt. If one is invalid, inaccessible, or wrong in a browser I did not check, fix it.
 
-**Translations.** Open an issue first so we agree on scope before you translate nine reference files.
+**Translations.** Open an issue first so we agree on scope before you translate eleven reference files.
 
 ## Closed, open an issue instead
 
-**New reference documents.** Nine is close to the limit of what an agent will load usefully, so new material has to displace something.
+**New reference documents.** Eleven is at the limit of what an agent will load usefully, so new material has to displace something.
 
-**Changes to the seven phases or their gates.**
+**Changes to the eight steps or their gates.**
 
 **Options and alternatives.** A rule that offers three ways to do something is not a rule. If a rule produced a bad result for you, show me the build. That moves me. A pull request adding a second option does not.
 

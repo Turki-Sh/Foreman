@@ -29,6 +29,15 @@ Whenever someone shares the link in WhatsApp, Slack, LinkedIn, or a group chat, 
 
 A Schema.org `Person` (or `Organization`) JSON-LD block tells search engines and models what entity this site is about: name, role, employer or school, same-as links to GitHub, LinkedIn, Scholar. Cheap to add, and it is the difference between being a page and being an entity.
 
+## Strings that claim a fact
+
+A version number in the footer, a last-updated date, a copyright year, a count in the copy ("nine projects", "three years"). Each is an assertion the page keeps making long after it stopped being true, and stale ones are read as neglect rather than as an oversight.
+
+- **One source per number.** The version comes from one place and is rendered everywhere else from it, including the JSON-LD `softwareVersion`. Two hand-typed copies will disagree within a month.
+- **Generate the copyright year.** Never type it.
+- **The sitemap's `lastmod` is a claim too.** A date six months behind the last deploy tells crawlers not to bother.
+- **Put the list in the release routine.** Every place a version or a date appears, named, so changing one means changing all of them in the same commit. This is a discipline problem rather than a technical one, which is exactly why it is the thing everyone forgets.
+
 ## Crawl and read files
 
 - `robots.txt`: allow everything on a personal site, and point to the sitemap.
@@ -42,7 +51,8 @@ A custom 404 is the cheapest signal of care on the whole site, and almost every 
 
 Requirements:
 
-- Same layout, nav, tokens, and type as the rest of the site. It should be unmistakably the same place.
+- Same layout, nav, tokens, type, and footer as the rest of the site. It should be unmistakably the same place. The common failure is not an ugly 404, it is a bare `404` and one sentence floating on the background colour, which is the host default wearing the site's palette.
+- It gets the same floor as every other page: real type hierarchy, the interactive states, and something of the site's own character. This is the page a visitor reaches at their most annoyed, which makes it the cheapest place on the site to look like somebody cared.
 - Plain language about what happened. No apology, no error code as the headline.
 - One clear way out: home, plus the site's primary action. A dead end with a joke on it is still a dead end.
 - Returns a real 404 status, not a 200. Some hosts serve a 200 for SPA fallbacks, which quietly tells crawlers the page exists.
