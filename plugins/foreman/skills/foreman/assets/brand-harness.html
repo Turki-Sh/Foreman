@@ -9,12 +9,23 @@
 
   How to use it:
   1. Replace every [BRACKET] with the owner's real content. Never lorem ipsum.
+     Not every site is a portfolio. The h1 is whatever this page actually opens
+     with, which on some sites is a name and an address or a price, not a
+     sentence. The content unit is a project, a service, a dish, or a feature.
+     Use text of the length the real page will carry, so the type is judged
+     on what ships.
   2. Fill the three :root blocks with three genuinely different directions.
      Do not ship a variant from the AI-default set unless the owner chose it:
      cream + serif + terracotta, near-black + acid accent, broadsheet hairlines.
   3. Swap in real font links in <head> for each variant.
-  4. Open it, compare side by side, pick one.
-  5. Copy the winning values into the build brief as locked tokens.
+  4. Open it, compare side by side, and point at every link, button and card
+     before you judge. Half of what separates a designed page from a dead one
+     is only visible on hover and on tab.
+  5. Name the signature element next to the winner. The harness does not show
+     it, and it is the thing the page is remembered by.
+  6. Pick one.
+  7. Copy the winning values, including --dur and --ease, into the build brief
+     as locked tokens.
 -->
 <style>
   /* ---------- VARIANT A: [name the direction in two words] ---------- */
@@ -27,6 +38,8 @@
     --radius:    4px;
     --display:   Georgia, serif;          /* replace */
     --body:      system-ui, sans-serif;   /* replace */
+    --dur:       160ms;
+    --ease:      cubic-bezier(.2,.7,.3,1);
     --step-lg:   clamp(2.5rem, 6vw, 4rem);
     --step-md:   1.25rem;
     --step-sm:   0.875rem;
@@ -41,6 +54,8 @@
     --radius:    0px;
     --display:   system-ui, sans-serif;
     --body:      system-ui, sans-serif;
+    --dur:       120ms;
+    --ease:      ease-out;
     --step-lg:   clamp(2.25rem, 5vw, 3.5rem);
     --step-md:   1.125rem;
     --step-sm:   0.8125rem;
@@ -55,6 +70,8 @@
     --radius:    999px;
     --display:   Georgia, serif;
     --body:      system-ui, sans-serif;
+    --dur:       200ms;
+    --ease:      cubic-bezier(.16,1,.3,1);
     --step-lg:   clamp(2.5rem, 6vw, 4.25rem);
     --step-md:   1.1875rem;
     --step-sm:   0.8125rem;
@@ -96,6 +113,33 @@
                  font-family: ui-monospace, monospace; color: var(--muted); }
   .label { font-size: 11px; letter-spacing: .12em; text-transform: uppercase;
            color: var(--muted); font-family: ui-monospace, monospace; margin-bottom: 1.5rem; }
+
+  /* ---------- STATES ----------
+     Every interactive element answers a cursor and a tab key. This is not
+     decoration and it is not a non-goal. A variant that looks fine here and
+     dead in the browser is the "plain rather than minimal" failure, and this
+     block is where you see it before it reaches the brief. Judge the states,
+     not just the still frame. */
+  a { transition: color var(--dur) var(--ease), background-color var(--dur) var(--ease),
+                  border-color var(--dur) var(--ease), transform var(--dur) var(--ease),
+                  opacity var(--dur) var(--ease); }
+  .nav-links a { color: var(--muted); text-decoration: none;
+                 text-underline-offset: .25em; }
+  .nav-links a:hover { color: var(--text); text-decoration: underline; }
+  .btn:hover { transform: translateY(-1px); opacity: .92; }
+  .btn-ghost:hover { border-color: var(--text); }
+  .card { transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease);
+          border: 1px solid transparent; }
+  .card:hover { border-color: var(--accent); }
+
+  /* Focus ring in the accent, never the browser default, never removed. */
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  .variant ::selection { background: var(--accent); color: var(--bg); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 1ms !important; animation-duration: 1ms !important; }
+  }
 </style>
 </head>
 <body>
@@ -113,18 +157,18 @@
         </svg>
         [NAME]
       </div>
-      <div class="nav-links"><span>Work</span><span>About</span><span>CV</span></div>
+      <div class="nav-links"><a href="#">Work</a><a href="#">About</a><a href="#">CV</a></div>
     </nav>
 
-    <h1>[REAL HERO LINE, ONE SENTENCE]</h1>
-    <p class="lede">[REAL BIO PARAGRAPH. The owner's actual words, two or three sentences, so the type is judged on real text.]</p>
+    <h1>[THE LINE THIS PAGE OPENS WITH]</h1>
+    <p class="lede">[REAL SUPPORTING PARAGRAPH. Their bio, their product description, their hours and address. Their actual words, two or three sentences, so the type is judged on real text.]</p>
 
     <a class="btn" href="#">[PRIMARY ACTION]</a>
     <a class="btn btn-ghost" href="#">[secondary, or delete]</a>
 
     <div class="card">
-      <h3>[PROJECT TITLE]</h3>
-      <p class="muted">[One real sentence about the project, plus the result or metric.]</p>
+      <h3>[CONTENT UNIT TITLE]</h3>
+      <p class="muted">[One real sentence about it, plus the result, the price, or the metric.]</p>
     </div>
 
     <div class="tokens">
@@ -148,18 +192,18 @@
         </svg>
         [NAME]
       </div>
-      <div class="nav-links"><span>Work</span><span>About</span><span>CV</span></div>
+      <div class="nav-links"><a href="#">Work</a><a href="#">About</a><a href="#">CV</a></div>
     </nav>
 
-    <h1>[REAL HERO LINE, ONE SENTENCE]</h1>
-    <p class="lede">[REAL BIO PARAGRAPH. The owner's actual words, two or three sentences, so the type is judged on real text.]</p>
+    <h1>[THE LINE THIS PAGE OPENS WITH]</h1>
+    <p class="lede">[REAL SUPPORTING PARAGRAPH. Their bio, their product description, their hours and address. Their actual words, two or three sentences, so the type is judged on real text.]</p>
 
     <a class="btn" href="#">[PRIMARY ACTION]</a>
     <a class="btn btn-ghost" href="#">[secondary, or delete]</a>
 
     <div class="card">
-      <h3>[PROJECT TITLE]</h3>
-      <p class="muted">[One real sentence about the project, plus the result or metric.]</p>
+      <h3>[CONTENT UNIT TITLE]</h3>
+      <p class="muted">[One real sentence about it, plus the result, the price, or the metric.]</p>
     </div>
 
     <div class="tokens">
@@ -183,18 +227,18 @@
         </svg>
         [NAME]
       </div>
-      <div class="nav-links"><span>Work</span><span>About</span><span>CV</span></div>
+      <div class="nav-links"><a href="#">Work</a><a href="#">About</a><a href="#">CV</a></div>
     </nav>
 
-    <h1>[REAL HERO LINE, ONE SENTENCE]</h1>
-    <p class="lede">[REAL BIO PARAGRAPH. The owner's actual words, two or three sentences, so the type is judged on real text.]</p>
+    <h1>[THE LINE THIS PAGE OPENS WITH]</h1>
+    <p class="lede">[REAL SUPPORTING PARAGRAPH. Their bio, their product description, their hours and address. Their actual words, two or three sentences, so the type is judged on real text.]</p>
 
     <a class="btn" href="#">[PRIMARY ACTION]</a>
     <a class="btn btn-ghost" href="#">[secondary, or delete]</a>
 
     <div class="card">
-      <h3>[PROJECT TITLE]</h3>
-      <p class="muted">[One real sentence about the project, plus the result or metric.]</p>
+      <h3>[CONTENT UNIT TITLE]</h3>
+      <p class="muted">[One real sentence about it, plus the result, the price, or the metric.]</p>
     </div>
 
     <div class="tokens">

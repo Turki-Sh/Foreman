@@ -16,6 +16,8 @@ Put these in the brief as constraints. Checking them at the end means rebuilding
 - Muted, inline, looping, no controls if it is decorative.
 - Honor `prefers-reduced-motion`: fall back to the poster, do not autoplay.
 - One orchestrated moment lands harder than five scattered effects, and scattered effects are the strongest tell that a page was generated.
+- Animate `transform` and `opacity` only. Animating width, height, top, or left runs layout on every frame and janks on the phones most visitors are holding.
+- State transitions (hover, focus, active) cost nothing on any budget and are not what "no animation" is meant to exclude. A page whose links do not respond to a cursor reads as broken, not as restrained.
 
 ## Fonts
 
@@ -33,7 +35,7 @@ Not optional, and cheap at build time:
 
 - Semantic landmarks, exactly one `h1`, headings in order.
 - Visible focus ring. Never `outline: none` without a stronger replacement.
-- Contrast at least 4.5:1 for body text, 3:1 for large text. Check against the real palette from Phase 2, not the component defaults.
+- Contrast at least 4.5:1 for body text, 3:1 for large text. Check against the real palette from step 3, not the component defaults.
 - Tap targets around 44px.
 - Skip link to main content.
 - `lang` set, and `dir="rtl"` handled as a layout, not a toggle.

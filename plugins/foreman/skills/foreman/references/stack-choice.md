@@ -25,4 +25,4 @@ Any host that rebuilds from a git repository on push, on a free tier. The import
 
 ## The rule
 
-State the recommendation, give the one-line reason, and move to Phase 1. Stack debate is the most common way a build dies before it starts.
+State the recommendation, give the one-line reason, and move to step 2. Stack debate is the most common way a build dies before it starts.

@@ -10,11 +10,15 @@ The entire product is one file plus its references:
 
 ```
 plugins/foreman/skills/foreman/SKILL.md
-plugins/foreman/skills/foreman/references/    9 files, read when the phase arrives
+plugins/foreman/skills/foreman/references/    11 files, read when the step arrives
 plugins/foreman/skills/foreman/assets/        6 fillable templates
 ```
 
-Read `SKILL.md` and follow it. It tells you to interview the user before writing any code. That instruction is the product. Do not summarize the playbook back to the user, and do not announce which phase you are in.
+Read `SKILL.md` and follow it. It tells you to interview the user before writing any code. That instruction is the product, and skipping to the build is the one failure that makes the rest of the file pointless.
+
+Do not summarize the playbook back to the user and do not explain what a step is for. Mark each message with the step stamp `SKILL.md` defines, and nothing else.
+
+No em dashes and no en dashes anywhere in this repository or in anything a session produces. CI fails the build on one. Use a comma, a full stop, or two sentences.
 
 ## Installing it for your human
 
@@ -37,7 +41,7 @@ Paths move as tools change. If the table is stale for your tool, the rule that a
 
 ## If your tool cannot load reference files
 
-`SKILL.md` is self-contained enough to run on its own. The seven phases, the gates, and the failure modes are all in it. The nine reference files add depth to individual phases. A session driven by `SKILL.md` alone is still a Foreman session.
+`SKILL.md` is self-contained enough to run on its own. The five governing rules, the eight steps, the gates, and the failure modes are all in it. The eleven reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
 
 ## What this repo is not
 

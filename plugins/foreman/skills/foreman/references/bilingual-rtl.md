@@ -8,7 +8,7 @@ A second language is a layout, not a toggle. If they cannot commit to maintainin
 
 ## Translation
 
-Never machine-translate the site. The hero line and the bio in particular carry register, and a translated hero reads as imported. The owner writes both versions, or a native speaker does. If only one version can be written properly, ship that one.
+Never machine-translate the site. The line the page opens with, and the about section, carry the register, and a translated opening reads as imported. The owner writes both versions, or a native speaker does. If only one version can be written properly, ship that one.
 
 Names, job titles, and institution names are not always translated. Ask, do not assume.
 

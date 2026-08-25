@@ -5,7 +5,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 
 [![Agent Skill](https://img.shields.io/badge/agent-any-1B4DD1?style=flat&logo=markdown&logoColor=white)](AGENTS.md)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-one%20command-D97757?style=flat&logo=claude&logoColor=white)](https://code.claude.com/docs/en/plugins)
-[![Phases](https://img.shields.io/badge/phases-7-1B4DD1?style=flat)](#what-is-in-the-box)
+[![Steps](https://img.shields.io/badge/steps-8-1B4DD1?style=flat)](#what-is-in-the-box)
 [![References](https://img.shields.io/badge/references-9-1B4DD1?style=flat)](#what-is-in-the-box)
 [![Assets](https://img.shields.io/badge/assets-6-1B4DD1?style=flat)](#what-is-in-the-box)
 [![Version](https://img.shields.io/badge/version-1.3.0-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
@@ -59,7 +59,7 @@ cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/
 
 Common destinations: `~/.agents/skills/`, `~/.cursor/rules/`, `~/.codex/skills/`, or a `.github/` folder in the project. See [AGENTS.md](AGENTS.md) for per-tool paths and for what to do if your agent has no skills directory at all.
 
-**Any assistant with no skills support, including the web chat you already have open.** Paste [`SKILL.md`](plugins/foreman/skills/foreman/SKILL.md) into the conversation and say "run this on me." The phases work without the references; the references only deepen them.
+**Any assistant with no skills support, including the web chat you already have open.** Paste [`SKILL.md`](plugins/foreman/skills/foreman/SKILL.md) into the conversation and say "run this on me." The steps work without the references; the references only deepen them.
 
 ## Then say
 
@@ -80,9 +80,9 @@ The agent should answer with two questions, not with code. That is the whole poi
 
 ## What is in the box
 
-**Session flow.** Seven phases with gates, written for the agent, not for you. It does not advance until each gate is met.
+**Session flow.** Eight steps with gates, written for the agent, not for you. It does not advance until each gate is met, it stamps which step you are on in every message, and it writes no line of the site until the brief is frozen.
 
-**Nine references**, loaded only when the phase arrives: content interview, design direction, stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
+**Eleven references**, loaded only when the step arrives: content interview, design direction, the reference library, vibe-coded tells, stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
 
 **Six fillable assets:** a brand harness with three variants, a head metadata block with Open Graph and JSON-LD, a custom 404, robots.txt, sitemap.xml, and llms.txt.
 

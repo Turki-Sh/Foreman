@@ -1,6 +1,6 @@
-# Verify, ship, index (Phases 5, 6, 7)
+# Verify, ship, index (steps 6, 7, 8)
 
-## Phase 5: Verify like an engineer, not like a viewer
+## Step 6: Verify like an engineer, not like a viewer
 
 The full-width render in their own browser is the easiest thing in the world to fool themselves with. Ask for evidence, not assurances.
 
@@ -13,8 +13,17 @@ The full-width render in their own browser is the easiest thing in the world to 
 - View source: title, meta description, OG image, `lang`, `dir`.
 - Every link clicked, including the CV download.
 - Hero media weight checked on a phone connection, not on campus wifi.
+- Point at every link, button, card, and nav item. Anything that does not answer a cursor or a tab key is unfinished, not minimal.
+- Turn on reduced motion and look again. The page should read as finished standing still.
+- The signature element is the one they specified, not a static image the coding agent substituted for it.
+- Read the whole page against the register word from step 2. If the word was "playful" and the page is not, the page is wrong, not the word.
+- Read it once more for sentences that explain the page to the reader. The coding agent adds these as filler when a section looks empty. Cut them, and if the section is genuinely empty, cut the section.
+- Search the built page for em dashes and en dashes, including alt text and the meta description. The coding agent adds them even when the brief says not to.
+- Walk `vibe-coded-tells.md` against the built page. Be specific in what goes back: "this looks generated" is unactionable, "the three cards are framework defaults, the locked tokens are not in the CSS, and the primary button does nothing" is three fixes.
+- Search the built CSS for the locked hex values from step 3. If the framework palette names are there instead, the tokens did not ship, whatever the page looks like.
+- Click every button, link, tab, and toggle. Anything that implies it does something and does not is worse than an element that was never added.
 
-## Phase 6: Ship
+## Step 7: Ship
 
 Vendor names change, the sequence does not. Walk it one step at a time.
 
@@ -30,7 +39,7 @@ Before any DNS save, ask for a screenshot of the record panel and read it with t
 
 **Hard boundary:** anything requiring their credentials or their card is theirs. You cannot log into their registrar, host, or bank, so never offer to. If a coding agent claims it deployed the site, it did not.
 
-## Phase 7: Index and distribute
+## Step 8: Index and distribute
 
 A site nobody can find is not shipped.
 
