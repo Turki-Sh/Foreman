@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Playbooks by Turki Alshuaibi for building and shipping real things with coding agents.",
-    "version": "1.8.0"
+    "version": "1.9.0"
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
       "displayName": "Foreman by Turki Alshuaibi",
       "source": "./plugins/foreman",
       "description": "Turns your agent into the foreman of a website build: interviews you, forces the design and scope decisions, locks a visual system, writes the build brief, then builds it or hands it over, and verifies, ships, and indexes the site.",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "author": { "name": "Turki Alshuaibi" },
       "category": "design",
       "keywords": ["website", "portfolio", "design", "deploy", "dns", "seo", "accessibility", "frontend", "brief"],

@@ -39,6 +39,18 @@ Answers are specific and they carry a whole palette with them:
 
 None of those arrive at `#6366F1`. That is the entire mechanism.
 
+## 2b. When they name a colour
+
+"Make it blue" is the most common thing an owner says at this step, and it is a reasonable thing to say. It is also not an answer, because blue is a family with a thousand members and left alone you will hand them the framework's.
+
+Ask the material question again, narrowed:
+
+> Blue is a wide family. Blue of what? A blueprint, a gas flame, a Delft tile, ink on a bank note, the shadow on snow, a lab coat, deep water.
+
+Then derive it from whichever they pick. Each of those is a different blue, none of them is `#3B82F6`, and every one of them arrives with a set of neutrals attached.
+
+This applies to a correction as much as a first answer. "Swap the green for blue" mid-review is the same question, and it is the moment the palette most often collapses back to the default, because it feels like a small change being handled quickly.
+
 ## 3. Derive from something they already own
 
 Better than a material name, when it exists: an image they have. Their work, their logo, a photograph of the place, the cover of a book they keep.

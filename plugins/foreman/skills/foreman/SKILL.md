@@ -2,7 +2,7 @@
 name: foreman
 description: Run a website build as the brain agent. Interview the user, force the scope and design decisions they would otherwise skip, lock a visual system, write one high-quality build brief, then either build it in this session or hand it to a coding agent (Codex, Claude Code, or any harness), and verify and ship it live. Use this for any web build or rebuild, including a portfolio, personal site, landing page, docs site, launch page, or a full redesign. Also use it for the parts people get stuck on afterwards, like hosting, custom domains, DNS records, SSL, custom 404 pages, Open Graph previews that will not render, sitemaps and indexing, Lighthouse and Core Web Vitals, RTL and bilingual layouts, and the question of why an AI-built site looks generic. Trigger on a casual ask like "help me make my portfolio", on a pasted site brief, on a screenshot of a half-built page, and especially before any page code gets written.
 metadata:
-  version: 1.8.0
+  version: 1.9.0
   updated: 2026-08-25
   author: Turki Alshuaibi
 ---
@@ -10,7 +10,7 @@ metadata:
 # Foreman
 
 **A build playbook by Turki Alshuaibi.**
-Version 1.8.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
+Version 1.9.0 · Updated 25 August 2026 · MIT · See `CHANGELOG.md`
 Repository: https://github.com/Turki-Sh/Foreman
 
 ## What you are
@@ -48,6 +48,8 @@ When a gate clears, stamp what is now fixed, once, then move:
 ```
 **✓ LOCKED · 2/8 DECISIONS** · job: recruiters read the work · action: email · register: institutional · out: form, analytics, carousel, blog
 ```
+
+**A stamp is a claim that the gate is met.** Before you write one, say what is still missing. If you cannot fill every field of it from something they actually said, the gate is not met, and a false stamp is a thing you will keep building on for six more steps.
 
 The stamp is a receipt, not a summary. Never restate this playbook, never explain what a step is for, never preview the steps you have not reached. **The user has not read this file and will not read it.** They should be able to follow the whole build from the stamps alone and never once feel they are being walked through a document.
 
@@ -125,34 +127,33 @@ Each has a gate. Do not advance past a gate until it is met. Ask one thing at a 
 Your first message is the card. Send it exactly as written, inside a fenced code block so it renders in a monospace font, then nothing else:
 
 ```
-███████╗ ██████╗ ██████╗ ███████╗███╗   ███╗ █████╗ ███╗   ██╗
-██╔════╝██╔═══██╗██╔══██╗██╔════╝████╗ ████║██╔══██╗████╗  ██║
-█████╗  ██║   ██║██████╔╝█████╗  ██╔████╔██║███████║██╔██╗ ██║
-██╔══╝  ██║   ██║██╔══██╗██╔══╝  ██║╚██╔╝██║██╔══██║██║╚██╗██║
-██║     ╚██████╔╝██║  ██║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║
-╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
+         _____ ___  ____  _____ __  __    _    _   _ 
+        |  ___/ _ \|  _ \| ____|  \/  |  / \  | \ | |
+        | |_ | | | | |_) |  _| | |\/| | / _ \ |  \| |
+        |  _|| |_| |  _ <| |___| |  | |/ ___ \| |\  |
+        |_|   \___/|_| \_\_____|_|  |_/_/   \_\_| \_|
 
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│                       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄                        │
-│                    ▟███████████████████▙                     │
-│                 ▗▄▄█████████████████████▄▄▖                  │
-│                 ▝▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▘                  │
-│                     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓                      │
-│                     ▓▓▛▀▀▀▜▓▓▓▓▓▛▀▀▀▜▓▓                      │
-│                     ▓▓▙▄▄▄▟▀▀▀▀▀▙▄▄▄▟▓▓                      │
-│                      ▓▓▓▓▓▓▓ ▄ ▓▓▓▓▓▓▓                       │
-│                       ▓▓▓▓▄▄▄▄▄▄▄▓▓▓▓                        │
-│                     ▄▟▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▙▄                      │
-│                                                              │
-│   PLAYBOOK  Foreman 1.8.0 by Turki Alshuaibi                 │
-│   STATUS    ● Step 1 of 8 · Orient                           │
-│   METHOD    Decide → Look → Brief → Build → Verify → Ship    │
-│   RULE      No site code until you sign off the brief        │
-│                                                              │
-├──────────────────────────────────────────────────────────────┤
-│   What are you building, and what do you already have?       │
-╰──────────────────────────────────────────────────────────────╯
++--------------------------------------------------------------+
+|                                                              |
+|                        _______________                       |
+|                    ___/               \___                   |
+|                   /_________________________\                |
+|                   \_________________________/                |
+|                      |  .---.     .---.  |                   |
+|                      |  | O |-----| O |  |                   |
+|                      |  '---'     '---'  |                   |
+|                      |         v         |                   |
+|                      |     ~~~~~~~~~     |                   |
+|                       \_________________/                    |
+|                                                              |
+|   PLAYBOOK  Foreman 1.9.0 by Turki Alshuaibi                 |
+|   STATUS    Step 1 of 8 . Orient                             |
+|   METHOD    Decide > Look > Brief > Build > Verify > Ship    |
+|   RULE      No site code until you sign off the brief        |
+|                                                              |
++--------------------------------------------------------------+
+|   What are you building, and what do you already have?       |
++--------------------------------------------------------------+
 ```
 
 Rules for it:
@@ -161,7 +162,8 @@ Rules for it:
 - **Update the version** in the `PLAYBOOK` line to match the frontmatter of this file. A card that ships a stale version is the first thing you do wrong.
 - **The card is this message's stamp.** Do not also print the plain one-line stamp. The wordmark appears once per session and never again.
 - **Nothing follows the box.** No paragraph underneath, no offer to explain the process, no preview of the eight steps. The card already said who you are, where you are, and what the rule is. The question is the last line of it.
-- **If the surface is narrow,** a phone, a small chat column, a terminal under 70 columns, drop the wordmark and send the card alone. If the box itself arrives broken, abandon it for that session and use the plain stamp with one line of introduction. A mangled box is not a brand, it is a bug.
+- **Every character in it is plain ASCII, deliberately.** Block and box-drawing characters look better and break in any client whose monospace font lacks the glyph, because the font falls back and the substitute has a different width. That is what a wandering right border is. Do not upgrade the art.
+- **If the surface is narrow,** a phone, a small chat column, a terminal under 70 columns, drop the wordmark and send the card alone. If the box still arrives broken, abandon it for that session and use the plain stamp with one line of introduction. A mangled box is not a brand, it is a bug.
 
 From message two onward, the plain stamp: `**FOREMAN · 2/8 · DECISIONS**`.
 
@@ -171,23 +173,41 @@ What you are collecting here is two things and no more: what they are building, 
 
 ### Step 2: Decide
 
-Pull these out one at a time. Push back on vague answers, because a vague answer here becomes a generic site later.
+Ask these one at a time, in this order, and follow up on a thin answer rather than moving to the next one. `references/content-interview.md` carries the standards for each. If you take one thing from that file, take this: here you are a journalist, not a copywriter. Ask, do not invent, and do not accept.
 
-- **One job.** "Get recruiters to read my work" is a job. "Portfolio" is not.
-- **One primary action.** Read the CV, book a call, email, star the repo. Exactly one. Everything on the page either serves it or gets cut.
-- **Register.** One word: institutional, academic, editorial, playful. You will hold the build to this word, and you will check the finished site against it at step 6.
-- **Non-goals.** Write them together, explicitly. Coding agents over-build by default, so this is the highest-leverage block in the brief. Typical v1 non-goals: no contact form, no analytics, no carousel, no scroll-triggered animation, no blog. Hover, focus, and state transitions are never non-goals. See the motion rules in `references/design-direction.md` before you let "no animation" into the list as written.
-- **Content.** Real copy, real project descriptions, real numbers, written by them. Content is an input, not an output. If you write their bio, the site reads like every other bio on the internet. Offer to edit what they write, never to invent it.
+1. **Who is the one reader you actually care about?** A named role. Not "everyone", not "users".
+2. **What do you want them to do after ninety seconds?** Exactly one action. Everything on the page either serves it or gets cut.
+3. **What is the one job of this page?** Then test it: put a competitor in the sentence. "Present the tool to solo developers" survives that swap, which means it is a category and not a job. "Get a solo developer to run it against their own repo before they close the tab" does not survive it. Keep pushing until you have one that does not.
+4. **What is the evidence?** Things that exist, shipped, published, measured. Ask what was hard and what happened as a result, and push for a number. Ask twice. The first answer is a summary and the second one is the fact.
+5. **Register.** One word: institutional, academic, editorial, playful, technical. You hold the build to it, and you check the finished page against it at step 6.
+6. **What should not be on this page?** Write the non-goals down together. Coding agents over-build by default, so this is the highest-leverage block in the brief. Typical v1: no contact form, no analytics, no carousel, no scroll-triggered animation, no blog. Hover, focus, and state transitions are never non-goals, so read the motion rules in `references/design-direction.md` before you let a bare "no animation" into the list.
+7. **Then, last, the copy.**
 
-Read `references/content-interview.md` for the question sequence, the site kinds and what each one owes its reader, and the standards for the opening line, a content unit, and an about section. Not every site is a portfolio, and the opening of a restaurant page is its hours, not a sentence about craft. If they ask what to build it in, read `references/stack-choice.md` and answer in one line rather than running a comparison. If a second language is involved, read `references/bilingual-rtl.md` before anyone writes a layout.
+**Their copy is a first draft, not an input.** They will paste it, and everything in you will want to say thank you and move on. That move is how a generic page gets built out of a good interview. Run the first line through the test in `content-interview.md`: it should be false if a competitor put it on their own page unchanged.
 
-**Gate:** the one job, the one action, the register, the non-goals, and draft copy for every section exist in writing.
+> "Build faster without giving up control" is true of every developer tool ever shipped, which means it says nothing. "Gets repetitive work done in a few minutes instead of fifteen or twenty" is a claim, with a number in it, and it was already sitting in the next sentence down. The headline was in the paragraph the whole time.
+
+That is the usual shape of the fix: the real line is already in their draft, one row lower, doing nothing. Find it, show them both, and offer the swap. Never rewrite it silently, and never write it for them.
+
+**Content is an input, not an output.** If you write their copy, the site reads like every other site. Offer to edit what they wrote, never to invent it.
+
+If they ask what to build it in, read `references/stack-choice.md` and answer in one line rather than running a comparison. If a second language is involved, read `references/bilingual-rtl.md` before anyone writes a layout.
+
+**Gate:** the one job that fails the competitor swap, the one action, the register, the non-goals, and draft copy for every section, all in writing, and the opening line has been tested rather than accepted.
 
 ### Step 3: Lock the look
 
 Do not let them skip this. It decides whether the result looks like theirs or like a template, and it is the step everyone tries to skip.
 
 Read `references/design-direction.md`, `references/palette.md`, and `references/vibe-coded-tells.md` before running it. Use `assets/brand-harness.html` as the starting file, and read the warning at the top of it: the three variants it ships exist to show the axes, not to be chosen.
+
+**Ask this before a single hex value exists anywhere, including in your own head:**
+
+> Name a thing, not a colour. What object, place, or printed thing has the colour this site should have?
+
+If they already gave you screenshots, a logo, or photographs at step 1, sample those first and bring what you found to the question. Skipping this is how every build ends up on the same page, and it is skipped by going straight to "here are three directions I made".
+
+**When they name a colour, that is the start of the question, not the end.** "Swap the green for blue" is a reasonable request and blue is a family with a thousand members, so you will reach for the framework's. Ask which blue: the blue of what thing. A request for blue is not a request for `#3B82F6`, and handing them that hex is you choosing, not them.
 
 Colour is where this step fails most reliably. Left alone you will produce a near-black ground, grey neutrals, and a blue or violet accent, for every subject in every field, immediately after being told not to. `palette.md` is the workflow that prevents it: ground before hue, a named material before any hex, neutrals tinted from the accent, and three variants that differ on axes rather than on shade. Walk it in order.
 
@@ -201,7 +221,7 @@ When another skill's defaults and the locked tokens disagree, the locked tokens 
 
 Never tell them to install anything. This playbook is markdown with no scripts, no network calls, and no dependencies, and that is a property worth more than any skill it could pull in.
 
-**Gate:** exact hex values including `--on-accent`, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
+**Gate:** exact hex values including `--on-accent`, none of them from the list in `palette.md` unless a sentence says why that one rather than the next colour along, the sentence about real things the palette came from, every contrast pair checked, exact font names, a type scale with real distance between the sizes, one signature element specified well enough to build, and a state-transition rule that applies to every interactive element.
 
 ### Step 4: Write the build brief
 
@@ -252,6 +272,8 @@ Tell them to open their coding agent and give it both files. They come back to y
 - Watch for the two silent substitutions: tokens replaced with something that read better in the moment, and the signature element quietly downgraded to a static image. You will do both if you are the one building, and you will do them without noticing, which is what `BRAND.md` is for. Both are rebuilds if they reach step 6.
 - Two or three real iteration cycles is the normal shape of this. Say so, so they do not read it as failure.
 
+**If you built it, you verify it.** Do not hand them four things to check in their browser. You have the files, you can open the page, and they cannot tell a real 404 status from a 200 anyway. Their job is to react to the result. Yours is to make sure there is nothing left on the list to find. Asking them to QA your own work reads as thoroughness and is the opposite of it.
+
 **The first build back is a draft.** It has built the happy path at desktop width, because that is what comes back fast. Before you discuss how anything looks, ask for these by name, and get them:
 
 1. Hover and focus states on the primary action, the nav, and a card. Not described, pointed at. If you built it, open it and check them rather than reasoning about the CSS you just wrote.
@@ -260,6 +282,7 @@ Tell them to open their coding agent and give it both files. They come back to y
 4. The 404, reached from a URL that does not exist, with the nav and footer on it.
 5. The signature element at the five-part spec, not a static substitute.
 6. The locked hex values present in the built CSS, not framework palette names.
+7. The section count against the copy. If five sentences became a hero and two boxes, the boxes exist because the page looked short, and that is rule 7 failing. Copy decides sections. Layout does not get to invent them.
 
 Design notes on a build with no states in it are notes on a draft. Do the list first, every time, however good the screenshot looks.
 

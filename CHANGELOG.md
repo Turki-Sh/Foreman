@@ -2,6 +2,58 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 1.9.0, 25 August 2026
+
+From a full 1.7.0 run in Antigravity. The steps ran, the gates were stamped,
+and the page was still the generic one, which located the failure precisely:
+every gate was declared met without being met, and nothing in the playbook
+checked.
+
+Changed:
+- **The first-message card is pure ASCII now.** Block and box-drawing
+  characters look better and fall back to a substitute font in any client
+  whose monospace face lacks the glyph, and a substitute has a different
+  advance width. That is what a wandering right border and a smeared face
+  are. The card uses nothing above code point 126 and cannot fall back.
+- **A stamp is a claim that the gate is met.** Before writing one, say what is
+  missing. If every field cannot be filled from something they actually said,
+  the gate is not met, and a false stamp is a thing the next six steps get
+  built on. The observed case stamped `job: present tool to solo devs`, which
+  is a category, not a job.
+- **Step 2 carries the interview inline** rather than delegating all of it to
+  `content-interview.md`, because a partial file load produced four questions
+  and a shipped draft. Six questions in order, with the competitor swap as the
+  test for the one job: if a rival could put the same sentence on their page
+  unchanged, it is a category. Evidence gets asked for twice, because the
+  first answer is a summary and the second is the fact.
+- **Copy they paste is a first draft, not an input.** The strongest pull in
+  the step is to receive finished-looking copy, say thank you, and move on,
+  which is how a careful interview still produces a generic page. Everything
+  pasted now gets read against the opening-line test first.
+- **The buried headline**, in `content-interview.md` and the worked example.
+  People lead with an abstraction and then say the true thing one row lower as
+  though it were support. "Build faster without giving up control" is true of
+  every developer tool ever shipped; "gets repetitive work done in a few
+  minutes instead of fifteen or twenty" has a number in it and was already in
+  the next sentence. The most common fix is a swap that invents nothing.
+- **The material question is now in `SKILL.md` itself**, in the words to use,
+  and it fires before any hex value exists. Delegating it to `palette.md`
+  meant the reference library got read and the palette workflow did not, and
+  the step collapsed into "here are three directions I made".
+- **When they name a colour, that is the start of the question.** "Swap the
+  green for blue" is reasonable and blue is a family with a thousand members,
+  so left alone you hand them the framework's. Blue of what: a blueprint, a
+  gas flame, a Delft tile, ink on a bank note, the shadow on snow. Mid-review
+  corrections are where the palette most often collapses back to the default,
+  because the change feels small.
+- **If you built it, you verify it.** The observed run built the site and then
+  handed the owner four things to check in their own browser. You have the
+  files, and they cannot tell a real 404 status from a 200. Their job is to
+  react to the result.
+- The first-build checklist gained a seventh item: the section count against
+  the copy. Five sentences that became a hero and two boxes means the boxes
+  exist because the page looked short. Copy decides sections.
+
 ## 1.8.0, 25 August 2026
 
 The handoff was written when the brain was assumed to live in a chat. It is

@@ -2,7 +2,9 @@
 
 Most first drafts fail here, not in the design. "Passionate about AI and always learning" is not content, it is the absence of content wearing a sentence.
 
-Your job is to extract real material from them. You are a journalist, not a copywriter. Ask, do not invent.
+Your job is to extract real material from them. You are a journalist, not a copywriter. Ask, do not invent, and do not accept.
+
+**Copy they hand you is a first draft, not an input.** The strongest pull in this whole step is to receive a paste of finished-looking copy, say thank you, and move on. That is how a careful interview still produces a generic page. Everything they paste gets read against the tests below before it goes anywhere near a brief.
 
 ## First, what kind of page this is
 
@@ -51,7 +53,13 @@ Strong: "Payroll for companies with people in more than one country."
 Weak: "Authentic flavours in a warm atmosphere."
 Strong: "Damascene home cooking. Open Tuesday to Sunday, 5 to 11."
 
-No adjective survives unless evidence follows it within two lines. If the page opens with an image instead, the test moves to the image: photograph the actual room, the actual product, the actual work, never a stock approximation of it.
+No adjective survives unless evidence follows it within two lines.
+
+**The real line is usually already in their draft, one row lower.** People lead with the abstraction and then say the true thing in the next sentence, as though it were support. It is not support, it is the headline.
+
+> Draft: "Build faster without giving up control. A small AI tool that gets repetitive work done in a few minutes instead of fifteen or twenty."
+
+The first sentence is true of every developer tool ever shipped. The second has a number in it and would be false on a competitor's page. Swap them and the page is fixed, without a single word being invented. Look for this before you propose anything new, because it is the most common fix and the only one that costs nothing. If the page opens with an image instead, the test moves to the image: photograph the actual room, the actual product, the actual work, never a stock approximation of it.
 
 ## Content units
 

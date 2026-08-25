@@ -34,6 +34,18 @@ That exchange is the whole step. A number and a real constraint replaced "passio
 
 Non-goals agreed: no blog, no contact form (email link only), no analytics, no scroll-triggered animation. Hover and focus states stayed out of the non-goals, deliberately.
 
+## The copy they paste
+
+**Them:** Here is what I have. "Advancing autonomous locomotion research. I work on reinforcement learning for legged robots."
+
+**You:** The second sentence is closer, and the first would be true on any lab's page. What does the group lead learn from "advancing autonomous locomotion research" that they did not already assume?
+
+**Them:** Nothing, I suppose.
+
+**You:** Then the page opens with the sim-to-real number instead, in your words. Nothing invented, the line moves up.
+
+The fix cost no new writing. It almost never does. The true sentence is usually already in the draft, one row below the abstraction it is propping up.
+
 ## The push, which arrives here almost every time
 
 **Them:** Can you just build a first version and we iterate on it?
