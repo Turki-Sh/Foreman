@@ -1,6 +1,6 @@
 # Reference library
 
-Where to send them at step 3, and where to look yourself. Everything here is a starting point rather than an endorsement, and any of it can be dead or changed by the time you read this. Check what you hand over.
+Where to send them at step 3, and where the board in `../toolbelt/board.md` looks for real sites on their behalf. Everything here is a starting point rather than an endorsement, and any of it can be dead or changed by the time you read this. Check what you hand over.
 
 ## The offer
 

@@ -2,24 +2,49 @@
   "name": "alshuaibi",
   "owner": {
     "name": "Turki Alshuaibi",
-    "url": "https://github.com/Turki-Sh"
+    "url": "https://turkialshuaibi.com/"
   },
   "metadata": {
-    "description": "Playbooks by Turki Alshuaibi for building and shipping real things with coding agents.",
-    "version": "2.2.0"
+    "description": "Foreman and other playbooks by Turki Alshuaibi for building and shipping real things with coding agents.",
+    "version": "3.0.0"
   },
   "plugins": [
     {
       "name": "foreman",
       "displayName": "Foreman by Turki Alshuaibi",
       "source": "./plugins/foreman",
-      "description": "Turns your agent into the foreman of a website build: interviews you, forces the design and scope decisions, locks a visual system, writes the build brief, then builds it or hands it over, and verifies, ships, and indexes the site.",
-      "version": "2.2.0",
-      "author": { "name": "Turki Alshuaibi" },
+      "description": "Foreman by Turki Alshuaibi turns your agent into the foreman of a website build: it interviews you, forces the design and scope decisions, locks a visual system, writes the brief, then builds or hands it over, and verifies, ships and indexes the site. Survey, Blueprint and Stress test modes. A toolbelt of four standalone tools: board, punch list, palette and launch.",
+      "version": "3.0.0",
+      "author": {
+        "name": "Turki Alshuaibi",
+        "url": "https://turkialshuaibi.com/"
+      },
       "category": "design",
-      "keywords": ["website", "portfolio", "design", "deploy", "dns", "seo", "accessibility", "frontend", "brief"],
-      "homepage": "https://github.com/Turki-Sh/Foreman",
-      "license": "MIT"
+      "keywords": [
+        "website",
+        "web-design",
+        "landing-page",
+        "portfolio",
+        "design",
+        "design-system",
+        "ui",
+        "typography",
+        "color",
+        "ai-slop",
+        "vibe-coding",
+        "audit",
+        "seo",
+        "open-graph",
+        "dns",
+        "deploy",
+        "accessibility",
+        "rtl",
+        "frontend",
+        "agent-skills"
+      ],
+      "homepage": "https://foreman.turkialshuaibi.com/",
+      "license": "MIT",
+      "repository": "https://github.com/Turki-Sh/Foreman"
     }
   ]
 }

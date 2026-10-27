@@ -6,12 +6,15 @@ Foreman is a build playbook, not a library. It contains no code to run, no depen
 
 ## If you are an agent reading this repo
 
-The entire product is one file plus its references:
+The entire product is one file plus the files it reads when they are needed:
 
 ```
 plugins/foreman/skills/foreman/SKILL.md
-plugins/foreman/skills/foreman/references/    13 files, read when the step arrives
-plugins/foreman/skills/foreman/assets/        6 fillable templates
+plugins/foreman/skills/foreman/references/    14 files, read when the step arrives
+plugins/foreman/skills/foreman/toolbelt/      4 tools: board, punch list, palette, launch
+plugins/foreman/skills/foreman/assets/        7 fillable templates
+plugins/foreman/skills/{board,punch-list,palette,launch}/SKILL.md
+                                              thin wrappers that make the tools slash commands in Claude Code
 ```
 
 Read `SKILL.md` and follow it. It tells you to interview the user before writing any code. That instruction is the product, and skipping to the build is the one failure that makes the rest of the file pointless.
@@ -22,7 +25,7 @@ No em dashes and no en dashes anywhere in this repository or in anything a sessi
 
 ## Installing it for your human
 
-Foreman needs no adapter. Copy one folder to wherever your tool looks for skills, rules, or instructions.
+Foreman needs no adapter. Copy one folder, `plugins/foreman/skills/foreman/`, to wherever your tool looks for skills, rules, or instructions. The toolbelt and the modes are inside it. The four wrapper folders beside it are optional: copy them next to it if your tool turns skills into commands.
 
 | Tool | Destination |
 |---|---|
@@ -41,27 +44,30 @@ Paths move as tools change. If the table is stale for your tool, the rule that a
 
 ## If your tool cannot load reference files
 
-`SKILL.md` is self-contained enough to run on its own. The eight governing rules, the eight steps, the gates, and the failure modes are all in it. The thirteen reference files add depth to individual steps. A session driven by `SKILL.md` alone is still a Foreman session.
+`SKILL.md` is self-contained enough to run on its own. The eight governing rules, the three modes, the eight steps, the gates, and the failure modes are all in it. The fourteen reference files add depth to individual steps, and the toolbelt files are needed only for the four tools. A session driven by `SKILL.md` alone is still a Foreman session.
 
 ## What this repo is not
 
-Do not treat this as a template to copy into a user's project. Nothing here belongs in their site. `assets/` holds starting points that get filled in and moved, and `brand-harness.html` is explicitly a throwaway file that gets deleted once the design tokens are locked.
+Do not treat this as a template to copy into a user's project. Nothing here belongs in their site. `assets/` holds starting points that get filled in and moved, and `brand-harness.html` and `reference-board.html` are throwaway files that get deleted once their decisions are made.
 
 ## Releasing
 
-The version string lives in six places. Change all six in the same commit, or the site starts claiming a version that is not the one people install.
+`plugins/foreman/.claude-plugin/plugin.json` is the one source for the version. Every other copy must match it in the same commit, and the `validate` workflow fails when one does not:
 
-1. `plugins/foreman/skills/foreman/SKILL.md` frontmatter `version` and `updated`
-2. The same file's body line under the title
-3. The `PLAYBOOK` row inside the first-message card in that file
-4. `plugins/foreman/.claude-plugin/plugin.json`
-5. `.claude-plugin/marketplace.json` (both the metadata block and the plugin entry)
-6. `docs/index.html`: the JSON-LD `softwareVersion` and the footer stamp
+1. `plugins/foreman/skills/foreman/SKILL.md`: frontmatter `version` and `updated`, the body line under the title, and the `PLAYBOOK` row in the card
+2. The `metadata.version` of the four wrapper skills in `plugins/foreman/skills/`
+3. `.claude-plugin/marketplace.json`: the metadata block and the plugin entry
+4. The version badge in `README.md`, and a `CHANGELOG.md` entry
 
-Also on every release: `docs/sitemap.xml` `lastmod`, a `CHANGELOG.md` entry, and a rebuild of `dist/foreman.skill` with
-`cd plugins/foreman/skills && zip -r ../../../dist/foreman.skill foreman -x '*.DS_Store'`.
+The site in `docs/` is generated. Edit `site/`, never `docs/` directly, then run `python scripts/build_site.py`, which takes the version, the date, and every count (steps, modes, tools, references, assets) from the manifest and the folders, and writes the pages, the sitemap, and `llms.txt`. CI rebuilds it and fails if `docs/` differs.
 
-Counts in prose go stale the same way. The number of steps, the number of reference files, and the number of failure modes appear in `README.md`, `AGENTS.md`, `CONTRIBUTING.md`, `docs/index.html`, and `docs/llms.txt`.
+Then rebuild `dist/foreman.skill` from the committed files, so line endings match what CI unpacks:
+
+```
+git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugins/foreman/skills foreman
+```
+
+Counts in prose go stale the same way as versions. The README badges, `AGENTS.md`, and `CONTRIBUTING.md` carry the counts by hand, and the validate workflow checks the badges.
 
 ## Contributing
 

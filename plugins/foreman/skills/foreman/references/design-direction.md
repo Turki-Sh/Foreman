@@ -96,11 +96,11 @@ The subject's own world is where distinctive choices come from. A robotics resea
 
 ## Offer the reference step, once
 
-Most people have no references and will not go looking unless you hand them somewhere to look. Offer it in one message, with the skip attached, before the harness:
+Most people have no references and will not go looking unless you hand them somewhere to look. The board in `../toolbelt/board.md` is how this runs: it does the looking for them and brings back real sites chosen for this brief. Offer it in one message, with the skip attached, before the harness:
 
 > Optional, ten minutes: browse a few of these and send me two or three pages you like and one you hate. It changes the harness a lot. Or skip it and I will bring you three directions to choose from.
 
-`references/reference-library.md` holds the places to send them, sorted by what each is good for: galleries, product and interface, motion, type, colour, and the non-web sources that produce the least derivative results. Send three or four rows that match what is being built, never the whole file, because a list of forty links is a way of not choosing.
+`reference-library.md` holds the places the board searches, sorted by what each is good for: galleries, product and interface, motion, type, colour, and the non-web sources that produce the least derivative results. When the session cannot browse, the fallback is three or four rows of it that match what is being built, never the whole file, because a list of forty links is a way of not choosing.
 
 If they skip, run the harness on your own read of the register word and move. Never ask twice.
 

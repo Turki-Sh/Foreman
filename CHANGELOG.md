@@ -2,6 +2,82 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 3.0.0, 27 October 2026
+
+Major, because the session flow changed: it now runs at three depths, and four
+of its parts can run without the session at all.
+
+The evidence this time was feedback rather than a broken build. People who ran
+Foreman said it asked too many questions, and they were right about the cost
+and wrong about the cure. The cure most tools reach for is to ask less and
+assume more, and an agent that assumes is an agent that lands on the average,
+which is the page this playbook exists to stop. So the questions did not get
+fewer for free. In the new short mode, every question that is skipped becomes
+research the agent has to do instead.
+
+Added:
+- **Three modes: Survey, Blueprint, and Stress test.** A mode changes how many
+  questions are asked and who does the legwork. It never changes which
+  decisions get made, and every gate holds in all three at the same
+  resolution. Blueprint is the full interview as it was. Stress test pushes
+  every answer once, runs a pre-mortem before the brief freezes, makes the
+  reference board part of step 3, and runs the full punch list plus a stranger
+  test at step 6.
+- **Survey researches instead of asking.** It reads the repo, the current site,
+  the CV and the product's docs, looks at four or five real sites in the
+  category to see what they all do, and sends the step 2 decisions as one
+  sheet with a source on every line. An assumption with no source is a
+  question and still gets asked. The palette pick, the copy, and the sign-off
+  on the brief stay with the owner in every mode, because those are the
+  decisions the playbook exists to put in their hands.
+- **The mode is never a question.** The card carries a `MODE` line, the owner
+  switches by saying the word at any point, and a session started with a mode
+  word opens in it. Asking someone how many questions they want is one more
+  question.
+- **Questions in the cheapest form available.** Where the harness has a
+  structured question tool, a question with a likely answer goes through it
+  with the recommendation first and room for their own. Most of "too many
+  questions" turned out to be too much typing.
+- **The toolbelt.** Four tools, each one file in `toolbelt/`, that run on their
+  own or mid-session without losing the step: **board** (real sites chosen for
+  this brief, as a list or a visual board, ending in named principles),
+  **punch list** (an audit of any site, ranked, each item with its fix, and no
+  invented score), **palette** (three variants from a named material, contrast
+  checked, in `brand.html`), and **launch** (domain, DNS, SSL, metadata, the
+  404, the sitemap and indexing, for a site built anywhere). In Claude Code they
+  are also slash commands, `/foreman:board`, `/foreman:punch-list`,
+  `/foreman:palette` and `/foreman:launch`, through four thin wrapper skills
+  that read the same files.
+- **The visual board has a condition.** It is built only when the session can
+  capture real screenshots. A board of text cards is a list in a costume, and
+  the list is the default because it works everywhere, a phone included.
+- **`references/standards.md`,** a fourteenth reference: colour theory,
+  proportion and the golden ratio, type scale and measure, spacing, gestalt
+  grouping, hierarchy, motion timing, and optical correction. Written as
+  standards, not rules: each is a default with a reason, departed from on
+  purpose with the reason written in `BRAND.md`. It is honest about the golden
+  ratio, whose mathematics is real and whose aesthetic claims mostly are not.
+- **`assets/reference-board.html`,** the throwaway visual board, with keep and
+  skip marks that work without a line of script.
+- **The same opening in Survey,** added to the worked example.
+
+Changed:
+- Rule 4's compressed run is now Survey, with the legwork moved to the agent.
+- The stamp carries the mode outside Blueprint, and each tool stamps its own
+  name.
+- The brief template records the scale ratio, the spacing base, and the
+  standards departed from.
+- The plugin's homepage is the site rather than the repository, and the
+  README, the plugin README and the manifests were rewritten around install,
+  usage, the modes, and the tools.
+- The README badges said version 1.3.0 and nine references while the playbook
+  was at 2.2.0 with thirteen. That is the stale-number failure this playbook
+  warns about, on its own front page. The version now has one source,
+  `plugin.json`, and CI fails when any copy disagrees with it.
+- The site is generated from `site/` by `scripts/build_site.py`, which takes
+  every version and count from the manifest and the folders, and CI rebuilds it
+  to check `docs/` matches.
+
 ## 2.2.0, 25 August 2026
 
 The most important change in the 2.x line, and a correction rather than an

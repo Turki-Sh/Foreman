@@ -4,6 +4,8 @@ A reference board for one build: real sites picked for this brief, shown so they
 
 Stamp every message `**FOREMAN · BOARD**`. Mid-session, carry on from the step you were on once the board is done.
 
+Every path in this file is relative to the foreman skill folder, the parent of `toolbelt/`.
+
 ## What the board is for
 
 Not inspiration. Most people have no references and will not go looking, and a list of galleries is a way of not choosing. The board does the looking for them and hands back a short set of real pages, each with the one thing worth taking from it. What comes back is not the board. It is their picks, and the principles you read out of the picks.
@@ -37,7 +39,7 @@ For each entry, one line on what to look at, written as a principle, never as pr
 
 **The list is the default.** It always works, and it is what you send first.
 
-**Build the visual board when they ask for it, or in Stress test, and only when you can put real screenshots in it.** A board of text cards is a list in a costume. If you cannot capture screenshots in this session, say so in one line and send the list.
+**Build the visual board when they ask for it, or in Stress test, and only when you can put real screenshots in it.** A board of text cards is a list in a costume. If you cannot capture screenshots in this session, say so in one line and send the list, in Stress test too.
 
 The visual board is `assets/reference-board.html`, filled in and saved as `board.html` beside the screenshots, which go in a `board/` folder next to it, one desktop capture per entry at 1440 wide, plus a phone capture at 390 for any entry where the phone version is the point. It is a throwaway, like `brand.html`, and never joins the project. Open it for them if you can. The screenshots are for their eyes. They are not shipped, published, or put in the repo.
 

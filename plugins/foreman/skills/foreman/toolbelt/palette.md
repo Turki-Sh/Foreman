@@ -4,6 +4,8 @@ Three palettes built from something real, compared side by side on the owner's o
 
 Stamp every message `**FOREMAN · PALETTE**`.
 
+Every path in this file is relative to the foreman skill folder, the parent of `toolbelt/`.
+
 The workflow is `references/palette.md`, in order. This file is how to run it as a tool. Read both.
 
 ## 1. What you need before any hex exists

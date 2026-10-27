@@ -23,15 +23,17 @@ That last line is the contribution. If it becomes a gate, a constraint, or a fai
 
 **Factual corrections.** A DNS instruction that no longer matches a registrar's panel. A host that changed its build settings. A dead link. A Lighthouse threshold that moved.
 
-**Bugs in the templates.** `assets/` ships a 404, a head block, a brand harness, robots.txt, sitemap.xml and llms.txt. If one is invalid, inaccessible, or wrong in a browser I did not check, fix it.
+**Bugs in the templates.** `assets/` ships a 404, a head block, a brand harness, a reference board, robots.txt, sitemap.xml and llms.txt. If one is invalid, inaccessible, or wrong in a browser I did not check, fix it.
 
-**Translations.** Open an issue first so we agree on scope before you translate thirteen reference files.
+**Translations.** Open an issue first so we agree on scope before you translate fourteen reference files.
 
 ## Closed, open an issue instead
 
-**New reference documents.** Thirteen is past the point where an agent reliably loads them all, which is why the irreducible move from each one is repeated inside `SKILL.md`. New material has to displace something, or prove it belongs in the skill itself.
+**New reference documents.** Fourteen is past the point where an agent reliably loads them all, which is why the irreducible move from each one is repeated inside `SKILL.md`. New material has to displace something, or prove it belongs in the skill itself.
 
-**Changes to the eight steps or their gates.**
+**New tools for the toolbelt.** A tool earns a place by being something people ask for on its own, outside a session. Open an issue with the request people actually make, in their words.
+
+**Changes to the eight steps, the three modes, or their gates.**
 
 **Options and alternatives.** A rule that offers three ways to do something is not a rule. If a rule produced a bad result for you, show me the build. That moves me. A pull request adding a second option does not.
 
@@ -42,18 +44,21 @@ That last line is the contribution. If it becomes a gate, a constraint, or a fai
 The `validate` workflow runs on every pull request. It fails if:
 
 - The manifests disagree or drop a required field
-- `SKILL.md` frontmatter is missing or the description exceeds the limit
-- `SKILL.md` names a file that does not exist
+- Any copy of the version disagrees with `plugin.json`
+- A skill's frontmatter is missing, does not parse, or its description exceeds the limit
+- `SKILL.md` or a toolbelt file names a file that does not exist
 - Anything executable appears under `plugins/`
 - `dist/foreman.skill` has drifted from the source skill
+- `docs/` differs from what `scripts/build_site.py` builds from `site/`
 - An em dash or en dash appears in the prose
 
-If you change anything under `plugins/foreman/skills/foreman/`, rebuild the bundle in the same commit:
+If you change anything under `plugins/foreman/skills/foreman/`, rebuild the bundle in a commit after it, from the committed files:
 
 ```
-rm -f dist/foreman.skill
-cd plugins/foreman/skills && zip -rq ../../../dist/foreman.skill foreman -x '*.DS_Store'
+git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugins/foreman/skills foreman
 ```
+
+If you change the site, edit `site/` and run `python scripts/build_site.py`. Never edit `docs/` by hand.
 
 One concern per pull request. A branch that fixes a Windsurf path and rewrites the brief template will be asked to split.
 

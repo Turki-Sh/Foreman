@@ -4,6 +4,8 @@ On a building site, the punch list is everything that does not meet the spec, wa
 
 Stamp every message `**FOREMAN · PUNCH LIST**`.
 
+Every path in this file is relative to the foreman skill folder, the parent of `toolbelt/`.
+
 ## 1. Look at the real thing
 
 You audit what you saw, never what you assume. Get the strongest access the session allows and say which you had.
@@ -70,7 +72,7 @@ Could not check: form submission (no test account).
 
 ## 4. Then
 
-Offer the next move once. If this session can edit the project: fix it one concern at a time, broken first, and show each fix. If it cannot, the list goes to whoever builds it, as is. Mid-session at step 6, the list is the step: nothing ships until the broken group is empty.
+Offer the next move once. On its own, if this session can edit the project: fix it one concern at a time, broken first, and show each fix. If it cannot, the list goes to whoever builds it, as is. Mid-session before step 5, nothing gets fixed: the list goes into the brief, because rule 1 still holds. At step 6 the list is the step, and nothing ships until the broken group is empty.
 
 When they say an item was a choice, strike it and never raise it again. That is rule 8 in `SKILL.md`, and it applies to the gradient they love as much as to anything else.
 

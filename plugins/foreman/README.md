@@ -1,22 +1,70 @@
-# Foreman
+# Foreman by Turki Alshuaibi
 
-A build playbook for shipping real websites with coding agents. The plugin ships one skill, `foreman:foreman`.
+A build playbook for shipping real websites with coding agents. Your agent interviews you, forces the design and scope decisions you would otherwise skip, locks a visual system, writes one build brief, builds it or hands it over, then verifies, ships, and indexes the site.
 
-Install in Claude Code:
+Site and docs: [foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)
+
+![The Foreman site: a technical sheet on white paper, with a hand-drawn wireframe annotated with the decisions the interview forces.](https://foreman.turkialshuaibi.com/screenshot.png)
+
+## Install
+
+In Claude Code, both lines, in this order:
 
 ```
 /plugin marketplace add Turki-Sh/Foreman
 /plugin install foreman@alshuaibi
 ```
 
-`/plugin` is a terminal-only dialog. Where it is unavailable, run `claude plugin marketplace add Turki-Sh/Foreman` then `claude plugin install foreman@alshuaibi`.
+`/plugin` is a terminal-only dialog. Where it is unavailable, run the same two steps as shell commands and restart the session:
 
-Then say: help me build my portfolio.
+```
+claude plugin marketplace add Turki-Sh/Foreman
+claude plugin install foreman@alshuaibi
+```
 
-It triggers on web build and rebuild requests, and on the parts people get stuck on afterwards: hosting, domains, DNS, SSL, custom 404s, Open Graph previews, sitemaps and indexing, Lighthouse scores, RTL layouts, and why an AI-built site looks generic.
+To update: `/plugin marketplace update alshuaibi`.
 
-Read the skill before you trust it: [`skills/foreman/SKILL.md`](skills/foreman/SKILL.md). Nothing here executes.
+Other agents (Cursor, Windsurf, Codex, Copilot, Gemini CLI) and the Claude apps: see the [install page](https://foreman.turkialshuaibi.com/install/).
 
-Full documentation and background: the [repository root README](https://github.com/Turki-Sh/Foreman).
+## Usage
 
-MIT, Turki Alshuaibi.
+Say what you are building, in plain words:
+
+```
+help me build my portfolio
+```
+
+It answers with the Foreman card and one question, never with code. If it starts writing HTML, it did not load.
+
+![The opening Foreman card: the wordmark, the version, the step, the method, the mode line, and the first question.](https://foreman.turkialshuaibi.com/card.png)
+
+Say **survey** for the fewest questions (the agent researches your repo, site and CV instead of asking) or **stress test** for the most. Blueprint is the default. Every decision gets made in all three.
+
+Run a tool on its own:
+
+```
+/foreman:punch-list https://your-site.com
+/foreman:board a landing page for a note-taking app, technical
+/foreman:palette
+/foreman:launch
+```
+
+## What's inside
+
+Five skills, all markdown:
+
+| Skill | What it does |
+|---|---|
+| `/foreman:foreman` | The full session: eight gated steps from the first question to a site that is live and indexed, in Survey, Blueprint or Stress test mode |
+| `/foreman:board` | A reference board: real sites chosen for your brief, as a list or a visual board with screenshots, ending in named principles |
+| `/foreman:punch-list` | Audits any site for what makes it look AI-generated or unfinished, ranked, with a fix for each |
+| `/foreman:palette` | Three palettes from a material you name, contrast checked, on your real content |
+| `/foreman:launch` | Domain, DNS, SSL, metadata, the share card, a real 404, the sitemap and indexing |
+
+Plus fourteen references loaded only when their step arrives, including design standards (colour theory, proportion and the golden ratio, type scale, spacing, motion timing), and seven fillable templates.
+
+Nothing executes: no scripts, no hooks, no MCP servers, no network calls. Read the skill before you trust it: [`skills/foreman/SKILL.md`](skills/foreman/SKILL.md).
+
+Full documentation: the [repository README](https://github.com/Turki-Sh/Foreman) and [foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/).
+
+MIT, by [Turki Alshuaibi](https://turkialshuaibi.com/).

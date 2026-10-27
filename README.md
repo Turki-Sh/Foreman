@@ -1,14 +1,16 @@
 # Foreman
 
-**A build playbook for shipping real websites with coding agents.**
+**A build playbook for shipping real websites with coding agents, by Turki Alshuaibi.**
 Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code, Cursor, Windsurf, Codex, Copilot, Gemini CLI, or a chat window with no skills support at all.
 
 [![Agent Skill](https://img.shields.io/badge/agent-any-1B4DD1?style=flat&logo=markdown&logoColor=white)](AGENTS.md)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-one%20command-D97757?style=flat&logo=claude&logoColor=white)](https://code.claude.com/docs/en/plugins)
 [![Steps](https://img.shields.io/badge/steps-8-1B4DD1?style=flat)](#what-is-in-the-box)
-[![References](https://img.shields.io/badge/references-9-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Assets](https://img.shields.io/badge/assets-6-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Version](https://img.shields.io/badge/version-1.3.0-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
+[![Modes](https://img.shields.io/badge/modes-3-1B4DD1?style=flat)](#three-modes)
+[![Tools](https://img.shields.io/badge/tools-4-1B4DD1?style=flat)](#the-toolbelt)
+[![References](https://img.shields.io/badge/references-14-1B4DD1?style=flat)](#what-is-in-the-box)
+[![Assets](https://img.shields.io/badge/assets-7-1B4DD1?style=flat)](#what-is-in-the-box)
+[![Version](https://img.shields.io/badge/version-3.0.0-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
 [![Validate](https://img.shields.io/github/actions/workflow/status/Turki-Sh/Foreman/validate.yml?style=flat&logo=githubactions&logoColor=white&label=validate)](https://github.com/Turki-Sh/Foreman/actions/workflows/validate.yml)
 [![Scripts](https://img.shields.io/badge/executable%20code-none-16A34A?style=flat&logo=markdown&logoColor=white)](#no-scripts)
 [![License](https://img.shields.io/badge/license-MIT-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](LICENSE)
@@ -18,7 +20,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 
 <p align="center">
   <a href="https://foreman.turkialshuaibi.com/">
-    <img src="docs/screenshot.png" alt="The Foreman site: a technical sheet on white paper, with a hand-drawn wireframe annotated with the decisions the interview forces." width="820">
+    <img src="https://foreman.turkialshuaibi.com/screenshot.png" alt="The Foreman site: a technical sheet on white paper, with a hand-drawn wireframe annotated with the decisions the interview forces." width="820">
   </a>
 </p>
 
@@ -48,9 +50,11 @@ claude plugin marketplace add Turki-Sh/Foreman
 claude plugin install foreman@alshuaibi
 ```
 
-**Claude apps.** Download [`foreman.skill`](https://github.com/Turki-Sh/Foreman/raw/main/dist/foreman.skill) and upload it as a skill.
+Already installed? `/plugin marketplace update alshuaibi` brings you to the latest version.
 
-**Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or any other coding agent.** Clone the repo and copy the skill folder where your agent looks for skills or rules.
+**Claude apps.** Download [`foreman.skill`](https://github.com/Turki-Sh/Foreman/raw/main/dist/foreman.skill) and upload it as a skill. The toolbelt is inside it.
+
+**Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or any other coding agent.** Clone the repo and copy the skill folder where your agent looks for skills or rules. The toolbelt travels inside that folder.
 
 ```
 git clone https://github.com/Turki-Sh/Foreman.git
@@ -61,11 +65,53 @@ Common destinations: `~/.agents/skills/`, `~/.cursor/rules/`, `~/.codex/skills/`
 
 **Any assistant with no skills support, including the web chat you already have open.** Paste [`SKILL.md`](plugins/foreman/skills/foreman/SKILL.md) into the conversation and say "run this on me." The steps work without the references; the references only deepen them.
 
-## Then say
+## Usage
+
+Start a build in plain words:
 
 > help me build my portfolio
 
-The agent should answer with two questions, not with code. That is the whole point.
+The agent should answer with the Foreman card and a question, not with code. That is the whole point.
+
+<p align="center">
+  <img src="https://foreman.turkialshuaibi.com/card.png" alt="The opening Foreman card in a terminal: the wordmark, the version, the step, the method, the mode line, and the first question." width="640">
+</p>
+
+Choose how deep it goes by saying the word at any point: **survey** for the fewest questions, **stress test** for the most. In Claude Code you can also start in a mode with `/foreman:foreman survey`.
+
+Call a tool on its own, without the interview:
+
+```
+/foreman:punch-list https://your-site.com
+/foreman:board a portfolio for a robotics researcher, academic
+/foreman:palette
+/foreman:launch
+```
+
+Or just ask: "why does my site look AI-made?", "give me a reference board", "pick me a palette", "my domain will not load". Outside Claude Code, the same words reach the same tools.
+
+## Three modes
+
+A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made.
+
+| Mode | For | Before any code exists |
+|---|---|---|
+| **Survey** | You want it moving, or you already have most of the material | About four exchanges. The agent reads your repo, your site and your CV, looks at your category, and sends one decision sheet with a source on every line. You correct it |
+| **Blueprint** | The default, and most builds | The full interview, one question at a time |
+| **Stress test** | A launch where a weak decision is expensive | The full interview, every answer pushed once, a pre-mortem before the brief freezes, and a full punch list before it ships |
+
+Even in Survey, three things stay yours: you pick the palette from variants, the copy comes from your own sentences, and you sign off the brief. Fewer questions never means the agent takes the obvious answer.
+
+## The toolbelt
+
+Four tools that run on their own or in the middle of a session.
+
+| Tool | What it does |
+|---|---|
+| **[Board](https://foreman.turkialshuaibi.com/board/)** | Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them |
+| **[Punch list](https://foreman.turkialshuaibi.com/punch-list/)** | Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each |
+| **[Palette](https://foreman.turkialshuaibi.com/palette/)** | Three palettes from a material you name, contrast checked, on your real content |
+| **[Launch](https://foreman.turkialshuaibi.com/launch/)** | Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time |
 
 ## What changes
 
@@ -80,16 +126,18 @@ The agent should answer with two questions, not with code. That is the whole poi
 
 ## What is in the box
 
-**Session flow.** Eight steps with gates, written for the agent, not for you. It does not advance until each gate is met, it stamps which step you are on in every message, and it writes no line of the site until the brief is frozen.
+**Session flow.** Eight steps with gates, written for the agent, not for you, at three depths. It does not advance until each gate is met, it stamps which step you are on in every message, and it writes no line of the site until the brief is frozen.
 
-**Thirteen references**, loaded only when the step arrives: content interview, design direction, the palette workflow, composition and choreography, the reference library, vibe-coded tells, stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
+**Four tools** in `toolbelt/`: board, punch list, palette, and launch. In Claude Code each is also a slash command.
 
-**Six fillable assets:** a brand harness with three variants, a head metadata block with Open Graph and JSON-LD, a custom 404, robots.txt, sitemap.xml, and llms.txt.
+**Fourteen references**, loaded only when the step arrives: content interview, design direction, the palette workflow, composition and choreography, the reference library, vibe-coded tells, design standards (colour theory, proportion and the golden ratio, type scale and measure, spacing, gestalt, motion timing, optical correction), stack choice, the build brief, performance and accessibility, metadata and 404, bilingual and RTL, verify and ship, and a full worked example.
+
+**Seven fillable assets:** a brand harness with three variants, a reference board, a head metadata block with Open Graph and JSON-LD, a custom 404, robots.txt, sitemap.xml, and llms.txt.
 
 <a id="no-scripts"></a>
-**No executable code.** Foreman ships no scripts, no hooks, no MCP servers, and no slash commands. It is markdown and fill-in-the-blank templates, so you can read every line of it before you trust it. The one `<script>` tag in the repo is a `type="application/ld+json"` structured data block inside `assets/head-metadata.html`: inert JSON meant for your site's `<head>`, not code that runs when you install this.
+**No executable code.** Foreman ships no scripts, no hooks, no MCP servers, and no network calls. Its four slash commands are markdown skills like the rest of it. You can read every line before you trust it. The one `<script>` tag in the plugin is a `type="application/ld+json"` structured data block inside `assets/head-metadata.html`: inert JSON meant for your site's `<head>`, not code that runs when you install this. CI fails the build if anything executable appears.
 
-**See it run before you install it.** [The worked example](plugins/foreman/skills/foreman/references/worked-example.md) is a full session from the first question to a frozen brief, including the thing that went wrong afterwards.
+**See it run before you install it.** [The worked example](plugins/foreman/skills/foreman/references/worked-example.md) is a full session from the first question to a frozen brief, the same opening in Survey, and the thing that went wrong afterwards.
 
 ## The three ideas it enforces
 

@@ -103,12 +103,15 @@ Same person, but their first message is "quick portfolio, I have a CV and a READ
 > **FOREMAN · SURVEY · 2/8 · DECISIONS**
 >
 > ```
-> reader     research group leads              from: your CV's research statement
-> action     email you about a PhD place       from: your message
+> reader     research group leads               from: your CV's research statement
+> action     email you about a PhD place        from: your message
 > job        a group lead emails before leaving   from: the PhD call you linked
-> register   academic                          from: the tone of both papers
-> non-goals  blog, contact form, analytics     from: nothing you have needs them
+> evidence   sim-to-real pipeline, retraining cut about 60 percent   from: README
+> register   academic                           from: the tone of both papers
+> non-goals  blog, contact form, analytics      from: no posts, no form, no traffic goal
 > opening    "Cut quadruped retraining by about 60 percent"   from: README, line 3
+> support    your second README paragraph, cut to one sentence
+> below      the pipeline, the two papers, the CV
 > ```
 >
 > What is wrong in it?
@@ -123,4 +126,4 @@ The build shipped an 8 MB hero. Lighthouse mobile came back at 51. The fix was n
 
 It also replaced the gait trace with a stock lab photo, which is the other thing that happens to a signature element, and it happens whether the builder is another agent or you. Caught at step 6 by reading the brief's five-part spec against the page. The reason it was catchable is that the spec existed. "A cool hero animation" is not something you can hold anyone to.
 
-The first build came back in under two minutes and looked finished in a screenshot. It had no hover states, a "See the data" button with no destination, and a 404 that was the word 404 on the background colour. None of that is visible in a screenshot, which is why step 5 asks for the six things by name before anyone discusses how it looks. The build was not fast. It was unfinished in the places nobody photographs.
+The first build came back in under two minutes and looked finished in a screenshot. It had no hover states, a "See the data" button with no destination, and a 404 that was the word 404 on the background colour. None of that is visible in a screenshot, which is why step 5 asks for the eight things by name before anyone discusses how it looks. The build was not fast. It was unfinished in the places nobody photographs.

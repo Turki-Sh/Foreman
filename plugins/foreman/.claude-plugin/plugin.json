@@ -1,11 +1,36 @@
 {
   "name": "foreman",
   "displayName": "Foreman by Turki Alshuaibi",
-  "version": "2.2.0",
-  "description": "A build playbook for shipping real websites with coding agents. The agent interviews you, forces the decisions, locks a visual system, writes the brief, builds it or hands it off, then verifies, ships, and indexes.",
-  "author": { "name": "Turki Alshuaibi" },
-  "homepage": "https://github.com/Turki-Sh/Foreman",
+  "version": "3.0.0",
+  "description": "A build playbook for shipping real websites with coding agents, by Turki Alshuaibi. The agent interviews you, forces the decisions you would skip, locks a visual system, writes the brief, builds it or hands it over, then verifies, ships and indexes. Three modes set how many questions it asks. Four tools run on their own: a reference board, a punch list that audits any site for what makes it look AI-generated, a palette from a named material, and a launch checklist.",
+  "author": {
+    "name": "Turki Alshuaibi",
+    "url": "https://turkialshuaibi.com/",
+    "email": "turki@turkialshuaibi.com"
+  },
+  "homepage": "https://foreman.turkialshuaibi.com/",
   "repository": "https://github.com/Turki-Sh/Foreman",
   "license": "MIT",
-  "keywords": ["website", "portfolio", "landing-page", "design", "deploy", "dns", "seo", "accessibility", "rtl", "frontend"]
+  "keywords": [
+    "website",
+    "web-design",
+    "landing-page",
+    "portfolio",
+    "design",
+    "design-system",
+    "ui",
+    "typography",
+    "color",
+    "ai-slop",
+    "vibe-coding",
+    "audit",
+    "seo",
+    "open-graph",
+    "dns",
+    "deploy",
+    "accessibility",
+    "rtl",
+    "frontend",
+    "agent-skills"
+  ]
 }

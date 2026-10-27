@@ -4,6 +4,10 @@ Getting a finished site live, found, and shared well: domain, DNS, SSL, the head
 
 Stamp every message `**FOREMAN · LAUNCH**`.
 
+Every path in this file is relative to the foreman skill folder, the parent of `toolbelt/`.
+
+Called in a session before the site exists, do the parts that do not need it (where to host, the domain, the metadata plan), then park the rest until step 7 and carry on from the step you were on.
+
 Read `references/verify-and-ship.md` and `references/metadata-and-404.md`. Paste-ready files are in `assets/`: `head-metadata.html`, `404.html`, `robots.txt`, `sitemap.xml`, `llms.txt`.
 
 ## 1. Find out where it stands
