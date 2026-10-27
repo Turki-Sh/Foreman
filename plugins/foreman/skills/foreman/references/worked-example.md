@@ -96,6 +96,27 @@ Saved as `BRIEF.md` and `BRAND.md` in their repo.
 
 They said build it here. A fresh sub-agent got the two files and nothing else, on the argument that a clean context building from a brief beats a long one building from a recollection of what was decided forty messages ago.
 
+## The same opening in Survey
+
+Same person, but their first message is "quick portfolio, I have a CV and a README, here are the links." They are short of time, so the card opens with `MODE  Survey`. Instead of seven questions, you read the CV, the README, and both papers, and look at five lab members' sites to see what they all do. All five open with "I am a PhD student interested in", which is the line to avoid. Then one message:
+
+> **FOREMAN · SURVEY · 2/8 · DECISIONS**
+>
+> ```
+> reader     research group leads              from: your CV's research statement
+> action     email you about a PhD place       from: your message
+> job        a group lead emails before leaving   from: the PhD call you linked
+> register   academic                          from: the tone of both papers
+> non-goals  blog, contact form, analytics     from: nothing you have needs them
+> opening    "Cut quadruped retraining by about 60 percent"   from: README, line 3
+> ```
+>
+> What is wrong in it?
+
+**Them:** Make the register "academic, not dusty". The rest is right.
+
+One correction, and step 2 is locked in two messages instead of nine. Every field came from something they wrote, and the opening line is still their sentence, moved up. At step 3 they still name the material and still pick from three variants, because Survey shortens the road to the harness and never skips it.
+
 ## What went wrong later, and how it got handled
 
 The build shipped an 8 MB hero. Lighthouse mobile came back at 51. The fix was not a new prompt, it was one constraint the brief had left out: hero media under 1.5 MB with a poster fallback. That constraint now lives in `references/performance-and-access.md` and goes into every brief.

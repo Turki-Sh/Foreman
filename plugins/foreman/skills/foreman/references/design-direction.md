@@ -49,7 +49,7 @@ Before the tokens leave this step, the design answers yes to all five:
 - **The small scale is detailed.** Focus ring drawn in the accent rather than the browser default, a considered underline offset on links, a `::selection` colour, a real favicon, a real OG image. Nobody names these and everybody feels them.
 - **Everything interactive responds.** Link, button, card, nav item: each has a hover state, a focus state, and a transition between them. This is the cheapest life on a page and its absence is most of why a finished site still feels dead.
 
-Anything failing becomes a token or a spec in the brief, not a note for later.
+Anything failing becomes a token or a spec in the brief, not a note for later. The numbers behind these, scale ratios, the length of a line, spacing steps, motion timing, are in `standards.md`, as defaults to depart from on purpose.
 
 ## Size follows the length of the line
 

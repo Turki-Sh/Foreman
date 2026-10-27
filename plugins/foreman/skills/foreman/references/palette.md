@@ -84,7 +84,7 @@ Three shades of the same idea is one variant shown three times, and it is what y
 | Where the personality sits | Type, or colour, or layout. One each |
 | Contrast strategy | High contrast, or close-toned with a single deliberate break |
 
-If two variants can be described by the same sentence, they are the same variant.
+If two variants can be described by the same sentence, they are the same variant. Check each against the colour section of `standards.md` before it goes in the file: the values hold in greyscale, one colour dominates and the accent stays rare, and the harmony has a name.
 
 **One of the three is light, whatever the material was.** This is not a preference, it is a control. When someone names a dark material, a server rack, a night sky, a darkroom, the honest reading is dark, and the dark reading also happens to be where you were going anyway. So the material has done nothing to move you, and neither of you can tell.
 

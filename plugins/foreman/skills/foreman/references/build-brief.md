@@ -78,6 +78,8 @@ Display font: [name]. Body font: [name].
 Type scale: [3 sizes], hero at [ratio] of body, chosen against the actual
 length of the opening line rather than in the abstract.
 Letter-spacing: [value] at display sizes, [value] for body. Two weights only.
+Scale ratio: [named ratio]. Spacing: [4 or 8]px base, every gap a step on it.
+Standards departed from on purpose, and why: [from standards.md, or none].
 Focus ring: [accent], never the browser default, never removed.
 
 SIGNATURE ELEMENT (build this as specified, do not simplify it)

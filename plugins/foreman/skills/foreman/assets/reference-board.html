@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reference board</title>
+<!--
+  THROWAWAY FILE. Not part of the real project, never shipped, never published.
+  Delete it, and the board/ folder of screenshots, once the principles are confirmed.
+
+  How to use it (toolbelt/board.md has the whole procedure):
+  1. Only fill this file when you have real screenshots. A board of text cards
+     is a list in a costume: send the list in the chat instead.
+  2. Save one desktop capture per entry at 1440 wide as board/01.png, board/02.png
+     and so on, beside this file. Add board/01-phone.png at 390 wide only where
+     the phone version is the point.
+  3. Replace every [BRACKET]. One article per entry, six to eight in all, in the
+     three groups below. Delete a group's phone figure when there is no phone
+     capture, and delete any group left empty.
+  4. "Look at" is one principle, written as behaviour: "the hero is one sentence
+     and the work starts a third of the way down". Never praise, never a hex value.
+  5. The keep and skip marks work without any script. They are for the owner to
+     mark while looking. What comes back is still their answer in the chat.
+  6. No em dashes or en dashes anywhere in this file.
+-->
+<style>
+  :root {
+    --ground: #FAFAF8;
+    --surface: #FFFFFF;
+    --text: #17171A;
+    --muted: #63636B;
+    --line: #E3E3E0;
+    --keep: #1B4DD1;
+    --keep-tint: #E6ECFB;
+    --skip: #8A8A92;
+    --ease: cubic-bezier(.3, .7, .2, 1);
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ground: #111114;
+      --surface: #18181C;
+      --text: #ECECEF;
+      --muted: #A0A0AA;
+      --line: #2A2A30;
+      --keep: #8EAEF2;
+      --keep-tint: #1A2440;
+      --skip: #6E6E78;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--ground); color: var(--text);
+    font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 90rem; margin: 0 auto; padding: 2.5rem clamp(1rem, 4vw, 3rem) 4rem; }
+  header { display: grid; gap: .35rem; margin-bottom: 2.5rem; }
+  h1 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); line-height: 1.1; letter-spacing: -.02em; margin: 0; }
+  .brief { color: var(--muted); margin: 0; max-width: 70ch; }
+  h2 { font-size: 1rem; letter-spacing: .01em; margin: 2.75rem 0 1rem; }
+  .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr)); }
+  article {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+    overflow: hidden; display: grid; grid-template-rows: auto 1fr;
+    transition: border-color 160ms var(--ease), box-shadow 160ms var(--ease);
+  }
+  article:has(.keep:checked) { border-color: var(--keep); box-shadow: 0 0 0 3px var(--keep-tint); }
+  article:has(.skip:checked) { opacity: .55; }
+  .shots { display: grid; grid-template-columns: 1fr auto; gap: 0; background: var(--line); }
+  .shots img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
+  .shots .phone { width: 7.5rem; aspect-ratio: 390 / 844; border-left: 1px solid var(--line); }
+  .body { padding: 1rem 1.1rem 1.1rem; display: grid; gap: .45rem; align-content: start; }
+  h3 { font-size: 1.05rem; margin: 0; }
+  .url { color: var(--muted); font-size: .875rem; text-decoration: none; word-break: break-all; }
+  .url:hover { color: var(--text); text-decoration: underline; text-underline-offset: .2em; }
+  .look { margin: 0; }
+  .look b { font-weight: 600; }
+  .mark { display: flex; gap: .5rem; margin-top: .35rem; }
+  .mark label {
+    font-size: .8125rem; color: var(--muted); border: 1px solid var(--line); border-radius: 6px;
+    padding: .3rem .65rem; cursor: pointer; user-select: none;
+    transition: color 160ms var(--ease), border-color 160ms var(--ease), background 160ms var(--ease);
+  }
+  .mark label:hover { color: var(--text); border-color: var(--text); }
+  .mark input { position: absolute; opacity: 0; pointer-events: none; }
+  .mark input:focus-visible + label { outline: 2px solid var(--keep); outline-offset: 2px; }
+  .mark .keep:checked + label { color: var(--keep); border-color: var(--keep); background: var(--keep-tint); }
+  .mark .skip:checked + label { color: var(--text); border-color: var(--skip); }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); max-width: 70ch; }
+  footer p { margin: 0; }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>Reference board for [PROJECT]</h1>
+    <p class="brief">[WHAT IT IS, FOR WHOM]. Register: [REGISTER]. Shape: [ONE VIEWPORT, ONE SCROLLING PAGE, OR SEVERAL PAGES]. [DATE].</p>
+  </header>
+
+  <h2>In the category</h2>
+  <div class="grid">
+    <article>
+      <div class="shots">
+        <img src="board/01.png" width="1440" height="900" alt="[SITE NAME], desktop" loading="lazy">
+        <img class="phone" src="board/01-phone.png" width="390" height="844" alt="[SITE NAME], phone" loading="lazy">
+      </div>
+      <div class="body">
+        <h3>[SITE NAME]</h3>
+        <a class="url" href="[URL]" target="_blank" rel="noopener">[URL WITHOUT PROTOCOL]</a>
+        <p class="look"><b>Look at:</b> [ONE PRINCIPLE, AS BEHAVIOUR]</p>
+        <div class="mark">
+          <input class="keep" type="radio" name="m01" id="k01"><label for="k01">Keep</label>
+          <input class="skip" type="radio" name="m01" id="s01"><label for="s01">Not for me</label>
+        </div>
+      </div>
+    </article>
+    <!-- Repeat the article for each entry in this group, renumbering 01 to 02 and so on
+         in the image paths, the radio name, and the ids. -->
+  </div>
+
+  <h2>Outside the category</h2>
+  <div class="grid">
+    <article>
+      <div class="shots">
+        <img src="board/05.png" width="1440" height="900" alt="[SOURCE NAME]" loading="lazy">
+      </div>
+      <div class="body">
+        <h3>[SOURCE NAME]</h3>
+        <a class="url" href="[URL]" target="_blank" rel="noopener">[URL WITHOUT PROTOCOL]</a>
+        <p class="look"><b>Look at:</b> [THE ONE PRINCIPLE THAT TRANSFERS]</p>
+        <div class="mark">
+          <input class="keep" type="radio" name="m05" id="k05"><label for="k05">Keep</label>
+          <input class="skip" type="radio" name="m05" id="s05"><label for="s05">Not for me</label>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <h2>Against the grain</h2>
+  <div class="grid">
+    <article>
+      <div class="shots">
+        <img src="board/07.png" width="1440" height="900" alt="[SITE NAME], desktop" loading="lazy">
+      </div>
+      <div class="body">
+        <h3>[SITE NAME]</h3>
+        <a class="url" href="[URL]" target="_blank" rel="noopener">[URL WITHOUT PROTOCOL]</a>
+        <p class="look"><b>Look at:</b> [WHAT IT DOES THAT THE BRIEF DID NOT ASK FOR]</p>
+        <div class="mark">
+          <input class="keep" type="radio" name="m07" id="k07"><label for="k07">Keep</label>
+          <input class="skip" type="radio" name="m07" id="s07"><label for="s07">Not for me</label>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer>
+    <p>Which two would you keep, what about them, and which one would you not want? Answer in the chat.</p>
+  </footer>
+
+</div>
+</body>
+</html>
