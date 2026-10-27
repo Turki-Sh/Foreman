@@ -48,12 +48,26 @@ function measure() {
     const f = v => { v /= 255; return v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; };
     return { L: 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b), a, rgb: [r, g, b] };
   };
+  const own = e => {
+    const s = getComputedStyle(e);
+    if (s.backgroundImage && s.backgroundImage !== 'none') return 'image';
+    const l = lum(s.backgroundColor);
+    return l && l.a > 0.9 ? l : null;
+  };
+  // What is painted under the text, not only its ancestors: a transparent
+  // header over a hero sits on a sibling, so read the stack at the text's
+  // centre when it is on screen, and fall back to the ancestors otherwise.
   const bgOf = el => {
-    for (let e = el; e; e = e.parentElement) {
-      const s = getComputedStyle(e);
-      if (s.backgroundImage && s.backgroundImage !== 'none') return 'image';
-      const l = lum(s.backgroundColor); if (l && l.a > 0.9) return l;
+    for (let e = el; e; e = e.parentElement) { const b = own(e); if (b) return b; if (getComputedStyle(e).position === 'sticky' || getComputedStyle(e).position === 'fixed') break; }
+    const r = el.getBoundingClientRect();
+    const x = r.left + r.width / 2, y = r.top + r.height / 2;
+    if (x >= 0 && y >= 0 && x < innerWidth && y < innerHeight) {
+      for (const e of document.elementsFromPoint(x, y)) {
+        if (e === el || el.contains(e) || e.contains(el)) continue;
+        const b = own(e); if (b) return b;
+      }
     }
+    for (let e = el; e; e = e.parentElement) { const b = own(e); if (b) return b; }
     return lum('rgb(255, 255, 255)');
   };
   let checked = 0, failed = 0; const fails = [];
@@ -141,7 +155,7 @@ function measure() {
   try {
     const desk = await browser.newContext({ viewport: { width: 1280, height: 800 }, reducedMotion: 'reduce' });
     const phone = await browser.newContext({ viewport: { width: 375, height: 812 }, reducedMotion: 'reduce', isMobile: true });
-    for (const p of list.filter(p => p !== '404.html').slice(0, 6)) {
+    for (const p of list.filter(p => p !== '404.html').slice(0, +(process.env.MAX_PAGES || 6))) {
       const page = await desk.newPage();
       const errors = [];
       page.on('pageerror', e => errors.push(String(e)));

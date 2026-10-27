@@ -28,7 +28,7 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/home.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -151,63 +151,116 @@
 </div>
 
 <main id="main">
-<div class="wrap hero">
-  <div class="cols">
-    <div>
-      <h1 class="drawn enter" style="--d:60ms">
+<section class="stage" aria-labelledby="hero-h">
+  <div class="wrap stage-grid">
+    <div class="pitch">
+      <h1 id="hero-h" class="drawn enter" style="--d:60ms">
         <span class="drawn-base">Every good build starts as a drawing.</span>
         <span class="drawn-grid" aria-hidden="true">Every good build starts as a drawing.</span>
       </h1>
-      <p class="lede enter" style="--d:220ms">Foreman makes your coding agent do the drawing first: the interview, the decisions, the locked system, the brief. Then the code, then the domain, then indexed.</p>
-      <div class="cta enter" style="--d:1500ms">
-        <a class="btn" href="/install/">Install it</a>
+      <p class="lede enter" style="--d:200ms">Foreman makes your coding agent do the drawing first: the interview, the decisions, the locked system, the brief. Then the code, then the domain, then indexed.</p>
+      <div class="cta enter" style="--d:340ms">
+        <a class="btn go" href="/install/">Install it</a>
         <a class="btn line" href="https://github.com/Turki-Sh/Foreman">Read every line</a>
         <a class="star" id="star" href="https://github.com/Turki-Sh/Foreman/stargazers" data-repo="Turki-Sh/Foreman" data-threshold="100"><span aria-hidden="true">&#9733;</span> Star on GitHub<span class="count" hidden></span></a>
       </div>
+      <p class="works enter" style="--d:460ms">Free and open source. Markdown only, so it runs in Claude Code, Cursor, Codex, Copilot, Gemini CLI, or any agent that reads files.</p>
     </div>
 
-    <figure class="sheet enter" style="--d:140ms">
-      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
-      <svg class="drawing" viewBox="0 0 480 352" role="img" aria-label="A hand-drawn wireframe of a web page, annotated with three decisions the interview locks: a one-sentence opening, one primary action, and real projects only.">
-        <defs>
-          <filter id="rough" x="-6%" y="-6%" width="112%" height="112%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="9" result="n"/>
-            <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
-          </filter>
-        </defs>
-        <g filter="url(#rough)">
-          <path class="ln frame ink-path" style="--i:0" stroke-width="2" d="M22 20 L286 17 L289 334 L20 337 Z"/>
-          <path class="ln ink-path" style="--i:1" stroke-width="1.4" d="M22 56 C 110 58, 210 54, 286 53"/>
-          <path class="ln ink-path" style="--i:2" stroke-width="1.6" d="M42 94 L182 92"/>
-          <path class="ln ink-path" style="--i:3" stroke-width="1.6" d="M42 114 L232 112"/>
-          <path class="ln ink-path" style="--i:4" stroke-width="1.6" d="M42 134 L146 133"/>
-          <path class="ln ink-path" style="--i:5" stroke-width="1.6" d="M42 166 L118 166 L118 192 L42 192 Z"/>
-          <path class="ln ink-path" style="--i:6" stroke-width="1.4" d="M42 230 L266 228"/>
-          <path class="ln ink-path" style="--i:7" stroke-width="1.4" d="M42 248 L220 246"/>
-          <path class="ln ink-path" style="--i:8" stroke-width="1.5" d="M42 278 L110 278 L110 312 L42 312 Z"/>
-          <path class="ln ink-path" style="--i:9" stroke-width="1.5" d="M120 278 L188 278 L188 312 L120 312 Z"/>
-          <path class="ln ink-path" style="--i:10" stroke-width="1.5" d="M198 278 L266 278 L266 312 L198 312 Z"/>
-        </g>
-        <g class="note" style="--t:1050ms">
-          <path class="ln lead" d="M182 92 L306 92"/>
-          <circle class="dot" cx="182" cy="92" r="2.4"/>
-          <text x="312" y="88">One sentence</text>
-        </g>
-        <g class="note" style="--t:1300ms">
-          <path class="ln lead" d="M118 179 L306 179"/>
-          <circle class="dot" cx="118" cy="179" r="2.4"/>
-          <text x="312" y="175">One action</text>
-        </g>
-        <g class="note" style="--t:1550ms">
-          <path class="ln lead" d="M266 295 L306 295"/>
-          <circle class="dot" cx="266" cy="295" r="2.4"/>
-          <text x="312" y="291">Real projects only</text>
-        </g>
-      </svg>
-      <figcaption><span>Fig. 1 · What the interview decides, before any code exists</span><span class="locked">&#10003; Locked · 3 decisions</span></figcaption>
+    <figure class="board enter" id="board" style="--d:120ms">
+      <span class="reg tl"></span><span class="reg tr"></span><span class="reg bl"></span><span class="reg br"></span>
+      <div class="sheet-area">
+        <div class="plan-wrap">
+        <svg class="plan" viewBox="0 0 460 440" role="img" aria-label="Fig. 1: a robotics portfolio drawn from its decisions. Keyed notes mark the opening line, the one action, the real projects, and the palette. The drawing is filled in as the built page, two defects are marked and fixed, and the page is stamped live.">
+          <defs><clipPath id="pageclip"><rect x="8" y="8" width="444" height="424" rx="10"/></clipPath></defs>
+          <g clip-path="url(#pageclip)">
+            <g class="render">
+              <rect x="8" y="8" width="444" height="424" fill="#E9E6E1"/>
+              <rect x="8" y="8" width="444" height="32" fill="#DFDBD5"/>
+              <rect x="120" y="16" width="220" height="16" rx="8" fill="#F4F2EF"/>
+              <rect x="28" y="56" width="20" height="20" rx="2" fill="#1F1A18"/>
+              <rect x="330" y="63" width="26" height="6" rx="3" fill="#8C817C"/><rect x="368" y="63" width="26" height="6" rx="3" fill="#8C817C"/><rect x="406" y="63" width="26" height="6" rx="3" fill="#8C817C"/>
+              <text class="r-h" x="28" y="121">CUT QUADRUPED RETRAINING</text>
+              <text class="r-h" x="28" y="149">BY ABOUT 60 PERCENT.</text>
+              <text class="r-s" x="28" y="173">Sim-to-real for legged robots. PhD applicant, 2026.</text>
+              <rect x="28" y="186" width="104" height="30" rx="3" fill="#A8371A"/>
+              <text class="r-b" x="80" y="205" text-anchor="middle">EMAIL ME</text>
+              <rect x="284" y="186" width="148" height="96" rx="3" fill="#DFDBD5"/>
+              <path d="M296 270H420M296 198V270" stroke="#B9B1AA" stroke-width="1"/>
+              <rect x="28" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/><rect x="168" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/><rect x="308" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/>
+              <g fill="#1F1A18"><rect x="40" y="330" width="72" height="7" rx="1"/><rect x="180" y="330" width="60" height="7" rx="1"/><rect x="320" y="330" width="80" height="7" rx="1"/></g>
+              <g fill="#8C817C"><rect x="40" y="346" width="96" height="5" rx="1"/><rect x="40" y="357" width="80" height="5" rx="1"/><rect x="180" y="346" width="96" height="5" rx="1"/><rect x="180" y="357" width="70" height="5" rx="1"/><rect x="320" y="346" width="96" height="5" rx="1"/><rect x="320" y="357" width="88" height="5" rx="1"/></g>
+              <g fill="#A8371A"><rect x="40" y="380" width="30" height="12" rx="2"/><rect x="180" y="380" width="30" height="12" rx="2"/><rect x="320" y="380" width="30" height="12" rx="2"/></g>
+            </g>
+          </g>
+          <polyline class="trace" points="296,250 306,226 316,252 326,222 336,250 346,220 356,248 366,224 376,252 386,218 396,246 406,226 416,250 424,236"/>
+          <g class="url"><rect x="134" y="20" width="7" height="8" rx="1.5" fill="#1E7F52"/><text class="r-url" x="148" y="28">portfolio.example</text></g>
+          <g class="lines">
+            <rect class="lw draw" x="8" y="8" width="444" height="424" rx="10"/>
+            <path class="lw draw" d="M8 40H452"/>
+            <rect class="lw draw" x="120" y="16" width="220" height="16" rx="8"/>
+            <rect class="lw draw" x="28" y="56" width="20" height="20" rx="2"/>
+            <path class="lw draw" d="M330 66H356M368 66H394M406 66H432"/>
+            <path class="lw heavy draw" d="M28 112H300"/>
+            <path class="lw heavy draw" d="M28 140H236"/>
+            <path class="lw draw" d="M28 168H258"/>
+            <rect class="lw draw" x="28" y="186" width="104" height="30" rx="3"/>
+            <rect class="lw draw" x="284" y="186" width="148" height="96" rx="3"/>
+            <path class="lw draw" d="M28 300H432"/>
+            <rect class="lw draw" x="28" y="316" width="124" height="96" rx="3"/>
+            <rect class="lw draw" x="168" y="316" width="124" height="96" rx="3"/>
+            <rect class="lw draw" x="308" y="316" width="124" height="96" rx="3"/>
+          </g>
+          <g class="key" data-key="1"><circle cx="362" cy="110" r="13"/><text x="362" y="110">1</text></g>
+          <g class="key" data-key="2"><circle cx="152" cy="201" r="13"/><text x="152" y="201">2</text></g>
+          <g class="key" data-key="3"><circle cx="230" cy="300" r="13"/><text x="230" y="300">3</text></g>
+          <g class="key" data-key="4"><circle cx="440" cy="160" r="13"/><text x="440" y="160">4</text></g>
+          <g class="verify" data-v="a">
+            <ellipse class="vm no" cx="80" cy="201" rx="66" ry="24"/>
+            <text class="vt no" x="150" y="236">&#x2715; href=&quot;#&quot;</text>
+            <ellipse class="vm ok" cx="80" cy="201" rx="66" ry="24"/>
+            <text class="vt ok" x="150" y="236">&#x2713; mailto:</text>
+          </g>
+          <g class="verify" data-v="b">
+            <ellipse class="vm no" cx="88" cy="352" rx="68" ry="30"/>
+            <text class="vt no" x="40" y="406">&#x2715; 3.1:1</text>
+            <ellipse class="vm ok" cx="88" cy="352" rx="68" ry="30"/>
+            <text class="vt ok" x="40" y="406">&#x2713; 5.9:1</text>
+          </g>
+        </svg>
+        <div class="stamp-brief" aria-hidden="true">Brief frozen<small>BRIEF.md &middot; BRAND.md</small></div>
+        <div class="stamp-live" aria-hidden="true">Live<small>portfolio.example</small></div>
+        </div>
+
+        <ol class="keyed" aria-label="Decisions locked for this page">
+          <li data-note="1"><span class="k">1</span><span><span class="l">Opening</span><span class="v">&ldquo;Cut quadruped retraining by about 60 percent&rdquo;, from line 3 of the README</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="2"><span class="k">2</span><span><span class="l">Action</span><span class="v">One: email about a PhD place</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="3"><span class="k">3</span><span><span class="l">Evidence</span><span class="v">Real projects only, each with its number</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="5"><span class="k none">&mdash;</span><span><span class="l">Non-goals</span><span class="v"><s>blog</s>, <s>contact form</s>, <s>carousel</s></span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="4"><span class="k">4</span><span><span class="l">Material</span><span class="v">Anodised aluminium and the e-stop&rsquo;s orange <span class="chips" aria-hidden="true"><i style="background:#E9E6E1"></i><i style="background:#1F1A18"></i><i style="background:#A8371A"></i></span></span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+        </ol>
+      </div>
+
+      <div class="titleblock">
+        <div>Sheet<b data-sheet>8 of 8</b></div>
+        <div>Step<b data-phase>Index</b></div>
+        <div>Project<b>portfolio.example</b></div>
+        <div>Drawn by<b>Foreman 3.0.1</b></div>
+        <div class="ctl"></div>
+      </div>
+      <ol class="rail" aria-label="The eight steps">
+        <li><span class="s" data-at="0"><b>01</b><span>Orient</span></span></li>
+        <li><span class="s" data-at="500"><b>02</b><span>Decide</span></span></li>
+        <li><span class="s" data-at="3200"><b>03</b><span>Look</span></span></li>
+        <li><span class="s" data-at="5400"><b>04</b><span>Brief</span></span></li>
+        <li><span class="s" data-at="6200"><b>05</b><span>Build</span></span></li>
+        <li><span class="s" data-at="8400"><b>06</b><span>Verify</span></span></li>
+        <li><span class="s" data-at="10000"><b>07</b><span>Ship</span></span></li>
+        <li><span class="s" data-at="10900"><b>08</b><span>Index</span></span></li>
+      </ol>
     </figure>
   </div>
-</div>
+</section>
 
 <section id="first">
   <div class="wrap split">
@@ -218,9 +271,31 @@
     </div>
     <div>
       <div class="tabs" role="tablist" aria-label="Modes">
-        <button class="tab" role="tab" id="tab-blueprint" aria-controls="p-blueprint" aria-selected="true" type="button">Blueprint</button>
-        <button class="tab" role="tab" id="tab-survey" aria-controls="p-survey" aria-selected="false" tabindex="-1" type="button">Survey</button>
-        <button class="tab" role="tab" id="tab-stress" aria-controls="p-stress" aria-selected="false" tabindex="-1" type="button">Stress test</button>
+        <button class="tab" role="tab" id="tab-blueprint" aria-controls="p-blueprint" aria-selected="true" type="button"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A clean drawing of a page, with dimension lines on two sides and a title block.">
+  <rect class="ln" x="48" y="16" width="128" height="96" rx="2" stroke-width="2"/>
+  <g class="ln thin"><path d="M60 30h60M60 40h86M60 48h50"/><rect x="60" y="58" width="34" height="10" rx="1"/><rect x="104" y="58" width="60" height="42" rx="1"/><path d="M60 80h34M60 88h28M60 96h30"/></g>
+  <g class="ln thin"><path d="M30 16v96M26 16h8M26 112h8"/><path d="M30 16l-3 6M30 16l3 6M30 112l-3-6M30 112l3-6"/></g>
+  <g class="ln thin"><path d="M48 126h128M48 122v8M176 122v8"/><path d="M48 126l6-3M48 126l6 3M176 126l-6-3M176 126l-6 3"/></g>
+  <rect class="ln thin" x="184" y="96" width="30" height="16"/><path class="fill-tool" d="M186 98h12v4h-12z"/>
+</svg>
+</span><span><b>Blueprint</b><span>The full interview</span></span></button>
+        <button class="tab" role="tab" id="tab-survey" aria-controls="p-survey" aria-selected="false" tabindex="-1" type="button"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A site survey: a plot staked at its corners, with sight lines from a surveyor's tripod.">
+  <path class="ln dash" d="M28 34L188 24 198 116 22 120Z"/>
+  <g class="ln"><path d="M28 34v-16"/><path d="M188 24v-16"/><path d="M198 116v-16"/><path d="M22 120v-16"/></g>
+  <g class="fill-tool"><path d="M28 18l12 4-12 4z"/><path d="M188 8l12 4-12 4z"/><path d="M198 100l12 4-12 4z"/><path d="M22 104l12 4-12 4z"/></g>
+  <g class="ln"><path d="M110 70l-12 34M110 70l12 34M110 70v36"/><rect x="102" y="60" width="16" height="10" rx="2"/></g>
+  <g class="ln thin dash"><path d="M110 64L28 34"/><path d="M110 64L188 24"/></g>
+  <g class="ln thin"><path d="M28 132h170"/><path d="M28 128v8M198 128v8"/></g>
+</svg>
+</span><span><b>Survey</b><span>Research, then one sheet</span></span></button>
+        <button class="tab" role="tab" id="tab-stress" aria-controls="p-stress" aria-selected="false" tabindex="-1" type="button"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A load test: a beam on two supports under three loads, with its deflection drawn below.">
+  <rect class="ln fill-paper" x="22" y="62" width="176" height="12" rx="1" stroke-width="2"/>
+  <g class="ln"><path d="M34 74l-10 18h20z"/><path d="M186 74l-10 18h20z"/><path d="M16 96h44M164 96h44"/></g>
+  <g class="mark-no"><path d="M70 20v34M64 46l6 9 6-9"/><path d="M110 14v40M104 46l6 9 6-9"/><path d="M150 20v34M144 46l6 9 6-9"/></g>
+  <path class="ln dash tool-stroke" d="M34 82Q110 118 186 82"/>
+  <path class="mark-ok" d="M100 122l6 7 12-14"/>
+</svg>
+</span><span><b>Stress test</b><span>Every answer pushed once</span></span></button>
       </div>
       <div class="panel" role="tabpanel" id="p-blueprint" aria-labelledby="tab-blueprint" tabindex="0">
         <p class="what">The default. The full interview, one question at a time.</p>
@@ -296,11 +371,43 @@ What would make that lead close your page within ten seconds?</div>
   </div>
 </section>
 
-<section id="changes">
+<section id="changes" class="paper2">
   <div class="wrap">
     <div class="head">
       <h2>Same agent, same model, different session.</h2>
     </div>
+    <div class="compare">
+  <figure class="cmp without">
+    <svg class="art" viewBox="0 0 320 250" role="img" aria-label="The page every agent ships, marked up in red: a pill badge, one word in a gradient, three identical cards, and a band of statistics nobody measured.">
+      <rect class="ln" x="10" y="10" width="300" height="230" rx="8" stroke-width="2"/>
+      <path class="ln" d="M10 28h300"/>
+      <rect class="ln thin" x="118" y="40" width="84" height="14" rx="7"/>
+      <path class="ln heavy" d="M70 74h180"/>
+      <path class="ln heavy" d="M96 94h82"/><path class="hatch" d="M186 94h40"/>
+      <path class="ln thin" d="M90 112h140"/>
+      <rect class="ln thin" x="104" y="122" width="52" height="14" rx="3"/><rect class="ln thin" x="164" y="122" width="52" height="14" rx="3"/>
+      <g class="ln thin"><rect x="26" y="150" width="84" height="48" rx="6"/><rect x="118" y="150" width="84" height="48" rx="6"/><rect x="210" y="150" width="84" height="48" rx="6"/><circle cx="40" cy="164" r="6"/><circle cx="132" cy="164" r="6"/><circle cx="224" cy="164" r="6"/></g>
+      <g class="ln thin"><path d="M40 216h40M140 216h40M240 216h40"/></g>
+      <g class="mark-no"><ellipse cx="160" cy="47" rx="52" ry="14"/><ellipse cx="206" cy="94" rx="30" ry="12"/><path d="M20 206h280"/></g>
+    </svg>
+    <figcaption><span class="tag no">Without</span> A pill badge, one word in a gradient, three identical cards, and statistics nobody measured.</figcaption>
+  </figure>
+  <figure class="cmp with">
+    <svg class="art" viewBox="0 0 320 250" role="img" aria-label="A page drawn from decisions: one sentence, one action, and the owner's real work, each confirmed.">
+      <rect class="ln" x="10" y="10" width="300" height="230" rx="8" stroke-width="2"/>
+      <path class="ln" d="M10 28h300"/>
+      <path class="ln heavy" d="M30 64h150"/><path class="ln heavy" d="M30 84h110"/>
+      <path class="ln thin" d="M30 104h120"/>
+      <rect class="fill-tool" x="30" y="118" width="64" height="18" rx="2"/>
+      <rect class="ln thin" x="196" y="52" width="96" height="84" rx="3"/>
+      <path class="tool-stroke ln" d="M204 116c10-26 16 10 26-14s14 18 24-8 12 10 30-30"/>
+      <g class="ln thin"><path d="M30 170h262M30 194h262M30 218h262"/><path d="M30 182h80M30 206h110M30 230h70"/></g>
+      <g class="mark-ok"><path d="M184 60l5 6 10-12"/><path d="M100 124l5 6 10-12"/><path d="M296 176l5 6 10-12"/></g>
+    </svg>
+    <figcaption><span class="tag ok">With Foreman</span> One sentence, one action, and the owner's real work, each decided before any code.</figcaption>
+  </figure>
+</div>
+
     <div class="scroller">
       <table>
         <thead><tr><th scope="col"><span class="visually-hidden">Stage</span></th><th scope="col">Without Foreman</th><th scope="col">With Foreman</th></tr></thead>
@@ -323,54 +430,119 @@ What would make that lead close your page within ten seconds?</div>
       <h2>Eight steps. Each has a gate it will not pass.</h2>
       <p>Your agent runs this. You do not read it. It stamps the step it is on and never narrates the rest at you.</p>
     </div>
-    <div class="rows">
-      <div class="row"><span class="n">01</span><span class="t">Orient</span><p class="g">It knows the subject and what you already have.</p></div>
-      <div class="row"><span class="n">02</span><span class="t">Decide</span><p class="g">One reader, one action, one job, a register, non-goals, and draft copy for every section, in writing.</p></div>
-      <div class="row"><span class="n">03</span><span class="t">Lock the look</span><p class="g">Exact hex values, exact font names, a type scale, the composition, the first two seconds, and one specified signature element.</p></div>
-      <div class="row"><span class="n">04</span><span class="t">Write the brief</span><p class="g">A frozen brief you have read and approved. No site code exists before this line.</p></div>
-      <div class="row"><span class="n">05</span><span class="t">Build</span><p class="g">It asks whether to build here or hand the brief over, then it builds with zero errors and you have seen it at 375px.</p></div>
-      <div class="row"><span class="n">06</span><span class="t">Verify</span><p class="g">Evidence, not assurances, and a punch list with nothing left in the broken group.</p></div>
-      <div class="row"><span class="n">07</span><span class="t">Ship</span><p class="g">The domain resolves over HTTPS in a private window.</p></div>
-      <div class="row"><span class="n">08</span><span class="t">Index</span><p class="g">The sitemap is submitted and the shared link renders its card.</p></div>
+    <div class="steps-wrap">
+      <div class="steps-art"><svg class="art building" viewBox="0 0 360 450" role="img" aria-label="A building drawn in eight stages, from survey stakes to a flag on the roof, one stage for each step.">
+  <g class="lvl" data-step="1"><path class="ln" d="M10 418h250"/><g class="ln"><path d="M30 418v-22M232 418v-22"/></g><g class="fill-tool"><path d="M30 396l12 4-12 4z"/><path d="M232 396l12 4-12 4z"/></g><path class="ln thin dash" d="M262 432h8"/><text class="lbl" x="274" y="436">01 ORIENT</text></g>
+  <g class="lvl" data-step="2"><rect class="ln fill-paper" x="40" y="392" width="200" height="22" stroke-width="2"/><path class="ln thin" d="M40 403h200"/><path class="ln thin dash" d="M244 403h26"/><text class="lbl" x="274" y="407">02 DECIDE</text></g>
+  <g class="lvl" data-step="3"><rect class="ln fill-paper" x="48" y="322" width="184" height="70" stroke-width="2"/><g class="ln thin"><path d="M94 322v70M140 322v70M186 322v70"/><rect x="56" y="334" width="30" height="40"/><rect x="194" y="334" width="30" height="40"/></g><path class="ln thin dash" d="M236 357h34"/><text class="lbl" x="274" y="361">03 LOOK</text></g>
+  <g class="lvl" data-step="4"><rect class="ln fill-paper" x="48" y="256" width="184" height="66" stroke-width="2"/><g class="ln thin"><rect x="86" y="268" width="56" height="42" rx="1"/><path d="M94 278h40M94 286h30M94 294h36"/></g><circle class="fill-tool" cx="114" cy="268" r="3"/><path class="ln thin dash" d="M236 289h34"/><text class="lbl" x="274" y="293">04 BRIEF</text></g>
+  <g class="lvl" data-step="5"><rect class="ln fill-paper" x="48" y="190" width="184" height="66" stroke-width="2"/><g class="ln thin"><path d="M48 206h184M48 222h184M48 238h184M78 190v16M128 190v16M178 190v16M103 206v16M153 206v16M203 206v16M78 222v16M128 222v16M178 222v16M103 238v18M153 238v18M203 238v18"/></g><path class="ln thin dash" d="M236 223h34"/><text class="lbl" x="274" y="227">05 BUILD</text></g>
+  <g class="lvl" data-step="6"><rect class="ln fill-paper" x="48" y="124" width="184" height="66" stroke-width="2"/><g class="ln thin"><rect x="64" y="138" width="38" height="38"/><rect x="121" y="138" width="38" height="38"/><rect x="178" y="138" width="38" height="38"/></g><g class="mark-ok"><path d="M73 157l6 7 12-14"/><path d="M130 157l6 7 12-14"/><path d="M187 157l6 7 12-14"/></g><path class="ln thin dash" d="M236 157h34"/><text class="lbl" x="274" y="161">06 VERIFY</text></g>
+  <g class="lvl" data-step="7"><path class="ln fill-paper" d="M40 124h200v-14H40z" stroke-width="2"/><path class="ln thin" d="M60 110v-8h160v8"/><path class="ln thin dash" d="M244 117h26"/><text class="lbl" x="274" y="121">07 SHIP</text></g>
+  <g class="lvl" data-step="8"><path class="ln" d="M140 102V30" stroke-width="2"/><path class="fill-tool" d="M140 32l46 14-46 14z"/><g class="mark-ok"><path d="M196 30a14 14 0 0 1 14 14"/><path d="M196 18a26 26 0 0 1 26 26"/></g><path class="ln thin dash" d="M236 46h34"/><text class="lbl" x="274" y="50">08 INDEX</text></g>
+</svg>
+</div>
+      <div class="rows">
+        <div class="row" data-step="1"><span class="n">01</span><span class="t">Orient</span><p class="g">It knows the subject and what you already have.</p></div>
+        <div class="row" data-step="2"><span class="n">02</span><span class="t">Decide</span><p class="g">One reader, one action, one job, a register, non-goals, and draft copy for every section, in writing.</p></div>
+        <div class="row" data-step="3"><span class="n">03</span><span class="t">Lock the look</span><p class="g">Exact hex values, exact font names, a type scale, the composition, the first two seconds, and one specified signature element.</p></div>
+        <div class="row" data-step="4"><span class="n">04</span><span class="t">Write the brief</span><p class="g">A frozen brief you have read and approved. No site code exists before this line.</p></div>
+        <div class="row" data-step="5"><span class="n">05</span><span class="t">Build</span><p class="g">It asks whether to build here or hand the brief over, then it builds with zero errors and you have seen it at 375px.</p></div>
+        <div class="row" data-step="6"><span class="n">06</span><span class="t">Verify</span><p class="g">Evidence, not assurances, and a punch list with nothing left in the broken group.</p></div>
+        <div class="row" data-step="7"><span class="n">07</span><span class="t">Ship</span><p class="g">The domain resolves over HTTPS in a private window.</p></div>
+        <div class="row" data-step="8"><span class="n">08</span><span class="t">Index</span><p class="g">The sitemap is submitted and the shared link renders its card.</p></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="toolbelt">
+<section id="toolbelt" class="blue">
   <div class="wrap">
     <div class="head">
       <h2>Four tools that work without the interview.</h2>
       <p>Call one on its own, or in the middle of a session without losing your place. In Claude Code each is a slash command. Anywhere else, ask in plain words.</p>
     </div>
     <div class="belt">
-      <a class="tool" href="/board/">
-        <h3>Board <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:board</span>
-        <p>Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.</p>
+      <a class="tool" data-tool="board" href="/board/">
+        <div class="copy-col"><h3>Board <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:board</span><p>Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.</p></div>
+        <span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A pin-up board of six reference sheets: two circled to keep, one crossed out.">
+  <rect class="ln" x="10" y="10" width="220" height="140" rx="4" stroke-width="2"/>
+  <g class="ln thin">
+    <g transform="rotate(-3 46 45)"><rect x="22" y="24" width="50" height="40" rx="2"/><path d="M28 32h26M28 38h36M28 50h16"/></g>
+    <g transform="rotate(2 120 44)"><rect x="95" y="24" width="50" height="40" rx="2"/><path d="M101 32h20M101 40h38M101 46h38M101 52h30"/></g>
+    <g transform="rotate(-2 193 45)"><rect x="168" y="25" width="50" height="40" rx="2"/><path d="M174 33h38M174 41h12M190 41h22"/></g>
+    <g transform="rotate(2 46 113)"><rect x="21" y="93" width="50" height="40" rx="2"/><path d="M27 101h30M27 109h38M27 121h22"/></g>
+    <g transform="rotate(-2 120 112)"><rect x="95" y="92" width="50" height="40" rx="2"/><path d="M101 100h24M101 108h38M101 114h38M101 120h18"/></g>
+    <g transform="rotate(3 193 114)"><rect x="168" y="94" width="50" height="40" rx="2"/><path d="M174 102h38M174 110h28M174 116h34"/></g>
+  </g>
+  <g class="fill-tool"><circle cx="47" cy="25" r="3"/><circle cx="120" cy="24" r="3"/><circle cx="193" cy="25" r="3"/><circle cx="46" cy="93" r="3"/><circle cx="120" cy="92" r="3"/><circle cx="193" cy="94" r="3"/></g>
+  <ellipse class="mark-keep" cx="120" cy="44" rx="34" ry="28" transform="rotate(-6 120 44)"/>
+  <ellipse class="mark-keep" cx="46" cy="113" rx="34" ry="28" transform="rotate(5 46 113)"/>
+  <path class="mark-no" d="M172 100l42 32M214 100l-42 32"/>
+</svg>
+</span>
 <pre>oxide.computer: figures are numbered and treated
 as plates. Take this: label the diagrams of how
 Foreman works as numbered figures.</pre>
       </a>
-      <a class="tool" href="/punch-list/">
-        <h3>Punch list <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:punch-list https://your-site.com</span>
-        <p>Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.</p>
+      <a class="tool" data-tool="punch-list" href="/punch-list/">
+        <div class="copy-col"><h3>Punch list <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:punch-list https://your-site.com</span><p>Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.</p></div>
+        <span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A clipboard punch list: three items checked, two marked in red with a fix.">
+  <rect class="ln" x="58" y="14" width="124" height="138" rx="6" stroke-width="2"/>
+  <rect class="ln fill-paper" x="96" y="7" width="48" height="16" rx="3" stroke-width="2"/>
+  <g class="ln thin">
+    <rect x="74" y="40" width="11" height="11" rx="1"/><path d="M94 46h62"/>
+    <rect x="74" y="62" width="11" height="11" rx="1"/><path d="M94 68h48"/>
+    <rect x="74" y="84" width="11" height="11" rx="1"/><path d="M94 90h56"/>
+    <rect x="74" y="106" width="11" height="11" rx="1"/><path d="M94 112h40"/>
+    <rect x="74" y="128" width="11" height="11" rx="1"/><path d="M94 134h52"/>
+  </g>
+  <g class="mark-ok"><path d="M75 46l3 4 6-8"/><path d="M75 68l3 4 6-8"/><path d="M75 112l3 4 6-8"/></g>
+  <g class="mark-no"><path d="M75 85l9 9M84 85l-9 9"/><path d="M75 129l9 9M84 129l-9 9"/></g>
+  <ellipse class="mark-no" cx="118" cy="90" rx="52" ry="12"/>
+  <path class="mark-no" d="M170 88c14-6 26-10 40-10"/>
+  <text class="note-no" x="186" y="72">FIX</text>
+</svg>
+</span>
 <pre>13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
 1. Header nav at 375. Nothing replaces it, so phone
    visitors cannot reach Install or switch theme.</pre>
       </a>
-      <a class="tool" href="/palette/">
-        <h3>Palette <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:palette</span>
-        <p>Three palettes from a material you name, contrast checked, on your real content. You pick one.</p>
+      <a class="tool" data-tool="palette" href="/palette/">
+        <div class="copy-col"><h3>Palette <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:palette</span><p>Three palettes from a material you name, contrast checked, on your real content. You pick one.</p></div>
+        <span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A fan deck of colour swatches, spread from one pivot, with the chosen card ticked.">
+  <g transform="translate(70 140)">
+    <g transform="rotate(-64)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#164777"/></g>
+    <g transform="rotate(-44)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#1E7F52"/></g>
+    <g transform="rotate(-24)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#EC6A55"/></g>
+    <g transform="rotate(-4)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#F2BE3C"/></g>
+    <g transform="rotate(16)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#E9E6E1"/><path class="ln thin" d="M-7 -50h14M-7 -44h10"/></g>
+    <circle class="ln fill-paper" r="6" stroke-width="2"/>
+  </g>
+  <path class="mark-ok" d="M150 44l8 10 16-22"/>
+  <path class="ln thin dash" d="M118 46c10-6 20-8 30-6"/>
+</svg>
+</span>
 <pre>A  Cyanotype print    #1B4A73  #F2BE3C
 B  Drafting film      #F3F4F1  #1F4F7A
 C  Graphite, redline  #1F2327  #EC6A55</pre>
       </a>
-      <a class="tool" href="/launch/">
-        <h3>Launch <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:launch</span>
-        <p>Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.</p>
+      <a class="tool" data-tool="launch" href="/launch/">
+        <div class="copy-col"><h3>Launch <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:launch</span><p>Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.</p></div>
+        <span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A browser window with a locked address bar, stamped live, broadcasting from its corner.">
+  <rect class="ln" x="20" y="34" width="156" height="110" rx="7" stroke-width="2"/>
+  <path class="ln" d="M20 54h156" stroke-width="2"/>
+  <rect class="ln thin" x="58" y="40" width="104" height="9" rx="4.5"/>
+  <path class="ln thin" d="M64 44.5h0.1M70 44.5h60"/>
+  <rect class="fill-tool" x="62" y="41.5" width="5" height="6" rx="1"/>
+  <g class="ln thin"><path d="M34 70h70M34 80h96M34 88h56"/><rect x="34" y="100" width="40" height="12" rx="2"/><rect x="112" y="68" width="50" height="44" rx="3"/></g>
+  <g transform="rotate(-8 168 120)">
+    <rect class="stamp" x="126" y="102" width="84" height="34" rx="5"/>
+    <text class="stamp-text" x="168" y="126" text-anchor="middle">LIVE</text>
+  </g>
+  <g class="mark-ok"><path d="M196 34a14 14 0 0 1 14 14"/><path d="M196 24a24 24 0 0 1 24 24"/><path d="M196 14a34 34 0 0 1 34 34"/></g>
+</svg>
+</span>
 <pre>done   Email untouched   MX and SPF still on the apex
 done   404 status        /nope returns 404, own page
 open   Search Console    submit sitemap.xml (yours)</pre>
@@ -379,7 +551,7 @@ open   Search Console    submit sitemap.xml (yours)</pre>
   </div>
 </section>
 
-<section id="inside" class="tight">
+<section id="inside" class="tight paper2">
   <div class="wrap">
     <div class="head">
       <h2>Markdown and templates. Nothing executes.</h2>

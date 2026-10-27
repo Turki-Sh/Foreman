@@ -28,7 +28,7 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/modes.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -107,10 +107,37 @@
 </div>
 
 <main id="main">
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
-  <h1>Three modes, one set of decisions.</h1>
-  <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
+<div class="band">
+<div class="wrap pagehead has-art">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
+    <h1>Three modes, one set of decisions.</h1>
+    <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
+  </div>
+  <div class="trio"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A site survey: a plot staked at its corners, with sight lines from a surveyor's tripod.">
+  <path class="ln dash" d="M28 34L188 24 198 116 22 120Z"/>
+  <g class="ln"><path d="M28 34v-16"/><path d="M188 24v-16"/><path d="M198 116v-16"/><path d="M22 120v-16"/></g>
+  <g class="fill-tool"><path d="M28 18l12 4-12 4z"/><path d="M188 8l12 4-12 4z"/><path d="M198 100l12 4-12 4z"/><path d="M22 104l12 4-12 4z"/></g>
+  <g class="ln"><path d="M110 70l-12 34M110 70l12 34M110 70v36"/><rect x="102" y="60" width="16" height="10" rx="2"/></g>
+  <g class="ln thin dash"><path d="M110 64L28 34"/><path d="M110 64L188 24"/></g>
+  <g class="ln thin"><path d="M28 132h170"/><path d="M28 128v8M198 128v8"/></g>
+</svg>
+<svg class="art" viewBox="0 0 220 140" role="img" aria-label="A clean drawing of a page, with dimension lines on two sides and a title block.">
+  <rect class="ln" x="48" y="16" width="128" height="96" rx="2" stroke-width="2"/>
+  <g class="ln thin"><path d="M60 30h60M60 40h86M60 48h50"/><rect x="60" y="58" width="34" height="10" rx="1"/><rect x="104" y="58" width="60" height="42" rx="1"/><path d="M60 80h34M60 88h28M60 96h30"/></g>
+  <g class="ln thin"><path d="M30 16v96M26 16h8M26 112h8"/><path d="M30 16l-3 6M30 16l3 6M30 112l-3-6M30 112l3-6"/></g>
+  <g class="ln thin"><path d="M48 126h128M48 122v8M176 122v8"/><path d="M48 126l6-3M48 126l6 3M176 126l-6-3M176 126l-6 3"/></g>
+  <rect class="ln thin" x="184" y="96" width="30" height="16"/><path class="fill-tool" d="M186 98h12v4h-12z"/>
+</svg>
+<svg class="art" viewBox="0 0 220 140" role="img" aria-label="A load test: a beam on two supports under three loads, with its deflection drawn below.">
+  <rect class="ln fill-paper" x="22" y="62" width="176" height="12" rx="1" stroke-width="2"/>
+  <g class="ln"><path d="M34 74l-10 18h20z"/><path d="M186 74l-10 18h20z"/><path d="M16 96h44M164 96h44"/></g>
+  <g class="mark-no"><path d="M70 20v34M64 46l6 9 6-9"/><path d="M110 14v40M104 46l6 9 6-9"/><path d="M150 20v34M144 46l6 9 6-9"/></g>
+  <path class="ln dash tool-stroke" d="M34 82Q110 118 186 82"/>
+  <path class="mark-ok" d="M100 122l6 7 12-14"/>
+</svg>
+</div>
+</div>
 </div>
 
 <section class="tight">
@@ -131,7 +158,15 @@
 <section id="survey">
   <div class="wrap split">
     <div class="head">
-      <h2>Survey: research instead of asking.</h2>
+      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A site survey: a plot staked at its corners, with sight lines from a surveyor's tripod.">
+  <path class="ln dash" d="M28 34L188 24 198 116 22 120Z"/>
+  <g class="ln"><path d="M28 34v-16"/><path d="M188 24v-16"/><path d="M198 116v-16"/><path d="M22 120v-16"/></g>
+  <g class="fill-tool"><path d="M28 18l12 4-12 4z"/><path d="M188 8l12 4-12 4z"/><path d="M198 100l12 4-12 4z"/><path d="M22 104l12 4-12 4z"/></g>
+  <g class="ln"><path d="M110 70l-12 34M110 70l12 34M110 70v36"/><rect x="102" y="60" width="16" height="10" rx="2"/></g>
+  <g class="ln thin dash"><path d="M110 64L28 34"/><path d="M110 64L188 24"/></g>
+  <g class="ln thin"><path d="M28 132h170"/><path d="M28 128v8M198 128v8"/></g>
+</svg>
+<h2>Survey: research instead of asking.</h2></div>
       <p>Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.</p>
     </div>
     <div class="prose">
@@ -181,7 +216,14 @@ Who is the one reader: Obsidian users with a big vault, people who keep notes in
 <section id="blueprint">
   <div class="wrap split">
     <div class="head">
-      <h2>Blueprint: the full interview.</h2>
+      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A clean drawing of a page, with dimension lines on two sides and a title block.">
+  <rect class="ln" x="48" y="16" width="128" height="96" rx="2" stroke-width="2"/>
+  <g class="ln thin"><path d="M60 30h60M60 40h86M60 48h50"/><rect x="60" y="58" width="34" height="10" rx="1"/><rect x="104" y="58" width="60" height="42" rx="1"/><path d="M60 80h34M60 88h28M60 96h30"/></g>
+  <g class="ln thin"><path d="M30 16v96M26 16h8M26 112h8"/><path d="M30 16l-3 6M30 16l3 6M30 112l-3-6M30 112l3-6"/></g>
+  <g class="ln thin"><path d="M48 126h128M48 122v8M176 122v8"/><path d="M48 126l6-3M48 126l6 3M176 126l-6-3M176 126l-6 3"/></g>
+  <rect class="ln thin" x="184" y="96" width="30" height="16"/><path class="fill-tool" d="M186 98h12v4h-12z"/>
+</svg>
+<h2>Blueprint: the full interview.</h2></div>
       <p>The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.</p>
     </div>
     <div>
@@ -211,7 +253,14 @@ After those ninety seconds, what is the one thing you want them to do? Email you
 <section id="stress-test">
   <div class="wrap split">
     <div class="head">
-      <h2>Stress test: every answer pushed once.</h2>
+      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A load test: a beam on two supports under three loads, with its deflection drawn below.">
+  <rect class="ln fill-paper" x="22" y="62" width="176" height="12" rx="1" stroke-width="2"/>
+  <g class="ln"><path d="M34 74l-10 18h20z"/><path d="M186 74l-10 18h20z"/><path d="M16 96h44M164 96h44"/></g>
+  <g class="mark-no"><path d="M70 20v34M64 46l6 9 6-9"/><path d="M110 14v40M104 46l6 9 6-9"/><path d="M150 20v34M144 46l6 9 6-9"/></g>
+  <path class="ln dash tool-stroke" d="M34 82Q110 118 186 82"/>
+  <path class="mark-ok" d="M100 122l6 7 12-14"/>
+</svg>
+<h2>Stress test: every answer pushed once.</h2></div>
       <p>For the build where a weak decision is expensive. Everything in Blueprint, plus:</p>
       <ul class="small" style="padding-left:1.1rem;margin:0">
         <li>One challenge on every answer at steps 2 and 3 before it locks, never two.</li>

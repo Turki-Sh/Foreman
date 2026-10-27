@@ -6,63 +6,116 @@ og: home
 og_alt: Foreman: every good build starts as a drawing.
 priority: 1.0
 -->
-<div class="wrap hero">
-  <div class="cols">
-    <div>
-      <h1 class="drawn enter" style="--d:60ms">
+<section class="stage" aria-labelledby="hero-h">
+  <div class="wrap stage-grid">
+    <div class="pitch">
+      <h1 id="hero-h" class="drawn enter" style="--d:60ms">
         <span class="drawn-base">Every good build starts as a drawing.</span>
         <span class="drawn-grid" aria-hidden="true">Every good build starts as a drawing.</span>
       </h1>
-      <p class="lede enter" style="--d:220ms">Foreman makes your coding agent do the drawing first: the interview, the decisions, the locked system, the brief. Then the code, then the domain, then indexed.</p>
-      <div class="cta enter" style="--d:1500ms">
-        <a class="btn" href="/install/">Install it</a>
+      <p class="lede enter" style="--d:200ms">Foreman makes your coding agent do the drawing first: the interview, the decisions, the locked system, the brief. Then the code, then the domain, then indexed.</p>
+      <div class="cta enter" style="--d:340ms">
+        <a class="btn go" href="/install/">Install it</a>
         <a class="btn line" href="https://github.com/Turki-Sh/Foreman">Read every line</a>
         <a class="star" id="star" href="https://github.com/Turki-Sh/Foreman/stargazers" data-repo="Turki-Sh/Foreman" data-threshold="100"><span aria-hidden="true">&#9733;</span> Star on GitHub<span class="count" hidden></span></a>
       </div>
+      <p class="works enter" style="--d:460ms">Free and open source. Markdown only, so it runs in Claude Code, Cursor, Codex, Copilot, Gemini CLI, or any agent that reads files.</p>
     </div>
 
-    <figure class="sheet enter" style="--d:140ms">
-      <span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span>
-      <svg class="drawing" viewBox="0 0 480 352" role="img" aria-label="A hand-drawn wireframe of a web page, annotated with three decisions the interview locks: a one-sentence opening, one primary action, and real projects only.">
-        <defs>
-          <filter id="rough" x="-6%" y="-6%" width="112%" height="112%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="9" result="n"/>
-            <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
-          </filter>
-        </defs>
-        <g filter="url(#rough)">
-          <path class="ln frame ink-path" style="--i:0" stroke-width="2" d="M22 20 L286 17 L289 334 L20 337 Z"/>
-          <path class="ln ink-path" style="--i:1" stroke-width="1.4" d="M22 56 C 110 58, 210 54, 286 53"/>
-          <path class="ln ink-path" style="--i:2" stroke-width="1.6" d="M42 94 L182 92"/>
-          <path class="ln ink-path" style="--i:3" stroke-width="1.6" d="M42 114 L232 112"/>
-          <path class="ln ink-path" style="--i:4" stroke-width="1.6" d="M42 134 L146 133"/>
-          <path class="ln ink-path" style="--i:5" stroke-width="1.6" d="M42 166 L118 166 L118 192 L42 192 Z"/>
-          <path class="ln ink-path" style="--i:6" stroke-width="1.4" d="M42 230 L266 228"/>
-          <path class="ln ink-path" style="--i:7" stroke-width="1.4" d="M42 248 L220 246"/>
-          <path class="ln ink-path" style="--i:8" stroke-width="1.5" d="M42 278 L110 278 L110 312 L42 312 Z"/>
-          <path class="ln ink-path" style="--i:9" stroke-width="1.5" d="M120 278 L188 278 L188 312 L120 312 Z"/>
-          <path class="ln ink-path" style="--i:10" stroke-width="1.5" d="M198 278 L266 278 L266 312 L198 312 Z"/>
-        </g>
-        <g class="note" style="--t:1050ms">
-          <path class="ln lead" d="M182 92 L306 92"/>
-          <circle class="dot" cx="182" cy="92" r="2.4"/>
-          <text x="312" y="88">One sentence</text>
-        </g>
-        <g class="note" style="--t:1300ms">
-          <path class="ln lead" d="M118 179 L306 179"/>
-          <circle class="dot" cx="118" cy="179" r="2.4"/>
-          <text x="312" y="175">One action</text>
-        </g>
-        <g class="note" style="--t:1550ms">
-          <path class="ln lead" d="M266 295 L306 295"/>
-          <circle class="dot" cx="266" cy="295" r="2.4"/>
-          <text x="312" y="291">Real projects only</text>
-        </g>
-      </svg>
-      <figcaption><span>Fig. 1 · What the interview decides, before any code exists</span><span class="locked">&#10003; Locked · 3 decisions</span></figcaption>
+    <figure class="board enter" id="board" style="--d:120ms">
+      <span class="reg tl"></span><span class="reg tr"></span><span class="reg bl"></span><span class="reg br"></span>
+      <div class="sheet-area">
+        <div class="plan-wrap">
+        <svg class="plan" viewBox="0 0 460 440" role="img" aria-label="Fig. 1: a robotics portfolio drawn from its decisions. Keyed notes mark the opening line, the one action, the real projects, and the palette. The drawing is filled in as the built page, two defects are marked and fixed, and the page is stamped live.">
+          <defs><clipPath id="pageclip"><rect x="8" y="8" width="444" height="424" rx="10"/></clipPath></defs>
+          <g clip-path="url(#pageclip)">
+            <g class="render">
+              <rect x="8" y="8" width="444" height="424" fill="#E9E6E1"/>
+              <rect x="8" y="8" width="444" height="32" fill="#DFDBD5"/>
+              <rect x="120" y="16" width="220" height="16" rx="8" fill="#F4F2EF"/>
+              <rect x="28" y="56" width="20" height="20" rx="2" fill="#1F1A18"/>
+              <rect x="330" y="63" width="26" height="6" rx="3" fill="#8C817C"/><rect x="368" y="63" width="26" height="6" rx="3" fill="#8C817C"/><rect x="406" y="63" width="26" height="6" rx="3" fill="#8C817C"/>
+              <text class="r-h" x="28" y="121">CUT QUADRUPED RETRAINING</text>
+              <text class="r-h" x="28" y="149">BY ABOUT 60 PERCENT.</text>
+              <text class="r-s" x="28" y="173">Sim-to-real for legged robots. PhD applicant, 2026.</text>
+              <rect x="28" y="186" width="104" height="30" rx="3" fill="#A8371A"/>
+              <text class="r-b" x="80" y="205" text-anchor="middle">EMAIL ME</text>
+              <rect x="284" y="186" width="148" height="96" rx="3" fill="#DFDBD5"/>
+              <path d="M296 270H420M296 198V270" stroke="#B9B1AA" stroke-width="1"/>
+              <rect x="28" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/><rect x="168" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/><rect x="308" y="316" width="124" height="96" rx="3" fill="#DFDBD5"/>
+              <g fill="#1F1A18"><rect x="40" y="330" width="72" height="7" rx="1"/><rect x="180" y="330" width="60" height="7" rx="1"/><rect x="320" y="330" width="80" height="7" rx="1"/></g>
+              <g fill="#8C817C"><rect x="40" y="346" width="96" height="5" rx="1"/><rect x="40" y="357" width="80" height="5" rx="1"/><rect x="180" y="346" width="96" height="5" rx="1"/><rect x="180" y="357" width="70" height="5" rx="1"/><rect x="320" y="346" width="96" height="5" rx="1"/><rect x="320" y="357" width="88" height="5" rx="1"/></g>
+              <g fill="#A8371A"><rect x="40" y="380" width="30" height="12" rx="2"/><rect x="180" y="380" width="30" height="12" rx="2"/><rect x="320" y="380" width="30" height="12" rx="2"/></g>
+            </g>
+          </g>
+          <polyline class="trace" points="296,250 306,226 316,252 326,222 336,250 346,220 356,248 366,224 376,252 386,218 396,246 406,226 416,250 424,236"/>
+          <g class="url"><rect x="134" y="20" width="7" height="8" rx="1.5" fill="#1E7F52"/><text class="r-url" x="148" y="28">portfolio.example</text></g>
+          <g class="lines">
+            <rect class="lw draw" x="8" y="8" width="444" height="424" rx="10"/>
+            <path class="lw draw" d="M8 40H452"/>
+            <rect class="lw draw" x="120" y="16" width="220" height="16" rx="8"/>
+            <rect class="lw draw" x="28" y="56" width="20" height="20" rx="2"/>
+            <path class="lw draw" d="M330 66H356M368 66H394M406 66H432"/>
+            <path class="lw heavy draw" d="M28 112H300"/>
+            <path class="lw heavy draw" d="M28 140H236"/>
+            <path class="lw draw" d="M28 168H258"/>
+            <rect class="lw draw" x="28" y="186" width="104" height="30" rx="3"/>
+            <rect class="lw draw" x="284" y="186" width="148" height="96" rx="3"/>
+            <path class="lw draw" d="M28 300H432"/>
+            <rect class="lw draw" x="28" y="316" width="124" height="96" rx="3"/>
+            <rect class="lw draw" x="168" y="316" width="124" height="96" rx="3"/>
+            <rect class="lw draw" x="308" y="316" width="124" height="96" rx="3"/>
+          </g>
+          <g class="key" data-key="1"><circle cx="362" cy="110" r="13"/><text x="362" y="110">1</text></g>
+          <g class="key" data-key="2"><circle cx="152" cy="201" r="13"/><text x="152" y="201">2</text></g>
+          <g class="key" data-key="3"><circle cx="230" cy="300" r="13"/><text x="230" y="300">3</text></g>
+          <g class="key" data-key="4"><circle cx="440" cy="160" r="13"/><text x="440" y="160">4</text></g>
+          <g class="verify" data-v="a">
+            <ellipse class="vm no" cx="80" cy="201" rx="66" ry="24"/>
+            <text class="vt no" x="150" y="236">&#x2715; href=&quot;#&quot;</text>
+            <ellipse class="vm ok" cx="80" cy="201" rx="66" ry="24"/>
+            <text class="vt ok" x="150" y="236">&#x2713; mailto:</text>
+          </g>
+          <g class="verify" data-v="b">
+            <ellipse class="vm no" cx="88" cy="352" rx="68" ry="30"/>
+            <text class="vt no" x="40" y="406">&#x2715; 3.1:1</text>
+            <ellipse class="vm ok" cx="88" cy="352" rx="68" ry="30"/>
+            <text class="vt ok" x="40" y="406">&#x2713; 5.9:1</text>
+          </g>
+        </svg>
+        <div class="stamp-brief" aria-hidden="true">Brief frozen<small>BRIEF.md &middot; BRAND.md</small></div>
+        <div class="stamp-live" aria-hidden="true">Live<small>portfolio.example</small></div>
+        </div>
+
+        <ol class="keyed" aria-label="Decisions locked for this page">
+          <li data-note="1"><span class="k">1</span><span><span class="l">Opening</span><span class="v">&ldquo;Cut quadruped retraining by about 60 percent&rdquo;, from line 3 of the README</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="2"><span class="k">2</span><span><span class="l">Action</span><span class="v">One: email about a PhD place</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="3"><span class="k">3</span><span><span class="l">Evidence</span><span class="v">Real projects only, each with its number</span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="5"><span class="k none">&mdash;</span><span><span class="l">Non-goals</span><span class="v"><s>blog</s>, <s>contact form</s>, <s>carousel</s></span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+          <li data-note="4"><span class="k">4</span><span><span class="l">Material</span><span class="v">Anodised aluminium and the e-stop&rsquo;s orange <span class="chips" aria-hidden="true"><i style="background:#E9E6E1"></i><i style="background:#1F1A18"></i><i style="background:#A8371A"></i></span></span></span><span class="lock" aria-hidden="true">&#x2713;</span></li>
+        </ol>
+      </div>
+
+      <div class="titleblock">
+        <div>Sheet<b data-sheet>8 of 8</b></div>
+        <div>Step<b data-phase>Index</b></div>
+        <div>Project<b>portfolio.example</b></div>
+        <div>Drawn by<b>Foreman {{version}}</b></div>
+        <div class="ctl"></div>
+      </div>
+      <ol class="rail" aria-label="The eight steps">
+        <li><span class="s" data-at="0"><b>01</b><span>Orient</span></span></li>
+        <li><span class="s" data-at="500"><b>02</b><span>Decide</span></span></li>
+        <li><span class="s" data-at="3200"><b>03</b><span>Look</span></span></li>
+        <li><span class="s" data-at="5400"><b>04</b><span>Brief</span></span></li>
+        <li><span class="s" data-at="6200"><b>05</b><span>Build</span></span></li>
+        <li><span class="s" data-at="8400"><b>06</b><span>Verify</span></span></li>
+        <li><span class="s" data-at="10000"><b>07</b><span>Ship</span></span></li>
+        <li><span class="s" data-at="10900"><b>08</b><span>Index</span></span></li>
+      </ol>
     </figure>
   </div>
-</div>
+</section>
 
 <section id="first">
   <div class="wrap split">
@@ -73,9 +126,9 @@ priority: 1.0
     </div>
     <div>
       <div class="tabs" role="tablist" aria-label="Modes">
-        <button class="tab" role="tab" id="tab-blueprint" aria-controls="p-blueprint" aria-selected="true" type="button">Blueprint</button>
-        <button class="tab" role="tab" id="tab-survey" aria-controls="p-survey" aria-selected="false" tabindex="-1" type="button">Survey</button>
-        <button class="tab" role="tab" id="tab-stress" aria-controls="p-stress" aria-selected="false" tabindex="-1" type="button">Stress test</button>
+        <button class="tab" role="tab" id="tab-blueprint" aria-controls="p-blueprint" aria-selected="true" type="button"><span class="artbox" aria-hidden="true">{{art_blueprint}}</span><span><b>Blueprint</b><span>The full interview</span></span></button>
+        <button class="tab" role="tab" id="tab-survey" aria-controls="p-survey" aria-selected="false" tabindex="-1" type="button"><span class="artbox" aria-hidden="true">{{art_survey}}</span><span><b>Survey</b><span>Research, then one sheet</span></span></button>
+        <button class="tab" role="tab" id="tab-stress" aria-controls="p-stress" aria-selected="false" tabindex="-1" type="button"><span class="artbox" aria-hidden="true">{{art_stress}}</span><span><b>Stress test</b><span>Every answer pushed once</span></span></button>
       </div>
       <div class="panel" role="tabpanel" id="p-blueprint" aria-labelledby="tab-blueprint" tabindex="0">
         <p class="what">The default. The full interview, one question at a time.</p>
@@ -151,11 +204,12 @@ What would make that lead close your page within ten seconds?</div>
   </div>
 </section>
 
-<section id="changes">
+<section id="changes" class="paper2">
   <div class="wrap">
     <div class="head">
       <h2>Same agent, same model, different session.</h2>
     </div>
+    {{art_compare}}
     <div class="scroller">
       <table>
         <thead><tr><th scope="col"><span class="visually-hidden">Stage</span></th><th scope="col">Without Foreman</th><th scope="col">With Foreman</th></tr></thead>
@@ -178,54 +232,53 @@ What would make that lead close your page within ten seconds?</div>
       <h2>{{steps_word}} steps. Each has a gate it will not pass.</h2>
       <p>Your agent runs this. You do not read it. It stamps the step it is on and never narrates the rest at you.</p>
     </div>
-    <div class="rows">
-      <div class="row"><span class="n">01</span><span class="t">Orient</span><p class="g">It knows the subject and what you already have.</p></div>
-      <div class="row"><span class="n">02</span><span class="t">Decide</span><p class="g">One reader, one action, one job, a register, non-goals, and draft copy for every section, in writing.</p></div>
-      <div class="row"><span class="n">03</span><span class="t">Lock the look</span><p class="g">Exact hex values, exact font names, a type scale, the composition, the first two seconds, and one specified signature element.</p></div>
-      <div class="row"><span class="n">04</span><span class="t">Write the brief</span><p class="g">A frozen brief you have read and approved. No site code exists before this line.</p></div>
-      <div class="row"><span class="n">05</span><span class="t">Build</span><p class="g">It asks whether to build here or hand the brief over, then it builds with zero errors and you have seen it at 375px.</p></div>
-      <div class="row"><span class="n">06</span><span class="t">Verify</span><p class="g">Evidence, not assurances, and a punch list with nothing left in the broken group.</p></div>
-      <div class="row"><span class="n">07</span><span class="t">Ship</span><p class="g">The domain resolves over HTTPS in a private window.</p></div>
-      <div class="row"><span class="n">08</span><span class="t">Index</span><p class="g">The sitemap is submitted and the shared link renders its card.</p></div>
+    <div class="steps-wrap">
+      <div class="steps-art">{{art_building}}</div>
+      <div class="rows">
+        <div class="row" data-step="1"><span class="n">01</span><span class="t">Orient</span><p class="g">It knows the subject and what you already have.</p></div>
+        <div class="row" data-step="2"><span class="n">02</span><span class="t">Decide</span><p class="g">One reader, one action, one job, a register, non-goals, and draft copy for every section, in writing.</p></div>
+        <div class="row" data-step="3"><span class="n">03</span><span class="t">Lock the look</span><p class="g">Exact hex values, exact font names, a type scale, the composition, the first two seconds, and one specified signature element.</p></div>
+        <div class="row" data-step="4"><span class="n">04</span><span class="t">Write the brief</span><p class="g">A frozen brief you have read and approved. No site code exists before this line.</p></div>
+        <div class="row" data-step="5"><span class="n">05</span><span class="t">Build</span><p class="g">It asks whether to build here or hand the brief over, then it builds with zero errors and you have seen it at 375px.</p></div>
+        <div class="row" data-step="6"><span class="n">06</span><span class="t">Verify</span><p class="g">Evidence, not assurances, and a punch list with nothing left in the broken group.</p></div>
+        <div class="row" data-step="7"><span class="n">07</span><span class="t">Ship</span><p class="g">The domain resolves over HTTPS in a private window.</p></div>
+        <div class="row" data-step="8"><span class="n">08</span><span class="t">Index</span><p class="g">The sitemap is submitted and the shared link renders its card.</p></div>
+      </div>
     </div>
   </div>
 </section>
 
-<section id="toolbelt">
+<section id="toolbelt" class="blue">
   <div class="wrap">
     <div class="head">
       <h2>Four tools that work without the interview.</h2>
       <p>Call one on its own, or in the middle of a session without losing your place. In Claude Code each is a slash command. Anywhere else, ask in plain words.</p>
     </div>
     <div class="belt">
-      <a class="tool" href="/board/">
-        <h3>Board <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:board</span>
-        <p>Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.</p>
+      <a class="tool" data-tool="board" href="/board/">
+        <div class="copy-col"><h3>Board <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:board</span><p>Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.</p></div>
+        <span class="artbox" aria-hidden="true">{{art_board}}</span>
 <pre>oxide.computer: figures are numbered and treated
 as plates. Take this: label the diagrams of how
 Foreman works as numbered figures.</pre>
       </a>
-      <a class="tool" href="/punch-list/">
-        <h3>Punch list <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:punch-list https://your-site.com</span>
-        <p>Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.</p>
+      <a class="tool" data-tool="punch-list" href="/punch-list/">
+        <div class="copy-col"><h3>Punch list <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:punch-list https://your-site.com</span><p>Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.</p></div>
+        <span class="artbox" aria-hidden="true">{{art_punch}}</span>
 <pre>13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
 1. Header nav at 375. Nothing replaces it, so phone
    visitors cannot reach Install or switch theme.</pre>
       </a>
-      <a class="tool" href="/palette/">
-        <h3>Palette <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:palette</span>
-        <p>Three palettes from a material you name, contrast checked, on your real content. You pick one.</p>
+      <a class="tool" data-tool="palette" href="/palette/">
+        <div class="copy-col"><h3>Palette <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:palette</span><p>Three palettes from a material you name, contrast checked, on your real content. You pick one.</p></div>
+        <span class="artbox" aria-hidden="true">{{art_palette}}</span>
 <pre>A  Cyanotype print    #1B4A73  #F2BE3C
 B  Drafting film      #F3F4F1  #1F4F7A
 C  Graphite, redline  #1F2327  #EC6A55</pre>
       </a>
-      <a class="tool" href="/launch/">
-        <h3>Launch <span class="go" aria-hidden="true">&rarr;</span></h3>
-        <span class="cmd">/foreman:launch</span>
-        <p>Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.</p>
+      <a class="tool" data-tool="launch" href="/launch/">
+        <div class="copy-col"><h3>Launch <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:launch</span><p>Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.</p></div>
+        <span class="artbox" aria-hidden="true">{{art_launch}}</span>
 <pre>done   Email untouched   MX and SPF still on the apex
 done   404 status        /nope returns 404, own page
 open   Search Console    submit sitemap.xml (yours)</pre>
@@ -234,7 +287,7 @@ open   Search Console    submit sitemap.xml (yours)</pre>
   </div>
 </section>
 
-<section id="inside" class="tight">
+<section id="inside" class="tight paper2">
   <div class="wrap">
     <div class="head">
       <h2>Markdown and templates. Nothing executes.</h2>

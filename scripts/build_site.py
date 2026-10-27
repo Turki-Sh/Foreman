@@ -224,8 +224,11 @@ def build():
         })
         if slug == "changelog":
             values["changelog"] = changelog_html()
-        for name in ("header", "footer", "install_claude"):
-            values[name] = render(partials[name], values)
+        # Every partial but the layout and the head is available to a page as
+        # {{name}}: the header, the footer, the install block, and the drawings.
+        for name, text in partials.items():
+            if name not in ("layout", "head"):
+                values[name] = render(text, values)
         if slug not in ("index", "404"):
             values["header"] = values["header"].replace(f'href="/{slug}/"', f'href="/{slug}/" aria-current="page"')
         values["body"] = render(body, values)

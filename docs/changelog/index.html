@@ -28,7 +28,7 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/changelog.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -107,10 +107,23 @@
 </div>
 
 <main id="main">
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / Changelog</p>
-  <h1>Changelog.</h1>
-  <p class="lede">Every release, and the build or the feedback that caused it. The current version is 3.0.1, from 27 October 2026.</p>
+<div class="band">
+<div class="wrap pagehead has-art">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / Changelog</p>
+    <h1>Changelog.</h1>
+    <p class="lede">Every release, and the build or the feedback that caused it. The current version is 3.0.1, from 27 October 2026.</p>
+  </div>
+  <svg class="art" viewBox="0 0 240 160" role="img" aria-label="A drawing's revision table, one row per release, with the newest row marked.">
+  <rect class="ln" x="20" y="18" width="200" height="124" stroke-width="2"/>
+  <g class="ln"><path d="M20 40h200"/><path d="M56 18v124M168 18v124"/></g>
+  <g class="ln thin"><path d="M20 60h200M20 80h200M20 100h200M20 120h200"/></g>
+  <rect class="fill-tool" x="21" y="41" width="198" height="19" opacity=".35"/>
+  <g class="ln thin"><path d="M30 29h16M66 29h60M178 29h30"/><path d="M30 50h14M66 50h88M178 50h32"/><path d="M30 70h14M66 70h70M178 70h32"/><path d="M30 90h14M66 90h84M178 90h32"/><path d="M30 110h14M66 110h58M178 110h32"/><path d="M30 130h14M66 130h76M178 130h32"/></g>
+  <path class="mark-ok" d="M224 44l5 6 10-12"/>
+</svg>
+
+</div>
 </div>
 
 <section class="tight">

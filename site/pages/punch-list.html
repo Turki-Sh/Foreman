@@ -7,12 +7,17 @@ og_alt: Foreman's punch list: why your site looks AI-made, item by item.
 crumb: Punch list
 priority: 0.9
 -->
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Punch list</p>
-  <h1>Why your site looks AI-made, item by item.</h1>
-  <p class="lede">On a building site, the punch list is everything that does not meet the spec, walked room by room before handover. This one is walked against a website, including sites Foreman never built, and every item comes with its fix.</p>
-  <div class="copyrow"><pre id="cmd">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
-  <ul class="asks"><li>why does my site look AI-made</li><li>audit this page before I launch it</li><li>what is wrong with this screenshot</li></ul>
+<div class="band" data-tool="punch-list">
+<div class="wrap pagehead has-art" data-tool="punch-list">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Punch list</p>
+    <h1>Why your site looks AI-made, item by item.</h1>
+    <p class="lede">On a building site, the punch list is everything that does not meet the spec, walked room by room before handover. This one is walked against a website, including sites Foreman never built, and every item comes with its fix.</p>
+    <div class="copyrow"><pre id="cmd">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <ul class="asks"><li>why does my site look AI-made</li><li>audit this page before I launch it</li><li>what is wrong with this screenshot</li></ul>
+  </div>
+  {{art_punch}}
+</div>
 </div>
 
 <section>
@@ -125,9 +130,9 @@ the pixel-art cutout is hand-drawn or generated.</pre>
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/board/"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/palette/"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
-      <a href="/launch/"><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
+      <a href="/board/" data-tool="board"><span class="artbox" aria-hidden="true">{{art_board}}</span><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="artbox" aria-hidden="true">{{art_palette}}</span><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+      <a href="/launch/" data-tool="launch"><span class="artbox" aria-hidden="true">{{art_launch}}</span><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
     </div>
   </div>
 </section>

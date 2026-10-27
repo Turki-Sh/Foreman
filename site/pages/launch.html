@@ -7,12 +7,17 @@ og_alt: Foreman's launch tool: from finished to live and found.
 crumb: Launch
 priority: 0.8
 -->
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Launch</p>
-  <h1>From finished to live and found.</h1>
-  <p class="lede">The part nobody builds until reminded: the domain, the DNS records, the certificate, the head metadata, the share card, the 404, the sitemap, and getting indexed. One step per message, for a site built anywhere.</p>
-  <div class="copyrow"><pre id="cmd">/foreman:launch</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
-  <ul class="asks"><li>how do I put this online</li><li>my domain will not load</li><li>the link preview shows nothing</li></ul>
+<div class="band" data-tool="launch">
+<div class="wrap pagehead has-art" data-tool="launch">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Launch</p>
+    <h1>From finished to live and found.</h1>
+    <p class="lede">The part nobody builds until reminded: the domain, the DNS records, the certificate, the head metadata, the share card, the 404, the sitemap, and getting indexed. One step per message, for a site built anywhere.</p>
+    <div class="copyrow"><pre id="cmd">/foreman:launch</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <ul class="asks"><li>how do I put this online</li><li>my domain will not load</li><li>the link preview shows nothing</li></ul>
+  </div>
+  {{art_launch}}
+</div>
 </div>
 
 <section>
@@ -76,9 +81,9 @@ open   Inbound links                link the site from the repo About field, the
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/board/"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/punch-list/"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
-      <a href="/palette/"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+      <a href="/board/" data-tool="board"><span class="artbox" aria-hidden="true">{{art_board}}</span><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/punch-list/" data-tool="punch-list"><span class="artbox" aria-hidden="true">{{art_punch}}</span><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="artbox" aria-hidden="true">{{art_palette}}</span><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
     </div>
   </div>
 </section>

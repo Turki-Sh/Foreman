@@ -7,12 +7,17 @@ og_alt: Foreman's board: references chosen for your brief.
 crumb: Board
 priority: 0.8
 -->
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Board</p>
-  <h1>References chosen for your brief.</h1>
-  <p class="lede">Most people have no references and will not go looking, and a list of galleries is a way of not choosing. The board does the looking: six to eight real pages, each with the one thing worth taking from it.</p>
-  <div class="copyrow"><pre id="cmd">/foreman:board a portfolio for a robotics researcher, academic</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
-  <ul class="asks"><li>give me a reference board</li><li>show me sites like the one I want</li><li>what should this look like</li></ul>
+<div class="band" data-tool="board">
+<div class="wrap pagehead has-art" data-tool="board">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Board</p>
+    <h1>References chosen for your brief.</h1>
+    <p class="lede">Most people have no references and will not go looking, and a list of galleries is a way of not choosing. The board does the looking: six to eight real pages, each with the one thing worth taking from it.</p>
+    <div class="copyrow"><pre id="cmd">/foreman:board a portfolio for a robotics researcher, academic</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <ul class="asks"><li>give me a reference board</li><li>show me sites like the one I want</li><li>what should this look like</li></ul>
+  </div>
+  {{art_board}}
+</div>
 </div>
 
 <section>
@@ -93,9 +98,9 @@ Which two would you keep, what about them, and which one would you not want?</di
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/punch-list/"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
-      <a href="/palette/"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
-      <a href="/launch/"><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
+      <a href="/punch-list/" data-tool="punch-list"><span class="artbox" aria-hidden="true">{{art_punch}}</span><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="artbox" aria-hidden="true">{{art_palette}}</span><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+      <a href="/launch/" data-tool="launch"><span class="artbox" aria-hidden="true">{{art_launch}}</span><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
     </div>
   </div>
 </section>

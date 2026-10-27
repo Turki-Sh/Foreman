@@ -7,10 +7,15 @@ og_alt: Foreman's three modes: Survey, Blueprint, Stress test.
 crumb: Modes
 priority: 0.9
 -->
-<div class="wrap pagehead">
-  <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
-  <h1>Three modes, one set of decisions.</h1>
-  <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
+<div class="band">
+<div class="wrap pagehead has-art">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
+    <h1>Three modes, one set of decisions.</h1>
+    <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
+  </div>
+  <div class="trio">{{art_survey}}{{art_blueprint}}{{art_stress}}</div>
+</div>
 </div>
 
 <section class="tight">
@@ -31,7 +36,7 @@ priority: 0.9
 <section id="survey">
   <div class="wrap split">
     <div class="head">
-      <h2>Survey: research instead of asking.</h2>
+      <div class="modehead">{{art_survey}}<h2>Survey: research instead of asking.</h2></div>
       <p>Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.</p>
     </div>
     <div class="prose">
@@ -81,7 +86,7 @@ Who is the one reader: Obsidian users with a big vault, people who keep notes in
 <section id="blueprint">
   <div class="wrap split">
     <div class="head">
-      <h2>Blueprint: the full interview.</h2>
+      <div class="modehead">{{art_blueprint}}<h2>Blueprint: the full interview.</h2></div>
       <p>The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.</p>
     </div>
     <div>
@@ -111,7 +116,7 @@ After those ninety seconds, what is the one thing you want them to do? Email you
 <section id="stress-test">
   <div class="wrap split">
     <div class="head">
-      <h2>Stress test: every answer pushed once.</h2>
+      <div class="modehead">{{art_stress}}<h2>Stress test: every answer pushed once.</h2></div>
       <p>For the build where a weak decision is expensive. Everything in Blueprint, plus:</p>
       <ul class="small" style="padding-left:1.1rem;margin:0">
         <li>One challenge on every answer at steps 2 and 3 before it locks, never two.</li>
