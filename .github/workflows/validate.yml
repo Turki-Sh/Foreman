@@ -18,11 +18,11 @@ jobs:
       - name: No unreplaced placeholders
         run: |
           # Bracketed last letter so this step does not match its own pattern.
-          # CHANGELOG.md is excluded: it describes placeholders that were removed,
-          # so quoting one there is correct rather than a defect.
+          # CHANGELOG.md and the site's changelog page are excluded: they describe
+          # placeholders that were removed, so quoting one there is correct.
           if grep -rn 'GH_HANDL[E]\|LINKEDIN_UR[L]\|SITE_UR[L]\|\[X\] MB' \
               --include='*.md' --include='*.json' --include='*.yml' --include='*.html' \
-              --exclude='CHANGELOG.md' . ; then
+              --exclude='CHANGELOG.md' --exclude-dir='changelog' . ; then
             echo "unreplaced placeholder above"; exit 1
           fi
           echo "no placeholders"
