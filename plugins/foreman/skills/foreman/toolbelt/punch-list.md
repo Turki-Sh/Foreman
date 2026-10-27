@@ -34,7 +34,7 @@ If they ask about "my site" and give nothing, ask for the URL or the folder. Tha
 - Numbers that claim a fact and have gone stale: a version, a year, a count, "updated" dates, the same number disagreeing across the page, the README, and the metadata.
 - No hover or focus states on things that look interactive, or things that look interactive and are not.
 
-**Generated.** Walk `references/vibe-coded-tells.md` against the page and name each tell with where it is. The test for every item stays the same: was it chosen? A tell the owner chose is not a defect.
+**Generated.** Walk `references/vibe-coded-tells.md` against the page and name each tell with where it is. The test for every item stays the same: was it chosen? You cannot see that from the page, so list every tell you find, including ones that might be a deliberate style, and let the owner strike the ones they chose. A tell left off because it might have been chosen is a defect you hid.
 
 **Notes against the standards.** `references/standards.md`: a type scale with no real distance between sizes, lines of body text over about 80 characters, spacing with no system, gutters that disagree, motion that is slow or uniform, one easing curve or five. These go in their own group as notes, because a standard is a default and the owner may have departed from it on purpose.
 
@@ -66,6 +66,7 @@ Could not check: form submission (no test account).
 
 - **Each item is where, what, and the fix.** Where on the page, what is wrong in one plain sentence about what it does to a visitor, and the fix concrete enough to do. "Looks generic" is not an item. "The three feature cards use the component library's default radius, shadow, and indigo" is.
 - **Ranked inside each group,** worst first.
+- **Write the count line last,** from the list as written, then check it against the list. A punch list that miscounts itself has told them not to trust the rest.
 - **No score, no grade, no percentage.** A number nobody measured is the same as a statistic nobody measured, and this playbook does not invent those.
 - **Quote their copy, never rewrite it.** If a line fails, quote it, say what fails (the competitor swap in `references/content-interview.md` is usually the test), and offer to find the better line in their own draft. The words stay theirs.
 - **Say what is good, once, if something is.** One line at the end, only if true. Not as padding and not to soften the list.

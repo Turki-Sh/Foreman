@@ -29,7 +29,7 @@ Check each variant against the colour section of `references/standards.md` befor
 
 Start from `assets/brand-harness.html`, read the warning at its top, and replace every shipped value. Fill it with their name, their line, and their paragraph. Save it as `brand.html`, a throwaway that never joins the project. Open it for them if you can.
 
-Beside each variant, the contrast pairs you measured: text on ground, muted on ground, text on surface, accent on ground, and the label on the accent. Any pair under 4.5:1 for body text or 3:1 for large text and interface parts is fixed before they see it, not after.
+Beside each variant, the contrast pairs you measured: text on ground, muted on ground, text on surface, accent on ground, and the label on the accent. Any pair under 4.5:1 for body text or 3:1 for large text and interface parts is fixed before they see it, not after. Measure with whatever the session can run. If it can run nothing, work the WCAG relative-luminance formula by hand for each pair, say that it was done by hand, and round down. Never show a ratio you did not compute.
 
 ## 4. What comes back
 

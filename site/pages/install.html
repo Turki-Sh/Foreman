@@ -1,0 +1,134 @@
+<!--
+title: Install Foreman in Claude Code, Cursor, Codex and more
+description: Install Foreman in Claude Code with two commands, or copy one folder of markdown into Cursor, Windsurf, Codex, Copilot, Gemini CLI or the Claude apps.
+path: /install/
+og: install
+og_alt: Install Foreman: one folder of markdown, anywhere an agent reads files.
+crumb: Install
+priority: 0.9
+-->
+<div class="wrap pagehead">
+  <p class="crumbs"><a href="/">Foreman</a> / Install</p>
+  <h1>Install Foreman.</h1>
+  <p class="lede">One folder of markdown. Nothing compiles and nothing runs, so it installs anywhere an agent reads files.</p>
+</div>
+
+<section class="tight" id="claude-code">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Claude Code</h2>
+      <p>Both lines, in this order. This adds the playbook and its four tools as slash commands.</p>
+    </div>
+    <div class="install">
+      <div>
+{{install_claude}}
+      </div>
+      <div>
+        <h3>Update or remove</h3>
+        <div class="copyrow"><pre id="upd">/plugin marketplace update alshuaibi</pre><button class="copy" type="button" data-for="upd">Copy</button></div>
+        <div class="copyrow" style="margin-top:.5rem"><pre id="rm">/plugin uninstall foreman@alshuaibi</pre><button class="copy" type="button" data-for="rm">Copy</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight" id="claude-apps">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Claude apps</h2>
+    </div>
+    <div class="prose">
+      <p>Download <a href="https://github.com/Turki-Sh/Foreman/raw/main/dist/foreman.skill">foreman.skill</a> and upload it in the skills settings. The modes and the four tools are inside it. Ask for a tool in plain words, such as "run the punch list on my site".</p>
+    </div>
+  </div>
+</section>
+
+<section class="tight" id="other-agents">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Every other agent</h2>
+      <p>Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or anything that reads skills or rules. Copy one folder.</p>
+    </div>
+    <div>
+      <div class="copyrow"><pre id="uni">git clone https://github.com/Turki-Sh/Foreman.git
+cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/</pre><button class="copy" type="button" data-for="uni">Copy</button></div>
+      <div class="scroller" style="margin-top:1.5rem">
+        <table>
+          <thead><tr><th scope="col">Tool</th><th scope="col">Where the folder goes</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Universal skills directory</th><td><code>~/.agents/skills/foreman/</code></td></tr>
+            <tr><th scope="row">Cursor</th><td><code>~/.cursor/rules/</code>, or <code>.cursor/rules/</code> in the project</td></tr>
+            <tr><th scope="row">Codex</th><td><code>~/.codex/skills/foreman/</code>, or reference it from <code>AGENTS.md</code></td></tr>
+            <tr><th scope="row">GitHub Copilot</th><td><code>.github/copilot-instructions.md</code>, or point it at <code>SKILL.md</code></td></tr>
+            <tr><th scope="row">Windsurf</th><td><code>.windsurfrules</code>, or the workspace rules directory</td></tr>
+            <tr><th scope="row">Gemini CLI</th><td><code>GEMINI.md</code>, or the extensions directory</td></tr>
+            <tr><th scope="row">Cline, Continue, Roo</th><td>The custom instructions or rules field</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small" style="margin-top:1rem">Paths move as tools change. The rule that always works: put <code>SKILL.md</code> where your tool reads standing instructions, and keep <code>references/</code>, <code>toolbelt/</code> and <code>assets/</code> next to it. <a href="https://github.com/Turki-Sh/Foreman/blob/main/AGENTS.md">AGENTS.md</a> has the latest table.</p>
+    </div>
+  </div>
+</section>
+
+<section class="tight" id="no-skills">
+  <div class="wrap split">
+    <div class="head">
+      <h2>A chat with no skills support</h2>
+    </div>
+    <div class="prose">
+      <p>Paste <a href="https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/SKILL.md">SKILL.md</a> into the conversation and say "run this on me". The steps, the modes and the gates all work from that one file. The references only deepen them.</p>
+    </div>
+  </div>
+</section>
+
+<section id="check">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Check it loaded</h2>
+      <p>Say <strong>help me build my portfolio</strong>. The first reply is this card, then nothing. If it starts writing HTML, it did not load.</p>
+    </div>
+    <pre class="print" aria-label="The Foreman opening card">         _____ ___  ____  _____ __  __    _    _   _
+        |  ___/ _ \|  _ \| ____|  \/  |  / \  | \ | |
+        | |_ | | | | |_) |  _| | |\/| | / _ \ |  \| |
+        |  _|| |_| |  _ &lt;| |___| |  | |/ ___ \| |\  |
+        |_|   \___/|_| \_\_____|_|  |_/_/   \_\_| \_|
+
++--------------------------------------------------------------+
+|                                                              |
+|                        _______________                       |
+|                    ___/               \___                   |
+|                   /_________________________\                |
+|                   \_________________________/                |
+|                      |  .---.     .---.  |                   |
+|                      |  | O |-----| O |  |                   |
+|                      |  '---'     '---'  |                   |
+|                      |         v         |                   |
+|                      |     ~~~~~~~~~     |                   |
+|                       \_________________/                    |
+|                                                              |
+|   PLAYBOOK  Foreman {{version}} by Turki Alshuaibi                 |
+|   STATUS    Step 1 of 8 . Orient                             |
+|   METHOD    Decide &gt; Look &gt; Brief &gt; Build &gt; Verify &gt; Ship    |
+|   MODE      Blueprint. Say survey or stress test to switch   |
+|   RULE      No site code until you sign off the brief        |
+|                                                              |
++--------------------------------------------------------------+
+|   What are you building, and what do you already have?       |
++--------------------------------------------------------------+</pre>
+  </div>
+</section>
+
+<section class="tight" id="questions">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Questions</h2>
+    </div>
+    <div class="prose">
+      <p><strong>Does it run anything on my machine?</strong> No. Foreman is markdown and fill-in templates. It ships no scripts, no hooks, no MCP servers and no network calls, and its CI fails if any appear. Your agent uses its own tools, with your permission, as it always does.</p>
+      <p><strong>Does it need the internet?</strong> No. Survey mode and the board get better when your agent can browse, and say so in one line when it cannot.</p>
+      <p><strong>Which models does it work with?</strong> Any capable model your agent runs. The recorded runs on this site used Claude Sonnet.</p>
+      <p><strong>What does it cost?</strong> Nothing. MIT licensed.</p>
+    </div>
+  </div>
+</section>

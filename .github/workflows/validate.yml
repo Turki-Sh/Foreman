@@ -12,57 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Manifests are valid JSON with the required keys
-        run: |
-          python3 - <<'PY'
-          import json, sys
-          fail = []
-
-          mk = json.load(open('.claude-plugin/marketplace.json'))
-          for k in ('name', 'owner', 'plugins'):
-              if k not in mk:
-                  fail.append(f'marketplace.json missing "{k}"')
-          for p in mk.get('plugins', []):
-              for k in ('name', 'source', 'description'):
-                  if k not in p:
-                      fail.append(f'marketplace plugin entry missing "{k}"')
-
-          pl = json.load(open('plugins/foreman/.claude-plugin/plugin.json'))
-          if 'name' not in pl:
-              fail.append('plugin.json missing "name"')
-
-          entry = next((p for p in mk['plugins'] if p['name'] == pl['name']), None)
-          if entry is None:
-              fail.append('plugin.json name is not listed in marketplace.json')
-          elif entry.get('version') != pl.get('version'):
-              fail.append('version disagrees between marketplace.json and plugin.json')
-
-          if fail:
-              print('\n'.join(fail)); sys.exit(1)
-          print('manifests ok')
-          PY
-
-      - name: Skill frontmatter is present and within the description limit
-        run: |
-          python3 - <<'PY'
-          import re, sys
-          t = open('plugins/foreman/skills/foreman/SKILL.md').read()
-          m = re.match(r'^---\n(.*?)\n---\n', t, re.S)
-          if not m:
-              print('SKILL.md has no frontmatter'); sys.exit(1)
-          fm = m.group(1)
-          fail = []
-          if not re.search(r'^name:\s*foreman\s*$', fm, re.M):
-              fail.append('frontmatter name is not "foreman"')
-          d = re.search(r'^description:\s*(.+)$', fm, re.M)
-          if not d:
-              fail.append('frontmatter has no description')
-          elif len(d.group(1)) > 1024:
-              fail.append(f'description is {len(d.group(1))} chars, limit is 1024')
-          if fail:
-              print('\n'.join(fail)); sys.exit(1)
-          print('frontmatter ok')
-          PY
+      - name: Manifests, frontmatter, versions, the card, badges and file references
+        run: python3 scripts/validate.py
 
       - name: No unreplaced placeholders
         run: |
@@ -80,26 +31,11 @@ jobs:
         run: |
           # .github is excluded so this step does not match its own pattern.
           if grep -rn '—\|–' \
-              README.md CHANGELOG.md CONTRIBUTING.md AGENTS.md plugins/ docs/ ; then
+              README.md CHANGELOG.md CONTRIBUTING.md AGENTS.md SECURITY.md CODE_OF_CONDUCT.md \
+              plugins/ docs/ site/ scripts/ ; then
             echo "em dash or en dash above"; exit 1
           fi
           echo "punctuation ok"
-
-      - name: Every file SKILL.md names actually exists
-        run: |
-          cd plugins/foreman/skills/foreman
-          missing=0
-          for f in $(grep -o '`[A-Za-z0-9./-]*\.\(md\|html\|txt\|xml\)`' SKILL.md | tr -d '`' | sort -u); do
-            case "$f" in
-              # Files a session creates in the user's project, not files we ship.
-              CHANGELOG.md|brand.html|BRIEF.md|BRAND.md) continue ;;
-            esac
-            if [ ! -f "references/$f" ] && [ ! -f "assets/$f" ] && [ ! -f "$f" ]; then
-              echo "SKILL.md references a file that does not exist: $f"; missing=1
-            fi
-          done
-          [ "$missing" = 0 ] && echo "all referenced files present"
-          exit $missing
 
       - name: Nothing in the plugin executes
         run: |
@@ -124,7 +60,10 @@ jobs:
             echo "dist archive is in sync"
           else
             echo "dist/foreman.skill has drifted from plugins/foreman/skills/foreman/"
-            echo "rebuild it, then commit:"
-            echo "  cd plugins/foreman/skills && zip -r ../../../dist/foreman.skill foreman -x '*.DS_Store'"
+            echo "rebuild it from the committed files, then commit:"
+            echo "  git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugins/foreman/skills foreman"
             exit 1
           fi
+
+      - name: docs/ is what site/ builds
+        run: python3 scripts/build_site.py --check

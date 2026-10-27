@@ -16,7 +16,9 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Submit the site to IndexNow
+      - uses: actions/checkout@v4
+
+      - name: Submit every page in the sitemap to IndexNow
         env:
           HOST: foreman.turkialshuaibi.com
           KEY: 40ccdb6d60b948f3a0ebe5c92949b42f
@@ -24,15 +26,13 @@ jobs:
           # Pages needs a moment to finish deploying before the crawler arrives.
           sleep 60
 
-          body=$(cat <<JSON
-          {
-            "host": "$HOST",
-            "key": "$KEY",
-            "keyLocation": "https://$HOST/$KEY.txt",
-            "urlList": ["https://$HOST/"]
-          }
-          JSON
-          )
+          # Every URL the sitemap lists, so a new page is announced the day it ships.
+          body=$(python3 -c "
+          import json, re
+          urls = re.findall(r'<loc>([^<]+)</loc>', open('docs/sitemap.xml').read())
+          print(json.dumps({'host': '$HOST', 'key': '$KEY', 'keyLocation': 'https://$HOST/$KEY.txt', 'urlList': urls}))
+          ")
+          echo "$body"
 
           code=$(curl -sS -o /tmp/indexnow.out -w '%{http_code}' \
             -X POST 'https://api.indexnow.org/IndexNow' \

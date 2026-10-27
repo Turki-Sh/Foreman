@@ -1,19 +1,34 @@
-# Foreman
+# Foreman by Turki Alshuaibi
 
-> A build playbook that turns a coding agent into the foreman of a website build. It interviews the owner, forces the design and scope decisions, locks a visual system, writes one build brief, then either builds the site in the same session or hands the brief to a coding agent, and verifies, ships, and indexes it.
+> A build playbook that turns a coding agent into the foreman of a website build. It interviews the owner, forces the design and scope decisions, locks a visual system, writes one build brief, then builds the site or hands the brief to a coding agent, and verifies, ships and indexes it. Version 3.0.0, 27 October 2026.
 
-Foreman is an Agent Skill, distributed as a Claude Code plugin and as a plain folder of markdown that works with any agent that reads files. It contains no executable code: no scripts, no hooks, no MCP servers, no network calls. The product is an eight-step session flow with gates, thirteen reference documents loaded only when their step arrives, and six fillable templates.
+Foreman is an Agent Skill, distributed as a Claude Code plugin and as a plain folder of markdown that works with any agent that reads files. It contains no executable code: no scripts, no hooks, no MCP servers, no network calls.
 
-Its governing claim is that the quality of an agent's output is bounded by the quality of the brief it was given, so the work of a good build is decision-making rather than typing. It is written for the agent to run, not for a person to read.
+- 8 gated steps: orient, decide, lock the look, write the brief, build, verify, ship, index.
+- 3 modes: Survey (the fewest questions; the agent researches the repo, site and CV and sends one decision sheet with a source on every line), Blueprint (the default, the full interview) and Stress test (every answer pushed once). Every decision is made in all three.
+- 4 tools that run on their own: board (reference sites chosen for a brief), punch list (an audit of any site for what makes it look AI-generated or unfinished), palette (colours from a named material, contrast checked) and launch (domain, DNS, SSL, metadata, sitemap, indexing). In Claude Code: /foreman:board, /foreman:punch-list, /foreman:palette, /foreman:launch.
+- 14 references loaded only when their step arrives, including design standards (colour theory, proportion and the golden ratio, type scale and measure, spacing, gestalt, motion timing, optical correction), and 7 fillable templates.
 
-Author: Turki Alshuaibi, AI engineer, Saudi Arabia. Released under MIT.
+Its governing claim is that the quality of an agent's output is bounded by the quality of the brief it was given, so the work of a good build is decision-making rather than typing.
+
+Author: Turki Alshuaibi, AI engineer and designer, Saudi Arabia. MIT licensed.
 
 ## Pages
-- [/](https://foreman.turkialshuaibi.com/): what Foreman is, what changes when you use it, the eight steps and their gates, and install instructions for Claude Code, Claude apps, and other coding agents.
+- [Foreman by Turki Alshuaibi · Build playbook for coding agents](https://foreman.turkialshuaibi.com/): Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.
+- [Reference board for your website · Foreman](https://foreman.turkialshuaibi.com/board/): Foreman's board finds real sites for your brief, as a list or a visual board with screenshots, and turns the ones you keep into principles you can build from.
+- [Foreman changelog · every release since 1.0](https://foreman.turkialshuaibi.com/changelog/): Every Foreman release since 1.0.0 in August 2026: what changed in the playbook, and the failed build or the feedback that caused it.
+- [Install Foreman in Claude Code, Cursor, Codex and more](https://foreman.turkialshuaibi.com/install/): Install Foreman in Claude Code with two commands, or copy one folder of markdown into Cursor, Windsurf, Codex, Copilot, Gemini CLI or the Claude apps.
+- [Launch a website: domain, DNS, SSL, indexing · Foreman](https://foreman.turkialshuaibi.com/launch/): Foreman's launch tool takes a site built anywhere to live and found: domain, DNS, SSL, the share card, a real 404, the sitemap and Search Console, one step at a time.
+- [Survey, Blueprint, Stress test · Foreman's three modes](https://foreman.turkialshuaibi.com/modes/): Foreman runs at three depths. Survey researches instead of asking, Blueprint is the full interview, Stress test pushes every answer once. Every decision is made in all three.
+- [Website colour palette from a real material · Foreman](https://foreman.turkialshuaibi.com/palette/): Foreman's palette tool turns a material you name into three website palettes that differ on ground, accent and contrast, every pair measured, shown on your real content.
+- [Punch list: why your site looks AI-generated · Foreman](https://foreman.turkialshuaibi.com/punch-list/): Point Foreman's punch list at any URL, project or screenshot. It lists every dead button, missing state, metadata gap and generated-page tell, ranked, with a fix for each.
+
+## Full text
+- [llms-full.txt](https://foreman.turkialshuaibi.com/llms-full.txt): SKILL.md and the four toolbelt files in one file.
 
 ## Source
 - Repository: https://github.com/Turki-Sh/Foreman
-- The skill itself: https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/SKILL.md
+- The skill: https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/SKILL.md
 - Cross-tool install paths: https://github.com/Turki-Sh/Foreman/blob/main/AGENTS.md
 
 ## Install

@@ -1,0 +1,3 @@
+# Foreman by Turki Alshuaibi: full text
+
+Version {{version}}, {{updated}}. The complete playbook an agent runs: SKILL.md, then the four toolbelt files. The references it names are in the repository at https://github.com/Turki-Sh/Foreman/tree/main/plugins/foreman/skills/foreman/references. MIT licensed.

@@ -67,6 +67,8 @@ Then rebuild `dist/foreman.skill` from the committed files, so line endings matc
 git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugins/foreman/skills foreman
 ```
 
+Before you push, run `python scripts/validate.py`. It is the same check CI runs: manifests, frontmatter that parses, every copy of the version, the card's width, the badges against the folders, and every file the skill names.
+
 Counts in prose go stale the same way as versions. The README badges, `AGENTS.md`, and `CONTRIBUTING.md` carry the counts by hand, and the validate workflow checks the badges.
 
 ## Contributing

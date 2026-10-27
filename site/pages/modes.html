@@ -1,0 +1,159 @@
+<!--
+title: Survey, Blueprint, Stress test · Foreman's three modes
+description: Foreman runs at three depths. Survey researches instead of asking, Blueprint is the full interview, Stress test pushes every answer once. Every decision is made in all three.
+path: /modes/
+og: modes
+og_alt: Foreman's three modes: Survey, Blueprint, Stress test.
+crumb: Modes
+priority: 0.9
+-->
+<div class="wrap pagehead">
+  <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
+  <h1>Three modes, one set of decisions.</h1>
+  <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
+</div>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="scroller">
+      <table>
+        <thead><tr><th scope="col">Mode</th><th scope="col">For</th><th scope="col">Before any code exists</th></tr></thead>
+        <tbody>
+          <tr><th scope="row"><a href="#survey">Survey</a></th><td>You want it moving, or you already have most of the material</td><td>About four exchanges: two sheets, the variants, the brief. It researches, you correct</td></tr>
+          <tr><th scope="row"><a href="#blueprint">Blueprint</a></th><td>The default, and most builds</td><td>The full interview, one question at a time</td></tr>
+          <tr><th scope="row"><a href="#stress-test">Stress test</a></th><td>A launch where a weak decision costs real money or a real chance: a product, a job search, a fundraise</td><td>The full interview, with every answer pushed once</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="survey">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Survey: research instead of asking.</h2>
+      <p>Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.</p>
+    </div>
+    <div class="prose">
+      <ol class="steps">
+        <li><p><strong>It researches before it asks anything.</strong> Your repo, the site you have now, your CV, your product's docs, the profiles you linked. If it can browse, it looks at four or five real sites in your category and notes what they all do, because that is the default to avoid.</p></li>
+        <li><p><strong>One sheet instead of seven questions.</strong> The decisions arrive together, each with where it came from, and one question: what is wrong in it.</p></li>
+        <li><p><strong>An assumption with no source is a question.</strong> A field research could not settle stays as <code>?</code>, and the most important blank is the one it asks.</p></li>
+        <li><p><strong>Three things stay yours.</strong> You pick the palette from variants it built, the copy comes from your own sentences, and you sign off the brief.</p></li>
+      </ol>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:2.5rem">
+    <div class="panel" style="border-top:1px solid var(--rule)">
+      <div class="chat">
+<p class="you">I need a landing page for my app Linkwell, no time for a long process, can you just get it moving</p>
+<p class="gap">Foreman sends its card. MODE reads Survey, because the message said there is no time.</p>
+<p class="you">It&#x27;s Linkwell, a local-first notes app. Everything is in the README in this folder. I have a logo (logo.svg, not here yet), no domain.</p>
+<p class="gap">It reads the README before it asks anything, then:</p>
+<div class="fm"><b>FOREMAN · SURVEY · 2/8 · DECISIONS</b>
+
+<pre class="sheetout">reader      ?                                                   from: not in the README
+action      download Linkwell                                   from: README, last line
+job         a reader downloads it and points it at their own
+            vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
+evidence    310 missed links in 2,400 notes, first week         from: README, line 7
+            also: runs offline, 40 MB, MIT                      from: README
+register    technical                                           from: README tone
+non-goals   signup, pricing, blog, analytics, testimonials,
+            carousel                                            from: free, local-first, nothing to collect
+opening     &quot;In my own vault of 2,400 notes it found 310
+            links I had missed in the first week&quot;               from: README, line 7
+            (&quot;Notes that link themselves&quot; fits any notes app)
+support     &quot;Watches a folder of Markdown notes and suggests
+            links as you type, on your laptop&quot;                  from: README, line 5
+below       the 310 story, the three bullets, download
+shape       one viewport (under four content units)             from: content count</pre>
+
+The download link in the README is github.com/example/linkwell/releases. I&#x27;ll treat that as a placeholder until you give me the real URL.
+
+Who is the one reader: Obsidian users with a big vault, people who keep notes in plain Markdown, or someone else?</div>
+      </div>
+    </div>
+    <p class="source">Real output from Claude Sonnet with Foreman 3.0, recorded on 27 October 2026. Linkwell and its README were written as a test for this run. Note the opening line: it came from line 7 of the README, because line 1 would fit any notes app.</p>
+  </div>
+</section>
+
+<section id="blueprint">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Blueprint: the full interview.</h2>
+      <p>The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.</p>
+    </div>
+    <div>
+      <div class="panel" style="border-top:1px solid var(--rule)">
+        <div class="chat">
+<p class="you">help me build my portfolio</p>
+<p class="gap">Foreman sends its card. MODE reads Blueprint.</p>
+<p class="you">A portfolio. I have my CV and screenshots from a robotics project, nothing else yet.</p>
+<div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
+
+Logged: you have a CV and robotics screenshots. Still missing: any written copy, a domain, a logo, and a hero image or media.
+
+Who is the one reader you actually care about? Name a role, such as a hiring manager at a robotics lab or a research group lead. &quot;Everyone&quot; and &quot;recruiters&quot; in general don&#x27;t count.</div>
+<p class="you">Research group leads hiring PhD students in legged robotics.</p>
+<div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
+
+Reader: a research group lead hiring PhD students in legged robotics. That reader scans fast and has a stack of CVs, so the page has to make you the exception inside ninety seconds.
+
+After those ninety seconds, what is the one thing you want them to do? Email you, open a paper, watch a demo, download the CV. Pick one.</div>
+        </div>
+      </div>
+      <p class="source">Real output, same model, same day.</p>
+    </div>
+  </div>
+</section>
+
+<section id="stress-test">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Stress test: every answer pushed once.</h2>
+      <p>For the build where a weak decision is expensive. Everything in Blueprint, plus:</p>
+      <ul class="small" style="padding-left:1.1rem;margin:0">
+        <li>One challenge on every answer at steps 2 and 3 before it locks, never two.</li>
+        <li>A pre-mortem before the brief freezes: it launched, a month passed, nobody took the action. Why?</li>
+        <li>The reference board is part of the step, not an offer.</li>
+        <li>A full punch list and a five-second stranger test before it ships.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="panel" style="border-top:1px solid var(--rule)">
+        <div class="chat">
+<p class="you">/foreman:foreman stress test</p>
+<p class="gap">Foreman sends its card. MODE reads Stress test.</p>
+<p class="you">A portfolio. I have my CV and screenshots from a robotics project, nothing else yet.</p>
+<div class="fm"><b>FOREMAN · STRESS TEST · 2/8 · DECISIONS</b>
+
+<b>✓ LOCKED · 1/8 ORIENT</b> · subject: portfolio · have: CV, robotics project screenshots · missing: written copy, other projects, logo, domain
+
+Who is the one reader you actually care about? Give me a named role, such as &quot;research group lead hiring a PhD student&quot; or &quot;robotics startup CTO&quot;. &quot;Recruiters&quot; and &quot;everyone&quot; don&#x27;t count.</div>
+<p class="you">Research group leads hiring PhD students in legged robotics.</p>
+<div class="fm"><b>FOREMAN · STRESS TEST · 2/8 · DECISIONS</b>
+
+That reader is specific enough to build for. One push before it locks: a group lead skims dozens of applicants a week and has seen every &quot;passionate about robotics&quot; page.
+
+What would make that lead close your page within ten seconds?</div>
+        </div>
+      </div>
+      <p class="source">Real output. The same answer that Blueprint accepted gets one push here.</p>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Switching.</h2>
+    </div>
+    <div class="prose">
+      <p>Every session opens with a card, and the card carries a <code>MODE</code> line. Say <strong>survey</strong>, <strong>blueprint</strong> or <strong>stress test</strong> at any point and it carries on from the step you are on. Nothing already locked is reopened.</p>
+      <p>If your first message says you are short of time, it opens in Survey on its own. In Claude Code you can also start in a mode directly:</p>
+      <div class="copyrow"><pre id="mode">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
+      <p style="margin-top:1.25rem">Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.</p>
+    </div>
+  </div>
+</section>

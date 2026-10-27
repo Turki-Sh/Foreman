@@ -3,151 +3,124 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Page not found · Foreman</title>
+<title>Not on the drawing · Foreman</title>
+<meta name="description" content="This page is not on the drawing.">
+<link rel="canonical" href="https://foreman.turkialshuaibi.com/404.html">
 <meta name="robots" content="noindex">
+<meta name="author" content="Turki Alshuaibi">
 <meta name="color-scheme" content="light">
 <meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/icon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Foreman by Turki Alshuaibi">
+<meta property="og:title" content="Not on the drawing · Foreman">
+<meta property="og:description" content="This page is not on the drawing.">
+<meta property="og:url" content="https://foreman.turkialshuaibi.com/404.html">
+<meta property="og:image" content="https://foreman.turkialshuaibi.com/og/home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Not on the drawing · Foreman">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Not on the drawing · Foreman">
+<meta name="twitter:description" content="This page is not on the drawing.">
+<meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/home.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-<style>
-  @font-face {
-    font-family: "Barlow Condensed";
-    src: url("/fonts/barlow-condensed-700.woff2") format("woff2");
-    font-weight: 700; font-style: normal; font-display: swap;
-  }
-  :root[data-theme="dark"] {
-    --paper: #0A2444; --ink: #EAF1FA; --muted: #93AECD;
-    --blue: #7FA8DC; --tint: #143A66; --hair: #1B3D6B;
-  }
-  :root {
-    --paper: #FFFFFF; --ink: #0A0A0A; --muted: #767676;
-    --blue: #1B4DD1; --tint: #DDE5FA; --hair: #E4E4E4;
-    --display: "Barlow Condensed", "Arial Narrow", "Avenir Next Condensed", system-ui, sans-serif;
-    --body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
-  }
-  * { box-sizing: border-box; }
-  html { scrollbar-color: var(--ink) var(--paper); scrollbar-width: thin; }
-  ::-webkit-scrollbar { width: 13px; }
-  ::-webkit-scrollbar-track { background: var(--paper); border-left: 1px solid var(--hair); }
-  ::-webkit-scrollbar-thumb { background: var(--ink); border: 4px solid var(--paper); }
-  ::selection { background: var(--tint); color: var(--ink); }
-  body {
-    margin: 0; min-height: 100dvh; background: var(--paper); color: var(--ink);
-    font-family: var(--body); line-height: 1.6;
-    display: grid; place-items: center; padding: 1.75rem;
-    -webkit-font-smoothing: antialiased;
-  }
-  main { max-width: 46ch; width: 100%; }
-  .boxlbl {
-    display: inline-block; border: 1px solid var(--ink); padding: .3rem .55rem;
-    font-family: var(--mono); font-size: .6875rem; letter-spacing: .12em; text-transform: uppercase;
-  }
-  h1 {
-    font-family: var(--display); font-weight: 700; text-transform: uppercase;
-    font-size: clamp(2.4rem, 8vw, 4rem); line-height: .9; letter-spacing: -.005em;
-    margin: 1rem 0 .75rem;
-  }
-  p { color: var(--muted); margin: 0 0 1.75rem; }
-  .actions { display: flex; flex-wrap: wrap; gap: .55rem; }
-  a.btn {
-    display: inline-block; font-family: var(--mono); font-size: .75rem;
-    letter-spacing: .1em; text-transform: uppercase; text-decoration: none;
-    padding: .8rem 1.2rem; background: var(--ink); color: var(--paper);
-    border: 1px solid var(--ink); transition: background .16s ease, color .16s ease;
-  }
-  a.btn:hover { background: var(--blue); border-color: var(--blue); }
-  a.btn.o { background: transparent; color: var(--ink); }
-  a.btn.o:hover { background: var(--ink); color: var(--paper); }
-  a.btn:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
-  .rule { margin-top: 2.25rem; padding-top: .875rem; border-top: 1px solid var(--hair);
-          font-family: var(--mono); font-size: .6875rem; letter-spacing: .1em;
-          text-transform: uppercase; color: var(--muted); }
+<link rel="stylesheet" href="/site.css?v=3.0.0">
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 
-  /* Drafting paper, same as the OG card. Barely visible, does the work. */
-  body::before {
-    content: ""; position: fixed; inset: 0; z-index: 0; pointer-events: none;
-    background-image:
-      linear-gradient(var(--gridB) 1px, transparent 1px),
-      linear-gradient(90deg, var(--gridB) 1px, transparent 1px),
-      linear-gradient(var(--gridA) 1px, transparent 1px),
-      linear-gradient(90deg, var(--gridA) 1px, transparent 1px);
-    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
-  }
-  :root { --gridA: rgba(27,77,209,.055); --gridB: rgba(27,77,209,.13); }
-  :root[data-theme="dark"] { --gridA: rgba(127,168,220,.07); --gridB: rgba(127,168,220,.15); }
 
-  /* The sheet, torn. It runs off the right edge and stops mid-drawing, which is
-     the whole idea: you asked for a page that is not in the set. */
-  .torn {
-    position: fixed; z-index: 0; pointer-events: none;
-    right: 0; top: 50%; transform: translateY(-50%);
-    width: min(46vw, 30rem); opacity: .9;
-  }
-  .torn svg { display: block; width: 100%; height: auto; }
-  .torn .ln { stroke: var(--blue); fill: none; stroke-linecap: round; opacity: .75; }
-  .torn .frame { stroke: var(--ink); opacity: .55; }
-  .torn .edge { stroke: var(--ink); opacity: .4; stroke-dasharray: 2 5; }
-  main { position: relative; z-index: 1; }
-
-  @media (max-width: 52rem) { .torn { display: none; } }
-  /* Reserve the sheet's column so the text centres in what is left of the page
-     rather than running underneath the drawing. */
-  @media (min-width: 52.01rem) { body { padding-right: min(48vw, 33rem); } }
-</style>
 </head>
-<body>
-<script>
-  // Carry the reader's chosen theme across pages, before first paint.
-  try {
-    if (localStorage.getItem('foreman-theme') === 'dark') {
-      document.documentElement.dataset.theme = 'dark';
-      document.querySelector('meta[name="theme-color"]').content = '#0A2444';
-    }
-  } catch (e) {}
-</script>
-<div class="torn" aria-hidden="true">
-  <svg viewBox="0 0 400 340" fill="none">
-    <defs>
-      <filter id="rough" x="-6%" y="-6%" width="112%" height="112%">
-        <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="9" result="n"/>
-        <feDisplacementMap in="SourceGraphic" in2="n" scale="2.4" xChannelSelector="R" yChannelSelector="G"/>
-      </filter>
-      <!-- everything past the tear is clipped away -->
-      <clipPath id="tear">
-        <path d="M0 0 H286 L272 32 L292 66 L268 104 L290 146 L266 188 L288 232 L270 274 L286 306 L272 340 H0 Z"/>
-      </clipPath>
-    </defs>
-
-    <g clip-path="url(#tear)">
-      <g filter="url(#rough)">
-        <path class="ln frame" stroke-width="2" d="M34 22 L360 18 L364 322 L32 326 Z"/>
-        <path class="ln" stroke-width="1.5" d="M34 60 C 130 62, 260 58, 360 57"/>
-        <path class="ln" stroke-width="1.7" d="M60 96 L214 94"/>
-        <path class="ln" stroke-width="1.7" d="M60 118 L268 116"/>
-        <path class="ln" stroke-width="1.7" d="M60 140 L172 139"/>
-        <path class="ln" stroke-width="1.7" d="M60 176 L146 176 L146 206 L60 206 Z"/>
-        <path class="ln" stroke-width="1.5" d="M60 244 L300 241"/>
-        <path class="ln" stroke-width="1.5" d="M60 266 L236 264"/>
-      </g>
-    </g>
-
-    <!-- the torn edge itself -->
-    <path class="ln edge" stroke-width="1.4"
-          d="M286 0 L272 32 L292 66 L268 104 L290 146 L266 188 L288 232 L270 274 L286 306 L272 340"/>
-  </svg>
+<body data-page="404">
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/icon-180.png" width="28" height="28" alt="">Foreman</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/modes/">Modes</a>
+      <a href="/#toolbelt">Toolbelt</a>
+      <a href="/changelog/">Changelog</a>
+      <a href="https://github.com/Turki-Sh/Foreman">GitHub</a>
+    </nav>
+    <div class="tools">
+      <button class="iconbtn theme" type="button" aria-pressed="false" aria-label="Switch to the night sheet">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M2.5 12h2.6M18.9 12h2.6M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.6A8.2 8.2 0 0 1 9.4 4a8.2 8.2 0 1 0 10.6 10.6Z"/></svg>
+      </button>
+      <a class="btn small" href="/install/">Install</a>
+      <button class="iconbtn menubtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3.5 7.5h17M3.5 12h17M3.5 16.5h17"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="sheetmenu" id="menu">
+  <a class="big" href="/">Home</a>
+  <a class="big" href="/modes/">Modes</a>
+  <a class="big" href="/#toolbelt">Toolbelt</a>
+  <a class="big" href="/changelog/">Changelog</a>
+  <a class="big" href="https://github.com/Turki-Sh/Foreman">GitHub</a>
+  <a class="btn" href="/install/">Install Foreman</a>
 </div>
 
-<main>
-  <span class="boxlbl">Error 404</span>
-  <h1>That sheet isn't in the set.</h1>
-  <p>The link may be old, or the address may have a typo in it. Everything else is still where it was.</p>
-  <div class="actions">
-    <a class="btn" href="/">Back to Foreman</a>
-    <a class="btn o" href="https://github.com/Turki-Sh/Foreman">The repository</a>
+<main id="main">
+<div class="wrap pagehead">
+  <p class="crumbs"><a href="/">Foreman</a> / Not found</p>
+  <h1>Not on the drawing.</h1>
+  <p class="lede">The address may be old or mistyped. These are the pages that exist.</p>
+  <div class="cta">
+    <a class="btn" href="/">Back to the start</a>
+    <a class="btn line" href="/install/">Install Foreman</a>
   </div>
-  <p class="rule">Foreman · Blueprint no. 1 · T. Alshuaibi</p>
+</div>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="others">
+      <a href="/modes/"><span class="t">Modes</span><span class="d">Survey, Blueprint and Stress test.</span></a>
+      <a href="/punch-list/"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/changelog/"><span class="t">Changelog</span><span class="d">Every release since 1.0.</span></a>
+    </div>
+  </div>
+</section>
+
 </main>
+<footer>
+  <div class="wrap">
+    <div class="sheetfoot">
+      <div class="foothead">
+        <div>
+          <span class="stamp">Blueprint no. 2 · v3.0.0 · 27 October 2026</span>
+          <p>Built by <a href="https://turkialshuaibi.com/">Turki Alshuaibi</a>, AI engineer and designer. Everything in it came from shipping, and from watching capable engineers get stuck in the same handful of places.</p>
+          <div class="links">
+            <a href="/modes/">Modes</a>
+            <a href="/install/">Install</a>
+            <a href="/changelog/">Changelog</a>
+            <a href="https://github.com/Turki-Sh/Foreman">Repository</a>
+            <a href="https://turkialshuaibi.com/">turkialshuaibi.com</a>
+            <a href="https://linkedin.com/in/turki-alshuaibi">LinkedIn</a>
+          </div>
+        </div>
+        <div>
+          <span class="stamp">Then say</span>
+          <p class="mono">help me build my portfolio</p>
+        </div>
+      </div>
+      <div class="wordrow">
+        <p class="wordmark" aria-hidden="true">Foreman</p>
+        <button class="foreman" type="button" aria-label="Stamp the sheet">
+          <img src="/foreman-cutout.png" width="768" height="762" alt="">
+        </button>
+      </div>
+      <div class="footrule">
+        <span>T. Alshuaibi</span>
+        <span>Every good build starts as a drawing</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js?v=3.0.0" defer></script>
 </body>
 </html>
