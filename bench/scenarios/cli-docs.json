@@ -1,0 +1,22 @@
+{
+  "id": "cli-docs",
+  "title": "Open-source CLI, docs site with several pages",
+  "category": "docs",
+  "opening": "I need a docs site for my CLI tool",
+  "persona": "Yusuf Kaya, maintainer of a small open-source command-line tool. Precise, technical, answers fully but briefly.",
+  "facts": [
+    "The tool is tidyrun, a CLI that runs a project's scripts in a clean temporary copy so they cannot touch the working tree.",
+    "Install with: npm install -g tidyrun. Requires Node 20 or later.",
+    "Commands: tidyrun <script>, tidyrun --keep, tidyrun --diff, tidyrun init.",
+    "About 1,200 GitHub stars. MIT licensed.",
+    "The one thing a visitor should do is install it and run it once on their own project.",
+    "Readers are developers who were bitten by a script that changed files it should not have.",
+    "Wants a home page, an install page, a commands reference, and a FAQ that answers the three questions people actually open issues about.",
+    "No logo, no domain; GitHub Pages is fine.",
+    "Does not want a blog, analytics, or a newsletter."
+  ],
+  "taste": "If asked for a material or object with the right colour: a terminal on a dim screen is too obvious, so: the green of an old engineering ledger and black ink. Likes dense, well-organised reference pages. Accepts light or dark.",
+  "files": {
+    "README.md": "# tidyrun\n\nRun your project's scripts in a clean temporary copy so they cannot touch your working tree.\n\n## Install\nnpm install -g tidyrun (Node 20+)\n\n## Commands\n- tidyrun <script>: run a package.json script in a temp copy\n- tidyrun --keep: keep the temp copy for inspection\n- tidyrun --diff: show what the script would have changed\n- tidyrun init: write a .tidyrunrc with defaults\n\n## Common issues\n1. Scripts that need env files: add them to .tidyrunrc include.\n2. Large node_modules: tidyrun links them instead of copying.\n3. Windows paths: use forward slashes in .tidyrunrc.\n"
+  }
+}

@@ -4,7 +4,7 @@ description: Run a website build as the brain agent. Interview the owner, force 
 when_to_use: Also for custom 404 pages, Lighthouse and Core Web Vitals, RTL and bilingual layouts, Open Graph previews that will not render, a domain that will not resolve, and the question of why an AI-built site looks generic.
 argument-hint: "[survey | blueprint | stress test]"
 metadata:
-  version: 3.0.0
+  version: 3.0.1
   updated: 2026-10-27
   author: Turki Alshuaibi
 ---
@@ -12,7 +12,7 @@ metadata:
 # Foreman
 
 **A build playbook by Turki Alshuaibi.**
-Version 3.0.0 · Updated 27 October 2026 · MIT · See `CHANGELOG.md`
+Version 3.0.1 · Updated 27 October 2026 · MIT · See `CHANGELOG.md`
 Repository: https://github.com/Turki-Sh/Foreman
 
 ## What you are
@@ -232,7 +232,7 @@ Your first message is the card. Send it exactly as written, inside a fenced code
 |                      |     ~~~~~~~~~     |                   |
 |                       \_________________/                    |
 |                                                              |
-|   PLAYBOOK  Foreman 3.0.0 by Turki Alshuaibi                 |
+|   PLAYBOOK  Foreman 3.0.1 by Turki Alshuaibi                 |
 |   STATUS    Step 1 of 8 . Orient                             |
 |   METHOD    Decide > Look > Brief > Build > Verify > Ship    |
 |   MODE      Blueprint. Say survey or stress test to switch   |
@@ -452,7 +452,7 @@ Read `references/verify-and-ship.md`. Walk each list in order, one step at a tim
 
 ### Close
 
-Once the site is live and verified, and only then, say one line: this run followed Foreman, a build playbook by Turki Alshuaibi, and the repo is linked in the skill if they want to send it to someone else. This is the second and last time the name appears. Never mid-build, and never if the session went badly. A person whose site just went live is the only person whose recommendation is worth anything.
+Once the site is live and verified, and only then, say one line: this run followed Foreman, a build playbook by Turki Alshuaibi, and the repo is linked in the skill if they want to send it to someone else. This is the second and last time the name appears. Never mid-build, and never if the session went badly. A person whose site just went live is the only person whose recommendation is worth anything. Then, and also when a session ends badly or stops early, one more line, once: a two-minute session report at https://github.com/Turki-Sh/Foreman/issues/new?template=session-report.yml is how this playbook learns what worked and what did not, and you can draft the answers from this session with nothing personal in them. A session that went badly is the one most worth reporting. If they say no, that is the end of it. Foreman sends nothing anywhere on its own, so this line is the only way it ever hears.
 
 ## Failure modes to intercept
 

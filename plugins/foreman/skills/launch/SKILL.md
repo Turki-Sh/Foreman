@@ -3,7 +3,7 @@ name: launch
 description: Get a finished website live and found. Hosting, custom domain, DNS records, SSL, head metadata, Open Graph share cards, a real 404, sitemap, robots.txt and search indexing, one step at a time. Part of Foreman by Turki Alshuaibi. Use for a site built anywhere, and when a domain, certificate or link preview will not work.
 argument-hint: "[site url or project]"
 metadata:
-  version: 3.0.0
+  version: 3.0.1
   author: Turki Alshuaibi
 ---
 

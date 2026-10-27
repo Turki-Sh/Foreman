@@ -1,0 +1,22 @@
+{
+  "id": "riyadh-bakery",
+  "title": "Neighbourhood bakery in Riyadh, Arabic and English",
+  "category": "business",
+  "opening": "I need a website for my bakery, in Arabic and English",
+  "persona": "Noura Alqahtani, owner of a small family bakery. Answers warmly and briefly, sometimes mixes in an Arabic word. Not technical.",
+  "facts": [
+    "The bakery is called Khubz Alhay (خبز الحي), in Al Malqa, Riyadh.",
+    "Open daily 6 am to 1 pm, closed Fridays.",
+    "Best sellers: date maamoul, zaatar manakeesh, and sourdough. Prices are on the menu file.",
+    "The one thing a visitor should do is find the shop on the map or order on WhatsApp at +966 50 000 0000.",
+    "Customers are families in the neighbourhood and office workers on their way to work.",
+    "Arabic is the main language; English is for expat customers.",
+    "Has a hand-drawn logo of a bread loaf and a few phone photos of the counter. No domain yet.",
+    "Does not want online payments, a blog, or a loyalty program on the site."
+  ],
+  "taste": "If asked for a material or object with the right colour: the clay of the old oven and the green of the shop's front door. Likes warm, simple pages with big Arabic type. Prefers light pages.",
+  "files": {
+    "menu.md": "# Menu / القائمة\n\n- Date maamoul / معمول تمر: 4 SAR\n- Zaatar manakeesh / مناقيش زعتر: 6 SAR\n- Cheese manakeesh / مناقيش جبن: 8 SAR\n- Sourdough loaf / خبز العجين المخمر: 18 SAR\n- Arabic coffee / قهوة عربية: 5 SAR\n",
+    "about.md": "Our family has baked in this neighbourhood since 2019. Everything is baked the same morning. We use dates from Al Qassim.\n"
+  }
+}

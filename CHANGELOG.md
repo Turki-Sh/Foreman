@@ -2,6 +2,33 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## 3.0.1, 27 October 2026
+
+A patch, and the first release that can say what it changed with a number.
+
+Added:
+- **The bench,** in `bench/`: real Claude Code sessions, played out against a
+  simulated owner from a fact sheet, with and without Foreman installed, then
+  measured in a browser. It counts what a visitor meets: numbers on the page
+  the owner never gave, the default AI palette, dead links, overflow on a
+  phone, contrast failures, missing metadata, a missing 404, dashes, and stock
+  SaaS words. `review.py` shows each pair blind for a person to judge. Its
+  README says what it cannot tell you, and documentation takes numbers only
+  from its clean runs.
+- **The field count,** `bench/field.py`, which reads real Claude Code and
+  Codex transcripts and prints how sessions where Foreman actually spoke went,
+  as counts only.
+- **The pulse,** `bench/pulse.py`, which appends GitHub's stars, traffic,
+  referrers and downloads to a log, because GitHub forgets traffic after 14
+  days.
+- **A session report form,** and one line at the close of every session
+  pointing to it, including the sessions that went badly, which are the ones
+  most worth hearing about. Foreman still sends nothing anywhere on its own.
+
+Changed:
+- The failure report form named the old phases. It names the eight steps and
+  the tools now.
+
 ## 3.0.0, 27 October 2026
 
 Major, because the session flow changed: it now runs at three depths, and four

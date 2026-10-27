@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "description": "Browser checks for the Foreman bench",
+  "dependencies": {
+    "playwright-core": "1.64.0"
+  }
+}

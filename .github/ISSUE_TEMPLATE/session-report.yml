@@ -1,0 +1,101 @@
+name: A session report
+description: Two minutes on how a Foreman session went, good or bad. It is how the playbook learns what works.
+title: "Session: "
+labels: ["session report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Foreman sends nothing anywhere, so reports like this are the only way it
+        learns what worked and what did not. Your agent can draft the answers from
+        the session if you ask it to. Keep out anything you would not post
+        publicly: names, emails, client details.
+  - type: dropdown
+    id: what
+    attributes:
+      label: What did you use
+      options:
+        - A full session (the eight steps)
+        - Board
+        - Punch list
+        - Palette
+        - Launch
+    validations: { required: true }
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Survey
+        - Blueprint
+        - Stress test
+        - Not sure
+        - Not a session (a tool on its own)
+    validations: { required: true }
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      placeholder: Claude Code with Sonnet, Codex with GPT, Cursor with ...
+    validations: { required: true }
+  - type: dropdown
+    id: building
+    attributes:
+      label: What were you building
+      options:
+        - Portfolio or personal site
+        - Landing page for a product
+        - A business site
+        - Docs site
+        - Something else
+  - type: dropdown
+    id: shipped
+    attributes:
+      label: Did it ship
+      options:
+        - Yes, it is live
+        - Built, not live yet
+        - Stopped before the build
+        - Stopped during the build
+    validations: { required: true }
+  - type: dropdown
+    id: questions
+    attributes:
+      label: The number of questions
+      options:
+        - Too many
+        - About right
+        - Too few
+    validations: { required: true }
+  - type: textarea
+    id: worked
+    attributes:
+      label: The moment that helped most
+      placeholder: The material question gave me a palette I would never have picked.
+  - type: textarea
+    id: failed
+    attributes:
+      label: Where it went wrong, if anywhere
+      placeholder: It asked about the register twice. It built a stats band I never asked for.
+  - type: textarea
+    id: unwanted
+    attributes:
+      label: Anything it built or wrote that you did not want
+  - type: textarea
+    id: question
+    attributes:
+      label: The question it should have asked
+      description: If something broke later, what one question would have prevented it? This is the line that changes the playbook.
+  - type: textarea
+    id: field
+    attributes:
+      label: Counts from your transcripts (optional)
+      description: Run `python bench/field.py` from a clone of this repo and paste the output. It prints counts only, no message text.
+      render: text
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Before you post
+      options:
+        - label: Nothing in this report is private, and it can be quoted in the changelog or on the site.
+          required: true

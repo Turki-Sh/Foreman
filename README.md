@@ -10,7 +10,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 [![Tools](https://img.shields.io/badge/tools-4-1B4DD1?style=flat)](#the-toolbelt)
 [![References](https://img.shields.io/badge/references-14-1B4DD1?style=flat)](#what-is-in-the-box)
 [![Assets](https://img.shields.io/badge/assets-7-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Version](https://img.shields.io/badge/version-3.0.0-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.0.1-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
 [![Validate](https://img.shields.io/github/actions/workflow/status/Turki-Sh/Foreman/validate.yml?style=flat&logo=githubactions&logoColor=white&label=validate)](https://github.com/Turki-Sh/Foreman/actions/workflows/validate.yml)
 [![Scripts](https://img.shields.io/badge/executable%20code-none-16A34A?style=flat&logo=markdown&logoColor=white)](#no-scripts)
 [![License](https://img.shields.io/badge/license-MIT-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](LICENSE)
@@ -150,6 +150,12 @@ Four tools that run on their own or in the middle of a session.
 Contributions are open in some areas and closed in others. [CONTRIBUTING.md](CONTRIBUTING.md) says which.
 
 The most useful thing you can send is a failure the playbook did not intercept: your build broke, and Foreman never asked the question that would have prevented it. Post it on the [meta thread](https://github.com/Turki-Sh/Foreman/issues/1). The most useful pull request is an install path for an agent I cannot test.
+
+Foreman sends nothing anywhere, so it only learns what worked when someone says. A [session report](https://github.com/Turki-Sh/Foreman/issues/new?template=session-report.yml) takes two minutes, good session or bad, and your agent can draft it.
+
+## How it is measured
+
+[`bench/`](bench/README.md) runs real agent sessions against simulated owners, with and without Foreman, and measures the sites in a browser: invented numbers, the default AI palette, dead links, overflow on a phone, contrast, metadata, the 404. Every number this project publishes comes from a clean run of it, with the run count, model and date beside it. Its README also says what it cannot tell you.
 
 ## Author
 

@@ -1,0 +1,20 @@
+{
+  "id": "linkwell",
+  "title": "Local-first notes app, landing page, in a hurry",
+  "category": "product",
+  "opening": "quick landing page for my notes app Linkwell, I'm short on time. Everything is in the README in this folder.",
+  "persona": "Sam Okafor, a solo developer. Impatient, answers in a few words, wants it done today.",
+  "facts": [
+    "Linkwell watches a folder of Markdown notes and suggests links between them as you type, using a small embedding model on the laptop. Nothing leaves the machine.",
+    "In Sam's own vault of 2,400 notes it found 310 links he had missed in the first week.",
+    "Works with any folder of .md files, including an existing Obsidian vault. macOS and Windows, 40 MB download. Free and MIT licensed.",
+    "The one thing a visitor should do is download it from the GitHub releases page.",
+    "Readers are people with large note vaults, mostly Obsidian users.",
+    "Has a logo.svg (a chain link drawn as two notes). No domain yet; will use GitHub Pages.",
+    "Does not want a signup, pricing, testimonials or a blog."
+  ],
+  "taste": "If asked for a material or object with the right colour: the cream of index cards and the red of a library date stamp. Likes technical, plain pages. Picks whatever is fastest when asked to choose, but still picks.",
+  "files": {
+    "README.md": "# Linkwell\n\nNotes that link themselves. Local-first, Markdown files, free.\n\nLinkwell watches a folder of Markdown notes and suggests links between them as you type, using a small embedding model that runs on your laptop. Nothing leaves your machine.\n\nBuilt because I kept writing the same idea in three notes without noticing. In my own vault of 2,400 notes it found 310 links I had missed in the first week.\n\n- Works on any folder of .md files, including an existing Obsidian vault\n- macOS and Windows, 40 MB download\n- Free and open source (MIT)\n\nDownload: github.com/example/linkwell/releases\n"
+  }
+}

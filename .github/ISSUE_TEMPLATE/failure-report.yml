@@ -19,13 +19,15 @@ body:
     attributes:
       label: Where were you
       options:
-        - Phase 0, orient
-        - Phase 1, decide
-        - Phase 2, lock the visual system
-        - Phase 3, write the brief
-        - Phase 4, handoff and iterate
-        - Phase 5 or 6, verify and ship
-        - Phase 7, index
+        - Step 1, orient
+        - Step 2, decide
+        - Step 3, lock the look
+        - Step 4, write the brief
+        - Step 5, build
+        - Step 6, verify
+        - Step 7, ship
+        - Step 8, index
+        - Using a tool on its own (board, punch list, palette, launch)
         - After shipping
     validations: { required: true }
   - type: textarea

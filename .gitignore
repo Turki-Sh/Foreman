@@ -1,3 +1,10 @@
 .DS_Store
 node_modules/
 *.log
+
+# The bench: runs, its private config, the pulse log, and its node_modules
+bench/runs/
+bench/.config/
+bench/pulse/
+bench/node_modules/
+bench/package-lock.json

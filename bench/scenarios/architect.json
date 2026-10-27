@@ -1,0 +1,20 @@
+{
+  "id": "architect",
+  "title": "Freelance architect, portfolio",
+  "category": "portfolio",
+  "opening": "I want a portfolio site for my architecture work",
+  "persona": "Leila Mansour, a freelance architect with eight years of practice. Articulate, cares about the look, answers in two or three sentences.",
+  "facts": [
+    "The site is for private clients planning a house renovation or a small new house.",
+    "The one thing a visitor should do is book a first site visit by email: studio@example.com.",
+    "Three projects to show: a courtyard house in Jeddah (2024, 420 square metres), a library renovation for a school (2023), and her own apartment (2022).",
+    "The courtyard house cut cooling energy by about a third compared with the client's old house, measured over one summer.",
+    "Has professional photos of the courtyard house only; phone photos of the others.",
+    "Has a wordmark she drew in pencil. Owns the domain leilamansour.studio.",
+    "Does not want a blog, awards section, or client logos."
+  ],
+  "taste": "If asked for a material or object with the right colour: rammed earth walls and the blue-grey of shade at noon. Wants the photography to carry the page. Prefers quiet, editorial layouts.",
+  "files": {
+    "projects.md": "# Projects\n\n## Courtyard House, Jeddah (2024)\n420 m2. A house built around a shaded courtyard. Cooling energy about one third lower than the family's previous house, measured June to August.\n\n## School Library Renovation (2023)\nTurned a storage wing into a reading room with clerestory light.\n\n## Own Apartment (2022)\nA small apartment rebuilt around one long shelf.\n"
+  }
+}

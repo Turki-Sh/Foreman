@@ -1,0 +1,20 @@
+{
+  "id": "clinic-billing",
+  "title": "Billing software for dental clinics, product page",
+  "category": "product",
+  "opening": "we need a landing page for our clinic billing product",
+  "persona": "Omar Saleh, co-founder of a small software company. Business-minded, answers in clear sentences, wants demo bookings.",
+  "facts": [
+    "The product, Tasdeed, handles insurance billing for small dental clinics in Saudi Arabia.",
+    "It is in a pilot with 40 clinics. Pilot clinics report billing work dropping from about 6 hours a week to about 2.",
+    "Price: 199 SAR per clinic per month.",
+    "The one thing a visitor should do is book a 20-minute demo through a Calendly link he will provide.",
+    "Readers are dental clinic owners and practice managers.",
+    "Has a logo and product screenshots. Owns tasdeed.sa.",
+    "Has no customer quotes yet that he is allowed to publish. Does not want a blog or a chatbot."
+  ],
+  "taste": "If asked for a material or object with the right colour: the mint of dental clinic scrubs and a stamped paper receipt. Wants it to look trustworthy, not flashy. Light ground.",
+  "files": {
+    "product.md": "# Tasdeed\n\nInsurance billing for small dental clinics. Submits claims, tracks rejections, and reminds staff what to resubmit.\n\nPilot: 40 clinics. Billing time down from about 6 hours a week to about 2.\n\nPrice: 199 SAR per clinic per month.\n"
+  }
+}

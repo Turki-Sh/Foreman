@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Foreman and other playbooks by Turki Alshuaibi for building and shipping real things with coding agents.",
-    "version": "3.0.0"
+    "version": "3.0.1"
   },
   "plugins": [
     {
@@ -14,7 +14,7 @@
       "displayName": "Foreman by Turki Alshuaibi",
       "source": "./plugins/foreman",
       "description": "Foreman by Turki Alshuaibi turns your agent into the foreman of a website build: it interviews you, forces the design and scope decisions, locks a visual system, writes the brief, then builds or hands it over, and verifies, ships and indexes the site. Survey, Blueprint and Stress test modes. A toolbelt of four standalone tools: board, punch list, palette and launch.",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "author": {
         "name": "Turki Alshuaibi",
         "url": "https://turkialshuaibi.com/"

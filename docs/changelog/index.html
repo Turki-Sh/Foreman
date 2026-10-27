@@ -27,7 +27,7 @@
 <meta name="twitter:description" content="Every Foreman release since 1.0.0 in August 2026: what changed in the playbook, and the failed build or the feedback that caused it.">
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/changelog.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/site.css?v=3.0.0">
+<link rel="stylesheet" href="/site.css?v=3.0.1">
 <script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 <script type="application/ld+json">
 {
@@ -110,13 +110,19 @@
 <div class="wrap pagehead">
   <p class="crumbs"><a href="/">Foreman</a> / Changelog</p>
   <h1>Changelog.</h1>
-  <p class="lede">Every release, and the build or the feedback that caused it. The current version is 3.0.0, from 27 October 2026.</p>
+  <p class="lede">Every release, and the build or the feedback that caused it. The current version is 3.0.1, from 27 October 2026.</p>
 </div>
 
 <section class="tight">
   <div class="wrap">
-<ol class="versions"><li><a href="#v3-0-0">3.0.0, 27 October 2026</a></li><li><a href="#v2-2-0">2.2.0, 25 August 2026</a></li><li><a href="#v2-1-0">2.1.0, 25 August 2026</a></li><li><a href="#v2-0-0">2.0.0, 25 August 2026</a></li><li><a href="#v1-9-0">1.9.0, 25 August 2026</a></li><li><a href="#v1-8-0">1.8.0, 25 August 2026</a></li><li><a href="#v1-7-0">1.7.0, 25 August 2026</a></li><li><a href="#v1-6-0">1.6.0, 25 August 2026</a></li><li><a href="#v1-5-0">1.5.0, 25 August 2026</a></li><li><a href="#v1-4-0">1.4.0, 25 August 2026</a></li><li><a href="#v1-3-0">1.3.0, 11 August 2026</a></li><li><a href="#v1-2-0">1.2.0, 10 August 2026</a></li><li><a href="#v1-1-0">1.1.0, 10 August 2026</a></li><li><a href="#v1-0-0">1.0.0, 6 August 2026</a></li></ol>
+<ol class="versions"><li><a href="#v3-0-1">3.0.1, 27 October 2026</a></li><li><a href="#v3-0-0">3.0.0, 27 October 2026</a></li><li><a href="#v2-2-0">2.2.0, 25 August 2026</a></li><li><a href="#v2-1-0">2.1.0, 25 August 2026</a></li><li><a href="#v2-0-0">2.0.0, 25 August 2026</a></li><li><a href="#v1-9-0">1.9.0, 25 August 2026</a></li><li><a href="#v1-8-0">1.8.0, 25 August 2026</a></li><li><a href="#v1-7-0">1.7.0, 25 August 2026</a></li><li><a href="#v1-6-0">1.6.0, 25 August 2026</a></li><li><a href="#v1-5-0">1.5.0, 25 August 2026</a></li><li><a href="#v1-4-0">1.4.0, 25 August 2026</a></li><li><a href="#v1-3-0">1.3.0, 11 August 2026</a></li><li><a href="#v1-2-0">1.2.0, 10 August 2026</a></li><li><a href="#v1-1-0">1.1.0, 10 August 2026</a></li><li><a href="#v1-0-0">1.0.0, 6 August 2026</a></li></ol>
 <div class="log">
+<h2 id="v3-0-1"><a href="#v3-0-1">3.0.1, 27 October 2026</a></h2>
+<p>A patch, and the first release that can say what it changed with a number.</p>
+<p class="kind">Added:</p>
+<ul><li><strong>The bench,</strong> in <code>bench/</code>: real Claude Code sessions, played out against a simulated owner from a fact sheet, with and without Foreman installed, then measured in a browser. It counts what a visitor meets: numbers on the page the owner never gave, the default AI palette, dead links, overflow on a phone, contrast failures, missing metadata, a missing 404, dashes, and stock SaaS words. <code>review.py</code> shows each pair blind for a person to judge. Its README says what it cannot tell you, and documentation takes numbers only from its clean runs.</li><li><strong>The field count,</strong> <code>bench/field.py</code>, which reads real Claude Code and Codex transcripts and prints how sessions where Foreman actually spoke went, as counts only.</li><li><strong>The pulse,</strong> <code>bench/pulse.py</code>, which appends GitHub's stars, traffic, referrers and downloads to a log, because GitHub forgets traffic after 14 days.</li><li><strong>A session report form,</strong> and one line at the close of every session pointing to it, including the sessions that went badly, which are the ones most worth hearing about. Foreman still sends nothing anywhere on its own.</li></ul>
+<p class="kind">Changed:</p>
+<ul><li>The failure report form named the old phases. It names the eight steps and the tools now.</li></ul>
 <h2 id="v3-0-0"><a href="#v3-0-0">3.0.0, 27 October 2026</a></h2>
 <p>Major, because the session flow changed: it now runs at three depths, and four of its parts can run without the session at all.</p>
 <p>The evidence this time was feedback rather than a broken build. People who ran Foreman said it asked too many questions, and they were right about the cost and wrong about the cure. The cure most tools reach for is to ask less and assume more, and an agent that assumes is an agent that lands on the average, which is the page this playbook exists to stop. So the questions did not get fewer for free. In the new short mode, every question that is skipped becomes research the agent has to do instead.</p>
@@ -207,7 +213,7 @@
     <div class="sheetfoot">
       <div class="foothead">
         <div>
-          <span class="stamp">Blueprint no. 2 · v3.0.0 · 27 October 2026</span>
+          <span class="stamp">Blueprint no. 2 · v3.0.1 · 27 October 2026</span>
           <p>Built by <a href="https://turkialshuaibi.com/">Turki Alshuaibi</a>, AI engineer and designer. Everything in it came from shipping, and from watching capable engineers get stuck in the same handful of places.</p>
           <div class="links">
             <a href="/modes/">Modes</a>
@@ -237,6 +243,6 @@
   </div>
 </footer>
 
-<script src="/site.js?v=3.0.0" defer></script>
+<script src="/site.js?v=3.0.1" defer></script>
 </body>
 </html>

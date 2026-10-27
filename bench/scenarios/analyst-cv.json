@@ -1,0 +1,19 @@
+{
+  "id": "analyst-cv",
+  "title": "Data analyst job seeker, CV site, impatient",
+  "category": "portfolio",
+  "opening": "just make me a simple personal site from my CV, no time for a long process",
+  "persona": "Hessa Alharbi, a data analyst looking for a new job. Busy, answers in one line, mildly annoyed by questions.",
+  "facts": [
+    "The site is for recruiters and hiring managers for analytics roles in Riyadh.",
+    "The one thing a visitor should do is download the CV PDF or message her on LinkedIn.",
+    "Three years as a data analyst at a retail company. Built a weekly sales dashboard used by 30 store managers.",
+    "Reduced the monthly reporting time from two days to half a day by automating it in Python.",
+    "Has the CV only. No photo she wants to use, no domain.",
+    "Does not want a blog or a contact form."
+  ],
+  "taste": "If asked for a material or object with the right colour: a graphite pencil on graph paper. Wants it clean and serious. Prefers light.",
+  "files": {
+    "CV.md": "# Hessa Alharbi\nData Analyst, Riyadh\n\n## Experience\nData Analyst, retail company, 2023 to now\n- Weekly sales dashboard used by 30 store managers\n- Automated monthly reporting in Python: two days down to half a day\n\n## Skills\nSQL, Python (pandas), Power BI, Excel\n\n## Links\nlinkedin.com/in/example-hessa\n"
+  }
+}

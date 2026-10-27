@@ -3,7 +3,7 @@ name: board
 description: Build a reference board for a website. Real sites chosen for this brief, shown as a list or as a visual board with screenshots, ending in the principles worth taking from them. Part of Foreman by Turki Alshuaibi. Use when someone wants references, inspiration or sites like the one they are about to build.
 argument-hint: "[what you are building]"
 metadata:
-  version: 3.0.0
+  version: 3.0.1
   author: Turki Alshuaibi
 ---
 

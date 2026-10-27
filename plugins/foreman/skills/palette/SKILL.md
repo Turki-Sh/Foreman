@@ -3,7 +3,7 @@ name: palette
 description: Build a website colour palette from a named material instead of the model's defaults. Three variants that differ on ground, accent family and contrast strategy, contrast checked, shown on the owner's real content in a brand.html. Part of Foreman by Turki Alshuaibi. Use when someone asks for colours, a palette or a brand look.
 argument-hint: "[what the site is for]"
 metadata:
-  version: 3.0.0
+  version: 3.0.1
   author: Turki Alshuaibi
 ---
 

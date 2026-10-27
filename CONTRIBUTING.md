@@ -6,7 +6,9 @@ Contributions are open in some areas and closed in others. This page says which,
 
 ## Most valuable thing you can send
 
-**A failure the playbook did not intercept.** You ran a build, it went wrong, and Foreman never asked you the question that would have prevented it. That changes what the playbook asks every future user.
+**A failure the playbook did not intercept.** You ran a build, it went wrong, and Foreman never asked you the question that would have prevented it. That changes what the playbook asks every future user, and it becomes a scenario in `bench/scenarios/`, so the failure is tested on every release after.
+
+For a whole session, good or bad, the [session report](https://github.com/Turki-Sh/Foreman/issues/new?template=session-report.yml) form takes two minutes.
 
 Post it on the [meta issue](https://github.com/Turki-Sh/Foreman/issues/1):
 

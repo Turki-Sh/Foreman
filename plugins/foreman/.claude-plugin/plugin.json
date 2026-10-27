@@ -1,7 +1,7 @@
 {
   "name": "foreman",
   "displayName": "Foreman by Turki Alshuaibi",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A build playbook for shipping real websites with coding agents, by Turki Alshuaibi. The agent interviews you, forces the decisions you would skip, locks a visual system, writes the brief, builds it or hands it over, then verifies, ships and indexes. Three modes set how many questions it asks. Four tools run on their own: a reference board, a punch list that audits any site for what makes it look AI-generated, a palette from a named material, and a launch checklist.",
   "author": {
     "name": "Turki Alshuaibi",

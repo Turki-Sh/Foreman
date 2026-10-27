@@ -3,7 +3,7 @@ name: punch-list
 description: Audit any website for what makes it look AI-generated or unfinished, such as dead buttons, missing hover and focus states, a broken mobile layout, contrast failures, missing metadata and share cards, stale numbers and the generated-page tells, ranked with a fix for each. Part of Foreman by Turki Alshuaibi. Use on a URL, a local project or a screenshot, including sites Foreman never built.
 argument-hint: "[url or path]"
 metadata:
-  version: 3.0.0
+  version: 3.0.1
   author: Turki Alshuaibi
 ---
 

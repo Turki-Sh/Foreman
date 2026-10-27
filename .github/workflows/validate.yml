@@ -32,7 +32,7 @@ jobs:
           # .github is excluded so this step does not match its own pattern.
           if grep -rn '—\|–' \
               README.md CHANGELOG.md CONTRIBUTING.md AGENTS.md SECURITY.md CODE_OF_CONDUCT.md \
-              plugins/ docs/ site/ scripts/ ; then
+              plugins/ docs/ site/ scripts/ bench/ ; then
             echo "em dash or en dash above"; exit 1
           fi
           echo "punctuation ok"

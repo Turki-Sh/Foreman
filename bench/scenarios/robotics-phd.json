@@ -1,0 +1,21 @@
+{
+  "id": "robotics-phd",
+  "title": "Robotics PhD applicant, portfolio",
+  "category": "portfolio",
+  "opening": "help me build my portfolio",
+  "persona": "Dana Haddad, a master's student in robotics applying for PhD positions. Writes short, plain answers. Not a designer, has never owned a domain.",
+  "facts": [
+    "The site is for research group leads who hire PhD students in legged robotics.",
+    "The one thing a visitor should do is email dana.haddad@example.org about a PhD position.",
+    "Main project: a sim-to-real transfer pipeline for a quadruped robot that cut retraining time by about 60 percent.",
+    "The hard part was domain randomization limits: the policy kept overfitting to the simulator.",
+    "Two workshop papers, both at ICRA 2026 workshops. No journal papers yet.",
+    "Has the CV and four screenshots of the robot in the lab. No logo, no domain, no photo of herself she wants to use.",
+    "Does not want a blog, a contact form, or analytics."
+  ],
+  "taste": "Likes calm, precise pages. If asked for a material or object with the right colour: the anodised aluminium of the robot rig and the orange-red of its emergency stop button. Prefers light pages over dark ones. Picks the option that feels most like a lab notebook.",
+  "files": {
+    "CV.md": "# Dana Haddad\n\nMSc Robotics, 2025 to 2027 (expected). Research assistant, Legged Locomotion Lab.\n\n## Research\n- Sim-to-real transfer for a quadruped: domain randomization, system identification. Retraining time down about 60 percent.\n- Two workshop papers at ICRA 2026 workshops.\n\n## Skills\nPython, PyTorch, Isaac Gym, ROS 2, C++.\n\n## Contact\ndana.haddad@example.org\n",
+    "project-notes.md": "Quadruped sim-to-real notes. Started in simulation only. Retraining after each hardware change took most of a day. Added system identification and narrower randomization ranges. Retraining now takes about 40 percent of the old time. Biggest lesson: wider randomization is not always more robust; it was making the policy timid.\n"
+  }
+}

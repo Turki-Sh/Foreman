@@ -69,6 +69,8 @@ git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugi
 
 Before you push, run `python scripts/validate.py`. It is the same check CI runs: manifests, frontmatter that parses, every copy of the version, the card's width, the badges against the folders, and every file the skill names.
 
+Before a release that changes the skill, run the bench on every scenario and compare with the last release's results (`bench/README.md`). A measure that got worse needs a line in the changelog saying why, or the release waits. Never put a number in the README or on the site that did not come from a clean bench run.
+
 Counts in prose go stale the same way as versions. The README badges, `AGENTS.md`, and `CONTRIBUTING.md` carry the counts by hand, and the validate workflow checks the badges.
 
 ## Contributing
