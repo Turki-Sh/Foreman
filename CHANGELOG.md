@@ -6,6 +6,7 @@ All notable changes to Foreman. Versioning: the major number changes when the se
 
 The installable skill remains at 3.0.1. This update changes the public website and its documentation, not the session flow or skill files.
 
+- Refined film captions with a padded overlay, custom language and speed menus, and a Films link in desktop and mobile navigation.
 - Published five short Foreman product films at `/film/`, with individual watch pages, 33 caption languages, transcripts, custom thumbnails, localized share cards and a video sitemap. The films use English narration and nonmusical sound design.
 - Rebuilt the site with a monochrome theme, clear glass navigation, a hard-hat identity and transparent favicons.
 - Added visual examples for Board, Punch list and Launch, alongside Palette’s colour swatches.

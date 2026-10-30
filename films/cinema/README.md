@@ -132,3 +132,9 @@ The owner approved publication after the gallery, iPad edge, material-card colli
 Search implementation follows [Google video guidance](https://developers.google.com/search/docs/appearance/video), [VideoObject documentation](https://developers.google.com/search/docs/appearance/structured-data/video) and [AI feature guidance](https://developers.google.com/search/docs/appearance/ai-features). Dedicated watch pages, visible transcripts, reciprocal language URLs and a video sitemap support discovery. They do not guarantee search placement.
 
 Validation: `python scripts/audit_films.py`, `python scripts/audit_film_series.py --media`, `python scripts/audit_site.py`, `python scripts/audit_languages.py`, and `node scripts/check_films.cjs` against the local build. Asset attribution is visible on each watch page and in `/media/films/credits-v13.txt`.
+
+## Player refinement, 30 October 2026
+
+Captions now render from the original WebVTT cues in a padded overlay inside the film frame. The chosen track uses hidden mode for custom rendering, with native captions restored for native video fullscreen. See [TextTrack modes](https://developer.mozilla.org/en-US/docs/Web/API/TextTrack/mode) and [cuechange](https://developer.mozilla.org/en-US/docs/Web/API/TextTrack/cuechange_event). The player keeps native video controls when JavaScript is unavailable.
+
+Caption language and playback speed use the same custom listbox, with selection marks, keyboard navigation, focus restoration and transparent scrollbar tracks. Films is linked from desktop and mobile navigation in every site language. Launch revision 14 corrects two malformed text glyphs; its decoded audio samples and duration match the published cut.

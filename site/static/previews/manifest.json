@@ -4,7 +4,7 @@
   "card": "card-3.0.1.png",
   "cardTextHash": "0fe1698eb79c0a1d99c632b9125a023b56ae71425b4a030d43b05ae369dd4834",
   "inputs": {
-    "docs/index.html": "1ba05f80246884086141578999fab443c22e369036d074a533ab3eed64ec2f0e",
+    "docs/index.html": "34c7fdf10575b3f4048ee1577f01a08fd1a777ab5fbc2b24226d418732a0c5f2",
     "docs/site.css": "cc9bb262d52a2fb007858989ae2044ad6cfad9075c4b63e720fcaadae9791811",
     "docs/opening.css": "da969012affef8520b3fa03bf0ee9e95e9f47fecbbccb08cde55ebd180096bc1",
     "docs/mono.css": "69a4487ad4761675ca49a118bdf97ccfd253ab114066c03b8eca2302f64377df",
@@ -14,7 +14,7 @@
     "scripts/capture_readme.cjs": "00427472514e26f03edcf85be5d6665e40694e231a5dd2b6bd3f41e3d56e536e"
   },
   "images": {
-    "site-2026-10-30.png": "36fa8add95537ebd47983eaff208621d51882d1fc880d1848972cb03f769ba80",
+    "site-2026-10-30.png": "c5660833d6ce118732a7d3fa796dd559f1ff7710e1bd8ba9c0f3fd1941b52d3f",
     "card-3.0.1.png": "c7473c114fb31e7302864555f676e7544a4f6b03bcdc27fc742e341f3d63b36e"
   }
 }

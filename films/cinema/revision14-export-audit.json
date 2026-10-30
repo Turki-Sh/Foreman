@@ -1,0 +1,9 @@
+{
+  "film": "before-you-share",
+  "duration": "24.683333",
+  "bytes": 4547474,
+  "sha256": "5d280f012578677222f25a45ef92fae15efeab2ac154fcfc1dd0ea95a8a1b617",
+  "decode": "pass",
+  "audioSamplesUnchanged": true,
+  "change": "Corrected checkmark and external-link glyph encoding."
+}

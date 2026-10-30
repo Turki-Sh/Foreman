@@ -444,7 +444,7 @@ export function revisionScene(
           ].map((s, i) => (
             <div key={s} style={{ opacity: ease((t - i * 0.15) / 0.5) }}>
               <span style={{ color: "#1ab68f", marginRight: 15 }}>
-                {i < 4 ? "âœ“" : "â†—"}
+                {i < 4 ? "✓" : "↗"}
               </span>
               {s}
             </div>
@@ -556,7 +556,7 @@ export function revisionScene(
             background: "#ffffff12",
           }}
         >
-          Back to Foreman â†—
+          Back to Foreman ↗
         </div>
       </Back>
     );
