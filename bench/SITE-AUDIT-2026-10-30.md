@@ -39,3 +39,11 @@ Scrollbar reference supplied by the owner: https://codepen.io/oxn-krtv/pen/NWePw
 ## Final interaction refinement
 
 The native rail reveal now persists when the pointer leaves the document for scrollbar chrome. Tested near the rail at the top, middle and bottom of the viewport, then away from the edge. The portrait hover movement and keyboard/click stamp interaction are restored, with reduced-motion handling. Navbar height is 56px desktop and 54px mobile, with lighter 500-weight branding and an outline hard hat. Removed mode-comparison link underlines. Verified no 375px page overflow and both mouse and Enter-key stamping.
+
+## Visual tool examples and scrollbar replacement
+
+Board now shows three linked reference studies and the resulting design decisions. The studies use owner-approved project assets, not screenshots claimed to be the original references. Punch list has an illustrative before/after page and three matching numbered findings. Launch shows domain-to-host-to-HTTPS routing, the real local share card, an error-page link and a sitemap preview. These sections are examples, not claims of a new audit or live DNS checks.
+
+The native scrollbar hover experiment did not work reliably in the owner's browser. It is replaced on fine-pointer hover devices by a full-height transparent overlay rail controlling native document scroll. Hover, track clicks, pointer capture for dragging, keyboard navigation and ARIA values are supported. Touch, forced-colour and no-JavaScript contexts keep their native scrollbar. The footer portrait no longer moves; only the stamp animates.
+
+Verified all three examples at 1440px and 375px: no overflow and no axe WCAG A/AA violations. Tested before/after controls, hover at three rail heights, track click, Home/End, and a static portrait on hover. Local preview restarted as a detached hidden process on port 3217 after finding the earlier server was no longer listening.

@@ -5,20 +5,69 @@
 (function () {
   const root = document.documentElement;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  // Reveal the native thumb only when the pointer approaches the page edge.
-  if (matchMedia('(hover: hover)').matches) {
-    addEventListener('pointermove', e => {
-      const nearEdge = e.clientX >= document.documentElement.clientWidth - 32;
-      if (root.hasAttribute('data-scroll-edge') !== nearEdge) root.toggleAttribute('data-scroll-edge', nearEdge);
-    }, { passive: true });
-    document.addEventListener('pointerleave', e => {
-      // Native scrollbar chrome is outside the document, but still inside the window.
-      const overRail = e.clientX >= root.clientWidth - 32 && e.clientX <= innerWidth && e.clientY >= 0 && e.clientY < innerHeight;
-      root.toggleAttribute('data-scroll-edge', overRail);
+  // A transparent overlay rail avoids browser-native chrome swallowing hover events.
+  if (matchMedia('(hover:hover) and (pointer:fine)').matches && !matchMedia('(forced-colors:active)').matches) {
+    const rail = document.createElement('div');
+    rail.className = 'page-scroll-rail';
+    rail.tabIndex = 0;
+    rail.setAttribute('role', 'scrollbar');
+    rail.setAttribute('aria-label', 'Scroll page');
+    rail.setAttribute('aria-controls', 'main');
+    rail.setAttribute('aria-orientation', 'vertical');
+    rail.setAttribute('aria-valuemin', '0');
+    rail.setAttribute('aria-valuemax', '100');
+    const thumb = document.createElement('span');
+    thumb.className = 'page-scroll-thumb';
+    rail.appendChild(thumb);
+    document.body.appendChild(rail);
+    let thumbHeight = 28, travel = 1, maxScroll = 1, dragOffset = null;
+    const syncRail = () => {
+      maxScroll = Math.max(0, root.scrollHeight - innerHeight);
+      rail.hidden = maxScroll === 0;
+      thumbHeight = Math.max(28, innerHeight * innerHeight / root.scrollHeight);
+      travel = Math.max(1, innerHeight - thumbHeight);
+      thumb.style.height = thumbHeight + 'px';
+      thumb.style.transform = 'translateY(' + (maxScroll ? scrollY / maxScroll * travel : 0) + 'px)';
+      rail.setAttribute('aria-valuenow', String(Math.round(maxScroll ? scrollY / maxScroll * 100 : 0)));
+    };
+    const jump = y => scrollTo({top:Math.max(0, Math.min(travel, y - dragOffset)) / travel * maxScroll,behavior:'instant'});
+    rail.addEventListener('pointerdown', e => {
+      if (e.button !== 0) return;
+      e.preventDefault();
+      const top = maxScroll ? scrollY / maxScroll * travel : 0;
+      dragOffset = e.clientY >= top && e.clientY <= top + thumbHeight ? e.clientY - top : thumbHeight / 2;
+      rail.setAttribute('data-dragging', '');
+      rail.setPointerCapture(e.pointerId);
+      jump(e.clientY);
     });
-    addEventListener('blur', () => root.removeAttribute('data-scroll-edge'));
+    rail.addEventListener('pointermove', e => {if (dragOffset !== null) jump(e.clientY);});
+    const endDrag = () => {dragOffset = null;rail.removeAttribute('data-dragging');};
+    rail.addEventListener('pointerup', endDrag);
+    rail.addEventListener('pointercancel', endDrag);
+    rail.addEventListener('lostpointercapture', endDrag);
+    rail.addEventListener('keydown', e => {
+      const destinations = {ArrowDown:scrollY+40,ArrowUp:scrollY-40,PageDown:scrollY+innerHeight*.9,PageUp:scrollY-innerHeight*.9,Home:0,End:maxScroll};
+      if (e.key in destinations) {e.preventDefault();scrollTo({top:destinations[e.key],behavior:'instant'});}
+    });
+    let pending = false;
+    const requestSync = () => {if (!pending) {pending=true;requestAnimationFrame(()=>{pending=false;syncRail();});}};
+    addEventListener('scroll',requestSync,{passive:true});
+    addEventListener('resize',requestSync);
+    new ResizeObserver(requestSync).observe(document.body);
+    root.classList.add('overlay-scroll');
+    syncRail();
   }
-
+  for (const review of document.querySelectorAll('.review-example')) {
+    for (const button of review.querySelectorAll('[data-review-state]')) {
+      button.addEventListener('click', () => {
+        const after = button.dataset.reviewState === 'after';
+        review.dataset.review = after ? 'after' : 'before';
+        review.querySelector('.review-before').hidden = after;
+        review.querySelector('.review-after').hidden = !after;
+        for (const item of review.querySelectorAll('[data-review-state]')) item.setAttribute('aria-pressed',String(item===button));
+      });
+    }
+  }
 
   // The header turns to drafting vellum once the page moves under it.
   const onScroll = () => {
