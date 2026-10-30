@@ -35,3 +35,7 @@ The source and product versions are separate. This site-only film does not chang
 ## Audio revision, 30 October 2026
 
 Turki requested English narration with no music for religious reasons. This supersedes the instrumental approach above for all five films. Local review copies now contain only sparse, non-pitched interaction effects from `effects.py`. Narration and its timing are pending voice approval; no new voice credits have been spent. Do not publish these interim cuts as completed narrated films. Original score generators remain historical source only and are not used by the current compositions.
+
+## Current five-film audio
+
+The historical audio descriptions above are superseded by cinema revision 10. The five Cinema compositions now use individual edited library-effect mixes, with English narration and no music. See `../cinema/README.md` and `../cinema/audio-library-credits.txt`. Creative approval is pending; no site release was made.

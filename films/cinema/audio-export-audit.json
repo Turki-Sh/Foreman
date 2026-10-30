@@ -1,37 +1,57 @@
 [
   {
     "film": "before-the-code",
-    "integratedLUFS": -16.14,
+    "cues": 22,
+    "LUFS": -16.0,
     "truePeakDBTP": -1.49,
-    "loudnessRangeLU": 1.3,
-    "status": "passed"
-  },
-  {
-    "film": "before-you-share",
-    "integratedLUFS": -16.24,
-    "truePeakDBTP": -1.44,
-    "loudnessRangeLU": 1.1,
-    "status": "passed"
-  },
-  {
-    "film": "colour-that-works",
-    "integratedLUFS": -16.48,
-    "truePeakDBTP": -1.46,
-    "loudnessRangeLU": 1.6,
-    "status": "passed"
+    "effectsPeakDBFS": -21.94,
+    "pictureBitIdentical": true,
+    "captions": 33,
+    "decode": "pass",
+    "duration": 25.2
   },
   {
     "film": "find-your-direction",
-    "integratedLUFS": -16.42,
-    "truePeakDBTP": -1.41,
-    "loudnessRangeLU": 1.6,
-    "status": "passed"
+    "cues": 22,
+    "LUFS": -16.17,
+    "truePeakDBTP": -1.45,
+    "effectsPeakDBFS": -24.52,
+    "pictureBitIdentical": true,
+    "captions": 33,
+    "decode": "pass",
+    "duration": 26.6
   },
   {
     "film": "fix-what-feels-wrong",
-    "integratedLUFS": -16.1,
-    "truePeakDBTP": -1.39,
-    "loudnessRangeLU": 1.2,
-    "status": "passed"
+    "cues": 18,
+    "LUFS": -16.02,
+    "truePeakDBTP": -1.49,
+    "effectsPeakDBFS": -22.16,
+    "pictureBitIdentical": true,
+    "captions": 33,
+    "decode": "pass",
+    "duration": 25.8
+  },
+  {
+    "film": "colour-that-works",
+    "cues": 21,
+    "LUFS": -16.05,
+    "truePeakDBTP": -1.49,
+    "effectsPeakDBFS": -22.94,
+    "pictureBitIdentical": true,
+    "captions": 33,
+    "decode": "pass",
+    "duration": 26.2
+  },
+  {
+    "film": "before-you-share",
+    "cues": 20,
+    "LUFS": -16.04,
+    "truePeakDBTP": -1.49,
+    "effectsPeakDBFS": -23.16,
+    "pictureBitIdentical": true,
+    "captions": 33,
+    "decode": "pass",
+    "duration": 24.7
   }
 ]

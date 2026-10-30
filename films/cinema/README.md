@@ -89,3 +89,15 @@ Libraries reviewed for future selection:
 - Pixabay: ready-made percussion tracks; per-item Content ID status matters. https://pixabay.com/music/search/percussion/
 - Mixkit: free sound effects and complete tracks, with separate licenses by asset type. https://mixkit.co/free-sound-effects/ and https://mixkit.co/license/
 - Freesound: recorded claps, snaps and percussion; licenses vary by item. ecfike's Clap Percussion Loop is explicitly CC0: https://freesound.org/people/ecfike/sounds/202158/ . Original download requires login.
+
+## Revision 10: an individual sound edit for each film
+
+This supersedes revision 9. The shared Tunetank percussion track is removed from the current production audio. Five independently placed Foley arrangements follow the actual scene actions: 22 cues in the main film, 22 in Board, 18 in Punch list, 21 in Palette and 20 in Launch. The mixes use edited Mixkit recordings, with no music bed, generated sound, automatic scene-ending impact or shared rhythmic loop.
+
+Board emphasizes paper movement and reference selection. Punch list leaves space around the problem and follows deletion, the surviving CTA and the corrected page. Palette follows the material arrivals, selected colour roles, contrast change and exact light-to-dark switch. Launch follows the checks, share preview and the back-home interaction. The main film has the strongest clap accents. Source onset trimming, short fades, restrained stereo placement and phrase-level attenuation keep transitions connected without covering the voice.
+
+Picture streams, narration and subtitle timing remain unchanged. The private revision 10 page includes the five new MP4s with all 33 caption languages. Decode, duration, video-stream identity, caption bounds, distinct effect stems, browser playback and mobile overflow checks passed. Masters measured -16.00 to -16.17 LUFS, with true peaks at or below -1.45 dBTP. These checks establish technical validity, not listening approval. Audio playback cannot be heard by the assistant in this environment; the rendered mixes require Turki's listening review. No claim of Apple/Google-equivalent creative quality is made.
+
+The cue sheets are in `audio-mix-audit.json`, source URLs in `audio-library-sources.json`, credits in `audio-library-credits.txt`, and measured results in `audio-export-audit.json`. Source recordings stay private and are not redistributed in this repo. Mixkit SFX license: https://mixkit.co/license/#sfxFree . Device attribution remains embedded in the review exports.
+
+`mix-library-effects.py` reproduces the private review mix with `FOREMAN_FILM_WORKSPACE` pointing to the existing film workspace containing the clean revision 7 voice stems, `cinema/audio10/sources/` recordings and previous review exports. It needs FFmpeg plus NumPy, SciPy and SoundFile. It writes new revision-specific previews without overwriting the earlier picture exports. This is a private review revision, not a published release or playbook version change.
