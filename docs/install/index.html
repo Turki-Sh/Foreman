@@ -154,7 +154,7 @@
 <span class="syntax-command">/plugin install foreman@alshuaibi</span></pre>
   <button class="copy" type="button" data-for="cc">Copy</button>
 </div>
-<p class="small" style="margin:.75rem 0">If your session answers that <code>/plugin</code> isn't available, it is a terminal-only dialog. Run the same two steps as shell commands, then restart the session.</p>
+<p class="small" style="margin:.75rem 0">If your Claude Code surface does not support <code>/plugin</code>, run these commands in your shell, then start a new session.</p>
 <div class="copyrow">
 <pre id="ccsh" tabindex="0">claude plugin marketplace add Turki-Sh/Foreman
 claude plugin install foreman@alshuaibi</pre>
@@ -164,7 +164,9 @@ claude plugin install foreman@alshuaibi</pre>
       </div>
       <div>
         <h3>Update or remove</h3>
-        <div class="copyrow"><pre id="upd" tabindex="0"><span class="syntax-command">/plugin marketplace update alshuaibi</span></pre><button class="copy" type="button" data-for="upd">Copy</button></div>
+        <p>Update from your shell:</p>
+        <div class="copyrow"><pre id="upd" tabindex="0"><span class="syntax-command">claude plugin marketplace update alshuaibi</span>
+<span class="syntax-command">claude plugin update foreman@alshuaibi</span></pre><button class="copy" type="button" data-for="upd">Copy</button></div>
         <div class="copyrow" style="margin-top:.5rem"><pre id="rm" tabindex="0"><span class="syntax-command">/plugin uninstall foreman@alshuaibi</span></pre><button class="copy" type="button" data-for="rm">Copy</button></div>
       </div>
     </div>

@@ -4,7 +4,7 @@ A build playbook for shipping real websites with coding agents. Your agent inter
 
 Site and docs: [foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)
 
-![The Foreman site: a technical sheet on white paper, with a hand-drawn wireframe annotated with the decisions the interview forces.](https://foreman.turkialshuaibi.com/screenshot.png)
+![The current Foreman homepage with clear navigation, an architectural scene and recorded coding session.](https://foreman.turkialshuaibi.com/previews/site-2026-10-30.png)
 
 ## Install
 
@@ -15,14 +15,14 @@ In Claude Code, both lines, in this order:
 /plugin install foreman@alshuaibi
 ```
 
-`/plugin` is a terminal-only dialog. Where it is unavailable, run the same two steps as shell commands and restart the session:
+Where your Claude Code surface does not support `/plugin`, run the same two steps in your shell, then start a new session:
 
 ```
 claude plugin marketplace add Turki-Sh/Foreman
 claude plugin install foreman@alshuaibi
 ```
 
-To update: `/plugin marketplace update alshuaibi`.
+To update from your shell, run `claude plugin marketplace update alshuaibi`, then `claude plugin update foreman@alshuaibi`. Or select **Update now** for Foreman in the `/plugin` panel. [Official instructions](https://code.claude.com/docs/en/discover-plugins).
 
 Other agents (Cursor, Windsurf, Codex, Copilot, Gemini CLI) and the Claude apps: see the [install page](https://foreman.turkialshuaibi.com/install/).
 
@@ -36,7 +36,7 @@ help me build my portfolio
 
 It answers with the Foreman card and one question, never with code. If it starts writing HTML, it did not load.
 
-![The opening Foreman card: the wordmark, the version, the step, the method, the mode line, and the first question.](https://foreman.turkialshuaibi.com/card.png)
+![The opening Foreman card: the wordmark, the version, the step, the method, the mode line, and the first question.](https://foreman.turkialshuaibi.com/previews/card-3.0.1.png)
 
 Say **survey** for the fewest questions (the agent researches your repo, site and CV instead of asking) or **stress test** for the most. Blueprint is the default. Every decision gets made in all three.
 

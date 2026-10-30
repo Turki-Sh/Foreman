@@ -47,3 +47,13 @@ Board now shows three linked reference studies and the resulting design decision
 The native scrollbar hover experiment did not work reliably in the owner's browser. It is replaced on fine-pointer hover devices by a full-height transparent overlay rail controlling native document scroll. Hover, track clicks, pointer capture for dragging, keyboard navigation and ARIA values are supported. Touch, forced-colour and no-JavaScript contexts keep their native scrollbar. The footer portrait no longer moves; only the stamp animates.
 
 Verified all three examples at 1440px and 375px: no overflow and no axe WCAG A/AA violations. Tested before/after controls, hover at three rail heights, track click, Home/End, and a static portrait on hover. Local preview restarted as a detached hidden process on port 3217 after finding the earlier server was no longer listening.
+
+## README and release consistency follow-up
+
+The earlier audit missed two legacy bitmap assets: screenshot.png still showed the previous website, and card.png still displayed 3.0.0. Both are replaced from source. The root and plugin READMEs now use named preview images, while the old URLs serve identical current assets for compatibility. A capture manifest records source and image hashes; CI rejects stale previews, mismatched card versions or broken README asset references. Static badges are generated from the same version/count facts as the site and served from this repository. GitHub supplies the validation-status badge directly.
+
+The version is 3.0.1 in the plugin manifest, marketplace, five skills, README badge, opening card, structured data and installable archive. This documentation/website correction does not change the installable skill. Historical version references remain in the changelog. Corrected unsupported clean-benchmark wording and distinguished the script-free plugin from repository tooling.
+
+Audited title uniqueness, canonical and social metadata, structured-data versions and images, sitemap/indexability, crawler declaration, local resources/anchors, README images, archive contents, responsive layouts and accessibility. Nine Foreman routes at desktop light and phone dark returned no axe A/AA violations or page overflow. The full product benchmark remains not run, as previously disclosed and accepted for publication.
+
+Install/update documentation corrections were checked against Anthropic's primary documentation on 30 October 2026: https://code.claude.com/docs/en/discover-plugins . The plugin panel exists on supported surfaces beyond the terminal; the documented shell fallback remains available. The update instructions now refresh the marketplace and explicitly update foreman@alshuaibi. Updated both READMEs, SECURITY.md and the install page together.

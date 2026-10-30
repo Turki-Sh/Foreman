@@ -13,7 +13,7 @@ For a whole session, good or bad, the [session report](https://github.com/Turki-
 Post it on the [meta issue](https://github.com/Turki-Sh/Foreman/issues/1):
 
 - What you were building, in one line
-- Which phase you were in, or "after shipping"
+- Which step you were in, or "after shipping"
 - What broke
 - **What question would have prevented it**
 
@@ -39,7 +39,7 @@ That last line is the contribution. If it becomes a gate, a constraint, or a fai
 
 **Options and alternatives.** A rule that offers three ways to do something is not a rule. If a rule produced a bad result for you, show me the build. That moves me. A pull request adding a second option does not.
 
-**Anything executable.** Foreman ships no scripts, no hooks, no MCP servers and no network calls. CI enforces this.
+**Executable code in the plugin.** The installed skill has no scripts, hooks, MCP servers or network calls. CI enforces this under `plugins/`. Website tooling and the opt-in benchmark live outside the plugin.
 
 ## Before you open a pull request
 
@@ -52,6 +52,8 @@ The `validate` workflow runs on every pull request. It fails if:
 - Anything executable appears under `plugins/`
 - `dist/foreman.skill` has drifted from the source skill
 - `docs/` differs from what `scripts/build_site.py` builds from `site/`
+- README preview assets or their recorded source hashes are stale
+- A page has a missing or reused share card, invalid metadata, or a broken local resource
 - An em dash or en dash appears in the prose
 
 If you change anything under `plugins/foreman/skills/foreman/`, rebuild the bundle in a commit after it, from the committed files:
@@ -60,7 +62,7 @@ If you change anything under `plugins/foreman/skills/foreman/`, rebuild the bund
 git -c core.autocrlf=false archive --format=zip -o dist/foreman.skill HEAD:plugins/foreman/skills foreman
 ```
 
-If you change the site, edit `site/` and run `python scripts/build_site.py`. Never edit `docs/` by hand.
+If you change the site, edit `site/` and run `python scripts/build_site.py`. Never edit `docs/` by hand. After a change to the homepage, its assets, or the opening skill card, serve the generated site locally and run `node scripts/capture_readme.cjs`, then build again. This refreshes the README images and their source-hash manifest. The capture uses the Playwright dependency in `bench/` and installed Chrome. Run `python scripts/audit_site.py` before pushing.
 
 One concern per pull request. A branch that fixes a Windsurf path and rewrites the brief template will be asked to split.
 

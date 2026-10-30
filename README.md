@@ -3,28 +3,28 @@
 **A build playbook for shipping real websites with coding agents, by Turki Alshuaibi.**
 Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code, Cursor, Windsurf, Codex, Copilot, Gemini CLI, or a chat window with no skills support at all.
 
-[![Agent Skill](https://img.shields.io/badge/agent-any-1B4DD1?style=flat&logo=markdown&logoColor=white)](AGENTS.md)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-one%20command-D97757?style=flat&logo=claude&logoColor=white)](https://code.claude.com/docs/en/plugins)
-[![Steps](https://img.shields.io/badge/steps-8-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Modes](https://img.shields.io/badge/modes-3-1B4DD1?style=flat)](#three-modes)
-[![Tools](https://img.shields.io/badge/tools-4-1B4DD1?style=flat)](#the-toolbelt)
-[![References](https://img.shields.io/badge/references-14-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Assets](https://img.shields.io/badge/assets-7-1B4DD1?style=flat)](#what-is-in-the-box)
-[![Version](https://img.shields.io/badge/version-3.0.1-1B4DD1?style=flat&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
-[![Validate](https://img.shields.io/github/actions/workflow/status/Turki-Sh/Foreman/validate.yml?style=flat&logo=githubactions&logoColor=white&label=validate)](https://github.com/Turki-Sh/Foreman/actions/workflows/validate.yml)
-[![Scripts](https://img.shields.io/badge/executable%20code-none-16A34A?style=flat&logo=markdown&logoColor=white)](#no-scripts)
-[![License](https://img.shields.io/badge/license-MIT-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Author](https://img.shields.io/badge/by-Turki%20Alshuaibi-1B4DD1?style=flat)](https://turkialshuaibi.com/)
+[![Agent Skill](docs/badge/agent-any-111.svg)](AGENTS.md)
+[![Claude Code](docs/badge/claude-code-one-command-111.svg)](https://code.claude.com/docs/en/plugins)
+[![Steps](docs/badge/steps-8-111.svg)](#what-is-in-the-box)
+[![Modes](docs/badge/modes-3-111.svg)](#three-modes)
+[![Tools](docs/badge/tools-4-111.svg)](#the-toolbelt)
+[![References](docs/badge/references-14-111.svg)](#what-is-in-the-box)
+[![Assets](docs/badge/assets-7-111.svg)](#what-is-in-the-box)
+[![Version](docs/badge/version-3.0.1-111.svg)](CHANGELOG.md)
+[![Validate](https://github.com/Turki-Sh/Foreman/actions/workflows/validate.yml/badge.svg)](https://github.com/Turki-Sh/Foreman/actions/workflows/validate.yml)
+[![Scripts](docs/badge/code-none-111.svg)](#no-scripts)
+[![License](docs/badge/license-MIT-111.svg)](LICENSE)
+[![Author](docs/badge/author-turki-111.svg)](https://turkialshuaibi.com/)
 
 **[foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)**
 
 <p align="center">
   <a href="https://foreman.turkialshuaibi.com/">
-    <img src="https://foreman.turkialshuaibi.com/screenshot.png" alt="The Foreman site: a technical sheet on white paper, with a hand-drawn wireframe annotated with the decisions the interview forces." width="820">
+    <img src="docs/previews/site-2026-10-30.png" alt="Foreman homepage with its hard-hat identity, clear navigation, architectural scene and recorded coding session." width="820">
   </a>
 </p>
 
-<p align="center"><i>Foreman's own site, built by running Foreman. If the playbook cannot produce one good page, it is not worth installing.</i></p>
+<p align="center"><i>Foreman’s website, developed with the playbook and refined through owner review.</i></p>
 
 Coding agents removed the cost of writing a site. They did not remove the cost of deciding what it should be. So the internet now has thousands of sites that were built in an afternoon and look like each other: the same cream background, the same serif hero, the same three cards, the same accent, no domain, no metadata, no 404.
 
@@ -43,14 +43,21 @@ Foreman is one folder of markdown. Nothing compiles, nothing runs, so it install
 /plugin install foreman@alshuaibi
 ```
 
-`/plugin` is a terminal-only dialog. If your session answers "/plugin isn't available in this environment", run the same two steps as shell commands and restart the session.
+If your Claude Code surface does not support `/plugin`, run the same two steps in your shell, then start a new session.
 
 ```
 claude plugin marketplace add Turki-Sh/Foreman
 claude plugin install foreman@alshuaibi
 ```
 
-Already installed? `/plugin marketplace update alshuaibi` brings you to the latest version.
+Already installed? Refresh the marketplace and update the plugin from your shell:
+
+```
+claude plugin marketplace update alshuaibi
+claude plugin update foreman@alshuaibi
+```
+
+You can also select **Update now** for Foreman in the `/plugin` panel. See [Claude Code’s install and update documentation](https://code.claude.com/docs/en/discover-plugins).
 
 **Claude apps.** Download [`foreman.skill`](https://github.com/Turki-Sh/Foreman/raw/main/dist/foreman.skill) and upload it as a skill. The toolbelt is inside it.
 
@@ -74,7 +81,7 @@ Start a build in plain words:
 The agent should answer with the Foreman card and a question, not with code. That is the whole point.
 
 <p align="center">
-  <img src="https://foreman.turkialshuaibi.com/card.png" alt="The opening Foreman card in a terminal: the wordmark, the version, the step, the method, the mode line, and the first question." width="640">
+  <img src="docs/previews/card-3.0.1.png" alt="The opening Foreman card in a terminal: the wordmark, the version, the step, the method, the mode line, and the first question." width="640">
 </p>
 
 Choose how deep it goes by saying the word at any point: **survey** for the fewest questions, **stress test** for the most. In Claude Code you can also start in a mode with `/foreman:foreman survey`.
@@ -135,7 +142,7 @@ Four tools that run on their own or in the middle of a session.
 **Seven fillable assets:** a brand harness with three variants, a reference board, a head metadata block with Open Graph and JSON-LD, a custom 404, robots.txt, sitemap.xml, and llms.txt.
 
 <a id="no-scripts"></a>
-**No executable code.** Foreman ships no scripts, no hooks, no MCP servers, and no network calls. Its four slash commands are markdown skills like the rest of it. You can read every line before you trust it. The one `<script>` tag in the plugin is a `type="application/ld+json"` structured data block inside `assets/head-metadata.html`: inert JSON meant for your site's `<head>`, not code that runs when you install this. CI fails the build if anything executable appears.
+**No executable code in the installed skill.** The plugin ships no scripts, no hooks, no MCP servers, and makes no network calls. The repository separately contains website build scripts and an opt-in benchmark harness. Its four slash commands are markdown skills like the rest of it. You can read every line before you trust it. The one `<script>` tag in the plugin is a `type="application/ld+json"` structured data block inside `assets/head-metadata.html`: inert JSON meant for your site's `<head>`, not code that runs when you install this. CI fails the build if anything executable appears.
 
 **See it run before you install it.** [The worked example](plugins/foreman/skills/foreman/references/worked-example.md) is a full session from the first question to a frozen brief, the same opening in Survey, and the thing that went wrong afterwards.
 
@@ -155,16 +162,18 @@ Foreman sends nothing anywhere, so it only learns what worked when someone says.
 
 ## How it is measured
 
-[`bench/`](bench/README.md) runs real agent sessions against simulated owners, with and without Foreman, and measures the sites in a browser: invented numbers, the default AI palette, dead links, overflow on a phone, contrast, metadata, the 404. Every number this project publishes comes from a clean run of it, with the run count, model and date beside it. Its README also says what it cannot tell you.
+[`bench/`](bench/README.md) runs real agent sessions against simulated owners, with and without Foreman, and measures the sites in a browser: invented numbers, the default AI palette, dead links, overflow on a phone, contrast, metadata, the 404. Comparative claims require clean runs with the run count, model and date beside them. A full clean scenario benchmark has not been completed for 3.0.1. Local website checks are recorded separately in the [site audit](bench/SITE-AUDIT-2026-10-30.md).
+
+The website includes visual examples for [Board](https://foreman.turkialshuaibi.com/board/), [Punch list](https://foreman.turkialshuaibi.com/punch-list/), [Palette](https://foreman.turkialshuaibi.com/palette/) and [Launch](https://foreman.turkialshuaibi.com/launch/). The [Dana portfolio](https://foreman.turkialshuaibi.com/samples/dana-reference/) is an owner-reviewed example with a fictional research persona, not a controlled benchmark. Its [run documentation](bench/examples/dana-reference-guided/README.md) records the agent, references and artwork provenance.
 
 ## Author
 
 Built by **Turki Alshuaibi**, AI engineer. Everything in it came from shipping, and from watching capable engineers get stuck in the same handful of places, which are the failure modes listed at the end of the skill.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-turkialshuaibi.com-FFB400?style=flat&logo=astro&logoColor=white)](https://turkialshuaibi.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/turki-alshuaibi)
-[![GitHub](https://img.shields.io/badge/GitHub-Turki--Sh-181717?style=flat&logo=github&logoColor=white)](https://github.com/Turki-Sh)
-[![Email](https://img.shields.io/badge/Email-turki@turkialshuaibi.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:turki@turkialshuaibi.com)
+[![Portfolio](docs/badge/portfolio-111.svg)](https://turkialshuaibi.com/)
+[![LinkedIn](docs/badge/linkedin-111.svg)](https://linkedin.com/in/turki-alshuaibi)
+[![GitHub](docs/badge/github-111.svg)](https://github.com/Turki-Sh)
+[![Email](docs/badge/email-111.svg)](mailto:turki@turkialshuaibi.com)
 
 ## License
 

@@ -1,0 +1,20 @@
+{
+  "version": "3.0.1",
+  "screenshot": "site-2026-10-30.png",
+  "card": "card-3.0.1.png",
+  "cardTextHash": "0fe1698eb79c0a1d99c632b9125a023b56ae71425b4a030d43b05ae369dd4834",
+  "inputs": {
+    "docs/index.html": "7238846aeba9cd08f584af9cee929a88992a3757851706746ade62485f935353",
+    "docs/site.css": "cc9bb262d52a2fb007858989ae2044ad6cfad9075c4b63e720fcaadae9791811",
+    "docs/opening.css": "da969012affef8520b3fa03bf0ee9e95e9f47fecbbccb08cde55ebd180096bc1",
+    "docs/mono.css": "69a4487ad4761675ca49a118bdf97ccfd253ab114066c03b8eca2302f64377df",
+    "docs/site.js": "26ce4bb84b92da015b1de7e63df9c6a1f259869af3049af3048e1060077fee1b",
+    "docs/media/architecture.webp": "300159d03db2ccf4f399de035ba0d140e58a640f90afa073d28d8b40d09a6636",
+    "plugins/foreman/skills/foreman/SKILL.md": "34a7ce8f11d119a5e0d4192dbb3140f8d6aa8b07e168ea5c719c0de45c0729f3",
+    "scripts/capture_readme.cjs": "00427472514e26f03edcf85be5d6665e40694e231a5dd2b6bd3f41e3d56e536e"
+  },
+  "images": {
+    "site-2026-10-30.png": "36fa8add95537ebd47983eaff208621d51882d1fc880d1848972cb03f769ba80",
+    "card-3.0.1.png": "c7473c114fb31e7302864555f676e7544a4f6b03bcdc27fc742e341f3d63b36e"
+  }
+}
