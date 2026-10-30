@@ -39,6 +39,31 @@ priority: 0.9
   </div>
 </section>
 
+<section class="tight" id="shared-project">
+  <div class="wrap split">
+    <div class="head">
+      <h2>Use it with your team.</h2>
+      <p>Optional, for projects where Foreman is part of the shared workflow.</p>
+    </div>
+    <div class="install">
+      <div>
+        <p>From the project directory, run:</p>
+        <div class="copyrow"><pre id="project-install" tabindex="0"><span class="syntax-command">claude plugin marketplace add Turki-Sh/Foreman</span>
+<span class="syntax-command">claude plugin install foreman@alshuaibi --scope project</span></pre><button class="copy" type="button" data-for="project-install">Copy</button></div>
+        <p>This records Foreman in <code>.claude/settings.json</code>:</p>
+        <div class="copyrow"><pre id="project-settings" tabindex="0">{
+  <span class="syntax-key">"enabledPlugins"</span>: {
+    <span class="syntax-key">"foreman@alshuaibi"</span>: true
+  }
+}</pre><button class="copy" type="button" data-for="project-settings">Copy</button></div>
+        <p>Keep existing settings and other plugin entries. Review the diff, then commit this file so collaborators receive the configuration. Each collaborator still runs the two commands once on their machine. Committing settings does not download the plugin for them.</p>
+        <p>For personal use, keep the default user-scope installation. Sharing is optional and works in private repositories too. Keep credentials and personal overrides out of the shared file.</p>
+        <p><a href="https://code.claude.com/docs/en/discover-plugins#choose-an-install-scope">Installation scopes</a> · <a href="https://code.claude.com/docs/en/settings#settings-files-and-who-they-affect">Shared settings</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="tight" id="claude-apps">
   <div class="wrap split">
     <div class="head">
