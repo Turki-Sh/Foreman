@@ -1,36 +1,36 @@
 [
   {
     "film": "before-the-code",
-    "integratedLUFS": -16.01,
-    "truePeakDBTP": -1.52,
+    "integratedLUFS": -16.0,
+    "truePeakDBTP": -1.48,
     "loudnessRangeLU": 1.6,
     "status": "passed"
   },
   {
     "film": "before-you-share",
-    "integratedLUFS": -16.06,
-    "truePeakDBTP": -1.38,
-    "loudnessRangeLU": 1.8,
+    "integratedLUFS": -16.04,
+    "truePeakDBTP": -1.49,
+    "loudnessRangeLU": 1.9,
     "status": "passed"
   },
   {
     "film": "colour-that-works",
-    "integratedLUFS": -16.09,
-    "truePeakDBTP": -1.49,
+    "integratedLUFS": -16.05,
+    "truePeakDBTP": -1.5,
     "loudnessRangeLU": 2.3,
     "status": "passed"
   },
   {
     "film": "find-your-direction",
-    "integratedLUFS": -16.18,
-    "truePeakDBTP": -1.45,
+    "integratedLUFS": -16.17,
+    "truePeakDBTP": -1.5,
     "loudnessRangeLU": 1.8,
     "status": "passed"
   },
   {
     "film": "fix-what-feels-wrong",
-    "integratedLUFS": -16.01,
-    "truePeakDBTP": -1.48,
+    "integratedLUFS": -15.99,
+    "truePeakDBTP": -1.49,
     "loudnessRangeLU": 1.5,
     "status": "passed"
   }

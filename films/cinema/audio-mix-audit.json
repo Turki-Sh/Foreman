@@ -1,37 +1,206 @@
 [
   {
-    "slug": "before-the-code",
-    "duration": 25.116667,
-    "voiceSpeed": 1.06,
-    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
-    "peakBeforeMaster": 0.350341796875
+    "film": "before-the-code",
+    "events": [
+      {
+        "time": 0.12,
+        "action": "air"
+      },
+      {
+        "time": 1.73,
+        "action": "press"
+      },
+      {
+        "time": 4.247,
+        "action": "press"
+      },
+      {
+        "time": 6.9,
+        "action": "keys"
+      },
+      {
+        "time": 9.563,
+        "action": "slide"
+      },
+      {
+        "time": 13.217,
+        "action": "paper"
+      },
+      {
+        "time": 17.35,
+        "action": "slide"
+      },
+      {
+        "time": 19.483,
+        "action": "air"
+      }
+    ],
+    "loop": false,
+    "music": false,
+    "voice": "unchanged from revision 7"
   },
   {
-    "slug": "find-your-direction",
-    "duration": 26.55,
-    "voiceSpeed": 1.06,
-    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
-    "peakBeforeMaster": 0.4747314453125
+    "film": "find-your-direction",
+    "events": [
+      {
+        "time": 0.12,
+        "action": "slide"
+      },
+      {
+        "time": 3.483,
+        "action": "paper"
+      },
+      {
+        "time": 6.467,
+        "action": "keys"
+      },
+      {
+        "time": 10.217,
+        "action": "air"
+      },
+      {
+        "time": 13.483,
+        "action": "paper"
+      },
+      {
+        "time": 17.677,
+        "action": "slide"
+      },
+      {
+        "time": 20.967,
+        "action": "press"
+      }
+    ],
+    "loop": false,
+    "music": false,
+    "voice": "unchanged from revision 7"
   },
   {
-    "slug": "fix-what-feels-wrong",
-    "duration": 25.783333,
-    "voiceSpeed": 1.06,
-    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
-    "peakBeforeMaster": 0.378997802734375
+    "film": "fix-what-feels-wrong",
+    "events": [
+      {
+        "time": 0.2,
+        "action": "air"
+      },
+      {
+        "time": 3.25,
+        "action": "press"
+      },
+      {
+        "time": 6.317,
+        "action": "keys"
+      },
+      {
+        "time": 9.517,
+        "action": "paper"
+      },
+      {
+        "time": 10.887,
+        "action": "press"
+      },
+      {
+        "time": 12.75,
+        "action": "slide"
+      },
+      {
+        "time": 16.4,
+        "action": "paper"
+      },
+      {
+        "time": 20.5,
+        "action": "air"
+      }
+    ],
+    "loop": false,
+    "music": false,
+    "voice": "unchanged from revision 7"
   },
   {
-    "slug": "colour-that-works",
-    "duration": 26.15,
-    "voiceSpeed": 1.06,
-    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
-    "peakBeforeMaster": 0.4296875
+    "film": "colour-that-works",
+    "events": [
+      {
+        "time": 0.3,
+        "action": "air"
+      },
+      {
+        "time": 3.47,
+        "action": "paper"
+      },
+      {
+        "time": 4.15,
+        "action": "air"
+      },
+      {
+        "time": 6.853,
+        "action": "slide"
+      },
+      {
+        "time": 10.95,
+        "action": "press"
+      },
+      {
+        "time": 11.95,
+        "action": "press"
+      },
+      {
+        "time": 15.55,
+        "action": "press"
+      },
+      {
+        "time": 18.45,
+        "action": "slide"
+      },
+      {
+        "time": 20.7,
+        "action": "keys"
+      }
+    ],
+    "loop": false,
+    "music": false,
+    "voice": "unchanged from revision 7"
   },
   {
-    "slug": "before-you-share",
-    "duration": 24.666667,
-    "voiceSpeed": 1.06,
-    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
-    "peakBeforeMaster": 0.358367919921875
+    "film": "before-you-share",
+    "events": [
+      {
+        "time": 0.2,
+        "action": "air"
+      },
+      {
+        "time": 2.993,
+        "action": "slide"
+      },
+      {
+        "time": 6.383,
+        "action": "press"
+      },
+      {
+        "time": 7.183,
+        "action": "press"
+      },
+      {
+        "time": 9.633,
+        "action": "air"
+      },
+      {
+        "time": 14.433,
+        "action": "press"
+      },
+      {
+        "time": 14.683,
+        "action": "slide"
+      },
+      {
+        "time": 15.233,
+        "action": "air"
+      },
+      {
+        "time": 19.033,
+        "action": "paper"
+      }
+    ],
+    "loop": false,
+    "music": false,
+    "voice": "unchanged from revision 7"
   }
 ]

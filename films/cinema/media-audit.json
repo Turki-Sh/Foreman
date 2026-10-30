@@ -1,8 +1,8 @@
 [
   {
     "film": "before-the-code",
-    "duration": 25.133333,
-    "bytes": 4623822,
+    "duration": 25.2,
+    "bytes": 4335335,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -11,8 +11,8 @@
   },
   {
     "film": "before-you-share",
-    "duration": 24.683333,
-    "bytes": 3973264,
+    "duration": 24.7,
+    "bytes": 3688882,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -21,8 +21,8 @@
   },
   {
     "film": "colour-that-works",
-    "duration": 26.15,
-    "bytes": 4477961,
+    "duration": 26.2,
+    "bytes": 4157220,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -31,8 +31,8 @@
   },
   {
     "film": "find-your-direction",
-    "duration": 26.55,
-    "bytes": 4886363,
+    "duration": 26.6,
+    "bytes": 4568937,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -41,8 +41,8 @@
   },
   {
     "film": "fix-what-feels-wrong",
-    "duration": 25.783333,
-    "bytes": 3702860,
+    "duration": 25.8,
+    "bytes": 3403977,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,

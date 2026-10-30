@@ -74,3 +74,7 @@ The existing free English voice is processed, not replaced: 1.06 tempo, 90 Hz hi
 Board's highlight is a child of the screenshot container, so its position and scale follow the page. The 18-second area no longer enlarges on exit or introduces the thick paper slab. It becomes a reference and direction sheet. Board's gallery and Launch's status checks use image and interface layers instead of extruded blocks.
 
 Palette now shows the named ink, paper and polished metal materials. Its interface demonstrates surface, text, action and feedback roles, and the same interface actually switches from light to dark. All 33 subtitle languages are retimed using the processed speech durations. This is a private review cut; creative acceptance remains with Turki.
+
+## Revision 8: remove the rejected rhythmic loop
+
+The continuous click/tap pattern is removed. The same revision 7 narration and video timing are retained. A sparse, individually timed score follows visible selections, reference movement, paper and terminal interactions. It uses short unpitched air, paper, slide and tactile sounds, with no metronome, music, bass impacts or automatic scene-end sounds. The five video streams are remuxed unchanged; captions retain their existing timing. Sound quality still requires the owner's review.
