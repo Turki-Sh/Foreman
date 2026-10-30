@@ -1,19 +1,22 @@
 /* Achromatic surfaces. Hierarchy comes from luminance, scale and spacing. */
 :root {--paper:#fff;--sheet-2:#f6f6f6;--ink:#111;--soft:#444;--muted:#626262;--blue:#222;--tint:#eee;--hair:#e5e5e5;--rule:#ccc;--cyan:#080808;--cyan-2:#141414;--cyan-3:#000;--cyan-muted:#bbb;--line-w:#eee;--term:#080808;--term-2:#151515;--term-muted:#bbb;--sheet:#000;--sheetText:#fff;--yellow:#ddd;--on-yellow:#000;--yellow-ink:#444;--coral:#ddd;--coral-ink:#555;--green:#ccc;--green-ink:#444;--amber:#fff;}
 :root[data-theme="dark"] {--paper:#000;--sheet-2:#090909;--ink:#f5f5f5;--soft:#ccc;--muted:#aaa;--blue:#eee;--tint:#171717;--hair:#252525;--rule:#444;--cyan:#050505;--cyan-2:#111;--cyan-3:#000;--term:#030303;--term-2:#101010;--sheet:#000;--yellow-ink:#ddd;--coral-ink:#ccc;--green-ink:#ccc;}
-/* Chromium ignores scrollbar pseudo-elements when scrollbar-color is explicit.
-   Keep that property auto here so the rounded thumb and hidden arrow buttons apply. */
-html {scrollbar-color:auto;scrollbar-width:auto;scrollbar-gutter:stable;--scroll-track:#f5f5f5;--scroll-thumb:#c4c4c4;}
-:root[data-theme="dark"] {--scroll-track:#151515;--scroll-thumb:#777;}
-::-webkit-scrollbar {width:12px;height:12px;}
-::-webkit-scrollbar-track {background:var(--scroll-track);border:0;}
-::-webkit-scrollbar-thumb {background:var(--scroll-thumb);border:3px solid var(--scroll-track);border-radius:999px;}
-::-webkit-scrollbar-thumb:hover {background:#999;}
+/* Transparent native track, with an edge-hover thumb. No replacement scroller. */
+html {scrollbar-color:auto;scrollbar-width:auto;scrollbar-gutter:auto;--scroll-thumb:#888;}
+:root[data-theme="dark"] {--scroll-thumb:#777;}
+::-webkit-scrollbar {width:8px;height:8px;background:transparent;}
+::-webkit-scrollbar-track {background:transparent;border:0;}
+::-webkit-scrollbar-thumb {background:transparent;border:2px solid transparent;border-radius:999px;background-clip:padding-box;}
+html[data-scroll-edge]::-webkit-scrollbar-thumb,::-webkit-scrollbar-thumb:hover,:focus-visible::-webkit-scrollbar-thumb {background-color:var(--scroll-thumb);}
 ::-webkit-scrollbar-button {display:none;width:0;height:0;}
-::-webkit-scrollbar-corner {background:var(--scroll-track);}
-@supports not selector(::-webkit-scrollbar) {html {scrollbar-color:var(--scroll-thumb) var(--scroll-track);scrollbar-width:thin;}}
+::-webkit-scrollbar-corner {background:transparent;}
+@media (hover:none),(forced-colors:active) {::-webkit-scrollbar-thumb {background-color:var(--scroll-thumb);}}
+@supports not selector(::-webkit-scrollbar) {html {scrollbar-color:transparent transparent;scrollbar-width:thin;}html[data-scroll-edge] {scrollbar-color:var(--scroll-thumb) transparent;}}
 .helmet-grooves {stroke:#fff;}
-:root[data-theme="dark"] .helmet-grooves,:root[data-bar-tone="dark"] .helmet-grooves {stroke:#171717;}
+:root[data-theme="dark"] .helmet-grooves,:root[data-bar-tone="dark"] .bar .helmet-grooves,.site-footer .helmet-grooves {stroke:#171717;}
+.bar .brand {font-size:28px;line-height:1;}
+.brand .foreman-mark {width:1.05em;height:.72em;flex:none;overflow:visible;}
+@media(max-width:600px) {.bar .brand {font-size:24px;}}
 ::selection {background:#bbb;color:#000;}
 .glass-defs {position:absolute;pointer-events:none;overflow:hidden;}
 /* A transparent lens, never a milky fill. Refraction sits behind the content. */

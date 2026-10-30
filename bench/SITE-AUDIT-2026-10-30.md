@@ -2,8 +2,8 @@
 
 ## Changes
 
-- Header now uses the non-letter hard-hat mark, matching the transparent favicon.
-- Native scrollbar has a rounded thumb, a neutral track and no arrow buttons. Removed the standard scrollbar-color override that prevented Chromium pseudo-element styling.
+- Header and footer now use the non-letter hard-hat mark, matching the transparent favicon. The header wordmark and visible icon have matching optical heights.
+- Native scrollbar now has a transparent track, a 4px rounded thumb revealed near the pointer at the right edge, and no arrow buttons. Touch and forced-colour modes retain a visible native thumb. Removed the standard scrollbar-color override that prevented Chromium pseudo-element styling.
 - Eleven served pages each have a distinct 1200x630 PNG share card. The legacy og.png also uses the new homepage card.
 - Dana has absolute Open Graph and Twitter image URLs, a canonical URL and its own card. The fictional example is noindex, follow. Both error pages remain noindex.
 - Website dateModified and sitemap dates reflect this redesign, separately from the skill's 27 October release date. Product version remains 3.0.1.
@@ -27,3 +27,11 @@ With docs served at http://127.0.0.1:3217 and the bench Playwright dependency in
 ## Outstanding product release gate
 
 The branch also contains the earlier 3.0.1 skill changes. No full clean baseline/natural scenario benchmark is present in this checkout. AGENTS.md requires this before a skill release. Claude quota is exhausted and the owner disallowed paid overage; the reference-guided Codex example is not a substitute for that controlled benchmark. No paid calls were started for this audit.
+
+## Follow-up branding and font check
+
+Launch now uses a rocket throughout the tool cards, tool page and related links. Desktop and mobile checks found no overflow or axe violations after the branding changes. Chromium computed styles confirm transparent track and idle thumb; moving near the edge reveals the thumb, and moving away hides it.
+
+Actual Windows browser fonts: Segoe UI for body and branding, Segoe UI Semilight for the homepage hero, Consolas for code. Barlow Condensed remains declared in the base stylesheet but the redesign overrides its display variable with Segoe UI. Dana declares self-hosted Audiowide for display text and Segoe UI for body text.
+
+Scrollbar reference supplied by the owner: https://codepen.io/oxn-krtv/pen/NWePwEV (transparent track and transparent border with padding-box clipping). The edge-hover reveal is implemented locally without a custom scroll container or external dependency.

@@ -5,6 +5,15 @@
 (function () {
   const root = document.documentElement;
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Reveal the native thumb only when the pointer approaches the page edge.
+  if (matchMedia('(hover: hover)').matches) {
+    addEventListener('pointermove', e => {
+      const nearEdge = e.clientX >= document.documentElement.clientWidth - 16;
+      if (root.hasAttribute('data-scroll-edge') !== nearEdge) root.toggleAttribute('data-scroll-edge', nearEdge);
+    }, { passive: true });
+    document.addEventListener('pointerleave', () => root.removeAttribute('data-scroll-edge'));
+  }
+
 
   // The header turns to drafting vellum once the page moves under it.
   const onScroll = () => {
