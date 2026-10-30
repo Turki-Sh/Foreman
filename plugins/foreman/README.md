@@ -27,6 +27,31 @@ To update from your shell, run `claude plugin marketplace update alshuaibi`, the
 
 Other agents (Cursor, Windsurf, Codex, Copilot, Gemini CLI) and the Claude apps: see the [install page](https://foreman.turkialshuaibi.com/install/).
 
+### Use Foreman with your team (optional)
+
+If Foreman is part of this project's workflow, install it at project scope. Run these commands from the project directory:
+
+```sh
+claude plugin marketplace add Turki-Sh/Foreman
+claude plugin install foreman@alshuaibi --scope project
+```
+
+This records Foreman in `.claude/settings.json`:
+
+```json
+{
+  "enabledPlugins": {
+    "foreman@alshuaibi": true
+  }
+}
+```
+
+Keep any existing settings and other plugin entries. Review the diff, then commit `.claude/settings.json` so collaborators receive the configuration. Each collaborator still runs the two commands above once on their machine; committing settings does not download the plugin for them.
+
+For personal use, keep the default user-scope installation. Project sharing is optional and works in private repositories too. Keep credentials and personal overrides out of the shared file.
+
+[Claude Code installation scopes](https://code.claude.com/docs/en/discover-plugins#choose-an-install-scope) · [Shared settings](https://code.claude.com/docs/en/settings#settings-files-and-who-they-affect)
+
 ## Usage
 
 Say what you are building, in plain words:
