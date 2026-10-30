@@ -2,9 +2,19 @@
 
 All notable changes to Foreman. Versioning: the major number changes when the session flow changes, the minor when references or assets are added, the patch for corrections.
 
+## Website and documentation, 30 October 2026
+
+The installable skill remains at 3.0.1. This update changes the public website and its documentation, not the session flow or skill files.
+
+- Rebuilt the site with a monochrome theme, clear glass navigation, a hard-hat identity and transparent favicons.
+- Added visual examples for Board, Punch list and Launch, alongside Palette’s colour swatches.
+- Added the reference-guided Dana portfolio and an initial-draft comparison. The example’s documentation records its inputs and review; it is not a controlled benchmark.
+- Added a custom 404, refreshed page-specific share cards, and checked mobile layouts, keyboard controls, links and metadata.
+- Replaced stale README screenshots, including the terminal card that still showed 3.0.0. README preview assets are now generated from the current site and skill, with freshness checks in CI.
+
 ## 3.0.1, 27 October 2026
 
-A patch, and the first release that can say what it changed with a number.
+Adds measurement tools and corrects folder-first intake. A full clean scenario benchmark has not been completed for this patch.
 
 Added:
 - **The bench,** in `bench/`: real Claude Code sessions, played out against a

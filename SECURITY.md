@@ -1,6 +1,6 @@
 # Security
 
-Foreman contains no executable code: no scripts, no hooks, no MCP servers, no network calls. CI fails the build if any appear under `plugins/`. What it does contain is instructions that a coding agent follows, and instructions can be a security problem too.
+The installed Foreman plugin contains no executable code: no scripts, no hooks, no MCP servers, no network calls. CI fails the build if any appear under `plugins/`. What it does contain is instructions that a coding agent follows, and instructions can be a security problem too.
 
 ## What counts as a vulnerability here
 
@@ -18,4 +18,4 @@ Please include the file and line, what an agent would do because of it, and how 
 
 ## Supported versions
 
-Only the latest release is supported. Claude Code users get it with `/plugin marketplace update alshuaibi`.
+Only the latest release is supported. In your shell, run `claude plugin marketplace update alshuaibi`, then `claude plugin update foreman@alshuaibi`. Or select **Update now** for Foreman in the `/plugin` panel. See the [official update instructions](https://code.claude.com/docs/en/discover-plugins).

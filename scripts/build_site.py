@@ -105,7 +105,7 @@ def changelog_html():
             flush()
             title = line[3:].strip()
             ver = title.split(",")[0]
-            slug = "v" + ver.replace(".", "-")
+            slug = "v" + re.sub(r"[^a-z0-9]+", "-", ver.lower()).strip("-")
             toc.append((slug, title))
             out.append(f'<h2 id="{slug}"><a href="#{slug}">{html.escape(title)}</a></h2>')
         elif line.startswith("- "):
@@ -237,6 +237,30 @@ def build():
         target = "404.html" if slug == "404" else ("index.html" if slug == "index" else f"{slug}/index.html")
         files[target] = out
 
+    # Repository-hosted badges avoid third-party image failures and stale counts.
+    badges = {
+        "agent-any": ("agent", "any"), "claude-code-one-command": ("Claude Code", "one command"),
+        f"steps-{f['steps']}": ("steps", f["steps"]), f"modes-{f['modes']}": ("modes", f["modes"]),
+        f"tools-{f['tools']}": ("tools", f["tools"]), f"references-{f['references']}": ("references", f["references"]),
+        f"assets-{f['assets']}": ("assets", f["assets"]), f"version-{f['version']}": ("version", f["version"]),
+        "code-none": ("plugin code", "none"), "license-MIT": ("license", "MIT"),
+        "author-turki": ("by", "Turki Alshuaibi"), "portfolio": ("Portfolio", "turkialshuaibi.com"),
+        "linkedin": ("LinkedIn", "Connect"), "github": ("GitHub", "Turki-Sh"),
+        "email": ("Email", "turki@turkialshuaibi.com"),
+    }
+    for slug, (label, value) in badges.items():
+        left, right = len(label) * 7 + 14, len(value) * 7 + 14
+        total = left + right
+        title = html.escape(label + ": " + value)
+        files[f"badge/{slug}-111.svg"] = (
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{total}" height="20" role="img" aria-label="{title}">'
+            f'<title>{title}</title><rect width="{total}" height="20" rx="3" fill="#333"/>'
+            f'<path fill="#111" d="M{left} 0h{right-3}q3 0 3 3v14q0 3-3 3H{left}Z"/>'
+            f'<g fill="#fff" font-family="Verdana,Arial,sans-serif" font-size="11" text-anchor="middle">'
+            f'<text x="{left/2}" y="14">{html.escape(label)}</text>'
+            f'<text x="{left+right/2}" y="14">{html.escape(value)}</text></g></svg>\n'
+        )
+
     for name in ("site.css", "site.js", "opening.css", "mono.css"):
         files[name] = read(SITE / "static" / name)
 
@@ -252,6 +276,15 @@ def build():
         files["og/" + asset.name] = asset.read_bytes()
     if (SITE / "static" / "og" / "home.png").exists():
         files["og.png"] = (SITE / "static" / "og" / "home.png").read_bytes()
+
+    previews = SITE / "static" / "previews"
+    for asset in sorted(previews.glob("*")):
+        if asset.is_file():
+            files["previews/" + asset.name] = asset.read_bytes()
+    if (previews / "manifest.json").exists():
+        preview_manifest = json.loads(read(previews / "manifest.json"))
+        files["screenshot.png"] = (previews / preview_manifest["screenshot"]).read_bytes()
+        files["card.png"] = (previews / preview_manifest["card"]).read_bytes()
 
     # Page-specific media remains source-owned and is copied without text decoding.
     for asset in sorted((SITE / "static" / "media").rglob("*")):
