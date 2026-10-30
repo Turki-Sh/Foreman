@@ -25,3 +25,7 @@ No public deployment or live domain was provided, so there is no invented canoni
 ## October 30 review pass
 
 The owner requested a distinct navigation design for the example. The portfolio now uses a ruled editorial header rather than the main site’s pill. The desktop comparison capture was regenerated from the actual local page. The reference-guided build attribution remains in this documentation, not the marketing UI.
+
+## Cinematic reference revision
+
+Turki rejected the original quadruped illustration and supplied the two Dribbble references recorded in BRAND.md, preferring the first. Codex reconstructed its composition in HTML/CSS and generated an original robot after explicit permission. Existing personal and research claims remain from the earlier source notes. The hero is an art-directed concept, not evidence of a humanoid research project. The image is encoded as WebP and the font is self-hosted. The builder now copies binary assets byte-for-byte and checks them as bytes. No publishing.

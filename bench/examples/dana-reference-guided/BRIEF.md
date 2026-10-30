@@ -12,7 +12,11 @@ Only CV.md and project-notes.md supply personal/project claims. Opening headline
 Dependency-free index.html and shared style.css. Original editable quadruped.svg and monogram favicon.svg. Custom 404.html with the same header and footer. All links are real anchors or mailto. Do not invent a domain, canonical URL or published status. Metadata title, description, viewport, theme color and local Open Graph image are supplied; absolute production URLs remain a deployment concern because no domain was provided.
 
 ## Non-goals
-No contact form, analytics, blog, carousel, invented numbers, portrait, testimonials, institutional logos, fake CV download, placeholder papers, network fonts, generated raster art or paid services. No model or agent label on the public page. Agent and run provenance belongs in RUN-NOTES.md.
+No contact form, analytics, blog, carousel, invented numbers, portrait, testimonials, institutional logos, fake CV download, placeholder papers, network fonts or paid services. No model or agent label on the public page. Agent and run provenance belongs in RUN-NOTES.md.
 
 ## Quality and verification
 Design according to BRAND.md. Test local HTML and resource references, visible focus, email destination, in-page anchors, no horizontal overflow at 375px and 1280px, readable contrast. The orchestrator will inspect real desktop and mobile browser screenshots and integrate the resulting example. No publication or claims of full deployment verification. No em or en dashes.
+
+## Owner revision, 30 October 2026
+
+Replace the notebook look with the first supplied robotics reference: cinematic black/chrome, fine grid, large technical headline, a central humanoid art render and an offset research card. Preserve the research facts and email action. Turki explicitly approved generating the original robot asset. The humanoid is conceptual hero artwork, not evidence of Dana having built a humanoid. The earlier quadruped drawing is superseded in the visible page. Keep agent provenance in documentation.

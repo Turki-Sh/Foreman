@@ -1,22 +1,12 @@
-# Dana Haddad: aluminium and clear glass
+# Dana portfolio visual system
 
-Locked for this reference-guided example on 30 October 2026. The supplied reference choice supersedes the earlier notebook direction.
+## Owner revision, 30 October 2026
 
-## Material and palette
-An aluminium robot rig on a clean laboratory surface, with a small orange emergency-stop detail. Paper #F5F6F3, white #FFFFFF, ink #202A29, secondary ink #55605A, rule #C8D0C9, metal highlight #E7ECE7, metal shadow #76877C, safety orange #C45431. Hero text uses solid ink on a pale field. All small text stays at least #55605A on the pale field.
+Primary reference: https://dribbble.com/shots/26824790-AI-Robotics-Product-Landing-Page-Futuristic-Hero-Section-3D-UI by Bhautik Domadiya.
+Secondary reference: https://dribbble.com/shots/27378107-AI-Robotics-website-landing-page-design by Sahin Mia / Pixelean.
 
-## Type and composition
-Segoe UI with Arial and sans-serif fallbacks. Headline 52px at 1280 with a 20ch maximum measure, 38px at 375, weight 350, tight -0.055em tracking and 1.08 line height. The desktop measure was widened after the first render so the primary action and identity footer both fit within 800px. Body 16px/1.65; labels 12px/1.5; section titles 38px. No external fonts. Desktop gutter 64px, phone gutter 24px.
+The first is the chosen composition: near-black canvas, thin structural grid, wide geometric title above a centered robot bust, subdued halo, dashed orbital contour, introduction at lower left, offset card on the right, and asymmetrical rounded buttons. The supplied screenshot establishes these visual observations; no source code or original 3D model was available or claimed recovered.
 
-The first viewport places the owner's quoted result to the left of a large original aluminium quadruped illustration. A narrow clear-glass navigation capsule floats above it. The hero's lower edge holds the author's academic role and a working project link. Content continues as an editorial project note, then a compact background and direct email close. No three-card feature grid.
+Typography: locally hosted Audiowide for display and controls, Segoe UI for readable research prose. Audiowide is from google/fonts, distributed under the bundled OFL license. Palette: #000 background, #f7f7f7 primary text, #aaa secondary text, #292929 rules. No product-pricing controls or invented research results.
 
-## References and specific applications
-1. Roman Vasylovskyi's Liquid glass navigation, https://dribbble.com/shots/26155046-Liquid-glass-navigation: transparent capsule, shallow blur, double reflective rim, fine divider and white inset email action. Screenshot navigation.png was inspected.
-2. Clean Hero section for Framer, https://dribbble.com/shots/25721270-Clean-Hero-section-for-Framer-built-with-Frameblox-UI-kit: generous upper whitespace, thin oversized type, a deep visual field extending toward the bottom, restrained pill-shaped actions. Screenshot hero-reference.png was inspected. The stock scenery, endorsements and logos are not copied.
-3. AM Designs Architectural Portfolio Website, https://dribbble.com/shots/26694508-AM-Designs-Architectural-Portfolio-Website: generous whitespace and editorial hierarchy as documented in the supplied reference pack. The image itself was not available in the pack; do not claim direct visual inspection.
-
-## Signature element
-An editable SVG quadruped technical study, not a real robot photograph. Aluminium body, four articulated legs, dark joints, precise panel seams and one orange switch. Right aligned at desktop, centered under headline on mobile. Static at rest. No perpetual movement or distracting scan effects. This is explicitly labeled as a quadruped study in its figure caption.
-
-## Interaction and layers
-Background paper, shallow radial light behind robot, illustration, text, floating clear glass header. Header blur 4px with 8% white fill and bright inset rims. Hover darkens controls over 160ms; visible 2px focus rings. In-page anchors use native scrolling with reduced-motion support. No hamburger is necessary: short links fit at 375px, with the About link omitted on mobile and still available lower down. No autoplay.
+Hero art: original AI-generated black-chrome conceptual humanoid, explicitly authorized by Turki on 30 October. Decorative concept, not a photograph of Dana's quadruped project. Built-in image generation, not paid API fallback. Asset is site/hero-robot.webp; original remains in Codex generated_images. Layout, grid, halo, orbit and text remain real HTML/CSS. Mobile stacks content below the portrait; no animation runtime or third-party scripts.

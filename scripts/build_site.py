@@ -244,7 +244,7 @@ def build():
     example = ROOT / "bench" / "examples" / "dana-reference-guided" / "site"
     for asset in sorted(example.rglob("*")):
         if asset.is_file():
-            files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset)
+            files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset) if asset.suffix in {".html", ".css", ".js", ".svg", ".txt"} else asset.read_bytes()
 
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
     files["sitemap.xml"] = (
@@ -268,12 +268,15 @@ def main():
     for rel, content in build().items():
         path = DOCS / rel
         if check:
-            current = read(path) if path.exists() else None
+            current = (path.read_bytes() if isinstance(content, bytes) else read(path)) if path.exists() else None
             if current != content:
                 stale.append(rel)
             continue
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(content, encoding="utf-8", newline="\n")
+        if isinstance(content, bytes):
+            path.write_bytes(content)
+        else:
+            path.write_text(content, encoding="utf-8", newline="\n")
     if check:
         if stale:
             print("docs/ is out of date. Run python scripts/build_site.py and commit:")
