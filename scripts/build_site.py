@@ -240,6 +240,11 @@ def build():
     for name in ("site.css", "site.js", "opening.css", "mono.css"):
         files[name] = read(SITE / "static" / name)
 
+    # Page-specific media remains source-owned and is copied without text decoding.
+    for asset in sorted((SITE / "static" / "media").rglob("*")):
+        if asset.is_file():
+            files["media/" + asset.relative_to(SITE / "static" / "media").as_posix()] = asset.read_bytes()
+
     # Preserve the reviewed reference-guided example as a reproducible static build.
     example = ROOT / "bench" / "examples" / "dana-reference-guided" / "site"
     for asset in sorted(example.rglob("*")):
