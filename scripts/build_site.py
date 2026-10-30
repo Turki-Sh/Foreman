@@ -237,7 +237,7 @@ def build():
         target = "404.html" if slug == "404" else ("index.html" if slug == "index" else f"{slug}/index.html")
         files[target] = out
 
-    for name in ("site.css", "site.js"):
+    for name in ("site.css", "site.js", "opening.css"):
         files[name] = read(SITE / "static" / name)
 
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]

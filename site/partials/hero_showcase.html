@@ -1,21 +1,53 @@
-<div class="showcase enter" id="showcase" style="--d:120ms">
-      <figure class="window term session">
-        <figcaption class="chrome">claude  ~/dana-portfolio  foreman 3.0.1</figcaption>
-        <div class="session-body">
-          <p class="you">help me build my portfolio</p>
-          <p class="gap">It reads CV.md and project-notes.md in the folder, then sends its card.</p>
-          <p class="you">Hi, I&#x27;m Dana. I&#x27;m a master&#x27;s student in robotics applying for PhD positions, and I want a simple site for research group leads who hire legged robotics students. [...] I&#x27;d like a calm, light, notebook-style page, and I want visitors to email me, nothing else.</p>
-          <div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
+<figure class="session-replay" id="session-replay" aria-label="Recorded Claude Code session using Foreman">
+  <div class="replay-chrome">
+    <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="replay-title">Claude Code <span>/</span> dana-portfolio</span>
+    <button class="replay-toggle" type="button" hidden aria-label="Pause recorded session">Pause <span aria-hidden="true">Ⅱ</span></button>
+  </div>
+  <div class="replay-screen">
+    <div class="replay-welcome"><img src="/marks/claudecode.svg" width="42" height="42" alt=""><div><strong>Claude Code</strong><span>Foreman {{version}} · A portfolio, from brief to build</span></div></div>
+    <div class="replay-frames">
+      <div data-replay-frame>
+        <p class="terminal-prompt"><span aria-hidden="true">❯</span> help me build my portfolio</p>
+        <p class="terminal-context">It reads CV.md and project-notes.md, then sends its opening card.</p>
+        <div class="terminal-answer"><span class="terminal-bullet" aria-hidden="true">●</span><div><b>FOREMAN · 1/8 · ORIENT</b><p>What are you building, and what do you already have?</p></div></div>
+        <p class="terminal-prompt terminal-long"><span aria-hidden="true">❯</span> Hi, I'm Dana. I'm a master's student in robotics applying for PhD positions, and I want a simple site for research group leads who hire legged robotics students. [...] I'd like a calm, light, notebook-style page, and I want visitors to email me, nothing else.</p>
+      </div>
+      <div data-replay-frame hidden>
+        <p class="terminal-prompt"><span aria-hidden="true">❯</span> help me build my portfolio</p>
+        <div class="terminal-answer"><span class="terminal-bullet" aria-hidden="true">●</span><div><b>FOREMAN · 2/8 · DECISIONS</b><p>Your notes say retraining "took most of a day" and now takes "about 40 percent of the old time." Roughly how many hours was it before and after, on which robot and task?</p></div></div>
+        <div class="terminal-answer"><span class="terminal-bullet" aria-hidden="true">●</span><div><b>✓ LOCKED · register: academic</b><p>Non-goals, drafted from "email me, nothing else": no contact form (a plain email link), no analytics, no blog, no carousel, no scroll-triggered animation, no testimonials or stats band, no social links, no invented numbers. Hover and focus states stay.</p></div></div>
+      </div>
+      <div data-replay-frame hidden>
+        <p class="terminal-file">BRIEF.md <span>Recorded output</span></p>
+        <pre tabindex="0">## CONTENT
 
-[...]
+Written by Dana, moved and cut, not generated. Use verbatim.
 
-Your notes say retraining &quot;took most of a day&quot; and now takes &quot;about 40 percent of the old time.&quot; Roughly how many hours was it before and after, on which robot and task?</div>
-          <p class="gap">Nine messages later: three palettes, a brief she approved, then the build.</p>
-        </div>
-      </figure>
-      <figure class="window browser site">
-        <figcaption class="chrome"><span class="url">index.html</span></figcaption>
-        <img src="/samples/dana-foreman.jpg" width="1280" height="800" alt="The page Foreman&#x27;s session built for Dana: pale grey-green quad-ruled notebook paper with a margin column, her name, the headline &quot;Retraining after each hardware change took most of a day. Now it takes about 40 percent of that.&quot;, one line about her, and one dark blue button that emails her." loading="eager" fetchpriority="high">
-      </figure>
-      <p class="fig">Fig. 1. A real Claude Code session with Foreman 3.0.1 and Claude Sonnet on 27 October 2026, and the page it built, unedited, after 12 turns and 9 minutes. Dana is a test persona: a second model answering from a fact sheet.</p>
+Opening (h1): Retraining after each hardware change took most
+of a day. Now it takes about 40 percent of that.
+
+Support: MSc Robotics (expected 2027), research assistant at
+the Legged Locomotion Lab, applying for PhD positions in
+legged robotics.
+
+Action: button, label "Email dana.haddad@example.org",
+destination `mailto:dana.haddad@example.org`.</pre>
+      </div>
+      <div data-replay-frame hidden>
+        <div class="replay-result"><div><p class="terminal-file">index.html</p><h2>The brief,<br>built.</h2><p>The page produced by this recorded session, shown unedited.</p><a href="#changes">Compare the two runs <span aria-hidden="true">↗</span></a></div><img src="/samples/dana-foreman.jpg" width="1280" height="800" alt="Dana's completed research portfolio, with notebook paper, the retraining headline and one email button." loading="lazy"></div>
+      </div>
     </div>
+    <div class="terminal-input" aria-hidden="true"><span>❯</span><span class="terminal-cursor"></span></div>
+  </div>
+  <div class="replay-bottom">
+    <span class="replay-caption">Recorded session · 27 Oct 2026</span>
+    <div class="replay-steps" aria-label="Session playback" hidden>
+      <button type="button" data-replay-step="0" aria-pressed="true">Orient</button>
+      <button type="button" data-replay-step="1" aria-pressed="false">Decide</button>
+      <button type="button" data-replay-step="2" aria-pressed="false">Brief</button>
+      <button type="button" data-replay-step="3" aria-pressed="false">Build</button>
+    </div>
+  </div>
+  <figcaption class="replay-provenance">Excerpts from a real Foreman run. Dana is a test persona.</figcaption>
+</figure>

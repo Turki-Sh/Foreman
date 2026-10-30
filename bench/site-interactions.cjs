@@ -10,7 +10,7 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   const errs = []; p.on('pageerror', e => errs.push(String(e)));
   await p.goto(base + '/', { waitUntil: 'networkidle' });
   // motion played
-  ok(await p.evaluate(() => document.documentElement.classList.contains('play')), 'entrance plays when motion is allowed');
+  ok(await p.isVisible('#hero-h'), 'hero is visible immediately');
   // tabs by click and keys
   await p.click('#tab-survey');
   ok(await p.evaluate(() => !document.getElementById('p-survey').hidden && document.getElementById('p-blueprint').hidden), 'clicking Survey shows its panel');
@@ -33,8 +33,8 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   // scrolled header
   await p.evaluate(() => scrollTo(0, 600)); await p.waitForTimeout(200);
   ok(await p.evaluate(() => document.documentElement.hasAttribute('data-scrolled')), 'header turns to vellum on scroll');
-  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar')).backdropFilter);
-  ok(bg.includes('blur'), 'header has backdrop blur when scrolled: ' + bg);
+  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar .wrap')).backdropFilter);
+  ok(bg.includes('blur') || await p.evaluate(() => matchMedia('(prefers-reduced-transparency: reduce)').matches), 'header uses blur or the requested reduced-transparency fallback: ' + bg);
   // foreman stamp
   await p.click('.foreman'); await p.click('.foreman');
   ok(await p.evaluate(() => document.querySelectorAll('.inked').length === 2), 'the foreman stamps the sheet twice');
@@ -54,18 +54,29 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   ok(tap.every(([, w, h]) => w >= 24 && h >= 24), 'header targets at least 24px: ' + JSON.stringify(tap));
   ok(errs.length === 0, 'no page errors ' + errs.join(' | '));
 
-  // the showcase: a real session, then the page it built, once, under two and a half seconds
-  const bc = await b.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'no-preference' });
+  // Recorded replay: controls, timing and a stable layout.
+  const bc = await b.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' });
   const bp = await bc.newPage(); const berr = []; bp.on('pageerror', e => berr.push(String(e)));
-  await bp.goto(base + '/', { waitUntil: 'domcontentloaded' });
-  await bp.waitForTimeout(700);
-  const early = await bp.evaluate(() => ({ first: +getComputedStyle(document.querySelector('#showcase .session-body > *')).opacity, site: +getComputedStyle(document.querySelector('#showcase .site')).opacity }));
-  ok(early.first > 0 && early.site < 0.5, 'the session arrives before the page it built: ' + JSON.stringify(early));
-  const total = await bp.evaluate(() => Math.max(...document.getAnimations().filter(a => a.effect && a.effect.target && a.effect.target.closest && a.effect.target.closest('#showcase')).map(a => a.effect.getComputedTiming().endTime)));
-  ok(total <= 2500, 'the showcase finishes inside two and a half seconds: ' + Math.round(total) + 'ms');
-  await bp.waitForTimeout(Math.max(0, total - 600) + 200);
-  ok(await bp.evaluate(() => [...document.querySelectorAll('#showcase .session-body > *, #showcase .site')].every(el => getComputedStyle(el).opacity === '1')), 'everything in the showcase ends fully visible');
-  ok(await bp.evaluate(() => { const i = document.querySelector('#showcase .site img'); return i.complete && i.naturalWidth > 0; }), 'the built page screenshot loads');
+  await bp.goto(base + '/');
+  await bp.locator('#session-replay').scrollIntoViewIfNeeded();
+  await bp.getByRole('button', {name:'Pause recorded session'}).click();
+  const before = await bp.locator('[data-replay-step][aria-pressed="true"]').getAttribute('data-replay-step');
+  await bp.waitForTimeout(6700);
+  ok(before === await bp.locator('[data-replay-step][aria-pressed="true"]').getAttribute('data-replay-step'), 'pause stops automatic advancement');
+  const heights = [];
+  for (const n of [0,1,2,3]) {
+    await bp.click('[data-replay-step="'+n+'"]');
+    heights.push((await bp.locator('#session-replay').boundingBox()).height);
+    ok(await bp.locator('[data-replay-frame]').nth(n).isVisible(), 'replay segment '+n+' opens');
+  }
+  ok(Math.max(...heights)-Math.min(...heights)<1, 'replay never moves following content');
+  ok(await bp.getByRole('button',{name:'Replay recorded session'}).isVisible(), 'last frame offers Replay');
+  await bp.getByRole('button',{name:'Replay recorded session'}).click();
+  ok(await bp.locator('[data-replay-frame]').nth(0).isVisible(), 'Replay starts at Orient');
+  await bp.waitForTimeout(6700);
+  ok(await bp.locator('[data-replay-frame]').nth(1).isVisible(), 'playback advances to Decide');
+  await bp.click('[data-replay-step="3"]');
+  ok(await bp.evaluate(() => {const i=document.querySelector('.replay-result img');return i.complete && i.naturalWidth>0;}), 'actual built page loads');
   // the step viewer: every step shows the real thing it produced
   await bp.click('#step-5'); await bp.waitForTimeout(100);
   ok(await bp.evaluate(() => !document.getElementById('v-5').hidden && document.getElementById('v-1').hidden && document.getElementById('step-5').getAttribute('aria-selected') === 'true'), 'clicking Build shows what the build produced');
@@ -78,10 +89,10 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   const rm = await b.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });
   const q = await rm.newPage(); await q.goto(base + '/', { waitUntil: 'networkidle' });
   ok(!(await q.evaluate(() => document.documentElement.classList.contains('play'))), 'reduced motion: no entrance, page at rest');
-  ok(await q.evaluate(() => document.getAnimations().length === 0 && getComputedStyle(document.querySelector('#showcase .site')).opacity === '1'), 'reduced motion: the showcase is still, and complete');
+  ok(await q.evaluate(() => document.getAnimations().length === 0 && document.querySelector('.replay-toggle').textContent === 'Play'), 'reduced motion: the showcase is still, and complete');
   // no JS: content is all there
   const nj = await b.newContext({ javaScriptEnabled: false }); const r = await nj.newPage(); await r.goto(base + '/');
-  ok((await r.isVisible('text=Every good build starts as a drawing.')) && (await r.isVisible('#p-blueprint')) && (await r.isVisible('#showcase .site img')), 'without JavaScript the page is complete');
+  ok((await r.isVisible('#hero-h')) && (await r.isVisible('#p-blueprint')) && (await r.isVisible('.replay-result img')), 'without JavaScript the page is complete');
     ok(await r.locator('[role="tabpanel"]:visible').count() === 11, 'no JavaScript: all three modes and all eight step artifacts remain readable');
   ok(await r.locator('.rows a[tabindex="0"]').count() === 8, 'no JavaScript: every step link remains keyboard reachable');
   await bp.focus('#step-5'); await bp.keyboard.press('Space');

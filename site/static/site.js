@@ -76,20 +76,46 @@
 
   if (!reduce && document.querySelector('.enter')) root.classList.add('play');
 
-  // The showcase: a real session arrives message by message, then the page
-  // it built rises in front of it. Under two seconds, once; the resting
-  // state is the whole thing, so without script nothing is missing.
-  const show = document.getElementById('showcase');
-  if (show && !reduce) {
-    const IN = 'cubic-bezier(.22,.61,.36,1)';
-    const steps = [...show.querySelectorAll('.session-body > *')];
-    steps.forEach((el, i) => el.animate(
-      [{ opacity: 0, transform: 'translateY(6px)' }, { opacity: 1, transform: 'none' }],
-      { delay: 120 + i * 180, duration: 300, fill: 'both', easing: IN }));
-    const site = show.querySelector('.site');
-    if (site) site.animate(
-      [{ opacity: 0, transform: 'translateY(28px) scale(.98)' }, { opacity: 1, transform: 'none' }],
-      { delay: 120 + steps.length * 180, duration: 500, fill: 'both', easing: IN });
+  // Recorded excerpts, played once. Pause offscreen and respect reduced motion.
+  const replay = document.getElementById('session-replay');
+  if (replay) {
+    const frames = [...replay.querySelectorAll('[data-replay-frame]')];
+    const steps = [...replay.querySelectorAll('[data-replay-step]')];
+    const toggle = replay.querySelector('.replay-toggle');
+    let current = 0, playing = !reduce, visible = false, timer;
+    const schedule = () => {
+      clearTimeout(timer);
+      if (playing && visible && !document.hidden) timer = setTimeout(() => {
+        if (current < frames.length - 1) current++;
+        else playing = false;
+        render();
+      }, 6500);
+    };
+    const render = () => {
+      frames.forEach((frame, i) => { frame.hidden = i !== current; });
+      steps.forEach((step, i) => step.setAttribute('aria-pressed', String(i === current)));
+      const label = playing ? 'Pause' : current === frames.length - 1 ? 'Replay' : 'Play';
+      toggle.textContent = label;
+      toggle.setAttribute('aria-label', label + ' recorded session');
+      schedule();
+    };
+    toggle.hidden = false;
+    replay.querySelector('.replay-steps').hidden = false;
+    toggle.addEventListener('click', () => {
+      if (!playing && current === frames.length - 1) current = 0;
+      playing = !playing;
+      render();
+    });
+    steps.forEach((step, i) => step.addEventListener('click', () => {
+      current = i; playing = false; render();
+    }));
+    replay.querySelector('.replay-frames').addEventListener('focusin', () => { playing = false; render(); });
+    new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; schedule(); }, {threshold: .15}).observe(replay);
+    document.addEventListener('visibilitychange', schedule);
+    matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', e => {
+      if (e.matches) { playing = false; render(); }
+    });
+    render();
   }
 
   // Mode tabs: real tabs, with arrow keys.
