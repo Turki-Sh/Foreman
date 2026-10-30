@@ -148,7 +148,7 @@ def jsonld(meta, f):
         "downloadUrl": REPO + "/raw/main/dist/foreman.skill",
         "installUrl": BASE + "/install/",
         "screenshot": BASE + "/screenshot.png",
-        "image": BASE + "/og/home.png",
+        "image": BASE + "/og/home-v2.png",
         "featureList": [
             "Survey, Blueprint and Stress test modes",
             "Board: a reference board chosen for the brief",
@@ -216,7 +216,7 @@ def build():
             "title": html.escape(meta["title"]),
             "description": html.escape(meta["description"]),
             "canonical": BASE + meta["path"],
-            "og_image": f"{BASE}/og/{meta.get('og', slug)}.png",
+            "og_image": f"{BASE}/og/{meta.get('og', slug)}-v2.png",
             "og_alt": html.escape(meta.get("og_alt", meta["title"])),
             "page": slug,
             "robots": meta.get("robots", "index, follow"),
@@ -274,8 +274,8 @@ def build():
 
     for asset in sorted((SITE / "static" / "og").glob("*.png")):
         files["og/" + asset.name] = asset.read_bytes()
-    if (SITE / "static" / "og" / "home.png").exists():
-        files["og.png"] = (SITE / "static" / "og" / "home.png").read_bytes()
+    if (SITE / "static" / "og" / "home-v2.png").exists():
+        files["og.png"] = (SITE / "static" / "og" / "home-v2.png").read_bytes()
 
     previews = SITE / "static" / "previews"
     for asset in sorted(previews.glob("*")):
