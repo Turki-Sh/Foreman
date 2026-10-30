@@ -1,4 +1,4 @@
-Claude Code and Codex SVG assets from https://github.com/lobehub/lobe-icons
+Claude Code, Codex, Cursor, Gemini and GitHub Copilot SVG assets from https://github.com/lobehub/lobe-icons
 Sources: packages/static-svg/icons/claudecode.svg and codex.svg
 
 MIT License

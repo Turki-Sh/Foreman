@@ -54,29 +54,30 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   ok(tap.every(([, w, h]) => w >= 24 && h >= 24), 'header targets at least 24px: ' + JSON.stringify(tap));
   ok(errs.length === 0, 'no page errors ' + errs.join(' | '));
 
-  // Recorded replay: controls, timing and a stable layout.
+  // Clean autoplay: hover, keyboard and reduced motion still stop playback.
   const bc = await b.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'no-preference' });
   const bp = await bc.newPage(); const berr = []; bp.on('pageerror', e => berr.push(String(e)));
   await bp.goto(base + '/');
   await bp.locator('#session-replay').scrollIntoViewIfNeeded();
-  await bp.getByRole('button', {name:'Pause recorded session'}).click();
-  const before = await bp.locator('[data-replay-step][aria-pressed="true"]').getAttribute('data-replay-step');
-  await bp.waitForTimeout(6700);
-  ok(before === await bp.locator('[data-replay-step][aria-pressed="true"]').getAttribute('data-replay-step'), 'pause stops automatic advancement');
-  const heights = [];
-  for (const n of [0,1,2,3]) {
-    await bp.click('[data-replay-step="'+n+'"]');
-    heights.push((await bp.locator('#session-replay').boundingBox()).height);
-    ok(await bp.locator('[data-replay-frame]').nth(n).isVisible(), 'replay segment '+n+' opens');
-  }
-  ok(Math.max(...heights)-Math.min(...heights)<1, 'replay never moves following content');
-  ok(await bp.getByRole('button',{name:'Replay recorded session'}).isVisible(), 'last frame offers Replay');
-  await bp.getByRole('button',{name:'Replay recorded session'}).click();
-  ok(await bp.locator('[data-replay-frame]').nth(0).isVisible(), 'Replay starts at Orient');
-  await bp.waitForTimeout(6700);
-  ok(await bp.locator('[data-replay-frame]').nth(1).isVisible(), 'playback advances to Decide');
-  await bp.click('[data-replay-step="3"]');
-  ok(await bp.evaluate(() => {const i=document.querySelector('.replay-result img');return i.complete && i.naturalWidth>0;}), 'actual built page loads');
+  await bp.mouse.move(0, 0);
+  const active = () => bp.locator('[data-replay-frame]').evaluateAll(es=>es.findIndex(e=>!e.hidden));
+  const height = (await bp.locator('#session-replay').boundingBox()).height;
+  ok(await bp.locator('.agent-marks a').count() === 5, 'five agent marks are present');
+  ok(await bp.locator('.replay-toggle,.replay-steps,.replay-provenance,.replay-bottom').count() === 0, 'replay controls and captions are removed');
+  const first = await active();
+  await bp.waitForTimeout(7200);
+  ok(await active() !== first, 'recorded session advances automatically');
+  await bp.locator('#session-replay').hover();
+  const held = await active(); await bp.waitForTimeout(7200);
+  ok(await active() === held, 'hover pauses the recorded session');
+  await bp.mouse.move(0, 0);
+  await bp.focus('#session-replay');
+  const focused = await active(); await bp.waitForTimeout(7200);
+  ok(await active() === focused, 'keyboard focus pauses the recorded session');
+  await bp.keyboard.press('Space'); await bp.keyboard.press('Space');
+  await bp.waitForTimeout(7200);
+  ok(await active() !== focused, 'Space can resume playback without a visible toolbar');
+  ok(Math.abs((await bp.locator('#session-replay').boundingBox()).height-height)<1, 'replay height remains stable');
   // the step viewer: every step shows the real thing it produced
   await bp.click('#step-5'); await bp.waitForTimeout(100);
   ok(await bp.evaluate(() => !document.getElementById('v-5').hidden && document.getElementById('v-1').hidden && document.getElementById('step-5').getAttribute('aria-selected') === 'true'), 'clicking Build shows what the build produced');
@@ -89,10 +90,10 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   const rm = await b.newContext({ viewport: { width: 1440, height: 900 }, reducedMotion: 'reduce' });
   const q = await rm.newPage(); await q.goto(base + '/', { waitUntil: 'networkidle' });
   ok(!(await q.evaluate(() => document.documentElement.classList.contains('play'))), 'reduced motion: no entrance, page at rest');
-  ok(await q.evaluate(() => document.getAnimations().length === 0 && document.querySelector('.replay-toggle').textContent === 'Play'), 'reduced motion: the showcase is still, and complete');
+  ok(await q.evaluate(() => document.getAnimations().length === 0 && !document.querySelector('[data-replay-frame]').hidden), 'reduced motion: the showcase is still, and complete');
   // no JS: content is all there
   const nj = await b.newContext({ javaScriptEnabled: false }); const r = await nj.newPage(); await r.goto(base + '/');
-  ok((await r.isVisible('#hero-h')) && (await r.isVisible('#p-blueprint')) && (await r.isVisible('.replay-result img')), 'without JavaScript the page is complete');
+  ok((await r.isVisible('#hero-h')) && (await r.isVisible('#p-blueprint')) && (await r.isVisible('.terminal-file')), 'without JavaScript the page is complete');
     ok(await r.locator('[role="tabpanel"]:visible').count() === 11, 'no JavaScript: all three modes and all eight step artifacts remain readable');
   ok(await r.locator('.rows a[tabindex="0"]').count() === 8, 'no JavaScript: every step link remains keyboard reachable');
   await bp.focus('#step-5'); await bp.keyboard.press('Space');

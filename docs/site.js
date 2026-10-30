@@ -24,7 +24,7 @@
       b.setAttribute('aria-pressed', String(t === 'dark'));
       b.setAttribute('aria-label', t === 'dark' ? 'Switch to the light sheet' : 'Switch to the night sheet');
     }
-    if (meta) meta.content = t === 'dark' ? '#0A2444' : '#FFFFFF';
+    if (meta) meta.content = t === 'dark' ? '#191c1c' : '#fafbf9';
   };
   setTheme(root.dataset.theme === 'dark' ? 'dark' : 'light');
   for (const b of document.querySelectorAll('.theme')) {
@@ -76,46 +76,34 @@
 
   if (!reduce && document.querySelector('.enter')) root.classList.add('play');
 
-  // Recorded excerpts, played once. Pause offscreen and respect reduced motion.
+  // Unobtrusive recorded excerpts. Hover or keyboard focus pauses playback.
   const replay = document.getElementById('session-replay');
   if (replay) {
     const frames = [...replay.querySelectorAll('[data-replay-frame]')];
-    const steps = [...replay.querySelectorAll('[data-replay-step]')];
-    const toggle = replay.querySelector('.replay-toggle');
-    let current = 0, playing = !reduce, visible = false, timer;
+    const motion = matchMedia('(prefers-reduced-motion: reduce)');
+    let current = 0, visible = false, hovered = false, focused = false, stopped = false, timer;
     const schedule = () => {
       clearTimeout(timer);
-      if (playing && visible && !document.hidden) timer = setTimeout(() => {
-        if (current < frames.length - 1) current++;
-        else playing = false;
-        render();
-      }, 6500);
+      if (!motion.matches && !stopped && !hovered && !focused && visible && !document.hidden) {
+        timer = setTimeout(() => {
+          current = (current + 1) % frames.length;
+          frames.forEach((frame, i) => { frame.hidden = i !== current; });
+          schedule();
+        }, 7000);
+      }
     };
-    const render = () => {
-      frames.forEach((frame, i) => { frame.hidden = i !== current; });
-      steps.forEach((step, i) => step.setAttribute('aria-pressed', String(i === current)));
-      const label = playing ? 'Pause' : current === frames.length - 1 ? 'Replay' : 'Play';
-      toggle.textContent = label;
-      toggle.setAttribute('aria-label', label + ' recorded session');
-      schedule();
-    };
-    toggle.hidden = false;
-    replay.querySelector('.replay-steps').hidden = false;
-    toggle.addEventListener('click', () => {
-      if (!playing && current === frames.length - 1) current = 0;
-      playing = !playing;
-      render();
+    replay.addEventListener('mouseenter', () => { hovered = true; schedule(); });
+    replay.addEventListener('mouseleave', () => { hovered = false; schedule(); });
+    replay.addEventListener('focusin', () => { focused = true; schedule(); });
+    replay.addEventListener('focusout', e => { focused = replay.contains(e.relatedTarget); schedule(); });
+    replay.addEventListener('keydown', e => {
+      if (e.key === ' ' && e.target === replay) {
+        e.preventDefault(); stopped = !stopped; focused = false; schedule();
+      }
     });
-    steps.forEach((step, i) => step.addEventListener('click', () => {
-      current = i; playing = false; render();
-    }));
-    replay.querySelector('.replay-frames').addEventListener('focusin', () => { playing = false; render(); });
     new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; schedule(); }, {threshold: .15}).observe(replay);
     document.addEventListener('visibilitychange', schedule);
-    matchMedia('(prefers-reduced-motion: reduce)').addEventListener('change', e => {
-      if (e.matches) { playing = false; render(); }
-    });
-    render();
+    motion.addEventListener('change', schedule);
   }
 
   // Mode tabs: real tabs, with arrow keys.

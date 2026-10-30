@@ -240,6 +240,12 @@ def build():
     for name in ("site.css", "site.js", "opening.css"):
         files[name] = read(SITE / "static" / name)
 
+    # Preserve the reviewed reference-guided example as a reproducible static build.
+    example = ROOT / "bench" / "examples" / "dana-reference-guided" / "site"
+    for asset in sorted(example.rglob("*")):
+        if asset.is_file():
+            files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset)
+
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
     files["sitemap.xml"] = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'

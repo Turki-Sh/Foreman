@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" fill="none">
+<defs>
+ <linearGradient id="top" x1="294" y1="175" x2="653" y2="296" gradientUnits="userSpaceOnUse"><stop stop-color="#f7f9f3"/><stop offset=".48" stop-color="#cdd7cd"/><stop offset="1" stop-color="#a7b6a8"/></linearGradient>
+ <linearGradient id="side" x1="332" y1="267" x2="628" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#bdcbbd"/><stop offset=".45" stop-color="#8d9f91"/><stop offset="1" stop-color="#53695b"/></linearGradient>
+ <linearGradient id="leg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c9d3c7"/><stop offset=".35" stop-color="#eff2e9"/><stop offset=".52" stop-color="#8b9e8e"/><stop offset="1" stop-color="#516658"/></linearGradient>
+ <linearGradient id="black" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#45554a"/><stop offset=".5" stop-color="#26382e"/><stop offset="1" stop-color="#101f17"/></linearGradient>
+ <linearGradient id="face" x1="595" y1="248" x2="695" y2="329" gradientUnits="userSpaceOnUse"><stop stop-color="#758b7c"/><stop offset="1" stop-color="#344a3d"/></linearGradient>
+ <radialGradient id="shadow"><stop stop-color="#334d39" stop-opacity=".23"/><stop offset=".65" stop-color="#334d39" stop-opacity=".08"/><stop offset="1" stop-color="#334d39" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<!-- Ground plane and restrained study coordinates. -->
+<ellipse cx="480" cy="571" rx="319" ry="72" fill="url(#shadow)"/>
+<g stroke="#afbcad" stroke-width="1" opacity=".58"><path d="m162 571 350-123 246 107M163 571l249 100 346-116"/><path d="m406 644 23 9m-17-18v18m0-205v-20m-10 16 10 4 10-4"/></g>
+<!-- Far legs are darker and sit behind the body. -->
+<g>
+ <path d="m353 229-34 38-46 133 24 17 66-126Z" fill="url(#black)" stroke="#22372a" stroke-width="2"/>
+ <path d="m282 394 48 21-62 105-17 1-7-13Z" fill="#5c7360"/><path d="m294 412 15 4-52 91-8 2Z" fill="#b3c1af"/>
+ <ellipse cx="278" cy="401" rx="24" ry="27" transform="rotate(22 278 401)" fill="#1f3527"/>
+ <ellipse cx="276" cy="400" rx="15" ry="19" transform="rotate(22 276 400)" fill="#728a72" stroke="#a3b39d" stroke-width="3"/>
+ <path d="m244 505 25 3 4 18-13 9-25-5Z" fill="#24372a"/>
+ <path d="m566 216 40 9 35 146-29 17-57-132Z" fill="url(#black)" stroke="#22372a" stroke-width="2"/>
+ <path d="m616 371 28 4-25 130-20 3-13-14Z" fill="#6c806b"/><path d="m621 393 13-2-25 107-10 1Z" fill="#b6c2ae"/>
+ <ellipse cx="623" cy="376" rx="23" ry="25" fill="#23382a"/><ellipse cx="624" cy="375" rx="14" ry="17" fill="#8a9a80" stroke="#aab79e" stroke-width="3"/>
+ <path d="m587 495 31 6 3 18-17 10-29-9Z" fill="#24372a"/>
+</g>
+<!-- Extruded aluminium chassis. -->
+<path d="m297 219 260-62 141 75-263 74Z" fill="url(#top)" stroke="#839686" stroke-width="1.5"/>
+<path d="m297 219 138 87v75l-138-87Z" fill="#8b9f90" stroke="#617b69" stroke-width="1.5"/>
+<path d="m435 306 263-74v77l-263 72Z" fill="url(#side)" stroke="#526c5b" stroke-width="1.5"/>
+<path d="m435 306 263-74v77l-25 7v-61l-238 68Z" fill="url(#face)"/>
+<path d="m312 219 246-56 122 66-246 67Z" stroke="#f8faf3" stroke-opacity=".9" stroke-width="2"/>
+<path d="m313 237 106 66v54l-106-66Z" fill="#344e3d" stroke="#b5c7b5"/>
+<path d="m323 246 86 54v39l-86-54Z" fill="#172e21"/>
+<g stroke="#6d8771" stroke-width="3"><path d="m333 262 65 40m-65-29 65 40m-65-29 65 40"/></g>
+<!-- Top inset, safety switch and a distinct articulated spine. -->
+<path d="m365 219 185-45 78 42-183 49Z" fill="#9bad9d" stroke="#536f5a"/>
+<path d="m374 218 174-40 64 35-169 45Z" fill="#c0cdc0" stroke="#e8eee3"/>
+<path d="m396 211 117-28 28 15-116 29Z" fill="#314a38"/>
+<path d="m405 211 107-24 16 9-104 25Z" fill="#506b52"/>
+<path d="m475 238 67-17 35 18-69 19Z" fill="#e3e9de" stroke="#7f9580"/>
+<ellipse cx="530" cy="232" rx="16" ry="8" fill="#613e28"/>
+<path d="M514 223v9c0 10 32 10 32 0v-9Z" fill="#9f4227"/>
+<ellipse cx="530" cy="222" rx="16" ry="8" fill="#d66a43" stroke="#ec916a"/>
+<ellipse cx="530" cy="220" rx="10" ry="4" fill="#e5875d"/>
+<path d="m563 187 59 31m-49-34 61 31" stroke="#728c76" stroke-width="3"/>
+<!-- Accessible side panel and subtle hardware screws. -->
+<path d="m463 315 137-38 52 28-154 43Z" fill="#99ac99" stroke="#526b58"/>
+<path d="m463 315 35 33v14l-35-27Z" fill="#6c866f"/>
+<path d="m498 348 154-43v15l-154 42Z" fill="#506a57"/>
+<path d="m479 317 118-32 34 18-132 36Z" fill="#b2c0ac"/>
+<g fill="#435e4a" stroke="#c9d5c3" stroke-width="1.2"><ellipse cx="330" cy="219" rx="4" ry="2.2"/><ellipse cx="553" cy="169" rx="4" ry="2.2"/><ellipse cx="674" cy="232" rx="4" ry="2.2"/><ellipse cx="434" cy="292" rx="4" ry="2.2"/><ellipse cx="475" cy="326" rx="2.4" ry="3.1"/><ellipse cx="638" cy="314" rx="2.4" ry="3.1"/></g>
+<!-- Near rear hip and two-piece leg. -->
+<path d="m367 306-5 47-45 76 32 20 48-90 3-36Z" fill="url(#leg)" stroke="#667e69" stroke-width="2"/>
+<path d="m369 325 15 9-9 33-40 63-10-6 39-69Z" fill="#dde5d6"/>
+<path d="m342 438 21 4 13 111-22 9-17-18Z" fill="url(#leg)" stroke="#506d56" stroke-width="2"/>
+<path d="m348 456 7 0 8 88-8 1Z" fill="#f2f5ea"/>
+<path d="m351 543 24 4 13 25-12 13-35-12-6-18Z" fill="url(#black)"/>
+<ellipse cx="345" cy="440" rx="26" ry="29" transform="rotate(-20 345 440)" fill="#233b2b" stroke="#6c886e" stroke-width="2"/>
+<ellipse cx="339" cy="439" rx="18" ry="23" transform="rotate(-20 339 439)" fill="#b4c3ad" stroke="#49644e" stroke-width="3"/>
+<ellipse cx="337" cy="438" rx="10" ry="15" transform="rotate(-20 337 438)" fill="#5d7a60" stroke="#dae3d2" stroke-width="1.5"/>
+<path d="m354 296 26-9 25 16-4 34-26 10-25-17Z" fill="#253f2e"/>
+<ellipse cx="373" cy="319" rx="25" ry="30" transform="rotate(-24 373 319)" fill="#4b6852" stroke="#acbfa6" stroke-width="2"/>
+<ellipse cx="369" cy="318" rx="17" ry="23" transform="rotate(-24 369 318)" fill="#b7c6ae" stroke="#284530" stroke-width="3"/>
+<ellipse cx="368" cy="318" rx="7" ry="11" transform="rotate(-24 368 318)" fill="#3e5c45"/>
+<!-- Near front hip, femur, knee and spring-steel lower link. -->
+<path d="m614 318 33 5 39 121-29 19-61-113Z" fill="url(#leg)" stroke="#486850" stroke-width="2"/>
+<path d="m625 343 13-5 33 102-11 8Z" fill="#ecf1e4"/>
+<path d="m656 454 26-1-50 132-25 1-8-20Z" fill="url(#leg)" stroke="#4c6d53" stroke-width="2"/>
+<path d="m662 477 10-3-45 99-11 2Z" fill="#e5eddd"/>
+<path d="m604 571 25 2 8 20-15 15-34-10 1-16Z" fill="url(#black)"/>
+<ellipse cx="671" cy="448" rx="27" ry="29" fill="#243d2b" stroke="#75916f" stroke-width="2"/>
+<ellipse cx="676" cy="447" rx="18" ry="22" fill="#9db194" stroke="#c2d0b6" stroke-width="2"/>
+<ellipse cx="677" cy="447" rx="10" ry="14" fill="#4a6b4d" stroke="#d2ddc5" stroke-width="1.5"/>
+<path d="m607 307 35-12 27 18v33l-33 13-29-19Z" fill="#273f2e"/>
+<ellipse cx="642" cy="331" rx="30" ry="31" fill="#3c5a40" stroke="#92aa88" stroke-width="2"/>
+<ellipse cx="650" cy="331" rx="23" ry="26" fill="#a8bd9c" stroke="#d1ddc4" stroke-width="2"/>
+<ellipse cx="652" cy="332" rx="13" ry="17" fill="#4a6b4d" stroke="#d6e2c9" stroke-width="2"/>
+<ellipse cx="654" cy="332" rx="5" ry="8" fill="#203e26"/>
+<!-- Cable routing is deliberately visible rather than decorative linework. -->
+<path d="M392 335c24 17 16 41-12 63m261-42c-24 13-18 41 9 63" stroke="#183523" stroke-width="5" stroke-linecap="round"/>
+<path d="M392 335c24 17 16 41-12 63m261-42c-24 13-18 41 9 63" stroke="#6c8569" stroke-width="1.5" stroke-linecap="round"/>
+<g fill="#dae4d0"><circle cx="647" cy="311" r="2"/><circle cx="662" cy="323" r="2"/><circle cx="657" cy="348" r="2"/><circle cx="635" cy="344" r="2"/><circle cx="668" cy="433" r="1.8"/><circle cx="687" cy="448" r="1.8"/><circle cx="670" cy="461" r="1.8"/></g>
+</svg>

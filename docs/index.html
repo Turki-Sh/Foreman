@@ -27,7 +27,6 @@
 <meta name="twitter:title" content="Foreman by Turki Alshuaibi · Build playbook for coding agents">
 <meta name="twitter:description" content="Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.">
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/home.png">
-<link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
 <link rel="stylesheet" href="/opening.css?v=3.0.1">
 <noscript><style>
@@ -174,15 +173,17 @@
     </div>
   </div>
   <div class="opening-product">
-    <div class="agent-marks" aria-label="Works with Claude Code and Codex">
+    <div class="agent-marks" aria-label="Works with Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot">
       <a href="/install/#claude-code"><img src="/marks/claudecode.svg" width="32" height="32" alt="">Claude Code</a>
       <a href="/install/#other-agents"><img src="/marks/codex.svg" width="32" height="32" alt="">Codex</a>
+   <a href="/install/#other-agents"><img src="/marks/cursor.svg" width="32" height="32" alt="">Cursor</a>
+   <a href="/install/#other-agents"><img src="/marks/gemini.svg" width="32" height="32" alt="">Gemini CLI</a>
+   <a href="/install/#other-agents"><img src="/marks/githubcopilot.svg" width="32" height="32" alt="">GitHub Copilot</a>
     </div>
-    <figure class="session-replay" id="session-replay" aria-label="Recorded Claude Code session using Foreman">
+    <figure class="session-replay" id="session-replay" tabindex="0" aria-keyshortcuts="Space" aria-label="Recorded Claude Code session using Foreman. Focus or hover to pause; press Space to pause or resume.">
   <div class="replay-chrome">
     <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
     <span class="replay-title">Claude Code <span>/</span> dana-portfolio</span>
-    <button class="replay-toggle" type="button" hidden aria-label="Pause recorded session">Pause <span aria-hidden="true">Ⅱ</span></button>
   </div>
   <div class="replay-screen">
     <div class="replay-welcome"><img src="/marks/claudecode.svg" width="42" height="42" alt=""><div><strong>Claude Code</strong><span>Foreman 3.0.1 · A portfolio, from brief to build</span></div></div>
@@ -214,22 +215,9 @@ legged robotics.
 Action: button, label "Email dana.haddad@example.org",
 destination `mailto:dana.haddad@example.org`.</pre>
       </div>
-      <div data-replay-frame hidden>
-        <div class="replay-result"><div><p class="terminal-file">index.html</p><h2>The brief,<br>built.</h2><p>The page produced by this recorded session, shown unedited.</p><a href="#changes">Compare the two runs <span aria-hidden="true">↗</span></a></div><img src="/samples/dana-foreman.jpg" width="1280" height="800" alt="Dana's completed research portfolio, with notebook paper, the retraining headline and one email button." loading="lazy"></div>
-      </div>
     </div>
     <div class="terminal-input" aria-hidden="true"><span>❯</span><span class="terminal-cursor"></span></div>
   </div>
-  <div class="replay-bottom">
-    <span class="replay-caption">Recorded session · 27 Oct 2026</span>
-    <div class="replay-steps" aria-label="Session playback" hidden>
-      <button type="button" data-replay-step="0" aria-pressed="true">Orient</button>
-      <button type="button" data-replay-step="1" aria-pressed="false">Decide</button>
-      <button type="button" data-replay-step="2" aria-pressed="false">Brief</button>
-      <button type="button" data-replay-step="3" aria-pressed="false">Build</button>
-    </div>
-  </div>
-  <figcaption class="replay-provenance">Excerpts from a real Foreman run. Dana is a test persona.</figcaption>
 </figure>
 
   </div>
@@ -325,36 +313,22 @@ What would make that lead close your page within ten seconds?</div>
 <section id="changes" class="paper2">
   <div class="wrap">
     <div class="head">
-      <h2>Same agent, same model, different session.</h2>
-      <p>One brief, run twice in Claude Code: once without Foreman, once with it. These are the pages each session built, unedited, with what each did measured rather than judged.</p>
+      <h2>A starting point. A considered result.</h2>
+      <p>A portfolio built from the same project notes. First as a quick draft, then with a visual direction, selected references, and a locked brief.</p>
     </div>
     <div class="pair">
-      <figure>
-        <p class="label"><span class="tag no">Without Foreman</span> 2 turns, about 1 minute, $0.17 reported</p>
-        <div class="window browser"><p class="chrome"><span class="url">index.html</span></p><img src="/samples/dana-baseline.jpg" width="1280" height="800" alt="The page the same agent built without Foreman: an off-white page with a four-link menu, an uppercase label, the headline &quot;Making legged robots transfer from simulation to hardware, with less retraining.&quot;, a paragraph, a green Get in touch button and a Download CV button marked PDF to come." loading="lazy"></div>
-        <ul class="notes no"><li>A headline about the field, which any sim-to-real student could put on their page</li><li>An uppercase label above the headline</li><li>The main button, Get in touch, scrolls to the footer instead of emailing</li><li>A Download CV button for a PDF that does not exist yet</li><li>System fonts, 4 of 11 head tags, no 404 page</li></ul>
-      </figure>
-      <figure>
-        <p class="label"><span class="tag ok">With Foreman</span> 12 turns, about 9 minutes, $5.54 reported</p>
-        <div class="window browser"><p class="chrome"><span class="url">index.html</span></p><img src="/samples/dana-foreman.jpg" width="1280" height="800" alt="The page Foreman&#x27;s session built for Dana: pale grey-green quad-ruled notebook paper with a margin column, her name, the headline &quot;Retraining after each hardware change took most of a day. Now it takes about 40 percent of that.&quot;, one line about her, and one dark blue button that emails her." loading="lazy"></div>
-        <ul class="notes ok"><li>The headline is her own line, quoted from her project notes</li><li>The notebook paper she picked from three variants</li><li>One button, and it emails her</li><li>Missing screenshots and papers left as marked placeholders, not filled in</li><li>Source Serif 4, 8 of 11 head tags, a real 404 page</li></ul>
-      </figure>
-    </div>
-    <p class="source">Same opening message and fact sheet, Claude Sonnet as the agent both times, one run each on 27 October 2026 on the author&#x27;s machine, so his own agent settings were loaded on both sides. Head tags, fonts and the 404 were measured by the bench&#x27;s checker, and Foreman&#x27;s own punch list flagged its lowercase margin labels as a possible tell. One run each is an example, not a benchmark.</p>
+  <figure>
+    <p class="label"><span class="tag no">Initial draft</span></p>
+    <div class="window browser"><p class="chrome"><span class="url">index.html</span></p><img src="/samples/dana-baseline.jpg" width="1280" height="800" alt="Initial Dana portfolio draft with a generic robotics headline, a green Get in touch button and an unavailable CV download." loading="lazy"></div>
+    <ul class="notes no"><li>A headline about the field, rather than her project</li><li>No chosen visual references</li><li>A CV download for a file that does not exist</li></ul>
+  </figure>
+  <figure>
+    <p class="label"><span class="tag ok">Reference-guided with Foreman</span></p>
+    <a class="window browser sample-link" href="/samples/dana-reference/" aria-label="Open the reference-guided Dana portfolio"><span class="chrome"><span class="url">dana / portfolio</span><span>Open build ↗</span></span><img src="/samples/dana-reference.jpg" width="1280" height="800" alt="Dana's new reference-guided portfolio with clear glass navigation, her retraining result as the headline, an aluminium quadruped illustration, and a working email action." loading="lazy"></a>
+    <ul class="notes ok"><li>Clear glass navigation and an editorial layout, drawn from selected references</li><li>Her project notes lead the page</li><li>An editable robotics illustration and a direct email action</li></ul>
+  </figure>
+</div>
 
-    <div class="scroller" tabindex="0">
-      <table tabindex="0">
-        <thead><tr><th scope="col"><span class="visually-hidden">Stage</span></th><th scope="col">Without Foreman</th><th scope="col">With Foreman</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">First move</th><td class="was">Generates a page</td><td>Asks what the site is for and who reads it</td></tr>
-          <tr><th scope="row">Copy</th><td class="was">Written by the model</td><td>Extracted from you, with numbers</td></tr>
-          <tr><th scope="row">Design</th><td class="was">Whatever the model defaults to</td><td>Locked tokens you chose from three variants</td></tr>
-          <tr><th scope="row">Scope</th><td class="was">Everything it can think of</td><td>Explicit non-goals, written before the build</td></tr>
-          <tr><th scope="row">Done</th><td class="was">It renders on your laptop</td><td>375px, keyboard, Lighthouse, a private window, a real 404</td></tr>
-          <tr><th scope="row">Live</th><td class="was">"Deployed"</td><td>DNS, SSL, sitemap, Open Graph, submitted and indexed</td></tr>
-        </tbody>
-      </table>
-    </div>
   </div>
 </section>
 
@@ -403,7 +377,7 @@ What would make that lead close your page within ten seconds?</div>
 |                                                              |
 +--------------------------------------------------------------+
 |   What are you building, and what do you already have?       |
-+--------------------------------------------------------------+</pre></figure><p class="cap">The card a session opens with, sent after it had read the two files in Dana&#x27;s folder. From the same run as the page above.</p></div>
++--------------------------------------------------------------+</pre></figure><p class="cap">The card a session opens with, sent after it had read the two files in Dana&#x27;s folder. From an earlier recorded portfolio session.</p></div>
         <div role="tabpanel" id="v-2" aria-labelledby="step-2" tabindex="0" hidden><figure class="window term "><figcaption class="chrome">foreman  2/8 decisions</figcaption><pre tabindex="0">FOREMAN · 2/8 · DECISIONS
 
 ✓ LOCKED · register: academic
