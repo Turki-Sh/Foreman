@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "before-the-code",
+    "duration": 25.116667,
+    "voiceSpeed": 1.06,
+    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
+    "peakBeforeMaster": 0.350341796875
+  },
+  {
+    "slug": "find-your-direction",
+    "duration": 26.55,
+    "voiceSpeed": 1.06,
+    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
+    "peakBeforeMaster": 0.4747314453125
+  },
+  {
+    "slug": "fix-what-feels-wrong",
+    "duration": 25.783333,
+    "voiceSpeed": 1.06,
+    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
+    "peakBeforeMaster": 0.378997802734375
+  },
+  {
+    "slug": "colour-that-works",
+    "duration": 26.15,
+    "voiceSpeed": 1.06,
+    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
+    "peakBeforeMaster": 0.4296875
+  },
+  {
+    "slug": "before-you-share",
+    "duration": 24.666667,
+    "voiceSpeed": 1.06,
+    "sound": "dry aperiodic stereo click/tap pulse, no melody or bass impacts",
+    "peakBeforeMaster": 0.358367919921875
+  }
+]

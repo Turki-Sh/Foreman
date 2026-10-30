@@ -64,3 +64,13 @@ The Sarjy English film was inspected again using the locally retained published 
 The voice is not accelerated. Per-line pauses are shortened using the original clean voice segments. All added effects are removed. There is no music, beat track or transition impact. Each of the 33 language subtitle tracks is retimed to the new cue starts. Revision 6 uses cinema-timings.json and public/cinema/audio, rather than the previous mixed soundtrack.
 
 The old /rebuild/ review address redirects to the current review after packaging, to avoid presenting an obsolete cut as the latest work. This is a private review revision, not a change to the live site or product version.
+
+## Revision 7: narration, material matching and interface checks
+
+Turki requested a slight speed increase, a catchy nonmusical background rhythm, a corrected Board highlight, replacement of the dated extruded blocks, and colour visuals that match the spoken material examples.
+
+The existing free English voice is processed, not replaced: 1.06 tempo, 90 Hz high-pass, a small 280 Hz cut, restrained presence lift, compression and a -16 LUFS master target. The added rhythm is original aperiodic noise shaped into short stereo clicks and taps at 116 pulses per minute, with omitted subdivisions and no melody, bass oscillator, long decay or scene-boundary impact. No paid voice service was used. The revision 6 voice-gap audit is historical; silence between lines is no longer the intended soundtrack.
+
+Board's highlight is a child of the screenshot container, so its position and scale follow the page. The 18-second area no longer enlarges on exit or introduces the thick paper slab. It becomes a reference and direction sheet. Board's gallery and Launch's status checks use image and interface layers instead of extruded blocks.
+
+Palette now shows the named ink, paper and polished metal materials. Its interface demonstrates surface, text, action and feedback roles, and the same interface actually switches from light to dark. All 33 subtitle languages are retimed using the processed speech durations. This is a private review cut; creative acceptance remains with Turki.

@@ -15,7 +15,6 @@ import data from "./cinema-timings.json";
 
 const ink = "#070709",
   blue = "#075bff",
-  ice = "#e7f5ff",
   copper = "#ff5733";
 const abs: React.CSSProperties = { position: "absolute" };
 const curve = Easing.bezier(0.16, 1, 0.3, 1);
@@ -522,11 +521,316 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   );
 };
 
+const ReferenceGallery: React.FC<{ t: number }> = ({ t }) => (
+  <div
+    style={{
+      ...abs,
+      left: 130,
+      right: 130,
+      top: 350,
+      display: "flex",
+      gap: 28,
+    }}
+  >
+    {["reference", "home", "palette-art"].map((name, i) => (
+      <div
+        key={name}
+        style={{
+          flex: 1,
+          opacity: move(t, i * 0.09, 0.3 + i * 0.09),
+          transform: `translateY(${move(t, i * 0.09, 0.5 + i * 0.09, 90, 0)}px)`,
+          borderRadius: 22,
+          overflow: "hidden",
+          background: "#fff",
+          boxShadow: "0 28px 60px #0002",
+          border: "1px solid #dde1e8",
+        }}
+      >
+        <Img
+          src={staticFile("cinema/" + name + ".png")}
+          style={{
+            width: "100%",
+            height: 330,
+            objectFit: "cover",
+            objectPosition: "top",
+          }}
+        />
+        <div style={{ padding: 28, fontSize: 32, color: ink }}>
+          {["Composition", "Hierarchy", "Colour"][i]}
+          <span style={{ float: "right", color: blue }}>↗</span>
+        </div>
+      </div>
+    ))}
+  </div>
+);
+const DirectionSheet: React.FC<{ t: number }> = ({ t }) => (
+  <div
+    style={{
+      ...abs,
+      left: 150,
+      right: 150,
+      top: 340,
+      bottom: 140,
+      display: "grid",
+      gridTemplateColumns: "1fr 1.2fr",
+      gap: 60,
+    }}
+  >
+    <div
+      style={{
+        borderRadius: 22,
+        overflow: "hidden",
+        boxShadow: "0 25px 60px #0002",
+        transform: `translateY(${move(t, 0, 0.4, 80, 0)}px)`,
+      }}
+    >
+      <Img src={staticFile("cinema/home.png")} style={{ width: "100%" }} />
+    </div>
+    <div style={{ padding: "10px 0" }}>
+      {[
+        "Lead with the work",
+        "Give the headline room",
+        "One clear next step",
+      ].map((v, i) => (
+        <div
+          key={v}
+          style={{
+            padding: "32px 0",
+            borderBottom: "1px solid #cbd2dd",
+            fontSize: 43,
+            opacity: move(t, i * 0.18, 0.3 + i * 0.18),
+            transform: `translateX(${move(t, i * 0.18, 0.5 + i * 0.18, 65, 0)}px)`,
+          }}
+        >
+          <span style={{ color: blue, marginRight: 24 }}>✓</span>
+          {v}
+        </div>
+      ))}
+    </div>
+  </div>
+);
+const LaunchChecks: React.FC<{ t: number; dark?: boolean }> = ({ t, dark }) => (
+  <div
+    style={{
+      ...abs,
+      left: 170,
+      right: 170,
+      top: 330,
+      bottom: 140,
+      display: "grid",
+      gridTemplateColumns: "1.2fr 1fr",
+      gap: 60,
+      color: dark ? "white" : ink,
+    }}
+  >
+    <div
+      style={{
+        background: dark ? "#111" : "white",
+        border: "1px solid " + (dark ? "#333" : "#dce1e9"),
+        borderRadius: 24,
+        overflow: "hidden",
+        boxShadow: "0 30px 65px #0002",
+      }}
+    >
+      <div
+        style={{
+          padding: 25,
+          fontSize: 26,
+          borderBottom: "1px solid #a0a0a030",
+        }}
+      >
+        ◉ &nbsp; foreman.turkialshuaibi.com
+      </div>
+      <Img
+        src={staticFile("cinema/share.png")}
+        style={{ width: "100%", height: 325, objectFit: "cover" }}
+      />
+      <div style={{ padding: 24, fontSize: 31 }}>
+        Every good build starts as a drawing.
+      </div>
+    </div>
+    <div>
+      {[
+        "Domain connected",
+        "HTTPS secured",
+        "Share preview checked",
+        "404 has a way back",
+        "Search Console needs you",
+      ].map((v, i) => (
+        <div
+          key={v}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: 22,
+            padding: "25px 0",
+            fontSize: 34,
+            borderBottom: "1px solid #a0a0a030",
+            opacity: move(t, i * 0.15, 0.35 + i * 0.15),
+            transform: `translateX(${move(t, i * 0.15, 0.5 + i * 0.15, 65, 0)}px)`,
+          }}
+        >
+          <span
+            style={{ color: i === 4 ? "#ff793e" : "#168c61", fontSize: 31 }}
+          >
+            {i === 4 ? "○" : "✓"}
+          </span>
+          {v}
+        </div>
+      ))}
+    </div>
+  </div>
+);
+const MaterialStudy: React.FC<{ t: number }> = ({ t }) => (
+  <div
+    style={{
+      ...abs,
+      left: 140,
+      right: 140,
+      top: 350,
+      display: "flex",
+      gap: 36,
+    }}
+  >
+    {["Ink", "Paper", "Polished metal"].map((v, i) => (
+      <div
+        key={v}
+        style={{
+          flex: 1,
+          opacity: move(t, i * 0.4, 0.25 + i * 0.4),
+          transform: `translateY(${move(t, i * 0.4, 0.5 + i * 0.4, 70, 0)}px)`,
+        }}
+      >
+        <div
+          style={{
+            height: 380,
+            borderRadius: i === 1 ? 4 : 28,
+            background:
+              i === 0
+                ? "radial-gradient(ellipse at 28% 20%,#65768b 0%,#18202c 15%,#010205 55%)"
+                : i === 1
+                  ? "repeating-linear-gradient(0deg,#fff 0px,#fff 3px,#f1f2f3 4px)"
+                  : `linear-gradient(${110 + t * 8}deg,#353a44,#fafcff 28%,#9ca7b7 39%,#fff 49%,#505a69 64%,#dfe7f1 83%,#687487)`,
+            boxShadow:
+              i === 1
+                ? "2px 3px 0 #e1e3e7,5px 7px 0 white,7px 9px 0 #d6dae1,0 30px 45px #0002"
+                : "0 30px 45px #0002",
+            border: "1px solid #c4cbd3",
+          }}
+        />
+        <div style={{ fontSize: 40, marginTop: 32 }}>{v}</div>
+      </div>
+    ))}
+  </div>
+);
+const PaletteInterface: React.FC<{ t: number; theme?: boolean }> = ({
+  t,
+  theme,
+}) => {
+  const dark = theme && t > 1.15;
+  const selected = Math.min(3, Math.floor(Math.max(0, t - 0.15) / 0.52));
+  return (
+    <div
+      style={{
+        ...abs,
+        left: 150,
+        right: 150,
+        top: 330,
+        bottom: 140,
+        borderRadius: 26,
+        background: dark ? "#111318" : "#f7f9fd",
+        color: dark ? "#fff" : ink,
+        boxShadow: "0 35px 80px #0003",
+        border: "1px solid " + (dark ? "#343943" : "#d6deea"),
+        padding: 65,
+        display: "grid",
+        gridTemplateColumns: "1fr 1fr",
+        gap: 80,
+      }}
+    >
+      <div>
+        <div style={{ fontSize: 29, color: dark ? "#aab7cc" : "#56667d" }}>
+          Your next project
+        </div>
+        <div style={{ fontSize: 75, letterSpacing: "-.05em", marginTop: 26 }}>
+          Make it yours.
+        </div>
+        <div
+          style={{
+            fontSize: 31,
+            marginTop: 25,
+            color: dark ? "#c2ccda" : "#52627a",
+          }}
+        >
+          A clear idea. A considered direction.
+        </div>
+        <div
+          style={{
+            display: "inline-block",
+            marginTop: 50,
+            padding: "24px 40px",
+            borderRadius: 60,
+            background: blue,
+            color: "white",
+            fontSize: 33,
+            boxShadow: "0 12px 30px #075bff40",
+          }}
+        >
+          Start building ↗
+        </div>
+      </div>
+      <div>
+        {["Surface", "Text", "Action", "Feedback"].map((v, i) => (
+          <div
+            key={v}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 26,
+              padding: "22px 20px",
+              fontSize: 34,
+              borderRadius: 12,
+              background:
+                !theme && selected === i
+                  ? dark
+                    ? "#ffffff12"
+                    : "#e5ecf7"
+                  : "transparent",
+              transform: `translateX(${move(t, i * 0.12, 0.4 + i * 0.12, 35, 0)}px)`,
+            }}
+          >
+            <span
+              style={{
+                width: 42,
+                height: 42,
+                borderRadius: 12,
+                background: [
+                  dark ? "#111318" : "#f7f9fd",
+                  dark ? "#fff" : ink,
+                  blue,
+                  "#168c61",
+                ][i],
+                border: "1px solid #a0a0a040",
+              }}
+            />
+            {v}
+            {i === 3 && (
+              <span style={{ marginLeft: "auto", color: "#168c61" }}>
+                Saved ✓
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
 const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   if (shot === 0)
     return (
       <BG>
-        <CinemaStage kind="gallery" time={t} />
+        <ReferenceGallery t={t} />
         <Title
           text="What caught your eye?"
           t={t}
@@ -624,41 +928,44 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
         <div
           style={{
             ...abs,
-            left: move(t, 0, 3, 420, 160),
-            top: 170,
-            width: 1400,
-            transform: `perspective(1600px) rotateY(${move(t, 0, 2, -18, 0)}deg) scale(${move(t, 0, 3, 0.8, 1.16)})`,
-            boxShadow: "0 60px 90px #18395845",
+            left: 240,
+            top: 130,
+            width: 1440,
+            transform: `scale(${move(t, 0, 0.65, 0.94, 1)})`,
+            transformOrigin: "50% 20%",
+            boxShadow: "0 35px 80px #0002",
+            borderRadius: 20,
+            overflow: "hidden",
           }}
         >
           <Img
             src={staticFile("cinema/home.png")}
-            style={{ width: "100%", borderRadius: 20 }}
+            style={{ width: "100%", display: "block" }}
+          />
+          <div
+            style={{
+              ...abs,
+              left: 410,
+              top: 125,
+              width: 620,
+              height: 185,
+              border: "3px solid " + blue,
+              borderRadius: 12,
+              opacity: move(t, 0.3, 0.55),
+            }}
           />
         </div>
         <Glass
           style={{
             ...abs,
-            left: 1050,
-            top: 110,
-            padding: "24px 35px",
-            fontSize: 45,
+            right: 130,
+            top: 48,
+            padding: "22px 32px",
+            fontSize: 37,
           }}
         >
           One dominant headline
         </Glass>
-        <div
-          style={{
-            ...abs,
-            left: 340,
-            top: 300,
-            width: 1150,
-            height: 270,
-            border: "4px solid " + blue,
-            borderRadius: 20,
-            opacity: move(t, 0.5, 1),
-          }}
-        />
       </BG>
     );
   if (shot === 4)
@@ -714,7 +1021,7 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   if (shot === 5)
     return (
       <BG>
-        <CinemaStage kind="brief" time={t} />
+        <DirectionSheet t={t} />
         <Title
           text="A direction you can use."
           t={t}
@@ -1024,104 +1331,38 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   if (shot === 1)
     return (
-      <BG warm>
-        <CinemaStage kind="pigment" time={t + 1.4} />
+      <BG>
         <Title
           text="Start with a material."
           t={t}
           size={140}
           style={{ ...abs, left: 120, top: 95 }}
         />
-        <div
-          style={{
-            ...abs,
-            left: 180,
-            right: 180,
-            bottom: 130,
-            display: "flex",
-            justifyContent: "space-between",
-            fontSize: 42,
-          }}
-        >
-          {["Ink", "Cobalt", "Ice", "Copper", "Jade"].map((s) => (
-            <span key={s}>{s}</span>
-          ))}
-        </div>
+        <MaterialStudy t={t} />
       </BG>
     );
   if (shot === 2)
     return (
       <BG>
-        <CinemaStage kind="pigment" time={t + 2} />
         <Title
-          text="Give each colour a job."
+          text="A working colour system."
           t={t}
           size={132}
           style={{ ...abs, left: 120, top: 95 }}
         />
-        <div
-          style={{
-            ...abs,
-            left: 200,
-            right: 200,
-            bottom: 120,
-            display: "flex",
-            justifyContent: "space-between",
-            fontSize: 42,
-          }}
-        >
-          {["Text", "Action", "Surface", "Attention", "Success"].map((s, i) => (
-            <Glass
-              key={s}
-              style={{
-                padding: "20px 30px",
-                opacity: move(t, i * 0.2, 0.5 + i * 0.2),
-              }}
-            >
-              {s}
-            </Glass>
-          ))}
-        </div>
+        <PaletteInterface t={t} />
       </BG>
     );
   if (shot === 3)
     return (
-      <BG dark>
+      <BG>
         <Title
-          text="Make the action obvious."
+          text="Give every colour a job."
           t={t}
-          size={145}
-          style={{ ...abs, left: 120, top: 100, width: 1450 }}
+          size={132}
+          style={{ ...abs, left: 120, top: 95 }}
         />
-        <Glass
-          style={{
-            ...abs,
-            left: 180,
-            top: 430,
-            width: 1560,
-            height: 390,
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: 80,
-          }}
-        >
-          <span style={{ fontSize: 52, color: "#71849e" }}>Read the brief</span>
-          <div
-            style={{
-              padding: "42px 75px",
-              borderRadius: 90,
-              background: blue,
-              color: "white",
-              fontSize: 60,
-              boxShadow: "0 20px 35px #075bff50,inset 0 2px 0 #ffffff50",
-              transform: `scale(${move(t, 0.4, 1.2, 0.85, 1)})`,
-            }}
-          >
-            Start building ↗
-          </div>
-        </Glass>
-        <Cursor x={move(t, 0.8, 2, 1600, 1250)} y={move(t, 0.8, 2, 950, 650)} />
+        <PaletteInterface t={t} />
       </BG>
     );
   if (shot === 4)
@@ -1164,33 +1405,13 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   if (shot === 5)
     return (
       <BG>
-        <CinemaStage
-          kind="phone"
-          screen="palette"
-          time={t}
-          pose={1}
-          progress={1}
-        />
         <Title
           text="Light. Into dark."
           t={t}
           size={140}
-          style={{ ...abs, left: 120, top: 240, width: 800 }}
+          style={{ ...abs, left: 120, top: 95 }}
         />
-        <div style={{ ...abs, left: 140, top: 750, display: "flex", gap: 20 }}>
-          {[ink, blue, ice, copper, "#dceee5"].map((c) => (
-            <div
-              key={c}
-              style={{
-                width: 85,
-                height: 85,
-                borderRadius: 25,
-                background: c,
-                boxShadow: "0 15px 25px #17325630,inset 0 2px 0 #ffffff66",
-              }}
-            />
-          ))}
-        </div>
+        <PaletteInterface t={t} theme />
       </BG>
     );
   return (
@@ -1248,10 +1469,10 @@ const Launch: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
           style={{
             ...abs,
             inset: 0,
-            transform: "translateY(110px) scale(.86)",
+            transform: "none",
           }}
         >
-          <CinemaStage kind="checks" time={t} />
+          <LaunchChecks t={t} />
         </div>
         <Title
           text="Check the whole journey."
@@ -1433,10 +1654,8 @@ const Launch: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   return (
     <BG dark>
-      <div
-        style={{ ...abs, inset: 0, transform: "translateY(110px) scale(.86)" }}
-      >
-        <CinemaStage kind="checks" time={t} />
+      <div style={{ ...abs, inset: 0, transform: "none" }}>
+        <LaunchChecks t={t} dark />
       </div>
       <Title
         text="Know what is ready."
@@ -1468,7 +1687,7 @@ const CinemaShot: React.FC<{
       <ShotFrame
         t={t}
         d={duration + (overlap ? 0.28 : 0)}
-        cut={shot === 1 || shot === 4 ? "lens" : shot === 2 ? "slide" : "none"}
+        cut={shot === 2 ? "slide" : "none"}
       >
         {shot === 7 ? (
           <Outro t={t} index={index} />
