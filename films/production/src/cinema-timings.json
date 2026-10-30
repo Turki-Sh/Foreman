@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "before-the-code",
+    "title": "An idea worth building",
+    "duration": 26.799999999999997,
+    "starts": [
+      0,
+      3.75,
+      6.816666666666666,
+      10.016666666666666,
+      13.683333333333332,
+      17.666666666666664,
+      20.48333333333333,
+      23.716666666666665
+    ],
+    "cues": [
+      "You have an idea. Your agent has a thousand defaults.",
+      "Before it builds another one, give it a direction.",
+      "Foreman starts with the person you are building for.",
+      "Find the references. Choose what belongs. Leave the rest.",
+      "Turn those decisions into a brief you can actually approve.",
+      "Then build. With the choices already made.",
+      "Check the details that turn a draft into a website.",
+      "Your idea. Built with intention. Meet Foreman."
+    ],
+    "durations": [
+      3.75,
+      3.066666666666667,
+      3.2,
+      3.6666666666666665,
+      3.9833333333333334,
+      2.816666666666667,
+      3.2333333333333334,
+      3.0833333333333335
+    ],
+    "speechDurations": [
+      3.392,
+      2.7093333333333334,
+      2.8373333333333335,
+      3.3066666666666666,
+      3.6266666666666665,
+      2.453333333333333,
+      2.88,
+      2.7306666666666666
+    ]
+  },
+  {
+    "slug": "find-your-direction",
+    "title": "Find your direction",
+    "duration": 28.383333333333336,
+    "starts": [
+      0,
+      3.4833333333333334,
+      6.4,
+      10.516666666666666,
+      14.166666666666666,
+      18.683333333333334,
+      21.983333333333334,
+      25.583333333333336
+    ],
+    "cues": [
+      "You know what you like. Until someone asks you why.",
+      "A hundred saved tabs will not answer that.",
+      "Give Foreman Board the brief. It looks for relevant references.",
+      "Look closer. The hierarchy. The spacing. The way it moves.",
+      "Keep the idea behind the design. Not somebody else's identity.",
+      "Bring those choices together into one direction.",
+      "Now your agent has something specific to build toward.",
+      "Less guessing. Start with Board."
+    ],
+    "durations": [
+      3.4833333333333334,
+      2.9166666666666665,
+      4.116666666666666,
+      3.65,
+      4.516666666666667,
+      3.3,
+      3.6,
+      2.8
+    ],
+    "speechDurations": [
+      3.132,
+      2.56,
+      3.7546666666666666,
+      3.29,
+      4.16,
+      2.944,
+      3.2426666666666666,
+      2.021333333333333
+    ]
+  },
+  {
+    "slug": "fix-what-feels-wrong",
+    "title": "Something feels wrong",
+    "duration": 27.483333333333334,
+    "starts": [
+      0,
+      3.0833333333333335,
+      6.2,
+      9.133333333333333,
+      13.366666666666667,
+      17.25,
+      21.666666666666668,
+      24.5
+    ],
+    "cues": [
+      "It works. So why does it still feel unfinished?",
+      "The answer is usually hiding in plain sight.",
+      "Ask Foreman Punch list to inspect the page.",
+      "A headline that says nothing. Three buttons competing for attention.",
+      "Text you can barely read. A layout that breaks on mobile.",
+      "Turn vague feedback into specific changes, in priority order.",
+      "Make the changes. Check the page again.",
+      "Keep what works. Fix what gets in the way."
+    ],
+    "durations": [
+      3.0833333333333335,
+      3.1166666666666667,
+      2.933333333333333,
+      4.233333333333333,
+      3.8833333333333333,
+      4.416666666666667,
+      2.8333333333333335,
+      2.9833333333333334
+    ],
+    "speechDurations": [
+      2.7306666666666666,
+      2.752,
+      2.5813333333333333,
+      3.8826666666666667,
+      3.5286666666666666,
+      4.053333333333334,
+      2.474666666666667,
+      2.624
+    ]
+  },
+  {
+    "slug": "colour-that-works",
+    "title": "Colour with a job to do",
+    "duration": 27.96666666666667,
+    "starts": [
+      0,
+      3.566666666666667,
+      7.066666666666666,
+      11.066666666666666,
+      14.966666666666667,
+      18.433333333333334,
+      21.55,
+      25.166666666666668
+    ],
+    "cues": [
+      "A colour can look beautiful. And still fail on screen.",
+      "Start with a material. Ink, paper, polished metal.",
+      "Foreman Palette turns that reference into a working colour system.",
+      "Give every colour a job. Surface, text, action, feedback.",
+      "Check the contrast where people actually have to read.",
+      "Carry the same character from light into dark.",
+      "Save the tokens. Use them across the whole interface.",
+      "A palette you can build with."
+    ],
+    "durations": [
+      3.566666666666667,
+      3.5,
+      4.0,
+      3.9,
+      3.466666666666667,
+      3.1166666666666667,
+      3.6166666666666667,
+      2.8
+    ],
+    "speechDurations": [
+      3.2,
+      3.136,
+      3.648,
+      3.53725,
+      3.1146666666666665,
+      2.752,
+      3.264,
+      1.7066666666666668
+    ]
+  },
+  {
+    "slug": "before-you-share",
+    "title": "Before the first click",
+    "duration": 26.400000000000002,
+    "starts": [
+      0,
+      3.0166666666666666,
+      6.283333333333333,
+      10.116666666666667,
+      13.316666666666666,
+      16.116666666666667,
+      20.166666666666668,
+      23.583333333333336
+    ],
+    "cues": [
+      "The website is finished. The launch is not.",
+      "Before the first click, check what people will find.",
+      "Foreman Launch walks through the domain and secure connection.",
+      "The preview that appears when someone shares your link.",
+      "The way back when a page goes missing.",
+      "The titles and sitemap that help search engines understand it.",
+      "Check what is ready. Keep track of what still needs you.",
+      "Then share it. With the details in place."
+    ],
+    "durations": [
+      3.0166666666666666,
+      3.2666666666666666,
+      3.8333333333333335,
+      3.2,
+      2.8,
+      4.05,
+      3.4166666666666665,
+      2.816666666666667
+    ],
+    "speechDurations": [
+      2.6666666666666665,
+      2.9013333333333335,
+      3.477333333333333,
+      2.8373333333333335,
+      2.1546666666666665,
+      3.6906666666666665,
+      3.050666666666667,
+      2.453333333333333
+    ]
+  }
+]

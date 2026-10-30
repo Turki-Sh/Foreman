@@ -52,3 +52,15 @@ Before publishing, review every moving film, caption timing, clipping, screen or
 All five exports decoded without errors. Each has 1080p60 H.264 video, AAC audio, limited-range BT.709 colour tags, embedded device attribution, and 33 VTT plus 33 SRT caption files. Caption timing was checked against each export. ESLint, TypeScript and the repository validator pass. The private review page was checked at phone width. Consecutive frames around the overlap transitions were inspected after correcting an empty-frame defect. See media-audit.json for the exported media facts.
 
 This records technical verification, not approval of the creative direction.
+
+## Revision 6: upright devices and a tighter edit
+
+Turki rejected decorative device tilt, cream backgrounds, muted colour, slow settling and transition thumps. The revised visual system uses white and black grounds with concentrated cobalt, cyan and violet light. The phone has no decorative rotation or floating bob. Reference panels move to establish selection rather than drifting continuously.
+
+Choose first now depicts an audience choice. The engineering audience is carried into the brief and the resulting portfolio demonstration. Current distinct share artwork replaces the older repeated architecture cards in the reference scene. Image planes preserve their source aspect ratio.
+
+The Sarjy English film was inspected again using the locally retained published MP4, sampled across its 68-second duration, with a denser sequence around the remembered-preference payoff and browser playback. Its useful mechanism is continuity: an earlier input becomes a later benefit. Upright devices keep attention on that interaction. Source: https://github.com/Turki-Sh/Sarjy/blob/main/src/shared/films.ts . No Sarjy footage, artwork or sound is included in Foreman.
+
+The voice is not accelerated. Per-line pauses are shortened using the original clean voice segments. All added effects are removed. There is no music, beat track or transition impact. Each of the 33 language subtitle tracks is retimed to the new cue starts. Revision 6 uses cinema-timings.json and public/cinema/audio, rather than the previous mixed soundtrack.
+
+The old /rebuild/ review address redirects to the current review after packaging, to avoid presenting an obsolete cut as the latest work. This is a private review revision, not a change to the live site or product version.

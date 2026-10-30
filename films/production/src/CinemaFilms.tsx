@@ -11,16 +11,16 @@ import {
   useCurrentFrame,
 } from "remotion";
 import { CinemaStage } from "./CinemaStage";
-import data from "./rebuild-timings.json";
+import data from "./cinema-timings.json";
 
-const ink = "#101c31",
-  blue = "#2862f5",
-  ice = "#dbe9f8",
-  copper = "#bc7754";
+const ink = "#070709",
+  blue = "#075bff",
+  ice = "#e7f5ff",
+  copper = "#ff5733";
 const abs: React.CSSProperties = { position: "absolute" };
 const curve = Easing.bezier(0.16, 1, 0.3, 1);
 const move = (t: number, a: number, b: number, x = 0, y = 1) =>
-  interpolate(t, [a, b], [x, y], {
+  interpolate(t, [a, a + (b - a) * 0.66], [x, y], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
     easing: curve,
@@ -29,20 +29,31 @@ const BG: React.FC<{
   dark?: boolean;
   warm?: boolean;
   children?: React.ReactNode;
-}> = ({ dark, warm, children }) => (
-  <AbsoluteFill
-    style={{
-      background: dark
-        ? "radial-gradient(ellipse at 65% 45%,#1d3557 0%,#0d1729 48%,#050912 100%)"
-        : warm
-          ? "radial-gradient(ellipse at 30% 25%,#fff8ef 0%,#e4c8ad 62%,#b98968 100%)"
-          : "radial-gradient(ellipse at 35% 15%,#ffffff 0%,#e7f0fa 47%,#b0c8e6 100%)",
-      color: dark ? "white" : ink,
-    }}
-  >
-    {children}
-  </AbsoluteFill>
-);
+}> = ({ dark, warm, children }) => {
+  const frame = useCurrentFrame();
+  const phase = Math.min(frame / 90, 1);
+  return (
+    <AbsoluteFill
+      style={{
+        background: dark ? "#000" : "#fff",
+        color: dark ? "#fff" : ink,
+        overflow: "hidden",
+      }}
+    >
+      <AbsoluteFill
+        style={{
+          pointerEvents: "none",
+          background: dark
+            ? `radial-gradient(ellipse 60% 50% at ${85 - phase * 10}% 110%,#074bffbb,transparent 75%),radial-gradient(ellipse 35% 25% at 110% 55%,#922bff66,transparent 80%)`
+            : warm
+              ? `radial-gradient(ellipse 45% 55% at ${105 - phase * 8}% 100%,#005bff99,transparent 68%),radial-gradient(ellipse 35% 50% at 90% 110%,#00ddff99,transparent 75%)`
+              : `radial-gradient(ellipse 50% 40% at 100% 110%,#1ed6ff66,transparent 75%)`,
+        }}
+      />
+      {children}
+    </AbsoluteFill>
+  );
+};
 const Title: React.FC<{
   text: string;
   t: number;
@@ -65,9 +76,8 @@ const Title: React.FC<{
         style={{
           display: "inline-block",
           marginRight: ".22em",
-          opacity: move(t, delay + i * 0.065, delay + 0.45 + i * 0.065),
-          transform: `translateY(${move(t, delay + i * 0.065, delay + 0.6 + i * 0.065, 75, 0)}px)`,
-          filter: `blur(${move(t, delay + i * 0.065, delay + 0.5 + i * 0.065, 14, 0)}px)`,
+          opacity: move(t, delay + i * 0.035, delay + 0.26 + i * 0.035),
+          transform: `translateY(${move(t, delay + i * 0.035, delay + 0.3 + i * 0.035, 32, 0)}px)`,
         }}
       >
         {word}
@@ -132,7 +142,7 @@ const Glass: React.FC<{
     style={{
       border: "1px solid #ffffffc0",
       borderRadius: 30,
-      background: "linear-gradient(130deg,#ffffffc9,#e8eff886)",
+      background: "linear-gradient(130deg,#fff,#f4f8ff)",
       boxShadow:
         "inset 0 1px 0 white,0 35px 70px #15345b24,0 3px 8px #193e5a12",
       backdropFilter: "blur(12px)",
@@ -150,7 +160,7 @@ const Terminal: React.FC<{
 }> = ({ t, command, lines, style }) => (
   <div
     style={{
-      background: "linear-gradient(140deg,#182338,#080f1c)",
+      background: "linear-gradient(140deg,#171719,#000)",
       color: "#dceafa",
       border: "1px solid #526276",
       borderRadius: 28,
@@ -175,7 +185,7 @@ const Terminal: React.FC<{
           style={{ width: 14, height: 14, borderRadius: 20, background: c }}
         />
       ))}
-      <span style={{ marginLeft: 20, fontSize: 25, color: "#a8b5cb" }}>
+      <span style={{ marginLeft: 20, fontSize: 25, color: "#bfc3cc" }}>
         Claude Code
       </span>
     </div>
@@ -213,11 +223,11 @@ const ShotFrame: React.FC<{
         overflow: "hidden",
         transform:
           cut === "lens"
-            ? `scale(${1 + exit * 0.85})`
+            ? `scale(${1 + exit * 0.18})`
             : cut === "slide"
               ? `translateX(${-exit * 1920}px)`
               : "none",
-        filter: cut === "lens" ? `blur(${exit * 12}px)` : "none",
+        filter: "none",
       }}
     >
       {children}
@@ -315,33 +325,30 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   if (shot === 1)
     return (
-      <BG>
+      <BG warm>
         <Title
           text="Choose first."
           t={t}
-          size={180}
-          style={{ ...abs, left: 120, top: 100, zIndex: 2 }}
+          size={154}
+          style={{ ...abs, left: 120, top: 85 }}
+        />
+        <CinemaStage kind="decisions" time={t} />
+        <Cursor
+          x={move(t, 0.25, 0.7, 1650, 980)}
+          y={move(t, 0.25, 0.7, 900, 620)}
+          press={move(t, 0.7, 0.8) * (1 - move(t, 0.8, 0.95))}
         />
         <div
           style={{
             ...abs,
-            inset: 0,
-            transform: `translateY(${move(t, 0, 1, 250, 70)}px)`,
+            left: 120,
+            bottom: 85,
+            fontSize: 48,
+            opacity: move(t, 1, 1.2),
           }}
         >
-          <CinemaStage kind="brief" time={t} />
+          The audience shapes the build.
         </div>
-        <Glass
-          style={{
-            ...abs,
-            right: 120,
-            bottom: 100,
-            padding: "28px 45px",
-            fontSize: 42,
-          }}
-        >
-          Audience → Direction → Build
-        </Glass>
       </BG>
     );
   if (shot === 2)
@@ -440,7 +447,7 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
           style={{
             ...abs,
             inset: 0,
-            transform: `translateX(${move(t, 1.4, 2.5, 0, -1100)}px)`,
+            transform: `translateX(${move(t, 0.8, 1.6, 0, -1100)}px)`,
           }}
         >
           <Terminal
@@ -458,18 +465,19 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
           style={{
             ...abs,
             inset: 0,
-            transform: `translateX(${move(t, 1.4, 2.5, 1920, 0)}px)`,
+            transform: `translateX(${move(t, 0.8, 1.6, 1920, 0)}px)`,
           }}
         >
           <CinemaStage
             kind="phone"
-            time={Math.max(0, t - 1.4)}
+            screen="portfolio"
+            time={Math.max(0, t - 0.8)}
             pose={1}
             progress={1}
           />
           <Title
             text="Now build."
-            t={t - 1.8}
+            t={t - 1.2}
             size={170}
             style={{ ...abs, left: 120, top: 350, width: 650 }}
           />
@@ -478,7 +486,13 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   return (
     <BG>
-      <CinemaStage kind="phone" time={t + 1.5} pose={2} progress={1} />
+      <CinemaStage
+        kind="phone"
+        screen="portfolio"
+        time={t + 0.5}
+        pose={2}
+        progress={1}
+      />
       <Title
         text="Every detail."
         t={t}
@@ -554,7 +568,7 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
               key={i}
               src={staticFile(
                 "cinema/" +
-                  ["home", "board", "palette", "launch"][i % 4] +
+                  ["home", "reference", "palette-art", "launch-art"][i % 4] +
                   ".png",
               )}
               style={{
@@ -663,7 +677,7 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
             top: 350,
             width: 730,
             padding: 40,
-            transform: `rotate(-4deg) translateY(${move(t, 0, 0.8, 200, 0)}px)`,
+            transform: `translateY(${move(t, 0, 0.8, 200, 0)}px)`,
           }}
         >
           <Img
@@ -1100,7 +1114,7 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
               background: blue,
               color: "white",
               fontSize: 60,
-              boxShadow: "0 20px 35px #2862f550,inset 0 2px 0 #ffffff50",
+              boxShadow: "0 20px 35px #075bff50,inset 0 2px 0 #ffffff50",
               transform: `scale(${move(t, 0.4, 1.2, 0.85, 1)})`,
             }}
           >
@@ -1112,7 +1126,7 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   if (shot === 4)
     return (
-      <AbsoluteFill style={{ background: "#101c31" }}>
+      <AbsoluteFill style={{ background: "#070709" }}>
         <div
           style={{
             ...abs,
@@ -1139,7 +1153,7 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
             transform: `rotate(${move(t, 0, 3, -8, 0)}deg)`,
           }}
         >
-          {t < 1.5 ? "2.7" : "15.2"}
+          {t < 1.5 ? "3.2" : "18.0"}
           <span style={{ fontSize: 44 }}>:1</span>
           <div style={{ fontSize: 35, marginTop: 20 }}>
             {t < 1.5 ? "Needs work" : "Contrast checked"}
@@ -1191,10 +1205,10 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
         t={t}
         command="Save the approved colour tokens"
         lines={[
-          "Text     #101c31",
-          "Action   #2862f5",
-          "Surface  #dbe9f8",
-          "Attention #bc7754",
+          "Text     #070709",
+          "Action   #075bff",
+          "Surface  #e7f5ff",
+          "Attention #ff5733",
         ]}
         style={{ ...abs, left: 130, top: 330, width: 920, height: 660 }}
       />
@@ -1499,7 +1513,7 @@ const CinemaFilm: React.FC<{ index: number }> = ({ index }) => {
           <CinemaShot index={index} shot={i} duration={film.durations[i]} />
         </Sequence>
       ))}
-      <Audio src={staticFile("rebuild/" + film.slug + ".m4a")} />
+      <Audio src={staticFile("cinema/audio/" + film.slug + ".m4a")} />
     </AbsoluteFill>
   );
 };

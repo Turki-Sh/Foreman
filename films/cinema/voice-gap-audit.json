@@ -1,0 +1,37 @@
+[
+  {
+    "film": "before-the-code",
+    "checked_gaps": 8,
+    "maximum_gap_peak_dbfs": null,
+    "digital_silence": true,
+    "added_effects": false
+  },
+  {
+    "film": "find-your-direction",
+    "checked_gaps": 8,
+    "maximum_gap_peak_dbfs": null,
+    "digital_silence": true,
+    "added_effects": false
+  },
+  {
+    "film": "fix-what-feels-wrong",
+    "checked_gaps": 8,
+    "maximum_gap_peak_dbfs": null,
+    "digital_silence": true,
+    "added_effects": false
+  },
+  {
+    "film": "colour-that-works",
+    "checked_gaps": 8,
+    "maximum_gap_peak_dbfs": null,
+    "digital_silence": true,
+    "added_effects": false
+  },
+  {
+    "film": "before-you-share",
+    "checked_gaps": 8,
+    "maximum_gap_peak_dbfs": null,
+    "digital_silence": true,
+    "added_effects": false
+  }
+]
