@@ -15,6 +15,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 [![Scripts](docs/badge/code-none-111.svg)](#no-scripts)
 [![License](docs/badge/license-MIT-111.svg)](LICENSE)
 [![Author](docs/badge/author-turki-111.svg)](https://turkialshuaibi.com/)
+[![Listed on ClaudePluginHub](https://www.claudepluginhub.com/badge/turki-sh-foreman-plugins-foreman)](https://www.claudepluginhub.com/plugins/turki-sh-foreman-plugins-foreman?ref=badge)
 
 **[foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)**
 

@@ -1,5 +1,6 @@
 # Foreman by Turki Alshuaibi
 
+[![Listed on ClaudePluginHub](https://www.claudepluginhub.com/badge/turki-sh-foreman-plugins-foreman)](https://www.claudepluginhub.com/plugins/turki-sh-foreman-plugins-foreman?ref=badge)
 A build playbook for shipping real websites with coding agents. Your agent interviews you, forces the design and scope decisions you would otherwise skip, locks a visual system, writes one build brief, builds it or hands it over, then verifies, ships, and indexes the site.
 
 Site and docs: [foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)
