@@ -244,6 +244,10 @@ def build():
         if asset.is_file():
             files["marks/" + asset.name] = read(asset)
 
+    for asset in sorted((SITE / "static" / "icons").glob("*")):
+        if asset.is_file():
+            files[asset.name] = read(asset) if asset.suffix == ".svg" else asset.read_bytes()
+
     # Page-specific media remains source-owned and is copied without text decoding.
     for asset in sorted((SITE / "static" / "media").rglob("*")):
         if asset.is_file():
