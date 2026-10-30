@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Adjon irányt az ágensnek, mielőtt az kódot ír.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: Segíts elkészíteni a portfóliómat.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Kinek készül? Mit tegyen a látogató?",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Keressen referenciákat. Döntse el, mit vesz át belőlük.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Világos hierarchia. Tér a munkáknak. Egy következő lépés.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A tipográfia, a színek és az elrendezés egy rendszert alkossanak.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Rögzítse a döntéseket egy projektleírásban.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Hagyja jóvá a projektleírást. Utána jöhet a kivitelezés.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Nyolc lépés az első kérdéstől a megtalálható weboldalig.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "A Foreman saját weboldala, a saját útmutatója alapján.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Használja az eszközöket külön, vagy kövesse a teljes folyamatot.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. Alkotója: Turki Alshuaibi.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Ingyenes és nyílt forráskódú. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

@@ -1,0 +1,6 @@
+# Foreman: allow crawlers and advertise page and video sitemaps.
+User-agent: *
+Allow: /
+
+Sitemap: https://foreman.turkialshuaibi.com/sitemap.xml
+Sitemap: https://foreman.turkialshuaibi.com/video-sitemap.xml

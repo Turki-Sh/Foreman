@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentinė muzika]
+
+2
+00:00:01,000 --> 00:00:05,800
+Nurodykite agentui kryptį prieš jam rašant kodą.
+
+3
+00:00:06,000 --> 00:00:10,000
+Turki Alshuaibi: Padėk man sukurti darbų aplanką.
+
+4
+00:00:10,000 --> 00:00:13,000
+Kam jis skirtas? Ką turėtų padaryti lankytojai?
+
+5
+00:00:13,000 --> 00:00:18,500
+Raskite pavyzdžių. Nuspręskite, ką iš jų perimti.
+
+6
+00:00:18,500 --> 00:00:22,000
+Aiški hierarchija. Erdvė darbams. Vienas tolesnis žingsnis.
+
+7
+00:00:22,000 --> 00:00:27,500
+Pasirinkite tipografiją, spalvas ir išdėstymą kaip vieną sistemą.
+
+8
+00:00:27,500 --> 00:00:32,000
+Surašykite sprendimus į vieną projekto užduotį.
+
+9
+00:00:32,000 --> 00:00:38,000
+Patvirtinkite užduotį. Tada kurkite.
+
+10
+00:00:38,000 --> 00:00:43,000
+Aštuoni žingsniai nuo pirmo klausimo iki randamos svetainės.
+
+11
+00:00:43,000 --> 00:00:48,000
+Foreman svetainė, sukurta pagal jo paties vadovą.
+
+12
+00:00:48,000 --> 00:00:51,000
+Board. Palette. Punch list. Launch.
+
+13
+00:00:51,000 --> 00:00:54,000
+Naudokite įrankius atskirai arba laikykitės viso vadovo.
+
+14
+00:00:54,000 --> 00:00:57,000
+Foreman. Autorius: Turki Alshuaibi.
+
+15
+00:00:57,000 --> 00:01:00,000
+Nemokamai ir atvirojo kodo. foreman.turkialshuaibi.com

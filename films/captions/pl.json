@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Zanim agent napisze kod, wyznacz mu kierunek.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: Pomóż mi zbudować portfolio.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Dla kogo jest strona? Co mają zrobić odbiorcy?",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Znajdź inspiracje. Wybierz, co z nich wykorzystasz.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Czytelna hierarchia. Miejsce na projekty. Jeden następny krok.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Połącz typografię, kolory i układ w jeden system.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Zapisz decyzje w jednym briefie projektu.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Zatwierdź brief. Potem buduj.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Osiem kroków, od pierwszego pytania do strony, którą można znaleźć.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Strona Foreman, zbudowana według jego własnej metody.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Użyj pojedynczego narzędzia lub przejdź przez cały proces.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. Autor: Turki Alshuaibi.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Bezpłatny i open source. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

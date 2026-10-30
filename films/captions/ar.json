@@ -1,0 +1,100 @@
+[
+  {
+    "text": "حدّد الاتجاه قبل أن يبدأ وكيلك بكتابة الكود.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "تركي الشعيبي: ساعدني في بناء معرض أعمالي.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "لمن الموقع؟ وما الذي تريد منهم فعله؟",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ابحث عن مراجع. وحدّد ما ستستفيد منه.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "تسلسل بصري واضح. مساحة للأعمال. وخطوة تالية واحدة.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "اختر الخطوط والألوان والتخطيط كنظام واحد.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "اجمع القرارات في وثيقة واحدة لبناء الموقع.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "اعتمد الوثيقة. ثم ابدأ البناء.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ثماني خطوات، من أول سؤال إلى موقع يمكن العثور عليه.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "موقع Foreman نفسه، بُني باستخدام الدليل.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "استخدم كل أداة منفردة، أو اتبع الدليل كاملًا.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. من تركي الشعيبي.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "مجاني ومفتوح المصدر. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

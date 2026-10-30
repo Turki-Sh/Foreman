@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Ajanınız kod yazmadan önce yönünü belirleyin.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: Portfolyomu oluşturmama yardım et.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Kimin için? Ziyaretçi ne yapmalı?",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Referanslar bulun. Neleri kullanacağınıza karar verin.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Net bir hiyerarşi. İşler için alan. Tek bir sonraki adım.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Yazı tipini, rengi ve düzeni tek bir sistem olarak seçin.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Kararları tek bir geliştirme brifinde toplayın.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Brifi onaylayın. Sonra geliştirmeye başlayın.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "İlk sorudan bulunabilir bir siteye uzanan sekiz adım.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman’ın kendi sitesi, bu kılavuzla oluşturuldu.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Araçları ayrı ayrı kullanın veya kılavuzun tamamını izleyin.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. Turki Alshuaibi tarafından.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Ücretsiz ve açık kaynaklı. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

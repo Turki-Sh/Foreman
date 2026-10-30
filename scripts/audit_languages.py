@@ -55,9 +55,9 @@ def main():
             else:check(False,'missing social image')
             check('id="locale-messages"' in raw,'localized dynamic labels')
     manifest=json.loads(read(ROOT/'site/static/og/localized-manifest.json'))
-    check(len(manifest['cards'])==288,'localized art count')
-    check(len({card['artHash'] for card in manifest['cards']})==288,'art compositions must differ beyond text')
+    check(len(manifest['cards'])==32*len(list((ROOT/'site/pages').glob('*.html'))),'localized art count')
+    check(len({card['artHash'] for card in manifest['cards']})==32*len(list((ROOT/'site/pages').glob('*.html'))),'art compositions must differ beyond text')
     if failures:raise SystemExit('\n'.join(failures))
-    print(f'{count} localized pages, 33 languages, 288 distinct localized compositions: language audit passed.')
+    print(f'{count} localized pages, 33 languages, {len(manifest['cards'])} distinct localized compositions: language audit passed.')
 
 if __name__=='__main__':main()

@@ -18,6 +18,7 @@ import sys
 from datetime import date
 from pathlib import Path
 from localize import localize, path_for
+import film_assets
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
@@ -191,6 +192,9 @@ def jsonld(meta, f):
                 {"@type": "ListItem", "position": 2, "name": meta["crumb"], "item": url},
             ],
         })
+    if meta["path"] == "/films/":
+        webpage["mainEntity"] = {"@id": BASE + "/films/#film"}
+        graph.append(film_assets.schema(meta))
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=2, ensure_ascii=False)
 
 
@@ -225,6 +229,9 @@ def build(localized=True):
             "robots": meta.get("robots", "index, follow"),
             "jsonld": '<script type="application/ld+json">\n' + jsonld(meta, f) + "\n</script>" if slug != "404" else "",
         })
+        if slug == "films":
+            values["film_player"] = film_assets.player()
+            values["film_transcript"] = film_assets.transcript()
         if slug == "changelog":
             values["changelog"] = changelog_html()
         # Every partial but the layout and the head is available to a page as
@@ -300,6 +307,7 @@ def build(localized=True):
         if asset.is_file():
             files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset) if asset.suffix in {".html", ".css", ".js", ".svg", ".txt"} else asset.read_bytes()
 
+    files.update(film_assets.files())
     locales = localize(files, pages) if localized else [{"code": "en"}]
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
     urls = [(BASE + path_for(l["code"], m["path"]), m.get("priority", "0.7")) for s,m in pages if s != "404" for l in locales]
@@ -309,6 +317,9 @@ def build(localized=True):
         + "".join(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>2026-10-30</lastmod>\n    <priority>{p}</priority>\n  </url>\n" for u, p in urls)
         + "</urlset>\n"
     )
+    files["robots.txt"] = read(SITE / "robots.txt")
+    film_meta = next(m for s,m in pages if s == "films")
+    files["video-sitemap.xml"] = film_assets.video_sitemap(locales, film_meta["description"])
     files["llms.txt"] = render(read(SITE / "llms.txt"), dict(f, pages="\n".join(
         f"- [{m['title']}]({BASE}{m['path']}): {m['description']}" for s, m in pages if s != "404")))
     full = [render(read(SITE / "llms-full-head.txt"), f)]

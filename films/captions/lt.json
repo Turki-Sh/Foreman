@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Nurodykite agentui kryptį prieš jam rašant kodą.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: Padėk man sukurti darbų aplanką.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Kam jis skirtas? Ką turėtų padaryti lankytojai?",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Raskite pavyzdžių. Nuspręskite, ką iš jų perimti.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Aiški hierarchija. Erdvė darbams. Vienas tolesnis žingsnis.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Pasirinkite tipografiją, spalvas ir išdėstymą kaip vieną sistemą.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Surašykite sprendimus į vieną projekto užduotį.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Patvirtinkite užduotį. Tada kurkite.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Aštuoni žingsniai nuo pirmo klausimo iki randamos svetainės.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman svetainė, sukurta pagal jo paties vadovą.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Naudokite įrankius atskirai arba laikykitės viso vadovo.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. Autorius: Turki Alshuaibi.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Nemokamai ir atvirojo kodo. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

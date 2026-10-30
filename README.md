@@ -19,6 +19,8 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 
 **[foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)**
 
+[Watch the one-minute film](https://foreman.turkialshuaibi.com/films/), with captions in 33 languages.
+
 <p align="center">
   <a href="https://foreman.turkialshuaibi.com/">
     <img src="docs/previews/site-2026-10-30.png" alt="Foreman homepage with its hard-hat identity, clear navigation, architectural scene and recorded coding session." width="820">

@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentale muziek]
+
+2
+00:00:01,000 --> 00:00:05,800
+Geef je agent richting voordat die code schrijft.
+
+3
+00:00:06,000 --> 00:00:10,000
+Turki Alshuaibi: Help me mijn portfolio te bouwen.
+
+4
+00:00:10,000 --> 00:00:13,000
+Voor wie is het? Wat moeten bezoekers doen?
+
+5
+00:00:13,000 --> 00:00:18,500
+Zoek referenties. Kies wat je ervan overneemt.
+
+6
+00:00:18,500 --> 00:00:22,000
+Een duidelijke hiërarchie. Ruimte voor het werk. Eén volgende stap.
+
+7
+00:00:22,000 --> 00:00:27,500
+Kies typografie, kleur en indeling als één systeem.
+
+8
+00:00:27,500 --> 00:00:32,000
+Leg de beslissingen vast in één projectbriefing.
+
+9
+00:00:32,000 --> 00:00:38,000
+Keur de briefing goed. Ga daarna bouwen.
+
+10
+00:00:38,000 --> 00:00:43,000
+Acht stappen, van de eerste vraag tot een site die mensen kunnen vinden.
+
+11
+00:00:43,000 --> 00:00:48,000
+De site van Foreman, gebouwd met het eigen draaiboek.
+
+12
+00:00:48,000 --> 00:00:51,000
+Board. Palette. Punch list. Launch.
+
+13
+00:00:51,000 --> 00:00:54,000
+Gebruik elke tool los of volg het hele draaiboek.
+
+14
+00:00:54,000 --> 00:00:57,000
+Foreman. Door Turki Alshuaibi.
+
+15
+00:00:57,000 --> 00:01:00,000
+Gratis en open source. foreman.turkialshuaibi.com
