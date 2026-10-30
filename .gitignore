@@ -8,3 +8,6 @@ bench/.config/
 bench/pulse/
 bench/node_modules/
 bench/package-lock.json
+
+# Python build-module caches
+__pycache__/
