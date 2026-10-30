@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Tiedät, mistä pidät. Koodausagenttisi täytyy tietää miksi.
+00:00:00,100 --> 00:00:03,188
+Tiedät, mistä pidät. Kunnes joku kysyy miksi.
 
 2
-00:00:05,000 --> 00:00:09,900
-Aloita Turki Alshuaibin työstä ja ihmisistä, jotka sen tulee tavoittaa.
+00:00:03,383 --> 00:00:05,928
+Sata tallennettua välilehteä ei vastaa siihen.
 
 3
-00:00:10,000 --> 00:00:14,900
-Pyydä Boardia etsimään esimerkkejä tähän projektikuvaukseen.
+00:00:06,117 --> 00:00:09,781
+Anna Foreman Boardille projektikuvaus. Se etsii sopivia esimerkkejä.
 
 4
-00:00:15,000 --> 00:00:19,900
-Ota sommittelu yhdestä esimerkistä, typografia toisesta.
+00:00:09,967 --> 00:00:13,198
+Katso tarkemmin. Hierarkiaa. Välistystä. Liikettä.
 
 5
-00:00:20,000 --> 00:00:24,900
-Nimeä, mitä lainaat ja mitä jätät pois.
+00:00:13,383 --> 00:00:17,435
+Säilytä suunnittelun taustalla oleva idea. Älä toisen identiteettiä.
 
 6
-00:00:25,000 --> 00:00:29,900
-Nyt esimerkeistä tulee päätöksiä, joita agenttisi voi käyttää.
+00:00:17,617 --> 00:00:20,526
+Yhdistä valinnat yhdeksi suunnaksi.
 
 7
-00:00:30,000 --> 00:00:34,900
-Valitse suunta ennen sivun rakentamista.
+00:00:20,717 --> 00:00:23,908
+Nyt agentillasi on konkreettinen tavoite, jota kohti rakentaa.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Board. Maksuton ja avoin lähdekoodi. Tekijä: Turki Alshuaibi.
+00:00:24,100 --> 00:00:26,139
+Vähemmän arvailua. Aloita Boardista.

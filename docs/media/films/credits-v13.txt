@@ -1,0 +1,70 @@
+Foreman films, audio revision 10.
+Each film uses its own timed arrangement of library recordings. No music, Tunetank track, synthesized noise or automatic scene-end impacts.
+Narration and picture timing remain unchanged from revision 7.
+Recordings edited with trims, gain, fades, filtering, timing and stereo placement. Raw sources retained privately, not redistributed.
+
+Mixkit Sound Effects Free License: https://mixkit.co/license/#sfxFree
+
+mixkit-1109: Select click
+https://mixkit.co/free-sound-effects/interface/
+
+mixkit-2531: Typing on a laptop keyboard
+https://mixkit.co/free-sound-effects/click/
+
+mixkit-2585: On or off light switch tap
+https://mixkit.co/free-sound-effects/click/
+
+mixkit-1124: Plastic bubble click
+https://mixkit.co/free-sound-effects/click/
+
+mixkit-1120: Modern click box check
+https://mixkit.co/free-sound-effects/click/
+
+mixkit-2857: Gear fast lock tap
+https://mixkit.co/free-sound-effects/click/
+
+mixkit-2541: Single key press in a laptop
+https://mixkit.co/free-sound-effects/keyboard/
+
+mixkit-2539: Laptop backspace typing sequence
+https://mixkit.co/free-sound-effects/keyboard/
+
+mixkit-481: One clap
+https://mixkit.co/free-sound-effects/clapping/
+
+mixkit-1489: Air woosh
+https://mixkit.co/free-sound-effects/whoosh/
+
+mixkit-1530: Paper slide
+https://mixkit.co/free-sound-effects/slide/
+
+mixkit-1527: Glass plate slide
+https://mixkit.co/free-sound-effects/slide/
+
+mixkit-1104: Page turn single
+https://mixkit.co/free-sound-effects/paper/
+
+mixkit-2380: Paper quick movement
+https://mixkit.co/free-sound-effects/paper/
+
+mixkit-2368: Signing on a paper
+https://mixkit.co/free-sound-effects/paper/
+
+mixkit-2386: Pages of paper moving
+https://mixkit.co/free-sound-effects/paper/
+
+mixkit-166: Fast small sweep transition
+https://mixkit.co/free-sound-effects/transition/
+
+mixkit-2364: Hard pop click
+https://mixkit.co/free-sound-effects/pop/
+
+Apple iPhone 15 Pro Max Black by polyman. CC BY 4.0 https://creativecommons.org/licenses/by/4.0/ . Source https://sketchfab.com/3d-models/apple-iphone-15-pro-max-black-df17520841214c1792fb8a44c6783ee7 . Screen, camera, lighting and animation modified.
+Screen content and terminal exchanges are authored demonstrations, not live agent recordings.
+
+Revision 11: Optical glass adapted from LeonardSEO/liquid-glass-react, MIT, copyright 2026 Leonard van Hemert. https://github.com/LeonardSEO/liquid-glass-react
+Percussion: Clap Percussion Loop.wav by ecfike, CC0. Recorded clapping, finger snaps and clothing percussion. https://freesound.org/people/ecfike/sounds/202158/ . Edited into five arrangements with different tempos, entrances, scene dynamics and pauses. No melodic or harmonic music added.
+
+Revision 12: Original animated studies inspired by the reference list in films/cinema/revision12-sources.md. Device frames: Mobile FIRST https://www.webmobilefirst.com/en/mockups/apple-ipad-pro-11-2018/ and https://www.webmobilefirst.com/en/mockups/apple-macbook-pro-16-2021/ . Player adapted from Turki Alshuaibi's Itqan FilmPlayer. Recorded percussion transients from ecfike, CC0, arranged individually.
+
+Published edition: revision 13. Gallery screenshots supplied by the owner: https://turkialshuaibi.com/ , https://turki-sh.github.io/HARIS/ , https://lustre-nine.vercel.app/studio/ , https://onkith.online/ . Screen masks and rigid material-card stacking corrected. No new audio composition.

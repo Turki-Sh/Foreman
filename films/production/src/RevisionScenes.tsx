@@ -45,7 +45,7 @@ export const Device: React.FC<{
       style={{
         ...pos,
         width: 1300,
-        aspectRatio: ipad ? "800 / 579" : "800 / 489",
+        aspectRatio: ipad ? "800 / 578" : "800 / 489",
         filter: "drop-shadow(0 32px 40px #10203535)",
         ...style,
       }}
@@ -53,7 +53,7 @@ export const Device: React.FC<{
       <div
         style={{
           ...pos,
-          inset: ipad ? "5.2% 4%" : "4.2% 8.3% 10%",
+          inset: ipad ? "4.85% 3.5%" : "4.2% 8.3% 10%",
           overflow: "hidden",
           borderRadius: ipad ? 18 : 5,
           background: "#fff",
@@ -67,10 +67,10 @@ export const Device: React.FC<{
           ipad
             ? {
                 ...pos,
-                width: "72.375%",
-                height: "138.17%",
-                left: "13.8125%",
-                top: "-19.085%",
+                width: "72.25%",
+                height: "138.4083%",
+                left: "13.875%",
+                top: "-19.20415%",
                 transform: "rotate(90deg)",
                 pointerEvents: "none",
               }
@@ -134,14 +134,14 @@ export const Ring: React.FC<{ t: number }> = ({ t }) => (
             src={staticFile(
               "cinema/" +
                 [
-                  "home",
-                  "reference",
-                  "palette-art",
-                  "launch-art",
-                  "punch-art",
-                  "home",
-                  "reference",
-                  "palette-art",
+                  "gallery-turki",
+                  "gallery-haris",
+                  "gallery-lustre",
+                  "gallery-onkith",
+                  "gallery-turki",
+                  "gallery-haris",
+                  "gallery-lustre",
+                  "gallery-onkith",
                 ][i] +
                 ".png",
             )}
@@ -444,7 +444,7 @@ export function revisionScene(
           ].map((s, i) => (
             <div key={s} style={{ opacity: ease((t - i * 0.15) / 0.5) }}>
               <span style={{ color: "#1ab68f", marginRight: 15 }}>
-                {i < 4 ? "✓" : "↗"}
+                {i < 4 ? "âœ“" : "â†—"}
               </span>
               {s}
             </div>
@@ -556,7 +556,7 @@ export function revisionScene(
             background: "#ffffff12",
           }}
         >
-          Back to Foreman ↗
+          Back to Foreman â†—
         </div>
       </Back>
     );

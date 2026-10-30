@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Patinkanti spalva yra tik pradžia.
+00:00:00,100 --> 00:00:03,253
+Spalva gali atrodyti gražiai. Ir vis tiek netikti ekranui.
 
 2
-00:00:05,000 --> 00:00:09,900
-Paprašyk Palette sistemos, paremtos rašalu ir popieriumi.
+00:00:03,450 --> 00:00:06,541
+Pradėk nuo medžiagos. Rašalas, popierius, poliruotas metalas.
 
 3
-00:00:10,000 --> 00:00:14,900
-Kiekvienai spalvai skirk užduotį: fonas, tekstas, kraštinė, veiksmas.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette paverčia šį pavyzdį veikiančia spalvų sistema.
 
 4
-00:00:15,000 --> 00:00:19,900
-Patikrink tikrąjį teksto ir fono derinį.
+00:00:10,500 --> 00:00:13,968
+Kiekvienai spalvai skirk užduotį. Paviršius, tekstas, veiksmas, grįžtamasis ryšys.
 
 5
-00:00:20,000 --> 00:00:24,900
-Šviesiai pilka ant baltos netinka. Tamsus rašalas daro tekstą įskaitomą.
+00:00:14,150 --> 00:00:17,217
+Patikrink kontrastą ten, kur žmonėms iš tiesų reikia skaityti.
 
 6
-00:00:25,000 --> 00:00:29,900
-Tuos pačius vaidmenis taikyk mygtukams, kortelėms ir tamsiai temai.
+00:00:17,400 --> 00:00:20,119
+Išlaikyk tą patį charakterį šviesioje ir tamsioje temose.
 
 7
-00:00:30,000 --> 00:00:34,900
-Išsaugok dizaino kintamuosius, kad kitame puslapyje veiktų ta pati sistema.
+00:00:20,300 --> 00:00:23,504
+Išsaugok dizaino kintamuosius. Naudok juos visoje sąsajoje.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Nemokamas ir atvirojo kodo. Autorius: Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Paletė, su kuria gali kurti.

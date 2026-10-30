@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Funciona. Então por que ainda parece inacabado?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "A resposta costuma estar bem à vista."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Peça ao Foreman Punch list que examine a página."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Um título que não diz nada. Três botões disputando atenção."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Texto quase ilegível. Um layout que quebra no celular."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Transforme comentários vagos em mudanças específicas, por prioridade."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Faça as mudanças. Confira a página de novo."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Mantenha o que funciona. Corrija o que atrapalha."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Web je hotový. Jeho spuštění ještě ne."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Před prvním kliknutím ověřte, co návštěvníci najdou."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch provede kontrolou domény a zabezpečeného spojení."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Náhled, který se zobrazí při sdílení odkazu."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Cesta zpět, když stránka chybí."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Titulky a mapa webu, které pomáhají vyhledávačům web pochopit."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Ověřte, co je hotové. Sledujte, co ještě potřebuje vás."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Pak sdílejte. S dotaženými detaily."
+  }
+]

@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Strona jest gotowa. Czy link jest gotowy do udostępnienia?
+00:00:00,100 --> 00:00:02,739
+Strona jest gotowa. Publikacja jeszcze nie.
 
 2
-00:00:05,000 --> 00:00:09,900
-Poproś Launch o sprawdzenie adresu i HTTPS.
+00:00:02,933 --> 00:00:05,796
+Przed pierwszym kliknięciem sprawdź, co zobaczą inni.
 
 3
-00:00:10,000 --> 00:00:14,900
-Sprawdź tytuł, opis i obraz, które zobaczą inni.
+00:00:05,983 --> 00:00:09,395
+Foreman Launch sprawdza domenę i bezpieczne połączenie.
 
 4
-00:00:15,000 --> 00:00:19,900
-Pokaż Turki Alshuaibi czytelny podgląd pracy.
+00:00:09,583 --> 00:00:12,393
+Podgląd, który pojawia się po udostępnieniu linku.
 
 5
-00:00:20,000 --> 00:00:24,900
-Przetestuj brakującą stronę i linki prowadzące z powrotem.
+00:00:12,583 --> 00:00:14,742
+Drogę powrotną, gdy zabraknie strony.
 
 6
-00:00:25,000 --> 00:00:29,900
-Sprawdź mapę witryny i dostęp robotów do strony.
+00:00:15,133 --> 00:00:18,741
+Tytuły i mapę witryny, które pomagają wyszukiwarkom ją zrozumieć.
 
 7
-00:00:30,000 --> 00:00:34,900
-Zgłoś stronę do indeksowania. Wyszukiwarki zdecydują, kiedy ją uwzględnią.
+00:00:18,933 --> 00:00:21,939
+Sprawdź, co jest gotowe. Zapisz, co nadal wymaga Twojej uwagi.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Launch. Bezpłatny i open source. Autor: Turki Alshuaibi.
+00:00:22,133 --> 00:00:24,579
+Potem udostępnij. Z dopracowanymi szczegółami.

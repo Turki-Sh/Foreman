@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Sabes lo que te gusta. Tu agente necesita saber por qué.
+00:00:00,100 --> 00:00:03,188
+Sabes lo que te gusta. Hasta que alguien pregunta por qué.
 
 2
-00:00:05,000 --> 00:00:09,900
-Empieza por el trabajo de Turki Alshuaibi y las personas a las que debe llegar.
+00:00:03,383 --> 00:00:05,928
+Cien pestañas guardadas no responden eso.
 
 3
-00:00:10,000 --> 00:00:14,900
-Pide a Board que busque referencias para este brief.
+00:00:06,117 --> 00:00:09,781
+Dale el brief a Foreman Board. Buscará referencias relevantes.
 
 4
-00:00:15,000 --> 00:00:19,900
-Toma la composición de una. La tipografía de otra.
+00:00:09,967 --> 00:00:13,198
+Mira de cerca. La jerarquía. Los espacios. El movimiento.
 
 5
-00:00:20,000 --> 00:00:24,900
-Define qué tomar y qué dejar fuera.
+00:00:13,383 --> 00:00:17,435
+Toma la idea detrás del diseño. No la identidad de otra persona.
 
 6
-00:00:25,000 --> 00:00:29,900
-Ahora las referencias son decisiones que tu agente puede aplicar.
+00:00:17,617 --> 00:00:20,526
+Reúne esas decisiones en una sola dirección.
 
 7
-00:00:30,000 --> 00:00:34,900
-Elige la dirección antes de crear la página.
+00:00:20,717 --> 00:00:23,908
+Ahora tu agente tiene un objetivo concreto para construir.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Board. Gratis y de código abierto. De Turki Alshuaibi.
+00:00:24,100 --> 00:00:26,139
+Menos suposiciones. Empieza con Board.

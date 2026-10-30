@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Tas darbojas. Kāpēc vēl aizvien šķiet nepabeigts?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Atbilde parasti ir tepat acu priekšā."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Lūdz Foreman Punch list pārbaudīt lapu."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Virsraksts, kas neko nepasaka. Trīs pogas cīnās par uzmanību."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Tik tikko salasāms teksts. Izkārtojums, kas izjūk telefonā."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Pārvērt neskaidras atsauksmes konkrētās izmaiņās prioritārā secībā."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Veic izmaiņas. Pārbaudi lapu vēlreiz."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Saglabā to, kas darbojas. Izlabo to, kas traucē."
+  }
+]

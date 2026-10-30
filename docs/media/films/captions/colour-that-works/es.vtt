@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.900
-Un color que te gusta es solo el principio.
+00:00:00.100 --> 00:00:03.253
+Un color puede ser hermoso. Y aun así fallar en pantalla.
 
 2
-00:00:05.000 --> 00:00:09.900
-Pide a Palette un sistema basado en tinta y papel.
+00:00:03.450 --> 00:00:06.541
+Empieza por un material. Tinta, papel, metal pulido.
 
 3
-00:00:10.000 --> 00:00:14.900
-Da una función a cada color: fondo, texto, borde, acción.
+00:00:06.733 --> 00:00:10.309
+Foreman Palette lo convierte en un sistema de color funcional.
 
 4
-00:00:15.000 --> 00:00:19.900
-Comprueba la combinación real del texto y el fondo.
+00:00:10.500 --> 00:00:13.968
+Da una función a cada color. Superficie, texto, acción, respuesta.
 
 5
-00:00:20.000 --> 00:00:24.900
-El gris pálido sobre blanco falla. La tinta oscura hace legible el texto.
+00:00:14.150 --> 00:00:17.217
+Revisa el contraste donde la gente realmente necesita leer.
 
 6
-00:00:25.000 --> 00:00:29.900
-Mantén esas funciones en botones, tarjetas y el tema oscuro.
+00:00:17.400 --> 00:00:20.119
+Mantén el mismo carácter del tema claro al oscuro.
 
 7
-00:00:30.000 --> 00:00:34.900
-Guarda los tokens de diseño para usar el mismo sistema en la siguiente página.
+00:00:20.300 --> 00:00:23.504
+Guarda los tokens. Úsalos en toda la interfaz.
 
 8
-00:00:35.000 --> 00:00:39.900
-Foreman Palette. Gratis y de código abierto. De Turki Alshuaibi.
+00:00:23.700 --> 00:00:25.444
+Una paleta con la que puedes construir.

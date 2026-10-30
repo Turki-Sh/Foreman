@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Eine Farbe, die dir gefällt, ist erst der Anfang.
+00:00:00,100 --> 00:00:03,253
+Eine Farbe kann schön sein. Und am Bildschirm trotzdem versagen.
 
 2
-00:00:05,000 --> 00:00:09,900
-Bitte Palette um ein System aus Tinte und Papier.
+00:00:03,450 --> 00:00:06,541
+Beginne mit einem Material. Tinte, Papier, poliertes Metall.
 
 3
-00:00:10,000 --> 00:00:14,900
-Gib jeder Farbe eine Aufgabe: Hintergrund, Text, Rahmen, Aktion.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette macht daraus ein nutzbares Farbsystem.
 
 4
-00:00:15,000 --> 00:00:19,900
-Prüfe die tatsächliche Kombination aus Text und Hintergrund.
+00:00:10,500 --> 00:00:13,968
+Gib jeder Farbe eine Aufgabe. Fläche, Text, Aktion, Rückmeldung.
 
 5
-00:00:20,000 --> 00:00:24,900
-Hellgrau auf Weiß reicht nicht. Dunkle Tinte macht den Text lesbar.
+00:00:14,150 --> 00:00:17,217
+Prüfe den Kontrast dort, wo Menschen tatsächlich lesen müssen.
 
 6
-00:00:25,000 --> 00:00:29,900
-Übertrage dieselben Rollen auf Schaltflächen, Karten und das dunkle Design.
+00:00:17,400 --> 00:00:20,119
+Bewahre denselben Charakter im hellen und dunklen Design.
 
 7
-00:00:30,000 --> 00:00:34,900
-Speichere die Design-Tokens, damit die nächste Seite dasselbe System nutzt.
+00:00:20,300 --> 00:00:23,504
+Speichere die Design-Tokens. Nutze sie in der gesamten Oberfläche.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Kostenlos und Open Source. Von Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Eine Palette zum Gestalten.

@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3253,
+    "text": "Egy szín lehet gyönyörű. És mégis rosszul működhet a képernyőn."
+  },
+  {
+    "startMs": 3450,
+    "endMs": 6541,
+    "text": "Induljon ki egy anyagból. Tinta, papír, polírozott fém."
+  },
+  {
+    "startMs": 6733,
+    "endMs": 10309,
+    "text": "A Foreman Palette ezt a referenciát működő színrendszerré alakítja."
+  },
+  {
+    "startMs": 10500,
+    "endMs": 13968,
+    "text": "Minden szín kapjon feladatot. Felület, szöveg, művelet, visszajelzés."
+  },
+  {
+    "startMs": 14150,
+    "endMs": 17217,
+    "text": "Ott ellenőrizze a kontrasztot, ahol valóban olvasni kell."
+  },
+  {
+    "startMs": 17400,
+    "endMs": 20119,
+    "text": "Őrizze meg ugyanazt a karaktert világos és sötét módban."
+  },
+  {
+    "startMs": 20300,
+    "endMs": 23504,
+    "text": "Mentse a designtokeneket. Használja őket a teljes felületen."
+  },
+  {
+    "startMs": 23700,
+    "endMs": 25444,
+    "text": "Egy paletta, amellyel építeni lehet."
+  }
+]

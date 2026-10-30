@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3253,
+    "text": "A colour can look beautiful. And still fail on screen."
+  },
+  {
+    "startMs": 3450,
+    "endMs": 6541,
+    "text": "Start with a material. Ink, paper, polished metal."
+  },
+  {
+    "startMs": 6733,
+    "endMs": 10309,
+    "text": "Foreman Palette turns that reference into a working colour system."
+  },
+  {
+    "startMs": 10500,
+    "endMs": 13968,
+    "text": "Give every colour a job. Surface, text, action, feedback."
+  },
+  {
+    "startMs": 14150,
+    "endMs": 17217,
+    "text": "Check the contrast where people actually have to read."
+  },
+  {
+    "startMs": 17400,
+    "endMs": 20119,
+    "text": "Carry the same character from light into dark."
+  },
+  {
+    "startMs": 20300,
+    "endMs": 23504,
+    "text": "Save the tokens. Use them across the whole interface."
+  },
+  {
+    "startMs": 23700,
+    "endMs": 25444,
+    "text": "A palette you can build with."
+  }
+]

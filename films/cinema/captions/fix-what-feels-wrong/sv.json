@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Det fungerar. Varför känns det ändå ofärdigt?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Svaret finns oftast mitt framför dig."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Be Foreman Punch list granska sidan."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "En rubrik som inte säger något. Tre knappar som tävlar om uppmärksamhet."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Text som knappt går att läsa. En layout som går sönder på mobilen."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Gör vag feedback till konkreta ändringar i prioritetsordning."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Gör ändringarna. Kontrollera sidan igen."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Behåll det som fungerar. Rätta det som står i vägen."
+  }
+]

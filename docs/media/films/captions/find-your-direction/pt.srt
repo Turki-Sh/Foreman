@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Você sabe do que gosta. Seu agente precisa saber por quê.
+00:00:00,100 --> 00:00:03,188
+Você sabe do que gosta. Até alguém perguntar por quê.
 
 2
-00:00:05,000 --> 00:00:09,900
-Comece pelo trabalho de Turki Alshuaibi e pelo público que ele precisa alcançar.
+00:00:03,383 --> 00:00:05,928
+Cem abas salvas não respondem isso.
 
 3
-00:00:10,000 --> 00:00:14,900
-Peça ao Board referências para este briefing.
+00:00:06,117 --> 00:00:09,781
+Dê o briefing ao Foreman Board. Ele busca referências relevantes.
 
 4
-00:00:15,000 --> 00:00:19,900
-Aproveite a composição de uma. A tipografia de outra.
+00:00:09,967 --> 00:00:13,198
+Olhe de perto. A hierarquia. Os espaços. O movimento.
 
 5
-00:00:20,000 --> 00:00:24,900
-Diga o que aproveitar e o que deixar de fora.
+00:00:13,383 --> 00:00:17,435
+Aproveite a ideia por trás do design. Não a identidade de outra pessoa.
 
 6
-00:00:25,000 --> 00:00:29,900
-Agora as referências viram decisões que seu agente pode aplicar.
+00:00:17,617 --> 00:00:20,526
+Reúna essas escolhas em uma só direção.
 
 7
-00:00:30,000 --> 00:00:34,900
-Escolha a direção antes de criar a página.
+00:00:20,717 --> 00:00:23,908
+Agora seu agente tem um objetivo concreto para construir.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Board. Gratuito e de código aberto. Por Turki Alshuaibi.
+00:00:24,100 --> 00:00:26,139
+Menos suposições. Comece com Board.

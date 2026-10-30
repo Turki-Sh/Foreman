@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3188,
+    "text": "Tudja, mi tetszik. Amíg valaki meg nem kérdezi, miért."
+  },
+  {
+    "startMs": 3383,
+    "endMs": 5928,
+    "text": "Száz elmentett böngészőlap sem ad erre választ."
+  },
+  {
+    "startMs": 6117,
+    "endMs": 9781,
+    "text": "Adja a projektleírást a Foreman Boardnak. Releváns referenciákat keres."
+  },
+  {
+    "startMs": 9967,
+    "endMs": 13198,
+    "text": "Nézze meg közelebbről. A hierarchiát. A térközöket. A mozgást."
+  },
+  {
+    "startMs": 13383,
+    "endMs": 17435,
+    "text": "A design mögötti ötletet tartsa meg. Ne más arculatát."
+  },
+  {
+    "startMs": 17617,
+    "endMs": 20526,
+    "text": "Fogja össze a választásokat egyetlen iránnyá."
+  },
+  {
+    "startMs": 20717,
+    "endMs": 23908,
+    "text": "Az ágensnek most már konkrét célja van a kivitelezéshez."
+  },
+  {
+    "startMs": 24100,
+    "endMs": 26139,
+    "text": "Kevesebb találgatás. Kezdje a Boarddal."
+  }
+]

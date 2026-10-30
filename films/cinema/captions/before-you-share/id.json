@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Situs web sudah selesai. Peluncurannya belum."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Sebelum klik pertama, periksa apa yang akan orang temukan."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch memandu pemeriksaan domain dan koneksi aman."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Pratinjau yang muncul saat seseorang membagikan tautan Anda."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Jalan kembali saat halaman tidak ditemukan."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Judul dan peta situs yang membantu mesin pencari memahaminya."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Periksa yang sudah siap. Catat yang masih membutuhkan Anda."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Lalu bagikan, setelah semua detail beres."
+  }
+]

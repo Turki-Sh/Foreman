@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Deine Website ist fertig. Ist der Link bereit zum Teilen?
+00:00:00,100 --> 00:00:02,739
+Die Website ist fertig. Der Launch noch nicht.
 
 2
-00:00:05,000 --> 00:00:09,900
-Bitte Launch, die Adresse und HTTPS zu prüfen.
+00:00:02,933 --> 00:00:05,796
+Prüfe vor dem ersten Klick, was die Menschen vorfinden.
 
 3
-00:00:10,000 --> 00:00:14,900
-Prüfe Titel, Beschreibung und Bild, die angezeigt werden.
+00:00:05,983 --> 00:00:09,395
+Foreman Launch prüft Domain und sichere Verbindung mit dir.
 
 4
-00:00:15,000 --> 00:00:19,900
-Gib Turki Alshuaibi eine klare Vorschau der Arbeit.
+00:00:09,583 --> 00:00:12,393
+Die Vorschau, die beim Teilen deines Links erscheint.
 
 5
-00:00:20,000 --> 00:00:24,900
-Teste eine fehlende Seite und die Links, die zurückführen.
+00:00:12,583 --> 00:00:14,742
+Den Weg zurück, wenn eine Seite fehlt.
 
 6
-00:00:25,000 --> 00:00:29,900
-Prüfe die Sitemap und ob Crawler die Seite erreichen können.
+00:00:15,133 --> 00:00:18,741
+Titel und Sitemap, die Suchmaschinen beim Verstehen helfen.
 
 7
-00:00:30,000 --> 00:00:34,900
-Beantrage die Indexierung. Suchmaschinen entscheiden, wann sie die Seite aufnehmen.
+00:00:18,933 --> 00:00:21,939
+Prüfe, was fertig ist. Behalte im Blick, was dich noch braucht.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Launch. Kostenlos und Open Source. Von Turki Alshuaibi.
+00:00:22,133 --> 00:00:24,579
+Dann teile den Link. Mit allen Details an ihrem Platz.

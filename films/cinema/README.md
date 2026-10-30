@@ -1,6 +1,6 @@
 # Foreman film replacement: physical scenes
 
-Private review compositions. This does not replace the published films or change the playbook version.
+Published film collection: https://foreman.turkialshuaibi.com/film/ . Five individual watch pages use the final revision 13 media. The playbook version remains 3.0.1 because this release changes the website and films only.
 
 ## What was wrong
 
@@ -121,3 +121,14 @@ The current private review adds a circular screen gallery, a creative-source fil
 Read [revision12-sources.md](revision12-sources.md) for observed reference mechanisms, frame licensing, reproducibility and verification. Raw device frames are deliberately not committed; fetch them using `python films/cinema/fetch-device-frames.py` before rendering. The five `Thumb-<film-slug>` Remotion compositions generate the thumbnails. Run `mix-transient-percussion.py` with `FOREMAN_FILM_WORKSPACE` set to the existing private workspace to reproduce the audio.
 
 Revision 12 remains local for review. It does not change the live site or playbook version.
+
+
+## Published revision 13
+
+The owner approved publication after the gallery, iPad edge, material-card collision and caption-menu fixes. Gallery animation and audio arrangements are unchanged from revision 12. The gallery now uses owner-supplied portfolio, HARIS, Lustre and Onkith captures. Materials rotate as a rigid stack with fan angles only after lateral clearance. The screen mask extends beneath the iPad bezel to prevent visible seams.
+
+`manifest.json` and `captions/<film>/<language>.json` are the publication source of truth. The site generator creates five watch pages and a collection in all 33 site languages. Each watch page includes native video fallback, the customized Itqan player, eight transcript moments, English audio, 33 caption tracks, creator attribution, a stable thumbnail and VideoObject data. The collection uses ItemList data. Old `/films/` URLs redirect to `/film/` equivalents.
+
+Search implementation follows [Google video guidance](https://developers.google.com/search/docs/appearance/video), [VideoObject documentation](https://developers.google.com/search/docs/appearance/structured-data/video) and [AI feature guidance](https://developers.google.com/search/docs/appearance/ai-features). Dedicated watch pages, visible transcripts, reciprocal language URLs and a video sitemap support discovery. They do not guarantee search placement.
+
+Validation: `python scripts/audit_films.py`, `python scripts/audit_film_series.py --media`, `python scripts/audit_site.py`, `python scripts/audit_languages.py`, and `node scripts/check_films.cjs` against the local build. Asset attribution is visible on each watch page and in `/media/films/credits-v13.txt`.

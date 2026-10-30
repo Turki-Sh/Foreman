@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Strona jest gotowa. Publikacja jeszcze nie."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Przed pierwszym kliknięciem sprawdź, co zobaczą inni."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch sprawdza domenę i bezpieczne połączenie."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Podgląd, który pojawia się po udostępnieniu linku."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Drogę powrotną, gdy zabraknie strony."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Tytuły i mapę witryny, które pomagają wyszukiwarkom ją zrozumieć."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Sprawdź, co jest gotowe. Zapisz, co nadal wymaga Twojej uwagi."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Potem udostępnij. Z dopracowanymi szczegółami."
+  }
+]

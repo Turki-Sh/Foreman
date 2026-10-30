@@ -19,7 +19,7 @@ Not tied to any one agent: it is a folder of markdown, so it runs on Claude Code
 
 **[foreman.turkialshuaibi.com](https://foreman.turkialshuaibi.com/)**
 
-[Watch the films](https://foreman.turkialshuaibi.com/films/): a one-minute introduction and four focused demonstrations, all with captions in 33 languages.
+[Watch the films](https://foreman.turkialshuaibi.com/film/): five short product films, each with its own watch page, transcript and captions in 33 languages.
 
 <p align="center">
   <a href="https://foreman.turkialshuaibi.com/">

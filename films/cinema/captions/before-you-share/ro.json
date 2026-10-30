@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Site-ul este terminat. Lansarea nu."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Înainte de primul clic, verifică ce vor găsi oamenii."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch verifică domeniul și conexiunea securizată."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Previzualizarea care apare când cineva distribuie linkul."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Drumul înapoi când o pagină lipsește."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Titlurile și sitemapul care ajută motoarele de căutare să înțeleagă site-ul."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Verifică ce este gata. Notează ce mai are nevoie de tine."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Apoi distribuie. Cu detaliile puse la punct."
+  }
+]

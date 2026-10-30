@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "A weboldal kész. A közzététel még nem."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Az első kattintás előtt nézze meg, mit találnak majd az emberek."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "A Foreman Launch végigveszi a domaint és a biztonságos kapcsolatot."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Az előnézetet, amely a link megosztásakor jelenik meg."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "A visszautat, amikor egy oldal hiányzik."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "A címeket és az oldaltérképet, amelyek segítik a keresők értelmezését."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Ellenőrizze, mi kész. Tartsa számon, mihez kell még Ön."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Aztán ossza meg. Amikor a részletek is a helyükön vannak."
+  }
+]

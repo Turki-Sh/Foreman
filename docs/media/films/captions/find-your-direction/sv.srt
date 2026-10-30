@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Du vet vad du gillar. Din kodagent behöver veta varför.
+00:00:00,100 --> 00:00:03,188
+Du vet vad du gillar. Tills någon frågar varför.
 
 2
-00:00:05,000 --> 00:00:09,900
-Utgå från Turki Alshuaibis arbete och dem det ska nå.
+00:00:03,383 --> 00:00:05,928
+Hundra sparade flikar ger inte svaret.
 
 3
-00:00:10,000 --> 00:00:14,900
-Be Board hitta referenser till den här projektbeskrivningen.
+00:00:06,117 --> 00:00:09,781
+Ge Foreman Board projektbeskrivningen. Det söker relevanta referenser.
 
 4
-00:00:15,000 --> 00:00:19,900
-Ta kompositionen från en referens och typografin från en annan.
+00:00:09,967 --> 00:00:13,198
+Titta närmare. Hierarkin. Avstånden. Rörelserna.
 
 5
-00:00:20,000 --> 00:00:24,900
-Beskriv vad du vill låna och vad du vill lämna.
+00:00:13,383 --> 00:00:17,435
+Behåll idén bakom designen. Inte någon annans identitet.
 
 6
-00:00:25,000 --> 00:00:29,900
-Nu blir referenserna beslut som din agent kan använda.
+00:00:17,617 --> 00:00:20,526
+Samla valen till en riktning.
 
 7
-00:00:30,000 --> 00:00:34,900
-Välj riktningen innan du bygger sidan.
+00:00:20,717 --> 00:00:23,908
+Nu har din agent något konkret att bygga mot.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Board. Gratis och öppen källkod. Av Turki Alshuaibi.
+00:00:24,100 --> 00:00:26,139
+Mindre gissningar. Börja med Board.

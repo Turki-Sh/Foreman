@@ -1,0 +1,31 @@
+1
+00:00:00,100 --> 00:00:03,426
+Sinulla on idea. Agentillasi on tuhat oletusratkaisua.
+
+2
+00:00:03,617 --> 00:00:06,304
+Anna sille suunta, ennen kuin se rakentaa taas yhden.
+
+3
+00:00:06,500 --> 00:00:09,297
+Foreman aloittaa ihmisestä, jolle rakennat.
+
+4
+00:00:09,483 --> 00:00:12,735
+Etsi esimerkit. Valitse sopivat asiat. Jätä loput.
+
+5
+00:00:12,917 --> 00:00:16,465
+Muuta päätökset projektikuvaukseksi, jonka voit todella hyväksyä.
+
+6
+00:00:16,650 --> 00:00:19,094
+Rakenna sitten. Valinnat on jo tehty.
+
+7
+00:00:19,283 --> 00:00:22,127
+Tarkista yksityiskohdat, jotka tekevät luonnoksesta verkkosivuston.
+
+8
+00:00:22,317 --> 00:00:25,022
+Sinun ideasi. Harkiten rakennettu. Tutustu Foremaniin.

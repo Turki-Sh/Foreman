@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Sidan fungerar. Ändå känns något fel.
+00:00:00,100 --> 00:00:02,804
+Det fungerar. Varför känns det ändå ofärdigt?
 
 2
-00:00:05,000 --> 00:00:09,900
-Be Punch list granska sidan, även mobilvyn.
+00:00:03,000 --> 00:00:05,726
+Svaret finns oftast mitt framför dig.
 
 3
-00:00:10,000 --> 00:00:14,900
-En vag rubrik döljer vad Turki Alshuaibi faktiskt gör.
+00:00:05,917 --> 00:00:08,477
+Be Foreman Punch list granska sidan.
 
 4
-00:00:15,000 --> 00:00:19,900
-Tre konkurrerande knappar gör nästa steg otydligt.
+00:00:08,667 --> 00:00:12,455
+En rubrik som inte säger något. Tre knappar som tävlar om uppmärksamhet.
 
 5
-00:00:20,000 --> 00:00:24,900
-En bred layout fungerar inte på en smal skärm.
+00:00:12,650 --> 00:00:16,104
+Text som knappt går att läsa. En layout som går sönder på mobilen.
 
 6
-00:00:25,000 --> 00:00:29,900
-Rätta rubriken, välj en handling och fixa mobillayouten.
+00:00:16,300 --> 00:00:20,256
+Gör vag feedback till konkreta ändringar i prioritetsordning.
 
 7
-00:00:30,000 --> 00:00:34,900
-Kontrollera den ändrade sidan. Behåll det som löser problemet.
+00:00:20,450 --> 00:00:22,916
+Gör ändringarna. Kontrollera sidan igen.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Gratis och öppen källkod. Av Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Behåll det som fungerar. Rätta det som står i vägen.

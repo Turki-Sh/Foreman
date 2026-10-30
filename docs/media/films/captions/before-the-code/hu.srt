@@ -1,0 +1,31 @@
+1
+00:00:00,100 --> 00:00:03,426
+Önnek van egy ötlete. Az ágensnek ezer sablonos megoldása.
+
+2
+00:00:03,617 --> 00:00:06,304
+Adjon neki irányt, mielőtt elkészít még egyet.
+
+3
+00:00:06,500 --> 00:00:09,297
+A Foreman azzal az emberrel kezdi, akinek az oldal készül.
+
+4
+00:00:09,483 --> 00:00:12,735
+Keresse meg a referenciákat. Válassza ki, ami ideillik. A többit hagyja.
+
+5
+00:00:12,917 --> 00:00:16,465
+A döntésekből legyen egy projektleírás, amelyet valóban jóvá tud hagyni.
+
+6
+00:00:16,650 --> 00:00:19,094
+Aztán jöhet a kivitelezés. A döntések már megszülettek.
+
+7
+00:00:19,283 --> 00:00:22,127
+Ellenőrizze a részleteket, amelyektől a vázlat weboldallá válik.
+
+8
+00:00:22,317 --> 00:00:25,022
+Az Ön ötlete. Tudatosan megvalósítva. Ismerje meg a Foremant.

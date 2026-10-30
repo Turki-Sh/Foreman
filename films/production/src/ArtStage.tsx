@@ -153,7 +153,7 @@ export const ArtStage: React.FC<{
       ctx.fillText(
         ["DEPTH / CONTRAST", "WARMTH / TEXTURE", "LIGHT / REFLECTION"][
           n
-        ].replace(" / ", "  ·  "),
+        ].replace(" / ", "  Â·  "),
         76,
         1010,
       );
@@ -329,17 +329,13 @@ export const ArtStage: React.FC<{
           open = smooth((time - 1.65) / 1.0);
         const spread = 1 - close + open;
         const turn = smooth((time - 0.65) / 1.3) * Math.PI * 2;
+        // Rotate the stack as a rigid object. Local fan angles are only
+        // introduced once the cards have enough lateral clearance.
+        const fan = smooth((spread - 0.92) / 0.08);
+        root.rotation.set(-0.12, turn, 0);
         items.forEach((o, i) => {
-          o.position.set(
-            (i - 1) * 3.85 * spread,
-            (i - 1) * 0.1 * spread,
-            (i - 1) * 0.22 * (1 - spread),
-          );
-          o.rotation.set(
-            -0.12,
-            turn + (i - 1) * 0.24 * spread,
-            (i - 1) * 0.065 * spread,
-          );
+          o.position.set((i - 1) * 3.85 * spread, (i - 1) * 0.1 * spread, (i - 1) * 0.22);
+          o.rotation.set(0, (i - 1) * 0.24 * fan, (i - 1) * 0.065 * fan);
         });
         camera.position.z = 18;
       } else if (kind === "404") {

@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-En farve, du kan lide, er kun begyndelsen.
+00:00:00,100 --> 00:00:03,253
+En farve kan være smuk. Og stadig svigte på skærmen.
 
 2
-00:00:05,000 --> 00:00:09,900
-Bed Palette om et system baseret på blæk og papir.
+00:00:03,450 --> 00:00:06,541
+Begynd med et materiale. Blæk, papir, poleret metal.
 
 3
-00:00:10,000 --> 00:00:14,900
-Giv hver farve en opgave: baggrund, tekst, kant eller handling.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette gør referencen til et brugbart farvesystem.
 
 4
-00:00:15,000 --> 00:00:19,900
-Tjek den faktiske kombination af tekst og baggrund.
+00:00:10,500 --> 00:00:13,968
+Giv hver farve en opgave. Flade, tekst, handling, feedback.
 
 5
-00:00:20,000 --> 00:00:24,900
-Lysegrå på hvid består ikke. Mørkt blæk gør teksten læsbar.
+00:00:14,150 --> 00:00:17,217
+Tjek kontrasten dér, hvor folk faktisk skal læse.
 
 6
-00:00:25,000 --> 00:00:29,900
-Brug de samme roller i knapper, kort og det mørke tema.
+00:00:17,400 --> 00:00:20,119
+Bevar det samme udtryk fra lyst til mørkt.
 
 7
-00:00:30,000 --> 00:00:34,900
-Gem designtokens, så næste side bruger samme system.
+00:00:20,300 --> 00:00:23,504
+Gem designtokens. Brug dem i hele grænsefladen.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Gratis og open source. Af Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+En palet, du kan bygge med.

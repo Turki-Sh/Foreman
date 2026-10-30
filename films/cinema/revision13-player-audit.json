@@ -1,0 +1,109 @@
+{
+  "checks": [
+    {
+      "film": "before-the-code",
+      "width": 1440,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "find-your-direction",
+      "width": 1440,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "fix-what-feels-wrong",
+      "width": 1440,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "colour-that-works",
+      "width": 1440,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "before-you-share",
+      "width": 1440,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "before-the-code",
+      "width": 390,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "find-your-direction",
+      "width": 390,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "fix-what-feels-wrong",
+      "width": 390,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "colour-that-works",
+      "width": 390,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    },
+    {
+      "film": "before-you-share",
+      "width": 390,
+      "playback": true,
+      "seeking": true,
+      "captions": 33,
+      "customScroll": true,
+      "keyboard": true,
+      "overflow": false
+    }
+  ],
+  "arabicDefaultCaptions": true,
+  "momentDeepLink": true,
+  "legacyRedirect": true,
+  "collectionCards": 5,
+  "scriptErrors": []
+}

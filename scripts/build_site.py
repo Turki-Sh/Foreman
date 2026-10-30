@@ -18,7 +18,6 @@ import sys
 from datetime import date
 from pathlib import Path
 from localize import localize, path_for
-import film_assets
 import series_assets
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -193,13 +192,13 @@ def jsonld(meta, f):
                 {"@type": "ListItem", "position": 2, "name": meta["crumb"], "item": url},
             ],
         })
-    series = next((f for f in series_assets.FILMS if meta["path"] == "/films/"+f["slug"]+"/"),None)
+    series = next((f for f in series_assets.FILMS if meta["path"] == "/film/"+f["slug"]+"/"),None)
     if series:
         webpage["mainEntity"] = {"@id": BASE + meta["path"] + "#film"}
         graph.append(series_assets.schema(series,meta))
-    if meta["path"] == "/films/":
-        webpage["mainEntity"] = {"@id": BASE + "/films/#film"}
-        graph.append(film_assets.schema(meta))
+    if meta["path"] == "/film/":
+        webpage["mainEntity"] = {"@id": BASE + "/film/#films"}
+        graph.append(series_assets.collection_schema())
     return json.dumps({"@context": "https://schema.org", "@graph": graph}, indent=2, ensure_ascii=False)
 
 
@@ -234,10 +233,10 @@ def build(localized=True):
             "robots": meta.get("robots", "index, follow"),
             "jsonld": '<script type="application/ld+json">\n' + jsonld(meta, f) + "\n</script>" if slug != "404" else "",
         })
+        if slug == "films" or slug.startswith("film-"):
+            values["og_image"] = f"{BASE}/og/{meta.get('og', slug)}-v13.png"
         if slug == "films":
-            values["film_player"] = film_assets.player()
-            values["film_transcript"] = film_assets.transcript()
-            values["film_related"] = series_assets.related()
+            values["film_collection"] = series_assets.cards()
         if series_assets.get(slug):
             series = series_assets.get(slug)
             values["film_player"] = series_assets.player(series)
@@ -255,6 +254,8 @@ def build(localized=True):
         values["body"] = render(body, values)
         values["head"] = render(partials["head"], values)
         out = render(partials["layout"], values)
+        if series_assets.get(slug):
+            out = out.replace('<meta property="og:type" content="website">', '<meta property="og:type" content="video.other">')
         target = "404.html" if slug == "404" else ("index.html" if slug == "index" else meta["path"].strip("/")+"/index.html")
         files[target] = out
 
@@ -318,7 +319,6 @@ def build(localized=True):
         if asset.is_file():
             files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset) if asset.suffix in {".html", ".css", ".js", ".svg", ".txt"} else asset.read_bytes()
 
-    files.update(film_assets.files())
     files.update(series_assets.files())
     locales = localize(files, pages) if localized else [{"code": "en"}]
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
@@ -330,8 +330,8 @@ def build(localized=True):
         + "</urlset>\n"
     )
     files["robots.txt"] = read(SITE / "robots.txt")
-    film_meta = next(m for s,m in pages if s == "films")
-    files["video-sitemap.xml"] = film_assets.video_sitemap(locales, film_meta["description"]).replace("</urlset>",series_assets.sitemap_entries(locales)+"</urlset>")
+    files["video-sitemap.xml"] = series_assets.video_sitemap(locales)
+    files.update(series_assets.redirects(locales))
     files["llms.txt"] = render(read(SITE / "llms.txt"), dict(f, pages="\n".join(
         f"- [{m['title']}]({BASE}{m['path']}): {m['description']}" for s, m in pages if s != "404")))
     full = [render(read(SITE / "llms-full-head.txt"), f)]

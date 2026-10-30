@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Farba, ktorá sa vám páči, je len začiatok.
+00:00:00,100 --> 00:00:03,253
+Farba môže byť krásna. A predsa na obrazovke zlyhať.
 
 2
-00:00:05,000 --> 00:00:09,900
-Požiadajte Palette o systém založený na atramente a papieri.
+00:00:03,450 --> 00:00:06,541
+Začnite materiálom. Atrament, papier, leštený kov.
 
 3
-00:00:10,000 --> 00:00:14,900
-Dajte každej farbe úlohu: pozadie, text, okraj alebo akcia.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette premení túto inšpiráciu na funkčný farebný systém.
 
 4
-00:00:15,000 --> 00:00:19,900
-Skontrolujte skutočnú kombináciu textu a pozadia.
+00:00:10,500 --> 00:00:13,968
+Dajte každej farbe úlohu. Plocha, text, akcia, spätná väzba.
 
 5
-00:00:20,000 --> 00:00:24,900
-Svetlosivá na bielej neprejde. Tmavý atrament zaistí čitateľnosť.
+00:00:14,150 --> 00:00:17,217
+Skontrolujte kontrast tam, kde ľudia naozaj musia čítať.
 
 6
-00:00:25,000 --> 00:00:29,900
-Použite rovnaké úlohy pri tlačidlách, kartách a tmavom motíve.
+00:00:17,400 --> 00:00:20,119
+Zachovajte rovnaký charakter vo svetlom aj tmavom režime.
 
 7
-00:00:30,000 --> 00:00:34,900
-Uložte dizajnové tokeny, aby ďalšia stránka používala rovnaký systém.
+00:00:20,300 --> 00:00:23,504
+Uložte dizajnové tokeny. Použite ich v celom rozhraní.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Zadarmo a s otvoreným kódom. Autor: Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Paleta, s ktorou môžete tvoriť.

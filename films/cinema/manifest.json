@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "before-the-code",
+    "title": "An idea worth building.",
+    "duration": 25.116667,
+    "starts": [
+      0,
+      3.5166666666666666,
+      6.4,
+      9.383333333333333,
+      12.816666666666666,
+      16.55,
+      19.183333333333334,
+      22.21666666666667
+    ],
+    "cues": [
+      "You have an idea. Your agent has a thousand defaults.",
+      "Before it builds another one, give it a direction.",
+      "Foreman starts with the person you are building for.",
+      "Find the references. Choose what belongs. Leave the rest.",
+      "Turn those decisions into a brief you can actually approve.",
+      "Then build. With the choices already made.",
+      "Check the details that turn a draft into a website.",
+      "Your idea. Built with intention. Meet Foreman."
+    ],
+    "durations": [
+      3.5166666666666666,
+      2.8833333333333333,
+      2.9833333333333334,
+      3.433333333333333,
+      3.7333333333333334,
+      2.6333333333333333,
+      3.033333333333333,
+      2.9
+    ],
+    "speechDurations": [
+      3.2064166666666667,
+      2.567625,
+      2.6765833333333333,
+      3.1318333333333332,
+      3.428166666666667,
+      2.3244166666666666,
+      2.7240416666666665,
+      2.5852083333333336
+    ],
+    "tool": "Foreman",
+    "description": "A website idea becomes a direction, a visual system and a brief your coding agent can build from.",
+    "poster": "/media/films/before-the-code-poster-v13.jpg",
+    "video": "/media/films/before-the-code-en-1080-v13.mp4",
+    "frames": "/media/films/before-the-code-frames-v13.jpg"
+  },
+  {
+    "slug": "find-your-direction",
+    "title": "Find your direction.",
+    "duration": 26.55,
+    "starts": [
+      0,
+      3.283333333333333,
+      6.016666666666667,
+      9.866666666666667,
+      13.283333333333333,
+      17.516666666666666,
+      20.616666666666667,
+      24.0
+    ],
+    "cues": [
+      "You know what you like. Until someone asks you why.",
+      "A hundred saved tabs will not answer that.",
+      "Give Foreman Board the brief. It looks for relevant references.",
+      "Look closer. The hierarchy. The spacing. The way it moves.",
+      "Keep the idea behind the design. Not somebody else's identity.",
+      "Bring those choices together into one direction.",
+      "Now your agent has something specific to build toward.",
+      "Less guessing. Start with Board."
+    ],
+    "durations": [
+      3.283333333333333,
+      2.7333333333333334,
+      3.85,
+      3.4166666666666665,
+      4.233333333333333,
+      3.1,
+      3.3833333333333333,
+      2.55
+    ],
+    "speechDurations": [
+      2.968208333333333,
+      2.4245833333333335,
+      3.544375,
+      3.111125,
+      3.931958333333333,
+      2.7897083333333335,
+      3.0710416666666664,
+      1.9189583333333333
+    ],
+    "tool": "Board",
+    "description": "Turn references into specific design decisions with Foreman Board.",
+    "poster": "/media/films/find-your-direction-poster-v13.jpg",
+    "video": "/media/films/find-your-direction-en-1080-v13.mp4",
+    "frames": "/media/films/find-your-direction-frames-v13.jpg"
+  },
+  {
+    "slug": "fix-what-feels-wrong",
+    "title": "Something feels wrong.",
+    "duration": 25.783333,
+    "starts": [
+      0,
+      2.9,
+      5.816666666666666,
+      8.566666666666666,
+      12.55,
+      16.2,
+      20.35,
+      23.0
+    ],
+    "cues": [
+      "It works. So why does it still feel unfinished?",
+      "The answer is usually hiding in plain sight.",
+      "Ask Foreman Punch list to inspect the page.",
+      "A headline that says nothing. Three buttons competing for attention.",
+      "Text you can barely read. A layout that breaks on mobile.",
+      "Turn vague feedback into specific changes, in priority order.",
+      "Make the changes. Check the page again.",
+      "Keep what works. Fix what gets in the way."
+    ],
+    "durations": [
+      2.9,
+      2.9166666666666665,
+      2.75,
+      3.9833333333333334,
+      3.65,
+      4.15,
+      2.65,
+      2.783333333333333
+    ],
+    "speechDurations": [
+      2.5840833333333335,
+      2.606375,
+      2.440375,
+      3.668833333333333,
+      3.3335416666666666,
+      3.836125,
+      2.3461666666666665,
+      2.48075
+    ],
+    "tool": "Punch list",
+    "description": "See how a Foreman punch list turns vague design feedback into specific fixes.",
+    "poster": "/media/films/fix-what-feels-wrong-poster-v13.jpg",
+    "video": "/media/films/fix-what-feels-wrong-en-1080-v13.mp4",
+    "frames": "/media/films/fix-what-feels-wrong-frames-v13.jpg"
+  },
+  {
+    "slug": "colour-that-works",
+    "title": "Colour with a job to do.",
+    "duration": 26.15,
+    "starts": [
+      0,
+      3.35,
+      6.633333333333333,
+      10.399999999999999,
+      14.049999999999999,
+      17.299999999999997,
+      20.199999999999996,
+      23.599999999999994
+    ],
+    "cues": [
+      "A colour can look beautiful. And still fail on screen.",
+      "Start with a material. Ink, paper, polished metal.",
+      "Foreman Palette turns that reference into a working colour system.",
+      "Give every colour a job. Surface, text, action, feedback.",
+      "Check the contrast where people actually have to read.",
+      "Carry the same character from light into dark.",
+      "Save the tokens. Use them across the whole interface.",
+      "A palette you can build with."
+    ],
+    "durations": [
+      3.35,
+      3.283333333333333,
+      3.7666666666666666,
+      3.65,
+      3.25,
+      2.9,
+      3.4,
+      2.55
+    ],
+    "speechDurations": [
+      3.0334166666666667,
+      2.9712916666666667,
+      3.4555,
+      3.3485,
+      2.9475,
+      2.5993333333333335,
+      3.0843333333333334,
+      1.6236666666666666
+    ],
+    "tool": "Palette",
+    "description": "Build a material-based palette, assign colour roles and check readable combinations.",
+    "poster": "/media/films/colour-that-works-poster-v13.jpg",
+    "video": "/media/films/colour-that-works-en-1080-v13.mp4",
+    "frames": "/media/films/colour-that-works-frames-v13.jpg"
+  },
+  {
+    "slug": "before-you-share",
+    "title": "Before the first click.",
+    "duration": 24.666667,
+    "starts": [
+      0,
+      2.8333333333333335,
+      5.883333333333333,
+      9.483333333333333,
+      12.483333333333333,
+      15.033333333333331,
+      18.833333333333332,
+      22.03333333333333
+    ],
+    "cues": [
+      "The website is finished. The launch is not.",
+      "Before the first click, check what people will find.",
+      "Foreman Launch walks through the domain and secure connection.",
+      "The preview that appears when someone shares your link.",
+      "The way back when a page goes missing.",
+      "The titles and sitemap that help search engines understand it.",
+      "Check what is ready. Keep track of what still needs you.",
+      "Then share it. With the details in place."
+    ],
+    "durations": [
+      2.8333333333333335,
+      3.05,
+      3.6,
+      3.0,
+      2.55,
+      3.8,
+      3.2,
+      2.6333333333333333
+    ],
+    "speechDurations": [
+      2.519416666666667,
+      2.74225,
+      3.291333333333333,
+      2.69,
+      2.0382083333333334,
+      3.4876666666666667,
+      2.886125,
+      2.3260833333333335
+    ],
+    "tool": "Launch",
+    "description": "Check the domain, share preview and discovery files before sending your website link.",
+    "poster": "/media/films/before-you-share-poster-v13.jpg",
+    "video": "/media/films/before-you-share-en-1080-v13.mp4",
+    "frames": "/media/films/before-you-share-frames-v13.jpg"
+  }
+]

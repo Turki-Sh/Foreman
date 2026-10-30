@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.900
-A colour you like is only the start.
+00:00:00.100 --> 00:00:03.253
+A colour can look beautiful. And still fail on screen.
 
 2
-00:00:05.000 --> 00:00:09.900
-Ask Palette for a system built from ink and paper.
+00:00:03.450 --> 00:00:06.541
+Start with a material. Ink, paper, polished metal.
 
 3
-00:00:10.000 --> 00:00:14.900
-Give each colour a job: background, text, border, action.
+00:00:06.733 --> 00:00:10.309
+Foreman Palette turns that reference into a working colour system.
 
 4
-00:00:15.000 --> 00:00:19.900
-Check the actual text and background combination.
+00:00:10.500 --> 00:00:13.968
+Give every colour a job. Surface, text, action, feedback.
 
 5
-00:00:20.000 --> 00:00:24.900
-Pale grey on white fails. Dark ink makes the text readable.
+00:00:14.150 --> 00:00:17.217
+Check the contrast where people actually have to read.
 
 6
-00:00:25.000 --> 00:00:29.900
-Carry the same roles into buttons, cards and the dark theme.
+00:00:17.400 --> 00:00:20.119
+Carry the same character from light into dark.
 
 7
-00:00:30.000 --> 00:00:34.900
-Save the tokens so the next page uses the same system.
+00:00:20.300 --> 00:00:23.504
+Save the tokens. Use them across the whole interface.
 
 8
-00:00:35.000 --> 00:00:39.900
-Foreman Palette. Free and open source. By Turki Alshuaibi.
+00:00:23.700 --> 00:00:25.444
+A palette you can build with.

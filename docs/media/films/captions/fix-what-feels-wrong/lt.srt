@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Puslapis veikia. Tačiau kažkas vis dar ne taip.
+00:00:00,100 --> 00:00:02,804
+Veikia. Kodėl vis dar atrodo nebaigta?
 
 2
-00:00:05,000 --> 00:00:09,900
-Paprašyk Punch list patikrinti puslapį, taip pat ir mobiliajame ekrane.
+00:00:03,000 --> 00:00:05,726
+Atsakymas dažniausiai yra tiesiai prieš akis.
 
 3
-00:00:10,000 --> 00:00:14,900
-Miglota antraštė slepia, ką iš tiesų daro Turki Alshuaibi.
+00:00:05,917 --> 00:00:08,477
+Paprašyk Foreman Punch list patikrinti puslapį.
 
 4
-00:00:15,000 --> 00:00:19,900
-Trys konkuruojantys mygtukai užgožia kitą žingsnį.
+00:00:08,667 --> 00:00:12,455
+Nieko nesakanti antraštė. Trys mygtukai varžosi dėl dėmesio.
 
 5
-00:00:20,000 --> 00:00:24,900
-Platus išdėstymas subyra siaurame ekrane.
+00:00:12,650 --> 00:00:16,104
+Vos įskaitomas tekstas. Telefone subyrantis išdėstymas.
 
 6
-00:00:25,000 --> 00:00:29,900
-Pataisyk antraštę, pasirink vieną veiksmą ir sutvarkyk mobilųjį išdėstymą.
+00:00:16,300 --> 00:00:20,256
+Paversk miglotas pastabas konkrečiais pakeitimais pagal svarbą.
 
 7
-00:00:30,000 --> 00:00:34,900
-Patikrink atnaujintą puslapį. Palik pataisymus, kurie išsprendžia problemą.
+00:00:20,450 --> 00:00:22,916
+Atlik pakeitimus. Dar kartą patikrink puslapį.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Nemokamas ir atvirojo kodo. Autorius: Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Palik, kas veikia. Pataisyk, kas trukdo.

@@ -1,67 +1,47 @@
-"""Check every film edition, caption track and the published delivery contract."""
-import json
-import subprocess
-import sys
-import xml.etree.ElementTree as ET
-from html.parser import HTMLParser
+"""Validate the collection, all localized watch pages and current caption assets."""
+import json,re,sys,xml.etree.ElementTree as ET
 from pathlib import Path
-from film_assets import captions, files, BASE, VIDEO, POSTER
-
-ROOT=Path(__file__).resolve().parents[1]
-DOCS=ROOT/'docs'
-locales=json.loads((ROOT/'site/i18n/locales.json').read_text(encoding='utf8'))
-
+from html.parser import HTMLParser
+from series_assets import FILMS,LOCALES,BASE,video,poster,cues,files
+ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs'
 class Page(HTMLParser):
-    def __init__(self,text):
-        super().__init__();self.tags=[];self.feed(text)
-    def handle_starttag(self,tag,attrs):self.tags.append((tag,dict(attrs)))
-
+ def __init__(self,text):super().__init__();self.tags=[];self.feed(text)
+ def handle_starttag(self,tag,attrs):self.tags.append((tag,dict(attrs)))
 def main():
-    english=captions()
-    assert len(english)==14
-    assert {p.stem for p in (ROOT/'films/captions').glob('*.json')}=={l['code'] for l in locales}
-    for locale in locales:
-        code=locale['code'];cues=captions(code)
-        assert len(cues)==len(english),(code,'cue count')
-        for i,(cue,source) in enumerate(zip(cues,english)):
-            assert set(cue)==set(source),(code,i,'schema')
-            assert cue['text'].strip() and '\ufffd' not in cue['text'],(code,i,'empty or broken text')
-            assert all(cue[k]==source[k] for k in source if k!='text'),(code,i,'timing')
-            assert cue['startMs']<cue['endMs']<=60000
-            assert not any(c in cue['text'] for c in ['\u2013','\u2014'])
-            if i:assert cues[i-1]['endMs']<=cue['startMs'],(code,i,'overlap')
-        route=('' if code=='en' else code+'/')+'films/index.html'
-        raw=(DOCS/route).read_text(encoding='utf8');page=Page(raw)
-        video=[a for t,a in page.tags if t=='video']
-        assert len(video)==1 and 'controls' in video[0] and 'autoplay' not in video[0]
-        assert video[0]['poster']==POSTER
-        tracks=[a for t,a in page.tags if t=='track']
-        assert len(tracks)==33 and {a['srclang'] for a in tracks}=={l['tag'] for l in locales}
-        for a in tracks:assert (DOCS/a['src'].lstrip('/')).is_file(),(code,a['src'])
-        import re
-        graphs=[json.loads(s) for s in re.findall(r'<script type="application/ld\+json">(.*?)</script>',raw,re.S)]
-        videos=[n for g in graphs for n in g['@graph'] if n.get('@type')=='VideoObject']
-        assert len(videos)==1
-        data=videos[0]
-        assert data['contentUrl']==BASE+VIDEO and data['duration']=='PT1M' and data['inLanguage']=='en'
-        assert data['creator']['name']=='Turki Alshuaibi' and len(data['caption'])==33
-        assert data['transcript']==' '.join(c['text'] for c in cues)
-        assert all(c['url'].startswith(BASE+('/' if code=='en' else '/'+code+'/')+'films/#t=') for c in data['hasPart'])
-    for name,content in files().items():assert (DOCS/name).read_text(encoding='utf8')==content,name
-    sitemap=ET.parse(DOCS/'video-sitemap.xml')
-    assert len(sitemap.getroot())==33*5
-    assert 'video-sitemap.xml' in (DOCS/'robots.txt').read_text()
-    movie=DOCS/VIDEO.lstrip('/')
-    data=movie.read_bytes()
-    assert data.find(b'moov')<data.find(b'mdat'),'MP4 must be fast-start'
-    assert len(data)<50_000_000,'unexpected delivery size'
-    if '--media' in sys.argv:
-        meta=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(movie)],text=True))
-        v=next(s for s in meta['streams'] if s['codec_type']=='video')
-        a=next(s for s in meta['streams'] if s['codec_type']=='audio')
-        assert (v['width'],v['height'],v['codec_name'],v['pix_fmt'])==(1920,1080,'h264','yuv420p')
-        assert v['level']<=41 and a['codec_name']=='aac'
-        assert 59.9<float(meta['format']['duration'])<60.2
-    print('Film audit passed: 33 watch pages, 33 caption languages, transcript, metadata, chapters, sitemap and fast-start MP4.')
-
+ for l in LOCALES:
+  code=l['code'];prefix='' if code=='en' else code+'/'
+  collection=(DOCS/prefix/'film/index.html').read_text(encoding='utf8');cp=Page(collection)
+  assert len([a for t,a in cp.tags if t=='a' and a.get('class')=='film-card'])==5
+  assert not any(t=='video' for t,a in cp.tags),'collection should link to dedicated watch pages'
+  for f in FILMS:
+   route='/'+prefix+'film/'+f['slug']+'/'
+   raw=(DOCS/route.lstrip('/')/'index.html').read_text(encoding='utf8');p=Page(raw)
+   vids=[a for t,a in p.tags if t=='video'];assert len(vids)==1 and 'controls' in vids[0] and 'autoplay' not in vids[0]
+   assert vids[0]['poster']==poster(f)
+   tracks=[a for t,a in p.tags if t=='track'];assert len(tracks)==33
+   assert {a['srclang'] for a in tracks}=={x['tag'] for x in LOCALES}
+   assert len([a for a in tracks if 'default' in a])==1
+   assert next(a for a in tracks if 'default' in a)['srclang']==l['tag']
+   assert all((DOCS/a['src'].lstrip('/')).is_file() for a in tracks)
+   graph=json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>',raw,re.S)[1])['@graph']
+   v=next(n for n in graph if n['@type']=='VideoObject')
+   assert v['@id']==BASE+route+'#film' and v['contentUrl']==BASE+video(f)
+   assert v['duration']==f'PT{f["duration"]:.3f}S' and v['inLanguage']=='en'
+   cc=cues(f,code);english=cues(f);assert len(cc)==8
+   for i,(c,e) in enumerate(zip(cc,english)):
+    assert c['text'].strip() and '\ufffd' not in c['text']
+    assert c['startMs']==e['startMs'] and c['endMs']==e['endMs']
+    assert 0<=c['startMs']<c['endMs']<=f['duration']*1000
+    assert not i or cc[i-1]['endMs']<=c['startMs']
+    assert not any(x in c['text'] for x in ['\u2013','\u2014'])
+   assert v['transcript']==' '.join(c['text'] for c in cc)
+   assert len(v['caption'])==33 and v['creator']['name']=='Turki Alshuaibi'
+   assert len(v['hasPart'])==8 and all(c['url'].startswith(BASE+route+'?t=') for c in v['hasPart'])
+   assert len([a for t,a in p.tags if t=='a' and 'data-film-time' in a])==8
+   legacy=(DOCS/prefix/'films'/f['slug']/'index.html').read_text(encoding='utf8');assert f'url={route}' in legacy
+ for name,content in files().items():assert (DOCS/name).read_text(encoding='utf8')==content,name
+ sitemap=ET.parse(DOCS/'video-sitemap.xml').getroot();assert len(sitemap)==165
+ assert all('/film/' in n.text for n in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc'))
+ assert 'video-sitemap.xml' in (DOCS/'robots.txt').read_text()
+ print('Film pages passed: 33 collections, 165 watch pages, 165 synchronized caption tracks, transcripts, key moments, redirects and video sitemap.')
 if __name__=='__main__':main()

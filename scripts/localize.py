@@ -2,6 +2,7 @@
 import html
 import json
 import re
+import series_assets
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -10,8 +11,9 @@ BASE = 'https://foreman.turkialshuaibi.com'
 I18N = ROOT / 'site/i18n'
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 SKIP = {'script','style','pre','code','svg'}
-SOURCE_CLASSES = {'chat','fm','session-replay','log','footer-code'}
+SOURCE_CLASSES = {'film-asset-credit','chat','fm','session-replay','log','footer-code'}
 ROUTES = {'/','/modes/','/board/','/punch-list/','/palette/','/launch/','/install/','/changelog/','/404.html','/films/','/films/find-your-direction/','/films/fix-what-feels-wrong/','/films/colour-that-works/','/films/before-you-share/'}
+ROUTES.update({'/film/'} | {'/film/'+f['slug']+'/' for f in series_assets.FILMS})
 ATTRS = {'alt','aria-label','title'}
 
 def normalize(value):
@@ -107,6 +109,7 @@ def localize(files, pages):
             out=re.sub(r'aria-valuetext="50 percent reference-guided portfolio"',lambda _: 'aria-valuetext="50% '+html.escape(catalog.get('With Foreman','With Foreman'),quote=True)+'"',out)
             canonical = BASE+path_for(code,route)
             image = BASE+'/og/'+meta.get('og',slug)+(('-'+code+'-v3') if code!='en' else '-v2')+'.png'
+            if slug=='films' or slug.startswith('film-'):image=BASE+'/og/'+meta.get('og',slug)+('' if code=='en' else '-'+code)+'-v13.png'
             for key,english in [('title',meta['title']),('description',meta['description']),('og_alt',meta.get('og_alt',meta['title']))]:
                 localized = html.escape(catalog.get(english,english),quote=True)
                 if key=='title':
@@ -127,16 +130,26 @@ def localize(files, pages):
                     if node.get('@type')=='WebPage':
                         node.update({'@id':canonical+'#page','url':canonical,'inLanguage':lang['tag'],'name':catalog.get(meta['title'],meta['title']),'description':catalog.get(meta['description'],meta['description'])})
                         node['primaryImageOfPage']={'@type':'ImageObject','url':image,'width':1200,'height':630}
-                        if 'mainEntity' in node and (slug=='films' or slug.startswith('film-')):node['mainEntity']={'@id':canonical+'#film'}
+                        if slug.startswith('film-'):node['mainEntity']={'@id':canonical+'#film'}
+                        if slug=='films':node['mainEntity']={'@id':canonical+'#films'}
                         if 'breadcrumb' in node:node['breadcrumb']={'@id':canonical+'#crumbs'}
                     if node.get('@type')=='VideoObject':
                         node['@id']=canonical+'#film'
                         node['name']=catalog.get(node['name'],node['name'])
                         node['description']=catalog.get(meta['description'],meta['description'])
-                        node['transcript']=' '.join(catalog.get(c,c) for c in next(f for f in json.loads((ROOT/'films/series/manifest.json').read_text(encoding='utf8')) if 'film-'+f['slug']==slug)['cues']) if slug.startswith('film-') else ' '.join(c['text'] for c in json.loads((ROOT/'films/captions'/(code+'.json')).read_text(encoding='utf-8-sig')))
+                        node['transcript']=' '.join(c['text'] for c in series_assets.cues(series_assets.get(slug),code))
+                        node['url']=canonical
+                        node['mainEntityOfPage']={'@id':canonical+'#page'}
+                        node['potentialAction']['target']=canonical+'?t={seek_to_second_number}'
                         for clip in node.get('hasPart',[]):
                             clip['name']=catalog.get(clip['name'],clip['name'])
-                            clip['url']=canonical+'#t='+str(clip['startOffset'])
+                            clip['url']=canonical+'?t='+str(clip['startOffset'])
+                    if node.get('@type')=='ItemList':
+                        node['@id']=canonical+'#films'
+                        node['name']=catalog.get(node['name'],node['name'])
+                        for item in node['itemListElement']:
+                            item['name']=catalog.get(item['name'],item['name'])
+                            item['url']=BASE+path_for(code,item['url'][len(BASE):])
                     if node.get('@type')=='WebSite':node['inLanguage']=[l['tag'] for l in locales]
                     if node.get('@type')=='SoftwareApplication':
                         node['inLanguage']='en'
@@ -166,7 +179,7 @@ def localize(files, pages):
             if slug.startswith('film-'):
                 folder=slug.removeprefix('film-')
                 out=out.replace(f'href="/media/films/captions/{folder}/en.srt"',f'href="/media/films/captions/{folder}/{code}.srt"')
-                if code!='en':out=out.replace(f'src="/media/films/captions/{folder}/{code}.vtt"',f'src="/media/films/captions/{folder}/{code}.vtt" default')
+                out=out.replace(f'src="/media/films/captions/{folder}/{code}.vtt"',f'src="/media/films/captions/{folder}/{code}.vtt" default')
             if slug=='films':
                 out=out.replace('href="/media/films/captions/en.srt"',f'href="/media/films/captions/{code}.srt"')
                 if code!='en':out=out.replace(f'src="/media/films/captions/{code}.vtt"',f'src="/media/films/captions/{code}.vtt" default')

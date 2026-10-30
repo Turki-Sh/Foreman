@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3253,
+    "text": "En farge kan være vakker. Og likevel ikke fungere på skjermen."
+  },
+  {
+    "startMs": 3450,
+    "endMs": 6541,
+    "text": "Start med et materiale. Blekk, papir, polert metall."
+  },
+  {
+    "startMs": 6733,
+    "endMs": 10309,
+    "text": "Foreman Palette gjør referansen til et fungerende fargesystem."
+  },
+  {
+    "startMs": 10500,
+    "endMs": 13968,
+    "text": "Gi hver farge en oppgave. Flate, tekst, handling, tilbakemelding."
+  },
+  {
+    "startMs": 14150,
+    "endMs": 17217,
+    "text": "Sjekk kontrasten der folk faktisk skal lese."
+  },
+  {
+    "startMs": 17400,
+    "endMs": 20119,
+    "text": "Behold det samme uttrykket fra lyst til mørkt."
+  },
+  {
+    "startMs": 20300,
+    "endMs": 23504,
+    "text": "Lagre designtokens. Bruk dem i hele grensesnittet."
+  },
+  {
+    "startMs": 23700,
+    "endMs": 25444,
+    "text": "En palett du kan bygge med."
+  }
+]

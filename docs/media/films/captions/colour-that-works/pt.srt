@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Uma cor de que você gosta é só o começo.
+00:00:00,100 --> 00:00:03,253
+Uma cor pode ser linda. E ainda assim falhar na tela.
 
 2
-00:00:05,000 --> 00:00:09,900
-Peça ao Palette um sistema baseado em tinta e papel.
+00:00:03,450 --> 00:00:06,541
+Comece por um material. Tinta, papel, metal polido.
 
 3
-00:00:10,000 --> 00:00:14,900
-Dê uma função a cada cor: fundo, texto, borda, ação.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette transforma a referência em um sistema de cores funcional.
 
 4
-00:00:15,000 --> 00:00:19,900
-Confira a combinação real entre texto e fundo.
+00:00:10,500 --> 00:00:13,968
+Dê uma função a cada cor. Superfície, texto, ação, retorno.
 
 5
-00:00:20,000 --> 00:00:24,900
-Cinza claro sobre branco não passa. Tinta escura deixa o texto legível.
+00:00:14,150 --> 00:00:17,217
+Confira o contraste onde as pessoas realmente precisam ler.
 
 6
-00:00:25,000 --> 00:00:29,900
-Mantenha as mesmas funções nos botões, cartões e tema escuro.
+00:00:17,400 --> 00:00:20,119
+Mantenha a mesma identidade do tema claro ao escuro.
 
 7
-00:00:30,000 --> 00:00:34,900
-Salve os tokens de design para usar o mesmo sistema na próxima página.
+00:00:20,300 --> 00:00:23,504
+Salve os tokens. Use em toda a interface.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Gratuito e de código aberto. Por Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Uma paleta pronta para construir.

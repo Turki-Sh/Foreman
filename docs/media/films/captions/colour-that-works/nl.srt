@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Een kleur die je mooi vindt is pas het begin.
+00:00:00,100 --> 00:00:03,253
+Een kleur kan mooi zijn. En toch niet werken op een scherm.
 
 2
-00:00:05,000 --> 00:00:09,900
-Vraag Palette om een systeem op basis van inkt en papier.
+00:00:03,450 --> 00:00:06,541
+Begin met een materiaal. Inkt, papier, gepolijst metaal.
 
 3
-00:00:10,000 --> 00:00:14,900
-Geef elke kleur een taak: achtergrond, tekst, rand of actie.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette maakt van dat voorbeeld een bruikbaar kleursysteem.
 
 4
-00:00:15,000 --> 00:00:19,900
-Controleer de echte combinatie van tekst en achtergrond.
+00:00:10,500 --> 00:00:13,968
+Geef elke kleur een taak. Oppervlak, tekst, actie, feedback.
 
 5
-00:00:20,000 --> 00:00:24,900
-Lichtgrijs op wit voldoet niet. Donkere inkt maakt de tekst leesbaar.
+00:00:14,150 --> 00:00:17,217
+Controleer het contrast waar mensen echt moeten lezen.
 
 6
-00:00:25,000 --> 00:00:29,900
-Gebruik dezelfde rollen voor knoppen, kaarten en het donkere thema.
+00:00:17,400 --> 00:00:20,119
+Behoud hetzelfde karakter, van licht naar donker.
 
 7
-00:00:30,000 --> 00:00:34,900
-Bewaar de ontwerptokens, zodat de volgende pagina hetzelfde systeem gebruikt.
+00:00:20,300 --> 00:00:23,504
+Bewaar de ontwerptokens. Gebruik ze in de hele interface.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Gratis en open source. Door Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Een palet waarmee je kunt bouwen.

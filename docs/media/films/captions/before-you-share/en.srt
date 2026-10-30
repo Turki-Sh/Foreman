@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Your site is ready. Is the link ready to share?
+00:00:00,100 --> 00:00:02,739
+The website is finished. The launch is not.
 
 2
-00:00:05,000 --> 00:00:09,900
-Ask Launch to check the address and HTTPS.
+00:00:02,933 --> 00:00:05,796
+Before the first click, check what people will find.
 
 3
-00:00:10,000 --> 00:00:14,900
-Check the title, description and image people will see.
+00:00:05,983 --> 00:00:09,395
+Foreman Launch walks through the domain and secure connection.
 
 4
-00:00:15,000 --> 00:00:19,900
-Give Turki Alshuaibi a clear preview of the work.
+00:00:09,583 --> 00:00:12,393
+The preview that appears when someone shares your link.
 
 5
-00:00:20,000 --> 00:00:24,900
-Test a missing page and the links that lead back.
+00:00:12,583 --> 00:00:14,742
+The way back when a page goes missing.
 
 6
-00:00:25,000 --> 00:00:29,900
-Check the sitemap and whether crawlers can reach the page.
+00:00:15,133 --> 00:00:18,741
+The titles and sitemap that help search engines understand it.
 
 7
-00:00:30,000 --> 00:00:34,900
-Submit for indexing. Search engines decide when to include it.
+00:00:18,933 --> 00:00:21,939
+Check what is ready. Keep track of what still needs you.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Launch. Free and open source. By Turki Alshuaibi.
+00:00:22,133 --> 00:00:24,579
+Then share it. With the details in place.

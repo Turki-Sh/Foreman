@@ -74,6 +74,14 @@ def main():
         page = Page(raw)
         def check(ok, message):
             if not ok: failures.append(f'{rel}: {message}')
+        refresh = re.search(r'<meta http-equiv="refresh" content="0;url=([^"]+)"',raw)
+        if refresh:
+            destination=refresh[1]
+            check(destination.startswith('/') and '/film/' in destination, 'unexpected redirect target')
+            check(page.canonical == [BASE + destination], 'redirect canonical must match destination')
+            check('noindex' in page.meta.get('robots',''), 'legacy redirect must not be indexed')
+            check(local(BASE+destination).is_file(), 'redirect target missing')
+            continue
         check(page.canonical == [BASE + route], 'canonical must match page')
         title = re.findall(r'<title>(.*?)</title>', raw, re.S)
         check(len(title) == 1 and bool(title[0].strip()), 'missing or duplicate title')

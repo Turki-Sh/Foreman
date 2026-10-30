@@ -5,7 +5,7 @@ import { Device } from "./RevisionScenes";
 const titles = [
   "An idea worth building.",
   "Find your direction.",
-  "Fix what feels wrong.",
+  "Something feels wrong.",
   "Colour with a job to do.",
   "Before the first click.",
 ];

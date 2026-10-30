@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Funziona. Perché sembra ancora incompleto?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "La risposta è spesso proprio sotto gli occhi."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Chiedi a Foreman Punch list di esaminare la pagina."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Un titolo che non dice nulla. Tre pulsanti in cerca di attenzione."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Testo quasi illeggibile. Un layout che si rompe su mobile."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Trasforma commenti vaghi in modifiche precise, in ordine di priorità."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Applica le modifiche. Ricontrolla la pagina."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Tieni ciò che funziona. Correggi ciò che ostacola."
+  }
+]

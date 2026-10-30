@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Viete, čo sa vám páči. Váš programovací agent potrebuje vedieť prečo.
+00:00:00,100 --> 00:00:03,188
+Viete, čo sa vám páči. Kým sa niekto nespýta prečo.
 
 2
-00:00:05,000 --> 00:00:09,900
-Začnite tvorbou Turki Alshuaibi a ľuďmi, ktorých má osloviť.
+00:00:03,383 --> 00:00:05,928
+Sto uložených kariet vám neodpovie.
 
 3
-00:00:10,000 --> 00:00:14,900
-Požiadajte Board o inšpiráciu pre toto zadanie.
+00:00:06,117 --> 00:00:09,781
+Dajte Foreman Board zadanie. Vyhľadá vhodnú inšpiráciu.
 
 4
-00:00:15,000 --> 00:00:19,900
-Prevezmite kompozíciu z jedného príkladu a typografiu z iného.
+00:00:09,967 --> 00:00:13,198
+Pozrite sa bližšie. Hierarchia. Odstupy. Pohyb.
 
 5
-00:00:20,000 --> 00:00:24,900
-Určite, čo prevezmete a čo vynecháte.
+00:00:13,383 --> 00:00:17,435
+Prevezmite myšlienku návrhu. Nie cudziu identitu.
 
 6
-00:00:25,000 --> 00:00:29,900
-Inšpirácia sa teraz mení na rozhodnutia, ktoré agent môže použiť.
+00:00:17,617 --> 00:00:20,526
+Spojte tieto voľby do jedného smeru.
 
 7
-00:00:30,000 --> 00:00:34,900
-Zvoľte smer ešte pred tvorbou stránky.
+00:00:20,717 --> 00:00:23,908
+Agent má teraz konkrétny cieľ, ku ktorému môže tvoriť.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Board. Zadarmo a s otvoreným kódom. Autor: Turki Alshuaibi.
+00:00:24,100 --> 00:00:26,139
+Menej hádania. Začnite s nástrojom Board.

@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Az oldal működik. Valami mégsem stimmel.
+00:00:00,100 --> 00:00:02,804
+Működik. Akkor miért tűnik még mindig befejezetlennek?
 
 2
-00:00:05,000 --> 00:00:09,900
-Kérje meg a Punch listet az oldal és a mobilnézet ellenőrzésére.
+00:00:03,000 --> 00:00:05,726
+A válasz általában ott van az orra előtt.
 
 3
-00:00:10,000 --> 00:00:14,900
-Egy homályos főcím elfedi, mivel foglalkozik valójában Turki Alshuaibi.
+00:00:05,917 --> 00:00:08,477
+Kérje meg a Foreman Punch listet az oldal ellenőrzésére.
 
 4
-00:00:15,000 --> 00:00:19,900
-Három versengő gomb miatt nem világos a következő lépés.
+00:00:08,667 --> 00:00:12,455
+Egy semmitmondó főcím. Három gomb verseng a figyelemért.
 
 5
-00:00:20,000 --> 00:00:24,900
-A széles elrendezés szétesik egy keskeny képernyőn.
+00:00:12,650 --> 00:00:16,104
+Alig olvasható szöveg. Mobilon széteső elrendezés.
 
 6
-00:00:25,000 --> 00:00:29,900
-Javítsa a főcímet, válasszon egy műveletet, és javítsa a mobilnézetet.
+00:00:16,300 --> 00:00:20,256
+A homályos visszajelzésből legyenek konkrét változtatások, fontossági sorrendben.
 
 7
-00:00:30,000 --> 00:00:34,900
-Ellenőrizze az átdolgozott oldalt. Tartsa meg a problémát megoldó javításokat.
+00:00:20,450 --> 00:00:22,916
+Végezze el a módosításokat. Ellenőrizze újra az oldalt.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Ingyenes és nyílt forráskódú. Alkotó: Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Tartsa meg, ami működik. Javítsa ki, ami akadályoz.

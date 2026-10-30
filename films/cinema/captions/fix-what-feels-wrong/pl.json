@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Działa. Dlaczego więc wciąż wygląda na niedokończone?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Odpowiedź zwykle jest tuż przed oczami."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Poproś Foreman Punch list o sprawdzenie strony."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Nagłówek, który nic nie mówi. Trzy przyciski walczące o uwagę."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Tekst, który ledwo da się przeczytać. Układ psujący się na telefonie."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Zamień niejasne uwagi w konkretne zmiany, według priorytetów."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Wprowadź zmiany. Sprawdź stronę ponownie."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Zachowaj to, co działa. Popraw to, co przeszkadza."
+  }
+]

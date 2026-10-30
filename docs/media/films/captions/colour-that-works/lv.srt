@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Krāsa, kas tev patīk, ir tikai sākums.
+00:00:00,100 --> 00:00:03,253
+Krāsa var izskatīties skaista. Un tomēr ekrānā nederēt.
 
 2
-00:00:05,000 --> 00:00:09,900
-Lūdz Palette sistēmu, kas balstīta tintē un papīrā.
+00:00:03,450 --> 00:00:06,541
+Sāc ar materiālu. Tinte, papīrs, pulēts metāls.
 
 3
-00:00:10,000 --> 00:00:14,900
-Piešķir katrai krāsai uzdevumu: fons, teksts, apmale, darbība.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette pārvērš šo paraugu funkcionālā krāsu sistēmā.
 
 4
-00:00:15,000 --> 00:00:19,900
-Pārbaudi faktisko teksta un fona kombināciju.
+00:00:10,500 --> 00:00:13,968
+Piešķir katrai krāsai uzdevumu. Virsma, teksts, darbība, atgriezeniskā saite.
 
 5
-00:00:20,000 --> 00:00:24,900
-Gaiši pelēks uz balta neder. Tumša tinte padara tekstu salasāmu.
+00:00:14,150 --> 00:00:17,217
+Pārbaudi kontrastu tur, kur cilvēkiem patiešām jālasa.
 
 6
-00:00:25,000 --> 00:00:29,900
-Izmanto tās pašas lomas pogās, kartītēs un tumšajā tēmā.
+00:00:17,400 --> 00:00:20,119
+Saglabā to pašu raksturu gan gaišajā, gan tumšajā tēmā.
 
 7
-00:00:30,000 --> 00:00:34,900
-Saglabā dizaina mainīgos, lai nākamā lapa izmantotu to pašu sistēmu.
+00:00:20,300 --> 00:00:23,504
+Saglabā dizaina mainīgos. Izmanto tos visā saskarnē.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Bezmaksas un ar atvērtu pirmkodu. Autors: Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Palete, ar kuru vari veidot.

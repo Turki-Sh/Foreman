@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Website đã sẵn sàng. Liên kết đã sẵn sàng để chia sẻ chưa?
+00:00:00,100 --> 00:00:02,739
+Trang web đã xong. Việc ra mắt thì chưa.
 
 2
-00:00:05,000 --> 00:00:09,900
-Nhờ Launch kiểm tra địa chỉ và HTTPS.
+00:00:02,933 --> 00:00:05,796
+Trước lượt nhấp đầu tiên, kiểm tra những gì mọi người sẽ thấy.
 
 3
-00:00:10,000 --> 00:00:14,900
-Kiểm tra tiêu đề, mô tả và hình ảnh mọi người sẽ thấy.
+00:00:05,983 --> 00:00:09,395
+Foreman Launch hướng dẫn kiểm tra tên miền và kết nối bảo mật.
 
 4
-00:00:15,000 --> 00:00:19,900
-Cho Turki Alshuaibi một bản xem trước thể hiện rõ tác phẩm.
+00:00:09,583 --> 00:00:12,393
+Bản xem trước hiện ra khi ai đó chia sẻ liên kết của bạn.
 
 5
-00:00:20,000 --> 00:00:24,900
-Thử trang không tồn tại và các liên kết quay lại.
+00:00:12,583 --> 00:00:14,742
+Đường quay lại khi không tìm thấy trang.
 
 6
-00:00:25,000 --> 00:00:29,900
-Kiểm tra sơ đồ website và khả năng truy cập của trình thu thập dữ liệu.
+00:00:15,133 --> 00:00:18,741
+Tiêu đề và sơ đồ trang giúp công cụ tìm kiếm hiểu trang web.
 
 7
-00:00:30,000 --> 00:00:34,900
-Gửi yêu cầu lập chỉ mục. Công cụ tìm kiếm quyết định khi nào đưa trang vào.
+00:00:18,933 --> 00:00:21,939
+Kiểm tra phần đã sẵn sàng. Theo dõi phần còn cần bạn xử lý.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Launch. Miễn phí, mã nguồn mở. Tác giả: Turki Alshuaibi.
+00:00:22,133 --> 00:00:24,579
+Rồi hãy chia sẻ, khi mọi chi tiết đã đâu vào đấy.

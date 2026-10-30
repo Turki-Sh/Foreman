@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Se toimii. Miksi se tuntuu silti keskeneräiseltä?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Vastaus on yleensä aivan silmien edessä."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Pyydä Foreman Punch listiä tarkistamaan sivu."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Otsikko, joka ei sano mitään. Kolme huomiosta kilpailevaa painiketta."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Teksti, jota tuskin voi lukea. Mobiilissa hajoava asettelu."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Muuta epämääräinen palaute täsmällisiksi muutoksiksi tärkeysjärjestyksessä."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Tee muutokset. Tarkista sivu uudelleen."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Säilytä toimiva. Korjaa se, mikä on tiellä."
+  }
+]

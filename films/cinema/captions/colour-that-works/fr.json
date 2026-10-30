@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3253,
+    "text": "Une couleur peut être belle. Et ne pas fonctionner à l’écran."
+  },
+  {
+    "startMs": 3450,
+    "endMs": 6541,
+    "text": "Partez d’une matière. Encre, papier, métal poli."
+  },
+  {
+    "startMs": 6733,
+    "endMs": 10309,
+    "text": "Foreman Palette en fait un système de couleurs utilisable."
+  },
+  {
+    "startMs": 10500,
+    "endMs": 13968,
+    "text": "Donnez un rôle à chaque couleur. Surface, texte, action, retour."
+  },
+  {
+    "startMs": 14150,
+    "endMs": 17217,
+    "text": "Vérifiez le contraste là où les gens doivent vraiment lire."
+  },
+  {
+    "startMs": 17400,
+    "endMs": 20119,
+    "text": "Gardez le même caractère du thème clair au thème sombre."
+  },
+  {
+    "startMs": 20300,
+    "endMs": 23504,
+    "text": "Enregistrez les variables de design. Utilisez-les dans toute l’interface."
+  },
+  {
+    "startMs": 23700,
+    "endMs": 25444,
+    "text": "Une palette pour construire."
+  }
+]

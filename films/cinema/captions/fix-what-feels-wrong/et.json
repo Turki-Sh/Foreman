@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "See töötab. Miks tundub see ikka pooleli?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Vastus on enamasti otse silme ees."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Palu tööriistal Foreman Punch list lehte kontrollida."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Pealkiri, mis ei ütle midagi. Kolm nuppu võistlemas tähelepanu eest."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Vaevalt loetav tekst. Paigutus, mis mobiilis laguneb."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Muuda ebamäärane tagasiside konkreetseteks muudatusteks tähtsuse järjekorras."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Tee muudatused. Kontrolli lehte uuesti."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Säilita toimiv. Paranda see, mis takistab."
+  }
+]

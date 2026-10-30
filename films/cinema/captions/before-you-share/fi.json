@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Verkkosivusto on valmis. Julkaisu ei vielä."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Tarkista ennen ensimmäistä klikkausta, mitä ihmiset löytävät."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch käy läpi verkkotunnuksen ja suojatun yhteyden."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "Esikatselun, joka näkyy jonkun jakaessa linkkisi."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Paluureitin, kun sivua ei löydy."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Otsikot ja sivustokartan, jotka auttavat hakukoneita ymmärtämään sivustoa."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Tarkista, mikä on valmista. Pidä kirjaa siitä, mikä vielä vaatii sinua."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Jaa sitten. Kun yksityiskohdat ovat kunnossa."
+  }
+]

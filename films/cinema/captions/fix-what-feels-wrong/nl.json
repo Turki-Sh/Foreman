@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Het werkt. Waarom voelt het dan nog onaf?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Het antwoord ligt meestal recht voor je."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Vraag Foreman Punch list de pagina te controleren."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Een kop die niets zegt. Drie knoppen die om aandacht strijden."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Tekst die je nauwelijks kunt lezen. Een lay-out die op mobiel breekt."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Maak van vage feedback concrete wijzigingen, op volgorde van prioriteit."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Voer de wijzigingen door. Controleer de pagina opnieuw."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Behoud wat werkt. Verbeter wat in de weg zit."
+  }
+]

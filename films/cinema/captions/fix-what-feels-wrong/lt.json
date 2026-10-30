@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Veikia. Kodėl vis dar atrodo nebaigta?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Atsakymas dažniausiai yra tiesiai prieš akis."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Paprašyk Foreman Punch list patikrinti puslapį."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Nieko nesakanti antraštė. Trys mygtukai varžosi dėl dėmesio."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Vos įskaitomas tekstas. Telefone subyrantis išdėstymas."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Paversk miglotas pastabas konkrečiais pakeitimais pagal svarbą."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Atlik pakeitimus. Dar kartą patikrink puslapį."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Palik, kas veikia. Pataisyk, kas trukdo."
+  }
+]

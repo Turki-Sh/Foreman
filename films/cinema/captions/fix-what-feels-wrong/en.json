@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "It works. So why does it still feel unfinished?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "The answer is usually hiding in plain sight."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Ask Foreman Punch list to inspect the page."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "A headline that says nothing. Three buttons competing for attention."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Text you can barely read. A layout that breaks on mobile."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Turn vague feedback into specific changes, in priority order."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Make the changes. Check the page again."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Keep what works. Fix what gets in the way."
+  }
+]

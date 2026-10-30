@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Pagina funcționează. Totuși, ceva nu pare în regulă.
+00:00:00,100 --> 00:00:02,804
+Funcționează. Atunci de ce pare încă neterminat?
 
 2
-00:00:05,000 --> 00:00:09,900
-Cere-i lui Punch list să verifice pagina, inclusiv pe mobil.
+00:00:03,000 --> 00:00:05,726
+Răspunsul este de obicei chiar în fața ta.
 
 3
-00:00:10,000 --> 00:00:14,900
-Un titlu vag ascunde ceea ce face de fapt Turki Alshuaibi.
+00:00:05,917 --> 00:00:08,477
+Cere-i lui Foreman Punch list să verifice pagina.
 
 4
-00:00:15,000 --> 00:00:19,900
-Trei butoane concurente fac următorul pas neclar.
+00:00:08,667 --> 00:00:12,455
+Un titlu care nu spune nimic. Trei butoane care concurează pentru atenție.
 
 5
-00:00:20,000 --> 00:00:24,900
-O structură lată se strică pe un ecran îngust.
+00:00:12,650 --> 00:00:16,104
+Text abia lizibil. O structură care se strică pe mobil.
 
 6
-00:00:25,000 --> 00:00:29,900
-Corectează titlul, alege o singură acțiune și repară structura pentru mobil.
+00:00:16,300 --> 00:00:20,256
+Transformă feedbackul vag în schimbări concrete, în ordinea priorității.
 
 7
-00:00:30,000 --> 00:00:34,900
-Verifică pagina revizuită. Păstrează modificările care rezolvă problema.
+00:00:20,450 --> 00:00:22,916
+Fă schimbările. Verifică pagina din nou.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Gratuit și open source. De Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Păstrează ce funcționează. Repară ce încurcă.

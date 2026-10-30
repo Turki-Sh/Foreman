@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.900
-O culoare care îți place este doar începutul.
+00:00:00.100 --> 00:00:03.253
+O culoare poate fi frumoasă. Și totuși să nu funcționeze pe ecran.
 
 2
-00:00:05.000 --> 00:00:09.900
-Cere-i lui Palette un sistem inspirat de cerneală și hârtie.
+00:00:03.450 --> 00:00:06.541
+Începe cu un material. Cerneală, hârtie, metal lustruit.
 
 3
-00:00:10.000 --> 00:00:14.900
-Dă-i fiecărei culori un rol: fundal, text, chenar sau acțiune.
+00:00:06.733 --> 00:00:10.309
+Foreman Palette transformă referința într-un sistem de culori funcțional.
 
 4
-00:00:15.000 --> 00:00:19.900
-Verifică combinația reală dintre text și fundal.
+00:00:10.500 --> 00:00:13.968
+Dă-i fiecărei culori un rol. Suprafață, text, acțiune, feedback.
 
 5
-00:00:20.000 --> 00:00:24.900
-Griul pal pe alb nu trece testul. Cerneala închisă face textul lizibil.
+00:00:14.150 --> 00:00:17.217
+Verifică contrastul acolo unde oamenii chiar trebuie să citească.
 
 6
-00:00:25.000 --> 00:00:29.900
-Folosește aceleași roluri în butoane, carduri și tema întunecată.
+00:00:17.400 --> 00:00:20.119
+Păstrează același caracter în tema luminoasă și cea întunecată.
 
 7
-00:00:30.000 --> 00:00:34.900
-Salvează tokenurile de design pentru ca pagina următoare să folosească același sistem.
+00:00:20.300 --> 00:00:23.504
+Salvează tokenurile de design. Folosește-le în toată interfața.
 
 8
-00:00:35.000 --> 00:00:39.900
-Foreman Palette. Gratuit și open source. De Turki Alshuaibi.
+00:00:23.700 --> 00:00:25.444
+O paletă cu care poți construi.

@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Kolor, który lubisz, to dopiero początek.
+00:00:00,100 --> 00:00:03,253
+Kolor może wyglądać pięknie. I nadal nie sprawdzać się na ekranie.
 
 2
-00:00:05,000 --> 00:00:09,900
-Poproś Palette o system oparty na tuszu i papierze.
+00:00:03,450 --> 00:00:06,541
+Zacznij od materiału. Tuszu, papieru, polerowanego metalu.
 
 3
-00:00:10,000 --> 00:00:14,900
-Przypisz każdemu kolorowi zadanie: tło, tekst, obramowanie lub akcja.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette zamienia tę inspirację w działający system kolorów.
 
 4
-00:00:15,000 --> 00:00:19,900
-Sprawdź rzeczywiste połączenie tekstu i tła.
+00:00:10,500 --> 00:00:13,968
+Daj każdemu kolorowi zadanie. Powierzchnia, tekst, akcja, informacja zwrotna.
 
 5
-00:00:20,000 --> 00:00:24,900
-Jasnoszary na białym nie przechodzi testu. Ciemny tusz zapewnia czytelność.
+00:00:14,150 --> 00:00:17,217
+Sprawdź kontrast tam, gdzie ludzie naprawdę muszą czytać.
 
 6
-00:00:25,000 --> 00:00:29,900
-Zastosuj te same role w przyciskach, kartach i ciemnym motywie.
+00:00:17,400 --> 00:00:20,119
+Zachowaj ten sam charakter w jasnym i ciemnym motywie.
 
 7
-00:00:30,000 --> 00:00:34,900
-Zapisz tokeny projektu, aby kolejna strona używała tego samego systemu.
+00:00:20,300 --> 00:00:23,504
+Zapisz tokeny projektu. Stosuj je w całym interfejsie.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Bezpłatny i open source. Autor: Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Paleta, z którą można budować.

@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 3253,
+    "text": "En färg kan vara vacker. Och ändå fungera dåligt på skärmen."
+  },
+  {
+    "startMs": 3450,
+    "endMs": 6541,
+    "text": "Börja med ett material. Bläck, papper, polerad metall."
+  },
+  {
+    "startMs": 6733,
+    "endMs": 10309,
+    "text": "Foreman Palette gör referensen till ett fungerande färgsystem."
+  },
+  {
+    "startMs": 10500,
+    "endMs": 13968,
+    "text": "Ge varje färg en uppgift. Yta, text, handling, återkoppling."
+  },
+  {
+    "startMs": 14150,
+    "endMs": 17217,
+    "text": "Kontrollera kontrasten där människor faktiskt behöver läsa."
+  },
+  {
+    "startMs": 17400,
+    "endMs": 20119,
+    "text": "Behåll samma karaktär från ljust till mörkt."
+  },
+  {
+    "startMs": 20300,
+    "endMs": 23504,
+    "text": "Spara designtokens. Använd dem i hela gränssnittet."
+  },
+  {
+    "startMs": 23700,
+    "endMs": 25444,
+    "text": "En palett att bygga med."
+  }
+]

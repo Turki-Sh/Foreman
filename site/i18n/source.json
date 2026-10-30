@@ -13,11 +13,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -29,27 +30,35 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
     "palette/index.html",
-    "punch-list/index.html"
+    "punch-list/index.html",
+    "films/index.html",
+    "films/before-the-code/index.html",
+    "films/find-your-direction/index.html",
+    "films/fix-what-feels-wrong/index.html",
+    "films/colour-that-works/index.html",
+    "films/before-you-share/index.html"
   ],
   "Main": [
     "index.html",
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -61,11 +70,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -77,11 +87,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -93,11 +104,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -109,11 +121,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -125,11 +138,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -141,11 +155,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -157,11 +172,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -173,11 +189,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -189,11 +206,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -383,8 +401,7 @@
     "index.html"
   ],
   "Build brief": [
-    "index.html",
-    "films/index.html"
+    "index.html"
   ],
   "Implementation": [
     "index.html"
@@ -409,11 +426,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -431,11 +449,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -453,11 +472,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -475,11 +495,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -499,8 +520,7 @@
     "index.html"
   ],
   "References": [
-    "index.html",
-    "films/index.html"
+    "index.html"
   ],
   "Loaded only when their step arrives, including design standards: colour theory, proportion, type scale, spacing, motion timing.": [
     "index.html"
@@ -510,11 +530,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -571,11 +592,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -587,11 +609,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -603,11 +626,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -619,11 +643,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -635,11 +660,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -651,11 +677,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -667,11 +694,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -683,11 +711,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -699,11 +728,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -715,11 +745,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -731,11 +762,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -747,11 +779,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -763,11 +796,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -779,11 +813,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -795,11 +830,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -811,11 +847,12 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html",
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -1073,289 +1110,269 @@
   "1.0.0, 6 August 2026": [
     "changelog/index.html"
   ],
-  "Before you share.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Check the domain, share preview and discovery files before sending your website link.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "By Turki Alshuaibi": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "40 seconds · English · CC": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Download film": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Download captions": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Illustrative demonstration.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Read the transcript": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Your site is ready. Is the link ready to share?": [
-    "films/before-you-share/index.html"
-  ],
-  "Ask Launch to check the address and HTTPS.": [
-    "films/before-you-share/index.html"
-  ],
-  "Check the title, description and image people will see.": [
-    "films/before-you-share/index.html"
-  ],
-  "Give Turki Alshuaibi a clear preview of the work.": [
-    "films/before-you-share/index.html"
-  ],
-  "Test a missing page and the links that lead back.": [
-    "films/before-you-share/index.html"
-  ],
-  "Check the sitemap and whether crawlers can reach the page.": [
-    "films/before-you-share/index.html"
-  ],
-  "Submit for indexing. Search engines decide when to include it.": [
-    "films/before-you-share/index.html"
-  ],
-  "Foreman Launch. Free and open source. By Turki Alshuaibi.": [
-    "films/before-you-share/index.html"
-  ],
-  "More films": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Find your direction.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Turn references into specific design decisions with Foreman Board.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Watch film": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Fix what feels wrong.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "See how a Foreman punch list turns vague design feedback into specific fixes.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Colour that works.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "Build a material-based palette, assign colour roles and check readable combinations.": [
-    "films/before-you-share/index.html",
-    "films/colour-that-works/index.html",
-    "films/find-your-direction/index.html",
-    "films/fix-what-feels-wrong/index.html",
-    "films/index.html"
-  ],
-  "A colour you like is only the start.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Ask Palette for a system built from ink and paper.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Give each colour a job: background, text, border, action.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Check the actual text and background combination.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Pale grey on white fails. Dark ink makes the text readable.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Carry the same roles into buttons, cards and the dark theme.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Save the tokens so the next page uses the same system.": [
-    "films/colour-that-works/index.html"
-  ],
-  "Foreman Palette. Free and open source. By Turki Alshuaibi.": [
-    "films/colour-that-works/index.html"
-  ],
-  "You know what you like. Your coding agent needs to know why.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Start with the work of Turki Alshuaibi, and the people it needs to reach.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Ask Board to find references for this brief.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Keep the composition from one. The typography from another.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Name what to borrow. Name what to leave behind.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Now the references become decisions your agent can use.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Choose the direction before building the page.": [
-    "films/find-your-direction/index.html"
-  ],
-  "Foreman Board. Free and open source. By Turki Alshuaibi.": [
-    "films/find-your-direction/index.html"
-  ],
-  "The page works. Something still feels wrong.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Ask Punch list to inspect the page, including its mobile view.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "A vague headline hides what Turki Alshuaibi actually does.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Three competing buttons make the next step unclear.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "A wide layout breaks on a narrow screen.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Fix the headline, choose one action, and repair the mobile layout.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Check the revised page. Keep the fixes that solve the problem.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Foreman Punch list. Free and open source. By Turki Alshuaibi.": [
-    "films/fix-what-feels-wrong/index.html"
-  ],
-  "Before the code: a Foreman film by Turki Alshuaibi": [
-    "films/index.html"
-  ],
-  "Watch how Foreman turns a website idea into references, a visual system and a build brief. A one-minute film by Turki Alshuaibi, with captions in 33 languages.": [
-    "films/index.html"
-  ],
-  "Frames from Before the code, showing a reference board, a build brief and the Foreman website.": [
-    "films/index.html"
-  ],
-  "Foreman / Films": [
-    "films/index.html"
-  ],
-  "Before the code.": [
-    "films/index.html"
-  ],
-  "1 minute · English · CC": [
-    "films/index.html"
-  ],
-  "Before the code, a film by Turki Alshuaibi": [
-    "films/index.html"
+  "An idea worth building.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
   ],
   "A website idea becomes a direction, a visual system and a brief your coding agent can build from.": [
-    "films/index.html"
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
   ],
-  "Film chapters": [
-    "films/index.html"
+  "By Turki Alshuaibi": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
   ],
-  "The request": [
-    "films/index.html"
+  "English · CC": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "Visual system": [
-    "films/index.html"
+  "Download film": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "The build": [
-    "films/index.html"
+  "Download captions": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "Before your agent writes code, give it a direction.": [
-    "films/index.html"
+  "Illustrative demonstration.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "Turki Alshuaibi: Help me build my portfolio.": [
-    "films/index.html"
+  "Read the transcript": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "Who is it for? What should they do?": [
-    "films/index.html"
+  "You have an idea. Your agent has a thousand defaults.": [
+    "film/before-the-code/index.html"
   ],
-  "Find references. Decide what to carry forward.": [
-    "films/index.html"
+  "Before it builds another one, give it a direction.": [
+    "film/before-the-code/index.html"
   ],
-  "A clear hierarchy. Space for the work. One next step.": [
-    "films/index.html"
+  "Foreman starts with the person you are building for.": [
+    "film/before-the-code/index.html"
   ],
-  "Choose type, colour and layout as one system.": [
-    "films/index.html"
+  "Find the references. Choose what belongs. Leave the rest.": [
+    "film/before-the-code/index.html"
   ],
-  "Put the decisions in one build brief.": [
-    "films/index.html"
+  "Turn those decisions into a brief you can actually approve.": [
+    "film/before-the-code/index.html"
   ],
-  "Approve the brief. Then build.": [
-    "films/index.html"
+  "Then build. With the choices already made.": [
+    "film/before-the-code/index.html"
   ],
-  "Eight steps, from the first question to a site people can find.": [
-    "films/index.html"
+  "Check the details that turn a draft into a website.": [
+    "film/before-the-code/index.html"
   ],
-  "Foreman's own site, built with the playbook.": [
-    "films/index.html"
+  "Your idea. Built with intention. Meet Foreman.": [
+    "film/before-the-code/index.html"
   ],
-  "Board. Palette. Punch list. Launch.": [
-    "films/index.html"
+  "More films": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html"
   ],
-  "Use each tool on its own, or follow the whole playbook.": [
-    "films/index.html"
+  "Find your direction.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
   ],
-  "Foreman. By Turki Alshuaibi.": [
-    "films/index.html"
+  "Turn references into specific design decisions with Foreman Board.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
   ],
-  "Free and open source. foreman.turkialshuaibi.com": [
-    "films/index.html"
+  "Watch film": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "Something feels wrong.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "See how a Foreman punch list turns vague design feedback into specific fixes.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "Colour with a job to do.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "Build a material-based palette, assign colour roles and check readable combinations.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "Before the first click.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "Check the domain, share preview and discovery files before sending your website link.": [
+    "film/before-the-code/index.html",
+    "film/before-you-share/index.html",
+    "film/colour-that-works/index.html",
+    "film/find-your-direction/index.html",
+    "film/fix-what-feels-wrong/index.html",
+    "film/index.html"
+  ],
+  "The website is finished. The launch is not.": [
+    "film/before-you-share/index.html"
+  ],
+  "Before the first click, check what people will find.": [
+    "film/before-you-share/index.html"
+  ],
+  "Foreman Launch walks through the domain and secure connection.": [
+    "film/before-you-share/index.html"
+  ],
+  "The preview that appears when someone shares your link.": [
+    "film/before-you-share/index.html"
+  ],
+  "The way back when a page goes missing.": [
+    "film/before-you-share/index.html"
+  ],
+  "The titles and sitemap that help search engines understand it.": [
+    "film/before-you-share/index.html"
+  ],
+  "Check what is ready. Keep track of what still needs you.": [
+    "film/before-you-share/index.html"
+  ],
+  "Then share it. With the details in place.": [
+    "film/before-you-share/index.html"
+  ],
+  "A colour can look beautiful. And still fail on screen.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Start with a material. Ink, paper, polished metal.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Foreman Palette turns that reference into a working colour system.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Give every colour a job. Surface, text, action, feedback.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Check the contrast where people actually have to read.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Carry the same character from light into dark.": [
+    "film/colour-that-works/index.html"
+  ],
+  "Save the tokens. Use them across the whole interface.": [
+    "film/colour-that-works/index.html"
+  ],
+  "A palette you can build with.": [
+    "film/colour-that-works/index.html"
+  ],
+  "You know what you like. Until someone asks you why.": [
+    "film/find-your-direction/index.html"
+  ],
+  "A hundred saved tabs will not answer that.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Give Foreman Board the brief. It looks for relevant references.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Look closer. The hierarchy. The spacing. The way it moves.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Keep the idea behind the design. Not somebody else's identity.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Bring those choices together into one direction.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Now your agent has something specific to build toward.": [
+    "film/find-your-direction/index.html"
+  ],
+  "Less guessing. Start with Board.": [
+    "film/find-your-direction/index.html"
+  ],
+  "It works. So why does it still feel unfinished?": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "The answer is usually hiding in plain sight.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Ask Foreman Punch list to inspect the page.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "A headline that says nothing. Three buttons competing for attention.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Text you can barely read. A layout that breaks on mobile.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Turn vague feedback into specific changes, in priority order.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Make the changes. Check the page again.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Keep what works. Fix what gets in the way.": [
+    "film/fix-what-feels-wrong/index.html"
+  ],
+  "Foreman films by Turki Alshuaibi": [
+    "film/index.html"
+  ],
+  "Five short films about building websites with Foreman. English narration and captions in 33 languages. By Turki Alshuaibi.": [
+    "film/index.html"
   ],
   "Install Foreman in Claude Code, Cursor, Codex and more": [
     "install/index.html"

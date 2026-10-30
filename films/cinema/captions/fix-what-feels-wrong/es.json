@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Funciona. ¿Por qué todavía parece incompleto?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "La respuesta suele estar a plena vista."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Pide a Foreman Punch list que revise la página."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Un título que no dice nada. Tres botones compitiendo por atención."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Texto apenas legible. Un diseño que se rompe en móvil."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Convierte comentarios vagos en cambios concretos, por prioridad."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Haz los cambios. Revisa la página otra vez."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Conserva lo que funciona. Corrige lo que estorba."
+  }
+]

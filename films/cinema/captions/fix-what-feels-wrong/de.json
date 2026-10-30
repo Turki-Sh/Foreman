@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Es funktioniert. Warum wirkt es trotzdem unfertig?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Die Antwort liegt meist direkt vor dir."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Bitte Foreman Punch list, die Seite zu prüfen."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Eine Überschrift ohne Aussage. Drei Buttons kämpfen um Aufmerksamkeit."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Kaum lesbarer Text. Ein Layout, das auf dem Handy bricht."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Mache aus vagem Feedback konkrete Änderungen, nach Priorität."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Setze sie um. Prüfe die Seite erneut."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Behalte, was funktioniert. Behebe, was im Weg steht."
+  }
+]

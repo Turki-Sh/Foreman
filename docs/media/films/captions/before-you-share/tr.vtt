@@ -1,33 +1,33 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:04.900
-Siteniz hazır. Peki bağlantı paylaşılmaya hazır mı?
+00:00:00.100 --> 00:00:02.739
+Site tamamlandı. Yayına çıkış henüz tamamlanmadı.
 
 2
-00:00:05.000 --> 00:00:09.900
-Launch’tan adresi ve HTTPS’yi kontrol etmesini isteyin.
+00:00:02.933 --> 00:00:05.796
+İlk tıklamadan önce insanların ne bulacağını kontrol edin.
 
 3
-00:00:10.000 --> 00:00:14.900
-İnsanların göreceği başlığı, açıklamayı ve görseli kontrol edin.
+00:00:05.983 --> 00:00:09.395
+Foreman Launch, alan adını ve güvenli bağlantıyı adım adım inceler.
 
 4
-00:00:15.000 --> 00:00:19.900
-Turki Alshuaibi’ye çalışmanın net bir önizlemesini sunun.
+00:00:09.583 --> 00:00:12.393
+Biri bağlantınızı paylaştığında görünen önizlemeyi.
 
 5
-00:00:20.000 --> 00:00:24.900
-Olmayan bir sayfayı ve geri dönüş bağlantılarını test edin.
+00:00:12.583 --> 00:00:14.742
+Bir sayfa bulunamadığında geri dönüş yolunu.
 
 6
-00:00:25.000 --> 00:00:29.900
-Site haritasını ve tarayıcı botların sayfaya erişimini kontrol edin.
+00:00:15.133 --> 00:00:18.741
+Arama motorlarının siteyi anlamasına yardımcı başlıkları ve site haritasını.
 
 7
-00:00:30.000 --> 00:00:34.900
-İndeksleme için gönderin. Ne zaman ekleneceğine arama motorları karar verir.
+00:00:18.933 --> 00:00:21.939
+Hazır olanları kontrol edin. Hâlâ sizi bekleyenleri takip edin.
 
 8
-00:00:35.000 --> 00:00:39.900
-Foreman Launch. Ücretsiz ve açık kaynaklı. Turki Alshuaibi tarafından.
+00:00:22.133 --> 00:00:24.579
+Sonra paylaşın. Ayrıntılar yerli yerindeyken.

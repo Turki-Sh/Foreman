@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Çalışıyor. Peki neden hâlâ eksik hissettiriyor?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Yanıt genellikle gözünüzün önündedir."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Foreman Punch list’ten sayfayı incelemesini isteyin."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "Hiçbir şey anlatmayan bir başlık. Dikkat için yarışan üç düğme."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Zor okunan metin. Mobilde bozulan bir düzen."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Belirsiz yorumları, öncelik sırasıyla somut değişikliklere dönüştürün."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Değişiklikleri yapın. Sayfayı yeniden kontrol edin."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "İşe yarayanı koruyun. Engeli düzeltin."
+  }
+]

@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Leht töötab. Midagi tundub siiski valesti.
+00:00:00,100 --> 00:00:02,804
+See töötab. Miks tundub see ikka pooleli?
 
 2
-00:00:05,000 --> 00:00:09,900
-Palu tööriistal Punch list kontrollida lehte, ka mobiilivaates.
+00:00:03,000 --> 00:00:05,726
+Vastus on enamasti otse silme ees.
 
 3
-00:00:10,000 --> 00:00:14,900
-Ebamäärane pealkiri varjab, mida Turki Alshuaibi tegelikult teeb.
+00:00:05,917 --> 00:00:08,477
+Palu tööriistal Foreman Punch list lehte kontrollida.
 
 4
-00:00:15,000 --> 00:00:19,900
-Kolm konkureerivat nuppu muudavad järgmise sammu ebaselgeks.
+00:00:08,667 --> 00:00:12,455
+Pealkiri, mis ei ütle midagi. Kolm nuppu võistlemas tähelepanu eest.
 
 5
-00:00:20,000 --> 00:00:24,900
-Lai paigutus laguneb kitsal ekraanil.
+00:00:12,650 --> 00:00:16,104
+Vaevalt loetav tekst. Paigutus, mis mobiilis laguneb.
 
 6
-00:00:25,000 --> 00:00:29,900
-Paranda pealkiri, vali üks tegevus ja korrasta mobiilipaigutus.
+00:00:16,300 --> 00:00:20,256
+Muuda ebamäärane tagasiside konkreetseteks muudatusteks tähtsuse järjekorras.
 
 7
-00:00:30,000 --> 00:00:34,900
-Kontrolli muudetud lehte. Jäta alles parandused, mis probleemi lahendavad.
+00:00:20,450 --> 00:00:22,916
+Tee muudatused. Kontrolli lehte uuesti.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Tasuta ja avatud lähtekoodiga. Autor: Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Säilita toimiv. Paranda see, mis takistab.

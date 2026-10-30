@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "El sitio está terminado. El lanzamiento no."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Antes del primer clic, revisa lo que encontrará la gente."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch te guía por el dominio y la conexión segura."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "La vista previa que aparece cuando alguien comparte tu enlace."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "El camino de regreso cuando falta una página."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Los títulos y el mapa del sitio que ayudan a los buscadores a entenderlo."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Revisa qué está listo. Lleva cuenta de lo que aún necesita tu atención."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Luego comparte. Con los detalles en su lugar."
+  }
+]

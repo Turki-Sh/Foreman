@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-La página funciona. Pero algo todavía no encaja.
+00:00:00,100 --> 00:00:02,804
+Funciona. ¿Por qué todavía parece incompleto?
 
 2
-00:00:05,000 --> 00:00:09,900
-Pide a Punch list que revise la página, también en móvil.
+00:00:03,000 --> 00:00:05,726
+La respuesta suele estar a plena vista.
 
 3
-00:00:10,000 --> 00:00:14,900
-Un título vago oculta lo que Turki Alshuaibi realmente hace.
+00:00:05,917 --> 00:00:08,477
+Pide a Foreman Punch list que revise la página.
 
 4
-00:00:15,000 --> 00:00:19,900
-Tres botones que compiten entre sí confunden el siguiente paso.
+00:00:08,667 --> 00:00:12,455
+Un título que no dice nada. Tres botones compitiendo por atención.
 
 5
-00:00:20,000 --> 00:00:24,900
-Un diseño ancho se rompe en una pantalla estrecha.
+00:00:12,650 --> 00:00:16,104
+Texto apenas legible. Un diseño que se rompe en móvil.
 
 6
-00:00:25,000 --> 00:00:29,900
-Corrige el título, elige una acción y arregla el diseño móvil.
+00:00:16,300 --> 00:00:20,256
+Convierte comentarios vagos en cambios concretos, por prioridad.
 
 7
-00:00:30,000 --> 00:00:34,900
-Revisa la página actualizada. Conserva los cambios que resuelven el problema.
+00:00:20,450 --> 00:00:22,916
+Haz los cambios. Revisa la página otra vez.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Gratis y de código abierto. De Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Conserva lo que funciona. Corrige lo que estorba.

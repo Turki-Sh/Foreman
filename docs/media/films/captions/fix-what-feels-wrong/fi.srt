@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Sivu toimii. Jokin tuntuu silti väärältä.
+00:00:00,100 --> 00:00:02,804
+Se toimii. Miksi se tuntuu silti keskeneräiseltä?
 
 2
-00:00:05,000 --> 00:00:09,900
-Pyydä Punch listiä tarkistamaan sivu myös mobiilissa.
+00:00:03,000 --> 00:00:05,726
+Vastaus on yleensä aivan silmien edessä.
 
 3
-00:00:10,000 --> 00:00:14,900
-Epämääräinen otsikko peittää sen, mitä Turki Alshuaibi todella tekee.
+00:00:05,917 --> 00:00:08,477
+Pyydä Foreman Punch listiä tarkistamaan sivu.
 
 4
-00:00:15,000 --> 00:00:19,900
-Kolme kilpailevaa painiketta hämärtää seuraavaa askelta.
+00:00:08,667 --> 00:00:12,455
+Otsikko, joka ei sano mitään. Kolme huomiosta kilpailevaa painiketta.
 
 5
-00:00:20,000 --> 00:00:24,900
-Leveä asettelu hajoaa kapealla näytöllä.
+00:00:12,650 --> 00:00:16,104
+Teksti, jota tuskin voi lukea. Mobiilissa hajoava asettelu.
 
 6
-00:00:25,000 --> 00:00:29,900
-Korjaa otsikko, valitse yksi toiminto ja korjaa mobiiliasettelu.
+00:00:16,300 --> 00:00:20,256
+Muuta epämääräinen palaute täsmällisiksi muutoksiksi tärkeysjärjestyksessä.
 
 7
-00:00:30,000 --> 00:00:34,900
-Tarkista muokattu sivu. Säilytä korjaukset, jotka ratkaisevat ongelman.
+00:00:20,450 --> 00:00:22,916
+Tee muutokset. Tarkista sivu uudelleen.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Punch list. Maksuton ja avoin lähdekoodi. Tekijä: Turki Alshuaibi.
+00:00:23,100 --> 00:00:25,701
+Säilytä toimiva. Korjaa se, mikä on tiellä.

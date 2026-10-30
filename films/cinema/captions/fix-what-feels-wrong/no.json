@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2804,
+    "text": "Det fungerer. Hvorfor føles det fortsatt uferdig?"
+  },
+  {
+    "startMs": 3000,
+    "endMs": 5726,
+    "text": "Svaret ligger som regel rett foran deg."
+  },
+  {
+    "startMs": 5917,
+    "endMs": 8477,
+    "text": "Be Foreman Punch list undersøke siden."
+  },
+  {
+    "startMs": 8667,
+    "endMs": 12455,
+    "text": "En overskrift som ikke sier noe. Tre knapper som kjemper om oppmerksomheten."
+  },
+  {
+    "startMs": 12650,
+    "endMs": 16104,
+    "text": "Tekst du knapt kan lese. Et oppsett som ikke fungerer på mobil."
+  },
+  {
+    "startMs": 16300,
+    "endMs": 20256,
+    "text": "Gjør vage tilbakemeldinger til konkrete endringer, i prioritert rekkefølge."
+  },
+  {
+    "startMs": 20450,
+    "endMs": 22916,
+    "text": "Gjør endringene. Sjekk siden igjen."
+  },
+  {
+    "startMs": 23100,
+    "endMs": 25701,
+    "text": "Behold det som fungerer. Rett det som står i veien."
+  }
+]

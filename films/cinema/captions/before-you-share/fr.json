@@ -1,0 +1,42 @@
+[
+  {
+    "startMs": 100,
+    "endMs": 2739,
+    "text": "Le site est terminé. Pas son lancement."
+  },
+  {
+    "startMs": 2933,
+    "endMs": 5796,
+    "text": "Avant le premier clic, vérifiez ce que les gens trouveront."
+  },
+  {
+    "startMs": 5983,
+    "endMs": 9395,
+    "text": "Foreman Launch passe en revue le domaine et la connexion sécurisée."
+  },
+  {
+    "startMs": 9583,
+    "endMs": 12393,
+    "text": "L’aperçu qui s’affiche quand quelqu’un partage votre lien."
+  },
+  {
+    "startMs": 12583,
+    "endMs": 14742,
+    "text": "Le chemin de retour quand une page manque."
+  },
+  {
+    "startMs": 15133,
+    "endMs": 18741,
+    "text": "Les titres et le plan du site qui aident les moteurs à le comprendre."
+  },
+  {
+    "startMs": 18933,
+    "endMs": 21939,
+    "text": "Vérifiez ce qui est prêt. Gardez la trace de ce qui vous attend encore."
+  },
+  {
+    "startMs": 22133,
+    "endMs": 24579,
+    "text": "Puis partagez. Tous les détails sont en place."
+  }
+]

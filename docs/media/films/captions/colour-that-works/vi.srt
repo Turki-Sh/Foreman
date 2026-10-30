@@ -1,31 +1,31 @@
 1
-00:00:00,000 --> 00:00:04,900
-Một màu bạn thích chỉ là khởi đầu.
+00:00:00,100 --> 00:00:03,253
+Một màu có thể đẹp mà vẫn không hiệu quả trên màn hình.
 
 2
-00:00:05,000 --> 00:00:09,900
-Nhờ Palette tạo hệ thống từ mực và giấy.
+00:00:03,450 --> 00:00:06,541
+Bắt đầu từ chất liệu. Mực, giấy, kim loại đánh bóng.
 
 3
-00:00:10,000 --> 00:00:14,900
-Giao cho mỗi màu một vai trò: nền, chữ, viền, hành động.
+00:00:06,733 --> 00:00:10,309
+Foreman Palette biến mẫu tham khảo đó thành một hệ màu dùng được.
 
 4
-00:00:15,000 --> 00:00:19,900
-Kiểm tra cặp màu chữ và nền được dùng thực tế.
+00:00:10,500 --> 00:00:13,968
+Giao vai trò cho từng màu: bề mặt, chữ, hành động, phản hồi.
 
 5
-00:00:20,000 --> 00:00:24,900
-Xám nhạt trên trắng không đạt. Mực đậm giúp chữ dễ đọc.
+00:00:14,150 --> 00:00:17,217
+Kiểm tra độ tương phản ở nơi mọi người thực sự cần đọc.
 
 6
-00:00:25,000 --> 00:00:29,900
-Dùng cùng vai trò màu cho nút, thẻ và giao diện tối.
+00:00:17,400 --> 00:00:20,119
+Giữ cùng một nét riêng từ chế độ sáng sang tối.
 
 7
-00:00:30,000 --> 00:00:34,900
-Lưu các token thiết kế để trang tiếp theo dùng cùng hệ thống.
+00:00:20,300 --> 00:00:23,504
+Lưu các token thiết kế. Dùng chúng trên toàn giao diện.
 
 8
-00:00:35,000 --> 00:00:39,900
-Foreman Palette. Miễn phí, mã nguồn mở. Tác giả: Turki Alshuaibi.
+00:00:23,700 --> 00:00:25,444
+Một bảng màu để thực sự xây dựng.
