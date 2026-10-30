@@ -14,3 +14,4 @@ __pycache__/
 
 # Local video renderer browser cache
 .remotion/
+.cache/webpack/
