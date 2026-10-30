@@ -10,6 +10,8 @@ import {
   staticFile,
   useCurrentFrame,
 } from "remotion";
+import { LiquidGlass } from "./glass/LiquidGlass";
+import "./glass/liquid-glass.css";
 import { CinemaStage } from "./CinemaStage";
 import data from "./cinema-timings.json";
 
@@ -24,6 +26,7 @@ const move = (t: number, a: number, b: number, x = 0, y = 1) =>
     extrapolateRight: "clamp",
     easing: curve,
   });
+const GlassTone = React.createContext(false);
 const BG: React.FC<{
   dark?: boolean;
   warm?: boolean;
@@ -32,7 +35,7 @@ const BG: React.FC<{
   const frame = useCurrentFrame();
   const phase = Math.min(frame / 90, 1);
   return (
-    <AbsoluteFill
+    <GlassTone.Provider value={!!dark}><AbsoluteFill
       style={{
         background: dark ? "#000" : "#fff",
         color: dark ? "#fff" : ink,
@@ -46,11 +49,11 @@ const BG: React.FC<{
             ? `radial-gradient(ellipse 60% 50% at ${85 - phase * 10}% 110%,#074bffbb,transparent 75%),radial-gradient(ellipse 35% 25% at 110% 55%,#922bff66,transparent 80%)`
             : warm
               ? `radial-gradient(ellipse 45% 55% at ${105 - phase * 8}% 100%,#005bff99,transparent 68%),radial-gradient(ellipse 35% 50% at 90% 110%,#00ddff99,transparent 75%)`
-              : `radial-gradient(ellipse 50% 40% at 100% 110%,#1ed6ff66,transparent 75%)`,
+              : `radial-gradient(ellipse 45% 65% at ${88-phase*12}% 60%,#b8dcffb0,transparent 72%),radial-gradient(ellipse 25% 65% at 112% 15%,#347dff88,transparent 72%),linear-gradient(125deg,#fff 30%,#edf6ff 68%,#d5e9ff 100%)`,
         }}
       />
       {children}
-    </AbsoluteFill>
+    </AbsoluteFill></GlassTone.Provider>
   );
 };
 const Title: React.FC<{
@@ -133,31 +136,23 @@ const Cursor: React.FC<{ x: number; y: number; press?: number }> = ({
     />
   </svg>
 );
-const Glass: React.FC<{
-  children: React.ReactNode;
-  style?: React.CSSProperties;
-}> = ({ children, style }) => (
-  <div
-    style={{
-      border: "1px solid #ffffffc0",
-      borderRadius: 30,
-      background: "linear-gradient(130deg,#fff,#f4f8ff)",
-      boxShadow:
-        "inset 0 1px 0 white,0 35px 70px #15345b24,0 3px 8px #193e5a12",
-      backdropFilter: "blur(12px)",
-      ...style,
-    }}
-  >
-    {children}
-  </div>
-);
+const Glass: React.FC<{children?:React.ReactNode;style?:React.CSSProperties}> = ({children,style={}}) => {
+  const sceneDark = React.useContext(GlassTone);
+  const action = style.background === blue;
+  const dark = sceneDark || /#(?:000|111|1717|0707)/.test(String(style.background||"")) || style.color === "#dceafa";
+  const radius = typeof style.borderRadius === "number" ? style.borderRadius : 30;
+  return <LiquidGlass radius={radius} bezel={Math.min(radius*.45,18)} thickness={18} blur={1.2} dispersion={.018} specular={.8}
+    tint={action?"rgba(7,91,255,.55)":dark?(sceneDark?"rgba(8,14,26,.28)":"rgba(8,14,26,.92)"):"rgba(255,255,255,.12)"}
+    style={{...style,color:dark||action?"#fff":style.color,background:action?"linear-gradient(135deg,#478dff60,#075bff20)":dark?"linear-gradient(135deg,#a7caff12,#03081012)":"linear-gradient(130deg,#ffffff30,#d8ecff0a)",
+      border:"1px solid "+(dark?"#ffffff30":"#ffffffa0"),boxShadow:"inset 0 1px 0 #ffffff8c,inset 0 -1px 0 #ffffff30,0 24px 58px #10284825,0 3px 7px #15243c10"}}>{children}</LiquidGlass>;
+};
 const Terminal: React.FC<{
   t: number;
   command: string;
   lines: string[];
   style?: React.CSSProperties;
 }> = ({ t, command, lines, style }) => (
-  <div
+  <Glass
     style={{
       background: "linear-gradient(140deg,#171719,#000)",
       color: "#dceafa",
@@ -207,7 +202,7 @@ const Terminal: React.FC<{
         </div>
       ))}
     </div>
-  </div>
+  </Glass>
 );
 const ShotFrame: React.FC<{
   t: number;
@@ -331,7 +326,20 @@ const Main: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
           size={154}
           style={{ ...abs, left: 120, top: 85 }}
         />
-        <CinemaStage kind="decisions" time={t} />
+        <div style={{ ...abs, left: 120, top: 360, display: "flex", gap: 35 }}>
+          {["Clients", "Engineering teams", "Recruiters"].map((label, i) => (
+            <Glass key={label} style={{ width: 535, height: 390, padding: 48,
+              background: i === 1 && t > .7 ? blue : "transparent",
+              transform: `translateY(${move(t, i * .08, i * .08 + .5, 100, 0) - (i === 1 ? move(t, .7, 1, 0, 22) : 0)}px)`,
+              borderRadius: 32 }}>
+              <div style={{ fontSize: 30, opacity: .8 }}>A portfolio for</div>
+              <div style={{ fontSize: 64, letterSpacing: "-.045em", lineHeight: 1.06, marginTop: 35 }}>{label}</div>
+              <div style={{ position: "absolute", left: 48, bottom: 42, fontSize: 29 }}>
+                {["Find a collaborator", "Show the thinking", "Find the right role"][i]}
+              </div>
+            </Glass>
+          ))}
+        </div>
         <Cursor
           x={move(t, 0.25, 0.7, 1650, 980)}
           y={move(t, 0.25, 0.7, 900, 620)}
@@ -533,7 +541,7 @@ const ReferenceGallery: React.FC<{ t: number }> = ({ t }) => (
     }}
   >
     {["reference", "home", "palette-art"].map((name, i) => (
-      <div
+      <Glass
         key={name}
         style={{
           flex: 1,
@@ -559,7 +567,7 @@ const ReferenceGallery: React.FC<{ t: number }> = ({ t }) => (
           {["Composition", "Hierarchy", "Colour"][i]}
           <span style={{ float: "right", color: blue }}>↗</span>
         </div>
-      </div>
+      </Glass>
     ))}
   </div>
 );
@@ -576,7 +584,7 @@ const DirectionSheet: React.FC<{ t: number }> = ({ t }) => (
       gap: 60,
     }}
   >
-    <div
+    <Glass
       style={{
         borderRadius: 22,
         overflow: "hidden",
@@ -585,7 +593,7 @@ const DirectionSheet: React.FC<{ t: number }> = ({ t }) => (
       }}
     >
       <Img src={staticFile("cinema/home.png")} style={{ width: "100%" }} />
-    </div>
+    </Glass>
     <div style={{ padding: "10px 0" }}>
       {[
         "Lead with the work",
@@ -623,7 +631,7 @@ const LaunchChecks: React.FC<{ t: number; dark?: boolean }> = ({ t, dark }) => (
       color: dark ? "white" : ink,
     }}
   >
-    <div
+    <Glass
       style={{
         background: dark ? "#111" : "white",
         border: "1px solid " + (dark ? "#333" : "#dce1e9"),
@@ -648,7 +656,7 @@ const LaunchChecks: React.FC<{ t: number; dark?: boolean }> = ({ t, dark }) => (
       <div style={{ padding: 24, fontSize: 31 }}>
         Every good build starts as a drawing.
       </div>
-    </div>
+    </Glass>
     <div>
       {[
         "Domain connected",
@@ -730,7 +738,7 @@ const PaletteInterface: React.FC<{ t: number; theme?: boolean }> = ({
   const dark = theme && t > 1.15;
   const selected = Math.min(3, Math.floor(Math.max(0, t - 0.15) / 0.52));
   return (
-    <div
+    <Glass
       style={{
         ...abs,
         left: 150,
@@ -764,7 +772,7 @@ const PaletteInterface: React.FC<{ t: number; theme?: boolean }> = ({
         >
           A clear idea. A considered direction.
         </div>
-        <div
+        <Glass
           style={{
             display: "inline-block",
             marginTop: 50,
@@ -777,7 +785,7 @@ const PaletteInterface: React.FC<{ t: number; theme?: boolean }> = ({
           }}
         >
           Start building ↗
-        </div>
+        </Glass>
       </div>
       <div>
         {["Surface", "Text", "Action", "Feedback"].map((v, i) => (
@@ -822,7 +830,7 @@ const PaletteInterface: React.FC<{ t: number; theme?: boolean }> = ({
           </div>
         ))}
       </div>
-    </div>
+    </Glass>
   );
 };
 
@@ -925,7 +933,7 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   if (shot === 3)
     return (
       <BG>
-        <div
+        <Glass
           style={{
             ...abs,
             left: 240,
@@ -954,7 +962,7 @@ const Board: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
               opacity: move(t, 0.3, 0.55),
             }}
           />
-        </div>
+        </Glass>
         <Glass
           style={{
             ...abs,
@@ -1066,7 +1074,7 @@ const Punch: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
   if (shot === 1)
     return (
       <BG>
-        <div
+        <Glass
           style={{
             ...abs,
             left: 160,
@@ -1138,7 +1146,7 @@ const Punch: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
           >
             What should a visitor do?
           </Glass>
-        </div>
+        </Glass>
       </BG>
     );
   if (shot === 2)
@@ -1367,7 +1375,7 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
     );
   if (shot === 4)
     return (
-      <AbsoluteFill style={{ background: "#070709" }}>
+      <BG dark>
         <div
           style={{
             ...abs,
@@ -1400,7 +1408,7 @@ const Palette: React.FC<{ shot: number; t: number }> = ({ shot, t }) => {
             {t < 1.5 ? "Needs work" : "Contrast checked"}
           </div>
         </Glass>
-      </AbsoluteFill>
+      </BG>
     );
   if (shot === 5)
     return (

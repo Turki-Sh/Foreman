@@ -101,3 +101,14 @@ Picture streams, narration and subtitle timing remain unchanged. The private rev
 The cue sheets are in `audio-mix-audit.json`, source URLs in `audio-library-sources.json`, credits in `audio-library-credits.txt`, and measured results in `audio-export-audit.json`. Source recordings stay private and are not redistributed in this repo. Mixkit SFX license: https://mixkit.co/license/#sfxFree . Device attribution remains embedded in the review exports.
 
 `mix-library-effects.py` reproduces the private review mix with `FOREMAN_FILM_WORKSPACE` pointing to the existing film workspace containing the clean revision 7 voice stems, `cinema/audio10/sources/` recordings and previous review exports. It needs FFmpeg plus NumPy, SciPy and SoundFile. It writes new revision-specific previews without overwriting the earlier picture exports. This is a private review revision, not a published release or playbook version change.
+
+
+## Revision 11: optical glass and a percussion bed
+
+The interface panels, prompts, terminal frames, audience choices, reference cards, status cards and buttons share an optical glass material. It uses size-matched displacement maps, refracted edges, restrained blur, specular rims and light or dark tint. Label content sits above the optical layers. Blue continues to identify a primary action. Paper, colour samples, screenshots and device hardware retain their materials rather than becoming transparent.
+
+Implementation adapted from Leonard van Hemert's MIT-licensed liquid-glass-react, with its license retained in production/src/glass/LICENSE: https://github.com/LeonardSEO/liquid-glass-react . Film adaptations remove wall-clock transitions, preserve the existing layouts and place text above the tint. Visual reference: https://dribbble.com/shots/27652758-Gen-UI-for-AI-phone-OS-launcher-by-Milkinside . The reference video was inspected; its footage is not included.
+
+Each existing action-effects edit now has a supporting body-percussion arrangement. The source is ecfike's Clap Percussion Loop.wav, recorded from clapping, finger snaps and clothing percussion, licensed CC0: https://freesound.org/people/ecfike/sounds/202158/ . No melodic or harmonic music is added. Tempos are 122, 114, 126, 118 and 120 BPM respectively. Phrase entry, scene energy, narration ducking and deliberate breaks differ by film. These are five edits of one source recording, not five unrelated recordings. Full settings are in percussion-arrangements.json.
+
+mix-percussion-bed.py reproduces the mixes using FOREMAN_FILM_WORKSPACE, clean voice stems, revision 10 effect stems and the privately stored CC0 preview. The rendered private review is revision11.html. Existing review revisions remain available. This is not a product release or an approved publication. The assistant cannot hear playback in this environment; waveform measurements and playback checks are not a substitute for Turki's listening review.

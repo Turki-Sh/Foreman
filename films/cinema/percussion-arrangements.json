@@ -1,0 +1,160 @@
+[
+  {
+    "film": "before-the-code",
+    "bpm": 122,
+    "entryBeat": 0,
+    "shotEnergy": [
+      0.45,
+      0.72,
+      0.5,
+      0.85,
+      0.48,
+      1,
+      0.68,
+      0.38
+    ],
+    "breaks": [
+      [
+        16.330000000000002,
+        16.55
+      ],
+      [
+        22.05666666666667,
+        22.21666666666667
+      ]
+    ],
+    "source": "https://freesound.org/people/ecfike/sounds/202158/",
+    "license": "CC0",
+    "recording": "Clap Percussion Loop.wav by ecfike",
+    "content": "Recorded finger snaps, hand claps and clothing percussion",
+    "actionEffects": "Revision 10 individual cue sequences retained"
+  },
+  {
+    "film": "find-your-direction",
+    "bpm": 114,
+    "entryBeat": 2,
+    "shotEnergy": [
+      0.48,
+      0.67,
+      0.4,
+      0.72,
+      0.55,
+      0.85,
+      0.75,
+      0.26
+    ],
+    "breaks": [
+      [
+        17.296666666666667,
+        17.516666666666666
+      ],
+      [
+        23.84,
+        24.0
+      ]
+    ],
+    "source": "https://freesound.org/people/ecfike/sounds/202158/",
+    "license": "CC0",
+    "recording": "Clap Percussion Loop.wav by ecfike",
+    "content": "Recorded finger snaps, hand claps and clothing percussion",
+    "actionEffects": "Revision 10 individual cue sequences retained"
+  },
+  {
+    "film": "fix-what-feels-wrong",
+    "bpm": 126,
+    "entryBeat": 5,
+    "shotEnergy": [
+      0.18,
+      0.25,
+      0.48,
+      0.88,
+      0.65,
+      0.95,
+      0.85,
+      0.28
+    ],
+    "breaks": [
+      [
+        15.979999999999999,
+        16.2
+      ],
+      [
+        22.84,
+        23.0
+      ],
+      [
+        0,
+        0.75
+      ]
+    ],
+    "source": "https://freesound.org/people/ecfike/sounds/202158/",
+    "license": "CC0",
+    "recording": "Clap Percussion Loop.wav by ecfike",
+    "content": "Recorded finger snaps, hand claps and clothing percussion",
+    "actionEffects": "Revision 10 individual cue sequences retained"
+  },
+  {
+    "film": "colour-that-works",
+    "bpm": 118,
+    "entryBeat": 3,
+    "shotEnergy": [
+      0.6,
+      0.55,
+      0.78,
+      0.85,
+      0.38,
+      0.55,
+      0.85,
+      0.25
+    ],
+    "breaks": [
+      [
+        17.08,
+        17.299999999999997
+      ],
+      [
+        23.439999999999994,
+        23.599999999999994
+      ],
+      [
+        18.279999999999998,
+        18.449999999999996
+      ]
+    ],
+    "source": "https://freesound.org/people/ecfike/sounds/202158/",
+    "license": "CC0",
+    "recording": "Clap Percussion Loop.wav by ecfike",
+    "content": "Recorded finger snaps, hand claps and clothing percussion",
+    "actionEffects": "Revision 10 individual cue sequences retained"
+  },
+  {
+    "film": "before-you-share",
+    "bpm": 120,
+    "entryBeat": 6,
+    "shotEnergy": [
+      0.32,
+      0.48,
+      0.68,
+      0.72,
+      0.48,
+      0.75,
+      0.9,
+      0.35
+    ],
+    "breaks": [
+      [
+        14.81333333333333,
+        15.033333333333331
+      ],
+      [
+        21.87333333333333,
+        22.03333333333333
+      ]
+    ],
+    "source": "https://freesound.org/people/ecfike/sounds/202158/",
+    "license": "CC0",
+    "recording": "Clap Percussion Loop.wav by ecfike",
+    "content": "Recorded finger snaps, hand claps and clothing percussion",
+    "actionEffects": "Revision 10 individual cue sequences retained"
+  }
+]

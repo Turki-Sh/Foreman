@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "src": "http://127.0.0.1:3235/cinema/before-the-code/preview-glass11.mp4?v=11",
+      "duration": 25.133333,
+      "width": 1920,
+      "height": 1080,
+      "tracks": 33,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:3235/cinema/find-your-direction/preview-glass11.mp4?v=11",
+      "duration": 26.55,
+      "width": 1920,
+      "height": 1080,
+      "tracks": 33,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:3235/cinema/fix-what-feels-wrong/preview-glass11.mp4?v=11",
+      "duration": 25.783333,
+      "width": 1920,
+      "height": 1080,
+      "tracks": 33,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:3235/cinema/colour-that-works/preview-glass11.mp4?v=11",
+      "duration": 26.15,
+      "width": 1920,
+      "height": 1080,
+      "tracks": 33,
+      "error": null
+    },
+    {
+      "src": "http://127.0.0.1:3235/cinema/before-you-share/preview-glass11.mp4?v=11",
+      "duration": 24.683333,
+      "width": 1920,
+      "height": 1080,
+      "tracks": 33,
+      "error": null
+    }
+  ],
+  "errors": []
+}

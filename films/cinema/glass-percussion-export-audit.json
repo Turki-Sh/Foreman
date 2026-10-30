@@ -1,0 +1,47 @@
+[
+  {
+    "film": "before-the-code",
+    "LUFS": -16.01,
+    "truePeakDBTP": -1.44,
+    "duration": 25.133333,
+    "captions": 33,
+    "decode": "pass",
+    "beatSHA256": "6c9a9ba23041c31fbc8baeee5249e8cc0c170dbe1b35dcdab4cfa0391bbfa1a7"
+  },
+  {
+    "film": "find-your-direction",
+    "LUFS": -16.24,
+    "truePeakDBTP": -1.45,
+    "duration": 26.55,
+    "captions": 33,
+    "decode": "pass",
+    "beatSHA256": "51ede2336d70c1cd02771c2d9c72c30699634c6d90a767eafb9da2240bfc4614"
+  },
+  {
+    "film": "fix-what-feels-wrong",
+    "LUFS": -16.03,
+    "truePeakDBTP": -1.49,
+    "duration": 25.783333,
+    "captions": 33,
+    "decode": "pass",
+    "beatSHA256": "f01eb4ae764d5f5b6a1ab283b34b0bf1cb2161e421e6b365fb08e306941ee56c"
+  },
+  {
+    "film": "colour-that-works",
+    "LUFS": -16.09,
+    "truePeakDBTP": -1.49,
+    "duration": 26.15,
+    "captions": 33,
+    "decode": "pass",
+    "beatSHA256": "29594606e3f4298374b59daa7da6f4a785043d55b4ac213c1ae0f103930ec027"
+  },
+  {
+    "film": "before-you-share",
+    "LUFS": -16.09,
+    "truePeakDBTP": -1.49,
+    "duration": 24.683333,
+    "captions": 33,
+    "decode": "pass",
+    "beatSHA256": "61701ffe9722d6472edb318cc6b6f762e9b3acaa1eb3b117bd27b8ddb3674ed7"
+  }
+]
