@@ -28,7 +28,16 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/punch-list.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
+<noscript><style>
+  [role="tabpanel"][hidden] { display: block; }
+  .tabs, .theme, .menubtn, .copy, .foreman { display: none; }
+  .viewer { position: static; }
+  .viewer > [role="tabpanel"] { margin-bottom: 2rem; }
+  .panel { margin-bottom: 1rem; }
+  .rows .row { text-decoration: none; }
+  .rows .row[aria-selected="true"] { background: none; }
+</style></noscript>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -113,25 +122,30 @@
     <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Punch list</p>
     <h1>Why your site looks AI-made, item by item.</h1>
     <p class="lede">On a building site, the punch list is everything that does not meet the spec, walked room by room before handover. This one is walked against a website, including sites Foreman never built, and every item comes with its fix.</p>
-    <div class="copyrow"><pre id="cmd">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <div class="copyrow"><pre id="cmd" tabindex="0">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
     <ul class="asks"><li>why does my site look AI-made</li><li>audit this page before I launch it</li><li>what is wrong with this screenshot</li></ul>
   </div>
-  <svg class="art" viewBox="0 0 240 160" role="img" aria-label="A clipboard punch list: three items checked, two marked in red with a fix.">
-  <rect class="ln" x="58" y="14" width="124" height="138" rx="6" stroke-width="2"/>
-  <rect class="ln fill-paper" x="96" y="7" width="48" height="16" rx="3" stroke-width="2"/>
-  <g class="ln thin">
-    <rect x="74" y="40" width="11" height="11" rx="1"/><path d="M94 46h62"/>
-    <rect x="74" y="62" width="11" height="11" rx="1"/><path d="M94 68h48"/>
-    <rect x="74" y="84" width="11" height="11" rx="1"/><path d="M94 90h56"/>
-    <rect x="74" y="106" width="11" height="11" rx="1"/><path d="M94 112h40"/>
-    <rect x="74" y="128" width="11" height="11" rx="1"/><path d="M94 134h52"/>
-  </g>
-  <g class="mark-ok"><path d="M75 46l3 4 6-8"/><path d="M75 68l3 4 6-8"/><path d="M75 112l3 4 6-8"/></g>
-  <g class="mark-no"><path d="M75 85l9 9M84 85l-9 9"/><path d="M75 129l9 9M84 129l-9 9"/></g>
-  <ellipse class="mark-no" cx="118" cy="90" rx="52" ry="12"/>
-  <path class="mark-no" d="M170 88c14-6 26-10 40-10"/>
-  <text class="note-no" x="186" y="72">FIX</text>
-</svg>
+  <figure class="window term ">
+  <figcaption class="chrome">foreman:punch-list  foreman.turkialshuaibi.com</figcaption>
+  <pre tabindex="0">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
+Checked: raw HTML source and CSS, /, /sitemap.xml, /robots.txt,
+/llms.txt, /favicon.ico, a missing URL, and the Foreman repo for
+cross-checks.
+No browser, so 1280 and 375 were read from the CSS, not rendered.
+13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
+
+BROKEN
+1. Header nav at 375. Under 34rem, `.bar nav { display: none }`
+   hides all four links and the Dark/Light toggle (it lives
+   inside the nav). Nothing replaces them, so phone visitors
+   cannot jump to Install or reach GitHub from the header, and
+   cannot switch theme.
+   Fix: keep the nav as a wrapped second row on phones, or add a
+   menu button that opens the same links and the toggle.
+2. Header tap targets. Nav links are 11px mono text at
+   line-height 1.6 with no padding (about 18px tall), and the
+   theme toggle is about 21px. Both are under the 24px floor.</pre>
+</figure>
 
 </div>
 </div>
@@ -142,7 +156,7 @@
       <h2>What comes back.</h2>
       <p>A real run on the author's machine, pointed at the previous version of this site on 27 October 2026. It had no browser, only the source and HTTP, and it says so.</p>
     </div>
-    <pre class="print">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
+    <pre class="print" tabindex="0">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
 Checked: raw HTML source and CSS, /, /sitemap.xml, /robots.txt, /llms.txt,
 /favicon.ico, a missing URL, and the Foreman repo for cross-checks.
 No browser, so 1280 and 375 were read from the CSS, not rendered.
@@ -246,49 +260,9 @@ the pixel-art cutout is hand-drawn or generated.</pre>
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/board/" data-tool="board"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A pin-up board of six reference sheets: two circled to keep, one crossed out.">
-  <rect class="ln" x="10" y="10" width="220" height="140" rx="4" stroke-width="2"/>
-  <g class="ln thin">
-    <g transform="rotate(-3 46 45)"><rect x="22" y="24" width="50" height="40" rx="2"/><path d="M28 32h26M28 38h36M28 50h16"/></g>
-    <g transform="rotate(2 120 44)"><rect x="95" y="24" width="50" height="40" rx="2"/><path d="M101 32h20M101 40h38M101 46h38M101 52h30"/></g>
-    <g transform="rotate(-2 193 45)"><rect x="168" y="25" width="50" height="40" rx="2"/><path d="M174 33h38M174 41h12M190 41h22"/></g>
-    <g transform="rotate(2 46 113)"><rect x="21" y="93" width="50" height="40" rx="2"/><path d="M27 101h30M27 109h38M27 121h22"/></g>
-    <g transform="rotate(-2 120 112)"><rect x="95" y="92" width="50" height="40" rx="2"/><path d="M101 100h24M101 108h38M101 114h38M101 120h18"/></g>
-    <g transform="rotate(3 193 114)"><rect x="168" y="94" width="50" height="40" rx="2"/><path d="M174 102h38M174 110h28M174 116h34"/></g>
-  </g>
-  <g class="fill-tool"><circle cx="47" cy="25" r="3"/><circle cx="120" cy="24" r="3"/><circle cx="193" cy="25" r="3"/><circle cx="46" cy="93" r="3"/><circle cx="120" cy="92" r="3"/><circle cx="193" cy="94" r="3"/></g>
-  <ellipse class="mark-keep" cx="120" cy="44" rx="34" ry="28" transform="rotate(-6 120 44)"/>
-  <ellipse class="mark-keep" cx="46" cy="113" rx="34" ry="28" transform="rotate(5 46 113)"/>
-  <path class="mark-no" d="M172 100l42 32M214 100l-42 32"/>
-</svg>
-</span><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/palette/" data-tool="palette"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A fan deck of colour swatches, spread from one pivot, with the chosen card ticked.">
-  <g transform="translate(70 140)">
-    <g transform="rotate(-64)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#164777"/></g>
-    <g transform="rotate(-44)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#1E7F52"/></g>
-    <g transform="rotate(-24)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#EC6A55"/></g>
-    <g transform="rotate(-4)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#F2BE3C"/></g>
-    <g transform="rotate(16)"><rect class="ln fill-paper" x="-13" y="-118" width="26" height="114" rx="4" stroke-width="1.5"/><rect x="-11" y="-116" width="22" height="58" rx="3" fill="#E9E6E1"/><path class="ln thin" d="M-7 -50h14M-7 -44h10"/></g>
-    <circle class="ln fill-paper" r="6" stroke-width="2"/>
-  </g>
-  <path class="mark-ok" d="M150 44l8 10 16-22"/>
-  <path class="ln thin dash" d="M118 46c10-6 20-8 30-6"/>
-</svg>
-</span><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
-      <a href="/launch/" data-tool="launch"><span class="artbox" aria-hidden="true"><svg class="art" viewBox="0 0 240 160" role="img" aria-label="A browser window with a locked address bar, stamped live, broadcasting from its corner.">
-  <rect class="ln" x="20" y="34" width="156" height="110" rx="7" stroke-width="2"/>
-  <path class="ln" d="M20 54h156" stroke-width="2"/>
-  <rect class="ln thin" x="58" y="40" width="104" height="9" rx="4.5"/>
-  <path class="ln thin" d="M64 44.5h0.1M70 44.5h60"/>
-  <rect class="fill-tool" x="62" y="41.5" width="5" height="6" rx="1"/>
-  <g class="ln thin"><path d="M34 70h70M34 80h96M34 88h56"/><rect x="34" y="100" width="40" height="12" rx="2"/><rect x="112" y="68" width="50" height="44" rx="3"/></g>
-  <g transform="rotate(-8 168 120)">
-    <rect class="stamp" x="126" y="102" width="84" height="34" rx="5"/>
-    <text class="stamp-text" x="168" y="126" text-anchor="middle">LIVE</text>
-  </g>
-  <g class="mark-ok"><path d="M196 34a14 14 0 0 1 14 14"/><path d="M196 24a24 24 0 0 1 24 24"/><path d="M196 14a34 34 0 0 1 34 34"/></g>
-</svg>
-</span><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
+      <a href="/board/" data-tool="board"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+      <a href="/launch/" data-tool="launch"><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
     </div>
   </div>
 </section>

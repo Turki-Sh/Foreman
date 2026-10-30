@@ -29,6 +29,24 @@ Changed:
 - The failure report form named the old phases. It names the eight steps and
   the tools now.
 
+Fixed, from the bench's first runs:
+- **Orient reads the folder.** In both of the first two runs Foreman asked the
+  owner for numbers that were sitting in `project-notes.md`, then asked her to
+  paste the notes. Step 1 now lists the project folder and reads the files about
+  the subject before anything else, in every mode, and never asks a question a
+  file already answers.
+- **The bench gave Foreman its own files.** Headless sessions could not ask to
+  read the plugin folder, so the skill ran without its references and assets.
+  The runner now grants that read, as a user clicking allow would.
+- **The simulated owner stops claiming files.** It kept saying screenshots were
+  in the folder when they were not. It now knows nothing else is there and
+  says so.
+- **The simulated owner runs in safe mode.** On a test run with the author's
+  own config, his rules walked the owner model out of its role mid-session,
+  and the run stalled with nothing built. The owner now never loads a
+  CLAUDE.md or rules file. The agent cannot do the same, because safe mode
+  also blocks the plugin, so clean agent runs still need their own login.
+
 ## 3.0.0, 27 October 2026
 
 Major, because the session flow changed: it now runs at three depths, and four

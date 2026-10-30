@@ -172,7 +172,9 @@ function measure() {
       const ph = await phone.newPage();
       await ph.goto(base + p, { waitUntil: 'networkidle', timeout: 30000 }).catch(() => {});
       await ph.waitForTimeout(300);
-      const overflow = await ph.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+      // Against the device's 375, not innerWidth: in a mobile context the layout
+      // viewport stretches to fit wide content, so innerWidth grows with the bug.
+      const overflow = await ph.evaluate(() => document.documentElement.scrollWidth - 375);
       if (shots && p === main) {
         fs.mkdirSync(shots, { recursive: true });
         await page.screenshot({ path: path.join(shots, 'desktop.png') });

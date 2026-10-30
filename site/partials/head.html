@@ -25,5 +25,14 @@
 <meta name="twitter:image" content="{{og_image}}">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v={{version}}">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
+<noscript><style>
+  [role="tabpanel"][hidden] { display: block; }
+  .tabs, .theme, .menubtn, .copy, .foreman { display: none; }
+  .viewer { position: static; }
+  .viewer > [role="tabpanel"] { margin-bottom: 2rem; }
+  .panel { margin-bottom: 1rem; }
+  .rows .row { text-decoration: none; }
+  .rows .row[aria-selected="true"] { background: none; }
+</style></noscript>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 {{jsonld}}

@@ -28,7 +28,16 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/changelog.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
+<noscript><style>
+  [role="tabpanel"][hidden] { display: block; }
+  .tabs, .theme, .menubtn, .copy, .foreman { display: none; }
+  .viewer { position: static; }
+  .viewer > [role="tabpanel"] { margin-bottom: 2rem; }
+  .panel { margin-bottom: 1rem; }
+  .rows .row { text-decoration: none; }
+  .rows .row[aria-selected="true"] { background: none; }
+</style></noscript>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -108,21 +117,12 @@
 
 <main id="main">
 <div class="band">
-<div class="wrap pagehead has-art">
+<div class="wrap pagehead">
   <div>
     <p class="crumbs"><a href="/">Foreman</a> / Changelog</p>
     <h1>Changelog.</h1>
     <p class="lede">Every release, and the build or the feedback that caused it. The current version is 3.0.1, from 27 October 2026.</p>
   </div>
-  <svg class="art" viewBox="0 0 240 160" role="img" aria-label="A drawing's revision table, one row per release, with the newest row marked.">
-  <rect class="ln" x="20" y="18" width="200" height="124" stroke-width="2"/>
-  <g class="ln"><path d="M20 40h200"/><path d="M56 18v124M168 18v124"/></g>
-  <g class="ln thin"><path d="M20 60h200M20 80h200M20 100h200M20 120h200"/></g>
-  <rect class="fill-tool" x="21" y="41" width="198" height="19" opacity=".35"/>
-  <g class="ln thin"><path d="M30 29h16M66 29h60M178 29h30"/><path d="M30 50h14M66 50h88M178 50h32"/><path d="M30 70h14M66 70h70M178 70h32"/><path d="M30 90h14M66 90h84M178 90h32"/><path d="M30 110h14M66 110h58M178 110h32"/><path d="M30 130h14M66 130h76M178 130h32"/></g>
-  <path class="mark-ok" d="M224 44l5 6 10-12"/>
-</svg>
-
 </div>
 </div>
 
@@ -136,6 +136,8 @@
 <ul><li><strong>The bench,</strong> in <code>bench/</code>: real Claude Code sessions, played out against a simulated owner from a fact sheet, with and without Foreman installed, then measured in a browser. It counts what a visitor meets: numbers on the page the owner never gave, the default AI palette, dead links, overflow on a phone, contrast failures, missing metadata, a missing 404, dashes, and stock SaaS words. <code>review.py</code> shows each pair blind for a person to judge. Its README says what it cannot tell you, and documentation takes numbers only from its clean runs.</li><li><strong>The field count,</strong> <code>bench/field.py</code>, which reads real Claude Code and Codex transcripts and prints how sessions where Foreman actually spoke went, as counts only.</li><li><strong>The pulse,</strong> <code>bench/pulse.py</code>, which appends GitHub's stars, traffic, referrers and downloads to a log, because GitHub forgets traffic after 14 days.</li><li><strong>A session report form,</strong> and one line at the close of every session pointing to it, including the sessions that went badly, which are the ones most worth hearing about. Foreman still sends nothing anywhere on its own.</li></ul>
 <p class="kind">Changed:</p>
 <ul><li>The failure report form named the old phases. It names the eight steps and the tools now.</li></ul>
+<p class="kind">Fixed, from the bench's first runs:</p>
+<ul><li><strong>Orient reads the folder.</strong> In both of the first two runs Foreman asked the owner for numbers that were sitting in <code>project-notes.md</code>, then asked her to paste the notes. Step 1 now lists the project folder and reads the files about the subject before anything else, in every mode, and never asks a question a file already answers.</li><li><strong>The bench gave Foreman its own files.</strong> Headless sessions could not ask to read the plugin folder, so the skill ran without its references and assets. The runner now grants that read, as a user clicking allow would.</li><li><strong>The simulated owner stops claiming files.</strong> It kept saying screenshots were in the folder when they were not. It now knows nothing else is there and says so.</li><li><strong>The simulated owner runs in safe mode.</strong> On a test run with the author's own config, his rules walked the owner model out of its role mid-session, and the run stalled with nothing built. The owner now never loads a CLAUDE.md or rules file. The agent cannot do the same, because safe mode also blocks the plugin, so clean agent runs still need their own login.</li></ul>
 <h2 id="v3-0-0"><a href="#v3-0-0">3.0.0, 27 October 2026</a></h2>
 <p>Major, because the session flow changed: it now runs at three depths, and four of its parts can run without the session at all.</p>
 <p>The evidence this time was feedback rather than a broken build. People who ran Foreman said it asked too many questions, and they were right about the cost and wrong about the cure. The cure most tools reach for is to ask less and assume more, and an agent that assumes is an agent that lands on the average, which is the page this playbook exists to stop. So the questions did not get fewer for free. In the new short mode, every question that is skipped becomes research the agent has to do instead.</p>

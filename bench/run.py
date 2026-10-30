@@ -67,7 +67,10 @@ def agent_turn(args, env, cwd, message, session, use_plugin):
            "--model", args.agent_model, "--permission-mode", "acceptEdits",
            "--tools", "Read,Write,Edit,Glob,Grep,Skill", "--strict-mcp-config", "--setting-sources", "project"]
     if use_plugin:
-        cmd += ["--plugin-dir", str(PLUGIN)]
+        # The plugin sits outside the run folder, and a headless session cannot
+        # ask to read it, so without --add-dir the skill loses its references
+        # and assets. A real user clicks allow; this is that click.
+        cmd += ["--plugin-dir", str(PLUGIN), "--add-dir", str(PLUGIN)]
     if session:
         cmd += ["--resume", session]
     start = time.time()
@@ -120,7 +123,10 @@ def owner_reply(args, env, scenario, history, neutral):
     for h in history[-10:]:
         convo.append(f"YOU SAID:\n{h['message']}\n\nTHE AGENT REPLIED:\n{h['text']}")
     prompt = "\n\n---\n\n".join(convo) + "\n\n---\n\nWrite your next message to the agent, and nothing else."
-    cmd = [claude(), "-p", "--model", args.user_model, "--system-prompt", system, "--tools", "",
+    # Safe mode keeps every CLAUDE.md and rule out of the owner, even on a test
+    # run with the user's own config. A personal rule such as "never speak for
+    # someone else" walked the owner out of the role mid-session on 27 October.
+    cmd = [claude(), "-p", "--safe-mode", "--model", args.user_model, "--system-prompt", system, "--tools", "",
            "--strict-mcp-config", "--no-session-persistence", "--setting-sources", "project"]
     proc = subprocess.run(cmd, cwd=neutral, env=env, input=prompt, capture_output=True, text=True, encoding="utf-8",
                           errors="replace", timeout=args.turn_timeout)

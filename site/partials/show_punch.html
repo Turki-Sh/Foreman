@@ -1,0 +1,21 @@
+<figure class="window term ">
+  <figcaption class="chrome">foreman:punch-list  foreman.turkialshuaibi.com</figcaption>
+  <pre tabindex="0">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
+Checked: raw HTML source and CSS, /, /sitemap.xml, /robots.txt,
+/llms.txt, /favicon.ico, a missing URL, and the Foreman repo for
+cross-checks.
+No browser, so 1280 and 375 were read from the CSS, not rendered.
+13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
+
+BROKEN
+1. Header nav at 375. Under 34rem, `.bar nav { display: none }`
+   hides all four links and the Dark/Light toggle (it lives
+   inside the nav). Nothing replaces them, so phone visitors
+   cannot jump to Install or reach GitHub from the header, and
+   cannot switch theme.
+   Fix: keep the nav as a wrapped second row on phones, or add a
+   menu button that opens the same links and the toggle.
+2. Header tap targets. Nav links are 11px mono text at
+   line-height 1.6 with no padding (about 18px tall), and the
+   theme toggle is about 21px. Both are under the 24px floor.</pre>
+</figure>

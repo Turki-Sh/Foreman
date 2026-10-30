@@ -8,15 +8,15 @@ crumb: Launch
 priority: 0.8
 -->
 <div class="band" data-tool="launch">
-<div class="wrap pagehead has-art" data-tool="launch">
+<div class="wrap pagehead has-art stack" data-tool="launch">
   <div>
     <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Launch</p>
     <h1>From finished to live and found.</h1>
     <p class="lede">The part nobody builds until reminded: the domain, the DNS records, the certificate, the head metadata, the share card, the 404, the sitemap, and getting indexed. One step per message, for a site built anywhere.</p>
-    <div class="copyrow"><pre id="cmd">/foreman:launch</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <div class="copyrow"><pre id="cmd" tabindex="0">/foreman:launch</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
     <ul class="asks"><li>how do I put this online</li><li>my domain will not load</li><li>the link preview shows nothing</li></ul>
   </div>
-  {{art_launch}}
+  {{show_launch}}
 </div>
 </div>
 
@@ -26,7 +26,7 @@ priority: 0.8
       <h2>What comes back.</h2>
       <p>A real run on the author's machine, against this site on 27 October 2026, before the rebuild. It read the live DNS, the email records it must not touch, the certificate, the 404, and the head block, and marked whose each open item is.</p>
     </div>
-    <pre class="print">LAUNCH · foreman.turkialshuaibi.com
+    <pre class="print" tabindex="0">LAUNCH · foreman.turkialshuaibi.com
 done   DNS                          CNAME foreman -&gt; turki-sh.github.io, resolves to the four GitHub Pages IPs (checked via 8.8.8.8)
 done   Email untouched              MX (5 eforward records), SPF TXT and google-site-verification TXT are all still on the apex
 done   HTTPS                         certificate valid, curl needed no override
@@ -81,9 +81,9 @@ open   Inbound links                link the site from the repo About field, the
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/board/" data-tool="board"><span class="artbox" aria-hidden="true">{{art_board}}</span><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/punch-list/" data-tool="punch-list"><span class="artbox" aria-hidden="true">{{art_punch}}</span><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
-      <a href="/palette/" data-tool="palette"><span class="artbox" aria-hidden="true">{{art_palette}}</span><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+      <a href="/board/" data-tool="board"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/punch-list/" data-tool="punch-list"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
     </div>
   </div>
 </section>

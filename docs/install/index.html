@@ -28,7 +28,16 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/install.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
+<noscript><style>
+  [role="tabpanel"][hidden] { display: block; }
+  .tabs, .theme, .menubtn, .copy, .foreman { display: none; }
+  .viewer { position: static; }
+  .viewer > [role="tabpanel"] { margin-bottom: 2rem; }
+  .panel { margin-bottom: 1rem; }
+  .rows .row { text-decoration: none; }
+  .rows .row[aria-selected="true"] { background: none; }
+</style></noscript>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -114,18 +123,37 @@
     <h1>Install Foreman.</h1>
     <p class="lede">One folder of markdown. Nothing compiles and nothing runs, so it installs anywhere an agent reads files.</p>
   </div>
-  <svg class="art" viewBox="0 0 240 160" role="img" aria-label="A folder of markdown files sliding into a terminal window.">
-  <rect class="ln" x="96" y="26" width="132" height="110" rx="6" stroke-width="2"/>
-  <path class="ln" d="M96 44h132" stroke-width="2"/>
-  <g class="ln thin"><circle cx="108" cy="35" r="2.5"/><circle cx="117" cy="35" r="2.5"/><circle cx="126" cy="35" r="2.5"/></g>
-  <g class="ln thin"><path d="M108 60l6 5-6 5"/><path d="M120 70h60"/><path d="M108 84h86"/><path d="M108 96h72"/><path d="M108 108l6 5-6 5"/></g>
-  <rect class="fill-tool" x="120" y="110" width="8" height="10"/>
-  <g transform="rotate(-8 50 92)">
-    <path class="ln fill-paper" d="M14 70h22l6 6h36v52H14z" stroke-width="2"/>
-    <g class="ln thin"><path d="M24 92h44M24 102h36M24 112h40"/></g>
-  </g>
-  <path class="ln tool-stroke" d="M64 52c14-14 24-16 34-12" stroke-width="2"/><path class="ln tool-stroke" d="M90 34l8 6-9 4" stroke-width="2"/>
-</svg>
+  <figure class="window term card">
+  <figcaption class="chrome">&gt; help me build my portfolio</figcaption>
+  <pre tabindex="0">         _____ ___  ____  _____ __  __    _    _   _
+        |  ___/ _ \|  _ \| ____|  \/  |  / \  | \ | |
+        | |_ | | | | |_) |  _| | |\/| | / _ \ |  \| |
+        |  _|| |_| |  _ &lt;| |___| |  | |/ ___ \| |\  |
+        |_|   \___/|_| \_\_____|_|  |_/_/   \_\_| \_|
+
++--------------------------------------------------------------+
+|                                                              |
+|                        _______________                       |
+|                    ___/               \___                   |
+|                   /_________________________\                |
+|                   \_________________________/                |
+|                      |  .---.     .---.  |                   |
+|                      |  | O |-----| O |  |                   |
+|                      |  &#x27;---&#x27;     &#x27;---&#x27;  |                   |
+|                      |         v         |                   |
+|                      |     ~~~~~~~~~     |                   |
+|                       \_________________/                    |
+|                                                              |
+|   PLAYBOOK  Foreman 3.0.1 by Turki Alshuaibi                 |
+|   STATUS    Step 1 of 8 . Orient                             |
+|   METHOD    Decide &gt; Look &gt; Brief &gt; Build &gt; Verify &gt; Ship    |
+|   MODE      Blueprint. Say survey or stress test to switch   |
+|   RULE      No site code until you sign off the brief        |
+|                                                              |
++--------------------------------------------------------------+
+|   What are you building, and what do you already have?       |
++--------------------------------------------------------------+</pre>
+</figure>
 
 </div>
 </div>
@@ -139,13 +167,13 @@
     <div class="install">
       <div>
 <div class="copyrow">
-<pre id="cc">/plugin marketplace add Turki-Sh/Foreman
+<pre id="cc" tabindex="0">/plugin marketplace add Turki-Sh/Foreman
 /plugin install foreman@alshuaibi</pre>
   <button class="copy" type="button" data-for="cc">Copy</button>
 </div>
 <p class="small" style="margin:.75rem 0">If your session answers that <code>/plugin</code> isn't available, it is a terminal-only dialog. Run the same two steps as shell commands, then restart the session.</p>
 <div class="copyrow">
-<pre id="ccsh">claude plugin marketplace add Turki-Sh/Foreman
+<pre id="ccsh" tabindex="0">claude plugin marketplace add Turki-Sh/Foreman
 claude plugin install foreman@alshuaibi</pre>
   <button class="copy" type="button" data-for="ccsh">Copy</button>
 </div>
@@ -153,8 +181,8 @@ claude plugin install foreman@alshuaibi</pre>
       </div>
       <div>
         <h3>Update or remove</h3>
-        <div class="copyrow"><pre id="upd">/plugin marketplace update alshuaibi</pre><button class="copy" type="button" data-for="upd">Copy</button></div>
-        <div class="copyrow" style="margin-top:.5rem"><pre id="rm">/plugin uninstall foreman@alshuaibi</pre><button class="copy" type="button" data-for="rm">Copy</button></div>
+        <div class="copyrow"><pre id="upd" tabindex="0">/plugin marketplace update alshuaibi</pre><button class="copy" type="button" data-for="upd">Copy</button></div>
+        <div class="copyrow" style="margin-top:.5rem"><pre id="rm" tabindex="0">/plugin uninstall foreman@alshuaibi</pre><button class="copy" type="button" data-for="rm">Copy</button></div>
       </div>
     </div>
   </div>
@@ -178,10 +206,10 @@ claude plugin install foreman@alshuaibi</pre>
       <p>Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or anything that reads skills or rules. Copy one folder.</p>
     </div>
     <div>
-      <div class="copyrow"><pre id="uni">git clone https://github.com/Turki-Sh/Foreman.git
+      <div class="copyrow"><pre id="uni" tabindex="0">git clone https://github.com/Turki-Sh/Foreman.git
 cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/</pre><button class="copy" type="button" data-for="uni">Copy</button></div>
-      <div class="scroller" style="margin-top:1.5rem">
-        <table>
+      <div class="scroller" tabindex="0" style="margin-top:1.5rem">
+        <table tabindex="0">
           <thead><tr><th scope="col">Tool</th><th scope="col">Where the folder goes</th></tr></thead>
           <tbody>
             <tr><th scope="row">Universal skills directory</th><td><code>~/.agents/skills/foreman/</code></td></tr>
@@ -216,7 +244,7 @@ cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/</pre><button clas
       <h2>Check it loaded</h2>
       <p>Say <strong>help me build my portfolio</strong>. The first reply is this card, then nothing. If it starts writing HTML, it did not load.</p>
     </div>
-    <pre class="print" aria-label="The Foreman opening card">         _____ ___  ____  _____ __  __    _    _   _
+    <pre class="print" aria-label="The Foreman opening card" tabindex="0">         _____ ___  ____  _____ __  __    _    _   _
         |  ___/ _ \|  _ \| ____|  \/  |  / \  | \ | |
         | |_ | | | | |_) |  _| | |\/| | / _ \ |  \| |
         |  _|| |_| |  _ &lt;| |___| |  | |/ ___ \| |\  |

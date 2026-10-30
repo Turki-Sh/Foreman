@@ -10,6 +10,7 @@ Your taste, for when you are asked to choose:
 {taste}
 
 Files you already put in the project folder: {files}
+Nothing else is in the folder, and you cannot add files during this chat. If you are asked for a file that is not on that list, say you will send it later and the agent should leave a marked placeholder for it.
 
 How you answer:
 - Reply like a person typing in a chat: one to three short sentences, in your own voice.

@@ -14,7 +14,7 @@ priority: 0.9
     <h1>Install Foreman.</h1>
     <p class="lede">One folder of markdown. Nothing compiles and nothing runs, so it installs anywhere an agent reads files.</p>
   </div>
-  {{art_install}}
+  {{show_install}}
 </div>
 </div>
 
@@ -30,8 +30,8 @@ priority: 0.9
       </div>
       <div>
         <h3>Update or remove</h3>
-        <div class="copyrow"><pre id="upd">/plugin marketplace update alshuaibi</pre><button class="copy" type="button" data-for="upd">Copy</button></div>
-        <div class="copyrow" style="margin-top:.5rem"><pre id="rm">/plugin uninstall foreman@alshuaibi</pre><button class="copy" type="button" data-for="rm">Copy</button></div>
+        <div class="copyrow"><pre id="upd" tabindex="0">/plugin marketplace update alshuaibi</pre><button class="copy" type="button" data-for="upd">Copy</button></div>
+        <div class="copyrow" style="margin-top:.5rem"><pre id="rm" tabindex="0">/plugin uninstall foreman@alshuaibi</pre><button class="copy" type="button" data-for="rm">Copy</button></div>
       </div>
     </div>
   </div>
@@ -55,10 +55,10 @@ priority: 0.9
       <p>Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or anything that reads skills or rules. Copy one folder.</p>
     </div>
     <div>
-      <div class="copyrow"><pre id="uni">git clone https://github.com/Turki-Sh/Foreman.git
+      <div class="copyrow"><pre id="uni" tabindex="0">git clone https://github.com/Turki-Sh/Foreman.git
 cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/</pre><button class="copy" type="button" data-for="uni">Copy</button></div>
-      <div class="scroller" style="margin-top:1.5rem">
-        <table>
+      <div class="scroller" tabindex="0" style="margin-top:1.5rem">
+        <table tabindex="0">
           <thead><tr><th scope="col">Tool</th><th scope="col">Where the folder goes</th></tr></thead>
           <tbody>
             <tr><th scope="row">Universal skills directory</th><td><code>~/.agents/skills/foreman/</code></td></tr>
@@ -93,7 +93,7 @@ cp -r Foreman/plugins/foreman/skills/foreman ~/.agents/skills/</pre><button clas
       <h2>Check it loaded</h2>
       <p>Say <strong>help me build my portfolio</strong>. The first reply is this card, then nothing. If it starts writing HTML, it did not load.</p>
     </div>
-    <pre class="print" aria-label="The Foreman opening card">         _____ ___  ____  _____ __  __    _    _   _
+    <pre class="print" aria-label="The Foreman opening card" tabindex="0">         _____ ___  ____  _____ __  __    _    _   _
         |  ___/ _ \|  _ \| ____|  \/  |  / \  | \ | |
         | |_ | | | | |_) |  _| | |\/| | / _ \ |  \| |
         |  _|| |_| |  _ &lt;| |___| |  | |/ ___ \| |\  |

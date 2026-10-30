@@ -8,20 +8,20 @@ crumb: Modes
 priority: 0.9
 -->
 <div class="band">
-<div class="wrap pagehead has-art">
+<div class="wrap pagehead has-art stack">
   <div>
     <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
     <h1>Three modes, one set of decisions.</h1>
     <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
   </div>
-  <div class="trio">{{art_survey}}{{art_blueprint}}{{art_stress}}</div>
+  {{show_modes}}
 </div>
 </div>
 
 <section class="tight">
   <div class="wrap">
-    <div class="scroller">
-      <table>
+    <div class="scroller" tabindex="0">
+      <table tabindex="0">
         <thead><tr><th scope="col">Mode</th><th scope="col">For</th><th scope="col">Before any code exists</th></tr></thead>
         <tbody>
           <tr><th scope="row"><a href="#survey">Survey</a></th><td>You want it moving, or you already have most of the material</td><td>About four exchanges: two sheets, the variants, the brief. It researches, you correct</td></tr>
@@ -36,7 +36,7 @@ priority: 0.9
 <section id="survey">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead">{{art_survey}}<h2>Survey: research instead of asking.</h2></div>
+      <h2>Survey: research instead of asking.</h2>
       <p>Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.</p>
     </div>
     <div class="prose">
@@ -57,7 +57,7 @@ priority: 0.9
 <p class="gap">It reads the README before it asks anything, then:</p>
 <div class="fm"><b>FOREMAN · SURVEY · 2/8 · DECISIONS</b>
 
-<pre class="sheetout">reader      ?                                                   from: not in the README
+<pre class="sheetout" tabindex="0">reader      ?                                                   from: not in the README
 action      download Linkwell                                   from: README, last line
 job         a reader downloads it and points it at their own
             vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
@@ -86,7 +86,7 @@ Who is the one reader: Obsidian users with a big vault, people who keep notes in
 <section id="blueprint">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead">{{art_blueprint}}<h2>Blueprint: the full interview.</h2></div>
+      <h2>Blueprint: the full interview.</h2>
       <p>The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.</p>
     </div>
     <div>
@@ -116,7 +116,7 @@ After those ninety seconds, what is the one thing you want them to do? Email you
 <section id="stress-test">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead">{{art_stress}}<h2>Stress test: every answer pushed once.</h2></div>
+      <h2>Stress test: every answer pushed once.</h2>
       <p>For the build where a weak decision is expensive. Everything in Blueprint, plus:</p>
       <ul class="small" style="padding-left:1.1rem;margin:0">
         <li>One challenge on every answer at steps 2 and 3 before it locks, never two.</li>
@@ -157,7 +157,7 @@ What would make that lead close your page within ten seconds?</div>
     <div class="prose">
       <p>Every session opens with a card, and the card carries a <code>MODE</code> line. Say <strong>survey</strong>, <strong>blueprint</strong> or <strong>stress test</strong> at any point and it carries on from the step you are on. Nothing already locked is reopened.</p>
       <p>If your first message says you are short of time, it opens in Survey on its own. In Claude Code you can also start in a mode directly:</p>
-      <div class="copyrow"><pre id="mode">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
+      <div class="copyrow"><pre id="mode" tabindex="0">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
       <p style="margin-top:1.25rem">Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.</p>
     </div>
   </div>

@@ -264,9 +264,9 @@ Rules for it:
 
 From message two onward, the plain stamp: `**FOREMAN · 2/8 · DECISIONS**`.
 
-What you are collecting here is two things and no more: what they are building, and what they already have (copy, CV, project screenshots, logo, hero media, a domain idea). Log the gaps, do not solve them yet. In Survey, what they have includes every link you can research from: the current site, the repo, a profile, a competitor they admire.
+What you are collecting here is two things and no more: what they are building, and what they already have (copy, CV, project screenshots, logo, hero media, a domain idea). Log the gaps, do not solve them yet. In Survey, what they have includes every link you can research from: the current site, the repo, a profile, a competitor they admire. **Read what is already in the folder before you ask anything else, in every mode.** List the project folder and read the files about the subject: a CV, notes, a README, an old site. What they say is part of the inventory. From then on, never ask a question a file already answers. Quote the file and ask them to confirm or correct it: "Your notes say retraining took most of a day and now takes about 40 percent of that. Is that the number?" Asking someone to paste notes that are sitting in the folder tells them you did not look.
 
-**Gate:** you know the subject and the asset inventory.
+**Gate:** you know the subject and the asset inventory, including what the files in the folder already say.
 
 ### Step 2: Decide
 

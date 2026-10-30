@@ -13,10 +13,10 @@ priority: 0.8
     <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Palette</p>
     <h1>Colours from something real.</h1>
     <p class="lede">Left alone, an agent gives every site a near-black ground, grey neutrals and a blue or violet accent. The palette tool starts from a thing you name instead, an object, a place, a printed page, and builds three palettes that disagree with each other. You pick one.</p>
-    <div class="copyrow"><pre id="cmd">/foreman:palette</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <div class="copyrow"><pre id="cmd" tabindex="0">/foreman:palette</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
     <ul class="asks"><li>pick me a palette</li><li>I need colours for my site</li><li>make it blue</li></ul>
   </div>
-  {{art_palette}}
+  {{show_palette}}
 </div>
 </div>
 
@@ -37,7 +37,7 @@ File: brand.html
 
 I took the material from your brief: an engineering drawing on drafting film, graphite pencil, and cyanotype blue. You named three objects, so I took them as given and didn&#x27;t ask the material question.
 
-<table class="mini"><thead><tr><th scope="col"></th><th scope="col">A · Cyanotype print</th><th scope="col">B · Drafting film</th><th scope="col">C · Graphite and redline</th></tr></thead><tbody><tr><th scope="row">Ground</th><td>Mid-tone, cyanotype blue #1B4A73</td><td>Light, matte film #F3F4F1</td><td>Dark, graphite grey #1F2327</td></tr><tr><th scope="row">Accent</th><td>Pencil yellow #F2BE3C</td><td>Cyanotype blue as ink #1F4F7A</td><td>Checker&#x27;s red pencil #EC6A55</td></tr><tr><th scope="row">Personality</th><td>Colour, plus a faint drawing grid</td><td>Type: condensed capitals, hard rule under the title</td><td>Layout: a ruled sheet with cells</td></tr><tr><th scope="row">Contrast</th><td>High, with one warm break</td><td>High</td><td>Close-toned, red as the single break</td></tr><tr><th scope="row">Harmony</th><td>Complementary</td><td>Monochrome</td><td>Split complementary</td></tr></tbody></table>
+<table class="mini" tabindex="0"><thead><tr><th scope="col"></th><th scope="col">A · Cyanotype print</th><th scope="col">B · Drafting film</th><th scope="col">C · Graphite and redline</th></tr></thead><tbody><tr><th scope="row">Ground</th><td>Mid-tone, cyanotype blue #1B4A73</td><td>Light, matte film #F3F4F1</td><td>Dark, graphite grey #1F2327</td></tr><tr><th scope="row">Accent</th><td>Pencil yellow #F2BE3C</td><td>Cyanotype blue as ink #1F4F7A</td><td>Checker&#x27;s red pencil #EC6A55</td></tr><tr><th scope="row">Personality</th><td>Colour, plus a faint drawing grid</td><td>Type: condensed capitals, hard rule under the title</td><td>Layout: a ruled sheet with cells</td></tr><tr><th scope="row">Contrast</th><td>High, with one warm break</td><td>High</td><td>Close-toned, red as the single break</td></tr><tr><th scope="row">Harmony</th><td>Complementary</td><td>Monochrome</td><td>Split complementary</td></tr></tbody></table>
 Each variant also has its own text, muted, surface and on-accent values; they&#x27;re in the file.
 
 <b>Contrast, worked by hand:</b>
@@ -98,9 +98,9 @@ Which one, and what would you change in it? Once you pick, I&#x27;ll lock the to
 <section class="tight">
   <div class="wrap">
     <div class="others">
-      <a href="/board/" data-tool="board"><span class="artbox" aria-hidden="true">{{art_board}}</span><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/punch-list/" data-tool="punch-list"><span class="artbox" aria-hidden="true">{{art_punch}}</span><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
-      <a href="/launch/" data-tool="launch"><span class="artbox" aria-hidden="true">{{art_launch}}</span><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
+      <a href="/board/" data-tool="board"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/punch-list/" data-tool="punch-list"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/launch/" data-tool="launch"><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
     </div>
   </div>
 </section>

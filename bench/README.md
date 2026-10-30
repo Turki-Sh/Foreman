@@ -41,6 +41,8 @@ The conditions are `baseline` (no Foreman), `natural` (Foreman installed, the ow
 
 `--allow-user-config` runs with your own Claude Code setup for testing the harness. Its results are marked not clean, and the summary says so.
 
+Two details keep the two sides fair. The simulated owner always runs in `--safe-mode`, so no `CLAUDE.md` or rules file reaches it, even on a test run: a personal rule once walked the owner out of its role mid-session. The agent cannot do the same, because safe mode also blocks the plugin, which is why clean agent runs need the separate login. And Foreman's run grants a read of the plugin folder with `--add-dir`, because a headless session cannot ask, and without it the skill runs without its references, which a real user would have allowed with one click.
+
 ## What it measures
 
 **From the transcript:**

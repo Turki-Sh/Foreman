@@ -28,7 +28,16 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/modes.png">
 <link rel="preload" href="/fonts/barlow-condensed-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/site.css?v=3.0.1">
-<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {} if (!matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('pre'); setTimeout(function () { document.documentElement.classList.remove('pre'); }, 2500); }</script>
+<noscript><style>
+  [role="tabpanel"][hidden] { display: block; }
+  .tabs, .theme, .menubtn, .copy, .foreman { display: none; }
+  .viewer { position: static; }
+  .viewer > [role="tabpanel"] { margin-bottom: 2rem; }
+  .panel { margin-bottom: 1rem; }
+  .rows .row { text-decoration: none; }
+  .rows .row[aria-selected="true"] { background: none; }
+</style></noscript>
+<script>try { if (localStorage.getItem('foreman-theme') === 'dark') document.documentElement.dataset.theme = 'dark'; } catch (e) {}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -108,42 +117,39 @@
 
 <main id="main">
 <div class="band">
-<div class="wrap pagehead has-art">
+<div class="wrap pagehead has-art stack">
   <div>
     <p class="crumbs"><a href="/">Foreman</a> / Modes</p>
     <h1>Three modes, one set of decisions.</h1>
     <p class="lede">A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.</p>
   </div>
-  <div class="trio"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A site survey: a plot staked at its corners, with sight lines from a surveyor's tripod.">
-  <path class="ln dash" d="M28 34L188 24 198 116 22 120Z"/>
-  <g class="ln"><path d="M28 34v-16"/><path d="M188 24v-16"/><path d="M198 116v-16"/><path d="M22 120v-16"/></g>
-  <g class="fill-tool"><path d="M28 18l12 4-12 4z"/><path d="M188 8l12 4-12 4z"/><path d="M198 100l12 4-12 4z"/><path d="M22 104l12 4-12 4z"/></g>
-  <g class="ln"><path d="M110 70l-12 34M110 70l12 34M110 70v36"/><rect x="102" y="60" width="16" height="10" rx="2"/></g>
-  <g class="ln thin dash"><path d="M110 64L28 34"/><path d="M110 64L188 24"/></g>
-  <g class="ln thin"><path d="M28 132h170"/><path d="M28 128v8M198 128v8"/></g>
-</svg>
-<svg class="art" viewBox="0 0 220 140" role="img" aria-label="A clean drawing of a page, with dimension lines on two sides and a title block.">
-  <rect class="ln" x="48" y="16" width="128" height="96" rx="2" stroke-width="2"/>
-  <g class="ln thin"><path d="M60 30h60M60 40h86M60 48h50"/><rect x="60" y="58" width="34" height="10" rx="1"/><rect x="104" y="58" width="60" height="42" rx="1"/><path d="M60 80h34M60 88h28M60 96h30"/></g>
-  <g class="ln thin"><path d="M30 16v96M26 16h8M26 112h8"/><path d="M30 16l-3 6M30 16l3 6M30 112l-3-6M30 112l3-6"/></g>
-  <g class="ln thin"><path d="M48 126h128M48 122v8M176 122v8"/><path d="M48 126l6-3M48 126l6 3M176 126l-6-3M176 126l-6 3"/></g>
-  <rect class="ln thin" x="184" y="96" width="30" height="16"/><path class="fill-tool" d="M186 98h12v4h-12z"/>
-</svg>
-<svg class="art" viewBox="0 0 220 140" role="img" aria-label="A load test: a beam on two supports under three loads, with its deflection drawn below.">
-  <rect class="ln fill-paper" x="22" y="62" width="176" height="12" rx="1" stroke-width="2"/>
-  <g class="ln"><path d="M34 74l-10 18h20z"/><path d="M186 74l-10 18h20z"/><path d="M16 96h44M164 96h44"/></g>
-  <g class="mark-no"><path d="M70 20v34M64 46l6 9 6-9"/><path d="M110 14v40M104 46l6 9 6-9"/><path d="M150 20v34M144 46l6 9 6-9"/></g>
-  <path class="ln dash tool-stroke" d="M34 82Q110 118 186 82"/>
-  <path class="mark-ok" d="M100 122l6 7 12-14"/>
-</svg>
-</div>
+  <figure class="window term wide">
+  <figcaption class="chrome">foreman  survey  2/8 decisions  (Linkwell, a test README)</figcaption>
+  <pre tabindex="0">reader      ?                                                   from: not in the README
+action      download Linkwell                                   from: README, last line
+job         a reader downloads it and points it at their own
+            vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
+evidence    310 missed links in 2,400 notes, first week         from: README, line 7
+            also: runs offline, 40 MB, MIT                      from: README
+register    technical                                           from: README tone
+non-goals   signup, pricing, blog, analytics, testimonials,
+            carousel                                            from: free, local-first, nothing to collect
+opening     &quot;In my own vault of 2,400 notes it found 310
+            links I had missed in the first week&quot;               from: README, line 7
+            (&quot;Notes that link themselves&quot; fits any notes app)
+support     &quot;Watches a folder of Markdown notes and suggests
+            links as you type, on your laptop&quot;                  from: README, line 5
+below       the 310 story, the three bullets, download
+shape       one viewport (under four content units)             from: content count</pre>
+</figure>
+
 </div>
 </div>
 
 <section class="tight">
   <div class="wrap">
-    <div class="scroller">
-      <table>
+    <div class="scroller" tabindex="0">
+      <table tabindex="0">
         <thead><tr><th scope="col">Mode</th><th scope="col">For</th><th scope="col">Before any code exists</th></tr></thead>
         <tbody>
           <tr><th scope="row"><a href="#survey">Survey</a></th><td>You want it moving, or you already have most of the material</td><td>About four exchanges: two sheets, the variants, the brief. It researches, you correct</td></tr>
@@ -158,15 +164,7 @@
 <section id="survey">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A site survey: a plot staked at its corners, with sight lines from a surveyor's tripod.">
-  <path class="ln dash" d="M28 34L188 24 198 116 22 120Z"/>
-  <g class="ln"><path d="M28 34v-16"/><path d="M188 24v-16"/><path d="M198 116v-16"/><path d="M22 120v-16"/></g>
-  <g class="fill-tool"><path d="M28 18l12 4-12 4z"/><path d="M188 8l12 4-12 4z"/><path d="M198 100l12 4-12 4z"/><path d="M22 104l12 4-12 4z"/></g>
-  <g class="ln"><path d="M110 70l-12 34M110 70l12 34M110 70v36"/><rect x="102" y="60" width="16" height="10" rx="2"/></g>
-  <g class="ln thin dash"><path d="M110 64L28 34"/><path d="M110 64L188 24"/></g>
-  <g class="ln thin"><path d="M28 132h170"/><path d="M28 128v8M198 128v8"/></g>
-</svg>
-<h2>Survey: research instead of asking.</h2></div>
+      <h2>Survey: research instead of asking.</h2>
       <p>Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.</p>
     </div>
     <div class="prose">
@@ -187,7 +185,7 @@
 <p class="gap">It reads the README before it asks anything, then:</p>
 <div class="fm"><b>FOREMAN · SURVEY · 2/8 · DECISIONS</b>
 
-<pre class="sheetout">reader      ?                                                   from: not in the README
+<pre class="sheetout" tabindex="0">reader      ?                                                   from: not in the README
 action      download Linkwell                                   from: README, last line
 job         a reader downloads it and points it at their own
             vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
@@ -216,14 +214,7 @@ Who is the one reader: Obsidian users with a big vault, people who keep notes in
 <section id="blueprint">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A clean drawing of a page, with dimension lines on two sides and a title block.">
-  <rect class="ln" x="48" y="16" width="128" height="96" rx="2" stroke-width="2"/>
-  <g class="ln thin"><path d="M60 30h60M60 40h86M60 48h50"/><rect x="60" y="58" width="34" height="10" rx="1"/><rect x="104" y="58" width="60" height="42" rx="1"/><path d="M60 80h34M60 88h28M60 96h30"/></g>
-  <g class="ln thin"><path d="M30 16v96M26 16h8M26 112h8"/><path d="M30 16l-3 6M30 16l3 6M30 112l-3-6M30 112l3-6"/></g>
-  <g class="ln thin"><path d="M48 126h128M48 122v8M176 122v8"/><path d="M48 126l6-3M48 126l6 3M176 126l-6-3M176 126l-6 3"/></g>
-  <rect class="ln thin" x="184" y="96" width="30" height="16"/><path class="fill-tool" d="M186 98h12v4h-12z"/>
-</svg>
-<h2>Blueprint: the full interview.</h2></div>
+      <h2>Blueprint: the full interview.</h2>
       <p>The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.</p>
     </div>
     <div>
@@ -253,14 +244,7 @@ After those ninety seconds, what is the one thing you want them to do? Email you
 <section id="stress-test">
   <div class="wrap split">
     <div class="head">
-      <div class="modehead"><svg class="art" viewBox="0 0 220 140" role="img" aria-label="A load test: a beam on two supports under three loads, with its deflection drawn below.">
-  <rect class="ln fill-paper" x="22" y="62" width="176" height="12" rx="1" stroke-width="2"/>
-  <g class="ln"><path d="M34 74l-10 18h20z"/><path d="M186 74l-10 18h20z"/><path d="M16 96h44M164 96h44"/></g>
-  <g class="mark-no"><path d="M70 20v34M64 46l6 9 6-9"/><path d="M110 14v40M104 46l6 9 6-9"/><path d="M150 20v34M144 46l6 9 6-9"/></g>
-  <path class="ln dash tool-stroke" d="M34 82Q110 118 186 82"/>
-  <path class="mark-ok" d="M100 122l6 7 12-14"/>
-</svg>
-<h2>Stress test: every answer pushed once.</h2></div>
+      <h2>Stress test: every answer pushed once.</h2>
       <p>For the build where a weak decision is expensive. Everything in Blueprint, plus:</p>
       <ul class="small" style="padding-left:1.1rem;margin:0">
         <li>One challenge on every answer at steps 2 and 3 before it locks, never two.</li>
@@ -301,7 +285,7 @@ What would make that lead close your page within ten seconds?</div>
     <div class="prose">
       <p>Every session opens with a card, and the card carries a <code>MODE</code> line. Say <strong>survey</strong>, <strong>blueprint</strong> or <strong>stress test</strong> at any point and it carries on from the step you are on. Nothing already locked is reopened.</p>
       <p>If your first message says you are short of time, it opens in Survey on its own. In Claude Code you can also start in a mode directly:</p>
-      <div class="copyrow"><pre id="mode">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
+      <div class="copyrow"><pre id="mode" tabindex="0">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
       <p style="margin-top:1.25rem">Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.</p>
     </div>
   </div>
