@@ -1,3 +1,5 @@
+const localeMessages = JSON.parse(document.getElementById('locale-messages')?.textContent || '{}');
+const localText = s => localeMessages[s] || s;
 // Foreman site. Progressive enhancement only: every page is complete without
 // this file, and every behaviour here is something a person asked for by
 // pointing, clicking, or loading the page once.
@@ -11,7 +13,7 @@
     rail.className = 'page-scroll-rail';
     rail.tabIndex = 0;
     rail.setAttribute('role', 'scrollbar');
-    rail.setAttribute('aria-label', 'Scroll page');
+    rail.setAttribute('aria-label', localText('Scroll page'));
     rail.setAttribute('aria-controls', 'main');
     rail.setAttribute('aria-orientation', 'vertical');
     rail.setAttribute('aria-valuemin', '0');
@@ -88,7 +90,7 @@
     else delete root.dataset.theme;
     for (const b of document.querySelectorAll('.theme')) {
       b.setAttribute('aria-pressed', String(t === 'dark'));
-      b.setAttribute('aria-label', t === 'dark' ? 'Switch to the light sheet' : 'Switch to the night sheet');
+      b.setAttribute('aria-label', t === 'dark' ? localText('Switch to the light sheet') : localText('Switch to the night sheet'));
     }
     if (meta) meta.content = t === 'dark' ? '#000000' : '#FFFFFF';
   };
@@ -176,7 +178,7 @@
   for (const range of document.querySelectorAll('.compare-range')) {
     const update = () => {
       range.closest('.comparison').style.setProperty('--split', range.value + '%');
-      range.setAttribute('aria-valuetext', (100 - Number(range.value)) + ' percent reference-guided portfolio');
+      range.setAttribute('aria-valuetext', (100 - Number(range.value)) + '% ' + localText('With Foreman'));
     };
     range.addEventListener('input', update);
     const position = e => {
@@ -238,9 +240,9 @@
         const sel = getSelection();
         sel.removeAllRanges();
         sel.addRange(range);
-        done(navigator.platform.includes('Mac') ? 'Press Cmd+C' : 'Press Ctrl+C');
+        done(localText('Select text to copy'));
       };
-      if (navigator.clipboard && isSecureContext) navigator.clipboard.writeText(text).then(() => done('Copied'), fallback);
+      if (navigator.clipboard && isSecureContext) navigator.clipboard.writeText(text).then(() => done(localText('Copied')), fallback);
       else fallback();
     });
   }
@@ -292,7 +294,7 @@
  new ResizeObserver(draw).observe(bar); draw();
   const mascot = document.querySelector('.footer-mascot');
   if (mascot) {
-    const words = ['Approved', 'Checked', 'As built', 'Signed off', 'Shipped'];
+    const words = ['Approved', 'Checked', 'Ready'].map(localText);
     let stampIndex = 0;
     mascot.addEventListener('click', () => {
       const area = mascot.closest('.footer-bottom');
@@ -306,7 +308,7 @@
       stamp.style.top = (12 + (stampIndex % 2) * 19) + '%';
       stamp.style.setProperty('--angle', (stampIndex % 2 ? 5 : -6) + 'deg');
       area.appendChild(stamp);
-      mascot.setAttribute('aria-label', 'Stamp again. Last stamp: ' + words[stampIndex % words.length]);
+      mascot.setAttribute('aria-label', localText('Stamp again. Last stamp:') + ' ' + words[stampIndex % words.length]);
       stampIndex++;
     });
   }

@@ -39,3 +39,38 @@ Author: Turki Alshuaibi, AI engineer and designer, Saudi Arabia. MIT licensed.
 - Site: https://turkialshuaibi.com
 - GitHub: https://github.com/Turki-Sh
 - LinkedIn: https://linkedin.com/in/turki-alshuaibi
+
+## Languages
+
+- [العربية](https://foreman.turkialshuaibi.com/ar/): Beta
+- [Français](https://foreman.turkialshuaibi.com/fr/): Beta
+- [Deutsch](https://foreman.turkialshuaibi.com/de/): Beta
+- [Español](https://foreman.turkialshuaibi.com/es/): Beta
+- [Português](https://foreman.turkialshuaibi.com/pt/): Beta
+- [Italiano](https://foreman.turkialshuaibi.com/it/): Beta
+- [Nederlands](https://foreman.turkialshuaibi.com/nl/): Beta
+- [Dansk](https://foreman.turkialshuaibi.com/da/): Beta
+- [Svenska](https://foreman.turkialshuaibi.com/sv/): Beta
+- [Norsk](https://foreman.turkialshuaibi.com/no/): Beta
+- [Suomi](https://foreman.turkialshuaibi.com/fi/): Beta
+- [Polski](https://foreman.turkialshuaibi.com/pl/): Beta
+- [Čeština](https://foreman.turkialshuaibi.com/cs/): Beta
+- [Slovenčina](https://foreman.turkialshuaibi.com/sk/): Beta
+- [Magyar](https://foreman.turkialshuaibi.com/hu/): Beta
+- [Română](https://foreman.turkialshuaibi.com/ro/): Beta
+- [Български](https://foreman.turkialshuaibi.com/bg/): Beta
+- [Ελληνικά](https://foreman.turkialshuaibi.com/el/): Beta
+- [Hrvatski](https://foreman.turkialshuaibi.com/hr/): Beta
+- [Eesti](https://foreman.turkialshuaibi.com/et/): Beta
+- [Latviešu](https://foreman.turkialshuaibi.com/lv/): Beta
+- [Lietuvių](https://foreman.turkialshuaibi.com/lt/): Beta
+- [Русский](https://foreman.turkialshuaibi.com/ru/): Beta
+- [Українська](https://foreman.turkialshuaibi.com/uk/): Beta
+- [Türkçe](https://foreman.turkialshuaibi.com/tr/): Beta
+- [日本語](https://foreman.turkialshuaibi.com/ja/): Beta
+- [한국어](https://foreman.turkialshuaibi.com/ko/): Beta
+- [简体中文](https://foreman.turkialshuaibi.com/zh-hans/): Beta
+- [繁體中文](https://foreman.turkialshuaibi.com/zh-hant/): Beta
+- [ไทย](https://foreman.turkialshuaibi.com/th/): Beta
+- [Tiếng Việt](https://foreman.turkialshuaibi.com/vi/): Beta
+- [Bahasa Indonesia](https://foreman.turkialshuaibi.com/id/): Beta

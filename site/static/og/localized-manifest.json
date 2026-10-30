@@ -1,0 +1,1734 @@
+{
+  "width": 1200,
+  "height": 630,
+  "cards": [
+    {
+      "file": "404-ar-v3.png",
+      "locale": "ar",
+      "page": "404",
+      "artHash": "c8f051e16227f13495099831c0b9bc735ab997d6f85a71292c7ab45d72f68416"
+    },
+    {
+      "file": "board-ar-v3.png",
+      "locale": "ar",
+      "page": "board",
+      "artHash": "b72f1dfe643e1863a3d51fc20cad75fe9c87a90074b2caf5a9b513776d3fd1b8"
+    },
+    {
+      "file": "changelog-ar-v3.png",
+      "locale": "ar",
+      "page": "changelog",
+      "artHash": "4ceccbe857f6cfc2014dc40e5c9360f84b354c7260c4aeb007f17b09039149c3"
+    },
+    {
+      "file": "home-ar-v3.png",
+      "locale": "ar",
+      "page": "home",
+      "artHash": "b5ca9277e86692dde03c69b1127c4aa568ee896ee98299dbf04416b3f0b71551"
+    },
+    {
+      "file": "install-ar-v3.png",
+      "locale": "ar",
+      "page": "install",
+      "artHash": "613e251e1b5406d2ce77631b936ee2c4491e56dc802405538f2fa5d1d51f7196"
+    },
+    {
+      "file": "launch-ar-v3.png",
+      "locale": "ar",
+      "page": "launch",
+      "artHash": "b15e4064f28c149f8ad669f3324ee377590d11d4eee5b01a5efc05fe49244c82"
+    },
+    {
+      "file": "modes-ar-v3.png",
+      "locale": "ar",
+      "page": "modes",
+      "artHash": "7b2f560d5b2839eccc3ffd0b8707c9ad1156de5ebf3c78862a102b19f9b7c809"
+    },
+    {
+      "file": "palette-ar-v3.png",
+      "locale": "ar",
+      "page": "palette",
+      "artHash": "6ba0b98d6d5f5c64f04884ba4c08a923c5438b2cfeb61ecc97acb3e68626a4c0"
+    },
+    {
+      "file": "punch-list-ar-v3.png",
+      "locale": "ar",
+      "page": "punch-list",
+      "artHash": "803366cac695dde593090a36998fb87808182b88497fbbac8fa98cc85fda12b8"
+    },
+    {
+      "file": "404-fr-v3.png",
+      "locale": "fr",
+      "page": "404",
+      "artHash": "c78179afe8af191871d5f3b8051466299361c6eec02f1ad846c123712e20b66e"
+    },
+    {
+      "file": "board-fr-v3.png",
+      "locale": "fr",
+      "page": "board",
+      "artHash": "b81963fc19cfa25152c665bb73f374a1c3212f88846b8de9a2fb64affcb9af7b"
+    },
+    {
+      "file": "changelog-fr-v3.png",
+      "locale": "fr",
+      "page": "changelog",
+      "artHash": "c4c97154575011c23d5a11eeb9fa1ebc26e7febf6fc1b9fdfb0bb4e3a674b850"
+    },
+    {
+      "file": "home-fr-v3.png",
+      "locale": "fr",
+      "page": "home",
+      "artHash": "7c6f0ed56b6ff707cbd4489434dcf5b70b028f262991f670ad91068ee5f49e4b"
+    },
+    {
+      "file": "install-fr-v3.png",
+      "locale": "fr",
+      "page": "install",
+      "artHash": "0d1f4293416b51c7d6b7d40599316e34d2f7cf2e2ef73fa36874dcf4e09f9f67"
+    },
+    {
+      "file": "launch-fr-v3.png",
+      "locale": "fr",
+      "page": "launch",
+      "artHash": "face0c47c8884092761dc0aaf1b4935fb1f94952cbe3bde36632d82b0b374cd1"
+    },
+    {
+      "file": "modes-fr-v3.png",
+      "locale": "fr",
+      "page": "modes",
+      "artHash": "befe6e683bca953ac12469503e09a51e4f9c0df1b4a05ef376fbef36e07524bd"
+    },
+    {
+      "file": "palette-fr-v3.png",
+      "locale": "fr",
+      "page": "palette",
+      "artHash": "93d3f10c46c55d826614a662af0da0a30df57fb7a5571e319fad796f18c45190"
+    },
+    {
+      "file": "punch-list-fr-v3.png",
+      "locale": "fr",
+      "page": "punch-list",
+      "artHash": "f858e4b07fe62f894b9c4f0da92404929095370dda77807acd0a2d626d7ee07d"
+    },
+    {
+      "file": "404-de-v3.png",
+      "locale": "de",
+      "page": "404",
+      "artHash": "8aa0c57e6aa720e155bcce66e4cb2bcad3b00f47da96f37d499d81a52338ac21"
+    },
+    {
+      "file": "board-de-v3.png",
+      "locale": "de",
+      "page": "board",
+      "artHash": "6b64c4586fcf0ef9241ab6933498426a4b7aa1d0c747753ca70a7051d11fb60e"
+    },
+    {
+      "file": "changelog-de-v3.png",
+      "locale": "de",
+      "page": "changelog",
+      "artHash": "31c710f42bd97d47bef5f12a61fd772d851fd035dfc7b90ad29c0694cde9b93e"
+    },
+    {
+      "file": "home-de-v3.png",
+      "locale": "de",
+      "page": "home",
+      "artHash": "915fbd716af343470dc5b95e50127a827be9fa5d640e054037a1d4f7fdbc1beb"
+    },
+    {
+      "file": "install-de-v3.png",
+      "locale": "de",
+      "page": "install",
+      "artHash": "ffa822684c78d28c4284deb4a245060af86cc2edd31586e293031c854f4eb4e2"
+    },
+    {
+      "file": "launch-de-v3.png",
+      "locale": "de",
+      "page": "launch",
+      "artHash": "98d6727a3ba590393e81bd44485a488a266b4d438522c7feeb958b7d0964045d"
+    },
+    {
+      "file": "modes-de-v3.png",
+      "locale": "de",
+      "page": "modes",
+      "artHash": "77f92a0f064bcc854c741461639e51767a328a16589c2789f8e4dd324f9374e3"
+    },
+    {
+      "file": "palette-de-v3.png",
+      "locale": "de",
+      "page": "palette",
+      "artHash": "94c7b504b283076714b04c2e745f582847cf1a325d3fd84f7914c8d479d1252c"
+    },
+    {
+      "file": "punch-list-de-v3.png",
+      "locale": "de",
+      "page": "punch-list",
+      "artHash": "e6356458d6c2e12db7fac5e8826c80733a75146425defe776b101afbdf355ff8"
+    },
+    {
+      "file": "404-es-v3.png",
+      "locale": "es",
+      "page": "404",
+      "artHash": "09c1ed2b55b8952b2e9f4feaf45da9135af9919b3658da4af0fb8fb8c1d08e89"
+    },
+    {
+      "file": "board-es-v3.png",
+      "locale": "es",
+      "page": "board",
+      "artHash": "017c41ed5a4f0e658231d5ea1b2b91486ac22ddacfffca8cf7e3e0d93c4cc34f"
+    },
+    {
+      "file": "changelog-es-v3.png",
+      "locale": "es",
+      "page": "changelog",
+      "artHash": "4146da19e38a1da83d7e0890a7ff1d8f08d2d60b8e36f89ec51f99425d791ce3"
+    },
+    {
+      "file": "home-es-v3.png",
+      "locale": "es",
+      "page": "home",
+      "artHash": "81986396b726c9297d59a2ce20a10ebf9d297ea9df85489614ba51ae35398064"
+    },
+    {
+      "file": "install-es-v3.png",
+      "locale": "es",
+      "page": "install",
+      "artHash": "424a2545a4e5b776cee9f38c96b2e63d3891da621abaa4864a10550228ddf96f"
+    },
+    {
+      "file": "launch-es-v3.png",
+      "locale": "es",
+      "page": "launch",
+      "artHash": "c53a29bde929a9aaffa1c05a91f3299377f3d4b7552ba6eb8a79019f3eb3ada0"
+    },
+    {
+      "file": "modes-es-v3.png",
+      "locale": "es",
+      "page": "modes",
+      "artHash": "d877a3360733e773fb9ab1a6bdfac9acd965bbaca954518dcd52d7af817ab745"
+    },
+    {
+      "file": "palette-es-v3.png",
+      "locale": "es",
+      "page": "palette",
+      "artHash": "0675302845a7d808408f3abce7c7efb4429071de380227dcf699452de687f5ab"
+    },
+    {
+      "file": "punch-list-es-v3.png",
+      "locale": "es",
+      "page": "punch-list",
+      "artHash": "de84bcd88b6f41d206688f393c8a7542b7a4be1f3f3d6ec781d0fdb7cbee0370"
+    },
+    {
+      "file": "404-pt-v3.png",
+      "locale": "pt",
+      "page": "404",
+      "artHash": "1f78eebc28c31993ef8690c1720cae466247847c857b49535e4674ed2eb8e15f"
+    },
+    {
+      "file": "board-pt-v3.png",
+      "locale": "pt",
+      "page": "board",
+      "artHash": "b102920ae03b604f43a026cb4879553e61e07ae43782d19b9b2aed221d1b1e2d"
+    },
+    {
+      "file": "changelog-pt-v3.png",
+      "locale": "pt",
+      "page": "changelog",
+      "artHash": "24a56a0aa2a60bae08ea19f47f2942f7091104aec22926e0169a1a08bb454bee"
+    },
+    {
+      "file": "home-pt-v3.png",
+      "locale": "pt",
+      "page": "home",
+      "artHash": "0c38127c830e92f8aec24aa47530d64e04b1ebf42d6e0a39c96f8bb0a226f637"
+    },
+    {
+      "file": "install-pt-v3.png",
+      "locale": "pt",
+      "page": "install",
+      "artHash": "b4da8645f4a7c41b077a3e0ce74107a5eeb3f2bce2a01591666547f5228167b8"
+    },
+    {
+      "file": "launch-pt-v3.png",
+      "locale": "pt",
+      "page": "launch",
+      "artHash": "120e35c106dde8b4e5aa7e11844a30fae494e5a93e865c9a2c3a2f5f6b529555"
+    },
+    {
+      "file": "modes-pt-v3.png",
+      "locale": "pt",
+      "page": "modes",
+      "artHash": "a171196d4623073e1c0d085498818ca2d25382e319d116587b7894126b065762"
+    },
+    {
+      "file": "palette-pt-v3.png",
+      "locale": "pt",
+      "page": "palette",
+      "artHash": "416b70de8e91bc7aa4b54dd0ec34bf1742668ea116a68941817c8312b0a5f14c"
+    },
+    {
+      "file": "punch-list-pt-v3.png",
+      "locale": "pt",
+      "page": "punch-list",
+      "artHash": "9707fd64a7f0a738f65a5acd5ad460a75ce6354dff6a4931af2422379e5880de"
+    },
+    {
+      "file": "404-it-v3.png",
+      "locale": "it",
+      "page": "404",
+      "artHash": "f20e5bbf9829e62ee76c5f5a68abdb7f52828cf3c2478eb91339a3999ad96d9e"
+    },
+    {
+      "file": "board-it-v3.png",
+      "locale": "it",
+      "page": "board",
+      "artHash": "1fdff10849a4e2d1793427aa3e770bb28dfd46d75d66e3ea18d2ece59010225e"
+    },
+    {
+      "file": "changelog-it-v3.png",
+      "locale": "it",
+      "page": "changelog",
+      "artHash": "7aefaefdae3d0ba38956cb30585b30147c0dc8b3670008496bbbbabf49e369ff"
+    },
+    {
+      "file": "home-it-v3.png",
+      "locale": "it",
+      "page": "home",
+      "artHash": "a5f72b0f5891b792034d7961301a61a2757d561f37b0259b9643e54777ebbb20"
+    },
+    {
+      "file": "install-it-v3.png",
+      "locale": "it",
+      "page": "install",
+      "artHash": "1eb704f32e76a19f5a27e6637d5b8671e0fb623cb18ef82e0204dec263fddaae"
+    },
+    {
+      "file": "launch-it-v3.png",
+      "locale": "it",
+      "page": "launch",
+      "artHash": "65915680abbad6a069a211d6371b9178de8b87d99f0864fa32406fe32c84c42f"
+    },
+    {
+      "file": "modes-it-v3.png",
+      "locale": "it",
+      "page": "modes",
+      "artHash": "ef7f8fe0875df79b9d565c7f2a09ccc54de86d3fa5a2efba37d0fb2bda4b3422"
+    },
+    {
+      "file": "palette-it-v3.png",
+      "locale": "it",
+      "page": "palette",
+      "artHash": "76498ad5e832fbe611775948cab92a39c84f32081840e0803f1e1c3293d7325a"
+    },
+    {
+      "file": "punch-list-it-v3.png",
+      "locale": "it",
+      "page": "punch-list",
+      "artHash": "3b6a22620200e3139c66f6a99185527502160648eed1e34238314ba165757498"
+    },
+    {
+      "file": "404-nl-v3.png",
+      "locale": "nl",
+      "page": "404",
+      "artHash": "195361210a9a31c07469261db8f9ae41e1d2ad2315a7baf2e5591bad70b14264"
+    },
+    {
+      "file": "board-nl-v3.png",
+      "locale": "nl",
+      "page": "board",
+      "artHash": "8fa1b6e56c1c09506fa2787a57d04b5b73448d989750f70de8c8341caa0b2e50"
+    },
+    {
+      "file": "changelog-nl-v3.png",
+      "locale": "nl",
+      "page": "changelog",
+      "artHash": "28e3dc0baf5140c460277bd6cc73e984e156b2397b15565954cfe7ee6453b625"
+    },
+    {
+      "file": "home-nl-v3.png",
+      "locale": "nl",
+      "page": "home",
+      "artHash": "615f4e8023032119bd3541f6abc23565b56aa0a2114f9fff167a68100dd03bc7"
+    },
+    {
+      "file": "install-nl-v3.png",
+      "locale": "nl",
+      "page": "install",
+      "artHash": "aad22a49ba407aaddc1ffd55dbe93afaa521f2172d65a0b6cc73c89f2217ea2c"
+    },
+    {
+      "file": "launch-nl-v3.png",
+      "locale": "nl",
+      "page": "launch",
+      "artHash": "a8004f5e25f454a2f04d5211fb719f536fe77234916618138d69a3bcdae9d91d"
+    },
+    {
+      "file": "modes-nl-v3.png",
+      "locale": "nl",
+      "page": "modes",
+      "artHash": "d0f67ceb9b44ae0ab18ff97fd6374aa286c26272dc24f23af51df003fdb7bc8e"
+    },
+    {
+      "file": "palette-nl-v3.png",
+      "locale": "nl",
+      "page": "palette",
+      "artHash": "49b40acd7329f060f4b3d77f07b8b5cc927ed3f17c2e7f62b504c9c41eed844d"
+    },
+    {
+      "file": "punch-list-nl-v3.png",
+      "locale": "nl",
+      "page": "punch-list",
+      "artHash": "69ef79549c86be5262f15695fd28d7387952af0339236856d588bfce5c526b68"
+    },
+    {
+      "file": "404-da-v3.png",
+      "locale": "da",
+      "page": "404",
+      "artHash": "823f2cad4a1b25193b22f753258d9f8ce0c2e11819b74448b7c48a569ec3793b"
+    },
+    {
+      "file": "board-da-v3.png",
+      "locale": "da",
+      "page": "board",
+      "artHash": "b29258f01bc2af55fb53c8f122dca1714492014d640c46032aaee471723fb47b"
+    },
+    {
+      "file": "changelog-da-v3.png",
+      "locale": "da",
+      "page": "changelog",
+      "artHash": "b2ae09244640855b6384883b49dda995adb64105c9901fbfa258957559c59240"
+    },
+    {
+      "file": "home-da-v3.png",
+      "locale": "da",
+      "page": "home",
+      "artHash": "f4d71828605c7dadb67c4231871d768503039bf8f899b487cd6399f1ef552353"
+    },
+    {
+      "file": "install-da-v3.png",
+      "locale": "da",
+      "page": "install",
+      "artHash": "582004b1af1f64b09f5269637adc07db3141eee7620c60bd8a7349e07c398c98"
+    },
+    {
+      "file": "launch-da-v3.png",
+      "locale": "da",
+      "page": "launch",
+      "artHash": "44a3474d26de50c744c9cfe2f412fe2f52368867a12ae164f2f696400f86b023"
+    },
+    {
+      "file": "modes-da-v3.png",
+      "locale": "da",
+      "page": "modes",
+      "artHash": "c03c99374d86b2be0e030953b3d134982277940c1d7d8ba43e853f7621456616"
+    },
+    {
+      "file": "palette-da-v3.png",
+      "locale": "da",
+      "page": "palette",
+      "artHash": "d6d1c11e5145bd97dbc6f61358b11afe8e22f0156cae9c1cd65885532a49d133"
+    },
+    {
+      "file": "punch-list-da-v3.png",
+      "locale": "da",
+      "page": "punch-list",
+      "artHash": "a7cc698eae5f90dda7df2cbd64127db0524fa5bfd1dd2dfd101b6752d746f8cc"
+    },
+    {
+      "file": "404-sv-v3.png",
+      "locale": "sv",
+      "page": "404",
+      "artHash": "cf85410efdc41ded88aea73758696b4a58c0138685ac9179b6f1ff37be42eefa"
+    },
+    {
+      "file": "board-sv-v3.png",
+      "locale": "sv",
+      "page": "board",
+      "artHash": "821e14a83fe32c3263888b82e00c577acd86c74387c53464ca60492894648b93"
+    },
+    {
+      "file": "changelog-sv-v3.png",
+      "locale": "sv",
+      "page": "changelog",
+      "artHash": "d0ae43b405b278dedaeee0ba77ffeb0dd70356753e05e9ee4663ed50f1d57afe"
+    },
+    {
+      "file": "home-sv-v3.png",
+      "locale": "sv",
+      "page": "home",
+      "artHash": "7e42b0a12d64ebe1327b773d53d47780c9706098ccf08528ec5b8d03ab6be212"
+    },
+    {
+      "file": "install-sv-v3.png",
+      "locale": "sv",
+      "page": "install",
+      "artHash": "4fb9ef6258f5f9d4fdf5c841a373e024b3a0c326f4b2305e9a872d08c1e609c7"
+    },
+    {
+      "file": "launch-sv-v3.png",
+      "locale": "sv",
+      "page": "launch",
+      "artHash": "3ddebf78fcd1d01b6b63ba94fafc6ebef5ef197b9e4e9d10db2ab7e3c61846b2"
+    },
+    {
+      "file": "modes-sv-v3.png",
+      "locale": "sv",
+      "page": "modes",
+      "artHash": "c2168b1a90bcd0d6a3277ec010f05b51a31bb286baffe6e2f6787517555fda1c"
+    },
+    {
+      "file": "palette-sv-v3.png",
+      "locale": "sv",
+      "page": "palette",
+      "artHash": "f63009d1999e324729b6aa2c244f62a828a10ac5f6ddaeae243576afabcb8115"
+    },
+    {
+      "file": "punch-list-sv-v3.png",
+      "locale": "sv",
+      "page": "punch-list",
+      "artHash": "5b5a6f619f879c87c58dba0eb138c6fdff7090e4a321311bad59cc4cb2af81a5"
+    },
+    {
+      "file": "404-no-v3.png",
+      "locale": "no",
+      "page": "404",
+      "artHash": "ed98fff9a0da4bc8431219f71d7b0264b1a8220b9daeefc1b1446f7efa2ef518"
+    },
+    {
+      "file": "board-no-v3.png",
+      "locale": "no",
+      "page": "board",
+      "artHash": "e48c7d51bf727ba39c87774b1c28e90ac0f2c064d10eb7f3843ed3478ba062c5"
+    },
+    {
+      "file": "changelog-no-v3.png",
+      "locale": "no",
+      "page": "changelog",
+      "artHash": "89407397ea532ebd483f8a586b37b7b0751f4ac7dc47763727aab0a6b2e11ae5"
+    },
+    {
+      "file": "home-no-v3.png",
+      "locale": "no",
+      "page": "home",
+      "artHash": "45baae05343986bb560c7cf035323b33325bcb35b9d228f90cf8cf73bdb61395"
+    },
+    {
+      "file": "install-no-v3.png",
+      "locale": "no",
+      "page": "install",
+      "artHash": "f820512c96dbd1b559bafdfd76f9739faf957974083ec28de9c095648a3ca4b7"
+    },
+    {
+      "file": "launch-no-v3.png",
+      "locale": "no",
+      "page": "launch",
+      "artHash": "22a85fa57f44552b65fe6e0ed08a4be602498ffcb070e3d66d35b2013b039d45"
+    },
+    {
+      "file": "modes-no-v3.png",
+      "locale": "no",
+      "page": "modes",
+      "artHash": "4617e6c80a13912a8b72274e4bf49c5fb5b3bfa992e9772abf8dea142d897859"
+    },
+    {
+      "file": "palette-no-v3.png",
+      "locale": "no",
+      "page": "palette",
+      "artHash": "096f757ad0795b2b33cf9da46d7dcf543cb0c42b3011e487ad25b6449abc336f"
+    },
+    {
+      "file": "punch-list-no-v3.png",
+      "locale": "no",
+      "page": "punch-list",
+      "artHash": "7459f3469c9af119ab87d303b518659ce46bf0dc0f9bb2d0571f1cd457c7083c"
+    },
+    {
+      "file": "404-fi-v3.png",
+      "locale": "fi",
+      "page": "404",
+      "artHash": "4bdf01ffbd00d1ad90e244b338fa776590b4c53e41e401efd704002949c4e85e"
+    },
+    {
+      "file": "board-fi-v3.png",
+      "locale": "fi",
+      "page": "board",
+      "artHash": "b2c8f7108fd418d02540c0239048b3eb5f27bcc7f10c5617eb91b98849953a41"
+    },
+    {
+      "file": "changelog-fi-v3.png",
+      "locale": "fi",
+      "page": "changelog",
+      "artHash": "790a0f0c909acc6fc97ceb70f46db9a663d49d2b94680cd1f3d7bcf78e58a7c5"
+    },
+    {
+      "file": "home-fi-v3.png",
+      "locale": "fi",
+      "page": "home",
+      "artHash": "ec5e4bdeebe9fce69f724e5da75169a931d462300e7a1422061cb6da2cca94a4"
+    },
+    {
+      "file": "install-fi-v3.png",
+      "locale": "fi",
+      "page": "install",
+      "artHash": "3a3992ecdb005b93a1cc300da3898fd192e968442bec53420be4ece7610f0452"
+    },
+    {
+      "file": "launch-fi-v3.png",
+      "locale": "fi",
+      "page": "launch",
+      "artHash": "5eb70be2af298b1bf094a3512b2bca7c12e9d36e081483f559b72730334333c9"
+    },
+    {
+      "file": "modes-fi-v3.png",
+      "locale": "fi",
+      "page": "modes",
+      "artHash": "add58db73ea5ff6d6b834c725d71186ae5cb16dda62edf7faa6e33281a2842b3"
+    },
+    {
+      "file": "palette-fi-v3.png",
+      "locale": "fi",
+      "page": "palette",
+      "artHash": "04ddc89e1a0ee7722da970a46972c145e78ac2d1a94829d49b5f7355d5cff86c"
+    },
+    {
+      "file": "punch-list-fi-v3.png",
+      "locale": "fi",
+      "page": "punch-list",
+      "artHash": "4a3e78a56089cd6a53ab8cfbdca0b7c35e5eb419a46b7cf43fa71425335cd73d"
+    },
+    {
+      "file": "404-pl-v3.png",
+      "locale": "pl",
+      "page": "404",
+      "artHash": "ae7754c53f2fddec17a3ce4a84896c9755c7b193ffaad65e1d2b0a937b6dd5f5"
+    },
+    {
+      "file": "board-pl-v3.png",
+      "locale": "pl",
+      "page": "board",
+      "artHash": "17d26b1b6170a3adaccad313ed5d12e12fdf931226c98d63c71f3f05d97da8af"
+    },
+    {
+      "file": "changelog-pl-v3.png",
+      "locale": "pl",
+      "page": "changelog",
+      "artHash": "e705ca08aff42e8e1170a9b026003c96560382015c526e006079dbcde4f26e68"
+    },
+    {
+      "file": "home-pl-v3.png",
+      "locale": "pl",
+      "page": "home",
+      "artHash": "a3957d0590ef267b64de5127a9398b589de54f6c096d423d6aa7c380c1bab1f9"
+    },
+    {
+      "file": "install-pl-v3.png",
+      "locale": "pl",
+      "page": "install",
+      "artHash": "a06016829192970702e810500975fc3f4e1ee94ce744054ce3ba60b71f3bf52b"
+    },
+    {
+      "file": "launch-pl-v3.png",
+      "locale": "pl",
+      "page": "launch",
+      "artHash": "41b1a30666b1767dafafec3756a5791f1b7f5cc22d4b3d3a850e8d9d2749c786"
+    },
+    {
+      "file": "modes-pl-v3.png",
+      "locale": "pl",
+      "page": "modes",
+      "artHash": "90b1ca62e2575785bdcbd8bec36935b03e5c9476515cdcc0ffcd3f25fb271c74"
+    },
+    {
+      "file": "palette-pl-v3.png",
+      "locale": "pl",
+      "page": "palette",
+      "artHash": "b5cddc2e75d366654215a7fadbab4ad432932aadbc6af6f16e6924295e428651"
+    },
+    {
+      "file": "punch-list-pl-v3.png",
+      "locale": "pl",
+      "page": "punch-list",
+      "artHash": "3f7560ee0a43247872f4cf7254efb10b99bbc44aa4ae28e6f2f49af5b048d9da"
+    },
+    {
+      "file": "404-cs-v3.png",
+      "locale": "cs",
+      "page": "404",
+      "artHash": "75a81378233333d470d948fa55c9da4279beab1c4cf64e79247bbb1956145f08"
+    },
+    {
+      "file": "board-cs-v3.png",
+      "locale": "cs",
+      "page": "board",
+      "artHash": "c1c488a541b6bcaaf212dff53ce68f649c2260cac076cfa7bd942eb1647291fa"
+    },
+    {
+      "file": "changelog-cs-v3.png",
+      "locale": "cs",
+      "page": "changelog",
+      "artHash": "150ca8af38247315238fa129d1cc5c3ae0bc955f10916530a2c4e74662b970f6"
+    },
+    {
+      "file": "home-cs-v3.png",
+      "locale": "cs",
+      "page": "home",
+      "artHash": "9b0cccaa494a937e985af16d320034b018782aa1d642b12d63028a4292ad1d5c"
+    },
+    {
+      "file": "install-cs-v3.png",
+      "locale": "cs",
+      "page": "install",
+      "artHash": "62d2e431946d9731cd52e85bf83c8d6256c222771ee8fc81046106518cb44c28"
+    },
+    {
+      "file": "launch-cs-v3.png",
+      "locale": "cs",
+      "page": "launch",
+      "artHash": "a38be19a3ba3f5e8760cb3476bab7889a92c70f8f9c44beb77a2afc0e220cca6"
+    },
+    {
+      "file": "modes-cs-v3.png",
+      "locale": "cs",
+      "page": "modes",
+      "artHash": "9e37fd91621b90fea1a8d32ba12b996ce1306b8b664e30fad355f93f2e681327"
+    },
+    {
+      "file": "palette-cs-v3.png",
+      "locale": "cs",
+      "page": "palette",
+      "artHash": "6e920689ac64ae1a1f569bcedc4f7762e186487e70379f2166e5b93c71b7a8c3"
+    },
+    {
+      "file": "punch-list-cs-v3.png",
+      "locale": "cs",
+      "page": "punch-list",
+      "artHash": "42e378699c182f29346165a7ebde06a024f3ee27b7744b6a7d567295911667f7"
+    },
+    {
+      "file": "404-sk-v3.png",
+      "locale": "sk",
+      "page": "404",
+      "artHash": "6789a924320562cf976c90178caa83f1ae8d579270bb5b71aa50cbf402a99a0e"
+    },
+    {
+      "file": "board-sk-v3.png",
+      "locale": "sk",
+      "page": "board",
+      "artHash": "3aa45113bc89d1e8fc379c1ed7a7914aa28ab529855161037ac04bc585b543c2"
+    },
+    {
+      "file": "changelog-sk-v3.png",
+      "locale": "sk",
+      "page": "changelog",
+      "artHash": "5036ba2b309e4f7942c5b514b5ed90c2dbd40ccdca32bf1cf3688253d40010e5"
+    },
+    {
+      "file": "home-sk-v3.png",
+      "locale": "sk",
+      "page": "home",
+      "artHash": "a1d5406678a5ed0620c4792be0c1b8edeb31c28b71c400ab2e3350e32e51735e"
+    },
+    {
+      "file": "install-sk-v3.png",
+      "locale": "sk",
+      "page": "install",
+      "artHash": "aebae3ce23815a73105d232f66341a0204e6c5343c82c0fef4512261b11738bb"
+    },
+    {
+      "file": "launch-sk-v3.png",
+      "locale": "sk",
+      "page": "launch",
+      "artHash": "6df1225a706daa75bfef25d2ef750c19d482360aed46701bdf5b4d378fac1ee7"
+    },
+    {
+      "file": "modes-sk-v3.png",
+      "locale": "sk",
+      "page": "modes",
+      "artHash": "d24ef09289f6e0b606b57084faf3d3a46bdca6e08f8731805dddb94ca59fa260"
+    },
+    {
+      "file": "palette-sk-v3.png",
+      "locale": "sk",
+      "page": "palette",
+      "artHash": "9eb0e38fb775341ad9a3c965725da7142154f4ec4f694b05d9fc0fc706c462bc"
+    },
+    {
+      "file": "punch-list-sk-v3.png",
+      "locale": "sk",
+      "page": "punch-list",
+      "artHash": "1beb3a2a838617c588c9a0038b0ed623f0e26d4ce28fdc272b5340654cedb04a"
+    },
+    {
+      "file": "404-hu-v3.png",
+      "locale": "hu",
+      "page": "404",
+      "artHash": "efb79ef06151dc99cf3df58c7116181284c12de743e1c77f2f7e9cead96aa0ca"
+    },
+    {
+      "file": "board-hu-v3.png",
+      "locale": "hu",
+      "page": "board",
+      "artHash": "1153737d8061d3eba1c25758499588fd41a76299d6088b3c0d20733db82a15d1"
+    },
+    {
+      "file": "changelog-hu-v3.png",
+      "locale": "hu",
+      "page": "changelog",
+      "artHash": "8a53e368ed61e13717f3f088fc12fa96bb91527c5600d9729aa117dda3e0b926"
+    },
+    {
+      "file": "home-hu-v3.png",
+      "locale": "hu",
+      "page": "home",
+      "artHash": "655e88039eda4a74b0ad7c90e6e0a94ed1ed18281161765baff7e30eddfe6d7c"
+    },
+    {
+      "file": "install-hu-v3.png",
+      "locale": "hu",
+      "page": "install",
+      "artHash": "55f0a1ee3d266a59c91be8977516ed5e10fa2e06ab16f81a2fbf8dc100d50b70"
+    },
+    {
+      "file": "launch-hu-v3.png",
+      "locale": "hu",
+      "page": "launch",
+      "artHash": "127724448a2e77fd3750db9fe97d73102fd89b1657cbdf1b9349041605ea0876"
+    },
+    {
+      "file": "modes-hu-v3.png",
+      "locale": "hu",
+      "page": "modes",
+      "artHash": "ed4448901af7546f8d00da05c60ddd0249fa951b7e096914f491e02cc731d07d"
+    },
+    {
+      "file": "palette-hu-v3.png",
+      "locale": "hu",
+      "page": "palette",
+      "artHash": "4a6d8eaec44b9e992690e4c44076390134adc808b8cfb6084d14f4cb504ea8c3"
+    },
+    {
+      "file": "punch-list-hu-v3.png",
+      "locale": "hu",
+      "page": "punch-list",
+      "artHash": "25f93ab93733740c6f78c3391fee5e592f9f9cfab8dc6bb1d0083056775fd5de"
+    },
+    {
+      "file": "404-ro-v3.png",
+      "locale": "ro",
+      "page": "404",
+      "artHash": "64ab85e53fc0ad6007f346448a9e003a9910494327b1b7d4cf034937325687a0"
+    },
+    {
+      "file": "board-ro-v3.png",
+      "locale": "ro",
+      "page": "board",
+      "artHash": "c75b495b497055e250dc23d3535c996f4a77dbb0bf1367af0d8be4ba1b59f25a"
+    },
+    {
+      "file": "changelog-ro-v3.png",
+      "locale": "ro",
+      "page": "changelog",
+      "artHash": "ef699c538b40ff05e598086523888933fd377c1282175f947e6d2efa20361409"
+    },
+    {
+      "file": "home-ro-v3.png",
+      "locale": "ro",
+      "page": "home",
+      "artHash": "e6d2af05b4ba2fd18776db064cf2271e680fc7c1b21a3e15bebccc186cb03fa5"
+    },
+    {
+      "file": "install-ro-v3.png",
+      "locale": "ro",
+      "page": "install",
+      "artHash": "409beb1b72786e707ab99c3741e72da5b683bda59a80f42b42a7f0d56bb21155"
+    },
+    {
+      "file": "launch-ro-v3.png",
+      "locale": "ro",
+      "page": "launch",
+      "artHash": "558861b31b82f13cb6ecf2957d3f5e48457588331f39dcba89801f8bec456560"
+    },
+    {
+      "file": "modes-ro-v3.png",
+      "locale": "ro",
+      "page": "modes",
+      "artHash": "99e3fb45e6dc15773b01550ae22377b956328699195c865116c923a9af935956"
+    },
+    {
+      "file": "palette-ro-v3.png",
+      "locale": "ro",
+      "page": "palette",
+      "artHash": "c7674ee113df07a9845e18d5606167e405f55a2e7221f7397624d7eca5366106"
+    },
+    {
+      "file": "punch-list-ro-v3.png",
+      "locale": "ro",
+      "page": "punch-list",
+      "artHash": "c1bc1be7df9a4fa8f046561ebb991b9ce007ab3b94544e9d3c4ed79069b993d3"
+    },
+    {
+      "file": "404-bg-v3.png",
+      "locale": "bg",
+      "page": "404",
+      "artHash": "7f0d7d975d348ad1825392ede79a4cd05557e2b88997cceade1df1e8bf541f68"
+    },
+    {
+      "file": "board-bg-v3.png",
+      "locale": "bg",
+      "page": "board",
+      "artHash": "ffeab7e1b35b5b721231482e3bd3ac5d64e884b518142165f1d10bb006985f78"
+    },
+    {
+      "file": "changelog-bg-v3.png",
+      "locale": "bg",
+      "page": "changelog",
+      "artHash": "f67a7da113cdb8808917dc3711b6d9f0ba4289699f1171f9ed3c03ae19d7ed15"
+    },
+    {
+      "file": "home-bg-v3.png",
+      "locale": "bg",
+      "page": "home",
+      "artHash": "75577072631932c01855953ee13dda97a12e7e551712a218fd3f19e29ce49b65"
+    },
+    {
+      "file": "install-bg-v3.png",
+      "locale": "bg",
+      "page": "install",
+      "artHash": "bef46509df84f7c1b21cb35e54191cf4d8a246b7f42f6ce62a66f62ebe30e0a0"
+    },
+    {
+      "file": "launch-bg-v3.png",
+      "locale": "bg",
+      "page": "launch",
+      "artHash": "8fac1b4aafc21d04e5a34c3bc6ded86dd4dc94464a9ceca3d4994c12c99f0608"
+    },
+    {
+      "file": "modes-bg-v3.png",
+      "locale": "bg",
+      "page": "modes",
+      "artHash": "8c271c0d38386fc26fb1ea4e4e51d8a2cd8ce24136db6e97888a383cb76918c7"
+    },
+    {
+      "file": "palette-bg-v3.png",
+      "locale": "bg",
+      "page": "palette",
+      "artHash": "2bebd971ef743229ee8f61cf81d85a8afcd52b34c1d91756b0acf5da44572195"
+    },
+    {
+      "file": "punch-list-bg-v3.png",
+      "locale": "bg",
+      "page": "punch-list",
+      "artHash": "d1d1ba9e0d415d094525e68c6e4ac479bf8ad40e518569bc878840f101861552"
+    },
+    {
+      "file": "404-el-v3.png",
+      "locale": "el",
+      "page": "404",
+      "artHash": "595b998c11cffd7e41e972b91b1e487ddf1b83b07b7cb1e5c787709162fcfdfe"
+    },
+    {
+      "file": "board-el-v3.png",
+      "locale": "el",
+      "page": "board",
+      "artHash": "a93c6a6001203e3011a952f153c0a79d6c6f98364035d6e8c13a629992ee78f6"
+    },
+    {
+      "file": "changelog-el-v3.png",
+      "locale": "el",
+      "page": "changelog",
+      "artHash": "bbdf0efab3c89f17663205a952b266076c0c59aafcb50b55ab9632966fb7aef2"
+    },
+    {
+      "file": "home-el-v3.png",
+      "locale": "el",
+      "page": "home",
+      "artHash": "ed46cc25255f11e31b3c625a3632623e8f522b3b6448fc49c8259f20f1bcb721"
+    },
+    {
+      "file": "install-el-v3.png",
+      "locale": "el",
+      "page": "install",
+      "artHash": "af60948b0bfdc57a474bd7592fae7a85df3a130276b1732c3a86c2ca04030509"
+    },
+    {
+      "file": "launch-el-v3.png",
+      "locale": "el",
+      "page": "launch",
+      "artHash": "9f655a714799d136800fca8ea62de6457b02beadfc800a9619353196ebf645a8"
+    },
+    {
+      "file": "modes-el-v3.png",
+      "locale": "el",
+      "page": "modes",
+      "artHash": "ab0a859644e6a7d69c554b7f21bc88e1d3882228fff9471420ca6dd46bbdfc1d"
+    },
+    {
+      "file": "palette-el-v3.png",
+      "locale": "el",
+      "page": "palette",
+      "artHash": "9e44f797bb10209e858731346cf4369198037854abd9162468df74a94c8c92d4"
+    },
+    {
+      "file": "punch-list-el-v3.png",
+      "locale": "el",
+      "page": "punch-list",
+      "artHash": "75bee181f3087cfbcd9be46a32e7361d30018143bb0251520ff3d9f3317f1ed5"
+    },
+    {
+      "file": "404-hr-v3.png",
+      "locale": "hr",
+      "page": "404",
+      "artHash": "0a5ec3fbb2decc4c560d1dd52b82aabfce8decb85965947840bb47bc19a98d0d"
+    },
+    {
+      "file": "board-hr-v3.png",
+      "locale": "hr",
+      "page": "board",
+      "artHash": "b75842e7d8ac7538e44f8be1c72a8bd401dbdd3deaa9c04abd74509a961a476c"
+    },
+    {
+      "file": "changelog-hr-v3.png",
+      "locale": "hr",
+      "page": "changelog",
+      "artHash": "c8f5b92709d6369a341f9cf743bc561d8300e58a5c6a5ee298c18ffc4001b950"
+    },
+    {
+      "file": "home-hr-v3.png",
+      "locale": "hr",
+      "page": "home",
+      "artHash": "211ce5948f02063e9eafc7e3dab9a0dcb0f0037bdcc8c0a0f9042afd730b9803"
+    },
+    {
+      "file": "install-hr-v3.png",
+      "locale": "hr",
+      "page": "install",
+      "artHash": "4dd6b1a6d4aca10144fad97aa57cb4940b6120b39a247fc0f1975a4d37a60238"
+    },
+    {
+      "file": "launch-hr-v3.png",
+      "locale": "hr",
+      "page": "launch",
+      "artHash": "d1e91845c64995d10359f4707cf0f726ef37076199cf3e919732a01e43be1156"
+    },
+    {
+      "file": "modes-hr-v3.png",
+      "locale": "hr",
+      "page": "modes",
+      "artHash": "eb5b6aa3aba5f41a7fe0ae8174186bd51681266ac6a275f00732e3f2124633d5"
+    },
+    {
+      "file": "palette-hr-v3.png",
+      "locale": "hr",
+      "page": "palette",
+      "artHash": "7a01cf20caa47e9a100098589d1bb7130af95b12e3076e43d427737d6e773a71"
+    },
+    {
+      "file": "punch-list-hr-v3.png",
+      "locale": "hr",
+      "page": "punch-list",
+      "artHash": "726132a67d306d58d3fda382b73b124a89fe932b2919539aca71989231c3cb71"
+    },
+    {
+      "file": "404-et-v3.png",
+      "locale": "et",
+      "page": "404",
+      "artHash": "026fd7916da972d8ee618ed9d2eec8ba18dbcebf85518525b93c52aa6d8369ec"
+    },
+    {
+      "file": "board-et-v3.png",
+      "locale": "et",
+      "page": "board",
+      "artHash": "45fe1719cd55e5c5acbc490223749f09ae731ce11142ce11cd88a7df45b3e585"
+    },
+    {
+      "file": "changelog-et-v3.png",
+      "locale": "et",
+      "page": "changelog",
+      "artHash": "22ba4b67a72d19f8bc7b97bfec2068e20df43e41c4afc3f4443e077baaae58f3"
+    },
+    {
+      "file": "home-et-v3.png",
+      "locale": "et",
+      "page": "home",
+      "artHash": "fb213bdae97b559021e95ab4333a6501080e196a375334a488da995b7515b9bc"
+    },
+    {
+      "file": "install-et-v3.png",
+      "locale": "et",
+      "page": "install",
+      "artHash": "cbe0f1329d53eaf566f8edb94e0187b58cf2236c42241ab37d8120c88e35baf7"
+    },
+    {
+      "file": "launch-et-v3.png",
+      "locale": "et",
+      "page": "launch",
+      "artHash": "ea73ad686aa86bf58cbbf4ad3985822fcc252c75d3aeaa67c12d29604c0ced3d"
+    },
+    {
+      "file": "modes-et-v3.png",
+      "locale": "et",
+      "page": "modes",
+      "artHash": "84e9ab82ddf387e6e73d35e9a02fafd15067a4e58fdd62d5e169ba3a2e83a5e6"
+    },
+    {
+      "file": "palette-et-v3.png",
+      "locale": "et",
+      "page": "palette",
+      "artHash": "d440a496747f6b62e24ccd7a9d04cff1d33908724c7e40178b5f5ab99320b119"
+    },
+    {
+      "file": "punch-list-et-v3.png",
+      "locale": "et",
+      "page": "punch-list",
+      "artHash": "7734b5f5760dd7b9108f4dfe2dbfd3e1dc92be8b4abd0b38e84782dec366a0a8"
+    },
+    {
+      "file": "404-lv-v3.png",
+      "locale": "lv",
+      "page": "404",
+      "artHash": "e8c6c9f3dc320f7ded1fa521eb1cc364e483eac84ed07d73a9612038cfc811fe"
+    },
+    {
+      "file": "board-lv-v3.png",
+      "locale": "lv",
+      "page": "board",
+      "artHash": "7cdfb3fcf5d64436c143e43e987c98ccd8db89a68c550355f03e9e679522fb83"
+    },
+    {
+      "file": "changelog-lv-v3.png",
+      "locale": "lv",
+      "page": "changelog",
+      "artHash": "b3271bed3bcfac972c9f5fc22a53bcd735c6fe1a32080297ffa89240c1b2eca8"
+    },
+    {
+      "file": "home-lv-v3.png",
+      "locale": "lv",
+      "page": "home",
+      "artHash": "c3950e52e6e37ea94c8c80ca4f1cf2e2c5970177c10aca4b3d9b527ad8bb564c"
+    },
+    {
+      "file": "install-lv-v3.png",
+      "locale": "lv",
+      "page": "install",
+      "artHash": "2a34fb4abcfe7a8c7256292d02614fa0c481e60293242579b749ddf1a9fa1d11"
+    },
+    {
+      "file": "launch-lv-v3.png",
+      "locale": "lv",
+      "page": "launch",
+      "artHash": "3ef0fd49d4edbda628078d7c3d03ab5909126ec21609a8e5f88d71ba5d00bee9"
+    },
+    {
+      "file": "modes-lv-v3.png",
+      "locale": "lv",
+      "page": "modes",
+      "artHash": "c333532afcfe4e509fc5b92c29e93d1a9ea801dcde2dee4fb4fda3802c67cccc"
+    },
+    {
+      "file": "palette-lv-v3.png",
+      "locale": "lv",
+      "page": "palette",
+      "artHash": "326133d77568e777e9b95199c497d5cb0f1d2dccd3361d3eec843338c6da0e48"
+    },
+    {
+      "file": "punch-list-lv-v3.png",
+      "locale": "lv",
+      "page": "punch-list",
+      "artHash": "24ef2474126eb0ce89fcd738c5c41e64d46aca013cea34e3aa12265edef806d0"
+    },
+    {
+      "file": "404-lt-v3.png",
+      "locale": "lt",
+      "page": "404",
+      "artHash": "50df504e95232205cd7acb3dd56c7d127ec7e88f0d064c47418a5ff14a1abb18"
+    },
+    {
+      "file": "board-lt-v3.png",
+      "locale": "lt",
+      "page": "board",
+      "artHash": "502c9f2428431b2d9cbaa09aac3d483f2ba6ff5982ec9bd0f93f57faebbbfc72"
+    },
+    {
+      "file": "changelog-lt-v3.png",
+      "locale": "lt",
+      "page": "changelog",
+      "artHash": "c7ca32dd30f9ad1a5cdc9d873f5d60e28cb7ebc9e41bfb19d6a7e59c9a06d7f6"
+    },
+    {
+      "file": "home-lt-v3.png",
+      "locale": "lt",
+      "page": "home",
+      "artHash": "3e52f0f6fa4acf9177b5102998f7f90b88b9170f19a6e4695d17c4f0052a2bc8"
+    },
+    {
+      "file": "install-lt-v3.png",
+      "locale": "lt",
+      "page": "install",
+      "artHash": "c20f478887e717983b7f15b0eae261b4acdd25e25922eaa82e19ee7ebf3f170b"
+    },
+    {
+      "file": "launch-lt-v3.png",
+      "locale": "lt",
+      "page": "launch",
+      "artHash": "fd79eda9493f568e1919c45afba488a2c6a528ce40eee0d45b31fe45c1b5b0c0"
+    },
+    {
+      "file": "modes-lt-v3.png",
+      "locale": "lt",
+      "page": "modes",
+      "artHash": "56b1a2468ba5e89c490c3c4caf330652c33865e9eccf3dec289da165d2c2ceba"
+    },
+    {
+      "file": "palette-lt-v3.png",
+      "locale": "lt",
+      "page": "palette",
+      "artHash": "8cd9c9ad187f2f4c8057a384c9b79f552b5b7067ca581025f43a7ab306b54995"
+    },
+    {
+      "file": "punch-list-lt-v3.png",
+      "locale": "lt",
+      "page": "punch-list",
+      "artHash": "65f938055c9b6f3abecb4bc0e09a34ca4562d9ed19b8df623220cd91d22399e5"
+    },
+    {
+      "file": "404-ru-v3.png",
+      "locale": "ru",
+      "page": "404",
+      "artHash": "a814d16cf1053bee85d1b92406c919d545e35cc1d71f8a4decdcfef0b3864c31"
+    },
+    {
+      "file": "board-ru-v3.png",
+      "locale": "ru",
+      "page": "board",
+      "artHash": "4d88f40af11cf669504a68169905322cafc133ef65f602145d1f08410dd23b2d"
+    },
+    {
+      "file": "changelog-ru-v3.png",
+      "locale": "ru",
+      "page": "changelog",
+      "artHash": "47544ef01dd73b76e6caa5e61d399501ee1f04c0ad1d54189c0e571b5ac6e600"
+    },
+    {
+      "file": "home-ru-v3.png",
+      "locale": "ru",
+      "page": "home",
+      "artHash": "d8481fae8b8b84aec8fb83759f641af8a58120f2ffbe9597c8f683bee5d51d7d"
+    },
+    {
+      "file": "install-ru-v3.png",
+      "locale": "ru",
+      "page": "install",
+      "artHash": "07236da9192cf03d2c00e4ed7dba54bad92876fd632e3e034483167bb2801160"
+    },
+    {
+      "file": "launch-ru-v3.png",
+      "locale": "ru",
+      "page": "launch",
+      "artHash": "cfa87d83cd001a3ff1890d9c0df19a4af1d5ffc580d7113112bc4831f02636a9"
+    },
+    {
+      "file": "modes-ru-v3.png",
+      "locale": "ru",
+      "page": "modes",
+      "artHash": "24ec34e5d5e106aa0c92f9e3b9d8e776dafefb67d4afe4b14d216ca92fbcac20"
+    },
+    {
+      "file": "palette-ru-v3.png",
+      "locale": "ru",
+      "page": "palette",
+      "artHash": "2d95c3070540e5a14ffb08bb40d7711e0fbdb3040b1087badc0065274c18666b"
+    },
+    {
+      "file": "punch-list-ru-v3.png",
+      "locale": "ru",
+      "page": "punch-list",
+      "artHash": "a110c3374cebb4c4ce05f5c4e07287d684331de7fa7e29ada9c0419c4d817bc2"
+    },
+    {
+      "file": "404-uk-v3.png",
+      "locale": "uk",
+      "page": "404",
+      "artHash": "f4b5e59f2314b8220d6916dbe0815823c6918b88aba3f29957e3459cc7c939f1"
+    },
+    {
+      "file": "board-uk-v3.png",
+      "locale": "uk",
+      "page": "board",
+      "artHash": "dac0161e3444074d515e9cb8e56acd3363f54b20e2dd59436aa339d77a4d931d"
+    },
+    {
+      "file": "changelog-uk-v3.png",
+      "locale": "uk",
+      "page": "changelog",
+      "artHash": "f2078911d0065c9aba731ea36a446eca5b26799c24f54c563098d8efb70b1222"
+    },
+    {
+      "file": "home-uk-v3.png",
+      "locale": "uk",
+      "page": "home",
+      "artHash": "b207f5521c21f861fd5a455f7e4f0b16a4d04e9233d83621760786a6b7593059"
+    },
+    {
+      "file": "install-uk-v3.png",
+      "locale": "uk",
+      "page": "install",
+      "artHash": "d38c54973668fde88bd77774cf202ebc2f0e7a78dfa12146a76903a14280019b"
+    },
+    {
+      "file": "launch-uk-v3.png",
+      "locale": "uk",
+      "page": "launch",
+      "artHash": "b62ea1cda83ad1ace4850f8c9b3e375218cc9903d7d81e510fb0e8d85f391931"
+    },
+    {
+      "file": "modes-uk-v3.png",
+      "locale": "uk",
+      "page": "modes",
+      "artHash": "4a1a905a1d45103df4750db4cda7c9a689a96e4ec9f2c0716cc3cf1f5404825f"
+    },
+    {
+      "file": "palette-uk-v3.png",
+      "locale": "uk",
+      "page": "palette",
+      "artHash": "0b58fd38555e4a797c57e10cfa264d277081371f22ec81d533cb8f2750ea21ad"
+    },
+    {
+      "file": "punch-list-uk-v3.png",
+      "locale": "uk",
+      "page": "punch-list",
+      "artHash": "f9d34f97860f09dccf2158d62196d46eb9b50f7ef2b959f68f1bbdb1900d1306"
+    },
+    {
+      "file": "404-tr-v3.png",
+      "locale": "tr",
+      "page": "404",
+      "artHash": "017cab84710cd6e464f85ba08a79ce716c0bb6ea30df588297f7f817f9817dcc"
+    },
+    {
+      "file": "board-tr-v3.png",
+      "locale": "tr",
+      "page": "board",
+      "artHash": "e820bf33162bba4fa6b5bafbe83b24697c3c09b8d39612f4a45f0b09bc3f378f"
+    },
+    {
+      "file": "changelog-tr-v3.png",
+      "locale": "tr",
+      "page": "changelog",
+      "artHash": "198eabcf47cb357d817a2d1b0281a24e3e337ee812cbeb52923d6d186396a89d"
+    },
+    {
+      "file": "home-tr-v3.png",
+      "locale": "tr",
+      "page": "home",
+      "artHash": "381e94ff4c4112ca8a6e374ed26cf53ee65a329e19431bf2dc35676c23e2d1cb"
+    },
+    {
+      "file": "install-tr-v3.png",
+      "locale": "tr",
+      "page": "install",
+      "artHash": "cc3689a2b8b7a625bf0f7d7189ebc442cef61adc0aa7f6d2d79dd0bf61b5de44"
+    },
+    {
+      "file": "launch-tr-v3.png",
+      "locale": "tr",
+      "page": "launch",
+      "artHash": "2aa280e11dbd3dfbe610a5e5fb7ea0cb4a450049dbb5a61f9f24b11aaef3769d"
+    },
+    {
+      "file": "modes-tr-v3.png",
+      "locale": "tr",
+      "page": "modes",
+      "artHash": "3cb9cf1df3d98731a6c6a56a93f3bd7f56876546c5d518823f828fe5ee488096"
+    },
+    {
+      "file": "palette-tr-v3.png",
+      "locale": "tr",
+      "page": "palette",
+      "artHash": "00d8de56005d997c73560bedad795954d4c7fd1ce8ee8edd52358cf663d97c15"
+    },
+    {
+      "file": "punch-list-tr-v3.png",
+      "locale": "tr",
+      "page": "punch-list",
+      "artHash": "4ad8d4834979f2d87d223f0f8fbc8f9ec03d85d94291939eefe0246e8e998891"
+    },
+    {
+      "file": "404-ja-v3.png",
+      "locale": "ja",
+      "page": "404",
+      "artHash": "00eed4257e08589dfca24bf38dab9d98e0106d772cc1e5223761017d29c3c9fc"
+    },
+    {
+      "file": "board-ja-v3.png",
+      "locale": "ja",
+      "page": "board",
+      "artHash": "a317a51263791ef8ba63d09a8d151e61f9a69764be7670ac87a73294d5e75d5d"
+    },
+    {
+      "file": "changelog-ja-v3.png",
+      "locale": "ja",
+      "page": "changelog",
+      "artHash": "f31c28022a1c9f722108445b487ded98386e330ea385d355baa1949761059358"
+    },
+    {
+      "file": "home-ja-v3.png",
+      "locale": "ja",
+      "page": "home",
+      "artHash": "31fdccda833d969f300b5c63228de77b816c5357ef9a3dab9176f3dfdf272b41"
+    },
+    {
+      "file": "install-ja-v3.png",
+      "locale": "ja",
+      "page": "install",
+      "artHash": "d5e10253523b7e92b08e16fd69413103b0cda96736294661d12539176bd63e66"
+    },
+    {
+      "file": "launch-ja-v3.png",
+      "locale": "ja",
+      "page": "launch",
+      "artHash": "660414e614543bc2fe188e9fddf6d76325b48f520142a8982f38f8712d3a3199"
+    },
+    {
+      "file": "modes-ja-v3.png",
+      "locale": "ja",
+      "page": "modes",
+      "artHash": "e8dde66b79cffcc1292bce9916218fcfc774d53859ae31f71999dfc105a40bf3"
+    },
+    {
+      "file": "palette-ja-v3.png",
+      "locale": "ja",
+      "page": "palette",
+      "artHash": "6150a9a93af0ca0399a0ca8d8deff88526192e8dd190531c410f847519551201"
+    },
+    {
+      "file": "punch-list-ja-v3.png",
+      "locale": "ja",
+      "page": "punch-list",
+      "artHash": "401d911be7036fce8192e888b6bb61bedf08bcdbc011fe3490d6f8d9eab7bdca"
+    },
+    {
+      "file": "404-ko-v3.png",
+      "locale": "ko",
+      "page": "404",
+      "artHash": "756e6d79df56c181d7723937904e60a2ff0461655dc505846644f7635fa71da2"
+    },
+    {
+      "file": "board-ko-v3.png",
+      "locale": "ko",
+      "page": "board",
+      "artHash": "4e1298d16be59c05c4d1b81d1c33ecff1c4da14d0c1666bf0f8127e17333dbb6"
+    },
+    {
+      "file": "changelog-ko-v3.png",
+      "locale": "ko",
+      "page": "changelog",
+      "artHash": "597df4a919c7a6aad91b1e23207ef102bea1be2fec5f84a07ea4b99d30cbad7a"
+    },
+    {
+      "file": "home-ko-v3.png",
+      "locale": "ko",
+      "page": "home",
+      "artHash": "7bfa984f501ba49dbc507232a9e1263329e9f34d0317ad29b9fa2180f24763cb"
+    },
+    {
+      "file": "install-ko-v3.png",
+      "locale": "ko",
+      "page": "install",
+      "artHash": "475190da83094dfbfb221730ffdafc3f884ae45c7f2a55a81122d61ac404e6fc"
+    },
+    {
+      "file": "launch-ko-v3.png",
+      "locale": "ko",
+      "page": "launch",
+      "artHash": "c0b24c92d6658ad5434ec1410d5b97ae7a88dc3f0e94c2ccc3582b1127c7e263"
+    },
+    {
+      "file": "modes-ko-v3.png",
+      "locale": "ko",
+      "page": "modes",
+      "artHash": "04ea2d25d673d790d10774c3986d1c48a1d47218e072b8c3a1226b20bf387840"
+    },
+    {
+      "file": "palette-ko-v3.png",
+      "locale": "ko",
+      "page": "palette",
+      "artHash": "b1279a7ed7ce45aa35d7af4f532ccf82980ce88a84359afdc1da64991321bd22"
+    },
+    {
+      "file": "punch-list-ko-v3.png",
+      "locale": "ko",
+      "page": "punch-list",
+      "artHash": "a53bc5f8ba35dea0ff69f2f58841bc944021a8aa4fcd94805a62674ac1720636"
+    },
+    {
+      "file": "404-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "404",
+      "artHash": "05f1f31dbc246aad386446c4052a71e2acbfe032700855d641edf99f0b06de7a"
+    },
+    {
+      "file": "board-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "board",
+      "artHash": "a1beffa6a7ac674f2ca979179b77073c8fadf4a4995923ba403491b3bcd1b9b4"
+    },
+    {
+      "file": "changelog-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "changelog",
+      "artHash": "5689e7d397054552344023882c209fe8e795014152bce8f262ba67b24d54abd4"
+    },
+    {
+      "file": "home-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "home",
+      "artHash": "33d7e763c8d9dc6a83417b45bedc44dd5cfa5274dac0d576b954131c884fa7c3"
+    },
+    {
+      "file": "install-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "install",
+      "artHash": "510f1073e47035a7746246b5b405a55aef0c87b36a279a9def697feb085b0604"
+    },
+    {
+      "file": "launch-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "launch",
+      "artHash": "73772a10d24b08ff9b6d7b418962cc9fbabac8bd33e5030d9f841f7c4c775818"
+    },
+    {
+      "file": "modes-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "modes",
+      "artHash": "51ad97a66749b72f221667784e17e1607a2e4dde5354639ecb878dd700ff588d"
+    },
+    {
+      "file": "palette-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "palette",
+      "artHash": "04ecfcf1bb0f2206928fe49c1a35a9d681dad5a54093a57f68077741f80e4279"
+    },
+    {
+      "file": "punch-list-zh-hans-v3.png",
+      "locale": "zh-hans",
+      "page": "punch-list",
+      "artHash": "968138ee84d70ae2ebe31b3ca54621b97a6a8bcc1d3c4a3eb01a5d97ceb03b97"
+    },
+    {
+      "file": "404-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "404",
+      "artHash": "c4a83170c7510e212717262dc12991705e540198b3408621902b73171391d674"
+    },
+    {
+      "file": "board-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "board",
+      "artHash": "71d5ca1d68cebfb151f172ac6393d3a99356b7987f2f376ba91a3fd9e6ca4d6d"
+    },
+    {
+      "file": "changelog-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "changelog",
+      "artHash": "1c841ca44041cc7c730431c95081900c76371c35e4258fbd855e1cfdefb22db8"
+    },
+    {
+      "file": "home-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "home",
+      "artHash": "ec299783015102c04151ebdf193c971e9cc502fb4580129b56327b873ecb119a"
+    },
+    {
+      "file": "install-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "install",
+      "artHash": "6b28c048e74c84007b1b67c161dcbe4fdd27d46b32d363dbebede895ddc12363"
+    },
+    {
+      "file": "launch-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "launch",
+      "artHash": "db391966c76f69fb7d8a62aae609bd623cb6ddec951c1c9f6fc458d57334bbc6"
+    },
+    {
+      "file": "modes-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "modes",
+      "artHash": "19728262ee96a9e315bc6e9df304d71152898a4535d4f28815f99ce01117f941"
+    },
+    {
+      "file": "palette-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "palette",
+      "artHash": "e56c3d98852a4a6cf26f90f7b7059320d68f135ca73f365c906c019d1f02e4ee"
+    },
+    {
+      "file": "punch-list-zh-hant-v3.png",
+      "locale": "zh-hant",
+      "page": "punch-list",
+      "artHash": "acfe5873a371c1955655b1c1d5bb523359bd8d7064d482363f299fa135338c42"
+    },
+    {
+      "file": "404-th-v3.png",
+      "locale": "th",
+      "page": "404",
+      "artHash": "d2c394f275ca3806254aee6082718fe3d54a41b384afd028caa8033e9e3882b2"
+    },
+    {
+      "file": "board-th-v3.png",
+      "locale": "th",
+      "page": "board",
+      "artHash": "ecee0ea4ef1f2d72c913b31db7b72073af529318ccbba3f4ff35cdfabc9ff30e"
+    },
+    {
+      "file": "changelog-th-v3.png",
+      "locale": "th",
+      "page": "changelog",
+      "artHash": "2f5f05978686cbe9509adbabb1a8c3af8fd6316ca2d22fbf5267cba54b92674e"
+    },
+    {
+      "file": "home-th-v3.png",
+      "locale": "th",
+      "page": "home",
+      "artHash": "11c2a4b13603df3ecb00ff3188b161c4c089a810cf2354533eefa56df78c33aa"
+    },
+    {
+      "file": "install-th-v3.png",
+      "locale": "th",
+      "page": "install",
+      "artHash": "f8219b2691d0da4ee7ae5382df79e586166f4162791649fbf4c6b6be4c2613c3"
+    },
+    {
+      "file": "launch-th-v3.png",
+      "locale": "th",
+      "page": "launch",
+      "artHash": "464e248e0408397f34d5a2db25b8a712666812d2b8dfbc4d21362da478c0c2b4"
+    },
+    {
+      "file": "modes-th-v3.png",
+      "locale": "th",
+      "page": "modes",
+      "artHash": "9f02b3eed8c518c185559d9a5aa839e72e90b724da3b860e93734d237e58e9f9"
+    },
+    {
+      "file": "palette-th-v3.png",
+      "locale": "th",
+      "page": "palette",
+      "artHash": "058c1683bbe5cd03770d83b92b07053e95c2f41852357de55c70200afd8ccc9e"
+    },
+    {
+      "file": "punch-list-th-v3.png",
+      "locale": "th",
+      "page": "punch-list",
+      "artHash": "ca734a89bcd82fb64e7dc1cc2c6ca7969a6949f0bcf5b74d2e482a0ede08032d"
+    },
+    {
+      "file": "404-vi-v3.png",
+      "locale": "vi",
+      "page": "404",
+      "artHash": "6bd179464effe1c8533400a9c76b26506d680d5cbf7a776b8a5196b780ddf87b"
+    },
+    {
+      "file": "board-vi-v3.png",
+      "locale": "vi",
+      "page": "board",
+      "artHash": "02eeb6a3bcd463e1c14949195db14cfee7fadd9f00b8a977a2303a0017f41c31"
+    },
+    {
+      "file": "changelog-vi-v3.png",
+      "locale": "vi",
+      "page": "changelog",
+      "artHash": "ab4c818682ff1223d2c749c9ad981d4dc8896890e2cf57369fe48bb7975b08f4"
+    },
+    {
+      "file": "home-vi-v3.png",
+      "locale": "vi",
+      "page": "home",
+      "artHash": "9a159b8a4873cfdddcc8024e678fa0eb256109c48a3eb71bcb4ce1d6655ce9c4"
+    },
+    {
+      "file": "install-vi-v3.png",
+      "locale": "vi",
+      "page": "install",
+      "artHash": "d255b00206a6666cc56d13175cb74812706783b706a2e415c57cdbb9d5672878"
+    },
+    {
+      "file": "launch-vi-v3.png",
+      "locale": "vi",
+      "page": "launch",
+      "artHash": "29556188361f4070454737eaa5532f85e5cb4b399788a60f670310d735370ab8"
+    },
+    {
+      "file": "modes-vi-v3.png",
+      "locale": "vi",
+      "page": "modes",
+      "artHash": "625e7e984c811a0d1ce64dbd36d0afafc0a8f5ae642116defcae47ee77f0c0a4"
+    },
+    {
+      "file": "palette-vi-v3.png",
+      "locale": "vi",
+      "page": "palette",
+      "artHash": "8e1509fa4507e55e27caf52849d639f2f40ca562f359203682b7210623cbfc54"
+    },
+    {
+      "file": "punch-list-vi-v3.png",
+      "locale": "vi",
+      "page": "punch-list",
+      "artHash": "22d1214a1f9f1a71b355d7db1e02a07f2ad8d8d8f4d94c8fe3b4c7d410a2b444"
+    },
+    {
+      "file": "404-id-v3.png",
+      "locale": "id",
+      "page": "404",
+      "artHash": "6618ac0666e985a91fd5edd448416271e1b0417ddb17b5236fc89170aba3a1d7"
+    },
+    {
+      "file": "board-id-v3.png",
+      "locale": "id",
+      "page": "board",
+      "artHash": "ea3bcfc154b8c83f7e4274e9479d30ef22ad8171ff6b9767d7ebdccd5de481a0"
+    },
+    {
+      "file": "changelog-id-v3.png",
+      "locale": "id",
+      "page": "changelog",
+      "artHash": "bc459e9da49ecad5ea7b89ac40c0a5be8f3beb4f91800980d20c8327e8a3486d"
+    },
+    {
+      "file": "home-id-v3.png",
+      "locale": "id",
+      "page": "home",
+      "artHash": "d291fc14690c23f341ccbc719cb43b3437894a3572f33d8d210a80b913d7086c"
+    },
+    {
+      "file": "install-id-v3.png",
+      "locale": "id",
+      "page": "install",
+      "artHash": "e7c54e88e14a2cfe376d03bb75191ea8e7619c1fb34f7973aac2f312c268b932"
+    },
+    {
+      "file": "launch-id-v3.png",
+      "locale": "id",
+      "page": "launch",
+      "artHash": "01ae1f48ab0f18817cef5e60d5d56269e58bccde33aa6aa647e83f5359c4b131"
+    },
+    {
+      "file": "modes-id-v3.png",
+      "locale": "id",
+      "page": "modes",
+      "artHash": "0a88ddb32d05f7ef1ef03a42746664c094d6c12e9800f6128dc2030babc3d546"
+    },
+    {
+      "file": "palette-id-v3.png",
+      "locale": "id",
+      "page": "palette",
+      "artHash": "449b3b66306ceb40fb22359f9a2c16cb37df7431bd5573e940f15ba945a39175"
+    },
+    {
+      "file": "punch-list-id-v3.png",
+      "locale": "id",
+      "page": "punch-list",
+      "artHash": "4339aee18cdab5658b3815243f004ccf1de61b393bec1ce4211d9675fa9f59e3"
+    }
+  ]
+}

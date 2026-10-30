@@ -1,0 +1,1533 @@
+{
+  "html": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Foreman by Turki Alshuaibi · Build playbook for coding agents": [
+    "index.html"
+  ],
+  "Skip to content": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Foreman": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Modes": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Toolbelt": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Changelog": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "GitHub": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Install": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Home": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Install Foreman": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Every good build": [
+    "index.html"
+  ],
+  "starts as a drawing.": [
+    "index.html"
+  ],
+  "The interview, the decisions, the locked system, the brief.": [
+    "index.html"
+  ],
+  "Then the code, then the domain, then indexed.": [
+    "index.html"
+  ],
+  "How it works": [
+    "index.html"
+  ],
+  "Claude Code": [
+    "index.html",
+    "install/index.html"
+  ],
+  "Codex": [
+    "index.html",
+    "install/index.html"
+  ],
+  "Cursor": [
+    "index.html",
+    "install/index.html"
+  ],
+  "Gemini CLI": [
+    "index.html",
+    "install/index.html"
+  ],
+  "GitHub Copilot": [
+    "index.html",
+    "install/index.html"
+  ],
+  "Plan the site before writing code.": [
+    "index.html"
+  ],
+  "Ask for a site and Foreman sends its card and one question. Say": [
+    "index.html"
+  ],
+  "survey": [
+    "index.html",
+    "modes/index.html"
+  ],
+  "for the fewest questions: it reads your repo, your site and your CV instead of asking. Say": [
+    "index.html"
+  ],
+  "stress test": [
+    "index.html",
+    "modes/index.html"
+  ],
+  "for the most: every answer gets pushed once. Every decision gets made in all three.": [
+    "index.html"
+  ],
+  "Compare modes": [
+    "index.html"
+  ],
+  "Blueprint": [
+    "index.html",
+    "modes/index.html"
+  ],
+  "The full interview": [
+    "index.html"
+  ],
+  "Survey": [
+    "index.html",
+    "modes/index.html"
+  ],
+  "Research, then one sheet": [
+    "index.html"
+  ],
+  "Stress test": [
+    "index.html",
+    "modes/index.html"
+  ],
+  "Every answer pushed once": [
+    "index.html"
+  ],
+  "The default. The full interview, one question at a time.": [
+    "index.html"
+  ],
+  "The fewest questions. Research first, then one sheet with a source on every line.": [
+    "index.html"
+  ],
+  "The most thorough. The same interview, and every answer is pushed once before it locks.": [
+    "index.html"
+  ],
+  "See the difference.": [
+    "index.html"
+  ],
+  "A portfolio built from the same project notes. First as a quick draft, then with a visual direction, selected references, and a locked brief.": [
+    "index.html"
+  ],
+  "Initial draft": [
+    "index.html"
+  ],
+  "With Foreman": [
+    "index.html"
+  ],
+  "Open the finished build": [
+    "index.html"
+  ],
+  "From brief to launch.": [
+    "index.html"
+  ],
+  "Eight steps, from deciding what to build to getting it online. Select a step to see an example.": [
+    "index.html"
+  ],
+  "Orient": [
+    "index.html"
+  ],
+  "Define the site and collect the source material.": [
+    "index.html"
+  ],
+  "Decide": [
+    "index.html"
+  ],
+  "Choose the reader, action, content, and scope.": [
+    "index.html"
+  ],
+  "Lock the look": [
+    "index.html"
+  ],
+  "Select references and agree on the visual system.": [
+    "index.html"
+  ],
+  "Write the brief": [
+    "index.html"
+  ],
+  "Put the decisions into one build brief.": [
+    "index.html"
+  ],
+  "Build": [
+    "index.html"
+  ],
+  "Build the site from the approved brief.": [
+    "index.html"
+  ],
+  "Verify": [
+    "index.html"
+  ],
+  "Check layout, content, accessibility, and controls.": [
+    "index.html"
+  ],
+  "Ship": [
+    "index.html"
+  ],
+  "Connect the domain and deploy the site.": [
+    "index.html"
+  ],
+  "Index": [
+    "index.html",
+    "launch/index.html"
+  ],
+  "Check search metadata and sharing previews.": [
+    "index.html"
+  ],
+  "The starting point": [
+    "index.html"
+  ],
+  "Decisions": [
+    "index.html"
+  ],
+  "Visual direction": [
+    "index.html"
+  ],
+  "Build brief": [
+    "index.html"
+  ],
+  "Implementation": [
+    "index.html"
+  ],
+  "Quality checks": [
+    "index.html"
+  ],
+  "Deployment": [
+    "index.html"
+  ],
+  "Search and sharing": [
+    "index.html"
+  ],
+  "Four tools. Use them when you need them.": [
+    "index.html"
+  ],
+  "Call one on its own, or in the middle of a session without losing your place. In Claude Code each is a slash command. Anywhere else, ask in plain words.": [
+    "index.html"
+  ],
+  "Board": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "/foreman:board": [
+    "index.html"
+  ],
+  "Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.": [
+    "index.html"
+  ],
+  "Punch list": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "/foreman:punch-list https://your-site.com": [
+    "index.html"
+  ],
+  "Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.": [
+    "index.html"
+  ],
+  "Palette": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "/foreman:palette": [
+    "index.html"
+  ],
+  "Three palettes from a material you name, contrast checked, on your real content. You pick one.": [
+    "index.html"
+  ],
+  "Launch": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "/foreman:launch": [
+    "index.html"
+  ],
+  "Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.": [
+    "index.html"
+  ],
+  "A playbook you can read.": [
+    "index.html"
+  ],
+  "Foreman is a set of Markdown instructions and templates. No scripts, hooks, or background services.": [
+    "index.html"
+  ],
+  "References": [
+    "index.html"
+  ],
+  "Loaded only when their step arrives, including design standards: colour theory, proportion, type scale, spacing, motion timing.": [
+    "index.html"
+  ],
+  "Tools": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Board, punch list, palette and launch, each one file and, in Claude Code, a slash command.": [
+    "index.html"
+  ],
+  "Templates": [
+    "index.html"
+  ],
+  "A brand harness, a reference board, a head block with Open Graph and JSON-LD, a 404, robots.txt, sitemap.xml and llms.txt.": [
+    "index.html"
+  ],
+  "Failure modes": [
+    "index.html"
+  ],
+  "The places builds actually die, watched for at every step, from skipping to the build to editing DNS blind.": [
+    "index.html"
+  ],
+  "Use Foreman with your agent.": [
+    "index.html"
+  ],
+  "Claude Code, Codex, Cursor, Copilot, Gemini CLI, and other agents that read instructions.": [
+    "index.html"
+  ],
+  "Any coding agent": [
+    "index.html"
+  ],
+  "Clone the repository and add the Foreman folder to your agent’s skills or instructions.": [
+    "index.html"
+  ],
+  "Copy": [
+    "index.html",
+    "board/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Choose your agent": [
+    "index.html"
+  ],
+  "Run these commands in Claude Code.": [
+    "index.html"
+  ],
+  "Start with": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "a better brief.": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Give your coding agent a clear plan for the site you want to build.": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Get Foreman": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "A website build playbook": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "for your coding agent.": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "By Turki Alshuaibi ↗": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Product": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Resources": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "GitHub ↗": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Read the playbook ↗": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Report an issue ↗": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "© 2026 Foreman": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Free and open source · v3.0.1": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Main": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Switch to the night sheet": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Menu": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Works with Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot": [
+    "index.html"
+  ],
+  "Initial portfolio draft.": [
+    "index.html"
+  ],
+  "Reference-guided robotics portfolio with a graphite-shell robot and cinematic typography.": [
+    "index.html"
+  ],
+  "Compare the initial draft and reference-guided portfolio": [
+    "index.html"
+  ],
+  "The eight steps": [
+    "index.html"
+  ],
+  "Install method": [
+    "index.html"
+  ],
+  "Stamp the sheet": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.": [
+    "index.html"
+  ],
+  "Foreman with a pale architectural model of stepped buildings.": [
+    "index.html"
+  ],
+  "Page not found · Foreman": [
+    "404.html"
+  ],
+  "Off the plans.": [
+    "404.html",
+    "launch/index.html"
+  ],
+  "We couldn’t find this page.": [
+    "404.html"
+  ],
+  "The address may have changed, or there’s a typo in the link.": [
+    "404.html"
+  ],
+  "Back to Foreman": [
+    "404.html"
+  ],
+  "FOREMAN": [
+    "404.html"
+  ],
+  "Pick up from here": [
+    "404.html"
+  ],
+  "Error 404": [
+    "404.html"
+  ],
+  "A floating Foreman robot in a white hard hat, shrugging beside scattered building blocks and a rolled plan.": [
+    "404.html"
+  ],
+  "Find your way": [
+    "404.html"
+  ],
+  "This page is off the plans. Head back to Foreman or find the guide you need.": [
+    "404.html"
+  ],
+  "A hard-hat Foreman character surrounded by floating construction pieces.": [
+    "404.html"
+  ],
+  "Reference board for your website · Foreman": [
+    "board/index.html"
+  ],
+  "Find a direction worth building.": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Bring together references that fit your audience, content, and taste. Foreman identifies what to take from each one.": [
+    "board/index.html"
+  ],
+  "Example board · Robotics portfolio": [
+    "board/index.html"
+  ],
+  "Three references. Three decisions.": [
+    "board/index.html"
+  ],
+  "Visual studies of the choices carried into Dana’s portfolio.": [
+    "board/index.html"
+  ],
+  "◈ Studio": [
+    "board/index.html"
+  ],
+  "Work About": [
+    "board/index.html",
+    "punch-list/index.html"
+  ],
+  "Contact ↗": [
+    "board/index.html"
+  ],
+  "01 / Navigation": [
+    "board/index.html"
+  ],
+  "Let the image show through.": [
+    "board/index.html"
+  ],
+  "A clear surface, a fine rim, and room around each link.": [
+    "board/index.html"
+  ],
+  "View reference ↗": [
+    "board/index.html"
+  ],
+  "DANA": [
+    "board/index.html"
+  ],
+  "HADDAD": [
+    "board/index.html"
+  ],
+  "02 / Composition": [
+    "board/index.html"
+  ],
+  "Give the subject the stage.": [
+    "board/index.html"
+  ],
+  "One large image, a short introduction, and a single next step.": [
+    "board/index.html"
+  ],
+  "GRAPHITE / TEXTILE / LIGHT": [
+    "board/index.html"
+  ],
+  "03 / Material": [
+    "board/index.html"
+  ],
+  "Keep the machinery quiet.": [
+    "board/index.html"
+  ],
+  "A smooth shell and woven surfaces instead of exposed gears.": [
+    "board/index.html"
+  ],
+  "Into the brief": [
+    "board/index.html"
+  ],
+  "Clear navigation. A black stage. One sculptural subject.": [
+    "board/index.html"
+  ],
+  "See the finished portfolio ↗": [
+    "board/index.html"
+  ],
+  "What you get": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Use board on its own or during a website build.": [
+    "board/index.html"
+  ],
+  "Read the tool": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Find": [
+    "board/index.html"
+  ],
+  "Six to eight relevant sites, selected for the brief.": [
+    "board/index.html"
+  ],
+  "Compare": [
+    "board/index.html"
+  ],
+  "Specific choices in layout, type, imagery, and interaction.": [
+    "board/index.html"
+  ],
+  "Apply": [
+    "board/index.html"
+  ],
+  "A short set of design principles to carry into the build.": [
+    "board/index.html"
+  ],
+  "Explore the other tools": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Find what needs fixing.": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Choose colour with a reason.": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Get the site online.": [
+    "board/index.html",
+    "launch/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Graphite robot framed against black": [
+    "board/index.html"
+  ],
+  "Detail of the robot’s graphite shell and woven collar": [
+    "board/index.html"
+  ],
+  "Foreman's board finds real sites for your brief, as a list or a visual board with screenshots, and turns the ones you keep into principles you can build from.": [
+    "board/index.html"
+  ],
+  "A reference collage of architecture, typography and material swatches.": [
+    "board/index.html"
+  ],
+  "Foreman changelog · every release since 1.0": [
+    "changelog/index.html"
+  ],
+  "/ Changelog": [
+    "changelog/index.html"
+  ],
+  "Changelog.": [
+    "changelog/index.html"
+  ],
+  "Every release, and the build or the feedback that caused it. The current version is 3.0.1, from 27 October 2026.": [
+    "changelog/index.html"
+  ],
+  "Website and documentation, 30 October 2026": [
+    "changelog/index.html"
+  ],
+  "3.0.1, 27 October 2026": [
+    "changelog/index.html"
+  ],
+  "3.0.0, 27 October 2026": [
+    "changelog/index.html"
+  ],
+  "2.2.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "2.1.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "2.0.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.9.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.8.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.7.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.6.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.5.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.4.0, 25 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.3.0, 11 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.2.0, 10 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.1.0, 10 August 2026": [
+    "changelog/index.html"
+  ],
+  "1.0.0, 6 August 2026": [
+    "changelog/index.html"
+  ],
+  "Every Foreman release since 1.0.0 in August 2026: what changed in the playbook, and the failed build or the feedback that caused it.": [
+    "changelog/index.html"
+  ],
+  "Three release cards connected along a vertical revision timeline.": [
+    "changelog/index.html"
+  ],
+  "Install Foreman in Claude Code, Cursor, Codex and more": [
+    "install/index.html"
+  ],
+  "/ Install": [
+    "install/index.html"
+  ],
+  "Install Foreman.": [
+    "install/index.html"
+  ],
+  "One folder of markdown. Nothing compiles and nothing runs, so it installs anywhere an agent reads files.": [
+    "install/index.html"
+  ],
+  "Your agent + Foreman": [
+    "install/index.html"
+  ],
+  "Both lines, in this order. This adds the playbook and its four tools as slash commands.": [
+    "install/index.html"
+  ],
+  "If your Claude Code surface does not support": [
+    "install/index.html"
+  ],
+  ", run these commands in your shell, then start a new session.": [
+    "install/index.html"
+  ],
+  "Update or remove": [
+    "install/index.html"
+  ],
+  "Update from your shell:": [
+    "install/index.html"
+  ],
+  "Use it with your team.": [
+    "install/index.html"
+  ],
+  "Optional, for projects where Foreman is part of the shared workflow.": [
+    "install/index.html"
+  ],
+  "From the project directory, run:": [
+    "install/index.html"
+  ],
+  "This records Foreman in": [
+    "install/index.html"
+  ],
+  "Keep existing settings and other plugin entries. Review the diff, then commit this file so collaborators receive the configuration. Each collaborator still runs the two commands once on their machine. Committing settings does not download the plugin for them.": [
+    "install/index.html"
+  ],
+  "For personal use, keep the default user-scope installation. Sharing is optional and works in private repositories too. Keep credentials and personal overrides out of the shared file.": [
+    "install/index.html"
+  ],
+  "Installation scopes": [
+    "install/index.html"
+  ],
+  "Shared settings": [
+    "install/index.html"
+  ],
+  "Claude apps": [
+    "install/index.html"
+  ],
+  "Download": [
+    "install/index.html"
+  ],
+  "foreman.skill": [
+    "install/index.html"
+  ],
+  "and upload it in the skills settings. The modes and the four tools are inside it. Ask for a tool in plain words, such as \"run the punch list on my site\".": [
+    "install/index.html"
+  ],
+  "Every other agent": [
+    "install/index.html"
+  ],
+  "Cursor, Windsurf, Codex, Copilot, Gemini CLI, Cline, or anything that reads skills or rules. Copy one folder.": [
+    "install/index.html"
+  ],
+  "Tool": [
+    "install/index.html"
+  ],
+  "Where the folder goes": [
+    "install/index.html"
+  ],
+  "Universal skills directory": [
+    "install/index.html"
+  ],
+  ", or": [
+    "install/index.html"
+  ],
+  "in the project": [
+    "install/index.html"
+  ],
+  ", or reference it from": [
+    "install/index.html"
+  ],
+  ", or point it at": [
+    "install/index.html"
+  ],
+  "Windsurf": [
+    "install/index.html"
+  ],
+  ", or the workspace rules directory": [
+    "install/index.html"
+  ],
+  ", or the extensions directory": [
+    "install/index.html"
+  ],
+  "Cline, Continue, Roo": [
+    "install/index.html"
+  ],
+  "The custom instructions or rules field": [
+    "install/index.html"
+  ],
+  "Paths move as tools change. The rule that always works: put": [
+    "install/index.html"
+  ],
+  "where your tool reads standing instructions, and keep": [
+    "install/index.html"
+  ],
+  "and": [
+    "install/index.html"
+  ],
+  "next to it.": [
+    "install/index.html"
+  ],
+  "AGENTS.md": [
+    "install/index.html"
+  ],
+  "has the latest table.": [
+    "install/index.html"
+  ],
+  "A chat with no skills support": [
+    "install/index.html"
+  ],
+  "Paste": [
+    "install/index.html"
+  ],
+  "SKILL.md": [
+    "install/index.html"
+  ],
+  "into the conversation and say \"run this on me\". The steps, the modes and the gates all work from that one file. The references only deepen them.": [
+    "install/index.html"
+  ],
+  "Check it loaded": [
+    "install/index.html"
+  ],
+  "Say": [
+    "install/index.html"
+  ],
+  "help me build my portfolio": [
+    "install/index.html"
+  ],
+  ". The first reply is this card, then nothing. If it starts writing HTML, it did not load.": [
+    "install/index.html"
+  ],
+  "Questions": [
+    "install/index.html"
+  ],
+  "Does it run anything on my machine?": [
+    "install/index.html"
+  ],
+  "No. Foreman is markdown and fill-in templates. It ships no scripts, no hooks, no MCP servers and no network calls, and its CI fails if any appear. Your agent uses its own tools, with your permission, as it always does.": [
+    "install/index.html"
+  ],
+  "Does it need the internet?": [
+    "install/index.html"
+  ],
+  "No. Survey mode and the board get better when your agent can browse, and say so in one line when it cannot.": [
+    "install/index.html"
+  ],
+  "Which models does it work with?": [
+    "install/index.html"
+  ],
+  "Any capable model your agent runs. The recorded runs on this site used Claude Sonnet.": [
+    "install/index.html"
+  ],
+  "What does it cost?": [
+    "install/index.html"
+  ],
+  "Nothing. MIT licensed.": [
+    "install/index.html"
+  ],
+  "Install Foreman in Claude Code with two commands, or copy one folder of markdown into Cursor, Windsurf, Codex, Copilot, Gemini CLI or the Claude apps.": [
+    "install/index.html"
+  ],
+  "A silver folder containing SKILL.md beside a terminal ready to run Foreman.": [
+    "install/index.html"
+  ],
+  "Launch a website: domain, DNS, SSL, indexing · Foreman": [
+    "launch/index.html"
+  ],
+  "Check hosting, domain settings, HTTPS, sharing previews, and search setup. Keep existing email records intact.": [
+    "launch/index.html"
+  ],
+  "Example handover": [
+    "launch/index.html"
+  ],
+  "More than a working homepage.": [
+    "launch/index.html"
+  ],
+  "The route to your site, the preview people share, and the pages around it.": [
+    "launch/index.html"
+  ],
+  "Domain": [
+    "launch/index.html"
+  ],
+  "example.com": [
+    "launch/index.html"
+  ],
+  "Hosting": [
+    "launch/index.html"
+  ],
+  "Published build": [
+    "launch/index.html"
+  ],
+  "HTTPS": [
+    "launch/index.html"
+  ],
+  "Secure connection": [
+    "launch/index.html"
+  ],
+  "When someone shares a link": [
+    "launch/index.html"
+  ],
+  "foreman.turkialshuaibi.com": [
+    "launch/index.html"
+  ],
+  "Every good build starts as a drawing.": [
+    "launch/index.html"
+  ],
+  "A build playbook for coding agents.": [
+    "launch/index.html"
+  ],
+  "When an address is wrong": [
+    "launch/index.html"
+  ],
+  "Open the error page ↗": [
+    "launch/index.html"
+  ],
+  "What a crawler can find": [
+    "launch/index.html"
+  ],
+  "├ /modes/": [
+    "launch/index.html"
+  ],
+  "├ /board/": [
+    "launch/index.html"
+  ],
+  "├ /palette/": [
+    "launch/index.html"
+  ],
+  "└ /install/": [
+    "launch/index.html"
+  ],
+  "Open the sitemap ↗": [
+    "launch/index.html"
+  ],
+  "Use launch on its own or during a website build.": [
+    "launch/index.html"
+  ],
+  "Connect": [
+    "launch/index.html"
+  ],
+  "Confirm the hosting target and DNS records before changing anything.": [
+    "launch/index.html"
+  ],
+  "Check": [
+    "launch/index.html"
+  ],
+  "HTTPS, redirects, the error page, links, and share previews.": [
+    "launch/index.html"
+  ],
+  "Sitemap, robots.txt, page metadata, and search console submission.": [
+    "launch/index.html"
+  ],
+  "Domain routes to hosting, then serves the site over HTTPS": [
+    "launch/index.html"
+  ],
+  "Foreman homepage share card with its hard-hat mark and architectural scene": [
+    "launch/index.html"
+  ],
+  "Foreman's launch tool takes a site built anywhere to live and found: domain, DNS, SSL, the share card, a real 404, the sitemap and Search Console, one step at a time.": [
+    "launch/index.html"
+  ],
+  "A silver rocket crossing an orbital path beside a live status marker.": [
+    "launch/index.html"
+  ],
+  "Survey, Blueprint, Stress test · Foreman's three modes": [
+    "modes/index.html"
+  ],
+  "/ Modes": [
+    "modes/index.html"
+  ],
+  "Three modes, one set of decisions.": [
+    "modes/index.html"
+  ],
+  "A mode changes how many questions Foreman asks and who does the legwork. It never changes which decisions get made. Say the word at any point to switch.": [
+    "modes/index.html"
+  ],
+  "foreman survey 2/8 decisions (Linkwell, a test README)": [
+    "modes/index.html"
+  ],
+  "Mode": [
+    "modes/index.html"
+  ],
+  "For": [
+    "modes/index.html"
+  ],
+  "Before any code exists": [
+    "modes/index.html"
+  ],
+  "You want it moving, or you already have most of the material": [
+    "modes/index.html"
+  ],
+  "About four exchanges: two sheets, the variants, the brief. It researches, you correct": [
+    "modes/index.html"
+  ],
+  "The default, and most builds": [
+    "modes/index.html"
+  ],
+  "The full interview, one question at a time": [
+    "modes/index.html"
+  ],
+  "A launch where a weak decision costs real money or a real chance: a product, a job search, a fundraise": [
+    "modes/index.html"
+  ],
+  "The full interview, with every answer pushed once": [
+    "modes/index.html"
+  ],
+  "Survey: research instead of asking.": [
+    "modes/index.html"
+  ],
+  "Fewer questions usually means an agent takes the obvious answer, and the obvious answer is the average page. Survey moves the work instead of skipping it.": [
+    "modes/index.html"
+  ],
+  "It researches before it asks anything.": [
+    "modes/index.html"
+  ],
+  "Your repo, the site you have now, your CV, your product's docs, the profiles you linked. If it can browse, it looks at four or five real sites in your category and notes what they all do, because that is the default to avoid.": [
+    "modes/index.html"
+  ],
+  "One sheet instead of seven questions.": [
+    "modes/index.html"
+  ],
+  "The decisions arrive together, each with where it came from, and one question: what is wrong in it.": [
+    "modes/index.html"
+  ],
+  "An assumption with no source is a question.": [
+    "modes/index.html"
+  ],
+  "A field research could not settle stays as": [
+    "modes/index.html"
+  ],
+  ", and the most important blank is the one it asks.": [
+    "modes/index.html"
+  ],
+  "Three things stay yours.": [
+    "modes/index.html"
+  ],
+  "You pick the palette from variants it built, the copy comes from your own sentences, and you sign off the brief.": [
+    "modes/index.html"
+  ],
+  "Blueprint: the full interview.": [
+    "modes/index.html"
+  ],
+  "The default, and what Foreman always was. One step, one question, one message, and a thin answer gets a follow-up rather than a new question.": [
+    "modes/index.html"
+  ],
+  "Stress test: every answer pushed once.": [
+    "modes/index.html"
+  ],
+  "For the build where a weak decision is expensive. Everything in Blueprint, plus:": [
+    "modes/index.html"
+  ],
+  "One challenge on every answer at steps 2 and 3 before it locks, never two.": [
+    "modes/index.html"
+  ],
+  "A pre-mortem before the brief freezes: it launched, a month passed, nobody took the action. Why?": [
+    "modes/index.html"
+  ],
+  "The reference board is part of the step, not an offer.": [
+    "modes/index.html"
+  ],
+  "A full punch list and a five-second stranger test before it ships.": [
+    "modes/index.html"
+  ],
+  "Switching.": [
+    "modes/index.html"
+  ],
+  "Every session opens with a card, and the card carries a": [
+    "modes/index.html"
+  ],
+  "line. Say": [
+    "modes/index.html"
+  ],
+  "blueprint": [
+    "modes/index.html"
+  ],
+  "or": [
+    "modes/index.html"
+  ],
+  "at any point and it carries on from the step you are on. Nothing already locked is reopened.": [
+    "modes/index.html"
+  ],
+  "If your first message says you are short of time, it opens in Survey on its own. In Claude Code you can also start in a mode directly:": [
+    "modes/index.html"
+  ],
+  "Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.": [
+    "modes/index.html"
+  ],
+  "Foreman runs at three depths. Survey researches instead of asking, Blueprint is the full interview, Stress test pushes every answer once. Every decision is made in all three.": [
+    "modes/index.html"
+  ],
+  "Three branching paths lead to distinct Survey, Blueprint and Stress test panels.": [
+    "modes/index.html"
+  ],
+  "Website colour palette from a real material · Foreman": [
+    "palette/index.html"
+  ],
+  "Start with a material, place, or image. Compare three directions on your content, with contrast checked before you choose.": [
+    "palette/index.html"
+  ],
+  "Use palette on its own or during a website build.": [
+    "palette/index.html"
+  ],
+  "Start with a material": [
+    "palette/index.html"
+  ],
+  "Paper, metal, stone, a photograph, or something specific to the project.": [
+    "palette/index.html"
+  ],
+  "Compare three directions": [
+    "palette/index.html"
+  ],
+  "Different surfaces, text tones, and accents, shown on the same content.": [
+    "palette/index.html"
+  ],
+  "Lock the system": [
+    "palette/index.html"
+  ],
+  "Keep the chosen colours, contrast requirements, and usage rules in the brief.": [
+    "palette/index.html"
+  ],
+  "Black": [
+    "palette/index.html"
+  ],
+  "Graphite": [
+    "palette/index.html"
+  ],
+  "Silver": [
+    "palette/index.html"
+  ],
+  "White": [
+    "palette/index.html"
+  ],
+  "Example monochrome colour system": [
+    "palette/index.html"
+  ],
+  "Foreman's palette tool turns a material you name into three website palettes that differ on ground, accent and contrast, every pair measured, shown on your real content.": [
+    "palette/index.html"
+  ],
+  "A fan of stone, sand, chalk, lilac and graphite colour swatches.": [
+    "palette/index.html"
+  ],
+  "Punch list: why your site looks AI-generated · Foreman": [
+    "punch-list/index.html"
+  ],
+  "Audit a page for broken interactions, unfinished details, and generic design choices. Get fixes in priority order.": [
+    "punch-list/index.html"
+  ],
+  "Example review": [
+    "punch-list/index.html"
+  ],
+  "Point to the problem. Show the fix.": [
+    "punch-list/index.html"
+  ],
+  "Before review": [
+    "punch-list/index.html"
+  ],
+  "After fixes": [
+    "punch-list/index.html"
+  ],
+  "studio.example": [
+    "punch-list/index.html"
+  ],
+  "Studio North": [
+    "punch-list/index.html"
+  ],
+  "We turn ideas": [
+    "punch-list/index.html"
+  ],
+  "into possibilities.": [
+    "punch-list/index.html"
+  ],
+  "A creative studio for your next big thing.": [
+    "punch-list/index.html"
+  ],
+  "Learn more": [
+    "punch-list/index.html"
+  ],
+  "Project 01": [
+    "punch-list/index.html"
+  ],
+  "Project 02": [
+    "punch-list/index.html"
+  ],
+  "Contact": [
+    "punch-list/index.html"
+  ],
+  "Brand identities": [
+    "punch-list/index.html"
+  ],
+  "for independent shops.": [
+    "punch-list/index.html"
+  ],
+  "Strategy, packaging and storefronts. Based in Riyadh.": [
+    "punch-list/index.html"
+  ],
+  "View selected work ↗": [
+    "punch-list/index.html"
+  ],
+  "Field Notes": [
+    "punch-list/index.html"
+  ],
+  "Identity + packaging": [
+    "punch-list/index.html"
+  ],
+  "Daily Bread": [
+    "punch-list/index.html"
+  ],
+  "Signage + storefront": [
+    "punch-list/index.html"
+  ],
+  "hello@studio.example ↗": [
+    "punch-list/index.html"
+  ],
+  "Clarity": [
+    "punch-list/index.html"
+  ],
+  "Name the work.": [
+    "punch-list/index.html"
+  ],
+  "Replace a generic promise with the service and the audience.": [
+    "punch-list/index.html"
+  ],
+  "Action": [
+    "punch-list/index.html"
+  ],
+  "Give the button a destination.": [
+    "punch-list/index.html"
+  ],
+  "“View selected work” leads to the projects section.": [
+    "punch-list/index.html"
+  ],
+  "Function": [
+    "punch-list/index.html"
+  ],
+  "Make contact usable.": [
+    "punch-list/index.html"
+  ],
+  "Show an address and connect it to an email link.": [
+    "punch-list/index.html"
+  ],
+  "Use punch list on its own or during a website build.": [
+    "punch-list/index.html"
+  ],
+  "Broken": [
+    "punch-list/index.html"
+  ],
+  "Navigation, controls, overflow, contrast, and missing content.": [
+    "punch-list/index.html"
+  ],
+  "Unfinished": [
+    "punch-list/index.html"
+  ],
+  "Spacing, inconsistent styles, weak hierarchy, and rough edges.": [
+    "punch-list/index.html"
+  ],
+  "Generic": [
+    "punch-list/index.html"
+  ],
+  "Repetitive layouts, filler copy, and decorative elements without a purpose.": [
+    "punch-list/index.html"
+  ],
+  "Example comparison": [
+    "punch-list/index.html"
+  ],
+  "Point Foreman's punch list at any URL, project or screenshot. It lists every dead button, missing state, metadata gap and generated-page tell, ranked, with a fix for each.": [
+    "punch-list/index.html"
+  ],
+  "A browser mockup annotated with focus-state and image-contrast findings.": [
+    "punch-list/index.html"
+  ],
+  "Languages": [
+    "shared"
+  ],
+  "Close": [
+    "shared"
+  ],
+  "Copied": [
+    "shared"
+  ],
+  "Select text to copy": [
+    "shared"
+  ],
+  "Scroll page": [
+    "shared"
+  ],
+  "Switch to the light sheet": [
+    "shared"
+  ],
+  "Stamp again. Last stamp:": [
+    "shared"
+  ],
+  "Approved": [
+    "shared"
+  ],
+  "Checked": [
+    "shared"
+  ],
+  "Ready": [
+    "shared"
+  ],
+  "Original session in English": [
+    "shared"
+  ],
+  "Release notes in English": [
+    "shared"
+  ]
+}
