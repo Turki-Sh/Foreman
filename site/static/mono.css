@@ -1,10 +1,19 @@
 /* Achromatic surfaces. Hierarchy comes from luminance, scale and spacing. */
 :root {--paper:#fff;--sheet-2:#f6f6f6;--ink:#111;--soft:#444;--muted:#626262;--blue:#222;--tint:#eee;--hair:#e5e5e5;--rule:#ccc;--cyan:#080808;--cyan-2:#141414;--cyan-3:#000;--cyan-muted:#bbb;--line-w:#eee;--term:#080808;--term-2:#151515;--term-muted:#bbb;--sheet:#000;--sheetText:#fff;--yellow:#ddd;--on-yellow:#000;--yellow-ink:#444;--coral:#ddd;--coral-ink:#555;--green:#ccc;--green-ink:#444;--amber:#fff;}
 :root[data-theme="dark"] {--paper:#000;--sheet-2:#090909;--ink:#f5f5f5;--soft:#ccc;--muted:#aaa;--blue:#eee;--tint:#171717;--hair:#252525;--rule:#444;--cyan:#050505;--cyan-2:#111;--cyan-3:#000;--term:#030303;--term-2:#101010;--sheet:#000;--yellow-ink:#ddd;--coral-ink:#ccc;--green-ink:#ccc;}
-html {scrollbar-color:#888 #e6e6e6;scrollbar-width:auto;scrollbar-gutter:stable;}
-:root[data-theme="dark"] {scrollbar-color:#888 #1d1d1d;}
-::-webkit-scrollbar {width:14px;height:12px;}::-webkit-scrollbar-track {background:#e6e6e6;border:0;}::-webkit-scrollbar-thumb {background:#888;border:3px solid #e6e6e6;border-radius:20px;}
-:root[data-theme="dark"] ::-webkit-scrollbar-track {background:#1d1d1d;}:root[data-theme="dark"] ::-webkit-scrollbar-thumb {border-color:#1d1d1d;}
+/* Chromium ignores scrollbar pseudo-elements when scrollbar-color is explicit.
+   Keep that property auto here so the rounded thumb and hidden arrow buttons apply. */
+html {scrollbar-color:auto;scrollbar-width:auto;scrollbar-gutter:stable;--scroll-track:#f5f5f5;--scroll-thumb:#c4c4c4;}
+:root[data-theme="dark"] {--scroll-track:#151515;--scroll-thumb:#777;}
+::-webkit-scrollbar {width:12px;height:12px;}
+::-webkit-scrollbar-track {background:var(--scroll-track);border:0;}
+::-webkit-scrollbar-thumb {background:var(--scroll-thumb);border:3px solid var(--scroll-track);border-radius:999px;}
+::-webkit-scrollbar-thumb:hover {background:#999;}
+::-webkit-scrollbar-button {display:none;width:0;height:0;}
+::-webkit-scrollbar-corner {background:var(--scroll-track);}
+@supports not selector(::-webkit-scrollbar) {html {scrollbar-color:var(--scroll-thumb) var(--scroll-track);scrollbar-width:thin;}}
+.helmet-grooves {stroke:#fff;}
+:root[data-theme="dark"] .helmet-grooves,:root[data-bar-tone="dark"] .helmet-grooves {stroke:#171717;}
 ::selection {background:#bbb;color:#000;}
 .glass-defs {position:absolute;pointer-events:none;overflow:hidden;}
 /* A transparent lens, never a milky fill. Refraction sits behind the content. */
