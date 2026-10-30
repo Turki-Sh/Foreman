@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Du hast eine Idee. Dein Agent hat tausend Voreinstellungen.",
+    "Gib ihm eine Richtung, bevor er die nächste Standardseite baut.",
+    "Foreman beginnt mit der Person, für die du baust.",
+    "Finde Referenzen. Wähle, was passt. Lass den Rest weg.",
+    "Mache daraus ein Briefing, das du wirklich freigeben kannst.",
+    "Dann baust du. Die Entscheidungen sind schon getroffen.",
+    "Prüfe die Details, die aus einem Entwurf eine Website machen.",
+    "Deine Idee. Bewusst umgesetzt. Entdecke Foreman."
+  ],
+  "find-your-direction": [
+    "Du weißt, was dir gefällt. Bis jemand fragt, warum.",
+    "Hundert gespeicherte Tabs beantworten das nicht.",
+    "Gib Foreman Board das Briefing. Es sucht passende Referenzen.",
+    "Sieh genauer hin. Die Hierarchie. Die Abstände. Die Bewegung.",
+    "Übernimm die Idee hinter dem Design. Nicht die Identität anderer.",
+    "Führe diese Entscheidungen zu einer Richtung zusammen.",
+    "Jetzt hat dein Agent ein konkretes Ziel für die Umsetzung.",
+    "Weniger raten. Beginne mit Board."
+  ],
+  "fix-what-feels-wrong": [
+    "Es funktioniert. Warum wirkt es trotzdem unfertig?",
+    "Die Antwort liegt meist direkt vor dir.",
+    "Bitte Foreman Punch list, die Seite zu prüfen.",
+    "Eine Überschrift ohne Aussage. Drei Buttons kämpfen um Aufmerksamkeit.",
+    "Kaum lesbarer Text. Ein Layout, das auf dem Handy bricht.",
+    "Mache aus vagem Feedback konkrete Änderungen, nach Priorität.",
+    "Setze sie um. Prüfe die Seite erneut.",
+    "Behalte, was funktioniert. Behebe, was im Weg steht."
+  ],
+  "colour-that-works": [
+    "Eine Farbe kann schön sein. Und am Bildschirm trotzdem versagen.",
+    "Beginne mit einem Material. Tinte, Papier, poliertes Metall.",
+    "Foreman Palette macht daraus ein nutzbares Farbsystem.",
+    "Gib jeder Farbe eine Aufgabe. Fläche, Text, Aktion, Rückmeldung.",
+    "Prüfe den Kontrast dort, wo Menschen tatsächlich lesen müssen.",
+    "Bewahre denselben Charakter im hellen und dunklen Design.",
+    "Speichere die Design-Tokens. Nutze sie in der gesamten Oberfläche.",
+    "Eine Palette zum Gestalten."
+  ],
+  "before-you-share": [
+    "Die Website ist fertig. Der Launch noch nicht.",
+    "Prüfe vor dem ersten Klick, was die Menschen vorfinden.",
+    "Foreman Launch prüft Domain und sichere Verbindung mit dir.",
+    "Die Vorschau, die beim Teilen deines Links erscheint.",
+    "Den Weg zurück, wenn eine Seite fehlt.",
+    "Titel und Sitemap, die Suchmaschinen beim Verstehen helfen.",
+    "Prüfe, was fertig ist. Behalte im Blick, was dich noch braucht.",
+    "Dann teile den Link. Mit allen Details an ihrem Platz."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Önnek van egy ötlete. Az ágensnek ezer sablonos megoldása.",
+    "Adjon neki irányt, mielőtt elkészít még egyet.",
+    "A Foreman azzal az emberrel kezdi, akinek az oldal készül.",
+    "Keresse meg a referenciákat. Válassza ki, ami ideillik. A többit hagyja.",
+    "A döntésekből legyen egy projektleírás, amelyet valóban jóvá tud hagyni.",
+    "Aztán jöhet a kivitelezés. A döntések már megszülettek.",
+    "Ellenőrizze a részleteket, amelyektől a vázlat weboldallá válik.",
+    "Az Ön ötlete. Tudatosan megvalósítva. Ismerje meg a Foremant."
+  ],
+  "find-your-direction": [
+    "Tudja, mi tetszik. Amíg valaki meg nem kérdezi, miért.",
+    "Száz elmentett böngészőlap sem ad erre választ.",
+    "Adja a projektleírást a Foreman Boardnak. Releváns referenciákat keres.",
+    "Nézze meg közelebbről. A hierarchiát. A térközöket. A mozgást.",
+    "A design mögötti ötletet tartsa meg. Ne más arculatát.",
+    "Fogja össze a választásokat egyetlen iránnyá.",
+    "Az ágensnek most már konkrét célja van a kivitelezéshez.",
+    "Kevesebb találgatás. Kezdje a Boarddal."
+  ],
+  "fix-what-feels-wrong": [
+    "Működik. Akkor miért tűnik még mindig befejezetlennek?",
+    "A válasz általában ott van az orra előtt.",
+    "Kérje meg a Foreman Punch listet az oldal ellenőrzésére.",
+    "Egy semmitmondó főcím. Három gomb verseng a figyelemért.",
+    "Alig olvasható szöveg. Mobilon széteső elrendezés.",
+    "A homályos visszajelzésből legyenek konkrét változtatások, fontossági sorrendben.",
+    "Végezze el a módosításokat. Ellenőrizze újra az oldalt.",
+    "Tartsa meg, ami működik. Javítsa ki, ami akadályoz."
+  ],
+  "colour-that-works": [
+    "Egy szín lehet gyönyörű. És mégis rosszul működhet a képernyőn.",
+    "Induljon ki egy anyagból. Tinta, papír, polírozott fém.",
+    "A Foreman Palette ezt a referenciát működő színrendszerré alakítja.",
+    "Minden szín kapjon feladatot. Felület, szöveg, művelet, visszajelzés.",
+    "Ott ellenőrizze a kontrasztot, ahol valóban olvasni kell.",
+    "Őrizze meg ugyanazt a karaktert világos és sötét módban.",
+    "Mentse a designtokeneket. Használja őket a teljes felületen.",
+    "Egy paletta, amellyel építeni lehet."
+  ],
+  "before-you-share": [
+    "A weboldal kész. A közzététel még nem.",
+    "Az első kattintás előtt nézze meg, mit találnak majd az emberek.",
+    "A Foreman Launch végigveszi a domaint és a biztonságos kapcsolatot.",
+    "Az előnézetet, amely a link megosztásakor jelenik meg.",
+    "A visszautat, amikor egy oldal hiányzik.",
+    "A címeket és az oldaltérképet, amelyek segítik a keresők értelmezését.",
+    "Ellenőrizze, mi kész. Tartsa számon, mihez kell még Ön.",
+    "Aztán ossza meg. Amikor a részletek is a helyükön vannak."
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Du har en idé. Din agent har tusen standardlösningar.",
+    "Ge den en riktning innan den bygger ännu en.",
+    "Foreman börjar med personen du bygger för.",
+    "Hitta referenserna. Välj det som passar. Lämna resten.",
+    "Samla besluten i en projektbeskrivning du faktiskt kan godkänna.",
+    "Bygg sedan. Valen är redan gjorda.",
+    "Kontrollera detaljerna som gör ett utkast till en webbplats.",
+    "Din idé. Byggd med avsikt. Möt Foreman."
+  ],
+  "find-your-direction": [
+    "Du vet vad du gillar. Tills någon frågar varför.",
+    "Hundra sparade flikar ger inte svaret.",
+    "Ge Foreman Board projektbeskrivningen. Det söker relevanta referenser.",
+    "Titta närmare. Hierarkin. Avstånden. Rörelserna.",
+    "Behåll idén bakom designen. Inte någon annans identitet.",
+    "Samla valen till en riktning.",
+    "Nu har din agent något konkret att bygga mot.",
+    "Mindre gissningar. Börja med Board."
+  ],
+  "fix-what-feels-wrong": [
+    "Det fungerar. Varför känns det ändå ofärdigt?",
+    "Svaret finns oftast mitt framför dig.",
+    "Be Foreman Punch list granska sidan.",
+    "En rubrik som inte säger något. Tre knappar som tävlar om uppmärksamhet.",
+    "Text som knappt går att läsa. En layout som går sönder på mobilen.",
+    "Gör vag feedback till konkreta ändringar i prioritetsordning.",
+    "Gör ändringarna. Kontrollera sidan igen.",
+    "Behåll det som fungerar. Rätta det som står i vägen."
+  ],
+  "colour-that-works": [
+    "En färg kan vara vacker. Och ändå fungera dåligt på skärmen.",
+    "Börja med ett material. Bläck, papper, polerad metall.",
+    "Foreman Palette gör referensen till ett fungerande färgsystem.",
+    "Ge varje färg en uppgift. Yta, text, handling, återkoppling.",
+    "Kontrollera kontrasten där människor faktiskt behöver läsa.",
+    "Behåll samma karaktär från ljust till mörkt.",
+    "Spara designtokens. Använd dem i hela gränssnittet.",
+    "En palett att bygga med."
+  ],
+  "before-you-share": [
+    "Webbplatsen är klar. Lanseringen är det inte.",
+    "Kontrollera vad besökarna möter före det första klicket.",
+    "Foreman Launch går igenom domänen och den säkra anslutningen.",
+    "Förhandsvisningen som visas när någon delar din länk.",
+    "Vägen tillbaka när en sida saknas.",
+    "Titlarna och webbplatskartan som hjälper sökmotorer att förstå sidan.",
+    "Kontrollera vad som är klart. Håll reda på vad som återstår för dig.",
+    "Dela sedan. Med detaljerna på plats."
+  ]
+}

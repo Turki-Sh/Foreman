@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Bạn có một ý tưởng. Trợ lý của bạn có cả nghìn lựa chọn mặc định.",
+    "Trước khi nó lại làm thêm một bản nữa, hãy cho nó hướng đi.",
+    "Foreman bắt đầu từ người mà bạn xây dựng trang web cho họ.",
+    "Tìm mẫu tham khảo. Chọn điều phù hợp. Bỏ phần còn lại.",
+    "Biến những quyết định đó thành bản yêu cầu mà bạn thực sự có thể duyệt.",
+    "Rồi bắt tay xây dựng. Các lựa chọn đã được chốt.",
+    "Kiểm tra những chi tiết biến bản nháp thành một trang web.",
+    "Ý tưởng của bạn. Được xây dựng có chủ đích. Hãy gặp Foreman."
+  ],
+  "find-your-direction": [
+    "Bạn biết mình thích gì. Cho đến khi có người hỏi vì sao.",
+    "Một trăm tab đã lưu cũng không trả lời được.",
+    "Đưa bản yêu cầu cho Foreman Board. Nó sẽ tìm các mẫu tham khảo phù hợp.",
+    "Nhìn kỹ hơn. Phân cấp. Khoảng cách. Cách chuyển động.",
+    "Giữ ý tưởng đằng sau thiết kế, không lấy bản sắc của người khác.",
+    "Gom những lựa chọn đó thành một hướng đi.",
+    "Giờ trợ lý đã có mục tiêu cụ thể để xây dựng.",
+    "Bớt phỏng đoán. Bắt đầu với Board."
+  ],
+  "fix-what-feels-wrong": [
+    "Trang web chạy được. Vậy sao vẫn thấy chưa hoàn thiện?",
+    "Câu trả lời thường ở ngay trước mắt.",
+    "Nhờ Foreman Punch list kiểm tra trang.",
+    "Một tiêu đề không nói lên điều gì. Ba nút cùng tranh sự chú ý.",
+    "Chữ khó đọc. Bố cục bị vỡ trên điện thoại.",
+    "Biến nhận xét mơ hồ thành thay đổi cụ thể, theo thứ tự ưu tiên.",
+    "Thực hiện thay đổi. Kiểm tra lại trang.",
+    "Giữ điều đang tốt. Sửa điều gây trở ngại."
+  ],
+  "colour-that-works": [
+    "Một màu có thể đẹp mà vẫn không hiệu quả trên màn hình.",
+    "Bắt đầu từ chất liệu. Mực, giấy, kim loại đánh bóng.",
+    "Foreman Palette biến mẫu tham khảo đó thành một hệ màu dùng được.",
+    "Giao vai trò cho từng màu: bề mặt, chữ, hành động, phản hồi.",
+    "Kiểm tra độ tương phản ở nơi mọi người thực sự cần đọc.",
+    "Giữ cùng một nét riêng từ chế độ sáng sang tối.",
+    "Lưu các token thiết kế. Dùng chúng trên toàn giao diện.",
+    "Một bảng màu để thực sự xây dựng."
+  ],
+  "before-you-share": [
+    "Trang web đã xong. Việc ra mắt thì chưa.",
+    "Trước lượt nhấp đầu tiên, kiểm tra những gì mọi người sẽ thấy.",
+    "Foreman Launch hướng dẫn kiểm tra tên miền và kết nối bảo mật.",
+    "Bản xem trước hiện ra khi ai đó chia sẻ liên kết của bạn.",
+    "Đường quay lại khi không tìm thấy trang.",
+    "Tiêu đề và sơ đồ trang giúp công cụ tìm kiếm hiểu trang web.",
+    "Kiểm tra phần đã sẵn sàng. Theo dõi phần còn cần bạn xử lý.",
+    "Rồi hãy chia sẻ, khi mọi chi tiết đã đâu vào đấy."
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {
+    "slug": "before-the-code",
+    "title": "An idea worth building",
+    "duration": 36,
+    "starts": [
+      0.5,
+      4.5,
+      8.5,
+      13,
+      17.5,
+      22,
+      26.5,
+      31
+    ],
+    "cues": [
+      "You have an idea. Your agent has a thousand defaults.",
+      "Before it builds another one, give it a direction.",
+      "Foreman starts with the person you are building for.",
+      "Find the references. Choose what belongs. Leave the rest.",
+      "Turn those decisions into a brief you can actually approve.",
+      "Then build. With the choices already made.",
+      "Check the details that turn a draft into a website.",
+      "Your idea. Built with intention. Meet Foreman."
+    ]
+  },
+  {
+    "slug": "find-your-direction",
+    "title": "Find your direction",
+    "duration": 32,
+    "starts": [
+      0.4,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "cues": [
+      "You know what you like. Until someone asks you why.",
+      "A hundred saved tabs will not answer that.",
+      "Give Foreman Board the brief. It looks for relevant references.",
+      "Look closer. The hierarchy. The spacing. The way it moves.",
+      "Keep the idea behind the design. Not somebody else's identity.",
+      "Bring those choices together into one direction.",
+      "Now your agent has something specific to build toward.",
+      "Less guessing. Start with Board."
+    ]
+  },
+  {
+    "slug": "fix-what-feels-wrong",
+    "title": "Something feels wrong",
+    "duration": 32,
+    "starts": [
+      0.4,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "cues": [
+      "It works. So why does it still feel unfinished?",
+      "The answer is usually hiding in plain sight.",
+      "Ask Foreman Punch list to inspect the page.",
+      "A headline that says nothing. Three buttons competing for attention.",
+      "Text you can barely read. A layout that breaks on mobile.",
+      "Turn vague feedback into specific changes, in priority order.",
+      "Make the changes. Check the page again.",
+      "Keep what works. Fix what gets in the way."
+    ]
+  },
+  {
+    "slug": "colour-that-works",
+    "title": "Colour with a job to do",
+    "duration": 32,
+    "starts": [
+      0.4,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "cues": [
+      "A colour can look beautiful. And still fail on screen.",
+      "Start with a material. Ink, paper, polished metal.",
+      "Foreman Palette turns that reference into a working colour system.",
+      "Give every colour a job. Surface, text, action, feedback.",
+      "Check the contrast where people actually have to read.",
+      "Carry the same character from light into dark.",
+      "Save the tokens. Use them across the whole interface.",
+      "A palette you can build with."
+    ]
+  },
+  {
+    "slug": "before-you-share",
+    "title": "Before the first click",
+    "duration": 32,
+    "starts": [
+      0.4,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28
+    ],
+    "cues": [
+      "The website is finished. The launch is not.",
+      "Before the first click, check what people will find.",
+      "Foreman Launch walks through the domain and secure connection.",
+      "The preview that appears when someone shares your link.",
+      "The way back when a page goes missing.",
+      "The titles and sitemap that help search engines understand it.",
+      "Check what is ready. Keep track of what still needs you.",
+      "Then share it. With the details in place."
+    ]
+  }
+]

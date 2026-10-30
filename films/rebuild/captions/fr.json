@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Vous avez une idée. Votre agent a mille choix par défaut.",
+    "Avant qu’il ne crée une page de plus, donnez-lui une direction.",
+    "Foreman commence par la personne à qui le site s’adresse.",
+    "Trouvez les références. Gardez ce qui convient. Laissez le reste.",
+    "Faites de ces décisions un brief que vous pouvez vraiment valider.",
+    "Puis réalisez le site. Les choix sont déjà faits.",
+    "Vérifiez les détails qui font d’une ébauche un site.",
+    "Votre idée. Réalisée avec intention. Découvrez Foreman."
+  ],
+  "find-your-direction": [
+    "Vous savez ce qui vous plaît. Jusqu’à ce qu’on vous demande pourquoi.",
+    "Cent onglets enregistrés n’y répondront pas.",
+    "Donnez le brief à Foreman Board. Il cherche des références pertinentes.",
+    "Regardez de près. La hiérarchie. Les espaces. Les mouvements.",
+    "Retenez l’idée derrière le design. Pas l’identité de quelqu’un d’autre.",
+    "Rassemblez ces choix en une seule direction.",
+    "Votre agent a maintenant un objectif précis à réaliser.",
+    "Moins d’approximations. Commencez avec Board."
+  ],
+  "fix-what-feels-wrong": [
+    "Ça fonctionne. Pourquoi cette impression d’inachevé ?",
+    "La réponse est souvent sous vos yeux.",
+    "Demandez à Foreman Punch list d’examiner la page.",
+    "Un titre qui ne dit rien. Trois boutons qui se disputent l’attention.",
+    "Un texte à peine lisible. Une mise en page qui casse sur mobile.",
+    "Transformez des avis vagues en corrections précises, par priorité.",
+    "Appliquez les changements. Vérifiez à nouveau la page.",
+    "Gardez ce qui fonctionne. Corrigez ce qui gêne."
+  ],
+  "colour-that-works": [
+    "Une couleur peut être belle. Et ne pas fonctionner à l’écran.",
+    "Partez d’une matière. Encre, papier, métal poli.",
+    "Foreman Palette en fait un système de couleurs utilisable.",
+    "Donnez un rôle à chaque couleur. Surface, texte, action, retour.",
+    "Vérifiez le contraste là où les gens doivent vraiment lire.",
+    "Gardez le même caractère du thème clair au thème sombre.",
+    "Enregistrez les variables de design. Utilisez-les dans toute l’interface.",
+    "Une palette pour construire."
+  ],
+  "before-you-share": [
+    "Le site est terminé. Pas son lancement.",
+    "Avant le premier clic, vérifiez ce que les gens trouveront.",
+    "Foreman Launch passe en revue le domaine et la connexion sécurisée.",
+    "L’aperçu qui s’affiche quand quelqu’un partage votre lien.",
+    "Le chemin de retour quand une page manque.",
+    "Les titres et le plan du site qui aident les moteurs à le comprendre.",
+    "Vérifiez ce qui est prêt. Gardez la trace de ce qui vous attend encore.",
+    "Puis partagez. Tous les détails sont en place."
+  ]
+}

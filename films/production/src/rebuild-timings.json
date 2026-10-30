@@ -1,0 +1,227 @@
+[
+  {
+    "slug": "before-the-code",
+    "title": "An idea worth building",
+    "duration": 36.0,
+    "starts": [
+      0,
+      4.5,
+      9.0,
+      13.5,
+      18.0,
+      22.5,
+      27.0,
+      31.5
+    ],
+    "cues": [
+      "You have an idea. Your agent has a thousand defaults.",
+      "Before it builds another one, give it a direction.",
+      "Foreman starts with the person you are building for.",
+      "Find the references. Choose what belongs. Leave the rest.",
+      "Turn those decisions into a brief you can actually approve.",
+      "Then build. With the choices already made.",
+      "Check the details that turn a draft into a website.",
+      "Your idea. Built with intention. Meet Foreman."
+    ],
+    "durations": [
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.5,
+      4.5
+    ],
+    "speechDurations": [
+      3.392,
+      2.7093333333333334,
+      2.8373333333333335,
+      3.3066666666666666,
+      3.6266666666666665,
+      2.453333333333333,
+      2.88,
+      2.7306666666666666
+    ]
+  },
+  {
+    "slug": "find-your-direction",
+    "title": "Find your direction",
+    "duration": 32.81466666666667,
+    "starts": [
+      0,
+      4.0,
+      8.0,
+      12.204666666666666,
+      16.204666666666668,
+      20.814666666666668,
+      24.814666666666668,
+      28.814666666666668
+    ],
+    "cues": [
+      "You know what you like. Until someone asks you why.",
+      "A hundred saved tabs will not answer that.",
+      "Give Foreman Board the brief. It looks for relevant references.",
+      "Look closer. The hierarchy. The spacing. The way it moves.",
+      "Keep the idea behind the design. Not somebody else's identity.",
+      "Bring those choices together into one direction.",
+      "Now your agent has something specific to build toward.",
+      "Less guessing. Start with Board."
+    ],
+    "durations": [
+      4.0,
+      4.0,
+      4.204666666666666,
+      4.0,
+      4.61,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "speechDurations": [
+      3.132,
+      2.56,
+      3.7546666666666666,
+      3.29,
+      4.16,
+      2.944,
+      3.2426666666666666,
+      2.021333333333333
+    ]
+  },
+  {
+    "slug": "fix-what-feels-wrong",
+    "title": "Something feels wrong",
+    "duration": 32.836,
+    "starts": [
+      0,
+      4.0,
+      8.0,
+      12.0,
+      16.332666666666668,
+      20.332666666666668,
+      24.836000000000002,
+      28.836000000000002
+    ],
+    "cues": [
+      "It works. So why does it still feel unfinished?",
+      "The answer is usually hiding in plain sight.",
+      "Ask Foreman Punch list to inspect the page.",
+      "A headline that says nothing. Three buttons competing for attention.",
+      "Text you can barely read. A layout that breaks on mobile.",
+      "Turn vague feedback into specific changes, in priority order.",
+      "Make the changes. Check the page again.",
+      "Keep what works. Fix what gets in the way."
+    ],
+    "durations": [
+      4.0,
+      4.0,
+      4.0,
+      4.332666666666666,
+      4.0,
+      4.503333333333334,
+      4.0,
+      4.0
+    ],
+    "speechDurations": [
+      2.7306666666666666,
+      2.752,
+      2.5813333333333333,
+      3.8826666666666667,
+      3.5286666666666666,
+      4.053333333333334,
+      2.474666666666667,
+      2.624
+    ]
+  },
+  {
+    "slug": "colour-that-works",
+    "title": "Colour with a job to do",
+    "duration": 32.098,
+    "starts": [
+      0,
+      4.0,
+      8.0,
+      12.097999999999999,
+      16.098,
+      20.098,
+      24.098,
+      28.098
+    ],
+    "cues": [
+      "A colour can look beautiful. And still fail on screen.",
+      "Start with a material. Ink, paper, polished metal.",
+      "Foreman Palette turns that reference into a working colour system.",
+      "Give every colour a job. Surface, text, action, feedback.",
+      "Check the contrast where people actually have to read.",
+      "Carry the same character from light into dark.",
+      "Save the tokens. Use them across the whole interface.",
+      "A palette you can build with."
+    ],
+    "durations": [
+      4.0,
+      4.0,
+      4.098,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "speechDurations": [
+      3.2,
+      3.136,
+      3.648,
+      3.53725,
+      3.1146666666666665,
+      2.752,
+      3.264,
+      1.7066666666666668
+    ]
+  },
+  {
+    "slug": "before-you-share",
+    "title": "Before the first click",
+    "duration": 32.14066666666667,
+    "starts": [
+      0,
+      4.0,
+      8.0,
+      12.0,
+      16.0,
+      20.0,
+      24.140666666666668,
+      28.140666666666668
+    ],
+    "cues": [
+      "The website is finished. The launch is not.",
+      "Before the first click, check what people will find.",
+      "Foreman Launch walks through the domain and secure connection.",
+      "The preview that appears when someone shares your link.",
+      "The way back when a page goes missing.",
+      "The titles and sitemap that help search engines understand it.",
+      "Check what is ready. Keep track of what still needs you.",
+      "Then share it. With the details in place."
+    ],
+    "durations": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.140666666666666,
+      4.0,
+      4.0
+    ],
+    "speechDurations": [
+      2.6666666666666665,
+      2.9013333333333335,
+      3.477333333333333,
+      2.8373333333333335,
+      2.1546666666666665,
+      3.6906666666666665,
+      3.050666666666667,
+      2.453333333333333
+    ]
+  }
+]

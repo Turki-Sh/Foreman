@@ -1,0 +1,52 @@
+{
+  "before-the-code": [
+    "Sizin bir fikriniz var. Ajanınızın bin varsayılan seçeneği var.",
+    "Bir yenisini daha yapmadan önce ona yön verin.",
+    "Foreman, siteyi kimin için yaptığınızdan başlar.",
+    "Referansları bulun. Uyanları seçin. Gerisini bırakın.",
+    "Bu kararları gerçekten onaylayabileceğiniz bir brife dönüştürün.",
+    "Sonra geliştirin. Seçimler zaten yapılmış olsun.",
+    "Bir taslağı siteye dönüştüren ayrıntıları kontrol edin.",
+    "Sizin fikriniz. Bilinçli seçimlerle yapılmış. Foreman ile tanışın."
+  ],
+  "find-your-direction": [
+    "Neyi sevdiğinizi bilirsiniz. Ta ki biri nedenini sorana kadar.",
+    "Kaydettiğiniz yüz sekme bunu yanıtlamaz.",
+    "Foreman Board’a brifi verin. Uygun referansları arasın.",
+    "Yakından bakın. Hiyerarşiye, boşluklara, hareket biçimine.",
+    "Tasarımın ardındaki fikri alın. Başkasının kimliğini değil.",
+    "Bu seçimleri tek bir yönde birleştirin.",
+    "Artık ajanınızın ulaşacağı somut bir hedef var.",
+    "Daha az tahmin. Board ile başlayın."
+  ],
+  "fix-what-feels-wrong": [
+    "Çalışıyor. Peki neden hâlâ eksik hissettiriyor?",
+    "Yanıt genellikle gözünüzün önündedir.",
+    "Foreman Punch list’ten sayfayı incelemesini isteyin.",
+    "Hiçbir şey anlatmayan bir başlık. Dikkat için yarışan üç düğme.",
+    "Zor okunan metin. Mobilde bozulan bir düzen.",
+    "Belirsiz yorumları, öncelik sırasıyla somut değişikliklere dönüştürün.",
+    "Değişiklikleri yapın. Sayfayı yeniden kontrol edin.",
+    "İşe yarayanı koruyun. Engeli düzeltin."
+  ],
+  "colour-that-works": [
+    "Bir renk güzel görünebilir. Ama ekranda işe yaramayabilir.",
+    "Bir malzemeyle başlayın. Mürekkep, kâğıt, cilalı metal.",
+    "Foreman Palette, bu referansı işleyen bir renk sistemine dönüştürür.",
+    "Her renge görev verin. Yüzey, metin, eylem, geri bildirim.",
+    "İnsanların gerçekten okuması gereken yerlerde kontrastı kontrol edin.",
+    "Aynı karakteri açık temadan koyu temaya taşıyın.",
+    "Tasarım tokenlarını kaydedin. Arayüzün tamamında kullanın.",
+    "Üzerine tasarım kurabileceğiniz bir palet."
+  ],
+  "before-you-share": [
+    "Site tamamlandı. Yayına çıkış henüz tamamlanmadı.",
+    "İlk tıklamadan önce insanların ne bulacağını kontrol edin.",
+    "Foreman Launch, alan adını ve güvenli bağlantıyı adım adım inceler.",
+    "Biri bağlantınızı paylaştığında görünen önizlemeyi.",
+    "Bir sayfa bulunamadığında geri dönüş yolunu.",
+    "Arama motorlarının siteyi anlamasına yardımcı başlıkları ve site haritasını.",
+    "Hazır olanları kontrol edin. Hâlâ sizi bekleyenleri takip edin.",
+    "Sonra paylaşın. Ayrıntılar yerli yerindeyken."
+  ]
+}
