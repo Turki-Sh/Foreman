@@ -30,7 +30,7 @@ jobs:
       - name: No em dashes or en dashes in shipped text
         run: |
           # .github is excluded so this step does not match its own pattern.
-          if grep -rn '—\|–' \
+          if grep -rIn '—\|–' \
               README.md CHANGELOG.md CONTRIBUTING.md AGENTS.md SECURITY.md CODE_OF_CONDUCT.md \
               plugins/ docs/ site/ scripts/ bench/ ; then
             echo "em dash or en dash above"; exit 1
@@ -70,3 +70,8 @@ jobs:
 
       - name: Page metadata, share cards, links and archive
         run: python3 scripts/audit_site.py
+
+      - name: Translation coverage, language URLs and unique localized artwork
+        run: |
+          python3 scripts/extract_languages.py --check
+          python3 scripts/audit_languages.py

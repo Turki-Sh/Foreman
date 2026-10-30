@@ -78,8 +78,9 @@ def main():
         title = re.findall(r'<title>(.*?)</title>', raw, re.S)
         check(len(title) == 1 and bool(title[0].strip()), 'missing or duplicate title')
         if title:
-            check(title[0] not in titles, 'title reused across pages'); titles.add(title[0])
-        check('lang="en"' in raw and 'viewport' in page.meta, 'missing language or viewport')
+            title_key = (re.search(r'<html[^>]+lang="([^"]+)"', raw).group(1), title[0])
+            check(title_key not in titles, 'title reused within language'); titles.add(title_key)
+        check(bool(re.search(r'<html[^>]+lang="[^"]+"', raw)) and 'viewport' in page.meta, 'missing language or viewport')
         if 'noindex' not in page.meta.get('robots', ''): indexable.add(BASE + route)
         for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', raw, re.S):
             data = json.loads(block)

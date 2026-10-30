@@ -98,6 +98,8 @@ For personal use, keep the default user-scope installation. Project sharing is o
 
 [Claude Code installation scopes](https://code.claude.com/docs/en/discover-plugins#choose-an-install-scope) · [Shared settings](https://code.claude.com/docs/en/settings#settings-files-and-who-they-affect)
 
+The [Foreman website](https://foreman.turkialshuaibi.com/) is available in 33 languages. All non-English editions are marked Beta. The playbook and original recorded examples remain in English.
+
 ## Usage
 
 Start a build in plain words:

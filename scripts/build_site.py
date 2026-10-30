@@ -11,11 +11,13 @@ playbook does not have. Edit site/, never docs/, then run:
 Standard library only.
 """
 import html
+import hashlib
 import json
 import re
 import sys
 from datetime import date
 from pathlib import Path
+from localize import localize, path_for
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
@@ -201,8 +203,9 @@ def render(template, values):
     return re.sub(r"\{\{([a-z_]+)\}\}", sub, template)
 
 
-def build():
+def build(localized=True):
     f = facts()
+    f["asset_version"] = hashlib.sha256("".join(read(SITE / "static" / name) for name in ["site.css", "opening.css", "mono.css", "site.js", "languages.css"]).encode()).hexdigest()[:12]
     partials = {p.stem: read(p) for p in (SITE / "partials").glob("*.html")}
     files = {}
     pages = []
@@ -297,7 +300,9 @@ def build():
         if asset.is_file():
             files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset) if asset.suffix in {".html", ".css", ".js", ".svg", ".txt"} else asset.read_bytes()
 
+    locales = localize(files, pages) if localized else [{"code": "en"}]
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
+    urls = [(BASE + path_for(l["code"], m["path"]), m.get("priority", "0.7")) for s,m in pages if s != "404" for l in locales]
     files["sitemap.xml"] = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
@@ -310,6 +315,7 @@ def build():
     for part in ["SKILL.md"] + [f"toolbelt/{p.name}" for p in sorted((SKILL / "toolbelt").glob("*.md"))]:
         full.append(f"\n\n---\n\n# File: plugins/foreman/skills/foreman/{part}\n\n" + read(SKILL / part))
     files["llms-full.txt"] = "".join(full)
+    files["llms.txt"] += "\n## Languages\n\n" + "\n".join(f"- [{l['name']}](https://foreman.turkialshuaibi.com/{l['code']}/): Beta" for l in locales if l["code"] != "en") + "\n"
     return files
 
 
