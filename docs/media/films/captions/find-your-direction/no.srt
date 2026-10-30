@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentalmusikk]
+
+2
+00:00:01,000 --> 00:00:04,900
+Du vet hva du liker. Kodeagenten din må vite hvorfor.
+
+3
+00:00:05,000 --> 00:00:09,900
+Ta utgangspunkt i arbeidet til Turki Alshuaibi og menneskene det skal nå.
+
+4
+00:00:10,000 --> 00:00:14,900
+Be Board finne referanser til denne prosjektbeskrivelsen.
+
+5
+00:00:15,000 --> 00:00:19,900
+Bruk komposisjonen fra én referanse og typografien fra en annen.
+
+6
+00:00:20,000 --> 00:00:24,900
+Beskriv hva du vil låne, og hva du vil la ligge.
+
+7
+00:00:25,000 --> 00:00:29,900
+Nå blir referansene til beslutninger agenten din kan bruke.
+
+8
+00:00:30,000 --> 00:00:34,900
+Velg retningen før du bygger siden.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Gratis og med åpen kildekode. Av Turki Alshuaibi.

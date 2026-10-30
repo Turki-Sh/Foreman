@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Muzyka instrumentalna]
+
+2
+00:00:01,000 --> 00:00:04,900
+Strona działa. Coś jednak nadal nie pasuje.
+
+3
+00:00:05,000 --> 00:00:09,900
+Poproś Punch list o sprawdzenie strony, także na telefonie.
+
+4
+00:00:10,000 --> 00:00:14,900
+Niejasny nagłówek ukrywa, czym naprawdę zajmuje się Turki Alshuaibi.
+
+5
+00:00:15,000 --> 00:00:19,900
+Trzy konkurujące przyciski utrudniają wybór następnego kroku.
+
+6
+00:00:20,000 --> 00:00:24,900
+Szeroki układ psuje się na wąskim ekranie.
+
+7
+00:00:25,000 --> 00:00:29,900
+Popraw nagłówek, wybierz jedną akcję i napraw układ mobilny.
+
+8
+00:00:30,000 --> 00:00:34,900
+Sprawdź zmienioną stronę. Zachowaj poprawki, które rozwiązują problem.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Punch list. Bezpłatny i open source. Autor: Turki Alshuaibi.

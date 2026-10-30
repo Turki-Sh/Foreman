@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Muzyka instrumentalna]
+
+2
+00:00:01,000 --> 00:00:04,900
+Kolor, który lubisz, to dopiero początek.
+
+3
+00:00:05,000 --> 00:00:09,900
+Poproś Palette o system oparty na tuszu i papierze.
+
+4
+00:00:10,000 --> 00:00:14,900
+Przypisz każdemu kolorowi zadanie: tło, tekst, obramowanie lub akcja.
+
+5
+00:00:15,000 --> 00:00:19,900
+Sprawdź rzeczywiste połączenie tekstu i tła.
+
+6
+00:00:20,000 --> 00:00:24,900
+Jasnoszary na białym nie przechodzi testu. Ciemny tusz zapewnia czytelność.
+
+7
+00:00:25,000 --> 00:00:29,900
+Zastosuj te same role w przyciskach, kartach i ciemnym motywie.
+
+8
+00:00:30,000 --> 00:00:34,900
+Zapisz tokeny projektu, aby kolejna strona używała tego samego systemu.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Palette. Bezpłatny i open source. Autor: Turki Alshuaibi.

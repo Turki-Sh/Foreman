@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentaalmuusika]
+
+2
+00:00:01,000 --> 00:00:04,900
+Meeldiv värv on alles algus.
+
+3
+00:00:05,000 --> 00:00:09,900
+Palu tööriistal Palette luua tindist ja paberist lähtuv süsteem.
+
+4
+00:00:10,000 --> 00:00:14,900
+Anna igale värvile ülesanne: taust, tekst, ääris, tegevus.
+
+5
+00:00:15,000 --> 00:00:19,900
+Kontrolli teksti ja tausta tegelikku kombinatsiooni.
+
+6
+00:00:20,000 --> 00:00:24,900
+Helehall valgel ei sobi. Tume tint muudab teksti loetavaks.
+
+7
+00:00:25,000 --> 00:00:29,900
+Kasuta samu rolle nuppudes, kaartidel ja tumedas teemas.
+
+8
+00:00:30,000 --> 00:00:34,900
+Salvesta disainitokenid, et järgmine leht kasutaks sama süsteemi.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Palette. Tasuta ja avatud lähtekoodiga. Autor: Turki Alshuaibi.

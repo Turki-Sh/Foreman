@@ -77,4 +77,6 @@ jobs:
           python3 scripts/audit_languages.py
 
       - name: Film pages, captions, video sitemap and delivery assets
-        run: python3 scripts/audit_films.py
+        run: |
+          python3 scripts/audit_films.py
+          python3 scripts/audit_film_series.py

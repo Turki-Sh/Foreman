@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Muzyka instrumentalna]
+
+2
+00:00:01,000 --> 00:00:04,900
+Wiesz, co Ci się podoba. Twój agent musi wiedzieć dlaczego.
+
+3
+00:00:05,000 --> 00:00:09,900
+Zacznij od pracy Turki Alshuaibi i ludzi, do których ma dotrzeć.
+
+4
+00:00:10,000 --> 00:00:14,900
+Poproś Board o znalezienie inspiracji do tego briefu.
+
+5
+00:00:15,000 --> 00:00:19,900
+Weź kompozycję z jednego przykładu, typografię z innego.
+
+6
+00:00:20,000 --> 00:00:24,900
+Określ, co wykorzystasz, a co pominiesz.
+
+7
+00:00:25,000 --> 00:00:29,900
+Teraz inspiracje stają się decyzjami, z których agent może skorzystać.
+
+8
+00:00:30,000 --> 00:00:34,900
+Wybierz kierunek, zanim zbudujesz stronę.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Bezpłatny i open source. Autor: Turki Alshuaibi.

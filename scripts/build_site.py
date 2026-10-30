@@ -19,6 +19,7 @@ from datetime import date
 from pathlib import Path
 from localize import localize, path_for
 import film_assets
+import series_assets
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
@@ -192,6 +193,10 @@ def jsonld(meta, f):
                 {"@type": "ListItem", "position": 2, "name": meta["crumb"], "item": url},
             ],
         })
+    series = next((f for f in series_assets.FILMS if meta["path"] == "/films/"+f["slug"]+"/"),None)
+    if series:
+        webpage["mainEntity"] = {"@id": BASE + meta["path"] + "#film"}
+        graph.append(series_assets.schema(series,meta))
     if meta["path"] == "/films/":
         webpage["mainEntity"] = {"@id": BASE + "/films/#film"}
         graph.append(film_assets.schema(meta))
@@ -232,6 +237,12 @@ def build(localized=True):
         if slug == "films":
             values["film_player"] = film_assets.player()
             values["film_transcript"] = film_assets.transcript()
+            values["film_related"] = series_assets.related()
+        if series_assets.get(slug):
+            series = series_assets.get(slug)
+            values["film_player"] = series_assets.player(series)
+            values["film_transcript"] = series_assets.transcript(series)
+            values["film_related"] = series_assets.related(series["slug"])
         if slug == "changelog":
             values["changelog"] = changelog_html()
         # Every partial but the layout and the head is available to a page as
@@ -244,7 +255,7 @@ def build(localized=True):
         values["body"] = render(body, values)
         values["head"] = render(partials["head"], values)
         out = render(partials["layout"], values)
-        target = "404.html" if slug == "404" else ("index.html" if slug == "index" else f"{slug}/index.html")
+        target = "404.html" if slug == "404" else ("index.html" if slug == "index" else meta["path"].strip("/")+"/index.html")
         files[target] = out
 
     # Repository-hosted badges avoid third-party image failures and stale counts.
@@ -308,6 +319,7 @@ def build(localized=True):
             files["samples/dana-reference/" + asset.relative_to(example).as_posix()] = read(asset) if asset.suffix in {".html", ".css", ".js", ".svg", ".txt"} else asset.read_bytes()
 
     files.update(film_assets.files())
+    files.update(series_assets.files())
     locales = localize(files, pages) if localized else [{"code": "en"}]
     urls = [(BASE + m["path"], m.get("priority", "0.7")) for s, m in pages if s != "404"]
     urls = [(BASE + path_for(l["code"], m["path"]), m.get("priority", "0.7")) for s,m in pages if s != "404" for l in locales]
@@ -319,7 +331,7 @@ def build(localized=True):
     )
     files["robots.txt"] = read(SITE / "robots.txt")
     film_meta = next(m for s,m in pages if s == "films")
-    files["video-sitemap.xml"] = film_assets.video_sitemap(locales, film_meta["description"])
+    files["video-sitemap.xml"] = film_assets.video_sitemap(locales, film_meta["description"]).replace("</urlset>",series_assets.sitemap_entries(locales)+"</urlset>")
     files["llms.txt"] = render(read(SITE / "llms.txt"), dict(f, pages="\n".join(
         f"- [{m['title']}]({BASE}{m['path']}): {m['description']}" for s, m in pages if s != "404")))
     full = [render(read(SITE / "llms-full-head.txt"), f)]

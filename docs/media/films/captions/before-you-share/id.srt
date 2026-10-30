@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Musik instrumental]
+
+2
+00:00:01,000 --> 00:00:04,900
+Situs Anda siap. Apakah tautannya siap dibagikan?
+
+3
+00:00:05,000 --> 00:00:09,900
+Minta Launch memeriksa alamat dan HTTPS.
+
+4
+00:00:10,000 --> 00:00:14,900
+Periksa judul, deskripsi, dan gambar yang akan dilihat orang.
+
+5
+00:00:15,000 --> 00:00:19,900
+Berikan Turki Alshuaibi pratinjau karya yang jelas.
+
+6
+00:00:20,000 --> 00:00:24,900
+Uji halaman yang tidak ada dan tautan untuk kembali.
+
+7
+00:00:25,000 --> 00:00:29,900
+Periksa peta situs dan apakah perayap dapat mengakses halaman.
+
+8
+00:00:30,000 --> 00:00:34,900
+Ajukan pengindeksan. Mesin pencari menentukan kapan halaman dimasukkan.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Launch. Gratis dan sumber terbuka. Oleh Turki Alshuaibi.

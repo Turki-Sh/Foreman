@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentinė muzika]
+
+2
+00:00:01,000 --> 00:00:04,900
+Tu žinai, kas tau patinka. Tavo programavimo agentas turi žinoti, kodėl.
+
+3
+00:00:05,000 --> 00:00:09,900
+Pradėk nuo Turki Alshuaibi darbų ir žmonių, kuriuos jie turi pasiekti.
+
+4
+00:00:10,000 --> 00:00:14,900
+Paprašyk Board rasti pavyzdžių šiai projekto užduočiai.
+
+5
+00:00:15,000 --> 00:00:19,900
+Iš vieno perimk kompoziciją. Iš kito tipografiją.
+
+6
+00:00:20,000 --> 00:00:24,900
+Įvardyk, ką perimti, o ko atsisakyti.
+
+7
+00:00:25,000 --> 00:00:29,900
+Dabar pavyzdžiai tampa sprendimais, kuriuos agentas gali pritaikyti.
+
+8
+00:00:30,000 --> 00:00:34,900
+Pasirink kryptį prieš kurdamas puslapį.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Nemokamas ir atvirojo kodo. Autorius: Turki Alshuaibi.

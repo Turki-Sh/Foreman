@@ -1,0 +1,70 @@
+[
+  {
+    "id": "FindYourDirection",
+    "slug": "find-your-direction",
+    "title": "Find your direction.",
+    "tool": "Board",
+    "description": "Turn references into specific design decisions with Foreman Board.",
+    "cues": [
+      "You know what you like. Your coding agent needs to know why.",
+      "Start with the work of Turki Alshuaibi, and the people it needs to reach.",
+      "Ask Board to find references for this brief.",
+      "Keep the composition from one. The typography from another.",
+      "Name what to borrow. Name what to leave behind.",
+      "Now the references become decisions your agent can use.",
+      "Choose the direction before building the page.",
+      "Foreman Board. Free and open source. By Turki Alshuaibi."
+    ]
+  },
+  {
+    "id": "FixWhatFeelsWrong",
+    "slug": "fix-what-feels-wrong",
+    "title": "Fix what feels wrong.",
+    "tool": "Punch list",
+    "description": "See how a Foreman punch list turns vague design feedback into specific fixes.",
+    "cues": [
+      "The page works. Something still feels wrong.",
+      "Ask Punch list to inspect the page, including its mobile view.",
+      "A vague headline hides what Turki Alshuaibi actually does.",
+      "Three competing buttons make the next step unclear.",
+      "A wide layout breaks on a narrow screen.",
+      "Fix the headline, choose one action, and repair the mobile layout.",
+      "Check the revised page. Keep the fixes that solve the problem.",
+      "Foreman Punch list. Free and open source. By Turki Alshuaibi."
+    ]
+  },
+  {
+    "id": "ColourThatWorks",
+    "slug": "colour-that-works",
+    "title": "Colour that works.",
+    "tool": "Palette",
+    "description": "Build a material-based palette, assign colour roles and check readable combinations.",
+    "cues": [
+      "A colour you like is only the start.",
+      "Ask Palette for a system built from ink and paper.",
+      "Give each colour a job: background, text, border, action.",
+      "Check the actual text and background combination.",
+      "Pale grey on white fails. Dark ink makes the text readable.",
+      "Carry the same roles into buttons, cards and the dark theme.",
+      "Save the tokens so the next page uses the same system.",
+      "Foreman Palette. Free and open source. By Turki Alshuaibi."
+    ]
+  },
+  {
+    "id": "BeforeYouShare",
+    "slug": "before-you-share",
+    "title": "Before you share.",
+    "tool": "Launch",
+    "description": "Check the domain, share preview and discovery files before sending your website link.",
+    "cues": [
+      "Your site is ready. Is the link ready to share?",
+      "Ask Launch to check the address and HTTPS.",
+      "Check the title, description and image people will see.",
+      "Give Turki Alshuaibi a clear preview of the work.",
+      "Test a missing page and the links that lead back.",
+      "Check the sitemap and whether crawlers can reach the page.",
+      "Submit for indexing. Search engines decide when to include it.",
+      "Foreman Launch. Free and open source. By Turki Alshuaibi."
+    ]
+  }
+]

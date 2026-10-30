@@ -49,7 +49,7 @@ def main():
         assert all(c['url'].startswith(BASE+('/' if code=='en' else '/'+code+'/')+'films/#t=') for c in data['hasPart'])
     for name,content in files().items():assert (DOCS/name).read_text(encoding='utf8')==content,name
     sitemap=ET.parse(DOCS/'video-sitemap.xml')
-    assert len(sitemap.getroot())==33
+    assert len(sitemap.getroot())==33*5
     assert 'video-sitemap.xml' in (DOCS/'robots.txt').read_text()
     movie=DOCS/VIDEO.lstrip('/')
     data=movie.read_bytes()

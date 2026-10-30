@@ -3,7 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypt
 const root=path.resolve(__dirname,'..');
 const {chromium}=require(require.resolve('playwright-core',{paths:[path.join(root,'bench'),__dirname]}));
 const locales=JSON.parse(fs.readFileSync(path.join(root,'site/i18n/locales.json'),'utf8'));
-const frames=fs.readdirSync(path.join(root,'site/static/media/films/stills')).filter(f=>f.endsWith('.webp')).sort().map(f=>'data:image/webp;base64,'+fs.readFileSync(path.join(root,'site/static/media/films/stills',f)).toString('base64'));
+const frames=fs.readdirSync(path.join(root,'site/static/media/films/stills')).filter(f=>f.startsWith('element-')&&f.endsWith('.webp')).sort().map(f=>'data:image/webp;base64,'+fs.readFileSync(path.join(root,'site/static/media/films/stills',f)).toString('base64'));
 const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 (async()=>{
  const browser=await chromium.launch({channel:'chrome',headless:true});

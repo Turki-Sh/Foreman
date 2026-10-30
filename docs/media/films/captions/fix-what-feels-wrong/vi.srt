@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Nhạc không lời]
+
+2
+00:00:01,000 --> 00:00:04,900
+Trang hoạt động. Nhưng vẫn có gì đó chưa ổn.
+
+3
+00:00:05,000 --> 00:00:09,900
+Nhờ Punch list kiểm tra trang, cả cách hiển thị trên điện thoại.
+
+4
+00:00:10,000 --> 00:00:14,900
+Tiêu đề mơ hồ che khuất công việc thực tế của Turki Alshuaibi.
+
+5
+00:00:15,000 --> 00:00:19,900
+Ba nút cạnh tranh khiến bước tiếp theo không rõ ràng.
+
+6
+00:00:20,000 --> 00:00:24,900
+Bố cục rộng bị vỡ trên màn hình hẹp.
+
+7
+00:00:25,000 --> 00:00:29,900
+Sửa tiêu đề, chọn một hành động và chỉnh bố cục di động.
+
+8
+00:00:30,000 --> 00:00:34,900
+Kiểm tra trang đã sửa. Giữ những thay đổi giải quyết được vấn đề.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Punch list. Miễn phí, mã nguồn mở. Tác giả: Turki Alshuaibi.

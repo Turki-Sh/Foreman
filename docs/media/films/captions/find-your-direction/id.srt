@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Musik instrumental]
+
+2
+00:00:01,000 --> 00:00:04,900
+Anda tahu apa yang disukai. Agen pemrograman perlu tahu alasannya.
+
+3
+00:00:05,000 --> 00:00:09,900
+Mulai dari karya Turki Alshuaibi dan orang-orang yang perlu dijangkaunya.
+
+4
+00:00:10,000 --> 00:00:14,900
+Minta Board mencari referensi untuk brief ini.
+
+5
+00:00:15,000 --> 00:00:19,900
+Ambil komposisi dari satu referensi, tipografi dari yang lain.
+
+6
+00:00:20,000 --> 00:00:24,900
+Tentukan apa yang akan diambil dan apa yang ditinggalkan.
+
+7
+00:00:25,000 --> 00:00:29,900
+Kini referensi menjadi keputusan yang bisa digunakan agen Anda.
+
+8
+00:00:30,000 --> 00:00:34,900
+Pilih arah sebelum membuat halaman.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Gratis dan sumber terbuka. Oleh Turki Alshuaibi.

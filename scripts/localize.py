@@ -11,7 +11,7 @@ I18N = ROOT / 'site/i18n'
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 SKIP = {'script','style','pre','code','svg'}
 SOURCE_CLASSES = {'chat','fm','session-replay','log','footer-code'}
-ROUTES = {'/','/modes/','/board/','/punch-list/','/palette/','/launch/','/install/','/changelog/','/404.html','/films/'}
+ROUTES = {'/','/modes/','/board/','/punch-list/','/palette/','/launch/','/install/','/changelog/','/404.html','/films/','/films/find-your-direction/','/films/fix-what-feels-wrong/','/films/colour-that-works/','/films/before-you-share/'}
 ATTRS = {'alt','aria-label','title'}
 
 def normalize(value):
@@ -93,7 +93,7 @@ def localize(files, pages):
     source = json.loads((I18N/'source.json').read_text(encoding='utf8'))
     for slug, meta in pages:
         route = meta['path']
-        target = '404.html' if slug=='404' else ('index.html' if slug=='index' else slug+'/index.html')
+        target = '404.html' if slug=='404' else ('index.html' if slug=='index' else meta['path'].strip('/')+'/index.html')
         original = files[target]
         for lang in locales:
             code = lang['code']
@@ -110,6 +110,7 @@ def localize(files, pages):
             for key,english in [('title',meta['title']),('description',meta['description']),('og_alt',meta.get('og_alt',meta['title']))]:
                 localized = html.escape(catalog.get(english,english),quote=True)
                 if key=='title':
+                    if slug.startswith('film-'): localized += ' · Foreman · Turki Alshuaibi'
                     out = re.sub(r'<title>.*?</title>',lambda _: '<title>'+localized+'</title>',out,flags=re.S)
                     for name in ['og:title','twitter:title']:
                         out = re.sub(r'((?:name|property)="'+name+r'" content=")[^"]*',lambda m:m[1]+localized,out)
@@ -126,13 +127,13 @@ def localize(files, pages):
                     if node.get('@type')=='WebPage':
                         node.update({'@id':canonical+'#page','url':canonical,'inLanguage':lang['tag'],'name':catalog.get(meta['title'],meta['title']),'description':catalog.get(meta['description'],meta['description'])})
                         node['primaryImageOfPage']={'@type':'ImageObject','url':image,'width':1200,'height':630}
-                        if 'mainEntity' in node and slug=='films':node['mainEntity']={'@id':canonical+'#film'}
+                        if 'mainEntity' in node and (slug=='films' or slug.startswith('film-')):node['mainEntity']={'@id':canonical+'#film'}
                         if 'breadcrumb' in node:node['breadcrumb']={'@id':canonical+'#crumbs'}
                     if node.get('@type')=='VideoObject':
                         node['@id']=canonical+'#film'
                         node['name']=catalog.get(node['name'],node['name'])
                         node['description']=catalog.get(meta['description'],meta['description'])
-                        node['transcript']=' '.join(c['text'] for c in json.loads((ROOT/'films/captions'/(code+'.json')).read_text(encoding='utf-8-sig')))
+                        node['transcript']=' '.join(catalog.get(c,c) for c in next(f for f in json.loads((ROOT/'films/series/manifest.json').read_text(encoding='utf8')) if 'film-'+f['slug']==slug)['cues']) if slug.startswith('film-') else ' '.join(c['text'] for c in json.loads((ROOT/'films/captions'/(code+'.json')).read_text(encoding='utf-8-sig')))
                         for clip in node.get('hasPart',[]):
                             clip['name']=catalog.get(clip['name'],clip['name'])
                             clip['url']=canonical+'#t='+str(clip['startOffset'])
@@ -162,6 +163,10 @@ def localize(files, pages):
             out=out.replace('<script src="/site.js', '<script type="application/json" id="locale-messages">'+json.dumps(messages,ensure_ascii=False).replace('<','\\u003c')+'</script>\n<script src="/site.js')
             if code!='en':
                 out=out.replace('<div class="log"', '<p class="source-language">'+html.escape(catalog['Release notes in English'])+'</p><div class="log"')
+            if slug.startswith('film-'):
+                folder=slug.removeprefix('film-')
+                out=out.replace(f'href="/media/films/captions/{folder}/en.srt"',f'href="/media/films/captions/{folder}/{code}.srt"')
+                if code!='en':out=out.replace(f'src="/media/films/captions/{folder}/{code}.vtt"',f'src="/media/films/captions/{folder}/{code}.vtt" default')
             if slug=='films':
                 out=out.replace('href="/media/films/captions/en.srt"',f'href="/media/films/captions/{code}.srt"')
                 if code!='en':out=out.replace(f'src="/media/films/captions/{code}.vtt"',f'src="/media/films/captions/{code}.vtt" default')

@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentaalmuusika]
+
+2
+00:00:01,000 --> 00:00:04,900
+Sinu veebileht on valmis. Kas link on jagamiseks valmis?
+
+3
+00:00:05,000 --> 00:00:09,900
+Palu tööriistal Launch kontrollida aadressi ja HTTPS-i.
+
+4
+00:00:10,000 --> 00:00:14,900
+Kontrolli pealkirja, kirjeldust ja pilti, mida inimesed näevad.
+
+5
+00:00:15,000 --> 00:00:19,900
+Anna Turki Alshuaibile tööst selge eelvaade.
+
+6
+00:00:20,000 --> 00:00:24,900
+Testi puuduvat lehte ja tagasiviivaid linke.
+
+7
+00:00:25,000 --> 00:00:29,900
+Kontrolli saidikaarti ja seda, kas otsingurobotid pääsevad lehele.
+
+8
+00:00:30,000 --> 00:00:34,900
+Esita leht indekseerimiseks. Otsingumootorid otsustavad, millal see lisada.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Launch. Tasuta ja avatud lähtekoodiga. Autor: Turki Alshuaibi.

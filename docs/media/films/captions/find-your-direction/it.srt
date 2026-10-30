@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Musica strumentale]
+
+2
+00:00:01,000 --> 00:00:04,900
+Sai cosa ti piace. Il tuo agente deve sapere perché.
+
+3
+00:00:05,000 --> 00:00:09,900
+Parti dal lavoro di Turki Alshuaibi e dalle persone che deve raggiungere.
+
+4
+00:00:10,000 --> 00:00:14,900
+Chiedi a Board di trovare riferimenti per questo brief.
+
+5
+00:00:15,000 --> 00:00:19,900
+Riprendi la composizione di uno. La tipografia di un altro.
+
+6
+00:00:20,000 --> 00:00:24,900
+Definisci cosa riprendere e cosa lasciare fuori.
+
+7
+00:00:25,000 --> 00:00:29,900
+Ora i riferimenti diventano decisioni che il tuo agente può usare.
+
+8
+00:00:30,000 --> 00:00:34,900
+Scegli la direzione prima di creare la pagina.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Gratuito e open source. Di Turki Alshuaibi.

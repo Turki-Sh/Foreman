@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentaalmuusika]
+
+2
+00:00:01,000 --> 00:00:04,900
+Sina tead, mis sulle meeldib. Sinu programmeerimisagent peab teadma, miks.
+
+3
+00:00:05,000 --> 00:00:09,900
+Alusta Turki Alshuaibi tööst ja inimestest, kelleni see peab jõudma.
+
+4
+00:00:10,000 --> 00:00:14,900
+Palu tööriistal Board leida sellele lähteülesandele eeskujusid.
+
+5
+00:00:15,000 --> 00:00:19,900
+Võta ühelt kompositsioon. Teiselt tüpograafia.
+
+6
+00:00:20,000 --> 00:00:24,900
+Ütle, mida üle võtta ja mida kõrvale jätta.
+
+7
+00:00:25,000 --> 00:00:29,900
+Nüüd saavad eeskujudest otsused, mida sinu agent oskab kasutada.
+
+8
+00:00:30,000 --> 00:00:34,900
+Vali suund enne lehe ehitamist.
+
+9
+00:00:35,000 --> 00:00:39,900
+Foreman Board. Tasuta ja avatud lähtekoodiga. Autor: Turki Alshuaibi.
