@@ -1,3 +1,4 @@
+import {revisionScene} from "./RevisionScenes";
 import React from "react";
 import {
   AbsoluteFill,
@@ -129,10 +130,10 @@ const Cursor: React.FC<{ x: number; y: number; press?: number }> = ({
     }}
   >
     <path
-      d="M7 3L41 31 27 35 20 53 7 3Z"
-      fill="white"
-      stroke="#15233a"
-      strokeWidth="3"
+      d="M8 5Q7 3 11 4L43 18Q47 20 43 23L29 29 23 46Q21 51 18 46L7 10Q6 6 8 5Z"
+      fill="#16111d"
+      stroke="#f5d9ef"
+      strokeWidth="2.4"
     />
   </svg>
 );
@@ -1700,7 +1701,7 @@ const CinemaShot: React.FC<{
         {shot === 7 ? (
           <Outro t={t} index={index} />
         ) : (
-          <Scene shot={shot} t={t} />
+          revisionScene(index,shot,t) ?? <Scene shot={shot} t={t} />
         )}
       </ShotFrame>
     </AbsoluteFill>

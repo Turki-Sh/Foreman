@@ -15,3 +15,7 @@ __pycache__/
 # Local video renderer browser cache
 .remotion/
 .cache/webpack/
+
+# Licensed device frames are fetched locally; do not redistribute raw files.
+films/production/public/cinema/rev12/ipad.png
+films/production/public/cinema/rev12/macbook.png

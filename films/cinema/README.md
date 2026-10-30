@@ -6,7 +6,7 @@ Private review compositions. This does not replace the published films or change
 
 The rejected cut used a rounded rectangle as a phone, repeated flat cards, and decorative tool/path labels. Changing speed did not address the lack of physical depth or the missing visible relationship between an action and its result.
 
-This replacement adds an existing iPhone model, lit physical scenes, moving reference planes and a paper brief, an audit example that changes on the phone, and a colour system that changes from light to dark. Screen content and terminal exchanges are composed demonstrations, not recordings of live agent runs. The English narration and translated captions are retained from the prior cut.
+This replacement adds an existing iPhone model, lit physical scenes, moving reference planes and a creative-source file, an audit example that changes on the phone, and a colour system that changes from light to dark. Screen content and terminal exchanges are composed demonstrations, not recordings of live agent runs. The English narration and translated captions are retained from the prior cut.
 
 ## Reference review
 
@@ -15,7 +15,7 @@ This replacement adds an existing iPhone model, lit physical scenes, moving refe
 - [Florence, character and blossom scene](https://x.com/flxrnc/status/2113263621463572991): actual video sampled throughout. Foreground petals, changing camera distance, and character weight create depth. The pink/green relationship stays coherent across views.
 - User-supplied Apple and Google contact sheets: used to compare shot scale, device framing, and the relationship between interface actions and output. A contact sheet does not establish exact timing or sound design.
 - [Jitter device templates](https://jitter.video/templates/devices/): inspected as an existing device-animation option. No template code or footage copied.
-- Dribbble clips were blocked by a verification screen. Their page descriptions were accessible, but the clips were not verified as watched. No Dribbble footage is included.
+- During the initial revision, Dribbble clips were blocked by a verification screen. Their page descriptions were accessible, but the clips were not verified as watched. No Dribbble footage is included.
 
 These are design observations, not claims that the replacement matches the reference studios' production quality.
 
@@ -112,3 +112,12 @@ Implementation adapted from Leonard van Hemert's MIT-licensed liquid-glass-react
 Each existing action-effects edit now has a supporting body-percussion arrangement. The source is ecfike's Clap Percussion Loop.wav, recorded from clapping, finger snaps and clothing percussion, licensed CC0: https://freesound.org/people/ecfike/sounds/202158/ . No melodic or harmonic music is added. Tempos are 122, 114, 126, 118 and 120 BPM respectively. Phrase entry, scene energy, narration ducking and deliberate breaks differ by film. These are five edits of one source recording, not five unrelated recordings. Full settings are in percussion-arrangements.json.
 
 mix-percussion-bed.py reproduces the mixes using FOREMAN_FILM_WORKSPACE, clean voice stems, revision 10 effect stems and the privately stored CC0 preview. The rendered private review is revision11.html. Existing review revisions remain available. This is not a product release or an approved publication. The assistant cannot hear playback in this environment; waveform measurements and playback checks are not a substitute for Turki's listening review.
+
+
+## Revision 12: sourced device frames and reference-led scenes
+
+The current private review adds a circular screen gallery, a creative-source file, 12 original reference studies, glass cube/pyramid/colour studies, rotating material cards, an answer.one-inspired share preview and a sculptural animated 404. Actual iPad and MacBook frame assets replace invented hardware outlines in the requested shots. Each film has its own composed thumbnail and a shorter recorded-percussion edit. The review player is adapted from Turki's Itqan player.
+
+Read [revision12-sources.md](revision12-sources.md) for observed reference mechanisms, frame licensing, reproducibility and verification. Raw device frames are deliberately not committed; fetch them using `python films/cinema/fetch-device-frames.py` before rendering. The five `Thumb-<film-slug>` Remotion compositions generate the thumbnails. Run `mix-transient-percussion.py` with `FOREMAN_FILM_WORKSPACE` set to the existing private workspace to reproduce the audio.
+
+Revision 12 remains local for review. It does not change the live site or playbook version.

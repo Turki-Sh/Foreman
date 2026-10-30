@@ -1,0 +1,42 @@
+[
+  {
+    "film": "before-the-code",
+    "LUFS": "-16.01",
+    "truePeakDBTP": "-1.51",
+    "decode": "pass",
+    "captions": 33,
+    "thumbnailSHA256": "2b74f7f9b971b36e5d762df2ebc5bdb3d320f27e3b2578785233db402071090f"
+  },
+  {
+    "film": "find-your-direction",
+    "LUFS": "-16.25",
+    "truePeakDBTP": "-1.43",
+    "decode": "pass",
+    "captions": 33,
+    "thumbnailSHA256": "307c14f9bb6f16c1cfd8052d3c07549d9a110cc120315a3eaa44bbbf3fb7a589"
+  },
+  {
+    "film": "fix-what-feels-wrong",
+    "LUFS": "-16.02",
+    "truePeakDBTP": "-1.49",
+    "decode": "pass",
+    "captions": 33,
+    "thumbnailSHA256": "711bd582d0bfe51720bf2649bd31f44588c105e2ec5822aee08cb4795cd7e699"
+  },
+  {
+    "film": "colour-that-works",
+    "LUFS": "-16.23",
+    "truePeakDBTP": "-1.47",
+    "decode": "pass",
+    "captions": 33,
+    "thumbnailSHA256": "2893516fb83aed26ec4543ac2d569148a633cfa0a90ac27cb7443318549035cd"
+  },
+  {
+    "film": "before-you-share",
+    "LUFS": "-16.15",
+    "truePeakDBTP": "-1.46",
+    "decode": "pass",
+    "captions": 33,
+    "thumbnailSHA256": "fd795af950af2eadedce787c0e9c4424b6e308eb07049f457496280babdff627"
+  }
+]

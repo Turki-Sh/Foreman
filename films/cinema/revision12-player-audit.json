@@ -1,0 +1,90 @@
+{
+  "url": "http://127.0.0.1:3236/cinema/revision12.html",
+  "players": [
+    {
+      "film": 0,
+      "playPause": true,
+      "seeking": true,
+      "keyboard": true,
+      "captions": 33,
+      "speed": true,
+      "mute": true,
+      "share": true,
+      "fullscreen": true
+    },
+    {
+      "film": 1,
+      "playPause": true,
+      "seeking": true,
+      "keyboard": true,
+      "captions": 33,
+      "speed": true,
+      "mute": true,
+      "share": true,
+      "fullscreen": true
+    },
+    {
+      "film": 2,
+      "playPause": true,
+      "seeking": true,
+      "keyboard": true,
+      "captions": 33,
+      "speed": true,
+      "mute": true,
+      "share": true,
+      "fullscreen": true
+    },
+    {
+      "film": 3,
+      "playPause": true,
+      "seeking": true,
+      "keyboard": true,
+      "captions": 33,
+      "speed": true,
+      "mute": true,
+      "share": true,
+      "fullscreen": true
+    },
+    {
+      "film": 4,
+      "playPause": true,
+      "seeking": true,
+      "keyboard": true,
+      "captions": 33,
+      "speed": true,
+      "mute": true,
+      "share": true,
+      "fullscreen": true
+    }
+  ],
+  "desktopWidth": 1440,
+  "mobileWidth": 390,
+  "mobileOverflow": {
+    "page": 390,
+    "width": 390,
+    "controls": [
+      {
+        "w": 358,
+        "c": 358
+      },
+      {
+        "w": 358,
+        "c": 358
+      },
+      {
+        "w": 358,
+        "c": 358
+      },
+      {
+        "w": 358,
+        "c": 358
+      },
+      {
+        "w": 358,
+        "c": 358
+      }
+    ]
+  },
+  "scriptErrors": [],
+  "failedResponses": []
+}

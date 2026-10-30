@@ -1,3 +1,4 @@
+import { FilmThumbnails } from "./FilmThumbnails";
 import { CinemaCompositions } from "./CinemaFilms";
 import { RebuiltCompositions } from "./RebuiltFilms";
 import { WorkCompositions } from "./WorkFilms";
@@ -10,7 +11,7 @@ export const RemotionRoot: React.FC = () => {
       <MyComposition />
       <WorkCompositions />
       <RebuiltCompositions />
-      <CinemaCompositions />
+      <CinemaCompositions /><FilmThumbnails />
       <SeriesCompositions />
     </>
   );
