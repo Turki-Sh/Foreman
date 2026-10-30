@@ -14,10 +14,10 @@ The same CV and project notes from bench/scenarios/robotics-phd.json supplied th
 - Clean Hero section for Framer built with Frameblox UI kit: https://dribbble.com/shots/25721270-Clean-Hero-section-for-Framer-built-with-Frameblox-UI-kit
 - Marie Angelika Maglinte, AM Designs Architectural Portfolio Website: https://dribbble.com/shots/26694508-AM-Designs-Architectural-Portfolio-Website
 
-The first two were supplied as screenshots by Turki. The third reference was researched from its primary designer page. The reference pack maps each source to an applied design choice. The quadruped is an original editable SVG study, not a real lab photograph. The persona and supplied research facts are synthetic scenario data.
+The first two were supplied as screenshots by Turki. The third reference was researched from its primary designer page. The reference pack maps each source to an applied design choice. The current hero is an original, owner-approved generated graphite robot. See ROBOT-ASSET.md for its provenance and REFERENCE-PACK.md for the later robotics references. The custom quadruped mark is editable SVG. The persona and supplied research facts are synthetic scenario data.
 
 ## Verification
 
-Desktop 1280x800 and mobile375x812 were rendered and visually inspected. Local checks found no horizontal overflow, broken internal anchors, page errors or axe WCAG A/AA violations. Primary actions point to the supplied email address. Source has no network dependencies. No publication, domain, indexing or production metadata verification is claimed.
+Desktop 1280x800 and mobile375x812 were rendered and visually inspected. Local checks found no horizontal overflow, broken internal anchors, page errors or axe WCAG A/AA violations. Primary actions point to the supplied email address. Source has no network dependencies. The synthetic example is noindex and has its own canonical URL and share card. Local metadata checks are separate from live publication verification.
 
 Run `python scripts/build_site.py` to reproduce docs/samples/dana-reference/. The screenshot assets are actual browser captures of this source. Agent/run details intentionally remain in this documentation, per the owner's direction.

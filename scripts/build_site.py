@@ -168,7 +168,7 @@ def jsonld(meta, f):
         "description": meta["description"],
         "isPartOf": {"@id": BASE + "/#website"},
         "about": {"@id": BASE + "/#software"},
-        "dateModified": f["updated_iso"],
+        "dateModified": "2026-10-30",
         "inLanguage": "en",
     }
     graph = [webpage]
@@ -248,6 +248,11 @@ def build():
         if asset.is_file():
             files[asset.name] = read(asset) if asset.suffix == ".svg" else asset.read_bytes()
 
+    for asset in sorted((SITE / "static" / "og").glob("*.png")):
+        files["og/" + asset.name] = asset.read_bytes()
+    if (SITE / "static" / "og" / "home.png").exists():
+        files["og.png"] = (SITE / "static" / "og" / "home.png").read_bytes()
+
     # Page-specific media remains source-owned and is copied without text decoding.
     for asset in sorted((SITE / "static" / "media").rglob("*")):
         if asset.is_file():
@@ -263,7 +268,7 @@ def build():
     files["sitemap.xml"] = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-        + "".join(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>{f['updated_iso']}</lastmod>\n    <priority>{p}</priority>\n  </url>\n" for u, p in urls)
+        + "".join(f"  <url>\n    <loc>{u}</loc>\n    <lastmod>2026-10-30</lastmod>\n    <priority>{p}</priority>\n  </url>\n" for u, p in urls)
         + "</urlset>\n"
     )
     files["llms.txt"] = render(read(SITE / "llms.txt"), dict(f, pages="\n".join(

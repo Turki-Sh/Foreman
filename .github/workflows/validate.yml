@@ -67,3 +67,6 @@ jobs:
 
       - name: docs/ is what site/ builds
         run: python3 scripts/build_site.py --check
+
+      - name: Page metadata, share cards, links and archive
+        run: python3 scripts/audit_site.py
