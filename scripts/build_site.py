@@ -237,7 +237,7 @@ def build():
         target = "404.html" if slug == "404" else ("index.html" if slug == "index" else f"{slug}/index.html")
         files[target] = out
 
-    for name in ("site.css", "site.js", "opening.css"):
+    for name in ("site.css", "site.js", "opening.css", "mono.css"):
         files[name] = read(SITE / "static" / name)
 
     # Preserve the reviewed reference-guided example as a reproducible static build.

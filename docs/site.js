@@ -10,6 +10,9 @@
   const onScroll = () => {
     if (scrollY > 8) root.setAttribute('data-scrolled', '');
     else root.removeAttribute('data-scrolled');
+    const barY = 45;
+    const darkSection = [...document.querySelectorAll('section.blue, .site-footer')].some(el => { const b = el.getBoundingClientRect(); return b.top <= barY && b.bottom > barY; });
+    root.dataset.barTone = darkSection ? 'dark' : 'light';
   };
   onScroll();
   addEventListener('scroll', onScroll, { passive: true });
@@ -24,7 +27,7 @@
       b.setAttribute('aria-pressed', String(t === 'dark'));
       b.setAttribute('aria-label', t === 'dark' ? 'Switch to the light sheet' : 'Switch to the night sheet');
     }
-    if (meta) meta.content = t === 'dark' ? '#191c1c' : '#fafbf9';
+    if (meta) meta.content = t === 'dark' ? '#000000' : '#FFFFFF';
   };
   setTheme(root.dataset.theme === 'dark' ? 'dark' : 'light');
   for (const b of document.querySelectorAll('.theme')) {
@@ -106,6 +109,29 @@
     motion.addEventListener('change', schedule);
   }
 
+  // A native range supplies touch and keyboard semantics for the visual comparison.
+  for (const range of document.querySelectorAll('.compare-range')) {
+    const update = () => {
+      range.closest('.comparison').style.setProperty('--split', range.value + '%');
+      range.setAttribute('aria-valuetext', range.value + ' percent reference-guided portfolio');
+    };
+    range.addEventListener('input', update);
+    const position = e => {
+      const box = range.getBoundingClientRect();
+      range.value = Math.round(Math.max(0, Math.min(100, (e.clientX - box.left) / box.width * 100)));
+      update();
+    };
+    range.addEventListener('pointerdown', e => {
+      if (e.button !== 0) return;
+      e.preventDefault(); range.focus({preventScroll:true});
+      range.setPointerCapture(e.pointerId); position(e);
+    });
+    range.addEventListener('pointermove', e => {
+      if (range.hasPointerCapture(e.pointerId)) position(e);
+    });
+    update();
+  }
+
   // Mode tabs: real tabs, with arrow keys.
   for (const list of document.querySelectorAll('[role="tablist"]')) {
     const tabs = [...list.querySelectorAll('[role="tab"]')];
@@ -173,27 +199,4 @@
       .catch(() => {});
   }
 
-  // The foreman in the footer signs off the sheet. Each press stamps the next
-  // mark somewhere on the blueprint, the way a drawing collects its approvals.
-  const foreman = document.querySelector('.foreman');
-  if (foreman) {
-    const marks = ['Approved', 'Checked', 'As built', 'Signed off', 'Shipped'];
-    let n = 0;
-    foreman.addEventListener('click', () => {
-      const sheet = foreman.closest('.sheetfoot');
-      const old = sheet.querySelectorAll('.inked');
-      if (old.length >= 3) old[0].remove();
-      const s = document.createElement('span');
-      s.className = 'inked';
-      s.textContent = marks[n++ % marks.length];
-      s.setAttribute('aria-hidden', 'true');
-      const w = sheet.clientWidth, h = sheet.clientHeight;
-      s.style.left = Math.round(w * (0.08 + Math.random() * 0.5)) + 'px';
-      s.style.top = Math.round(h * (0.12 + Math.random() * 0.35)) + 'px';
-      s.style.setProperty('--r', (Math.random() * 16 - 8).toFixed(1) + 'deg');
-      s.style.transform = 'rotate(var(--r))';
-      sheet.appendChild(s);
-      foreman.setAttribute('aria-label', 'Stamp the sheet again. Last stamp: ' + s.textContent);
-    });
-  }
 })();

@@ -29,6 +29,7 @@
 <meta name="twitter:image" content="https://foreman.turkialshuaibi.com/og/punch-list.png">
 <link rel="stylesheet" href="/site.css?v=3.0.1">
 <link rel="stylesheet" href="/opening.css?v=3.0.1">
+<link rel="stylesheet" href="/mono.css?v=3.0.1">
 <noscript><style>
   [role="tabpanel"][hidden] { display: block; }
   .replay-frames [hidden] { display: block; margin-top: 2rem; }
@@ -86,6 +87,7 @@
 
 </head>
 <body data-page="punch-list">
+<svg class="glass-defs" aria-hidden="true" width="0" height="0"><defs><filter id="clear-glass" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feImage href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22200%22%20height%3D%2280%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22x%22%3E%3Cstop%20stop-color%3D%22%23008080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ff8080%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22y%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23800080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2380ff80%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23x%29%22%2F%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23y%29%22%20opacity%3D%22.5%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%2270%22%20rx%3D%2232%22%20fill%3D%22%23808080%22%2F%3E%3C%2Fsvg%3E" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" result="edge"/><feDisplacementMap in="SourceGraphic" in2="edge" scale="12" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="bar">
   <div class="wrap">
@@ -118,193 +120,32 @@
 </div>
 
 <main id="main">
-<div class="band" data-tool="punch-list">
-<div class="wrap pagehead has-art" data-tool="punch-list">
-  <div>
-    <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Punch list</p>
-    <h1>Why your site looks AI-made, item by item.</h1>
-    <p class="lede">On a building site, the punch list is everything that does not meet the spec, walked room by room before handover. This one is walked against a website, including sites Foreman never built, and every item comes with its fix.</p>
-    <div class="copyrow"><pre id="cmd" tabindex="0">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
-    <ul class="asks"><li>why does my site look AI-made</li><li>audit this page before I launch it</li><li>what is wrong with this screenshot</li></ul>
-  </div>
-  <figure class="window term ">
-  <figcaption class="chrome">foreman:punch-list  foreman.turkialshuaibi.com</figcaption>
-  <pre tabindex="0">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
-Checked: raw HTML source and CSS, /, /sitemap.xml, /robots.txt,
-/llms.txt, /favicon.ico, a missing URL, and the Foreman repo for
-cross-checks.
-No browser, so 1280 and 375 were read from the CSS, not rendered.
-13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
-
-BROKEN
-1. Header nav at 375. Under 34rem, `.bar nav { display: none }`
-   hides all four links and the Dark/Light toggle (it lives
-   inside the nav). Nothing replaces them, so phone visitors
-   cannot jump to Install or reach GitHub from the header, and
-   cannot switch theme.
-   Fix: keep the nav as a wrapped second row on phones, or add a
-   menu button that opens the same links and the toggle.
-2. Header tap targets. Nav links are 11px mono text at
-   line-height 1.6 with no padding (about 18px tall), and the
-   theme toggle is about 21px. Both are under the 24px floor.</pre>
-</figure>
-
-</div>
-</div>
-
-<section>
-  <div class="wrap">
-    <div class="head">
-      <h2>What comes back.</h2>
-      <p>A real run on the author's machine, pointed at the previous version of this site on 27 October 2026. It had no browser, only the source and HTTP, and it says so.</p>
-    </div>
-    <pre class="print" tabindex="0">PUNCH LIST · foreman.turkialshuaibi.com · 27 October 2026
-Checked: raw HTML source and CSS, /, /sitemap.xml, /robots.txt, /llms.txt,
-/favicon.ico, a missing URL, and the Foreman repo for cross-checks.
-No browser, so 1280 and 375 were read from the CSS, not rendered.
-13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
-
-BROKEN
-1. Header nav at 375. Under 34rem, `.bar nav { display: none }` hides all four
-   links and the Dark/Light toggle (it lives inside the nav). Nothing replaces
-   them, so phone visitors cannot jump to Install or reach GitHub from the
-   header, and cannot switch theme.
-   Fix: keep the nav as a wrapped second row on phones, or add a menu button
-   that opens the same links and the toggle.
-2. Header tap targets. Nav links are 11px mono text at line-height 1.6 with no
-   padding (about 18px tall), and the theme toggle is about 21px. Both are
-   under the 24px floor.
-   Fix: give `.bar nav a` and `.themetoggle` a min-height of 24px (44px on
-   touch) through padding.
-
-UNFINISHED
-1. Stale numbers. The footer stamp (&quot;v2.2.0&quot;) and JSON-LD `softwareVersion`
-   say 2.2.0, but plugin.json and marketplace.json in the repo say 3.0.0. The
-   card &quot;13 References&quot; does not match the 16 files in references/, and &quot;6
-   Fillable assets&quot; does not match the 7 files in assets/.
-   Fix: if the repo is current, update all four. Render the version from one
-   source into the stamp and the JSON-LD.
-2. sitemap.xml `lastmod` is 2026-08-25, about two months old. If the page has
-   changed since, that tells crawlers to skip it.
-   Fix: set it to the real last deploy date, and regenerate on build.
-3. /favicon.ico returns 404. The head declares icon-32.png, so browsers are
-   fine, but tools that request the root path still get an error.
-   Fix: add a favicon.ico, or serve icon-32.png at that path.
-4. Invalid markup in `#phases`. After the closing `&lt;/div&gt;` of `.rows` there is
-   one `&lt;/div&gt;` too many (source lines 725 and 726). Browsers ignore it, but it
-   shows the section was edited by hand and not re-checked.
-   Fix: delete one.
-
-GENERATED (strike any you chose)
-1. Every section has the same shape: bracketed mono eyebrow label, uppercase h2,
-   then content. This repeats across all six sections ([ the first message ],
-   [ the difference ], [ the session ], [ what is in it ], [ install ]). Spacing
-   and rules do the dividing, so nothing marks which section matters most.
-2. The `#box` section is a three-up card row (&quot;13&quot;, &quot;6&quot;, &quot;9&quot;) at identical
-   size, so the three counts carry equal weight.
-3. Body and UI text use the `system-ui` stack. Only headings use a chosen face
-   (Barlow Condensed 700). Most of the page is in the default font.
-4. No failure path on the Copy buttons. `navigator.clipboard.writeText(...)` has
-   no `.catch`, so on a blocked or insecure context the button does nothing and
-   says nothing.
-   Fix: on failure, select the command text and change the label to &quot;Press
-   Ctrl+C&quot;.
-
-NOTES
-1. Type sizes between 0.625rem and 1.0625rem take about eight near-identical
-   steps (.625, .6875, .75, .8125, .875, .9375, 1, 1.0625), with no one ratio
-   behind them. The display sizes are well separated.
-2. Spacing mixes .3, .35, .55, .8, 1.1 and 3.25rem next to the 1rem steps, so
-   there is no single base unit.
-3. `&lt;meta name=&quot;color-scheme&quot; content=&quot;light&quot;&gt;` stays fixed while dark theme
-   exists, so native controls and scrollbars may not follow the theme. Muted
-   text (#767676 on white) is 4.54:1 by my hand calculation. It passes, but only
-   barely, at 11px.
-
-Could not check: 1280 and 375 renders and console errors (no browser),
-Lighthouse, whether og.png is 1200 by 630, whether the icons, font and cutout
-files load (my asset-check scripts were blocked), the external links, and whether
-the pixel-art cutout is hand-drawn or generated.</pre>
-    <p class="source">One claim in it is wrong: <code>references/</code> holds 14 files, not 16. Every other item was fixed in this rebuild, except generated item 3. The system font for body text is a choice, so it is struck, which is how the list is meant to be used.</p>
-  </div>
-</section>
-
-<section>
-  <div class="wrap split">
-    <div class="head">
-      <h2>How it works.</h2>
-      <p>It audits what it saw, never what it assumes, and it tells you what it could not check.</p>
-    </div>
-    <ol class="steps">
-      <li><p><strong>It looks at the real thing.</strong> A URL at 1280 and 375 wide, the source, every control clicked, and a URL that does not exist. A local project is run, and its built CSS read. A screenshot gets audited for what is visible, and the rest is listed as unchecked.</p></li>
-      <li><p><strong>Broken first.</strong> Dead buttons, links to <code>#</code>, a nav that vanishes on a phone, missing focus states, contrast under 4.5:1, a 404 that returns 200.</p></li>
-      <li><p><strong>Then unfinished.</strong> The head block, the share card, the favicon, the sitemap, and every number on the page that has gone stale.</p></li>
-      <li><p><strong>Then generated.</strong> Every tell from Foreman's list that it can see, including ones that might be a deliberate style. You strike the ones you chose, once, and it never raises them again.</p></li>
-      <li><p><strong>Then notes against the standards.</strong> Type scale, line length, spacing, motion timing. Notes, not defects, because a standard is a default you are allowed to leave.</p></li>
-      <li><p><strong>Then fixes, one at a time.</strong> If it can edit the project, broken first, each fix shown. If not, the list goes to whoever builds it.</p></li>
-    </ol>
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap split">
-    <div class="head">
-      <h2>No score.</h2>
-    </div>
-    <div class="prose">
-      <p>The list has counts and no grade. A number nobody measured is the same as a statistic nobody measured, and Foreman does not invent those. Three broken items you can fix today say more than "72 out of 100".</p>
-      <p>In a Foreman session the punch list is step 6: nothing ships until the broken group is empty. Run before the build, it goes into the brief as fixes instead.</p>
-      <p><a href="https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/toolbelt/punch-list.md">Read the tool's source</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap">
-    <div class="others">
-      <a href="/board/" data-tool="board"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
-      <a href="/palette/" data-tool="palette"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
-      <a href="/launch/" data-tool="launch"><span class="t">Launch</span><span class="d">Domain, DNS, SSL, the share card, indexing.</span></a>
-    </div>
-  </div>
-</section>
-
+<div class="band"><div class="wrap pagehead tool-pagehead"><p class="crumbs"><a href="/">Foreman</a><span>/</span><a href="/#toolbelt">Tools</a><span>/</span>Punch list</p><div class="tool-heading"><svg class="tool-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="4" width="15" height="17" rx="2"/><path d="M9 4V2h6v2M8 10l2 2 4-4m-6 9h8"/></svg><h1>Find what needs fixing.</h1></div><p class="lede">Audit a page for broken interactions, unfinished details, and generic design choices. Get fixes in priority order.</p><div class="copyrow"><pre id="cmd" tabindex="0">/foreman:punch-list https://your-site.com</pre><button class="copy" type="button" data-for="cmd">Copy</button></div></div></div>
+<section><div class="wrap tool-detail"><div class="head"><h2>What you get</h2><p>Use punch list on its own or during a website build.</p><a class="action-link" href="https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/toolbelt/punch-list.md">Read the tool <span aria-hidden="true">↗</span></a></div><div class="deliverables"><div class="tool-deliverable"><span>01</span><div><h3>Broken</h3><p>Navigation, controls, overflow, contrast, and missing content.</p></div></div><div class="tool-deliverable"><span>02</span><div><h3>Unfinished</h3><p>Spacing, inconsistent styles, weak hierarchy, and rough edges.</p></div></div><div class="tool-deliverable"><span>03</span><div><h3>Generic</h3><p>Repetitive layouts, filler copy, and decorative elements without a purpose.</p></div></div></div></div></section>
+<section class="tight"><div class="wrap"><div class="head"><h2>Explore the other tools</h2></div><div class="others"><a href="/board/" data-tool="board"><svg class="tool-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="10" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 17h7m-7 4h4"/></svg><span class="t">Board</span><span class="d">Find a direction worth building.</span></a><a href="/palette/" data-tool="palette"><svg class="tool-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="9" r="5"/><circle cx="16" cy="9" r="5"/><circle cx="12" cy="16" r="5"/></svg><span class="t">Palette</span><span class="d">Choose colour with a reason.</span></a><a href="/launch/" data-tool="launch"><svg class="tool-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V3m-5 5 5-5 5 5M4 14v6h16v-6"/></svg><span class="t">Launch</span><span class="d">Get the site online.</span></a></div></div></section>
 </main>
-<footer>
-  <div class="wrap">
-    <div class="sheetfoot">
-      <div class="foothead">
-        <div>
-          <span class="stamp">Blueprint no. 2 · v3.0.1 · 27 October 2026</span>
-          <p>Built by <a href="https://turkialshuaibi.com/">Turki Alshuaibi</a>, AI engineer and designer. Everything in it came from shipping, and from watching capable engineers get stuck in the same handful of places.</p>
-          <div class="links">
-            <a href="/modes/">Modes</a>
-            <a href="/install/">Install</a>
-            <a href="/changelog/">Changelog</a>
-            <a href="https://github.com/Turki-Sh/Foreman">Repository</a>
-            <a href="https://turkialshuaibi.com/">turkialshuaibi.com</a>
-            <a href="https://linkedin.com/in/turki-alshuaibi">LinkedIn</a>
-          </div>
-        </div>
-        <div>
-          <span class="stamp">Then say</span>
-          <p class="mono">help me build my portfolio</p>
-        </div>
-      </div>
-      <div class="wordrow">
-        <p class="wordmark" aria-hidden="true">Foreman</p>
-        <button class="foreman" type="button" aria-label="Stamp the sheet">
-          <img src="/foreman-cutout.png" width="768" height="762" alt="">
-        </button>
-      </div>
-      <div class="footrule">
-        <span>T. Alshuaibi</span>
-        <span>Every good build starts as a drawing</span>
-      </div>
-    </div>
-  </div>
-</footer>
+<footer class="site-footer">
+ <div class="wrap">
+  <div class="footer-invite"><div><h2>Start with<br>a better brief.</h2><p>Give your coding agent a clear plan for the site you want to build.</p><a class="glass-action" href="/install/">Get Foreman <span aria-hidden="true">↗</span></a></div>
+   <div class="footer-code" aria-hidden="true"><div class="code-tabs">BRIEF.md <span>Foreman</span></div><pre># The build
 
+reader     One person to design for
+action     One clear next step
+references Sites worth learning from
+system     Type, colour, layout
+scope      What belongs, what does not
+
+Ready to build.</pre></div>
+  </div>
+  <div class="footer-links"><div class="footer-about"><a class="brand" href="/"><img src="/marks/foreman.svg" width="28" height="28" alt="">Foreman</a><p>A website build playbook<br>for your coding agent.</p><a class="footer-author" href="https://turkialshuaibi.com/">By Turki Alshuaibi ↗</a></div>
+   <nav aria-label="Product"><h3>Product</h3><a href="/modes/">Modes</a><a href="/install/">Install</a><a href="/changelog/">Changelog</a></nav>
+   <nav aria-label="Tools"><h3>Tools</h3><a href="/board/">Board</a><a href="/punch-list/">Punch list</a><a href="/palette/">Palette</a><a href="/launch/">Launch</a></nav>
+   <nav aria-label="Resources"><h3>Resources</h3><a href="https://github.com/Turki-Sh/Foreman">GitHub ↗</a><a href="https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/SKILL.md">Read the playbook ↗</a><a href="https://github.com/Turki-Sh/Foreman/issues">Report an issue ↗</a></nav>
+  </div>
+  <div class="footer-signoff"><span>© 2026 Foreman</span><span>Free and open source · v3.0.1</span></div>
+  <div class="footer-bottom"><span class="footer-word" aria-hidden="true">Foreman</span><img class="footer-portrait" src="/foreman-cutout.png" width="768" height="762" alt="Turki Alshuaibi"></div>
+ </div>
+</footer>
 <script src="/site.js?v=3.0.1" defer></script>
 </body>
 </html>

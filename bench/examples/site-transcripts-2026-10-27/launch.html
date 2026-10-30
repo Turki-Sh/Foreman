@@ -1,0 +1,89 @@
+<!--
+title: Launch a website: domain, DNS, SSL, indexing · Foreman
+description: Foreman's launch tool takes a site built anywhere to live and found: domain, DNS, SSL, the share card, a real 404, the sitemap and Search Console, one step at a time.
+path: /launch/
+og: launch
+og_alt: Foreman's launch tool: from finished to live and found.
+crumb: Launch
+priority: 0.8
+-->
+<div class="band" data-tool="launch">
+<div class="wrap pagehead has-art stack" data-tool="launch">
+  <div>
+    <p class="crumbs"><a href="/">Foreman</a> / <a href="/#toolbelt">Toolbelt</a> / Launch</p>
+    <h1>From finished to live and found.</h1>
+    <p class="lede">The part nobody builds until reminded: the domain, the DNS records, the certificate, the head metadata, the share card, the 404, the sitemap, and getting indexed. One step per message, for a site built anywhere.</p>
+    <div class="copyrow"><pre id="cmd" tabindex="0">/foreman:launch</pre><button class="copy" type="button" data-for="cmd">Copy</button></div>
+    <ul class="asks"><li>how do I put this online</li><li>my domain will not load</li><li>the link preview shows nothing</li></ul>
+  </div>
+  {{show_launch}}
+</div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="head">
+      <h2>What comes back.</h2>
+      <p>A real run on the author's machine, against this site on 27 October 2026, before the rebuild. It read the live DNS, the email records it must not touch, the certificate, the 404, and the head block, and marked whose each open item is.</p>
+    </div>
+    <pre class="print" tabindex="0">LAUNCH · foreman.turkialshuaibi.com
+done   DNS                          CNAME foreman -&gt; turki-sh.github.io, resolves to the four GitHub Pages IPs (checked via 8.8.8.8)
+done   Email untouched              MX (5 eforward records), SPF TXT and google-site-verification TXT are all still on the apex
+done   HTTPS                         certificate valid, curl needed no override
+done   Redirect from github.io      turki-sh.github.io/Foreman/ returns 301 to the custom domain
+done   Root loads                    200
+done   404 status and page           /nope-404-test returns 404 with a custom page (own title, fonts, noindex)
+done   Head block                    title, description, canonical, lang, theme-color, 32px and 180px icons all present
+done   Share card tags               og:* and twitter:* present, og:image is absolute, 1200 by 630 declared
+done   OG image file                 og.png returns 200, image/png, 90 KB
+done   Structured data               SoftwareApplication and Person JSON-LD present
+done   robots.txt                    allows all, points to the sitemap
+done   sitemap.xml                   one URL, lastmod 2026-08-25 matches the latest commit (2026-08-25)
+done   llms.txt                      200, real content
+done   Dashes in the page            none found in the homepage HTML
+open   Version number               2.2.0 appears in the JSON-LD and the page body, matching each other. GitHub shows no release or tag for the repo, so I cannot confirm 2.2.0 is the current version (yours)
+open   Share card render            not tested in a real scraper. Paste the link into LinkedIn Post Inspector or WhatsApp once (yours)
+open   Visual checks                private window at 375px, tab order, reduced motion, 404 layout on a phone. I checked source and status, not rendering (yours)
+open   Search Console               add a URL-prefix property for https://foreman.turkialshuaibi.com/ and submit sitemap.xml (yours, needs your Google login)
+open   Bing Webmaster Tools         import from Search Console, then submit the sitemap (yours)
+open   Inbound links                link the site from the repo About field, the README, LinkedIn, and the main turkialshuaibi.com site (yours)</pre>
+    <p class="source">Since this run, the sitemap lists every page and its true date.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div class="head">
+      <h2>How it works.</h2>
+    </div>
+    <ol class="steps">
+      <li><p><strong>It reads before it asks.</strong> A <code>CNAME</code> file, <code>vercel.json</code>, <code>netlify.toml</code> or a Pages workflow tells it most of what it needs. Then one message for the rest: where it is hosted, whether a domain is bought, and whether that domain carries email.</p></li>
+      <li><p><strong>It fills what is missing before launch.</strong> Title, description, canonical, the Open Graph card with an absolute image URL, structured data, a 404 that returns a real 404, robots.txt and a sitemap with true dates.</p></li>
+      <li><p><strong>It ships one step per message.</strong> Push, connect a host, point DNS, remove the parking records, wait for the certificate. Before any DNS save, it asks for a screenshot of the record panel and reads it with you.</p></li>
+      <li><p><strong>It proves it.</strong> HTTPS in a private window, the 404 status, the share card in a real scraper.</p></li>
+      <li><p><strong>It gets the site found.</strong> Search Console and Bing Webmaster Tools, IndexNow where the host supports it, and links from everywhere your name already is.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap split">
+    <div class="head">
+      <h2>What stays yours.</h2>
+    </div>
+    <div class="prose">
+      <p>Anything that needs your login or your card. It cannot sign in to your registrar, your host or your bank, so it never offers to, and if a coding agent tells you it deployed the site, Foreman checks, because it did not.</p>
+      <p><a href="https://github.com/Turki-Sh/Foreman/blob/main/plugins/foreman/skills/foreman/toolbelt/launch.md">Read the tool's source</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="wrap">
+    <div class="others">
+      <a href="/board/" data-tool="board"><span class="t">Board</span><span class="d">Real sites chosen for your brief, ending in principles.</span></a>
+      <a href="/punch-list/" data-tool="punch-list"><span class="t">Punch list</span><span class="d">What makes a site look AI-made, with fixes.</span></a>
+      <a href="/palette/" data-tool="palette"><span class="t">Palette</span><span class="d">Three palettes from a material you name.</span></a>
+    </div>
+  </div>
+</section>

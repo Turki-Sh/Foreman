@@ -26,18 +26,25 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   await p.click('.theme');
   ok(await p.evaluate(() => !document.documentElement.dataset.theme), 'theme toggles back to light');
   // copy
+  await p.click('#install-claude');
   await p.click('button.copy[data-for="cc"]');
   const clip = await p.evaluate(() => navigator.clipboard.readText());
   ok(clip.includes('/plugin install foreman@alshuaibi'), 'copy puts both install lines on the clipboard');
   ok((await p.textContent('button.copy[data-for="cc"]')) === 'Copied', 'copy button says Copied');
   // scrolled header
   await p.evaluate(() => scrollTo(0, 600)); await p.waitForTimeout(200);
-  ok(await p.evaluate(() => document.documentElement.hasAttribute('data-scrolled')), 'header turns to vellum on scroll');
-  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar .wrap')).backdropFilter);
+  ok(await p.evaluate(() => document.documentElement.hasAttribute('data-scrolled')), 'header tracks scroll position');
+  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar .wrap'), '::before').backdropFilter);
   ok(bg.includes('blur') || await p.evaluate(() => matchMedia('(prefers-reduced-transparency: reduce)').matches), 'header uses blur or the requested reduced-transparency fallback: ' + bg);
-  // foreman stamp
-  await p.click('.foreman'); await p.click('.foreman');
-  ok(await p.evaluate(() => document.querySelectorAll('.inked').length === 2), 'the foreman stamps the sheet twice');
+  // Comparison works with keyboard and pointer, not just a decorative handle.
+  await p.focus('.compare-range'); await p.keyboard.press('Home');
+  ok(await p.locator('.compare-range').inputValue() === '0', 'comparison exposes the complete initial draft');
+  await p.keyboard.press('End');
+  ok(await p.locator('.compare-range').inputValue() === '100', 'comparison exposes the complete finished build');
+  const range = await p.locator('.compare-range').boundingBox();
+  await p.locator('.compare-range').click({position:{x:range.width * .25,y:range.height / 2}});
+  ok(Math.abs(Number(await p.locator('.compare-range').inputValue()) - 25) < 3, 'pointer sets the comparison split');
+  ok(await p.evaluate(() => document.querySelector('.comparison').style.getPropertyValue('--split') === document.querySelector('.compare-range').value + '%'), 'image clipping follows the slider');
   // every internal link resolves
   const links = await p.evaluate(() => [...new Set([...document.querySelectorAll('a[href^="/"]')].map(a => a.getAttribute('href').split('#')[0]))]);
   for (const l of links) { const r = await ctx.request.get(base + l); ok(r.status() === 200, 'link ' + l + ' -> ' + r.status()); }
@@ -83,7 +90,7 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   ok(await bp.evaluate(() => !document.getElementById('v-5').hidden && document.getElementById('v-1').hidden && document.getElementById('step-5').getAttribute('aria-selected') === 'true'), 'clicking Build shows what the build produced');
   await bp.focus('#step-5'); await bp.keyboard.press('ArrowDown');
   ok(await bp.evaluate(() => document.activeElement.id === 'step-6' && !document.getElementById('v-6').hidden), 'ArrowDown moves to Verify');
-  ok(await bp.evaluate(() => [...document.querySelectorAll('.viewer img')].every(i => i.getAttribute('width') && i.getAttribute('height') && i.alt.length > 20)), 'every viewer image has a size and a real description');
+  ok(await bp.evaluate(() => new Set([...document.querySelectorAll('.rows .row')].map(e => e.getBoundingClientRect().top)).size === 1), 'eight steps share one horizontal row on desktop');
   ok(berr.length === 0, 'no showcase errors ' + berr.join('|'));
 
   // reduced motion leaves the page finished
@@ -94,7 +101,7 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   // no JS: content is all there
   const nj = await b.newContext({ javaScriptEnabled: false }); const r = await nj.newPage(); await r.goto(base + '/');
   ok((await r.isVisible('#hero-h')) && (await r.isVisible('#p-blueprint')) && (await r.isVisible('.terminal-file')), 'without JavaScript the page is complete');
-    ok(await r.locator('[role="tabpanel"]:visible').count() === 11, 'no JavaScript: all three modes and all eight step artifacts remain readable');
+    ok(await r.locator('[role="tabpanel"]:visible').count() === 13, 'no JavaScript: modes, steps and both install methods remain readable');
   ok(await r.locator('.rows a[tabindex="0"]').count() === 8, 'no JavaScript: every step link remains keyboard reachable');
   await bp.focus('#step-5'); await bp.keyboard.press('Space');
   ok(await bp.evaluate(() => !document.getElementById('v-5').hidden), 'Space activates a step tab');

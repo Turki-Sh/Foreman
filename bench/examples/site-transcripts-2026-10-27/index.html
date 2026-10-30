@@ -1,0 +1,209 @@
+<!--
+title: Foreman by Turki Alshuaibi · Build playbook for coding agents
+description: Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.
+path: /
+og: home
+og_alt: Foreman: every good build starts as a drawing.
+priority: 1.0
+-->
+<section class="opening" aria-labelledby="hero-h">
+  <img class="opening-scene" src="/media/architecture.webp" width="1536" height="1024" alt="" fetchpriority="high">
+  <div class="opening-copy">
+    <h1 id="hero-h">Every good build<br>starts as a drawing.</h1>
+    <p>The interview, the decisions, the locked system, the brief.<br class="desktop-break"> Then the code, then the domain, then indexed.</p>
+    <div class="opening-actions">
+      <a class="opening-secondary" href="#first">How it works</a>
+      <a class="opening-primary" href="/install/">Install Foreman <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <div class="opening-product">
+    <div class="agent-marks" aria-label="Works with Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot">
+      <a href="/install/#claude-code"><img src="/marks/claudecode.svg" width="32" height="32" alt="">Claude Code</a>
+      <a href="/install/#other-agents"><img src="/marks/codex.svg" width="32" height="32" alt="">Codex</a>
+   <a href="/install/#other-agents"><img src="/marks/cursor.svg" width="32" height="32" alt="">Cursor</a>
+   <a href="/install/#other-agents"><img src="/marks/gemini.svg" width="32" height="32" alt="">Gemini CLI</a>
+   <a href="/install/#other-agents"><img src="/marks/githubcopilot.svg" width="32" height="32" alt="">GitHub Copilot</a>
+    </div>
+    {{hero_showcase}}
+  </div>
+</section>
+
+<section id="first">
+  <div class="wrap split">
+    <div class="head">
+      <h2>It answers with questions, not code.</h2>
+      <p>Ask for a site and Foreman sends its card and one question. Say <strong>survey</strong> for the fewest questions: it reads your repo, your site and your CV instead of asking. Say <strong>stress test</strong> for the most: every answer gets pushed once. Every decision gets made in all three.</p>
+      <p><a href="/modes/">How the three modes work</a></p>
+    </div>
+    <div>
+      <div class="tabs" role="tablist" aria-label="Modes">
+        <button class="tab" role="tab" id="tab-blueprint" aria-controls="p-blueprint" aria-selected="true" type="button"><span><b>Blueprint</b><span>The full interview</span></span></button>
+        <button class="tab" role="tab" id="tab-survey" aria-controls="p-survey" aria-selected="false" tabindex="-1" type="button"><span><b>Survey</b><span>Research, then one sheet</span></span></button>
+        <button class="tab" role="tab" id="tab-stress" aria-controls="p-stress" aria-selected="false" tabindex="-1" type="button"><span><b>Stress test</b><span>Every answer pushed once</span></span></button>
+      </div>
+      <div class="panel" role="tabpanel" id="p-blueprint" aria-labelledby="tab-blueprint" tabindex="0">
+        <p class="what">The default. The full interview, one question at a time.</p>
+        <div class="chat">
+<p class="you">help me build my portfolio</p>
+<p class="gap">Foreman sends its card. MODE reads Blueprint.</p>
+<p class="you">A portfolio. I have my CV and screenshots from a robotics project, nothing else yet.</p>
+<div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
+
+Logged: you have a CV and robotics screenshots. Still missing: any written copy, a domain, a logo, and a hero image or media.
+
+Who is the one reader you actually care about? Name a role, such as a hiring manager at a robotics lab or a research group lead. &quot;Everyone&quot; and &quot;recruiters&quot; in general don&#x27;t count.</div>
+<p class="you">Research group leads hiring PhD students in legged robotics.</p>
+<div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
+
+Reader: a research group lead hiring PhD students in legged robotics. That reader scans fast and has a stack of CVs, so the page has to make you the exception inside ninety seconds.
+
+After those ninety seconds, what is the one thing you want them to do? Email you, open a paper, watch a demo, download the CV. Pick one.</div>
+        </div>
+      </div>
+      <div class="panel" role="tabpanel" id="p-survey" aria-labelledby="tab-survey" tabindex="0" hidden>
+        <p class="what">The fewest questions. Research first, then one sheet with a source on every line.</p>
+        <div class="chat">
+<p class="you">I need a landing page for my app Linkwell, no time for a long process, can you just get it moving</p>
+<p class="gap">Foreman sends its card. MODE reads Survey, because the message said there is no time.</p>
+<p class="you">It&#x27;s Linkwell, a local-first notes app. Everything is in the README in this folder. I have a logo (logo.svg, not here yet), no domain.</p>
+<p class="gap">It reads the README before it asks anything, then:</p>
+<div class="fm"><b>FOREMAN · SURVEY · 2/8 · DECISIONS</b>
+
+<pre class="sheetout" tabindex="0">reader      ?                                                   from: not in the README
+action      download Linkwell                                   from: README, last line
+job         a reader downloads it and points it at their own
+            vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
+evidence    310 missed links in 2,400 notes, first week         from: README, line 7
+            also: runs offline, 40 MB, MIT                      from: README
+register    technical                                           from: README tone
+non-goals   signup, pricing, blog, analytics, testimonials,
+            carousel                                            from: free, local-first, nothing to collect
+opening     &quot;In my own vault of 2,400 notes it found 310
+            links I had missed in the first week&quot;               from: README, line 7
+            (&quot;Notes that link themselves&quot; fits any notes app)
+support     &quot;Watches a folder of Markdown notes and suggests
+            links as you type, on your laptop&quot;                  from: README, line 5
+below       the 310 story, the three bullets, download
+shape       one viewport (under four content units)             from: content count</pre>
+
+The download link in the README is github.com/example/linkwell/releases. I&#x27;ll treat that as a placeholder until you give me the real URL.
+
+Who is the one reader: Obsidian users with a big vault, people who keep notes in plain Markdown, or someone else?</div>
+        </div>
+      </div>
+      <div class="panel" role="tabpanel" id="p-stress" aria-labelledby="tab-stress" tabindex="0" hidden>
+        <p class="what">The most thorough. The same interview, and every answer is pushed once before it locks.</p>
+        <div class="chat">
+<p class="you">/foreman:foreman stress test</p>
+<p class="gap">Foreman sends its card. MODE reads Stress test.</p>
+<p class="you">A portfolio. I have my CV and screenshots from a robotics project, nothing else yet.</p>
+<div class="fm"><b>FOREMAN · STRESS TEST · 2/8 · DECISIONS</b>
+
+<b>✓ LOCKED · 1/8 ORIENT</b> · subject: portfolio · have: CV, robotics project screenshots · missing: written copy, other projects, logo, domain
+
+Who is the one reader you actually care about? Give me a named role, such as &quot;research group lead hiring a PhD student&quot; or &quot;robotics startup CTO&quot;. &quot;Recruiters&quot; and &quot;everyone&quot; don&#x27;t count.</div>
+<p class="you">Research group leads hiring PhD students in legged robotics.</p>
+<div class="fm"><b>FOREMAN · STRESS TEST · 2/8 · DECISIONS</b>
+
+That reader is specific enough to build for. One push before it locks: a group lead skims dozens of applicants a week and has seen every &quot;passionate about robotics&quot; page.
+
+What would make that lead close your page within ten seconds?</div>
+        </div>
+      </div>
+      <p class="source">Real output from Claude Sonnet with Foreman 3.0, recorded on 27 October 2026 on the author's machine, so his own agent settings were loaded too. Only the opening card is left out, and it is the same in every mode apart from its MODE line.</p>
+    </div>
+  </div>
+</section>
+
+<section id="changes" class="paper2">
+  <div class="wrap">
+    <div class="head">
+      <h2>A starting point. A considered result.</h2>
+      <p>A portfolio built from the same project notes. First as a quick draft, then with a visual direction, selected references, and a locked brief.</p>
+    </div>
+    {{pair_dana}}
+  </div>
+</section>
+
+<section id="session">
+  <div class="wrap">
+    <div class="head">
+      <h2>{{steps_word}} steps. Each has a gate it will not pass.</h2>
+      <p>Your agent runs this. You do not read it. Pick a step to see what it actually produced, from real runs.</p>
+    </div>
+    {{steps_viewer}}
+  </div>
+</section>
+
+<section id="toolbelt" class="blue">
+  <div class="wrap">
+    <div class="head">
+      <h2>Four tools that work without the interview.</h2>
+      <p>Call one on its own, or in the middle of a session without losing your place. In Claude Code each is a slash command. Anywhere else, ask in plain words.</p>
+    </div>
+    <div class="belt">
+      <a class="tool" data-tool="board" href="/board/">
+        <div class="copy-col"><h3>Board <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:board</span><p>Real sites chosen for your brief, as a list or a visual board with screenshots, ending in the principles worth taking from them.</p></div>
+
+<pre>oxide.computer: figures are numbered and treated
+as plates. Take this: label the diagrams of how
+Foreman works as numbered figures.</pre>
+      </a>
+      <a class="tool" data-tool="punch-list" href="/punch-list/">
+        <div class="copy-col"><h3>Punch list <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:punch-list https://your-site.com</span><p>Audits any site, including ones Foreman never touched, for what makes it look AI-generated or unfinished, ranked, with a fix for each.</p></div>
+
+<pre>13 items: 2 broken, 4 unfinished, 4 generated, 3 notes
+1. Header nav at 375. Nothing replaces it, so phone
+   visitors cannot reach Install or switch theme.</pre>
+      </a>
+      <a class="tool" data-tool="palette" href="/palette/">
+        <div class="copy-col"><h3>Palette <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:palette</span><p>Three palettes from a material you name, contrast checked, on your real content. You pick one.</p></div>
+
+<pre>A  Cyanotype print    #1B4A73  #F2BE3C
+B  Drafting film      #F3F4F1  #1F4F7A
+C  Graphite, redline  #1F2327  #EC6A55</pre>
+      </a>
+      <a class="tool" data-tool="launch" href="/launch/">
+        <div class="copy-col"><h3>Launch <span class="go" aria-hidden="true">&rarr;</span></h3><span class="cmd">/foreman:launch</span><p>Domain, DNS, SSL, the share card, a real 404, the sitemap and indexing, one step at a time, for a site built anywhere.</p></div>
+
+<pre>done   Email untouched   MX and SPF still on the apex
+done   404 status        /nope returns 404, own page
+open   Search Console    submit sitemap.xml (yours)</pre>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="inside" class="tight paper2">
+  <div class="wrap">
+    <div class="head">
+      <h2>Markdown and templates. Nothing executes.</h2>
+      <p>No scripts, no hooks, no MCP servers, no network calls. You can read every line before you trust it, which is the only sane way to install something that talks to your agent.</p>
+    </div>
+    <div class="box">
+      <div class="cell"><span class="n">{{references}}</span><h3>References</h3><p>Loaded only when their step arrives, including design standards: colour theory, proportion, type scale, spacing, motion timing.</p></div>
+      <div class="cell"><span class="n">{{tools}}</span><h3>Tools</h3><p>Board, punch list, palette and launch, each one file and, in Claude Code, a slash command.</p></div>
+      <div class="cell"><span class="n">{{assets}}</span><h3>Templates</h3><p>A brand harness, a reference board, a head block with Open Graph and JSON-LD, a 404, robots.txt, sitemap.xml and llms.txt.</p></div>
+      <div class="cell"><span class="n">{{failure_modes}}</span><h3>Failure modes</h3><p>The places builds actually die, watched for at every step, from skipping to the build to editing DNS blind.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="install" class="tight">
+  <div class="wrap">
+    <div class="head">
+      <h2>Install it in Claude Code.</h2>
+      <p>Two lines. For Cursor, Windsurf, Codex, Copilot, Gemini CLI, the Claude apps, or a chat with no skills support, see <a href="/install/">every install path</a>.</p>
+    </div>
+    <div class="install">
+      <div>
+{{install_claude}}
+      </div>
+      <div>
+        <h3>Then say</h3>
+        <pre class="print" tabindex="0">help me build my portfolio</pre>
+        <p class="small" style="margin-top:.6rem">It should answer with the Foreman card and one question. If it starts writing HTML, it did not load.</p>
+      </div>
+    </div>
+  </div>
+</section>

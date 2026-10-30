@@ -20,3 +20,8 @@ Playwright with installed Chrome, file-served local source. Screenshot review at
 
 ## Limits
 No public deployment or live domain was provided, so there is no invented canonical URL, hosted Open Graph URL or indexing claim. Local og:image references the editable SVG study, and production social metadata would need the real destination and a raster share image. The custom 404 is supplied as source; the hosting server must route missing pages to it with HTTP 404. The quadruped is an original illustrative study, not a photograph or evidence of Dana's actual hardware. No cost estimate, build-time claim, deployment check or Lighthouse score is asserted for this run. The main agent handles server-level validation, final screenshots and integration into Foreman's site.
+
+
+## October 30 review pass
+
+The owner requested a distinct navigation design for the example. The portfolio now uses a ruled editorial header rather than the main site’s pill. The desktop comparison capture was regenerated from the actual local page. The reference-guided build attribution remains in this documentation, not the marketing UI.
