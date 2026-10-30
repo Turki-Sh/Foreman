@@ -1,0 +1,52 @@
+[
+  {
+    "film": "before-the-code",
+    "duration": 36.011,
+    "bytes": 9623363,
+    "video": "H.264 1080p60 BT.709 limited range",
+    "audio": "aac",
+    "captions": 33,
+    "decode": "passed",
+    "attribution": "embedded"
+  },
+  {
+    "film": "before-you-share",
+    "duration": 32.15,
+    "bytes": 5372604,
+    "video": "H.264 1080p60 BT.709 limited range",
+    "audio": "aac",
+    "captions": 33,
+    "decode": "passed",
+    "attribution": "embedded"
+  },
+  {
+    "film": "colour-that-works",
+    "duration": 32.107,
+    "bytes": 7592121,
+    "video": "H.264 1080p60 BT.709 limited range",
+    "audio": "aac",
+    "captions": 33,
+    "decode": "passed",
+    "attribution": "embedded"
+  },
+  {
+    "film": "find-your-direction",
+    "duration": 32.816667,
+    "bytes": 10116860,
+    "video": "H.264 1080p60 BT.709 limited range",
+    "audio": "aac",
+    "captions": 33,
+    "decode": "passed",
+    "attribution": "embedded"
+  },
+  {
+    "film": "fix-what-feels-wrong",
+    "duration": 32.85,
+    "bytes": 6210048,
+    "video": "H.264 1080p60 BT.709 limited range",
+    "audio": "aac",
+    "captions": 33,
+    "decode": "passed",
+    "attribution": "embedded"
+  }
+]

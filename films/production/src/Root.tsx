@@ -1,3 +1,4 @@
+import { CinemaCompositions } from "./CinemaFilms";
 import { RebuiltCompositions } from "./RebuiltFilms";
 import { WorkCompositions } from "./WorkFilms";
 import { SeriesCompositions } from "./Series";
@@ -9,6 +10,7 @@ export const RemotionRoot: React.FC = () => {
       <MyComposition />
       <WorkCompositions />
       <RebuiltCompositions />
+      <CinemaCompositions />
       <SeriesCompositions />
     </>
   );
