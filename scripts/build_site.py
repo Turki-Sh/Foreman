@@ -240,6 +240,10 @@ def build():
     for name in ("site.css", "site.js", "opening.css", "mono.css"):
         files[name] = read(SITE / "static" / name)
 
+    for asset in sorted((SITE / "static" / "marks").glob("*")):
+        if asset.is_file():
+            files["marks/" + asset.name] = read(asset)
+
     # Page-specific media remains source-owned and is copied without text decoding.
     for asset in sorted((SITE / "static" / "media").rglob("*")):
         if asset.is_file():

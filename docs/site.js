@@ -113,7 +113,7 @@
   for (const range of document.querySelectorAll('.compare-range')) {
     const update = () => {
       range.closest('.comparison').style.setProperty('--split', range.value + '%');
-      range.setAttribute('aria-valuetext', range.value + ' percent reference-guided portfolio');
+      range.setAttribute('aria-valuetext', (100 - Number(range.value)) + ' percent reference-guided portfolio');
     };
     range.addEventListener('input', update);
     const position = e => {
@@ -199,4 +199,32 @@
       .catch(() => {});
   }
 
+})();
+
+// Size the optical rim to the actual capsule, rather than stretching its corners.
+(() => {
+ const bar = document.querySelector('.bar .wrap');
+ const map = document.getElementById('nav-glass-map');
+ if (!bar || !map || !window.ResizeObserver) return;
+ let previous = '';
+ const draw = () => {
+  const w = Math.round(bar.clientWidth), h = Math.round(bar.clientHeight);
+  if (!w || !h || previous === w + ':' + h) return;
+  previous = w + ':' + h;
+  const canvas = document.createElement('canvas'); canvas.width = w; canvas.height = h;
+  const context = canvas.getContext('2d'); if (!context) return;
+  const pixels = context.createImageData(w, h), radius = h / 2;
+  for (let y = 0; y < h; y++) for (let x = 0; x < w; x++) {
+   const cx = Math.max(radius, Math.min(w - radius, x + .5));
+   const dx = x + .5 - cx, dy = y + .5 - radius, length = Math.hypot(dx,dy);
+   const depth = radius - length;
+   const rim = depth > 0 && depth < 7 ? Math.sin(Math.PI * depth / 7) * 95 : 0;
+   const offset = (y * w + x) * 4;
+   pixels.data[offset] = 128 + (length ? dx / length * rim : 0);
+   pixels.data[offset + 1] = 128 + (length ? dy / length * rim : 0);
+   pixels.data[offset + 2] = 128; pixels.data[offset + 3] = 255;
+  }
+  context.putImageData(pixels,0,0); map.setAttribute('href',canvas.toDataURL());
+ };
+ new ResizeObserver(draw).observe(bar); draw();
 })();

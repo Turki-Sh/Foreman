@@ -34,13 +34,13 @@ const ok = (c, m) => out.push((c ? 'PASS ' : 'FAIL ') + m);
   // scrolled header
   await p.evaluate(() => scrollTo(0, 600)); await p.waitForTimeout(200);
   ok(await p.evaluate(() => document.documentElement.hasAttribute('data-scrolled')), 'header tracks scroll position');
-  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar .wrap'), '::before').backdropFilter);
+  const bg = await p.evaluate(() => getComputedStyle(document.querySelector('.bar .wrap')).backdropFilter);
   ok(bg.includes('blur') || await p.evaluate(() => matchMedia('(prefers-reduced-transparency: reduce)').matches), 'header uses blur or the requested reduced-transparency fallback: ' + bg);
   // Comparison works with keyboard and pointer, not just a decorative handle.
   await p.focus('.compare-range'); await p.keyboard.press('Home');
-  ok(await p.locator('.compare-range').inputValue() === '0', 'comparison exposes the complete initial draft');
+  ok(await p.locator('.compare-range').inputValue() === '0', 'comparison exposes the complete finished build');
   await p.keyboard.press('End');
-  ok(await p.locator('.compare-range').inputValue() === '100', 'comparison exposes the complete finished build');
+  ok(await p.locator('.compare-range').inputValue() === '100', 'comparison exposes the complete initial draft');
   const range = await p.locator('.compare-range').boundingBox();
   await p.locator('.compare-range').click({position:{x:range.width * .25,y:range.height / 2}});
   ok(Math.abs(Number(await p.locator('.compare-range').inputValue()) - 25) < 3, 'pointer sets the comparison split');

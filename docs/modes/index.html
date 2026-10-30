@@ -87,7 +87,7 @@
 
 </head>
 <body data-page="modes">
-<svg class="glass-defs" aria-hidden="true" width="0" height="0"><defs><filter id="clear-glass" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feImage href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22200%22%20height%3D%2280%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22x%22%3E%3Cstop%20stop-color%3D%22%23008080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ff8080%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22y%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23800080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2380ff80%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23x%29%22%2F%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23y%29%22%20opacity%3D%22.5%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%2270%22%20rx%3D%2232%22%20fill%3D%22%23808080%22%2F%3E%3C%2Fsvg%3E" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" result="edge"/><feDisplacementMap in="SourceGraphic" in2="edge" scale="12" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
+<svg class="glass-defs" aria-hidden="true" width="0" height="0"><defs><filter id="nav-glass" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feImage id="nav-glass-map" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" result="rim"/><feDisplacementMap in="SourceGraphic" in2="rim" scale="4" xChannelSelector="R" yChannelSelector="G"/></filter><filter id="clear-glass" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB"><feImage href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22200%22%20height%3D%2280%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22x%22%3E%3Cstop%20stop-color%3D%22%23008080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ff8080%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22y%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23800080%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%23808080%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2380ff80%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23x%29%22%2F%3E%3Crect%20width%3D%22200%22%20height%3D%2280%22%20fill%3D%22url%28%23y%29%22%20opacity%3D%22.5%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22190%22%20height%3D%2270%22%20rx%3D%2232%22%20fill%3D%22%23808080%22%2F%3E%3C%2Fsvg%3E" x="0" y="0" width="100%" height="100%" preserveAspectRatio="none" result="edge"/><feDisplacementMap in="SourceGraphic" in2="edge" scale="12" xChannelSelector="R" yChannelSelector="G"/></filter></defs></svg>
 <a class="skip" href="#main">Skip to content</a>
 <header class="bar">
   <div class="wrap">
@@ -132,15 +132,15 @@
   <pre tabindex="0">reader      ?                                                   from: not in the README
 action      download Linkwell                                   from: README, last line
 job         a reader downloads it and points it at their own
-            vault before closing the tab                        from: README, &quot;existing Obsidian vault&quot;
+            vault before closing the tab                        from: README, <span class="syntax-string">&quot;existing Obsidian vault&quot;</span>
 evidence    310 missed links in 2,400 notes, first week         from: README, line 7
-            also: runs offline, 40 MB, MIT                      from: README
+            <span class="syntax-key">also:</span> runs offline, 40 MB, MIT                      from: README
 register    technical                                           from: README tone
 non-goals   signup, pricing, blog, analytics, testimonials,
             carousel                                            from: free, local-first, nothing to collect
 opening     &quot;In my own vault of 2,400 notes it found 310
             links I had missed in the first week&quot;               from: README, line 7
-            (&quot;Notes that link themselves&quot; fits any notes app)
+            (<span class="syntax-string">&quot;Notes that link themselves&quot;</span> fits any notes app)
 support     &quot;Watches a folder of Markdown notes and suggests
             links as you type, on your laptop&quot;                  from: README, line 5
 below       the 310 story, the three bullets, download
@@ -214,13 +214,13 @@ Who is the one reader: Obsidian users with a big vault, people who keep notes in
 <p class="you">A portfolio. I have my CV and screenshots from a robotics project, nothing else yet.</p>
 <div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
 
-Logged: you have a CV and robotics screenshots. Still missing: any written copy, a domain, a logo, and a hero image or media.
+<span class="syntax-key">Logged:</span> you have a CV and robotics screenshots. Still missing: any written copy, a domain, a logo, and a hero image or media.
 
-Who is the one reader you actually care about? Name a role, such as a hiring manager at a robotics lab or a research group lead. &quot;Everyone&quot; and &quot;recruiters&quot; in general don&#x27;t count.</div>
+Who is the one reader you actually care about? Name a role, such as a hiring manager at a robotics lab or a research group lead. <span class="syntax-string">&quot;Everyone&quot;</span> and <span class="syntax-string">&quot;recruiters&quot;</span> in general don&#x27;t count.</div>
 <p class="you">Research group leads hiring PhD students in legged robotics.</p>
 <div class="fm"><b>FOREMAN · 2/8 · DECISIONS</b>
 
-Reader: a research group lead hiring PhD students in legged robotics. That reader scans fast and has a stack of CVs, so the page has to make you the exception inside ninety seconds.
+<span class="syntax-key">Reader:</span> a research group lead hiring PhD students in legged robotics. That reader scans fast and has a stack of CVs, so the page has to make you the exception inside ninety seconds.
 
 After those ninety seconds, what is the one thing you want them to do? Email you, open a paper, watch a demo, download the CV. Pick one.</div>
         </div>
@@ -252,11 +252,11 @@ After those ninety seconds, what is the one thing you want them to do? Email you
 
 <b>✓ LOCKED · 1/8 ORIENT</b> · subject: portfolio · have: CV, robotics project screenshots · missing: written copy, other projects, logo, domain
 
-Who is the one reader you actually care about? Give me a named role, such as &quot;research group lead hiring a PhD student&quot; or &quot;robotics startup CTO&quot;. &quot;Recruiters&quot; and &quot;everyone&quot; don&#x27;t count.</div>
+Who is the one reader you actually care about? Give me a named role, such as <span class="syntax-string">&quot;research group lead hiring a PhD student&quot;</span> or <span class="syntax-string">&quot;robotics startup CTO&quot;</span>. <span class="syntax-string">&quot;Recruiters&quot;</span> and <span class="syntax-string">&quot;everyone&quot;</span> don&#x27;t count.</div>
 <p class="you">Research group leads hiring PhD students in legged robotics.</p>
 <div class="fm"><b>FOREMAN · STRESS TEST · 2/8 · DECISIONS</b>
 
-That reader is specific enough to build for. One push before it locks: a group lead skims dozens of applicants a week and has seen every &quot;passionate about robotics&quot; page.
+That reader is specific enough to build for. One push before it locks: a group lead skims dozens of applicants a week and has seen every <span class="syntax-string">&quot;passionate about robotics&quot;</span> page.
 
 What would make that lead close your page within ten seconds?</div>
         </div>
@@ -274,7 +274,7 @@ What would make that lead close your page within ten seconds?</div>
     <div class="prose">
       <p>Every session opens with a card, and the card carries a <code>MODE</code> line. Say <strong>survey</strong>, <strong>blueprint</strong> or <strong>stress test</strong> at any point and it carries on from the step you are on. Nothing already locked is reopened.</p>
       <p>If your first message says you are short of time, it opens in Survey on its own. In Claude Code you can also start in a mode directly:</p>
-      <div class="copyrow"><pre id="mode" tabindex="0">/foreman:foreman survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
+      <div class="copyrow"><pre id="mode" tabindex="0"><span class="syntax-command">/foreman:foreman</span> survey</pre><button class="copy" type="button" data-for="mode">Copy</button></div>
       <p style="margin-top:1.25rem">Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.</p>
     </div>
   </div>
@@ -284,15 +284,15 @@ What would make that lead close your page within ten seconds?</div>
 <footer class="site-footer">
  <div class="wrap">
   <div class="footer-invite"><div><h2>Start with<br>a better brief.</h2><p>Give your coding agent a clear plan for the site you want to build.</p><a class="glass-action" href="/install/">Get Foreman <span aria-hidden="true">↗</span></a></div>
-   <div class="footer-code" aria-hidden="true"><div class="code-tabs">BRIEF.md <span>Foreman</span></div><pre># The build
+   <div class="footer-code" aria-hidden="true"><div class="code-tabs">BRIEF.md <span>Foreman</span></div><pre><span class="syntax-heading"># The build</span>
 
-reader     One person to design for
-action     One clear next step
-references Sites worth learning from
-system     Type, colour, layout
-scope      What belongs, what does not
+<span class="syntax-key">reader</span>     One person to design for
+<span class="syntax-key">action</span>     One clear next step
+<span class="syntax-key">references</span> Sites worth learning from
+<span class="syntax-key">system</span>     Type, colour, layout
+<span class="syntax-key">scope</span>      What belongs, what does not
 
-Ready to build.</pre></div>
+<span class="syntax-ok">Ready to build.</span></pre></div>
   </div>
   <div class="footer-links"><div class="footer-about"><a class="brand" href="/"><img src="/marks/foreman.svg" width="28" height="28" alt="">Foreman</a><p>A website build playbook<br>for your coding agent.</p><a class="footer-author" href="https://turkialshuaibi.com/">By Turki Alshuaibi ↗</a></div>
    <nav aria-label="Product"><h3>Product</h3><a href="/modes/">Modes</a><a href="/install/">Install</a><a href="/changelog/">Changelog</a></nav>
