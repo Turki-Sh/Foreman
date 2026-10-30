@@ -78,3 +78,14 @@ Palette now shows the named ink, paper and polished metal materials. Its interfa
 ## Revision 8: remove the rejected rhythmic loop
 
 The continuous click/tap pattern is removed. The same revision 7 narration and video timing are retained. A sparse, individually timed score follows visible selections, reference movement, paper and terminal interactions. It uses short unpitched air, paper, slide and tactile sounds, with no metronome, music, bass impacts or automatic scene-end sounds. The five video streams are remuxed unchanged; captions retain their existing timing. Sound quality still requires the owner's review.
+
+## Revision 9: selected library percussion
+
+Turki authorized one library selection after rejecting generated sound design. Selected Stomp - Percussion Stomps Claps by Tunetank, downloaded through Pixabay on 2026-10-30: https://pixabay.com/music/action-stomp-percussion-stomps-claps-349896/ . The item lists the Pixabay Content License (https://pixabay.com/service/license-summary/) and Content ID registration. The personalized license certificate redirects to login and has not been obtained. The downloaded original stays in the private production workspace, not this repository.
+
+All five mixes use the existing recorded arrangement starting at eight seconds, ducked under the narration with a short ending fade. No synthesized effects or generated beat remain. Voice, video and caption timing are unchanged. Track attribution is in each exported MP4 description and the private review credits. This remains a private review, not an approved or published soundtrack.
+
+Libraries reviewed for future selection:
+- Pixabay: ready-made percussion tracks; per-item Content ID status matters. https://pixabay.com/music/search/percussion/
+- Mixkit: free sound effects and complete tracks, with separate licenses by asset type. https://mixkit.co/free-sound-effects/ and https://mixkit.co/license/
+- Freesound: recorded claps, snaps and percussion; licenses vary by item. ecfike's Clap Percussion Loop is explicitly CC0: https://freesound.org/people/ecfike/sounds/202158/ . Original download requires login.

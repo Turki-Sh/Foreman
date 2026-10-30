@@ -2,7 +2,7 @@
   {
     "film": "before-the-code",
     "duration": 25.2,
-    "bytes": 4335335,
+    "bytes": 4469716,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -12,7 +12,7 @@
   {
     "film": "before-you-share",
     "duration": 24.7,
-    "bytes": 3688882,
+    "bytes": 3821983,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -22,7 +22,7 @@
   {
     "film": "colour-that-works",
     "duration": 26.2,
-    "bytes": 4157220,
+    "bytes": 4318136,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -32,7 +32,7 @@
   {
     "film": "find-your-direction",
     "duration": 26.6,
-    "bytes": 4568937,
+    "bytes": 4719861,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
@@ -42,7 +42,7 @@
   {
     "film": "fix-what-feels-wrong",
     "duration": 25.8,
-    "bytes": 3403977,
+    "bytes": 3542997,
     "video": "H.264 1080p60 BT.709 limited range",
     "audio": "aac",
     "captions": 33,
