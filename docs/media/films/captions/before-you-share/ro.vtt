@@ -1,37 +1,33 @@
 WEBVTT
 
 1
-00:00:00.000 --> 00:00:01.000
-[Muzică instrumentală]
-
-2
-00:00:01.000 --> 00:00:04.900
+00:00:00.000 --> 00:00:04.900
 Site-ul este gata. Linkul este pregătit pentru distribuire?
 
-3
+2
 00:00:05.000 --> 00:00:09.900
 Cere-i lui Launch să verifice adresa și HTTPS.
 
-4
+3
 00:00:10.000 --> 00:00:14.900
 Verifică titlul, descrierea și imaginea pe care le vor vedea oamenii.
 
-5
+4
 00:00:15.000 --> 00:00:19.900
 Oferă-i lui Turki Alshuaibi o previzualizare clară a lucrării.
 
-6
+5
 00:00:20.000 --> 00:00:24.900
 Testează o pagină lipsă și linkurile de întoarcere.
 
-7
+6
 00:00:25.000 --> 00:00:29.900
 Verifică sitemapul și dacă roboții de căutare pot accesa pagina.
 
-8
+7
 00:00:30.000 --> 00:00:34.900
 Trimite site-ul pentru indexare. Motoarele de căutare decid când îl includ.
 
-9
+8
 00:00:35.000 --> 00:00:39.900
 Foreman Launch. Gratuit și open source. De Turki Alshuaibi.

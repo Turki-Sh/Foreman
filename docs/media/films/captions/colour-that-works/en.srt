@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumental music]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 A colour you like is only the start.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Ask Palette for a system built from ink and paper.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Give each colour a job: background, text, border, action.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Check the actual text and background combination.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Pale grey on white fails. Dark ink makes the text readable.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Carry the same roles into buttons, cards and the dark theme.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Save the tokens so the next page uses the same system.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Free and open source. By Turki Alshuaibi.

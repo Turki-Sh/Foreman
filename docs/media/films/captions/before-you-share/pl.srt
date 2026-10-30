@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Muzyka instrumentalna]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Strona jest gotowa. Czy link jest gotowy do udostępnienia?
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Poproś Launch o sprawdzenie adresu i HTTPS.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Sprawdź tytuł, opis i obraz, które zobaczą inni.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Pokaż Turki Alshuaibi czytelny podgląd pracy.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Przetestuj brakującą stronę i linki prowadzące z powrotem.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Sprawdź mapę witryny i dostęp robotów do strony.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Zgłoś stronę do indeksowania. Wyszukiwarki zdecydują, kiedy ją uwzględnią.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Launch. Bezpłatny i open source. Autor: Turki Alshuaibi.

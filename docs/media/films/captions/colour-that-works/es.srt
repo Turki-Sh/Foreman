@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Música instrumental]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Un color que te gusta es solo el principio.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Pide a Palette un sistema basado en tinta y papel.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Da una función a cada color: fondo, texto, borde, acción.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Comprueba la combinación real del texto y el fondo.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 El gris pálido sobre blanco falla. La tinta oscura hace legible el texto.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Mantén esas funciones en botones, tarjetas y el tema oscuro.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Guarda los tokens de diseño para usar el mismo sistema en la siguiente página.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Gratis y de código abierto. De Turki Alshuaibi.

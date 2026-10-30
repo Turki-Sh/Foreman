@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentalmusik]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Eine Farbe, die dir gefällt, ist erst der Anfang.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Bitte Palette um ein System aus Tinte und Papier.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Gib jeder Farbe eine Aufgabe: Hintergrund, Text, Rahmen, Aktion.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Prüfe die tatsächliche Kombination aus Text und Hintergrund.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Hellgrau auf Weiß reicht nicht. Dunkle Tinte macht den Text lesbar.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Übertrage dieselben Rollen auf Schaltflächen, Karten und das dunkle Design.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Speichere die Design-Tokens, damit die nächste Seite dasselbe System nutzt.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Kostenlos und Open Source. Von Turki Alshuaibi.

@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Inštrumentálna hudba]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Web je hotový. Je odkaz pripravený na zdieľanie?
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Požiadajte Launch o kontrolu adresy a HTTPS.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Skontrolujte titulok, popis a obrázok, ktoré ľudia uvidia.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Ukážte Turki Alshuaibi prehľadný náhľad práce.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Otestujte neexistujúcu stránku a odkazy vedúce späť.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Skontrolujte mapu webu a prístup vyhľadávacích robotov.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Odošlite web na indexovanie. Vyhľadávače rozhodnú, kedy ho zaradia.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Launch. Zadarmo a s otvoreným kódom. Autor: Turki Alshuaibi.

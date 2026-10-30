@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Musique instrumentale]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Une couleur qui vous plaît n’est qu’un début.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Demandez à Palette un système inspiré de l’encre et du papier.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Donnez un rôle à chaque couleur : fond, texte, bordure, action.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Vérifiez la combinaison réelle du texte et du fond.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Le gris pâle sur blanc échoue. Une encre foncée rend le texte lisible.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Gardez ces rôles pour les boutons, les cartes et le thème sombre.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Enregistrez les variables de design pour les réutiliser sur la page suivante.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Gratuit et open source. Par Turki Alshuaibi.

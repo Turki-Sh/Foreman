@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Hangszeres zene]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Az oldal működik. Valami mégsem stimmel.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Kérje meg a Punch listet az oldal és a mobilnézet ellenőrzésére.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Egy homályos főcím elfedi, mivel foglalkozik valójában Turki Alshuaibi.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Három versengő gomb miatt nem világos a következő lépés.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 A széles elrendezés szétesik egy keskeny képernyőn.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Javítsa a főcímet, válasszon egy műveletet, és javítsa a mobilnézetet.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Ellenőrizze az átdolgozott oldalt. Tartsa meg a problémát megoldó javításokat.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Punch list. Ingyenes és nyílt forráskódú. Alkotó: Turki Alshuaibi.

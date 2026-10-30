@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Inštrumentálna hudba]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Skôr než agent začne písať kód, určite mu smer.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Pomôž mi vytvoriť portfólio.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Pre koho je web? Čo majú návštevníci urobiť?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Nájdite inšpiráciu. Vyberte, čo z nej prevezmete.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Jasná hierarchia. Priestor pre projekty. Jeden ďalší krok.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Spojte typografiu, farby a rozloženie do jedného systému.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Zapíšte rozhodnutia do jedného zadania projektu.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Schváľte zadanie. Potom začnite tvoriť.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Osem krokov od prvej otázky k webu, ktorý ľudia nájdu.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Web Foreman, vytvorený podľa vlastného postupu.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Použite jednotlivé nástroje alebo prejdite celým postupom.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Autor: Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Zadarmo a s otvoreným kódom. foreman.turkialshuaibi.com

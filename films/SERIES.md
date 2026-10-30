@@ -29,3 +29,7 @@ The palette contrast examples use sRGB relative luminance: #aaaaaa on #ffffff is
 Four editable Remotion compositions, deterministic locally synthesized scores, 1080p H.264 High level 4.1, AAC, fast-start MP4. Each film has 33 VTT and SRT caption editions, a watch URL, visible transcript, creator metadata, video sitemap entry and a distinct social composition for every locale. Native controls, no autoplay. Existing film and personal website remain intact.
 
 Rebuild: run `python films/production/series_score.py`, then `python films/render_series.py` from the repository root. `scripts/build_series_og.cjs` builds the social images from extracted final film frames. The site build owns the generated HTML and captions.
+
+## Audio revision, 30 October 2026
+
+Turki requested English narration with no music for religious reasons. This supersedes the instrumental approach above for all five films. Local review copies now contain only sparse, non-pitched interaction effects from `effects.py`. Narration and its timing are pending voice approval; no new voice credits have been spent. Do not publish these interim cuts as completed narrated films. Original score generators remain historical source only and are not used by the current compositions.

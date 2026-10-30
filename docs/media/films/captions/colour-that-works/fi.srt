@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentaalimusiikkia]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Väri, josta pidät, on vasta alku.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Pyydä Palettelta musteeseen ja paperiin perustuva järjestelmä.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Anna jokaiselle värille tehtävä: tausta, teksti, reunus tai toiminto.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Tarkista tekstin ja taustan todellinen yhdistelmä.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Vaaleanharmaa valkoisella ei läpäise tarkistusta. Tumma muste tekee tekstistä luettavaa.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Käytä samoja rooleja painikkeissa, korteissa ja tummassa teemassa.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Tallenna suunnitteluarvot, jotta seuraava sivu käyttää samaa järjestelmää.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Maksuton ja avoin lähdekoodi. Tekijä: Turki Alshuaibi.

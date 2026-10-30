@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Nhạc không lời]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Một màu bạn thích chỉ là khởi đầu.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Nhờ Palette tạo hệ thống từ mực và giấy.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Giao cho mỗi màu một vai trò: nền, chữ, viền, hành động.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Kiểm tra cặp màu chữ và nền được dùng thực tế.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Xám nhạt trên trắng không đạt. Mực đậm giúp chữ dễ đọc.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Dùng cùng vai trò màu cho nút, thẻ và giao diện tối.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Lưu các token thiết kế để trang tiếp theo dùng cùng hệ thống.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Miễn phí, mã nguồn mở. Tác giả: Turki Alshuaibi.

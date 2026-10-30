@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Hangszeres zene]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Adjon irányt az ágensnek, mielőtt az kódot ír.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Segíts elkészíteni a portfóliómat.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Kinek készül? Mit tegyen a látogató?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Keressen referenciákat. Döntse el, mit vesz át belőlük.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Világos hierarchia. Tér a munkáknak. Egy következő lépés.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 A tipográfia, a színek és az elrendezés egy rendszert alkossanak.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Rögzítse a döntéseket egy projektleírásban.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Hagyja jóvá a projektleírást. Utána jöhet a kivitelezés.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Nyolc lépés az első kérdéstől a megtalálható weboldalig.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 A Foreman saját weboldala, a saját útmutatója alapján.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Használja az eszközöket külön, vagy kövesse a teljes folyamatot.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Alkotója: Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Ingyenes és nyílt forráskódú. foreman.turkialshuaibi.com

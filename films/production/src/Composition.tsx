@@ -1044,7 +1044,7 @@ function Closing() {
 export function Film() {
   return (
     <AbsoluteFill style={{ fontFamily: "Inter, sans-serif" }}>
-      <Audio src={staticFile("score.m4a")} />
+      <Audio src={staticFile("before-the-code-effects.m4a")} />
       <Sequence name="Before the code"  durationInFrames={144}>
         <Opening />
       </Sequence>

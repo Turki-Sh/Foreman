@@ -13,11 +13,10 @@ def poster(f):return MEDIA+f['slug']+'-poster-v1.jpg'
 def caption_path(f,code,ext='vtt'):return MEDIA+'captions/'+f['slug']+'/'+code+'.'+ext
 def cues(f,code='en'):return [dict(text=catalog(code)[s],startMs=i*5000,endMs=(i+1)*5000-100) for i,s in enumerate(f['cues'])]
 def files():
- out={};sounds={'en':'[Instrumental music]'}
- for p in (ROOT/'films').glob('music-*.json'):sounds.update(json.loads(p.read_text(encoding='utf-8-sig')))
+ out={}
  for f in FILMS:
   for l in json.loads((ROOT/'site/i18n/locales.json').read_text(encoding='utf8')):
-   code=l['code'];cc=cues(f,code);cc[0]['startMs']=1000;cc=[dict(text=sounds[code],startMs=0,endMs=1000)]+cc
+   code=l['code'];cc=cues(f,code)
    for ext in ['vtt','srt']:
     body='' if ext=='srt' else 'WEBVTT\n\n'
     for i,c in enumerate(cc,1):body+=f'{i}\n{film_assets.stamp(c["startMs"],ext=="srt")} --> {film_assets.stamp(c["endMs"],ext=="srt")}\n{c["text"]}\n\n'

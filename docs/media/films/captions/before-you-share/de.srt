@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentalmusik]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Deine Website ist fertig. Ist der Link bereit zum Teilen?
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Bitte Launch, die Adresse und HTTPS zu prüfen.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Prüfe Titel, Beschreibung und Bild, die angezeigt werden.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Gib Turki Alshuaibi eine klare Vorschau der Arbeit.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Teste eine fehlende Seite und die Links, die zurückführen.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Prüfe die Sitemap und ob Crawler die Seite erreichen können.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Beantrage die Indexierung. Suchmaschinen entscheiden, wann sie die Seite aufnehmen.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Launch. Kostenlos und Open Source. Von Turki Alshuaibi.

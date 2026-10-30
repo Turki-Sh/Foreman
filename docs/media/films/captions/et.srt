@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentaalmuusika]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Andke agendile suund, enne kui ta koodi kirjutab.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Aita mul portfoolio luua.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Kellele see on mõeldud? Mida peaks külastaja tegema?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Leidke eeskujud. Otsustage, mida neist üle võtta.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Selge hierarhia. Ruum töödele. Üks järgmine samm.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Valige kirjad, värvid ja paigutus ühtse süsteemina.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Koondage otsused ühte lähteülesandesse.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Kinnitage lähteülesanne. Seejärel ehitage.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Kaheksa sammu esimesest küsimusest leitava veebileheni.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Foremani enda veebileht, loodud selle juhendi järgi.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Kasutage tööriistu eraldi või järgige tervet juhendit.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Autor: Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Tasuta ja avatud lähtekoodiga. foreman.turkialshuaibi.com

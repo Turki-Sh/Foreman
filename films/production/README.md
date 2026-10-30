@@ -31,3 +31,7 @@ After changing the film, inspect the timeline and representative frames, update 
 For local seeking, use a byte-range-capable server such as `npx http-server@14.1.1 docs -p 3234 -c-1` from the repository root. Python's simple static server does not provide the same seeking behavior. Do not stop other preview servers.
 
 The source and product versions are separate. This site-only film does not change the Foreman playbook version, which remains 3.0.1.
+
+## Audio revision, 30 October 2026
+
+Turki requested English narration with no music for religious reasons. This supersedes the instrumental approach above for all five films. Local review copies now contain only sparse, non-pitched interaction effects from `effects.py`. Narration and its timing are pending voice approval; no new voice credits have been spent. Do not publish these interim cuts as completed narrated films. Original score generators remain historical source only and are not used by the current compositions.

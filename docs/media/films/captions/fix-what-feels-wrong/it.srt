@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Musica strumentale]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 La pagina funziona. Eppure qualcosa non convince.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Chiedi a Punch list di esaminare la pagina, anche su mobile.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Un titolo vago nasconde ciò che Turki Alshuaibi fa davvero.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Tre pulsanti in competizione rendono poco chiaro il passo successivo.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Un layout ampio si rompe su uno schermo stretto.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Correggi il titolo, scegli un’azione e sistema il layout mobile.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Controlla la pagina aggiornata. Mantieni le correzioni che risolvono il problema.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Punch list. Gratuito e open source. Di Turki Alshuaibi.

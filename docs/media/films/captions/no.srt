@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentalmusikk]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Gi agenten en retning før den skriver kode.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Hjelp meg å lage porteføljen min.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Hvem er den for? Hva skal de gjøre?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Finn referanser. Bestem hva du vil ta med videre.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Tydelig hierarki. Plass til arbeidet. Ett neste steg.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Velg skrifttype, farge og oppsett som ett system.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Samle beslutningene i én prosjektbeskrivelse.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Godkjenn planen. Deretter bygger du.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Åtte trinn, fra første spørsmål til en nettside folk kan finne.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Foremans egen nettside, laget med arbeidsplanen.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Bruk verktøyene hver for seg, eller følg hele arbeidsplanen.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Av Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Gratis og åpen kildekode. foreman.turkialshuaibi.com

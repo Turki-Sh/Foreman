@@ -1306,7 +1306,7 @@ function Film({ index }: { index: number }) {
   const d = definitions[index];
   return (
     <AbsoluteFill style={{ fontFamily: "Inter, sans-serif" }}>
-      <Audio src={staticFile(`series-${index}.m4a`)} />
+      <Audio src={staticFile(`${["find-your-direction","fix-what-feels-wrong","colour-that-works","before-you-share"][index]}-effects.m4a`)} />
       <Sequence durationInFrames={840}>
         <MotionScene index={index} />
       </Sequence>

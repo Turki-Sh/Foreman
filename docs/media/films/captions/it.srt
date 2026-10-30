@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Musica strumentale]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Dai una direzione al tuo agente prima che scriva codice.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Aiutami a creare il mio portfolio.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Per chi è? Cosa vuoi che faccia chi lo visita?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Trova riferimenti. Decidi cosa riprendere.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Gerarchia chiara. Spazio ai lavori. Un passo successivo.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Scegli caratteri, colori e layout come un unico sistema.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Riunisci le decisioni in un solo brief.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Approva il brief. Poi realizza il sito.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Otto passaggi, dalla prima domanda a un sito facile da trovare.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Il sito di Foreman, realizzato con la guida.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Usa ogni strumento da solo o segui tutta la guida.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Di Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Gratuito e open source. foreman.turkialshuaibi.com

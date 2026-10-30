@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentālā mūzika]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Krāsa, kas tev patīk, ir tikai sākums.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Lūdz Palette sistēmu, kas balstīta tintē un papīrā.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Piešķir katrai krāsai uzdevumu: fons, teksts, apmale, darbība.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Pārbaudi faktisko teksta un fona kombināciju.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Gaiši pelēks uz balta neder. Tumša tinte padara tekstu salasāmu.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Izmanto tās pašas lomas pogās, kartītēs un tumšajā tēmā.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Saglabā dizaina mainīgos, lai nākamā lapa izmantotu to pašu sistēmu.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Bezmaksas un ar atvērtu pirmkodu. Autors: Turki Alshuaibi.

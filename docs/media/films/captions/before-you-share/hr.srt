@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentalna glazba]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Stranica je spremna. Je li i poveznica spremna za dijeljenje?
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Zatražite od alata Launch provjeru adrese i HTTPS-a.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Provjerite naslov, opis i sliku koje će ljudi vidjeti.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Pokažite Turki Alshuaibi jasan pregled rada.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Testirajte nepostojeću stranicu i poveznice za povratak.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Provjerite kartu stranice i mogu li joj pristupiti roboti za pretraživanje.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Pošaljite na indeksiranje. Tražilice odlučuju kada će je uključiti.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Launch. Besplatno i otvorenog koda. Autor: Turki Alshuaibi.

@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentalna glazba]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Dajte agentu smjer prije nego što počne pisati kod.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Pomozi mi izraditi portfelj.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Kome je namijenjen? Što bi posjetitelji trebali učiniti?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Pronađite reference. Odlučite što ćete preuzeti iz njih.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Jasna hijerarhija. Prostor za radove. Jedan sljedeći korak.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Odaberite tipografiju, boje i raspored kao jedan sustav.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Zabilježite odluke u jednom projektnom zadatku.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Odobrite zadatak. Zatim izradite stranicu.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Osam koraka, od prvog pitanja do stranice koju ljudi mogu pronaći.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Stranica Foreman, izrađena prema vlastitom vodiču.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Koristite alate pojedinačno ili slijedite cijeli vodič.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Autor: Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Besplatno i otvorenog koda. foreman.turkialshuaibi.com

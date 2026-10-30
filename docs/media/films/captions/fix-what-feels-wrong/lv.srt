@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Instrumentālā mūzika]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Lapa darbojas. Tomēr kaut kas nav kārtībā.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Lūdz Punch list pārbaudīt lapu, arī mobilajā skatā.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Neskaidrs virsraksts slēpj, ko Turki Alshuaibi patiesībā dara.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Trīs savstarpēji konkurējošas pogas padara nākamo soli neskaidru.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Plašs izkārtojums izjūk uz šaura ekrāna.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Izlabo virsrakstu, izvēlies vienu darbību un sakārto mobilo izkārtojumu.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Pārbaudi laboto lapu. Saglabā labojumus, kas atrisina problēmu.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Punch list. Bezmaksas un ar atvērtu pirmkodu. Autors: Turki Alshuaibi.

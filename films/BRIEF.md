@@ -40,3 +40,7 @@ These are production references, not assets licensed for reuse.
 Google sources: https://developers.google.com/search/docs/appearance/video and https://developers.google.com/search/docs/appearance/structured-data/video.
 
 No paid media services have been used. The first cut uses an original, locally synthesized instrumental score. No voice is used.
+
+## Audio revision, 30 October 2026
+
+Turki requested English narration with no music for religious reasons. This supersedes the instrumental approach above for all five films. Local review copies now contain only sparse, non-pitched interaction effects from `effects.py`. Narration and its timing are pending voice approval; no new voice credits have been spent. Do not publish these interim cuts as completed narrated films. Original score generators remain historical source only and are not used by the current compositions.

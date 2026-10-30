@@ -20,13 +20,8 @@ def stamp(ms, srt=False):
 
 def files():
     result = {}
-    sound = {'en': '[Instrumental music]'}
-    for path in (ROOT/'films').glob('music-*.json'):
-        sound.update(json.loads(path.read_text(encoding='utf-8-sig')))
     for path in sorted((ROOT / 'films/captions').glob('*.json')):
         cues = captions(path.stem)
-        cues[0] = dict(cues[0], startMs=1000)
-        cues = [dict(text=sound[path.stem], startMs=0, endMs=1000)] + cues
         for extension in ['vtt','srt']:
             srt = extension == 'srt'
             body = '' if srt else 'WEBVTT\n\n'

@@ -1,59 +1,55 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Musik instrumental]
-
-2
-00:00:01,000 --> 00:00:05,800
+00:00:00,000 --> 00:00:05,800
 Tentukan arah sebelum agen Anda mulai menulis kode.
 
-3
+2
 00:00:06,000 --> 00:00:10,000
 Turki Alshuaibi: Bantu saya membuat portofolio.
 
-4
+3
 00:00:10,000 --> 00:00:13,000
 Untuk siapa situs ini? Apa yang perlu mereka lakukan?
 
-5
+4
 00:00:13,000 --> 00:00:18,500
 Cari referensi. Tentukan apa yang akan diterapkan.
 
-6
+5
 00:00:18,500 --> 00:00:22,000
 Hierarki yang jelas. Ruang untuk karya. Satu langkah berikutnya.
 
-7
+6
 00:00:22,000 --> 00:00:27,500
 Pilih huruf, warna, dan tata letak sebagai satu sistem.
 
-8
+7
 00:00:27,500 --> 00:00:32,000
 Satukan keputusan dalam satu brief pembuatan situs.
 
-9
+8
 00:00:32,000 --> 00:00:38,000
 Setujui brief. Lalu mulai membangun.
 
-10
+9
 00:00:38,000 --> 00:00:43,000
 Delapan langkah, dari pertanyaan pertama hingga situs yang mudah ditemukan.
 
-11
+10
 00:00:43,000 --> 00:00:48,000
 Situs Foreman sendiri dibuat dengan panduan ini.
 
-12
+11
 00:00:48,000 --> 00:00:51,000
 Board. Palette. Punch list. Launch.
 
-13
+12
 00:00:51,000 --> 00:00:54,000
 Gunakan alat secara terpisah atau ikuti seluruh panduan.
 
-14
+13
 00:00:54,000 --> 00:00:57,000
 Foreman. Oleh Turki Alshuaibi.
 
-15
+14
 00:00:57,000 --> 00:01:00,000
 Gratis dan sumber terbuka. foreman.turkialshuaibi.com

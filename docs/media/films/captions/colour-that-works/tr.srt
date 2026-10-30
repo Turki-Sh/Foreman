@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Enstrümantal müzik]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Sevdiğiniz bir renk yalnızca başlangıçtır.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Palette’ten mürekkep ve kâğıttan türetilen bir sistem isteyin.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Her renge bir görev verin: arka plan, metin, kenarlık, eylem.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Gerçekte kullanılan metin ve arka plan eşleşmesini kontrol edin.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Beyaz üzerindeki açık gri yetersizdir. Koyu mürekkep metni okunaklı kılar.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Aynı rolleri düğmelere, kartlara ve koyu temaya taşıyın.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Sonraki sayfanın aynı sistemi kullanması için tasarım tokenlarını kaydedin.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Ücretsiz ve açık kaynaklı. Turki Alshuaibi tarafından.

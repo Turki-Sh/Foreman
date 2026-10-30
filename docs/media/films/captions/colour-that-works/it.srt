@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Musica strumentale]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Un colore che ti piace è solo l’inizio.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Chiedi a Palette un sistema basato su inchiostro e carta.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Dai un ruolo a ogni colore: sfondo, testo, bordo, azione.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Controlla la combinazione effettiva di testo e sfondo.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Il grigio chiaro su bianco non va. L’inchiostro scuro rende il testo leggibile.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Mantieni gli stessi ruoli in pulsanti, schede e tema scuro.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Salva i token di design per usare lo stesso sistema nella pagina successiva.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Gratuito e open source. Di Turki Alshuaibi.

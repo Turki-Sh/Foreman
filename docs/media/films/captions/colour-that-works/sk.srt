@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Inštrumentálna hudba]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Farba, ktorá sa vám páči, je len začiatok.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Požiadajte Palette o systém založený na atramente a papieri.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Dajte každej farbe úlohu: pozadie, text, okraj alebo akcia.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Skontrolujte skutočnú kombináciu textu a pozadia.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Svetlosivá na bielej neprejde. Tmavý atrament zaistí čitateľnosť.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Použite rovnaké úlohy pri tlačidlách, kartách a tmavom motíve.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Uložte dizajnové tokeny, aby ďalšia stránka používala rovnaký systém.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Palette. Zadarmo a s otvoreným kódom. Autor: Turki Alshuaibi.

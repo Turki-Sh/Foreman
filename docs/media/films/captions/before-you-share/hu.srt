@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Hangszeres zene]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 A weboldal kész. A link is kész a megosztásra?
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Kérje meg a Launchot a cím és a HTTPS ellenőrzésére.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Ellenőrizze a címet, leírást és képet, amelyet mások látnak majd.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Adjon Turki Alshuaibinak világos előnézetet a munkáról.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Teszteljen egy hiányzó oldalt és az onnan visszavezető linkeket.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Ellenőrizze az oldaltérképet és a keresőrobotok hozzáférését.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Küldje be indexelésre. A keresők döntik el, mikor veszik fel.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Launch. Ingyenes és nyílt forráskódú. Alkotó: Turki Alshuaibi.

@@ -1,35 +1,31 @@
 1
-00:00:00,000 --> 00:00:01,000
-[Nhạc không lời]
-
-2
-00:00:01,000 --> 00:00:04,900
+00:00:00,000 --> 00:00:04,900
 Bạn biết mình thích gì. Tác nhân lập trình cần biết cả lý do.
 
-3
+2
 00:00:05,000 --> 00:00:09,900
 Bắt đầu từ tác phẩm của Turki Alshuaibi và những người cần xem chúng.
 
-4
+3
 00:00:10,000 --> 00:00:14,900
 Nhờ Board tìm mẫu tham khảo cho bản yêu cầu này.
 
-5
+4
 00:00:15,000 --> 00:00:19,900
 Lấy bố cục từ mẫu này, cách dùng chữ từ mẫu khác.
 
-6
+5
 00:00:20,000 --> 00:00:24,900
 Nói rõ nên học hỏi gì và nên bỏ qua gì.
 
-7
+6
 00:00:25,000 --> 00:00:29,900
 Mẫu tham khảo giờ thành quyết định mà tác nhân có thể áp dụng.
 
-8
+7
 00:00:30,000 --> 00:00:34,900
 Chọn hướng đi trước khi xây dựng trang.
 
-9
+8
 00:00:35,000 --> 00:00:39,900
 Foreman Board. Miễn phí, mã nguồn mở. Tác giả: Turki Alshuaibi.
