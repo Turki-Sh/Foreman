@@ -136,3 +136,21 @@ pre .syntax-key,.footer-code .syntax-key{color:var(--syntax-key)}pre .syntax-com
 .chat .fm .syntax-string{color:var(--syntax-string)}
 
 .chat .fm .syntax-key{color:var(--syntax-key)}
+
+/* Lighter identity, slimmer capsule, and restored footer interaction. */
+.bar {height:56px;}
+.bar .brand {font-size:24px;font-weight:500;letter-spacing:-.6px;}
+.bar .foreman-mark>path:first-child {fill:none;stroke:currentColor;stroke-width:2.4;}
+html .bar .foreman-mark .helmet-grooves {stroke:currentColor;stroke-width:2;}
+.bar .btn.small {min-height:38px;padding:11px 19px;}
+.bar .iconbtn {width:36px;height:36px;}
+body[data-page="modes"] table th a {text-decoration:none;}
+body[data-page="modes"] table th a:hover {opacity:.7;}
+.footer-mascot {padding:0;border:0;background:none;cursor:pointer;z-index:2;}
+.footer-mascot img {display:block;height:100%;width:auto;transition:transform .24s ease;}
+.footer-mascot:hover img,.footer-mascot:focus-visible img {transform:translateY(-4px) rotate(-2deg);}
+.footer-mascot:active img {transform:translateY(2px);}
+.footer-stamp {position:absolute;z-index:1;border:2px solid #bbb;color:#ddd;padding:6px 12px;font:600 clamp(14px,2vw,27px)/1.1 var(--body);text-transform:uppercase;letter-spacing:.04em;border-radius:4px;transform:rotate(var(--angle));pointer-events:none;animation:footer-stamp-in .22s ease-out;}
+@keyframes footer-stamp-in {from {opacity:0;transform:scale(1.2) rotate(var(--angle));}to {opacity:1;transform:scale(1) rotate(var(--angle));}}
+@media(max-width:600px) {.bar .brand {font-size:22px;}.bar {height:54px;}}
+@media(prefers-reduced-motion:reduce) {.footer-mascot img{transition:none;}.footer-mascot:hover img,.footer-mascot:focus-visible img{transform:none;}.footer-stamp{animation:none;}}

@@ -35,3 +35,7 @@ Launch now uses a rocket throughout the tool cards, tool page and related links.
 Actual Windows browser fonts: Segoe UI for body and branding, Segoe UI Semilight for the homepage hero, Consolas for code. Barlow Condensed remains declared in the base stylesheet but the redesign overrides its display variable with Segoe UI. Dana declares self-hosted Audiowide for display text and Segoe UI for body text.
 
 Scrollbar reference supplied by the owner: https://codepen.io/oxn-krtv/pen/NWePwEV (transparent track and transparent border with padding-box clipping). The edge-hover reveal is implemented locally without a custom scroll container or external dependency.
+
+## Final interaction refinement
+
+The native rail reveal now persists when the pointer leaves the document for scrollbar chrome. Tested near the rail at the top, middle and bottom of the viewport, then away from the edge. The portrait hover movement and keyboard/click stamp interaction are restored, with reduced-motion handling. Navbar height is 56px desktop and 54px mobile, with lighter 500-weight branding and an outline hard hat. Removed mode-comparison link underlines. Verified no 375px page overflow and both mouse and Enter-key stamping.

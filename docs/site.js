@@ -8,10 +8,15 @@
   // Reveal the native thumb only when the pointer approaches the page edge.
   if (matchMedia('(hover: hover)').matches) {
     addEventListener('pointermove', e => {
-      const nearEdge = e.clientX >= document.documentElement.clientWidth - 16;
+      const nearEdge = e.clientX >= document.documentElement.clientWidth - 32;
       if (root.hasAttribute('data-scroll-edge') !== nearEdge) root.toggleAttribute('data-scroll-edge', nearEdge);
     }, { passive: true });
-    document.addEventListener('pointerleave', () => root.removeAttribute('data-scroll-edge'));
+    document.addEventListener('pointerleave', e => {
+      // Native scrollbar chrome is outside the document, but still inside the window.
+      const overRail = e.clientX >= root.clientWidth - 32 && e.clientX <= innerWidth && e.clientY >= 0 && e.clientY < innerHeight;
+      root.toggleAttribute('data-scroll-edge', overRail);
+    });
+    addEventListener('blur', () => root.removeAttribute('data-scroll-edge'));
   }
 
 
@@ -236,4 +241,24 @@
   context.putImageData(pixels,0,0); map.setAttribute('href',canvas.toDataURL());
  };
  new ResizeObserver(draw).observe(bar); draw();
+  const mascot = document.querySelector('.footer-mascot');
+  if (mascot) {
+    const words = ['Approved', 'Checked', 'As built', 'Signed off', 'Shipped'];
+    let stampIndex = 0;
+    mascot.addEventListener('click', () => {
+      const area = mascot.closest('.footer-bottom');
+      const stamps = area.querySelectorAll('.footer-stamp');
+      if (stamps.length >= 3) stamps[0].remove();
+      const stamp = document.createElement('span');
+      stamp.className = 'footer-stamp';
+      stamp.textContent = words[stampIndex % words.length];
+      stamp.setAttribute('aria-hidden', 'true');
+      stamp.style.left = (8 + (stampIndex % 3) * 20) + '%';
+      stamp.style.top = (12 + (stampIndex % 2) * 19) + '%';
+      stamp.style.setProperty('--angle', (stampIndex % 2 ? 5 : -6) + 'deg');
+      area.appendChild(stamp);
+      mascot.setAttribute('aria-label', 'Stamp again. Last stamp: ' + words[stampIndex % words.length]);
+      stampIndex++;
+    });
+  }
 })();
