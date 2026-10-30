@@ -1,0 +1,100 @@
+[
+  {
+    "text": "กำหนดทิศทางก่อนให้เอเจนต์เริ่มเขียนโค้ด",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: ช่วยฉันสร้างพอร์ตโฟลิโอ",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "เว็บไซต์นี้สำหรับใคร? อยากให้ผู้ชมทำอะไร?",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "หาตัวอย่างอ้างอิง แล้วเลือกสิ่งที่จะนำมาใช้",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ลำดับที่ชัดเจน พื้นที่ให้ผลงาน และขั้นต่อไปเพียงหนึ่งเดียว",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "เลือกตัวอักษร สี และเลย์เอาต์ให้เป็นระบบเดียวกัน",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "รวมการตัดสินใจไว้ในบรีฟสร้างเว็บไซต์ฉบับเดียว",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "อนุมัติบรีฟ แล้วจึงเริ่มสร้าง",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "แปดขั้นตอน จากคำถามแรกถึงเว็บไซต์ที่คนค้นพบได้",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "เว็บไซต์ของ Foreman เองก็สร้างด้วยคู่มือนี้",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ใช้เครื่องมือแยกกัน หรือทำตามคู่มือทั้งหมด",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman โดย Turki Alshuaibi",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "ฟรีและโอเพ่นซอร์ส foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

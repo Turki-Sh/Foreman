@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const {chromium}=require(require.resolve('playwright-core',{paths:[path.join(root,'bench'),__dirname]}));
 const locales=JSON.parse(fs.readFileSync(path.join(root,'site/i18n/locales.json'),'utf8'));
-const routes=['','modes/','board/','punch-list/','palette/','launch/','install/','changelog/','404.html'];
+const routes=['','modes/','board/','punch-list/','palette/','launch/','install/','changelog/','films/','404.html'];
 const out=process.env.LANGUAGE_QA_DIR || path.join(root,'bench/language-qa');
 (async()=>{
  fs.mkdirSync(out,{recursive:true});

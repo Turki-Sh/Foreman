@@ -11,7 +11,7 @@ I18N = ROOT / 'site/i18n'
 VOID = {'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 SKIP = {'script','style','pre','code','svg'}
 SOURCE_CLASSES = {'chat','fm','session-replay','log','footer-code'}
-ROUTES = {'/','/modes/','/board/','/punch-list/','/palette/','/launch/','/install/','/changelog/','/404.html'}
+ROUTES = {'/','/modes/','/board/','/punch-list/','/palette/','/launch/','/install/','/changelog/','/404.html','/films/'}
 ATTRS = {'alt','aria-label','title'}
 
 def normalize(value):
@@ -126,7 +126,16 @@ def localize(files, pages):
                     if node.get('@type')=='WebPage':
                         node.update({'@id':canonical+'#page','url':canonical,'inLanguage':lang['tag'],'name':catalog.get(meta['title'],meta['title']),'description':catalog.get(meta['description'],meta['description'])})
                         node['primaryImageOfPage']={'@type':'ImageObject','url':image,'width':1200,'height':630}
+                        if 'mainEntity' in node and slug=='films':node['mainEntity']={'@id':canonical+'#film'}
                         if 'breadcrumb' in node:node['breadcrumb']={'@id':canonical+'#crumbs'}
+                    if node.get('@type')=='VideoObject':
+                        node['@id']=canonical+'#film'
+                        node['name']=catalog.get(node['name'],node['name'])
+                        node['description']=catalog.get(meta['description'],meta['description'])
+                        node['transcript']=' '.join(c['text'] for c in json.loads((ROOT/'films/captions'/(code+'.json')).read_text(encoding='utf-8-sig')))
+                        for clip in node.get('hasPart',[]):
+                            clip['name']=catalog.get(clip['name'],clip['name'])
+                            clip['url']=canonical+'#t='+str(clip['startOffset'])
                     if node.get('@type')=='WebSite':node['inLanguage']=[l['tag'] for l in locales]
                     if node.get('@type')=='SoftwareApplication':
                         node['inLanguage']='en'
@@ -153,6 +162,9 @@ def localize(files, pages):
             out=out.replace('<script src="/site.js', '<script type="application/json" id="locale-messages">'+json.dumps(messages,ensure_ascii=False).replace('<','\\u003c')+'</script>\n<script src="/site.js')
             if code!='en':
                 out=out.replace('<div class="log"', '<p class="source-language">'+html.escape(catalog['Release notes in English'])+'</p><div class="log"')
+            if slug=='films':
+                out=out.replace('href="/media/films/captions/en.srt"',f'href="/media/films/captions/{code}.srt"')
+                if code!='en':out=out.replace(f'src="/media/films/captions/{code}.vtt"',f'src="/media/films/captions/{code}.vtt" default')
             files[target if code=='en' else code+'/'+target]=out
     files['languages.css']=(ROOT/'site/static/languages.css').read_text(encoding='utf8')
     for flag in (ROOT/'site/static/flags').glob('*.svg'): files['flags/'+flag.name]=flag.read_bytes()

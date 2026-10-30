@@ -1,16 +1,11 @@
 {
-  "html": [
-    "index.html",
-    "404.html",
-    "board/index.html",
-    "changelog/index.html",
-    "install/index.html",
-    "launch/index.html",
-    "modes/index.html",
-    "palette/index.html",
-    "punch-list/index.html"
-  ],
   "Foreman by Turki Alshuaibi · Build playbook for coding agents": [
+    "index.html"
+  ],
+  "Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.": [
+    "index.html"
+  ],
+  "Foreman with a pale architectural model of stepped buildings.": [
     "index.html"
   ],
   "Skip to content": [
@@ -18,6 +13,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -29,6 +25,19 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Main": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -40,6 +49,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -51,6 +61,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -62,6 +73,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -73,6 +85,19 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Switch to the night sheet": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -84,6 +109,19 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Menu": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -95,6 +133,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -106,6 +145,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -125,6 +165,9 @@
     "index.html"
   ],
   "How it works": [
+    "index.html"
+  ],
+  "Works with Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot": [
     "index.html"
   ],
   "Claude Code": [
@@ -206,10 +249,19 @@
   "A portfolio built from the same project notes. First as a quick draft, then with a visual direction, selected references, and a locked brief.": [
     "index.html"
   ],
+  "Initial portfolio draft.": [
+    "index.html"
+  ],
+  "Reference-guided robotics portfolio with a graphite-shell robot and cinematic typography.": [
+    "index.html"
+  ],
   "Initial draft": [
     "index.html"
   ],
   "With Foreman": [
+    "index.html"
+  ],
+  "Compare the initial draft and reference-guided portfolio": [
     "index.html"
   ],
   "Open the finished build": [
@@ -219,6 +271,9 @@
     "index.html"
   ],
   "Eight steps, from deciding what to build to getting it online. Select a step to see an example.": [
+    "index.html"
+  ],
+  "The eight steps": [
     "index.html"
   ],
   "Orient": [
@@ -280,7 +335,8 @@
     "index.html"
   ],
   "Build brief": [
-    "index.html"
+    "index.html",
+    "films/index.html"
   ],
   "Implementation": [
     "index.html"
@@ -305,6 +361,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -322,6 +379,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -339,6 +397,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -356,6 +415,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -375,7 +435,8 @@
     "index.html"
   ],
   "References": [
-    "index.html"
+    "index.html",
+    "films/index.html"
   ],
   "Loaded only when their step arrives, including design standards: colour theory, proportion, type scale, spacing, motion timing.": [
     "index.html"
@@ -385,6 +446,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -410,6 +472,9 @@
     "index.html"
   ],
   "Claude Code, Codex, Cursor, Copilot, Gemini CLI, and other agents that read instructions.": [
+    "index.html"
+  ],
+  "Install method": [
     "index.html"
   ],
   "Any coding agent": [
@@ -438,6 +503,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -449,6 +515,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -460,6 +527,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -471,6 +539,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -482,6 +551,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -493,6 +563,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -504,6 +575,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -515,6 +587,19 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
+    "install/index.html",
+    "launch/index.html",
+    "modes/index.html",
+    "palette/index.html",
+    "punch-list/index.html"
+  ],
+  "Films": [
+    "index.html",
+    "404.html",
+    "board/index.html",
+    "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -526,6 +611,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -537,6 +623,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -548,6 +635,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -559,6 +647,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -570,6 +659,7 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
@@ -581,81 +671,35 @@
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
     "palette/index.html",
     "punch-list/index.html"
-  ],
-  "Main": [
-    "index.html",
-    "404.html",
-    "board/index.html",
-    "changelog/index.html",
-    "install/index.html",
-    "launch/index.html",
-    "modes/index.html",
-    "palette/index.html",
-    "punch-list/index.html"
-  ],
-  "Switch to the night sheet": [
-    "index.html",
-    "404.html",
-    "board/index.html",
-    "changelog/index.html",
-    "install/index.html",
-    "launch/index.html",
-    "modes/index.html",
-    "palette/index.html",
-    "punch-list/index.html"
-  ],
-  "Menu": [
-    "index.html",
-    "404.html",
-    "board/index.html",
-    "changelog/index.html",
-    "install/index.html",
-    "launch/index.html",
-    "modes/index.html",
-    "palette/index.html",
-    "punch-list/index.html"
-  ],
-  "Works with Claude Code, Codex, Cursor, Gemini CLI and GitHub Copilot": [
-    "index.html"
-  ],
-  "Initial portfolio draft.": [
-    "index.html"
-  ],
-  "Reference-guided robotics portfolio with a graphite-shell robot and cinematic typography.": [
-    "index.html"
-  ],
-  "Compare the initial draft and reference-guided portfolio": [
-    "index.html"
-  ],
-  "The eight steps": [
-    "index.html"
-  ],
-  "Install method": [
-    "index.html"
   ],
   "Stamp the sheet": [
     "index.html",
     "404.html",
     "board/index.html",
     "changelog/index.html",
+    "films/index.html",
     "install/index.html",
     "launch/index.html",
     "modes/index.html",
     "palette/index.html",
     "punch-list/index.html"
   ],
-  "Foreman makes your coding agent interview you, lock a visual system, and write the brief before any code, then ship and index the site. Free, markdown only.": [
-    "index.html"
-  ],
-  "Foreman with a pale architectural model of stepped buildings.": [
-    "index.html"
-  ],
   "Page not found · Foreman": [
+    "404.html"
+  ],
+  "This page is off the plans. Head back to Foreman or find the guide you need.": [
+    "404.html"
+  ],
+  "A hard-hat Foreman character surrounded by floating construction pieces.": [
+    "404.html"
+  ],
+  "Error 404": [
     "404.html"
   ],
   "Off the plans.": [
@@ -671,28 +715,25 @@
   "Back to Foreman": [
     "404.html"
   ],
-  "FOREMAN": [
-    "404.html"
-  ],
-  "Pick up from here": [
-    "404.html"
-  ],
-  "Error 404": [
-    "404.html"
-  ],
   "A floating Foreman robot in a white hard hat, shrugging beside scattered building blocks and a rolled plan.": [
+    "404.html"
+  ],
+  "FOREMAN": [
     "404.html"
   ],
   "Find your way": [
     "404.html"
   ],
-  "This page is off the plans. Head back to Foreman or find the guide you need.": [
-    "404.html"
-  ],
-  "A hard-hat Foreman character surrounded by floating construction pieces.": [
+  "Pick up from here": [
     "404.html"
   ],
   "Reference board for your website · Foreman": [
+    "board/index.html"
+  ],
+  "Foreman's board finds real sites for your brief, as a list or a visual board with screenshots, and turns the ones you keep into principles you can build from.": [
+    "board/index.html"
+  ],
+  "A reference collage of architecture, typography and material swatches.": [
     "board/index.html"
   ],
   "Find a direction worth building.": [
@@ -741,6 +782,9 @@
   "HADDAD": [
     "board/index.html"
   ],
+  "Graphite robot framed against black": [
+    "board/index.html"
+  ],
   "02 / Composition": [
     "board/index.html"
   ],
@@ -748,6 +792,9 @@
     "board/index.html"
   ],
   "One large image, a short introduction, and a single next step.": [
+    "board/index.html"
+  ],
+  "Detail of the robot’s graphite shell and woven collar": [
     "board/index.html"
   ],
   "GRAPHITE / TEXTILE / LIGHT": [
@@ -828,19 +875,13 @@
     "palette/index.html",
     "punch-list/index.html"
   ],
-  "Graphite robot framed against black": [
-    "board/index.html"
-  ],
-  "Detail of the robot’s graphite shell and woven collar": [
-    "board/index.html"
-  ],
-  "Foreman's board finds real sites for your brief, as a list or a visual board with screenshots, and turns the ones you keep into principles you can build from.": [
-    "board/index.html"
-  ],
-  "A reference collage of architecture, typography and material swatches.": [
-    "board/index.html"
-  ],
   "Foreman changelog · every release since 1.0": [
+    "changelog/index.html"
+  ],
+  "Every Foreman release since 1.0.0 in August 2026: what changed in the playbook, and the failed build or the feedback that caused it.": [
+    "changelog/index.html"
+  ],
+  "Three release cards connected along a vertical revision timeline.": [
     "changelog/index.html"
   ],
   "/ Changelog": [
@@ -900,13 +941,103 @@
   "1.0.0, 6 August 2026": [
     "changelog/index.html"
   ],
-  "Every Foreman release since 1.0.0 in August 2026: what changed in the playbook, and the failed build or the feedback that caused it.": [
-    "changelog/index.html"
+  "Before the code: a Foreman film by Turki Alshuaibi": [
+    "films/index.html"
   ],
-  "Three release cards connected along a vertical revision timeline.": [
-    "changelog/index.html"
+  "Watch how Foreman turns a website idea into references, a visual system and a build brief. A one-minute film by Turki Alshuaibi, with captions in 33 languages.": [
+    "films/index.html"
+  ],
+  "Frames from Before the code, showing a reference board, a build brief and the Foreman website.": [
+    "films/index.html"
+  ],
+  "Foreman / Films": [
+    "films/index.html"
+  ],
+  "Before the code.": [
+    "films/index.html"
+  ],
+  "By Turki Alshuaibi": [
+    "films/index.html"
+  ],
+  "1 minute · English · CC": [
+    "films/index.html"
+  ],
+  "Before the code, a film by Turki Alshuaibi": [
+    "films/index.html"
+  ],
+  "Download film": [
+    "films/index.html"
+  ],
+  "Download captions": [
+    "films/index.html"
+  ],
+  "A website idea becomes a direction, a visual system and a brief your coding agent can build from.": [
+    "films/index.html"
+  ],
+  "Film chapters": [
+    "films/index.html"
+  ],
+  "The request": [
+    "films/index.html"
+  ],
+  "Visual system": [
+    "films/index.html"
+  ],
+  "The build": [
+    "films/index.html"
+  ],
+  "Read the transcript": [
+    "films/index.html"
+  ],
+  "Before your agent writes code, give it a direction.": [
+    "films/index.html"
+  ],
+  "Turki Alshuaibi: Help me build my portfolio.": [
+    "films/index.html"
+  ],
+  "Who is it for? What should they do?": [
+    "films/index.html"
+  ],
+  "Find references. Decide what to carry forward.": [
+    "films/index.html"
+  ],
+  "A clear hierarchy. Space for the work. One next step.": [
+    "films/index.html"
+  ],
+  "Choose type, colour and layout as one system.": [
+    "films/index.html"
+  ],
+  "Put the decisions in one build brief.": [
+    "films/index.html"
+  ],
+  "Approve the brief. Then build.": [
+    "films/index.html"
+  ],
+  "Eight steps, from the first question to a site people can find.": [
+    "films/index.html"
+  ],
+  "Foreman's own site, built with the playbook.": [
+    "films/index.html"
+  ],
+  "Board. Palette. Punch list. Launch.": [
+    "films/index.html"
+  ],
+  "Use each tool on its own, or follow the whole playbook.": [
+    "films/index.html"
+  ],
+  "Foreman. By Turki Alshuaibi.": [
+    "films/index.html"
+  ],
+  "Free and open source. foreman.turkialshuaibi.com": [
+    "films/index.html"
   ],
   "Install Foreman in Claude Code, Cursor, Codex and more": [
+    "install/index.html"
+  ],
+  "Install Foreman in Claude Code with two commands, or copy one folder of markdown into Cursor, Windsurf, Codex, Copilot, Gemini CLI or the Claude apps.": [
+    "install/index.html"
+  ],
+  "A silver folder containing SKILL.md beside a terminal ready to run Foreman.": [
     "install/index.html"
   ],
   "/ Install": [
@@ -1083,13 +1214,13 @@
   "Nothing. MIT licensed.": [
     "install/index.html"
   ],
-  "Install Foreman in Claude Code with two commands, or copy one folder of markdown into Cursor, Windsurf, Codex, Copilot, Gemini CLI or the Claude apps.": [
-    "install/index.html"
-  ],
-  "A silver folder containing SKILL.md beside a terminal ready to run Foreman.": [
-    "install/index.html"
-  ],
   "Launch a website: domain, DNS, SSL, indexing · Foreman": [
+    "launch/index.html"
+  ],
+  "Foreman's launch tool takes a site built anywhere to live and found: domain, DNS, SSL, the share card, a real 404, the sitemap and Search Console, one step at a time.": [
+    "launch/index.html"
+  ],
+  "A silver rocket crossing an orbital path beside a live status marker.": [
     "launch/index.html"
   ],
   "Check hosting, domain settings, HTTPS, sharing previews, and search setup. Keep existing email records intact.": [
@@ -1102,6 +1233,9 @@
     "launch/index.html"
   ],
   "The route to your site, the preview people share, and the pages around it.": [
+    "launch/index.html"
+  ],
+  "Domain routes to hosting, then serves the site over HTTPS": [
     "launch/index.html"
   ],
   "Domain": [
@@ -1123,6 +1257,9 @@
     "launch/index.html"
   ],
   "When someone shares a link": [
+    "launch/index.html"
+  ],
+  "Foreman homepage share card with its hard-hat mark and architectural scene": [
     "launch/index.html"
   ],
   "foreman.turkialshuaibi.com": [
@@ -1176,19 +1313,13 @@
   "Sitemap, robots.txt, page metadata, and search console submission.": [
     "launch/index.html"
   ],
-  "Domain routes to hosting, then serves the site over HTTPS": [
-    "launch/index.html"
-  ],
-  "Foreman homepage share card with its hard-hat mark and architectural scene": [
-    "launch/index.html"
-  ],
-  "Foreman's launch tool takes a site built anywhere to live and found: domain, DNS, SSL, the share card, a real 404, the sitemap and Search Console, one step at a time.": [
-    "launch/index.html"
-  ],
-  "A silver rocket crossing an orbital path beside a live status marker.": [
-    "launch/index.html"
-  ],
   "Survey, Blueprint, Stress test · Foreman's three modes": [
+    "modes/index.html"
+  ],
+  "Foreman runs at three depths. Survey researches instead of asking, Blueprint is the full interview, Stress test pushes every answer once. Every decision is made in all three.": [
+    "modes/index.html"
+  ],
+  "Three branching paths lead to distinct Survey, Blueprint and Stress test panels.": [
     "modes/index.html"
   ],
   "/ Modes": [
@@ -1311,13 +1442,13 @@
   "Where your agent can ask multiple-choice questions, Foreman uses them for any question it can make a good guess at, with its guess first and room for your own answer. Clicking costs a second. Typing costs a minute.": [
     "modes/index.html"
   ],
-  "Foreman runs at three depths. Survey researches instead of asking, Blueprint is the full interview, Stress test pushes every answer once. Every decision is made in all three.": [
-    "modes/index.html"
-  ],
-  "Three branching paths lead to distinct Survey, Blueprint and Stress test panels.": [
-    "modes/index.html"
-  ],
   "Website colour palette from a real material · Foreman": [
+    "palette/index.html"
+  ],
+  "Foreman's palette tool turns a material you name into three website palettes that differ on ground, accent and contrast, every pair measured, shown on your real content.": [
+    "palette/index.html"
+  ],
+  "A fan of stone, sand, chalk, lilac and graphite colour swatches.": [
     "palette/index.html"
   ],
   "Start with a material, place, or image. Compare three directions on your content, with contrast checked before you choose.": [
@@ -1344,6 +1475,9 @@
   "Keep the chosen colours, contrast requirements, and usage rules in the brief.": [
     "palette/index.html"
   ],
+  "Example monochrome colour system": [
+    "palette/index.html"
+  ],
   "Black": [
     "palette/index.html"
   ],
@@ -1356,16 +1490,13 @@
   "White": [
     "palette/index.html"
   ],
-  "Example monochrome colour system": [
-    "palette/index.html"
-  ],
-  "Foreman's palette tool turns a material you name into three website palettes that differ on ground, accent and contrast, every pair measured, shown on your real content.": [
-    "palette/index.html"
-  ],
-  "A fan of stone, sand, chalk, lilac and graphite colour swatches.": [
-    "palette/index.html"
-  ],
   "Punch list: why your site looks AI-generated · Foreman": [
+    "punch-list/index.html"
+  ],
+  "Point Foreman's punch list at any URL, project or screenshot. It lists every dead button, missing state, metadata gap and generated-page tell, ranked, with a fix for each.": [
+    "punch-list/index.html"
+  ],
+  "A browser mockup annotated with focus-state and image-contrast findings.": [
     "punch-list/index.html"
   ],
   "Audit a page for broken interactions, unfinished details, and generic design choices. Get fixes in priority order.": [
@@ -1375,6 +1506,9 @@
     "punch-list/index.html"
   ],
   "Point to the problem. Show the fix.": [
+    "punch-list/index.html"
+  ],
+  "Example comparison": [
     "punch-list/index.html"
   ],
   "Before review": [
@@ -1483,15 +1617,6 @@
     "punch-list/index.html"
   ],
   "Repetitive layouts, filler copy, and decorative elements without a purpose.": [
-    "punch-list/index.html"
-  ],
-  "Example comparison": [
-    "punch-list/index.html"
-  ],
-  "Point Foreman's punch list at any URL, project or screenshot. It lists every dead button, missing state, metadata gap and generated-page tell, ranked, with a fix for each.": [
-    "punch-list/index.html"
-  ],
-  "A browser mockup annotated with focus-state and image-contrast findings.": [
     "punch-list/index.html"
   ],
   "Languages": [

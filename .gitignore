@@ -11,3 +11,6 @@ bench/package-lock.json
 
 # Python build-module caches
 __pycache__/
+
+# Local video renderer browser cache
+.remotion/

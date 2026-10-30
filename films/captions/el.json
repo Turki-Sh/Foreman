@@ -1,0 +1,100 @@
+[
+  {
+    "text": "Δώστε κατεύθυνση στον πράκτορα πριν γράψει κώδικα.",
+    "startMs": 0,
+    "endMs": 5800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Turki Alshuaibi: Βοήθησέ με να φτιάξω το χαρτοφυλάκιό μου.",
+    "startMs": 6000,
+    "endMs": 10000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Για ποιον είναι; Τι θέλετε να κάνει ο επισκέπτης;",
+    "startMs": 10000,
+    "endMs": 13000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Βρείτε αναφορές. Αποφασίστε τι θα κρατήσετε από αυτές.",
+    "startMs": 13000,
+    "endMs": 18500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Σαφής ιεραρχία. Χώρος για τα έργα. Ένα επόμενο βήμα.",
+    "startMs": 18500,
+    "endMs": 22000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Επιλέξτε γραμματοσειρές, χρώματα και διάταξη ως ενιαίο σύστημα.",
+    "startMs": 22000,
+    "endMs": 27500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Συγκεντρώστε τις αποφάσεις σε ένα έγγραφο προδιαγραφών.",
+    "startMs": 27500,
+    "endMs": 32000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Εγκρίνετε τις προδιαγραφές. Μετά ξεκινά η κατασκευή.",
+    "startMs": 32000,
+    "endMs": 38000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Οκτώ βήματα, από την πρώτη ερώτηση σε έναν ιστότοπο που μπορεί να βρει το κοινό.",
+    "startMs": 38000,
+    "endMs": 43000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Ο ιστότοπος του Foreman, φτιαγμένος με τον δικό του οδηγό.",
+    "startMs": 43000,
+    "endMs": 48000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Board. Palette. Punch list. Launch.",
+    "startMs": 48000,
+    "endMs": 51000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Χρησιμοποιήστε κάθε εργαλείο χωριστά ή ακολουθήστε όλο τον οδηγό.",
+    "startMs": 51000,
+    "endMs": 54000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Foreman. Του Turki Alshuaibi.",
+    "startMs": 54000,
+    "endMs": 57000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": "Δωρεάν και ανοιχτού κώδικα. foreman.turkialshuaibi.com",
+    "startMs": 57000,
+    "endMs": 60000,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

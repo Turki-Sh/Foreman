@@ -1,0 +1,59 @@
+1
+00:00:00,000 --> 00:00:01,000
+[Instrumentalmusik]
+
+2
+00:00:01,000 --> 00:00:05,800
+Ge agenten en riktning innan den skriver kod.
+
+3
+00:00:06,000 --> 00:00:10,000
+Turki Alshuaibi: Hjälp mig att bygga min portfolio.
+
+4
+00:00:10,000 --> 00:00:13,000
+Vem är den till för? Vad ska de göra?
+
+5
+00:00:13,000 --> 00:00:18,500
+Hitta referenser. Bestäm vad du tar med vidare.
+
+6
+00:00:18,500 --> 00:00:22,000
+Tydlig hierarki. Plats för arbetet. Ett nästa steg.
+
+7
+00:00:22,000 --> 00:00:27,500
+Välj typsnitt, färg och layout som ett system.
+
+8
+00:00:27,500 --> 00:00:32,000
+Samla besluten i en projektbeskrivning.
+
+9
+00:00:32,000 --> 00:00:38,000
+Godkänn planen. Bygg sedan.
+
+10
+00:00:38,000 --> 00:00:43,000
+Åtta steg, från första frågan till en webbplats folk kan hitta.
+
+11
+00:00:43,000 --> 00:00:48,000
+Foremans egen webbplats, byggd med arbetsplanen.
+
+12
+00:00:48,000 --> 00:00:51,000
+Board. Palette. Punch list. Launch.
+
+13
+00:00:51,000 --> 00:00:54,000
+Använd verktygen var för sig eller följ hela arbetsplanen.
+
+14
+00:00:54,000 --> 00:00:57,000
+Foreman. Av Turki Alshuaibi.
+
+15
+00:00:57,000 --> 00:01:00,000
+Gratis och öppen källkod. foreman.turkialshuaibi.com

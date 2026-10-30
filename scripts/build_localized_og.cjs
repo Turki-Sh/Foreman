@@ -71,12 +71,13 @@ function art(kind,n){
  const browser=await chromium.launch({channel:'chrome',headless:true});
  const page=await browser.newPage({viewport:{width:1200,height:630},deviceScaleFactor:1});
  const meta=[];
- for(const file of fs.readdirSync(path.join(root,'site/pages')).filter(f=>f.endsWith('.html'))){
+ for(const file of fs.readdirSync(path.join(root,'site/pages')).filter(f=>f.endsWith('.html')&&f!=='films.html')){
   const source=fs.readFileSync(path.join(root,'site/pages',file),'utf8');
   const m=Object.fromEntries(source.match(/<!--\s*([\s\S]*?)-->/)[1].trim().split(/\r?\n/).map(l=>{const at=l.indexOf(': ');return[l.slice(0,at),l.slice(at+2)]}));
   meta.push({key:m.og||file.replace('.html',''),title:m.title,description:m.description});
  }
- const manifest={width:1200,height:630,cards:[]};
+ const existingManifest=JSON.parse(fs.readFileSync(path.join(output,'localized-manifest.json'),'utf8'));
+ const manifest={width:1200,height:630,cards:existingManifest.cards.filter(c=>c.page==='films')};
  for(let n=0;n<locales.length;n++){
   const lang=locales[n];
   if(process.argv[2] && lang.code!==process.argv[2])continue;
